@@ -8,13 +8,17 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: [
-      "images.unsplash.com",
-      "plus.unsplash.com",
-      "images.pexels.com"
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "example.com",
+      },
+      {
+        protocol: "https",
+        hostname: "images.unsplash.com",
+      }
     ],
   },
-  output: 'export', // this makes Next.js export a static site
 };
 
 module.exports = nextConfig;
