@@ -23,3 +23,33 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 } 
+:root {
+  --background: #ffffff;
+  --foreground: #000000;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: var(--background);
+  color: var(--foreground);
+}
+
+/* app/globals.css */
+:root {
+  --bg: #ffffff;
+  --text: #000000;
+  --accent: #f6c84c; /* example gold */
+}
+
+html, body, #__next {
+  height: 100%;
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+a { color: var(--text); }
+img { max-width: 100%; display:block; }
