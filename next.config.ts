@@ -14,7 +14,7 @@ const nextConfig = {
       "images.pexels.com"
     ],
   },
+  output: 'export', // this makes Next.js export a static site
 };
 
 module.exports = nextConfig;
-

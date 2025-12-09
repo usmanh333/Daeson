@@ -6,3 +6,11 @@ export default function sitemap() {
     },
   ];
 }
+export default function sitemap() {
+  return [
+    {
+      url: "https://YOUR_DOMAIN.com/",
+      lastModified: new Date().toISOString(),
+    },
+  ];
+}
