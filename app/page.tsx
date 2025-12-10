@@ -15,7 +15,7 @@ export default function DaesonLanding() {
     {
       title: "Automated Chatbots",
       caption: "Conversational AI that reduces workload",
-      img: "/chatbot.png",
+      img: "/Chatbot.png",
     },
     {
       title: "Data Engineering",
@@ -174,7 +174,7 @@ const PortfolioCard = ({ image, video }: { image: string; video: string }) => {
               <div className="flex gap-4 items-center">
                 <a
                   href="#contact"
-                  className="px-6 py-3 bg-black text-white rounded-lg shadow-lg hover:bg-gray-800"
+                  className="px-6 py-3 bg-white text-black rounded-lg shadow-lg hover:bg-gray-800"
                 >
                   Get in touch
                 </a>
