@@ -85,3 +85,7 @@ export default function RootLayout({
     </html>
   );
 }
+<head>
+  <link rel="icon" href="/favicon.png" />
+  <title>Daeson Tech Agency</title>
+</head>
