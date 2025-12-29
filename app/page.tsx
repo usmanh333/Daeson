@@ -9,7 +9,7 @@ import {
   Layers,
   Workflow,
 } from "lucide-react";
-
+import { motion } from "framer-motion";
 
 
 
@@ -27,6 +27,7 @@ export default function DaesonLanding() {
     { title: "Automated Chatbots", img: "/Chatbot.png" },
     { title: "Data Engineering", img: "/Data.png" },
   ];
+ 
 
   useEffect(() => {
     const t = setInterval(() => {
@@ -392,7 +393,12 @@ export default function DaesonLanding() {
 
 {/* how we satisfy clients */}
 {/* ---------------- HOW WE SATISFY CLIENTS ---------------- */}
-{/* ---------------- HOW WE SATISFY CLIENTS ---------------- */}
+   
+              
+
+
+
+
 <section className="bg-white py-24">
   <div className="max-w-7xl mx-auto px-6">
 
@@ -450,10 +456,9 @@ export default function DaesonLanding() {
   </div>
 </section>
 
-
+          
         
-
-        
+    
 
     
 
@@ -549,10 +554,24 @@ export default function DaesonLanding() {
   ></script>
 </section>
 
+<section className="py-12 text-center">
+  <h3 className="text-xl font-semibold mb-4">
+    Recognized by GoodFirms
+  </h3>
+
+  <p className="max-w-xl mx-auto mb-6 text-gray-600">
+    Daeson Technologies is featured on GoodFirms, a trusted platform
+    for evaluating top IT and software development companies worldwide.
+  </p>
+
+  <a href="https://www.goodfirms.co/" target="_blank" rel="dofollow">
+    <img src="/goodfirm.png" alt="GoodFirms Logo" className="mx-auto w-44" />
+  </a>
+</section>
 
 
 
-      <footer className="py-6 text-center text-gray-500 text-sm">
+      <footer className="py-6 text-center bg-black text-white text-sm">
         © 2025 Daeson Tech Agency — All rights reserved.
       </footer>
 
