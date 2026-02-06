@@ -3,7 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
 import BackToTop from "@/app/components/BackToTop";
-
+import { Inter } from "next/font/google";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -13,6 +13,12 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
+const inter = Inter({
+  subsets: ["latin"],
+  weight: ["400", "500", "600"],
+});
+
+<body className={inter.className}></body>
 
 export const metadata: Metadata = {
   title: "Daeson Tech Agency Tech Solution",
@@ -89,3 +95,7 @@ export default function RootLayout({
   <link rel="icon" href="/favicon.png" />
   <title>Daeson Tech Agency</title>
 </head>
+// app/layout.tsx
+
+
+
