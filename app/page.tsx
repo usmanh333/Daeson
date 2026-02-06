@@ -553,7 +553,7 @@ export default function DaesonLanding() {
         ].map((item, index) => (
           <div key={index} className="flex items-start gap-6">
             {/* Tick marker */}
-            <span className="flex-shrink-0 w-10 h-10 bg-yellow-400 text-white rounded-full flex items-center justify-center text-2xl font-bold shadow-md">
+            <span className="shrink-0 w-10 h-10 bg-yellow-400 text-white rounded-full flex items-center justify-center text-2xl font-bold shadow-md">
               ✔
             </span>
             <div>
@@ -729,7 +729,7 @@ export default function DaesonLanding() {
 
 
 {/* footer */}
-<footer className="bg-white text-black px-6 py-6">
+<footer className="bg-white/70 text-black px-6 py-6">
   <div className="max-w-7xl mx-auto">
 
     {/* MAIN GRID */}
@@ -742,12 +742,12 @@ export default function DaesonLanding() {
 
         <div className="flex items-center gap-6 mt-8 flex-wrap">
           <img src="/google-reviews-logo.png" alt="Google" className="h-15 w-auto opacity-80 hover:opacity-100 transition" />
-          <img src="/trustpilot.png" alt="Trustpilot" className="h-15 w-auto opacity-80 hover:opacity-100 transition" />
+          <img src="/Trustpilot.png" alt="Trustpilot" className="h-15 w-auto opacity-80 hover:opacity-100 transition" />
           <a href="https://clutch.co/profile/daeson-technologies" target="_blank" rel="noopener noreferrer">
             <img src="/clutch.png" alt="Clutch" className="h-15 w-auto opacity-80 hover:opacity-100 transition" />
           </a>
           <a href="https://www.goodfirms.co/company/daeson-technologies" target="_blank" rel="noopener noreferrer">
-            <img src="/goodfirms.png" alt="GoodFirms" className="h-15 w-auto opacity-80 hover:opacity-100 transition" />
+            <img src="/Goodfirms.png" alt="GoodFirms" className="h-15 w-auto opacity-80 hover:opacity-100 transition" />
           </a>
         </div>
       </div>
