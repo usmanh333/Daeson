@@ -184,7 +184,7 @@ export default function DaesonLanding() {
     {/* LEFT HERO CONTENT */}
     <div className="space-y-6 transform transition-transform duration-700 ease-out hover:scale-105">
       <h1 className="text-4xl sm:text-6xl font-extrabold italic leading-tight">
-        Your Vision, <br /> Powered by Technology
+        Your Vision, <br /> Powered by Our Technology
       </h1>
       <p className="mt-4 text-lg sm:text-xl text-gray-200 max-w-lg">
         We design and build AI systems, SaaS platforms, automation pipelines, and scalable web applications
@@ -236,7 +236,7 @@ export default function DaesonLanding() {
       NO Extra Jargon. <span className="text-yellow-400">Just Results.</span>
     </h2>
     <p className="text-gray-700 text-lg sm:text-xl max-w-3xl mx-auto">
-      With <span className="font-semibold">Just Trust</span>.  
+      With <span className="font-semibold">Just Honesty</span>.  
       We build trust through transparency, consistent communication, and delivering measurable results that drive your business forward.
     </p>
 
@@ -749,6 +749,13 @@ export default function DaesonLanding() {
           <a href="https://www.goodfirms.co/company/daeson-technologies" target="_blank" rel="noopener noreferrer">
             <img src="/Goodfirms.png" alt="GoodFirms" className="h-15 w-auto opacity-80 hover:opacity-100 transition" />
           </a>
+          <a href="https://www.designrush.com/agency/daeson-technologies" target="_blank" rel="noopener noreferrer">
+  <img 
+    src="/Designrush.png" 
+    alt="DesignRush" 
+    className="h-15 w-auto opacity-80 hover:opacity-100 transition" 
+  />
+</a>
         </div>
       </div>
 
