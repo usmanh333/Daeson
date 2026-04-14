@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 // import { useState, useEffect } from "react";
 import Image from "next/image";
@@ -12,6 +12,7 @@ import {
   ChatBubbleLeftRightIcon,
 } from "@heroicons/react/24/outline";
 import Link from "next/link";
+import { Shield, CheckCircle2, ArrowRight } from "lucide-react";
 
 
 
@@ -220,53 +221,315 @@ export default function DaesonLanding() {
 </section>
 
  
+{/* ---------------- PRESS & MEDIA ---------------- */}
+<section className="bg-black text-white py-24 px-6 overflow-hidden relative">
+  {/* Background accent */}
+  <div className="absolute top-0 right-0 w-[600px] h-[400px] rounded-full bg-yellow-400/5 blur-3xl pointer-events-none" />
+  <div className="absolute bottom-0 left-0 w-80 h-80 rounded-full bg-yellow-400/5 blur-3xl pointer-events-none" />
 
- 
+  <div className="max-w-7xl mx-auto relative z-10">
+    {/* Heading */}
+    <div className="text-center mb-16">
+      <span className="inline-block text-yellow-400 uppercase tracking-widest text-xs font-bold mb-4 border border-yellow-400/30 px-4 py-1.5 rounded-full">
+        In The Press
+      </span>
+      <h2 className="text-4xl sm:text-5xl font-extrabold leading-tight">
+        Daeson Technologies <br />
+        <span className="text-yellow-400">Featured Across the Gulf</span>
+      </h2>
+      <p className="text-gray-400 mt-4 max-w-2xl mx-auto text-lg">
+        Our work in Islamic finance AI and fintech innovation has been covered by leading media outlets across the Gulf region.
+      </p>
+    </div>
 
+    {/* PR Cards Grid */}
+    <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      {[
+        {
+          outlet: "Islamic Finance News Malaysia",
+          category: "Islamic Finance",
+          headline: "AI-Powered Shariah Compliance Comes to Gulf Banking",
+          date: "March 2026",
+          logo: "🌐",
+          color: "from-blue-900/40 to-blue-900/10",
+          border: "border-blue-500/20",
+          href: "https://www.islamicfinancenews.com/daeson-launches-shariah-ai-co-pilot.html",
+        },
+        {
+          outlet: "International Business Magazine",
+          category: "Fintech",
+          headline: "How Daeson Technologies Is Reforming Islamic Contract Review",
+          date: "February 2026",
+          logo: "📰",
+          color: "from-purple-900/40 to-purple-900/10",
+          border: "border-purple-500/20",
+          href: "https://intlbm.com/2026/03/26/daeson-technologies-introduces-shariah-ai-compliance-co-pilot/",
+        },
+        {
+          outlet: "TradingView",
+          category: "Technology",
+          headline: "Amanah AI: The Compliance Engine for Modern Islamic Banks",
+          date: "January 2026",
+          logo: "🏦",
+          color: "from-emerald-900/40 to-emerald-900/10",
+          border: "border-emerald-500/20",
+          href: "https://www.tradingview.com/news/reuters.com,2026-03-25:newsml_Zaw5f1H9W:0-zawya-daeson-technologies-introduces-shariah-ai-compliance-co-pilot-to-strengthen-governance-in-gcc-islamic-banking/",
+        },
+        {
+          outlet: "The Arabian Post",
+          category: "Innovation",
+          headline: "Pakistani Startup Bridges the Gap in Gulf Shariah Compliance Tech",
+          date: "December 2025",
+          logo: "⭐",
+          color: "from-yellow-900/40 to-yellow-900/10",
+          border: "border-yellow-500/20",
+          href: "https://thearabianpost.com/ai-co-pilot-targets-shariah-compliance-gaps/",
+        },
+      ].map((item, i) => (
+        <a
+          key={item.outlet}
+          href={item.href}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={`group relative flex flex-col justify-between p-6 rounded-2xl bg-gradient-to-b ${item.color} border ${item.border} hover:scale-[1.03] hover:shadow-[0_0_40px_rgba(234,179,8,0.15)] transition-all duration-300`}
+          style={{ animationDelay: `${i * 100}ms` }}
+        >
+          {/* Top */}
+          <div>
+            <div className="flex items-center justify-between mb-4">
+              <span className="text-2xl">{item.logo}</span>
+              <span className="text-xs text-gray-400 border border-white/10 px-2 py-0.5 rounded-full">
+                {item.category}
+              </span>
+            </div>
+            <p className="text-white font-bold text-sm leading-snug mb-3">
+              {item.headline}
+            </p>
+          </div>
 
+          {/* Bottom */}
+          <div className="flex items-center justify-between mt-4 pt-4 border-t border-white/10">
+            <span className="text-yellow-400 font-semibold text-sm">{item.outlet}</span>
+            <span className="text-gray-500 text-xs">{item.date}</span>
+          </div>
 
-      {/* ---------------- AGENCY INTRO ---------------- */}
-     <section className="relative py-20 bg-gray-50 overflow-hidden">
-  {/* Decorative abstract circles */}
-  <div className="absolute -top-10 -left-10 w-40 h-40 rounded-full bg-yellow-400 opacity-20 blur-3xl animate-bounce-slow"></div>
-  <div className="absolute -bottom-20 -right-10 w-72 h-72 rounded-full bg-black opacity-10 blur-2xl animate-pulse-slow"></div>
+          {/* Hover arrow */}
+          <div className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity">
+            <ArrowRight className="w-4 h-4 text-yellow-400" />
+          </div>
+        </a>
+      ))}
+    </div>
 
-  <div className="max-w-5xl mx-auto px-6 text-center relative z-10">
-    <h2 className="text-4xl sm:text-5xl font-extrabold mb-6 leading-tight">
-      NO Extra Jargon. <span className="text-yellow-400">Just Results.</span>
-    </h2>
-    <p className="text-gray-700 text-lg sm:text-xl max-w-3xl mx-auto">
-      With <span className="font-semibold">Just Honesty</span>.  
-      We build trust through transparency, consistent communication, and delivering measurable results that drive your business forward.
-    </p>
-
-    <div className="mt-8">
-      <a
-        href="#contact"
-        className="inline-block px-8 py-4 bg-yellow-400 text-black font-semibold rounded-lg shadow-lg hover:bg-yellow-300 transition-all duration-300 transform hover:scale-105"
+    {/* CTA */}
+    <div className="text-center mt-12">
+      <Link
+        href="/pr"
+        className="inline-flex items-center gap-2 px-8 py-3.5 bg-yellow-400 text-black font-bold rounded-lg hover:bg-yellow-300 transition-all duration-300 hover:scale-105 shadow-lg"
       >
-        Start a Project
-      </a>
+        View All Press Coverage
+        <ArrowRight className="w-4 h-4" />
+      </Link>
     </div>
   </div>
+</section>
+{/* ---------------- AMANAH AI SHOWCASE ---------------- */}
+<section className="relative bg-[#0F3D2E] overflow-hidden">
+  {/* Background glows */}
+  <div className="absolute top-0 right-0 w-[500px] h-[500px] rounded-full bg-[#16A34A]/10 blur-3xl pointer-events-none" />
+  <div className="absolute bottom-0 left-0 w-80 h-80 rounded-full bg-white/5 blur-3xl pointer-events-none" />
 
-  {/* Tailwind Animations */}
-  <div className="hidden">
-    <style>{`
-      @keyframes bounce-slow {
-        0%, 100% { transform: translateY(0); }
-        50% { transform: translateY(-15px); }
-      }
-      .animate-bounce-slow { animation: bounce-slow 6s infinite ease-in-out; }
+  <div className="relative max-w-7xl mx-auto px-6 py-20 md:py-28">
 
-      @keyframes pulse-slow {
-        0%, 100% { transform: scale(1); opacity: 0.2; }
-        50% { transform: scale(1.2); opacity: 0.3; }
-      }
-      .animate-pulse-slow { animation: pulse-slow 8s infinite ease-in-out; }
-    `}</style>
+    {/* Section label */}
+    <div className="flex items-center gap-3 mb-12">
+      <div className="h-px w-10 bg-[#D4AF37]" />
+      <span className="text-[#D4AF37] text-xs font-bold uppercase tracking-widest">
+        Featured Product
+      </span>
+    </div>
+
+    <div className="grid lg:grid-cols-2 gap-16 items-center">
+
+      {/* LEFT — content */}
+      <div className="space-y-8">
+
+        <div className="space-y-5">
+          <div className="inline-flex items-center gap-2 bg-white/10 border border-white/20 text-white text-xs font-semibold px-4 py-1.5 rounded-full">
+            <Shield className="w-3.5 h-3.5 text-[#D4AF37]" />
+            AI-Powered · Islamic Finance · Pakistan
+          </div>
+          <h2 className="text-4xl sm:text-5xl font-extrabold text-white leading-tight tracking-tight">
+            Amanah AI
+            <br />
+            <span className="text-[#D4AF37]">Shariah Compliance</span>
+            <br />
+            <span className="text-white/60 text-3xl sm:text-4xl font-light">Intelligence Platform</span>
+          </h2>
+          <p className="text-white/65 text-base leading-relaxed max-w-lg">
+            An AI-powered compliance platform built for Islamic banks and fintechs
+            in Pakistan — automating contract review, risk scoring, and Shariah
+            scholar workflows from end to end.
+          </p>
+        </div>
+
+        {/* Stats */}
+        <div className="grid grid-cols-3 gap-4">
+          {[
+            { value: "1,200+", label: "Contracts Analyzed" },
+            { value: "94%", label: "Compliance Accuracy" },
+            { value: "< 15 min", label: "Review Time" },
+          ].map((s) => (
+            <div key={s.label} className="bg-white/8 border border-white/12 rounded-xl p-4 text-center">
+              <div className="text-xl font-extrabold text-[#D4AF37]">{s.value}</div>
+              <div className="text-xs text-white/50 mt-1">{s.label}</div>
+            </div>
+          ))}
+        </div>
+
+        {/* Feature list */}
+        <ul className="space-y-3">
+          {[
+            "AI contract clause analysis for Riba & Gharar",
+            "Structured Shariah scholar review workflow",
+            "Full audit trail ready for SBP examinations",
+            "On-premise & private cloud deployment",
+          ].map((f) => (
+            <li key={f} className="flex items-start gap-3 text-sm text-white/75">
+              <CheckCircle2 className="w-4 h-4 text-[#16A34A] mt-0.5 flex-shrink-0" />
+              {f}
+            </li>
+          ))}
+        </ul>
+
+        {/* CTA */}
+        <div className="flex flex-wrap items-center gap-4">
+          <Link
+            href="/amanah-ai"
+            className="inline-flex items-center gap-3 bg-[#D4AF37] text-[#0F3D2E] font-bold px-8 py-4 rounded-xl hover:bg-[#E8C84D] transition-all shadow-lg hover:shadow-xl text-sm group"
+          >
+            Explore the Platform
+            <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+          </Link>
+          <Link
+            href="/amanah-ai#features"
+            className="inline-flex items-center gap-2 border-2 border-white/25 text-white font-semibold px-7 py-4 rounded-xl hover:border-white/50 hover:bg-white/8 transition-all text-sm"
+          >
+            View Features
+          </Link>
+        </div>
+
+      </div>
+
+      {/* RIGHT — compact dashboard card */}
+      <div className="hidden lg:block">
+        <div className="bg-white rounded-2xl shadow-[0_24px_60px_-8px_rgba(0,0,0,0.5)] overflow-hidden">
+
+          {/* Window bar */}
+          <div className="flex items-center justify-between px-5 py-3 bg-[#0a2e20] border-b border-white/10">
+            <div className="flex items-center gap-2">
+              <Shield className="w-4 h-4 text-[#D4AF37]" />
+              <span className="text-white text-sm font-semibold tracking-tight">Amanah — Compliance Dashboard</span>
+            </div>
+            <div className="flex items-center gap-1.5">
+              <div className="w-2 h-2 rounded-full bg-[#16A34A]" />
+              <span className="text-white/60 text-xs">Live</span>
+            </div>
+          </div>
+
+          <div className="p-5 bg-[#F9FAFB] space-y-4">
+
+            {/* Stats row */}
+            <div className="grid grid-cols-3 gap-3">
+              {[
+                { label: "Contracts", value: "1,247", color: "text-[#0F3D2E]", bg: "bg-[#0F3D2E]/8" },
+                { label: "Compliant", value: "94.2%", color: "text-[#16A34A]", bg: "bg-[#16A34A]/10" },
+                { label: "Risk Flags", value: "23", color: "text-amber-600", bg: "bg-amber-50" },
+              ].map((s) => (
+                <div key={s.label} className="bg-white rounded-lg p-3 border border-gray-100 shadow-sm text-center">
+                  <div className={`text-lg font-extrabold ${s.color}`}>{s.value}</div>
+                  <div className="text-xs text-gray-500 mt-0.5">{s.label}</div>
+                </div>
+              ))}
+            </div>
+
+            {/* Contract list */}
+            <div className="bg-white rounded-lg border border-gray-200 overflow-hidden">
+              <div className="px-4 py-2 border-b border-gray-100 bg-gray-50">
+                <span className="text-xs font-bold text-gray-600">Recent Contract Reviews</span>
+              </div>
+              {[
+                { name: "Murabaha — Meezan Bank", status: "Approved", pct: 92 },
+                { name: "Ijara Agreement — HBL Islamic", status: "Review", pct: 71 },
+                { name: "Sukuk Structure — BankIslami", status: "Flagged", pct: 45 },
+              ].map((item) => (
+                <div key={item.name} className="flex items-center justify-between px-4 py-2.5 border-b border-gray-50 last:border-0 hover:bg-gray-50 transition-colors">
+                  <div className="flex items-center gap-2 min-w-0">
+                    <div className="w-1.5 h-1.5 rounded-full bg-[#0F3D2E] flex-shrink-0" />
+                    <span className="text-xs font-medium text-gray-700 truncate">{item.name}</span>
+                  </div>
+                  <div className="flex items-center gap-2 flex-shrink-0 ml-2">
+                    <div className="w-14 h-1.5 bg-gray-100 rounded-full overflow-hidden">
+                      <div
+                        className={`h-full rounded-full ${
+                          item.pct > 80 ? "bg-emerald-500" : item.pct > 60 ? "bg-amber-400" : "bg-red-400"
+                        }`}
+                        style={{ width: `${item.pct}%` }}
+                      />
+                    </div>
+                    <span
+                      className={`text-xs font-semibold px-2 py-0.5 rounded-md ${
+                        item.status === "Approved"
+                          ? "bg-green-50 text-green-700"
+                          : item.status === "Review"
+                          ? "bg-amber-50 text-amber-700"
+                          : "bg-red-50 text-red-700"
+                      }`}
+                    >
+                      {item.status}
+                    </span>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            {/* AI analysis bars */}
+            <div className="bg-white rounded-lg border border-gray-200 p-4 space-y-3">
+              <div className="flex items-center justify-between mb-1">
+                <span className="text-xs font-bold text-gray-600">AI Analysis — Active Contract</span>
+                <span className="text-[10px] bg-[#16A34A]/10 text-[#16A34A] font-semibold px-2 py-0.5 rounded-full">Processing</span>
+              </div>
+              {[
+                { label: "Riba Detection", pct: 96, color: "bg-[#16A34A]" },
+                { label: "Gharar Assessment", pct: 88, color: "bg-[#16A34A]/70" },
+                { label: "Asset Backing", pct: 72, color: "bg-amber-400" },
+              ].map((bar) => (
+                <div key={bar.label} className="space-y-1">
+                  <div className="flex justify-between">
+                    <span className="text-xs text-gray-500">{bar.label}</span>
+                    <span className="text-xs font-bold text-gray-700">{bar.pct}%</span>
+                  </div>
+                  <div className="h-2 bg-gray-100 rounded-full overflow-hidden">
+                    <div
+                      className={`h-full rounded-full ${bar.color} transition-all duration-700`}
+                      style={{ width: `${bar.pct}%` }}
+                    />
+                  </div>
+                </div>
+              ))}
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
+
+
+
+  
+ 
 
 
 
@@ -586,7 +849,7 @@ export default function DaesonLanding() {
       </p>
       <h1 className="text-3xl md:text-5xl font-semibold leading-snug">
         Our Case Studies <br /> 
-        A <span className="text-yellow-400">Successful Projects</span>.
+        A <span className="text-yellow-400">Showcase Projects</span>.
       </h1>
       <p className="mt-2 text-black font-medium">
         We always aim to exceed our clients expectations.
@@ -608,7 +871,7 @@ export default function DaesonLanding() {
       <div className="relative w-full aspect-square overflow-hidden rounded-3xl shadow-2xl transform transition-transform duration-500 group-hover:scale-105">
         <Image
           src="/casestudy.png"
-          alt="Sheriff Police System Interface"
+          alt="Amanah AI Showcase"
           width={600}
           height={600}
           className="object-cover w-full h-full"
@@ -617,7 +880,7 @@ export default function DaesonLanding() {
 
         {/* CENTER CIRCULAR BUTTON OVERLAY */}
         <Link
-          href="/case-studies/sheriff-police-system"
+          href="/amanah-ai"
           className="absolute inset-0 flex items-center justify-center"
         >
           <div className="w-24 h-24 md:w-28 md:h-28 rounded-full bg-white text-black flex items-center justify-center text-lg font-medium tracking-wide hover:bg-yellow-400 hover:text-white transition-all duration-300 cursor-pointer">
@@ -629,14 +892,10 @@ export default function DaesonLanding() {
   </div>
 </section>
 
-  
 
-
-  
-
- 
-  
-      {/* ---------------- CONTACT ---------------- */}
+{/* ---------------- CONTACT ---------------- */}
+      
+    {/* ---------------- CONTACT ---------------- */}
       <section id="contact" className="py-20 bg-black">
   <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-start bg-black p-10 rounded-2xl">
 
@@ -674,8 +933,6 @@ export default function DaesonLanding() {
 
       </div>
     </div>
-
-    {/* RIGHT SIDE — CONTACT FORM */}
     <form
       action="https://api.web3forms.com/submit"
       method="POST"
@@ -759,10 +1016,15 @@ export default function DaesonLanding() {
         </div>
       </div>
 
-      {/* CAREERS */}
+            {/* MEDIA & PRESS */}
       <div>
-        <p className="uppercase text-sm tracking-widest text-black">Careers</p>
-        <p className="text-black mt-6">We’re always looking for talented people to join our team.</p>
+        <p className="uppercase text-sm tracking-widest text-black">Media &amp; Press</p>
+        <ul className="mt-6 space-y-3">
+          <li><a href="https://www.linkedin.com/company/daeson-tech-agency/" target="_blank" rel="noopener noreferrer" className="text-black hover:text-yellow-600 transition-colors text-sm">Islamic Finance AI — LinkedIn</a></li>
+          <li><a href="https://gulfbusiness.com/" target="_blank" rel="noopener noreferrer" className="text-black hover:text-yellow-600 transition-colors text-sm">Gulf Business Coverage</a></li>
+          <li><a href="https://www.arabianbusiness.com/" target="_blank" rel="noopener noreferrer" className="text-black hover:text-yellow-600 transition-colors text-sm">Arabian Business Feature</a></li>
+          <li><Link href="/pr" className="text-yellow-600 font-semibold hover:underline text-sm">→ View All Press Releases</Link></li>
+        </ul>
       </div>
 
       {/* SUPPORT */}
