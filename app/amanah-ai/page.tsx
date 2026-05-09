@@ -1,27 +1,31 @@
-import Navbar from "@/app/components/amanah-ai/Navbar";
-import HeroSection from "@/app/components/amanah-ai/HeroSection";
-import TrustSection from "@/app/components/amanah-ai/TrustSection";
-import ProblemSection from "@/app/components/amanah-ai/ProblemSection";
-import SolutionSection from "@/app/components/amanah-ai/SolutionSection";
-import WorkflowSection from "@/app/components/amanah-ai/WorkflowSection";
-import FeaturesSection from "@/app/components/amanah-ai/FeaturesSection";
-import PakistanFocusSection from "@/app/components/amanah-ai/PakistanFocusSection";
-import CTASection from "@/app/components/amanah-ai/CTASection";
-import Footer from "@/app/components/amanah-ai/Footer";
+import Navbar from '@/components/Navbar';
+import Hero from '@/components/Hero';
+import TrustSection from '@/components/TrustSection';
+import ProblemSection from '@/components/ProblemSection';
+import SolutionSection from '@/components/SolutionSection';
+import HowItWorks from '@/components/HowItWorks';
+import Features from '@/components/Features';
+import UseCases from '@/components/UseCases';
+import FAQ from '@/components/FAQ';
+import CTA from '@/components/CTA';
+import Footer from '@/components/Footer';
 
-export default function AmanahAIPage() {
+export default function Home() {
   return (
-    <main className="min-h-screen bg-[#F9FAFB]">
+    <>
       <Navbar />
-      <HeroSection />
-      <TrustSection />
-      <ProblemSection />
-      <SolutionSection />
-      <WorkflowSection />
-      <FeaturesSection />
-      <PakistanFocusSection />
-      <CTASection />
+      <main>
+        <Hero />
+        <TrustSection />
+        <ProblemSection />
+        <SolutionSection />
+        <HowItWorks />
+        <Features />
+        <UseCases />
+        <FAQ />
+        <CTA />
+      </main>
       <Footer />
-    </main>
+    </>
   );
 }
