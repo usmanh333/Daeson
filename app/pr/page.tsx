@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowLeft, ArrowRight, ExternalLink, Linkedin } from "lucide-react";
+import { ArrowRight, ExternalLink } from "lucide-react";
 
 const pressItems = [
   {
@@ -148,7 +148,7 @@ export default function PRPage() {
                   href={item.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={`group relative flex flex-col bg-gradient-to-br ${item.bgGrad} border ${item.border} rounded-2xl p-8 hover:scale-[1.02] hover:shadow-[0_0_50px_rgba(234,179,8,0.12)] transition-all duration-300`}
+                  className={`group relative flex flex-col bg-linear-to-br ${item.bgGrad} border ${item.border} rounded-2xl p-8 hover:scale-[1.02] hover:shadow-[0_0_50px_rgba(234,179,8,0.12)] transition-all duration-300`}
                 >
                   {/* Top row */}
                   <div className="flex items-start justify-between mb-6">
@@ -232,10 +232,10 @@ export default function PRPage() {
                   Start a Project
                 </Link>
                 <div className="flex items-center gap-4 mt-8 flex-wrap">
-                  <img src="/google-reviews-logo.png" alt="Google" className="h-12 w-auto opacity-80 hover:opacity-100 transition" />
-                  <img src="/Trustpilot.png" alt="Trustpilot" className="h-12 w-auto opacity-80 hover:opacity-100 transition" />
+                  <Image src="/google-reviews-logo.png" alt="Google" width={160} height={48} className="h-12 w-auto opacity-80 hover:opacity-100 transition" />
+                  <Image src="/Trustpilot.png" alt="Trustpilot" width={160} height={48} className="h-12 w-auto opacity-80 hover:opacity-100 transition" />
                   <a href="https://clutch.co/profile/daeson-technologies" target="_blank" rel="noopener noreferrer">
-                    <img src="/clutch.png" alt="Clutch" className="h-12 w-auto opacity-80 hover:opacity-100 transition" />
+                    <Image src="/clutch.png" alt="Clutch" width={150} height={48} className="h-12 w-auto opacity-80 hover:opacity-100 transition" />
                   </a>
                 </div>
               </div>

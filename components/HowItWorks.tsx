@@ -49,7 +49,7 @@ const containerVariants: Variants = {
 
 const itemVariants: Variants = {
   hidden: { opacity: 0, y: 28 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.55, ease: 'easeOut' } },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.55 } },
 };
 
 export default function HowItWorks() {
@@ -110,7 +110,7 @@ export default function HowItWorks() {
 
               {/* Icon */}
               <div
-                className="w-12 h-12 rounded-xl flex items-center justify-center mb-5 flex-shrink-0"
+                className="w-12 h-12 rounded-xl flex items-center justify-center mb-5 shrink-0"
                 style={{ background: step.bg }}
               >
                 <step.icon className="w-5 h-5" style={{ color: step.color }} />

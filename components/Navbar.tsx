@@ -34,7 +34,7 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
-            <a href="#" className="flex items-center gap-2.5 flex-shrink-0">
+            <a href="#" className="flex items-center gap-2.5 shrink-0">
               <div
                 className="w-9 h-9 rounded-xl flex items-center justify-center shadow-md"
                 style={{ background: 'linear-gradient(135deg, #0F3D2E 0%, #1a6b50 100%)' }}

@@ -35,7 +35,7 @@ export default function Footer() {
           <div className="space-y-4 lg:col-span-1">
             <div className="flex items-center gap-2.5">
               <div
-                className="w-9 h-9 rounded-xl flex items-center justify-center flex-shrink-0"
+                className="w-9 h-9 rounded-xl flex items-center justify-center shrink-0"
                 style={{ background: 'linear-gradient(135deg, #0F3D2E 0%, #1a6b50 100%)' }}
               >
                 <Shield className="w-5 h-5 text-white" />

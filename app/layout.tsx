@@ -72,16 +72,9 @@ export default function RootLayout({
             gtag('config', 'AW-17758896306');
           `}
         </Script>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17758896306"></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'AW-17758896306');
-            `,
-          }}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-17758896306"
+          strategy="afterInteractive"
         />
       </head>
       <body className={`relative ${geistSans.variable} ${geistMono.variable}`}>

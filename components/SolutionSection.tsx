@@ -81,7 +81,7 @@ export default function SolutionSection() {
             <ul className="space-y-3 pt-2">
               {benefits.map((b) => (
                 <li key={b} className="flex items-start gap-3">
-                  <CheckCircle2 className="w-5 h-5 flex-shrink-0 mt-0.5" style={{ color: '#0F3D2E' }} />
+                  <CheckCircle2 className="w-5 h-5 shrink-0 mt-0.5" style={{ color: '#0F3D2E' }} />
                   <span className="text-sm text-gray-700">{b}</span>
                 </li>
               ))}
@@ -110,7 +110,7 @@ export default function SolutionSection() {
                 <div key={item.step} className="flex gap-5">
                   <div className="flex flex-col items-center">
                     <div
-                      className="w-10 h-10 rounded-xl flex items-center justify-center text-sm font-bold text-white flex-shrink-0"
+                      className="w-10 h-10 rounded-xl flex items-center justify-center text-sm font-bold text-white shrink-0"
                       style={{ background: item.color }}
                     >
                       {item.step}

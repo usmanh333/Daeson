@@ -53,7 +53,7 @@ const containerVariants: Variants = {
 
 const cardVariants: Variants = {
   hidden: { opacity: 0, y: 28 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.55, ease: 'easeOut' } },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.55 } },
 };
 
 export default function UseCases() {
@@ -102,7 +102,7 @@ export default function UseCases() {
               {/* Icon + title */}
               <div className="flex items-start gap-5 mb-5">
                 <div
-                  className="w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0"
+                  className="w-12 h-12 rounded-xl flex items-center justify-center shrink-0"
                   style={{ background: uc.bg }}
                 >
                   <uc.icon className="w-5 h-5" style={{ color: uc.color }} />

@@ -191,13 +191,37 @@ export default function SheriffCaseStudy() {
               </a>
 
               <div className="flex gap-6 mt-8 flex-wrap">
-                <img src="/google-reviews-logo.png" className="h-10 opacity-80" />
-                <img src="/Trustpilot.png" className="h-10 opacity-80" />
+                <Image
+                  src="/google-reviews-logo.png"
+                  alt="Google Reviews"
+                  width={160}
+                  height={40}
+                  className="h-10 w-auto opacity-80"
+                />
+                <Image
+                  src="/Trustpilot.png"
+                  alt="Trustpilot"
+                  width={160}
+                  height={40}
+                  className="h-10 w-auto opacity-80"
+                />
                 <a href="https://clutch.co/profile/daeson-technologies" target="_blank">
-                  <img src="/clutch.png" className="h-10 opacity-80" />
+                  <Image
+                    src="/clutch.png"
+                    alt="Clutch"
+                    width={140}
+                    height={40}
+                    className="h-10 w-auto opacity-80"
+                  />
                 </a>
                 <a href="https://www.goodfirms.co/company/daeson-technologies" target="_blank">
-                  <img src="/Goodfirms.png" className="h-10 opacity-80" />
+                  <Image
+                    src="/Goodfirms.png"
+                    alt="GoodFirms"
+                    width={140}
+                    height={40}
+                    className="h-10 w-auto opacity-80"
+                  />
                 </a>
               </div>
             </div>

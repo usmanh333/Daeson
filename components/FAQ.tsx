@@ -57,7 +57,7 @@ function FAQAccordion({ item, isOpen, onToggle }: {
         <motion.div
           animate={{ rotate: isOpen ? 180 : 0 }}
           transition={{ duration: 0.25, ease: 'easeInOut' }}
-          className="flex-shrink-0 w-6 h-6 rounded-full flex items-center justify-center mt-0.5"
+          className="shrink-0 w-6 h-6 rounded-full flex items-center justify-center mt-0.5"
           style={{ background: isOpen ? '#e8f4ef' : '#f1f5f9' }}
         >
           <ChevronDown

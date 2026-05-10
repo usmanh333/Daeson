@@ -134,7 +134,7 @@ export default function CTA() {
               style={{ color: 'rgba(255,255,255,0.6)' }}
             >
               <div
-                className="w-1.5 h-1.5 rounded-full flex-shrink-0"
+                className="w-1.5 h-1.5 rounded-full shrink-0"
                 style={{ background: '#D4AF37' }}
               />
               {signal}

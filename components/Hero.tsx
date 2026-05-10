@@ -8,16 +8,16 @@ import {
   FileText,
   CheckCircle2,
 } from 'lucide-react';
-import { motion } from 'framer-motion';
+import { motion, type Variants } from 'framer-motion';
 
-const containerVariants = {
+const containerVariants: Variants = {
   hidden: {},
   visible: { transition: { staggerChildren: 0.12 } },
 };
 
-const itemVariants = {
+const itemVariants: Variants = {
   hidden: { opacity: 0, y: 24 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.55, ease: 'easeOut' } },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.55 } },
 };
 
 function DashboardPreview() {
@@ -93,10 +93,10 @@ function DashboardPreview() {
                   className="flex items-center justify-between px-4 py-2.5 hover:bg-gray-50 transition-colors"
                 >
                   <div className="flex items-center gap-2.5 min-w-0">
-                    <div className="w-1.5 h-1.5 rounded-full flex-shrink-0" style={{ background: '#0F3D2E' }} />
+                    <div className="w-1.5 h-1.5 rounded-full shrink-0" style={{ background: '#0F3D2E' }} />
                     <span className="text-xs font-medium text-gray-800 truncate">{item.name}</span>
                   </div>
-                  <div className="flex items-center gap-2 flex-shrink-0 ml-2">
+                  <div className="flex items-center gap-2 shrink-0 ml-2">
                     <div className="w-16 h-1.5 bg-gray-100 rounded-full overflow-hidden">
                       <div
                         className="h-full rounded-full"
@@ -141,7 +141,7 @@ function DashboardPreview() {
                 { label: '🇬🇧 UK & Europe', pct: 17, color: '#D4AF37' },
               ].map((b) => (
                 <div key={b.label} className="flex items-center gap-2.5">
-                  <span className="text-[10px] text-gray-500 w-24 flex-shrink-0">{b.label}</span>
+                  <span className="text-[10px] text-gray-500 w-24 shrink-0">{b.label}</span>
                   <div className="flex-1 h-1.5 rounded-full bg-gray-100 overflow-hidden">
                     <div
                       className="h-1.5 rounded-full transition-all"
@@ -254,7 +254,7 @@ export default function Hero() {
                 'Full Audit Trail',
               ].map((tag) => (
                 <div key={tag} className="flex items-center gap-1.5 text-sm text-gray-600">
-                  <CheckCircle2 className="w-4 h-4 flex-shrink-0" style={{ color: '#0F3D2E' }} />
+                  <CheckCircle2 className="w-4 h-4 shrink-0" style={{ color: '#0F3D2E' }} />
                   {tag}
                 </div>
               ))}

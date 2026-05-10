@@ -1,7 +1,7 @@
 'use client';
 
 import { Lock, Server, Building2, Globe, ShieldCheck, Users } from 'lucide-react';
-import { motion } from 'framer-motion';
+import { motion, type Variants } from 'framer-motion';
 
 const pillars = [
   {
@@ -48,14 +48,14 @@ const pillars = [
   },
 ];
 
-const containerVariants = {
+const containerVariants: Variants = {
   hidden: {},
   visible: { transition: { staggerChildren: 0.09 } },
 };
 
-const cardVariants = {
+const cardVariants: Variants = {
   hidden: { opacity: 0, y: 24 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: 'easeOut' } },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
 };
 
 export default function TrustSection() {
@@ -102,7 +102,7 @@ export default function TrustSection() {
               className="group flex gap-5 p-7 rounded-2xl border border-gray-100 bg-white transition-all duration-300"
             >
               <div
-                className="w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0"
+                className="w-12 h-12 rounded-xl flex items-center justify-center shrink-0"
                 style={{ background: p.bg }}
               >
                 <p.icon className="w-5 h-5" style={{ color: p.color }} />

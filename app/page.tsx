@@ -291,7 +291,7 @@ export default function DaesonLanding() {
           href={item.href}
           target="_blank"
           rel="noopener noreferrer"
-          className={`group relative flex flex-col justify-between p-6 rounded-2xl bg-gradient-to-b ${item.color} border ${item.border} hover:scale-[1.03] hover:shadow-[0_0_40px_rgba(234,179,8,0.15)] transition-all duration-300`}
+          className={`group relative flex flex-col justify-between p-6 rounded-2xl bg-linear-to-b ${item.color} border ${item.border} hover:scale-[1.03] hover:shadow-[0_0_40px_rgba(234,179,8,0.15)] transition-all duration-300`}
           style={{ animationDelay: `${i * 100}ms` }}
         >
           {/* Top */}
@@ -396,7 +396,7 @@ export default function DaesonLanding() {
             "On-premise & private cloud deployment",
           ].map((f) => (
             <li key={f} className="flex items-start gap-3 text-sm text-white/75">
-              <CheckCircle2 className="w-4 h-4 text-[#16A34A] mt-0.5 flex-shrink-0" />
+              <CheckCircle2 className="w-4 h-4 text-[#16A34A] mt-0.5 shrink-0" />
               {f}
             </li>
           ))}
@@ -465,10 +465,10 @@ export default function DaesonLanding() {
               ].map((item) => (
                 <div key={item.name} className="flex items-center justify-between px-4 py-2.5 border-b border-gray-50 last:border-0 hover:bg-gray-50 transition-colors">
                   <div className="flex items-center gap-2 min-w-0">
-                    <div className="w-1.5 h-1.5 rounded-full bg-[#0F3D2E] flex-shrink-0" />
+                    <div className="w-1.5 h-1.5 rounded-full bg-[#0F3D2E] shrink-0" />
                     <span className="text-xs font-medium text-gray-700 truncate">{item.name}</span>
                   </div>
-                  <div className="flex items-center gap-2 flex-shrink-0 ml-2">
+                  <div className="flex items-center gap-2 shrink-0 ml-2">
                     <div className="w-14 h-1.5 bg-gray-100 rounded-full overflow-hidden">
                       <div
                         className={`h-full rounded-full ${
@@ -645,9 +645,11 @@ export default function DaesonLanding() {
       {/* RIGHT IMAGE */}
       <div className="relative">
         <div className="rounded-3xl overflow-hidden bg-gray-200 shadow-lg transform hover:scale-105 transition-transform duration-500">
-          <img
+          <Image
             src="https://images.unsplash.com/photo-1518770660439-4636190af475"
             alt="Technology and innovation"
+            width={1200}
+            height={900}
             className="w-full h-full object-cover grayscale"
           />
         </div>
@@ -749,9 +751,11 @@ export default function DaesonLanding() {
 
       {/* RIGHT IMAGE */}
       <div className="relative w-full h-[480px] rounded-xl overflow-hidden shadow-lg">
-        <img
+        <Image
           src="https://images.unsplash.com/photo-1555066931-4365d14bab8c"
           alt="Clean workspace"
+          fill
+          sizes="(max-width: 1024px) 100vw, 50vw"
           className="w-full h-full object-cover"
         />
       </div>
@@ -783,9 +787,11 @@ export default function DaesonLanding() {
 
       {/* LEFT IMAGE */}
       <div className="relative w-full h-[520px] rounded-2xl overflow-hidden shadow-lg">
-        <img
+        <Image
           src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d"
           alt="Team collaboration and client success"
+          fill
+          sizes="(max-width: 1024px) 100vw, 50vw"
           className="w-full h-full object-cover"
         />
       </div>
@@ -998,18 +1004,20 @@ export default function DaesonLanding() {
         <a href="/contact" className="inline-block mt-4 text-xl border-b-2 border-yellow-400 pb-1">Start a Project</a>
 
         <div className="flex items-center gap-6 mt-8 flex-wrap">
-          <img src="/google-reviews-logo.png" alt="Google" className="h-15 w-auto opacity-80 hover:opacity-100 transition" />
-          <img src="/Trustpilot.png" alt="Trustpilot" className="h-15 w-auto opacity-80 hover:opacity-100 transition" />
+          <Image src="/google-reviews-logo.png" alt="Google" width={180} height={60} className="h-15 w-auto opacity-80 hover:opacity-100 transition" />
+          <Image src="/Trustpilot.png" alt="Trustpilot" width={180} height={60} className="h-15 w-auto opacity-80 hover:opacity-100 transition" />
           <a href="https://clutch.co/profile/daeson-technologies" target="_blank" rel="noopener noreferrer">
-            <img src="/clutch.png" alt="Clutch" className="h-15 w-auto opacity-80 hover:opacity-100 transition" />
+            <Image src="/clutch.png" alt="Clutch" width={160} height={60} className="h-15 w-auto opacity-80 hover:opacity-100 transition" />
           </a>
           <a href="https://www.goodfirms.co/company/daeson-technologies" target="_blank" rel="noopener noreferrer">
-            <img src="/Goodfirms.png" alt="GoodFirms" className="h-15 w-auto opacity-80 hover:opacity-100 transition" />
+            <Image src="/Goodfirms.png" alt="GoodFirms" width={160} height={60} className="h-15 w-auto opacity-80 hover:opacity-100 transition" />
           </a>
           <a href="https://www.designrush.com/agency/daeson-technologies" target="_blank" rel="noopener noreferrer">
-  <img 
+  <Image 
     src="/Designrush.png" 
     alt="DesignRush" 
+    width={180}
+    height={60}
     className="h-15 w-auto opacity-80 hover:opacity-100 transition" 
   />
 </a>
