@@ -1,164 +1,172 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
-import { ChevronDown } from 'lucide-react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import { Plus, Minus } from "lucide-react";
 
-interface FAQItem {
-  question: string;
-  answer: string;
-}
+const faqs = [
+  {
+    q: "What is operational infrastructure software?",
+    a: `Operational infrastructure software refers to purpose-built digital systems that serve as the backbone of a company's day-to-day operations. Unlike generic SaaS tools, operational infrastructure is designed specifically around your business's workflows, data models, and compliance requirements.
 
-const faqs: FAQItem[] = [
-  {
-    question: 'Is Amanah AI replacing Shariah scholars?',
-    answer:
-      'No — and this is by design. Amanah AI is a decision-support platform, not a replacement for qualified Shariah scholars. The platform automates the preparatory work: parsing contracts, flagging risk areas, and structuring information for review. Scholars retain full authority over compliance decisions, and the platform is specifically built to enhance their workflow — giving them cleaner, faster inputs and a structured interface for annotations and approvals.',
+It typically includes CRM and lead management, data aggregation and reporting, compliance and governance systems, workflow automation, and executive visibility dashboards — all integrated and owned by the business. Daeson Technologies specializes in building this type of owned infrastructure for real estate firms, Islamic financial institutions, and enterprise organizations.`,
   },
   {
-    question: 'Is the platform on-premises or API-based?',
-    answer:
-      'Amanah AI offers flexible deployment options. For institutions with strict data sovereignty requirements (common in GCC and Pakistan regulated banking), we support on-premises deployment. We also offer a secure API-based SaaS model for fintechs and lighter integrations. All deployment modes maintain the same feature set and audit trail integrity.',
-  },
- 
-  {
-    question: 'Is the platform AAOIFI aligned?',
-    answer:
-      'Yes. The compliance rule engine is built with reference to AAOIFI Shariah Standards (SS) — the globally recognised benchmark for Islamic finance compliance. Institutions can also configure the engine to reflect additional rulings from local Shariah supervisory boards, national regulators (SBP, SAMA, UAE Central Bank), or their own institutional fatawa. The platform supports layered, configurable rule sets.',
+    q: "How is custom-built software different from using SaaS platforms?",
+    a: `When a business uses SaaS tools, they are renting access to software built for a general market — not their specific operations. The business has no control over features, data models, integrations, or pricing trajectory.
+
+Ownership means the company controls the codebase, the data, and the product roadmap. There are no recurring licensing fees per seat, no vendor lock-in, and no compromise on features. Custom-built operational infrastructure can be precisely aligned to your workflows and scaled as your business evolves.
+
+For businesses with complex, high-volume, or compliance-driven operations, owned infrastructure typically delivers superior ROI within 12–24 months compared to equivalent SaaS subscriptions.`,
   },
   {
-    question: 'Which markets and regulators does it support?',
-    answer:
-      'Amanah AI currently supports institutions operating in GCC (with specific SAMA and UAE Central Bank awareness), Pakistan (SBP Islamic banking framework), and the UK (FCA-regulated Islamic finance). The platform is designed to be multi-jurisdictional — allowing institutions operating across markets to maintain consistent compliance standards while meeting local regulatory requirements.',
+    q: "Can real estate companies build their own CRM and operations platform?",
+    a: `Yes. Real estate firms with portfolio complexity, investor relationships, or multi-market operations often find that generic CRMs (Salesforce, HubSpot) fall short of their operational needs — they require heavy customization, expensive consultants, and still don't match the actual workflow.
+
+Purpose-built real estate operational infrastructure can include unified lead and deal management, investor dashboards with real-time portfolio visibility, payment and project milestone tracking, document management, and AI-powered reporting — all integrated into a single owned platform.
+
+Daeson Technologies has designed operational infrastructure architecture specifically for real estate and property development firms operating across UAE, GCC, and international markets.`,
   },
- 
   {
-    question: 'How long does it take to onboard?',
-    answer:
-      'For API-based SaaS deployments, initial integration and onboarding typically takes 2–4 weeks, including rule set configuration and user access setup. On-premises deployments are coordinated with your infrastructure team and typically complete in 6–8 weeks. We assign a dedicated implementation specialist for every institutional client.',
+    q: "What is Amanah AI and how does it support Shariah compliance?",
+    a: `Amanah AI is Daeson Technologies' dedicated platform for Islamic financial institutions. It provides AI-assisted support for Shariah compliance workflows — including automated contract parsing, risk scoring, governance documentation, scholar review queues, and regulatory reporting.
+
+Amanah AI is designed to support — not replace — Shariah scholars and compliance teams. It automates the repetitive, time-consuming analysis tasks and creates consistent, auditable documentation, so scholars can focus on substantive governance decisions rather than manual review.
+
+The platform is in strategic development with Shariah advisory collaboration and is designed for Islamic banks, Islamic fintech platforms, investment funds, and payment institutions operating across GCC, Pakistan, and UK markets.`,
+  },
+  {
+    q: "What industries does Daeson Technologies serve?",
+    a: `Daeson Technologies currently serves three primary verticals:
+
+Real Estate & PropTech — portfolio management, AI-powered CRM, investor relations dashboards, payment and project tracking, and lead intelligence systems for property development firms and real estate operators.
+
+Islamic Finance — Shariah compliance infrastructure, contract analysis, governance workflows, and regulatory reporting for Islamic banks, fintech platforms, investment funds, and lending institutions.
+
+Enterprise Operations — workflow automation, operational intelligence dashboards, AI system integration, and cross-department visibility platforms for organizations with complex internal operations.
+
+Our focus is on operationally complex businesses that have outgrown generic software tools and need infrastructure designed for their specific context.`,
+  },
+  {
+    q: "How long does it take to build an operational infrastructure system?",
+    a: `Timeline depends on scope and complexity. A core operational platform — including discovery, architecture, prototyping, development, and deployment — typically requires 3 to 6 months for a first production version.
+
+More complex systems with AI integration, multi-market compliance requirements, and enterprise-scale data infrastructure may take 6 to 12 months.
+
+We work in structured phases with clear milestones and weekly progress reviews. Clients see working interactive prototypes within the first 4–6 weeks of engagement — well before any final development commitment.`,
+  },
+  {
+    q: "Do clients own the source code?",
+    a: `Yes. Every system we build is fully owned by the client. This includes all source code, database schemas, architectural documentation, deployment configurations, and any intellectual property created during the engagement.
+
+Clients receive a complete handover package and can continue development independently or with their own team. We do not retain any proprietary dependencies, license keys, or platform access that would create vendor lock-in.
+
+We believe businesses should own their infrastructure — not lease it.`,
+  },
+  {
+    q: "What makes Daeson Technologies different from a software agency?",
+    a: `Traditional software agencies build what clients ask for. They are execution partners — given specifications, they write code.
+
+Daeson Technologies functions as an operational systems partner. We start with in-depth workflow discovery and operational architecture before development begins. Our approach is closer to a management consulting and technology implementation firm than a development shop.
+
+We focus on a small number of industries and bring deep domain knowledge — particularly in real estate operations and Islamic finance compliance — rather than taking on any project that comes our way. We don't build software; we build systems that change how businesses operate.`,
+  },
+  {
+    q: "How much does enterprise software development cost?",
+    a: `Enterprise operational infrastructure is scoped on a project basis after discovery. Initial platform builds typically range from $25,000 to $150,000 depending on complexity, AI integration requirements, and number of stakeholder roles.
+
+We provide fixed-scope, fixed-price proposals after completing a discovery and architecture phase — so clients understand the full investment commitment before development begins. There are no surprise costs or scope creep billing.
+
+For ongoing optimization, feature development, and operational support, we offer structured retainer engagements following initial deployment.`,
+  },
+  {
+    q: "What is AI for business operations — and how does Daeson use it?",
+    a: `AI for business operations refers to the application of machine learning, natural language processing, and reasoning systems to operational workflows — not just chatbots or content generation.
+
+This includes AI-driven contract analysis, automated reporting and data aggregation, intelligent lead qualification, compliance document generation, anomaly detection in operational data, and executive intelligence dashboards that synthesize multiple data sources.
+
+Daeson Technologies integrates AI capabilities into operational infrastructure in ways that create measurable business value — improving processing speed, decision consistency, and organizational visibility. We do not build AI as a product feature; we build AI as an operational layer that makes the entire system more intelligent.`,
   },
 ];
 
-function FAQAccordion({ item, isOpen, onToggle }: {
-  item: FAQItem;
-  isOpen: boolean;
-  onToggle: () => void;
-}) {
-  return (
-    <div className="border border-gray-100 rounded-2xl overflow-hidden bg-white">
-      <button
-        onClick={onToggle}
-        className="w-full flex items-start justify-between gap-4 px-7 py-5 text-left hover:bg-gray-50 transition-colors duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#0F3D2E] focus-visible:ring-inset"
-        aria-expanded={isOpen}
-      >
-        <span className="font-semibold text-gray-900 text-sm leading-snug pr-2">
-          {item.question}
-        </span>
-        <motion.div
-          animate={{ rotate: isOpen ? 180 : 0 }}
-          transition={{ duration: 0.25, ease: 'easeInOut' }}
-          className="shrink-0 w-6 h-6 rounded-full flex items-center justify-center mt-0.5"
-          style={{ background: isOpen ? '#e8f4ef' : '#f1f5f9' }}
-        >
-          <ChevronDown
-            className="w-3.5 h-3.5"
-            style={{ color: isOpen ? '#0F3D2E' : '#9ca3af' }}
-          />
-        </motion.div>
-      </button>
-
-      <AnimatePresence initial={false}>
-        {isOpen && (
-          <motion.div
-            initial={{ height: 0, opacity: 0 }}
-            animate={{ height: 'auto', opacity: 1 }}
-            exit={{ height: 0, opacity: 0 }}
-            transition={{ duration: 0.3, ease: 'easeInOut' }}
-            className="overflow-hidden"
-          >
-            <div className="px-7 pb-6 pt-1">
-              <div
-                className="w-12 h-px mb-4"
-                style={{ background: '#0F3D2E', opacity: 0.3 }}
-              />
-              <p className="text-sm text-gray-500 leading-relaxed">{item.answer}</p>
-            </div>
-          </motion.div>
-        )}
-      </AnimatePresence>
-    </div>
-  );
-}
-
 export default function FAQ() {
-  const [openIndex, setOpenIndex] = useState<number | null>(0);
-
-  const toggle = (i: number) => setOpenIndex(openIndex === i ? null : i);
+  const [open, setOpen] = useState<number | null>(0);
 
   return (
-    <section className="py-24 bg-gray-50" id="faq">
-      <div className="max-w-4xl mx-auto px-6 lg:px-8">
+    <section className="bg-[#0D1521] py-28 relative overflow-hidden" id="faq">
+      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/[0.07] to-transparent" />
+
+      <div className="max-w-4xl mx-auto px-6">
         {/* Header */}
         <motion.div
-          initial={{ opacity: 0, y: 24 }}
+          initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: '-80px' }}
-          transition={{ duration: 0.55 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, ease: "easeOut" }}
           className="text-center mb-14"
         >
-          <div
-            className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-semibold mb-6 border"
-            style={{ background: '#e8f4ef', borderColor: '#0F3D2E', color: '#0F3D2E' }}
-          >
-            Frequently Asked
+          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-white/[0.08] bg-white/[0.03] text-[#94A3B8] text-[11px] font-semibold tracking-widest uppercase mb-6">
+            FAQ
           </div>
-          <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-            Questions We Get
-            <span style={{ color: '#0F3D2E' }}> Most Often</span>
+          <h2 className="text-[36px] md:text-[44px] font-extrabold tracking-tight text-white mb-4">
+            Frequently Asked Questions
           </h2>
-          <p className="text-lg text-gray-500 leading-relaxed max-w-2xl mx-auto">
-            Answers to the most common questions from compliance teams, Shariah scholars, and
-            institutional leadership evaluating Amanah AI.
+          <p className="text-[15px] text-[#94A3B8] leading-relaxed">
+            Answers to the most common questions about operational infrastructure, custom development, and how we work.
           </p>
         </motion.div>
 
         {/* Accordion */}
-        <motion.div
-          initial={{ opacity: 0, y: 16 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: '-60px' }}
-          transition={{ duration: 0.55, delay: 0.1 }}
-          className="space-y-3"
-        >
+        <div className="space-y-3">
           {faqs.map((faq, i) => (
-            <FAQAccordion
-              key={faq.question}
-              item={faq}
-              isOpen={openIndex === i}
-              onToggle={() => toggle(i)}
-            />
-          ))}
-        </motion.div>
+            <motion.div
+              key={i}
+              initial={{ opacity: 0, y: 12 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-40px" }}
+              transition={{ delay: i * 0.04, duration: 0.4, ease: "easeOut" }}
+              className={`border rounded-xl overflow-hidden transition-all duration-200 ${
+                open === i
+                  ? "border-[#3B6AFF]/30 bg-[#3B6AFF]/[0.04]"
+                  : "border-white/[0.07] bg-[#070B12] hover:border-white/[0.12]"
+              }`}
+            >
+              <button
+                onClick={() => setOpen(open === i ? null : i)}
+                className="w-full flex items-center justify-between gap-4 px-6 py-5 text-left"
+              >
+                <span
+                  className={`text-[14px] font-semibold leading-snug transition-colors ${
+                    open === i ? "text-white" : "text-[#EDF2FF]"
+                  }`}
+                >
+                  {faq.q}
+                </span>
+                <span className={`flex-shrink-0 w-6 h-6 rounded-full border flex items-center justify-center transition-all ${
+                  open === i ? "border-[#3B6AFF] bg-[#3B6AFF]/10 text-[#3B6AFF]" : "border-white/[0.12] text-[#4B5568]"
+                }`}>
+                  {open === i ? <Minus size={12} /> : <Plus size={12} />}
+                </span>
+              </button>
 
-        {/* Bottom CTA */}
-        <motion.div
-          initial={{ opacity: 0, y: 16 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.55, delay: 0.2 }}
-          className="mt-12 text-center"
-        >
-          <p className="text-sm text-gray-500 mb-4">
-            Have a specific question about your institution&apos;s requirements?
-          </p>
-          <a
-            href="#cta"
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-xl text-white font-semibold text-sm transition-all duration-200 hover:shadow-lg hover:-translate-y-0.5"
-            style={{ background: 'linear-gradient(135deg, #0F3D2E 0%, #1a6b50 100%)' }}
-          >
-            Talk to Our Team
-          </a>
-        </motion.div>
+              <AnimatePresence initial={false}>
+                {open === i && (
+                  <motion.div
+                    initial={{ height: 0, opacity: 0 }}
+                    animate={{ height: "auto", opacity: 1 }}
+                    exit={{ height: 0, opacity: 0 }}
+                    transition={{ duration: 0.25, ease: "easeInOut" }}
+                  >
+                    <div className="px-6 pb-5">
+                      <div className="h-px bg-white/[0.06] mb-4" />
+                      <p className="text-[13px] text-[#94A3B8] leading-[1.8] whitespace-pre-line">{faq.a}</p>
+                    </div>
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </motion.div>
+          ))}
+        </div>
       </div>
     </section>
   );

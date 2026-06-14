@@ -203,7 +203,7 @@ export default function CaseStudiesPage() {
           </h3>
 
          <Link
-  href="https://app.clickup.com/90182422977/chat/r/2kzmn4e1-58"
+  href="https://calendly.com/d/dv3h-6kf-yf7/stratergic-discussion"
   target="_blank"
   rel="noopener noreferrer"
   className="border-b border-white pb-1 text-white! hover:text-yellow-400 hover:border-yellow-400 transition"
