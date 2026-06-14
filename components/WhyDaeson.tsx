@@ -19,7 +19,7 @@ const reasons = [
     tag: "Practical",
     title: "Built around operational realities",
     description:
-      "We don't over-engineer. Systems are scoped to solve the specific operational problems you have — not every problem you might have in five years.",
+      "We don't over-engineer. Systems are scoped to solve the specific operational problems you have — not hypothetical ones five years from now.",
   },
   {
     tag: "Founder-Led",
@@ -34,7 +34,7 @@ const reasons = [
       "Infrastructure is built with extension in mind. As your operations scale, your systems scale — without starting over or re-platforming.",
   },
   {
-    tag: "Secure",
+    tag: "Governance-Sensitive",
     title: "Enterprise-grade architecture as standard",
     description:
       "Role-based access, data governance, and audit infrastructure are included by default — not add-ons. Particularly relevant for compliance-driven industries.",
@@ -43,8 +43,11 @@ const reasons = [
 
 export default function WhyDaeson() {
   return (
-    <section className="bg-[#0D1521] py-28 relative overflow-hidden">
-      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent" />
+    <section
+      className="py-28 relative overflow-hidden"
+      style={{ backgroundColor: "var(--bg-surface)" }}
+    >
+      <div className="section-sep absolute top-0 left-0 right-0" />
 
       <div className="max-w-7xl mx-auto px-6">
         {/* Header */}
@@ -55,16 +58,22 @@ export default function WhyDaeson() {
           transition={{ duration: 0.5, ease: "easeOut" }}
           className="mb-14"
         >
-          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-white/[0.07] bg-white/[0.02] text-[#94A3B8] text-[11px] font-semibold tracking-widest uppercase mb-6">
+          <div
+            className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-[11px] font-semibold tracking-widest uppercase mb-6"
+            style={{ border: "1px solid var(--border)", color: "var(--text-muted)", backgroundColor: "var(--bg-elevated)" }}
+          >
             Why Companies Work With Daeson
           </div>
           <div className="grid md:grid-cols-2 gap-8 items-end">
-            <h2 className="text-[34px] md:text-[42px] font-extrabold tracking-tight text-white leading-[1.1]">
+            <h2
+              className="text-[32px] md:text-[40px] font-bold tracking-tight leading-[1.1]"
+              style={{ color: "var(--text-primary)" }}
+            >
               A Systems Partner.
               <br />
-              <span className="text-[#94A3B8] font-semibold">Not a Software Agency.</span>
+              <span style={{ color: "var(--text-secondary)", fontWeight: 600 }}>Not a Software Agency.</span>
             </h2>
-            <p className="text-[15px] text-[#94A3B8] leading-relaxed">
+            <p className="text-[15px] leading-relaxed" style={{ color: "var(--text-secondary)" }}>
               The distinction matters. Agencies build what you ask for. We design what your operations
               actually need — then build it with you.
             </p>
@@ -80,13 +89,30 @@ export default function WhyDaeson() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.07, duration: 0.45, ease: "easeOut" }}
-              className="bg-[#070B12] border border-white/[0.07] rounded-xl p-6 hover:border-white/[0.11] transition-all duration-300"
+              className="rounded-xl p-6 transition-all duration-300"
+              style={{
+                backgroundColor: "var(--bg-card)",
+                border: "1px solid var(--border)",
+              }}
+              onMouseEnter={e => ((e.currentTarget as HTMLElement).style.borderColor = "var(--border-hover)")}
+              onMouseLeave={e => ((e.currentTarget as HTMLElement).style.borderColor = "var(--border)")}
             >
-              <div className="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-md bg-[#3B6AFF]/8 border border-[#3B6AFF]/20 text-[#3B6AFF] text-[10px] font-semibold uppercase tracking-widest mb-4">
+              <div
+                className="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-md text-[10px] font-semibold uppercase tracking-widest mb-4"
+                style={{
+                  backgroundColor: "var(--blue-muted)",
+                  border: "1px solid var(--blue-border)",
+                  color: "var(--blue)",
+                }}
+              >
                 {reason.tag}
               </div>
-              <h3 className="text-[14px] font-bold text-white mb-2.5 leading-snug">{reason.title}</h3>
-              <p className="text-[12px] text-[#94A3B8] leading-relaxed">{reason.description}</p>
+              <h3 className="text-[14px] font-bold mb-2.5 leading-snug" style={{ color: "var(--text-primary)" }}>
+                {reason.title}
+              </h3>
+              <p className="text-[12px] leading-relaxed" style={{ color: "var(--text-secondary)" }}>
+                {reason.description}
+              </p>
             </motion.div>
           ))}
         </div>
@@ -99,12 +125,14 @@ export default function WhyDaeson() {
           transition={{ delay: 0.4, duration: 0.45, ease: "easeOut" }}
           className="mt-10 text-center"
         >
-          <p className="text-[13px] text-[#4B5568] max-w-xl mx-auto leading-relaxed">
+          <p className="text-[13px] max-w-xl mx-auto leading-relaxed" style={{ color: "var(--text-faint)" }}>
             We are selective about the engagements we take on. We work with organizations where
             operational complexity is real — and where infrastructure ownership makes a measurable difference.
           </p>
         </motion.div>
       </div>
+
+      <div className="section-sep absolute bottom-0 left-0 right-0" />
     </section>
   );
 }

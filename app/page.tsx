@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import IndustryProblems from "@/components/IndustryProblems";
 import ConceptDemos from "@/components/ConceptDemos";
+import OperationalScenarios from "@/components/OperationalScenarios";
 import OwnershipModel from "@/components/OwnershipModel";
 import WhatWeBuild from "@/components/WhatWeBuild";
 import HowWeWork from "@/components/HowWeWork";
@@ -24,7 +25,23 @@ const faqSchema = {
       name: "What is operational infrastructure software?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Operational infrastructure software refers to purpose-built digital systems that serve as the backbone of a company's day-to-day operations. Unlike generic SaaS tools, it is designed specifically around your business's workflows, data models, and compliance requirements.",
+        text: "Operational infrastructure software refers to purpose-built digital systems that serve as the backbone of a company's day-to-day operations. Unlike generic SaaS tools, it is designed specifically around your business's workflows, data models, and compliance requirements. It typically includes CRM, reporting, compliance automation, workflow intelligence, and executive dashboards — integrated and owned by the business.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What does workflow-first mean in software development?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Workflow-first means that systems are designed around how a business actually operates before any code is written. Rather than buying software and forcing processes to adapt around it, workflow-first development starts with operational discovery — mapping the real workflows, data flows, and decision points — then builds infrastructure around those realities. Daeson Technologies applies this approach to every engagement.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How is Daeson Technologies different from a SaaS company?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Daeson Technologies builds owned infrastructure — not SaaS subscriptions. Clients own all source code, data, and architecture outright. There are no monthly licenses, no per-seat pricing, and no vendor lock-in. Unlike SaaS tools built for a general market, every system Daeson builds is designed around the specific workflows, data model, and operational requirements of the client's business.",
       },
     },
     {
@@ -32,7 +49,7 @@ const faqSchema = {
       name: "Do clients own the source code?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes. Every system we build is fully owned by the client. This includes all source code, database schemas, documentation, and intellectual property. We believe businesses should own their infrastructure.",
+        text: "Yes. Every system we build is fully owned by the client. This includes all source code, database schemas, documentation, deployment configurations, and intellectual property. We believe businesses should own their infrastructure — not lease it.",
       },
     },
     {
@@ -40,15 +57,31 @@ const faqSchema = {
       name: "What industries does Daeson Technologies serve?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Daeson Technologies serves real estate and PropTech firms, Islamic financial institutions, and enterprise operations teams. We specialize in operationally complex businesses that have outgrown generic software tools.",
+        text: "Daeson Technologies serves real estate and PropTech firms, Islamic financial institutions, and enterprise operations teams. We specialize in operationally complex businesses that have outgrown generic software tools and require infrastructure designed for their specific workflows, compliance requirements, and data models.",
       },
     },
     {
       "@type": "Question",
-      name: "What is Amanah AI?",
+      name: "What is Amanah AI and how does it support Islamic finance?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Amanah AI is Daeson Technologies' platform currently in strategic development for Islamic financial institutions. It provides AI-assisted Shariah compliance workflows including contract analysis, governance documentation, and scholar review queues — developed in collaboration with Shariah advisory expertise.",
+        text: "Amanah AI is Daeson Technologies' AI-powered platform for Islamic financial institutions, currently in strategic development in collaboration with Alhamd Shariah Advisory. It automates Murabaha contract analysis, Shariah governance documentation, scholar review workflows, and compliance audit trails — reducing operational burden so scholars can focus on substantive jurisprudential decisions rather than manual document review.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What is Murabaha workflow digitization?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Murabaha workflow digitization refers to replacing manual, paper-based Murabaha financing processes with structured digital workflows. Murabaha is one of the most common Islamic financing structures — involving a cost-plus-profit arrangement used for home financing, trade finance, and commodity financing. Digitization replaces manual contract review with structured automated parsing, compliance checklist execution, documentation generation, and full audit trail creation.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Why do real estate firms need owned operational infrastructure?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Real estate firms with portfolio complexity, investor relationships, and multi-market operations typically use 5–10 disconnected SaaS tools that were not built for real estate workflows. This creates data fragmentation, manual reporting overhead, and no real-time visibility for leadership. Owned operational infrastructure — a unified CRM, investor dashboards, AI lead intelligence, and payment tracking in one platform — eliminates this fragmentation and is fully aligned to how the firm actually operates.",
       },
     },
     {
@@ -64,7 +97,31 @@ const faqSchema = {
       name: "Does Daeson Technologies operate in the UAE and GCC?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes. Daeson Technologies serves clients across the UAE, GCC, Canada, and international markets. Our systems are designed for multi-market, multi-currency, and regulatory-aware operations.",
+        text: "Yes. Daeson Technologies serves clients and partners across the UAE, GCC, Saudi Arabia, Canada, Pakistan, and UK. Our systems are designed for multi-market, multi-currency, and regulatory-aware operations — including GCC real estate markets and global Islamic finance institutions.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How long does it take to build an operational system?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "A core operational platform — including discovery, architecture, prototyping, development, and deployment — typically requires 3 to 6 months for a first production version. More complex systems with AI integration and multi-market compliance may require 6 to 12 months. We begin with the highest operational priority and evolve systems gradually, so clients see working prototypes within the first 4–6 weeks.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How does AI improve business operations?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "AI improves business operations by automating repetitive analytical tasks, surfacing intelligence from operational data, and giving leadership real-time visibility across the business. In real estate, this means AI-powered lead qualification, portfolio analytics, and automated investor reporting. In Islamic finance, it means contract analysis, compliance risk flagging, and governance documentation. Daeson integrates AI as an operational layer — not a feature — so it creates measurable improvement in workflow efficiency and decision quality.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What is governance-sensitive AI?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Governance-sensitive AI refers to AI systems designed with explicit attention to audit trails, explainability, human oversight, and regulatory compliance — required by industries where decisions carry legal, financial, or religious accountability. Islamic finance and real estate are prime examples: AI recommendations must be documented, auditable, and subject to human review. Daeson builds AI infrastructure with governance requirements built in from the architecture level, not added as an afterthought.",
       },
     },
   ],
@@ -79,9 +136,9 @@ const serviceSchema = {
     name: "Daeson Technologies",
     url: "https://daesontechagency.online",
   },
-  areaServed: ["UAE", "GCC", "Canada", "United States", "Pakistan", "UK"],
+  areaServed: ["UAE", "GCC", "Saudi Arabia", "Canada", "United States", "Pakistan", "UK"],
   description:
-    "Custom-built operational infrastructure for real estate firms, Islamic financial institutions, and enterprise organizations. Clients own all systems.",
+    "Custom-built operational infrastructure for real estate firms, Islamic financial institutions, and enterprise organizations. Clients own all systems. Founder-led. Workflow-first.",
   offers: [
     {
       "@type": "Offer",
@@ -101,6 +158,19 @@ const serviceSchema = {
   ],
 };
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Home",
+      item: "https://daesontechagency.online",
+    },
+  ],
+};
+
 export default function Home() {
   return (
     <>
@@ -112,48 +182,55 @@ export default function Home() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
       />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       <Navbar />
       <main>
-        {/* 1. Hero — establish positioning */}
+        {/* 1. Hero — positioning and CTA */}
         <Hero />
 
-        {/* 2. Industry Problems — establish pain points */}
+        {/* 2. Industry Problems — pain points */}
         <IndustryProblems />
 
         {/* 3. Concept Demonstrations — proof of capability */}
         <ConceptDemos />
 
-        {/* 4. Ownership Model — differentiation */}
+        {/* 4. Illustrative Scenarios — outcome framing (no fake clients) */}
+        <OperationalScenarios />
+
+        {/* 5. Ownership Model — differentiation */}
         <OwnershipModel />
 
-        {/* 5. What We Build — service pillars */}
+        {/* 6. What We Build — service pillars */}
         <WhatWeBuild />
 
-        {/* 6. How We Work — methodology */}
+        {/* 7. How We Build — execution trust system */}
         <HowWeWork />
 
-        {/* 7. Why Daeson — trust pillars */}
+        {/* 8. Why Daeson — trust pillars */}
         <WhyDaeson />
 
-        {/* 8. Strategic Collaboration — Alhamd (subtle) */}
+        {/* 9. Strategic Collaboration — Alhamd partnership */}
         <StrategicCollaboration />
 
-        {/* 9. Founder Perspective */}
+        {/* 10. Founder Perspective */}
         <FounderMessage />
 
-        {/* 10. Leadership Team */}
+        {/* 11. Leadership Team */}
         <LeadershipSection />
 
-        {/* 11. Executive Materials */}
+        {/* 12. Executive Materials */}
         <ExecutiveMaterials />
 
-        {/* 12. Insights & Research */}
+        {/* 13. Insights & Research */}
         <InsightsPreview />
 
-        {/* 13. FAQ — GEO/LLM SEO */}
+        {/* 14. FAQ — GEO/LLM SEO */}
         <FAQ />
 
-        {/* 14. Final conversion CTA */}
+        {/* 15. Final conversion CTA */}
         <CTA />
       </main>
       <Footer />

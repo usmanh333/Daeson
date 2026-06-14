@@ -12,6 +12,12 @@ const faqs = [
 It typically includes CRM and lead management, data aggregation and reporting, compliance and governance systems, workflow automation, and executive visibility dashboards — all integrated and owned by the business. Daeson Technologies specializes in building this type of owned infrastructure for real estate firms, Islamic financial institutions, and enterprise organizations.`,
   },
   {
+    q: "What does 'workflow-first' mean in software development?",
+    a: `Workflow-first means systems are designed around how a business actually operates before any code is written. Rather than buying software and adapting processes around it, workflow-first development begins with operational discovery — mapping real workflows, data flows, and decision points — then builds infrastructure around those realities.
+
+Most software projects fail not because of poor engineering, but because the system was built on a misunderstood workflow. Daeson Technologies applies a workflow-first methodology to every engagement: discovery and operational architecture come before development, and prototypes are validated against real business scenarios before full build.`,
+  },
+  {
     q: "How is custom-built software different from using SaaS platforms?",
     a: `When a business uses SaaS tools, they are renting access to software built for a general market — not their specific operations. The business has no control over features, data models, integrations, or pricing trajectory.
 
@@ -21,7 +27,7 @@ For businesses with complex, high-volume, or compliance-driven operations, owned
   },
   {
     q: "Can real estate companies build their own CRM and operations platform?",
-    a: `Yes. Real estate firms with portfolio complexity, investor relationships, or multi-market operations often find that generic CRMs (Salesforce, HubSpot) fall short of their operational needs — they require heavy customization, expensive consultants, and still don't match the actual workflow.
+    a: `Yes. Real estate firms with portfolio complexity, investor relationships, or multi-market operations often find that generic CRMs fall short of their operational needs — they require heavy customization, expensive consultants, and still don't match the actual workflow.
 
 Purpose-built real estate operational infrastructure can include unified lead and deal management, investor dashboards with real-time portfolio visibility, payment and project milestone tracking, document management, and AI-powered reporting — all integrated into a single owned platform.
 
@@ -29,11 +35,23 @@ Daeson Technologies has designed operational infrastructure architecture specifi
   },
   {
     q: "What is Amanah AI and how does it support Shariah compliance?",
-    a: `Amanah AI is Daeson Technologies' dedicated platform for Islamic financial institutions. It provides AI-assisted support for Shariah compliance workflows — including automated contract parsing, risk scoring, governance documentation, scholar review queues, and regulatory reporting.
+    a: `Amanah AI is Daeson Technologies' dedicated platform for Islamic financial institutions, currently in strategic development with Alhamd Shariah Advisory collaboration. It provides AI-assisted support for Shariah compliance workflows — including Murabaha contract analysis, risk scoring, governance documentation, scholar review queues, and regulatory reporting.
 
-Amanah AI is designed to support — not replace — Shariah scholars and compliance teams. It automates the repetitive, time-consuming analysis tasks and creates consistent, auditable documentation, so scholars can focus on substantive governance decisions rather than manual review.
+Amanah AI is designed to support — not replace — Shariah scholars and compliance teams. It automates the repetitive, time-consuming analysis tasks and creates consistent, auditable documentation, so scholars can focus on substantive governance decisions rather than manual document review.
 
-The platform is in strategic development with Shariah advisory collaboration and is designed for Islamic banks, Islamic fintech platforms, investment funds, and payment institutions operating across GCC, Pakistan, and UK markets.`,
+The platform is in development for Islamic banks, Islamic fintech platforms, investment funds, and payment institutions operating across GCC, Pakistan, and UK markets.`,
+  },
+  {
+    q: "What is Murabaha workflow digitization?",
+    a: `Murabaha is one of the most common structures in Islamic finance — a cost-plus-profit sale arrangement used for home financing, trade finance, vehicle purchase, and commodity financing. In most institutions, Murabaha compliance is managed manually: contracts reviewed line-by-line, documentation compiled by hand, scholar approval tracked through email.
+
+Murabaha workflow digitization replaces this with structured, automated workflows. The system parses contracts against compliance frameworks, executes Shariah compliance checklists, generates governance documentation automatically, and maintains a full audit trail from contract intake through scholar approval — making the process faster, more consistent, and fully auditable at scale.`,
+  },
+  {
+    q: "What is governance-sensitive AI?",
+    a: `Governance-sensitive AI refers to AI systems designed with explicit attention to audit trails, explainability, human oversight, and regulatory compliance — required by industries where decisions carry legal, financial, or religious accountability.
+
+Islamic finance and regulated real estate operations are prime examples: AI recommendations must be documented, auditable, and subject to human review. Daeson builds AI infrastructure with governance requirements built into the architecture from the start — not added as an afterthought. This means every AI decision has a traceable evidence chain, human review is embedded in the workflow, and the system can be audited by regulators, Shariah boards, or internal governance teams.`,
   },
   {
     q: "What industries does Daeson Technologies serve?",
@@ -41,7 +59,7 @@ The platform is in strategic development with Shariah advisory collaboration and
 
 Real Estate & PropTech — portfolio management, AI-powered CRM, investor relations dashboards, payment and project tracking, and lead intelligence systems for property development firms and real estate operators.
 
-Islamic Finance — Shariah compliance infrastructure, contract analysis, governance workflows, and regulatory reporting for Islamic banks, fintech platforms, investment funds, and lending institutions.
+Islamic Finance — Shariah compliance infrastructure, Murabaha contract analysis, governance workflows, and regulatory reporting for Islamic banks, fintech platforms, investment funds, and lending institutions.
 
 Enterprise Operations — workflow automation, operational intelligence dashboards, AI system integration, and cross-department visibility platforms for organizations with complex internal operations.
 
@@ -93,8 +111,12 @@ export default function FAQ() {
   const [open, setOpen] = useState<number | null>(0);
 
   return (
-    <section className="bg-[#0D1521] py-28 relative overflow-hidden" id="faq">
-      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/[0.07] to-transparent" />
+    <section
+      className="py-28 relative overflow-hidden"
+      id="faq"
+      style={{ backgroundColor: "var(--bg-surface)" }}
+    >
+      <div className="section-sep absolute top-0 left-0 right-0" />
 
       <div className="max-w-4xl mx-auto px-6">
         {/* Header */}
@@ -105,13 +127,19 @@ export default function FAQ() {
           transition={{ duration: 0.5, ease: "easeOut" }}
           className="text-center mb-14"
         >
-          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-white/[0.08] bg-white/[0.03] text-[#94A3B8] text-[11px] font-semibold tracking-widest uppercase mb-6">
+          <div
+            className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-[11px] font-semibold tracking-widest uppercase mb-6"
+            style={{ border: "1px solid var(--border)", color: "var(--text-muted)", backgroundColor: "var(--bg-elevated)" }}
+          >
             FAQ
           </div>
-          <h2 className="text-[36px] md:text-[44px] font-extrabold tracking-tight text-white mb-4">
+          <h2
+            className="text-[34px] md:text-[42px] font-bold tracking-tight mb-4"
+            style={{ color: "var(--text-primary)" }}
+          >
             Frequently Asked Questions
           </h2>
-          <p className="text-[15px] text-[#94A3B8] leading-relaxed">
+          <p className="text-[15px] leading-relaxed" style={{ color: "var(--text-secondary)" }}>
             Answers to the most common questions about operational infrastructure, custom development, and how we work.
           </p>
         </motion.div>
@@ -125,26 +153,30 @@ export default function FAQ() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-40px" }}
               transition={{ delay: i * 0.04, duration: 0.4, ease: "easeOut" }}
-              className={`border rounded-xl overflow-hidden transition-all duration-200 ${
-                open === i
-                  ? "border-[#3B6AFF]/30 bg-[#3B6AFF]/[0.04]"
-                  : "border-white/[0.07] bg-[#070B12] hover:border-white/[0.12]"
-              }`}
+              className="rounded-xl overflow-hidden transition-all duration-200"
+              style={{
+                border: open === i ? "1px solid var(--blue-border)" : "1px solid var(--border)",
+                backgroundColor: open === i ? "var(--blue-muted)" : "var(--bg-card)",
+              }}
             >
               <button
                 onClick={() => setOpen(open === i ? null : i)}
                 className="w-full flex items-center justify-between gap-4 px-6 py-5 text-left"
               >
                 <span
-                  className={`text-[14px] font-semibold leading-snug transition-colors ${
-                    open === i ? "text-white" : "text-[#EDF2FF]"
-                  }`}
+                  className="text-[14px] font-semibold leading-snug transition-colors"
+                  style={{ color: "var(--text-primary)" }}
                 >
                   {faq.q}
                 </span>
-                <span className={`flex-shrink-0 w-6 h-6 rounded-full border flex items-center justify-center transition-all ${
-                  open === i ? "border-[#3B6AFF] bg-[#3B6AFF]/10 text-[#3B6AFF]" : "border-white/[0.12] text-[#4B5568]"
-                }`}>
+                <span
+                  className="shrink-0 w-6 h-6 rounded-full border flex items-center justify-center transition-all"
+                  style={{
+                    borderColor: open === i ? "var(--blue)" : "var(--border-hover)",
+                    backgroundColor: open === i ? "var(--blue-muted)" : "transparent",
+                    color: open === i ? "var(--blue)" : "var(--text-faint)",
+                  }}
+                >
                   {open === i ? <Minus size={12} /> : <Plus size={12} />}
                 </span>
               </button>
@@ -155,11 +187,16 @@ export default function FAQ() {
                     initial={{ height: 0, opacity: 0 }}
                     animate={{ height: "auto", opacity: 1 }}
                     exit={{ height: 0, opacity: 0 }}
-                    transition={{ duration: 0.25, ease: "easeInOut" }}
+                    transition={{ duration: 0.22, ease: "easeInOut" }}
                   >
                     <div className="px-6 pb-5">
-                      <div className="h-px bg-white/[0.06] mb-4" />
-                      <p className="text-[13px] text-[#94A3B8] leading-[1.8] whitespace-pre-line">{faq.a}</p>
+                      <div className="h-px mb-4" style={{ backgroundColor: "var(--border)" }} />
+                      <p
+                        className="text-[13px] leading-[1.8] whitespace-pre-line"
+                        style={{ color: "var(--text-secondary)" }}
+                      >
+                        {faq.a}
+                      </p>
                     </div>
                   </motion.div>
                 )}

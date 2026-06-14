@@ -6,7 +6,7 @@ const pillars = [
   {
     number: "01",
     title: "Control",
-    color: "#3B6AFF",
+    color: "var(--blue)",
     points: [
       "Your data lives in your infrastructure",
       "You control the product roadmap",
@@ -17,7 +17,7 @@ const pillars = [
   {
     number: "02",
     title: "Cost Model",
-    color: "#C9A84C",
+    color: "var(--gold)",
     points: [
       "One-time infrastructure investment vs. perpetual subscriptions",
       "No per-seat licensing as teams grow",
@@ -40,9 +40,12 @@ const pillars = [
 
 export default function OwnershipModel() {
   return (
-    <section className="bg-[#0D1521] py-28 relative overflow-hidden">
-      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent" />
-      <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent" />
+    <section
+      className="py-28 relative overflow-hidden"
+      style={{ backgroundColor: "var(--bg-surface)" }}
+    >
+      <div className="section-sep absolute top-0 left-0 right-0" />
+      <div className="section-sep absolute bottom-0 left-0 right-0" />
 
       <div className="max-w-7xl mx-auto px-6">
         {/* Header */}
@@ -53,19 +56,24 @@ export default function OwnershipModel() {
           transition={{ duration: 0.5, ease: "easeOut" }}
           className="mb-16"
         >
-          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-[#C9A84C]/25 bg-[#C9A84C]/[0.06] text-[#C9A84C] text-[11px] font-semibold tracking-widest uppercase mb-6">
+          <div
+            className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-[11px] font-semibold tracking-widest uppercase mb-6"
+            style={{ border: "1px solid var(--gold-border)", backgroundColor: "var(--gold-muted)", color: "var(--gold)" }}
+          >
             The Ownership Model
           </div>
           <div className="grid md:grid-cols-2 gap-8 items-end">
-            <h2 className="text-[34px] md:text-[42px] font-extrabold tracking-tight text-white leading-[1.08]">
+            <h2
+              className="text-[32px] md:text-[40px] font-bold tracking-tight leading-[1.08]"
+              style={{ color: "var(--text-primary)" }}
+            >
               Beyond the Subscription.
               <br />
-              <span className="text-[#94A3B8] font-semibold">Own what powers your operations.</span>
+              <span style={{ color: "var(--text-secondary)", fontWeight: 600 }}>Own what powers your operations.</span>
             </h2>
-            <p className="text-[15px] text-[#94A3B8] leading-relaxed">
+            <p className="text-[15px] leading-relaxed" style={{ color: "var(--text-secondary)" }}>
               Most operationally complex businesses are paying monthly for tools that were built for a general
-              market — not their specific workflow. The result is operational debt that grows as the business
-              does.
+              market — not their specific workflow. The result is operational debt that grows as the business does.
             </p>
           </div>
         </motion.div>
@@ -79,16 +87,19 @@ export default function OwnershipModel() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.1, duration: 0.5, ease: "easeOut" }}
-              className="bg-[#070B12] border border-white/[0.07] rounded-2xl p-7 hover:border-white/[0.11] transition-all duration-300"
+              className="rounded-2xl p-7 transition-all duration-300"
+              style={{ backgroundColor: "var(--bg-card)", border: "1px solid var(--border)" }}
+              onMouseEnter={e => ((e.currentTarget as HTMLElement).style.borderColor = "var(--border-hover)")}
+              onMouseLeave={e => ((e.currentTarget as HTMLElement).style.borderColor = "var(--border)")}
             >
               <div className="flex items-center gap-3 mb-6">
                 <span
                   className="text-[11px] font-black tracking-widest"
-                  style={{ color: `${pillar.color}60` }}
+                  style={{ color: "var(--text-faint)" }}
                 >
                   {pillar.number}
                 </span>
-                <div className="h-px flex-1 bg-white/[0.06]" />
+                <div className="h-px flex-1" style={{ backgroundColor: "var(--border)" }} />
               </div>
               <h3
                 className="text-[20px] font-bold mb-5 tracking-tight"
@@ -98,7 +109,11 @@ export default function OwnershipModel() {
               </h3>
               <ul className="space-y-3">
                 {pillar.points.map((point) => (
-                  <li key={point} className="flex items-start gap-3 text-[13px] text-[#94A3B8] leading-relaxed">
+                  <li
+                    key={point}
+                    className="flex items-start gap-3 text-[13px] leading-relaxed"
+                    style={{ color: "var(--text-secondary)" }}
+                  >
                     <span
                       className="mt-1.5 w-1 h-1 rounded-full shrink-0"
                       style={{ backgroundColor: pillar.color }}
@@ -117,13 +132,14 @@ export default function OwnershipModel() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.3, duration: 0.5, ease: "easeOut" }}
-          className="bg-[#3B6AFF]/[0.06] border border-[#3B6AFF]/20 rounded-2xl px-8 py-6 text-center"
+          className="rounded-2xl px-8 py-6 text-center"
+          style={{ backgroundColor: "var(--blue-muted)", border: "1px solid var(--blue-border)" }}
         >
-          <p className="text-[15px] text-[#EDF2FF] leading-relaxed max-w-2xl mx-auto">
+          <p className="text-[15px] leading-relaxed max-w-2xl mx-auto" style={{ color: "var(--text-primary)" }}>
             <span className="font-semibold">We typically begin with the highest operational priority</span>{" "}
             and evolve systems gradually — reducing risk and accelerating value from the first phase.
           </p>
-          <p className="text-[12px] text-[#94A3B8] mt-3">
+          <p className="text-[12px] mt-3" style={{ color: "var(--text-secondary)" }}>
             Start with one operational layer. Scale according to your priorities.
           </p>
         </motion.div>

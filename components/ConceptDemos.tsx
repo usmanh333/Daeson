@@ -6,59 +6,66 @@ import { ArrowRight, ArrowUpRight } from "lucide-react";
 
 const demos = [
   {
-    label: "Concept Demonstration",
-    labelColor: "#3B6AFF",
-    labelBg: "#3B6AFF15",
+    tag: "Concept Architecture",
+    tagColor: "var(--blue)",
+    tagBg: "var(--blue-muted)",
     status: "Available for Review",
-    statusColor: "text-emerald-400",
+    statusColor: "#10B981",
     title: "Real Estate Operations Platform",
     subtitle: "Real Estate & PropTech",
     description:
       "An exploration of how a unified operational platform could replace four to six fragmented tools for property development firms and real estate operators. Built around the actual workflow of real estate operations — not adapted from generic CRM templates.",
     modules: [
-      { name: "CEO Dashboard & Portfolio Overview", icon: "◈" },
-      { name: "AI Lead Intelligence Engine", icon: "◈" },
-      { name: "CRM & Deal Pipeline", icon: "◈" },
-      { name: "Payment & Rent Tracking", icon: "◈" },
-      { name: "Investor Visibility Portal", icon: "◈" },
-      { name: "Role-Based Access Control", icon: "◈" },
+      "CEO Dashboard & Portfolio Overview",
+      "AI Lead Intelligence Engine",
+      "CRM & Deal Pipeline",
+      "Payment & Rent Tracking",
+      "Investor Visibility Portal",
+      "Role-Based Access Control",
     ],
-    note: "Built around operational workflows and scalable according to firm size and investment priorities.",
+    note: "Built according to workflow, operational priorities, and firm size. Each implementation is tailored to the client's specific context.",
     primaryCta: { label: "Request Tailored Demo", href: "/contact" },
     secondaryCta: { label: "View Overview", href: "/real-estate" },
-    primaryColor: "#3B6AFF",
+    accentColor: "var(--blue)",
   },
   {
-    label: "In Development",
-    labelColor: "#C9A84C",
-    labelBg: "#C9A84C15",
+    tag: "In Development",
+    tagColor: "var(--gold)",
+    tagBg: "var(--gold-muted)",
     status: "Strategic Development",
-    statusColor: "text-[#C9A84C]",
+    statusColor: "var(--gold)",
     title: "Amanah AI",
     subtitle: "Islamic Finance Compliance Intelligence",
     description:
       "Amanah AI is being developed to support Shariah compliance workflows inside Islamic financial institutions — providing AI-assisted contract analysis, governance documentation, and regulatory reporting. Development is informed by strategic Shariah advisory collaboration.",
     modules: [
-      { name: "Murabaha Workflow Intelligence", icon: "◈" },
-      { name: "Compliance Document Processing", icon: "◈" },
-      { name: "Shariah Governance Workflow", icon: "◈" },
-      { name: "Audit Trail Generation", icon: "◈" },
-      { name: "Multi-Market Regulatory Support", icon: "◈" },
-      { name: "Scholar Review Interface", icon: "◈" },
+      "Murabaha Workflow Intelligence",
+      "Compliance Document Processing",
+      "Shariah Governance Workflow",
+      "Audit Trail Generation",
+      "Multi-Market Regulatory Support",
+      "Scholar Review Interface",
     ],
-    note: "Amanah AI is currently being developed with strategic Shariah advisory collaboration to support practical workflow alignment.",
+    note: "Amanah AI is currently being developed in strategic collaboration with Shariah advisory expertise to support practical workflow alignment.",
     primaryCta: { label: "Learn More", href: "/amanah-ai" },
     secondaryCta: { label: "Express Interest", href: "/contact" },
-    primaryColor: "#C9A84C",
+    accentColor: "var(--gold)",
     disclaimer: true,
   },
 ];
 
 export default function ConceptDemos() {
   return (
-    <section className="bg-[#070B12] py-28 relative overflow-hidden" id="concept-demonstrations">
-      <div className="absolute inset-0 grid-bg opacity-25" />
-      <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[800px] h-[400px] rounded-full bg-[#3B6AFF]/[0.04] blur-[120px] pointer-events-none" />
+    <section
+      className="py-28 relative overflow-hidden"
+      id="concept-demonstrations"
+      style={{ backgroundColor: "var(--bg-page)" }}
+    >
+      <div className="absolute inset-0 grid-bg opacity-20" />
+      <div
+        className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[700px] h-[400px] rounded-full pointer-events-none"
+        style={{ background: "radial-gradient(circle, rgba(59,106,255,0.04) 0%, transparent 70%)", filter: "blur(80px)" }}
+      />
 
       <div className="relative max-w-7xl mx-auto px-6">
         {/* Header */}
@@ -69,13 +76,19 @@ export default function ConceptDemos() {
           transition={{ duration: 0.5, ease: "easeOut" }}
           className="text-center mb-16"
         >
-          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-white/[0.08] bg-white/[0.02] text-[#94A3B8] text-[11px] font-semibold tracking-widest uppercase mb-6">
+          <div
+            className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-[11px] font-semibold tracking-widest uppercase mb-6"
+            style={{ border: "1px solid var(--border)", color: "var(--text-muted)", backgroundColor: "var(--bg-surface)" }}
+          >
             Concept Demonstrations
           </div>
-          <h2 className="text-[34px] md:text-[42px] font-extrabold tracking-tight text-white mb-4">
-            Explore Operational Infrastructure in Action.
+          <h2
+            className="text-[32px] md:text-[40px] font-bold tracking-tight mb-4"
+            style={{ color: "var(--text-primary)" }}
+          >
+            Explore Operational Infrastructure in Action
           </h2>
-          <p className="text-[15px] text-[#94A3B8] max-w-xl mx-auto leading-relaxed">
+          <p className="text-[15px] max-w-xl mx-auto leading-relaxed" style={{ color: "var(--text-secondary)" }}>
             See how intelligent operational systems could look inside your organization.
             These demonstrations illustrate our infrastructure approach across two operational contexts.
           </p>
@@ -86,46 +99,56 @@ export default function ConceptDemos() {
           {demos.map((demo, i) => (
             <motion.div
               key={demo.title}
-              initial={{ opacity: 0, y: 24 }}
+              initial={{ opacity: 0, y: 22 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.12, duration: 0.55, ease: "easeOut" }}
-              className="bg-[#0D1521] border border-white/[0.07] rounded-2xl overflow-hidden flex flex-col hover:border-white/[0.11] transition-all duration-300"
+              className="rounded-2xl overflow-hidden flex flex-col transition-all duration-300"
+              style={{
+                backgroundColor: "var(--bg-surface)",
+                border: "1px solid var(--border)",
+              }}
+              onMouseEnter={e => ((e.currentTarget as HTMLElement).style.borderColor = "var(--border-hover)")}
+              onMouseLeave={e => ((e.currentTarget as HTMLElement).style.borderColor = "var(--border)")}
             >
               {/* Top bar */}
-              <div className="px-7 pt-7 pb-5 border-b border-white/[0.05]">
+              <div className="px-7 pt-7 pb-5" style={{ borderBottom: "1px solid var(--border)" }}>
                 <div className="flex items-center justify-between mb-5">
                   <div
                     className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg text-[10px] font-semibold uppercase tracking-wider"
-                    style={{ backgroundColor: demo.labelBg, color: demo.labelColor }}
+                    style={{ backgroundColor: demo.tagBg, color: demo.tagColor }}
                   >
-                    {demo.label}
+                    {demo.tag}
                   </div>
-                  <span className={`text-[11px] font-medium ${demo.statusColor}`}>
+                  <span className="text-[11px] font-medium" style={{ color: demo.statusColor }}>
                     {demo.status}
                   </span>
                 </div>
 
-                <h3 className="text-[22px] font-bold text-white mb-1.5 tracking-tight">{demo.title}</h3>
-                <p className="text-[12px] font-semibold text-[#4B5568] uppercase tracking-widest">{demo.subtitle}</p>
+                <h3 className="text-[22px] font-bold mb-1.5 tracking-tight" style={{ color: "var(--text-primary)" }}>
+                  {demo.title}
+                </h3>
+                <p className="text-[12px] font-semibold uppercase tracking-widest" style={{ color: "var(--text-faint)" }}>
+                  {demo.subtitle}
+                </p>
               </div>
 
               <div className="px-7 py-6 flex-1 flex flex-col">
                 {/* Description */}
-                <p className="text-[13px] text-[#94A3B8] leading-relaxed mb-7">{demo.description}</p>
+                <p className="text-[13px] leading-relaxed mb-7" style={{ color: "var(--text-secondary)" }}>
+                  {demo.description}
+                </p>
 
                 {/* Modules */}
                 <div className="mb-6">
-                  <p className="text-[10px] font-semibold text-[#4B5568] uppercase tracking-widest mb-4">
+                  <p className="text-[10px] font-semibold uppercase tracking-widest mb-4" style={{ color: "var(--text-faint)" }}>
                     System Modules
                   </p>
                   <div className="grid grid-cols-2 gap-y-2.5 gap-x-4">
-                    {demo.modules.map((module) => (
-                      <div key={module.name} className="flex items-start gap-2 text-[12px] text-[#94A3B8]">
-                        <span className="mt-0.5 shrink-0" style={{ color: demo.primaryColor, fontSize: "8px" }}>
-                          {module.icon}
-                        </span>
-                        {module.name}
+                    {demo.modules.map((mod) => (
+                      <div key={mod} className="flex items-start gap-2 text-[12px]" style={{ color: "var(--text-secondary)" }}>
+                        <span className="mt-1 shrink-0 w-1 h-1 rounded-full" style={{ backgroundColor: demo.accentColor }} />
+                        {mod}
                       </div>
                     ))}
                   </div>
@@ -133,18 +156,20 @@ export default function ConceptDemos() {
 
                 {/* Note */}
                 <div
-                  className="rounded-xl px-4 py-3 mb-6 border-l-2"
+                  className="rounded-xl px-4 py-3 mb-6"
                   style={{
-                    backgroundColor: `${demo.primaryColor}08`,
-                    borderLeftColor: `${demo.primaryColor}40`,
+                    backgroundColor: "var(--bg-elevated)",
+                    borderLeft: `2px solid ${demo.accentColor}`,
                   }}
                 >
-                  <p className="text-[12px] text-[#94A3B8] leading-relaxed italic">{demo.note}</p>
+                  <p className="text-[12px] leading-relaxed italic" style={{ color: "var(--text-secondary)" }}>
+                    {demo.note}
+                  </p>
                 </div>
 
                 {demo.disclaimer && (
-                  <p className="text-[11px] text-[#4B5568] mb-5 italic">
-                    ✦ Advisory note: Amanah AI provides workflow support — it does not issue Shariah rulings.
+                  <p className="text-[11px] mb-5 italic" style={{ color: "var(--text-faint)" }}>
+                    Advisory note: Amanah AI provides workflow support — it does not issue Shariah rulings.
                     All compliance decisions rest with qualified Shariah scholars.
                   </p>
                 )}
@@ -153,17 +178,18 @@ export default function ConceptDemos() {
                 <div className="mt-auto flex items-center gap-4">
                   <Link
                     href={demo.primaryCta.href}
-                    className="inline-flex items-center gap-2 px-4 py-2.5 text-white text-[13px] font-semibold rounded-xl transition-all duration-200 shadow-lg"
-                    style={{
-                      backgroundColor: demo.primaryColor,
-                    }}
+                    className="inline-flex items-center gap-2 px-4 py-2.5 text-white text-[13px] font-semibold rounded-xl transition-all duration-200"
+                    style={{ backgroundColor: demo.accentColor }}
                   >
                     {demo.primaryCta.label}
                     <ArrowRight size={13} />
                   </Link>
                   <Link
                     href={demo.secondaryCta.href}
-                    className="inline-flex items-center gap-2 text-[13px] font-semibold text-[#94A3B8] hover:text-white transition-colors"
+                    className="inline-flex items-center gap-2 text-[13px] font-semibold transition-colors"
+                    style={{ color: "var(--text-secondary)" }}
+                    onMouseEnter={e => ((e.currentTarget as HTMLElement).style.color = "var(--text-primary)")}
+                    onMouseLeave={e => ((e.currentTarget as HTMLElement).style.color = "var(--text-secondary)")}
                   >
                     {demo.secondaryCta.label}
                     <ArrowUpRight size={13} />
@@ -180,10 +206,17 @@ export default function ConceptDemos() {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           transition={{ delay: 0.3, duration: 0.5 }}
-          className="text-center text-[12px] text-[#4B5568] mt-10"
+          className="text-center text-[12px] mt-10"
+          style={{ color: "var(--text-faint)" }}
         >
           All demonstrations are tailored to your specific operational context.{" "}
-          <Link href="/contact" className="text-[#3B6AFF] hover:text-[#4F7FFF] transition-colors font-medium">
+          <Link
+            href="/contact"
+            className="font-medium transition-colors"
+            style={{ color: "var(--blue)" }}
+            onMouseEnter={e => ((e.currentTarget as HTMLElement).style.color = "var(--blue-hover)")}
+            onMouseLeave={e => ((e.currentTarget as HTMLElement).style.color = "var(--blue)")}
+          >
             Request a walkthrough →
           </Link>
         </motion.p>

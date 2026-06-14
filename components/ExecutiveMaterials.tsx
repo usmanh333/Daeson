@@ -20,7 +20,7 @@ const materials = [
   {
     icon: FileText,
     tag: "Islamic Finance",
-    tagColor: "#C9A84C",
+    tagColor: "#D4AF37",
     title: "Amanah AI\nProduct Overview",
     description:
       "A detailed overview of Amanah AI's Shariah compliance infrastructure approach — including workflow architecture, compliance scope, and institutional positioning.",
@@ -45,9 +45,12 @@ const materials = [
 
 export default function ExecutiveMaterials() {
   return (
-    <section className="bg-[#0D1521] py-28 relative overflow-hidden">
-      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent" />
-      <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/[0.06] to-transparent" />
+    <section
+      className="py-28 relative overflow-hidden"
+      style={{ backgroundColor: "var(--bg-surface)" }}
+    >
+      <div className="section-sep absolute top-0 left-0 right-0" />
+      <div className="section-sep absolute bottom-0 left-0 right-0" />
 
       <div className="max-w-7xl mx-auto px-6">
         {/* Header */}
@@ -58,16 +61,22 @@ export default function ExecutiveMaterials() {
           transition={{ duration: 0.5, ease: "easeOut" }}
           className="mb-14"
         >
-          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-white/[0.07] bg-white/[0.02] text-[#94A3B8] text-[11px] font-semibold tracking-widest uppercase mb-6">
+          <div
+            className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-[11px] font-semibold tracking-widest uppercase mb-6"
+            style={{ border: "1px solid var(--border)", backgroundColor: "var(--bg-elevated)", color: "var(--text-muted)" }}
+          >
             Executive Materials
           </div>
           <div className="grid md:grid-cols-2 gap-8 items-end">
-            <h2 className="text-[34px] md:text-[42px] font-extrabold tracking-tight text-white leading-[1.1]">
+            <h2
+              className="text-[34px] md:text-[42px] font-extrabold tracking-tight leading-[1.1]"
+              style={{ color: "var(--text-primary)" }}
+            >
               Share Internally.
               <br />
-              <span className="text-[#94A3B8] font-semibold">Structured for decision-makers.</span>
+              <span style={{ color: "var(--text-secondary)", fontWeight: 600 }}>Structured for decision-makers.</span>
             </h2>
-            <p className="text-[15px] text-[#94A3B8] leading-relaxed">
+            <p className="text-[15px] leading-relaxed" style={{ color: "var(--text-secondary)" }}>
               Professional materials for internal review, procurement evaluation, and leadership briefing.
               Requested and delivered directly — no forms to a marketing funnel.
             </p>
@@ -83,7 +92,10 @@ export default function ExecutiveMaterials() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.1, duration: 0.5, ease: "easeOut" }}
-              className="bg-[#070B12] border border-white/[0.07] rounded-2xl p-7 flex flex-col hover:border-white/[0.11] transition-all duration-300 group"
+              className="rounded-2xl p-7 flex flex-col transition-all duration-300 group"
+              style={{ backgroundColor: "var(--bg-card)", border: "1px solid var(--border)" }}
+              onMouseEnter={e => ((e.currentTarget as HTMLElement).style.borderColor = "var(--border-hover)")}
+              onMouseLeave={e => ((e.currentTarget as HTMLElement).style.borderColor = "var(--border)")}
             >
               {/* Icon */}
               <div
@@ -105,22 +117,40 @@ export default function ExecutiveMaterials() {
               </div>
 
               {/* Title */}
-              <h3 className="text-[17px] font-bold text-white mb-3 tracking-tight whitespace-pre-line leading-snug">
+              <h3
+                className="text-[17px] font-bold mb-3 tracking-tight whitespace-pre-line leading-snug"
+                style={{ color: "var(--text-primary)" }}
+              >
                 {material.title}
               </h3>
 
               {/* Description */}
-              <p className="text-[13px] text-[#94A3B8] leading-relaxed mb-5 flex-1">{material.description}</p>
+              <p
+                className="text-[13px] leading-relaxed mb-5 flex-1"
+                style={{ color: "var(--text-secondary)" }}
+              >
+                {material.description}
+              </p>
 
               {/* Meta */}
               <div className="space-y-2 mb-6">
-                <div className="flex items-start gap-2 text-[11px] text-[#4B5568]">
-                  <span className="shrink-0 mt-0.5 font-semibold uppercase tracking-widest">Audience</span>
-                  <span className="text-[#94A3B8]">{material.audience}</span>
+                <div className="flex items-start gap-2 text-[11px]">
+                  <span
+                    className="shrink-0 mt-0.5 font-semibold uppercase tracking-widest"
+                    style={{ color: "var(--text-faint)" }}
+                  >
+                    Audience
+                  </span>
+                  <span style={{ color: "var(--text-secondary)" }}>{material.audience}</span>
                 </div>
-                <div className="flex items-center gap-2 text-[11px] text-[#4B5568]">
-                  <span className="shrink-0 font-semibold uppercase tracking-widest">Format</span>
-                  <span className="text-[#94A3B8]">{material.format}</span>
+                <div className="flex items-center gap-2 text-[11px]">
+                  <span
+                    className="shrink-0 font-semibold uppercase tracking-widest"
+                    style={{ color: "var(--text-faint)" }}
+                  >
+                    Format
+                  </span>
+                  <span style={{ color: "var(--text-secondary)" }}>{material.format}</span>
                 </div>
               </div>
 
@@ -142,7 +172,8 @@ export default function ExecutiveMaterials() {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           transition={{ delay: 0.4, duration: 0.5 }}
-          className="text-center text-[12px] text-[#4B5568] mt-8"
+          className="text-center text-[12px] mt-8"
+          style={{ color: "var(--text-faint)" }}
         >
           All materials delivered via email within 24 hours of request.
         </motion.p>
