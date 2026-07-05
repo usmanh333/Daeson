@@ -5,15 +5,29 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Industries — Real Estate, Islamic Finance, Enterprise",
+  title: "Industries — Real Estate, Islamic Finance & Enterprise Operations",
   description:
     "Daeson Technologies builds operational infrastructure for real estate firms, Islamic financial institutions, and enterprise organizations. Purpose-built systems for operationally complex industries.",
+  keywords: [
+    "real estate technology industry",
+    "Islamic finance technology industry",
+    "enterprise operations software",
+    "operational infrastructure by industry",
+    "Daeson Technologies industries",
+  ],
+  alternates: { canonical: "https://daesontechnologies.online/industries" },
+  openGraph: {
+    title: "Industries — Real Estate, Islamic Finance & Enterprise Operations | Daeson Technologies",
+    description:
+      "Purpose-built operational infrastructure for real estate, Islamic finance, and enterprise organizations — industries where operational complexity is a competitive variable.",
+    url: "https://daesontechnologies.online/industries",
+  },
 };
 
 const industries = [
   {
     badge: "Real Estate",
-    color: "#3B6AFF",
+    color: "#000000",
     title: "Real Estate & PropTech",
     description:
       "Property development firms, real estate operators, and investment portfolios running on fragmented tools need unified operational infrastructure — not another CRM subscription.",
@@ -77,7 +91,7 @@ export default function IndustriesPage() {
             Infrastructure for{" "}
             <span
               style={{
-                background: "linear-gradient(135deg, #3B6AFF 0%, #7B9FFF 100%)",
+                background: "linear-gradient(135deg, #FFFFFF 0%, #A0A0A0 100%)",
                 WebkitBackgroundClip: "text",
                 WebkitTextFillColor: "transparent",
                 backgroundClip: "text",
@@ -93,11 +107,12 @@ export default function IndustriesPage() {
         </section>
 
         {/* Industry cards */}
-        <section className="relative max-w-7xl mx-auto px-6 pb-24 space-y-8">
+        <div className="bg-white">
+        <section className="relative max-w-7xl mx-auto px-6 py-24 space-y-8">
           {industries.map((industry) => (
             <div
               key={industry.title}
-              className="bg-[#0D1521] border border-white/8 rounded-2xl p-8 md:p-10 hover:border-white/12 transition-all duration-300"
+              className="bg-white border border-black/10 rounded-2xl p-8 md:p-10 hover:border-black/20 transition-all duration-300"
             >
               <div className="grid md:grid-cols-[1fr_1px_1fr] gap-8 md:gap-12">
                 {/* Left */}
@@ -108,13 +123,13 @@ export default function IndustriesPage() {
                   >
                     {industry.badge}
                   </div>
-                  <h2 className="text-[28px] font-bold text-white mb-4 tracking-tight">{industry.title}</h2>
-                  <p className="text-[14px] text-[#94A3B8] leading-relaxed mb-6">{industry.description}</p>
+                  <h2 className="text-[28px] font-bold text-black mb-4 tracking-tight">{industry.title}</h2>
+                  <p className="text-[14px] text-gray-600 leading-relaxed mb-6">{industry.description}</p>
 
                   <div className="space-y-2.5">
-                    <p className="text-[11px] font-semibold text-[#4B5568] uppercase tracking-widest mb-3">Common challenges</p>
+                    <p className="text-[11px] font-semibold text-gray-400 uppercase tracking-widest mb-3">Common challenges</p>
                     {industry.problems.map((p) => (
-                      <div key={p} className="flex items-start gap-2.5 text-[13px] text-[#94A3B8]">
+                      <div key={p} className="flex items-start gap-2.5 text-[13px] text-gray-600">
                         <span className="mt-1.5 w-1 h-1 rounded-full bg-red-500/60 shrink-0" />
                         {p}
                       </div>
@@ -123,13 +138,13 @@ export default function IndustriesPage() {
                 </div>
 
                 {/* Divider */}
-                <div className="hidden md:block bg-white/6" />
+                <div className="hidden md:block bg-black/8" />
 
                 {/* Right */}
                 <div className="flex flex-col justify-between">
                   <div>
-                    <p className="text-[11px] font-semibold text-[#4B5568] uppercase tracking-widest mb-4">What we build</p>
-                    <p className="text-[14px] text-[#94A3B8] leading-relaxed mb-8">{industry.what}</p>
+                    <p className="text-[11px] font-semibold text-gray-400 uppercase tracking-widest mb-4">What we build</p>
+                    <p className="text-[14px] text-gray-600 leading-relaxed mb-8">{industry.what}</p>
                   </div>
                   <Link
                     href={industry.href}
@@ -143,6 +158,7 @@ export default function IndustriesPage() {
             </div>
           ))}
         </section>
+        </div>
 
         {/* CTA */}
         <section className="relative max-w-3xl mx-auto px-6 pb-24 text-center">
@@ -156,7 +172,7 @@ export default function IndustriesPage() {
             </p>
             <Link
               href="/contact"
-              className="inline-flex items-center gap-2 px-6 py-3.5 bg-[#3B6AFF] hover:bg-[#4F7FFF] text-white text-[14px] font-semibold rounded-xl transition-colors"
+              className="inline-flex items-center gap-2 px-6 py-3.5 bg-white hover:bg-neutral-300 text-black text-[14px] font-semibold rounded-xl transition-colors"
             >
               Schedule a Consultation <ArrowRight size={14} />
             </Link>

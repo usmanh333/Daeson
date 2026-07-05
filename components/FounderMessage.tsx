@@ -13,7 +13,7 @@ export default function FounderMessage() {
       <div className="section-sep absolute top-0 left-0 right-0" />
       <div
         className="absolute right-0 top-1/4 w-[500px] h-[500px] rounded-full pointer-events-none"
-        style={{ background: "radial-gradient(circle, rgba(59,106,255,0.03) 0%, transparent 70%)", filter: "blur(80px)" }}
+        style={{ background: "radial-gradient(circle, rgba(255,255,255,0.04) 0%, transparent 70%)", filter: "blur(80px)" }}
       />
 
       <div className="relative max-w-7xl mx-auto px-6">
@@ -36,7 +36,7 @@ export default function FounderMessage() {
                 />
                 <div
                   className="absolute inset-0"
-                  style={{ background: "linear-gradient(135deg, rgba(59,106,255,0.03) 0%, transparent 100%)" }}
+                  style={{ background: "linear-gradient(135deg, rgba(255,255,255,0.04) 0%, transparent 100%)" }}
                 />
 
                 {/* Monogram */}
@@ -44,7 +44,7 @@ export default function FounderMessage() {
                   <div
                     className="w-20 h-20 rounded-2xl flex items-center justify-center mx-auto mb-5 border"
                     style={{
-                      background: "linear-gradient(135deg, var(--blue-muted) 0%, rgba(59,106,255,0.04) 100%)",
+                      background: "linear-gradient(135deg, var(--blue-muted) 0%, rgba(255,255,255,0.04) 100%)",
                       borderColor: "var(--blue-border)",
                     }}
                   >

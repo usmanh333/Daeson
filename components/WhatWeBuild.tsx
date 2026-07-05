@@ -18,7 +18,7 @@ const pillars = [
     ],
     href: "/real-estate",
     color: "var(--blue)",
-    rawColor: "#3B6AFF",
+    rawColor: "#888888",
     label: "Real Estate",
   },
   {

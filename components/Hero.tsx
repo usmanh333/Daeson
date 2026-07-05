@@ -68,7 +68,7 @@ export default function Hero() {
       {/* Ambient glows — very restrained */}
       <div
         className="absolute top-1/4 -left-40 w-[520px] h-[520px] rounded-full pointer-events-none"
-        style={{ background: "radial-gradient(circle, rgba(59,106,255,0.055) 0%, transparent 70%)", filter: "blur(80px)" }}
+        style={{ background: "radial-gradient(circle, rgba(255,255,255,0.06) 0%, transparent 70%)", filter: "blur(80px)" }}
       />
       <div
         className="absolute bottom-1/4 -right-40 w-[440px] h-[440px] rounded-full pointer-events-none"
@@ -99,7 +99,7 @@ export default function Hero() {
             {/* Headline */}
             <FadeUp delay={0.08}>
               <h1
-                className="text-[40px] md:text-[52px] lg:text-[56px] font-bold leading-[1.06] tracking-[-0.025em] mb-6"
+                className="speakable text-[40px] md:text-[52px] lg:text-[56px] font-bold leading-[1.06] tracking-[-0.025em] mb-6"
                 style={{ color: "var(--text-primary)" }}
               >
                 Operational Infrastructure
@@ -137,10 +137,11 @@ export default function Hero() {
               <div className="flex flex-col sm:flex-row gap-3 mb-14">
                 <Link
                   href="/contact"
-                  className="inline-flex items-center justify-center gap-2 px-6 py-3.5 text-white text-[14px] font-semibold rounded-xl transition-all duration-200"
+                  className="inline-flex items-center justify-center gap-2 px-6 py-3.5 text-[14px] font-semibold rounded-xl transition-all duration-200"
                   style={{
                     backgroundColor: "var(--blue)",
-                    boxShadow: "0 4px 20px rgba(59, 106, 255, 0.28)",
+                    color: "var(--on-blue)",
+                    boxShadow: "0 4px 20px rgba(0, 0, 0, 0.35)",
                   }}
                   onMouseEnter={e => ((e.currentTarget as HTMLElement).style.backgroundColor = "var(--blue-hover)")}
                   onMouseLeave={e => ((e.currentTarget as HTMLElement).style.backgroundColor = "var(--blue)")}
@@ -149,7 +150,7 @@ export default function Hero() {
                   <ArrowRight size={14} />
                 </Link>
                 <Link
-                  href="#concept-demonstrations"
+                  href="/solutions"
                   className="inline-flex items-center justify-center gap-2 px-6 py-3.5 text-[14px] font-semibold rounded-xl transition-all duration-200"
                   style={{
                     border: "1px solid var(--border)",
@@ -165,7 +166,7 @@ export default function Hero() {
                     (e.currentTarget as HTMLElement).style.backgroundColor = "transparent";
                   }}
                 >
-                  Explore Concept Demonstrations
+                  View Our Solutions
                   <ChevronRight size={14} />
                 </Link>
               </div>
@@ -263,10 +264,11 @@ export default function Hero() {
                 initial={{ opacity: 0, scale: 0.92 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ delay: 0.72, duration: 0.4, ease: "easeOut" }}
-                className="absolute -bottom-3 -right-3 text-white text-[11px] font-bold px-3 py-2 rounded-xl"
+                className="absolute -bottom-3 -right-3 text-[11px] font-bold px-3 py-2 rounded-xl"
                 style={{
                   backgroundColor: "var(--blue)",
-                  boxShadow: "0 4px 20px rgba(59, 106, 255, 0.35)",
+                  color: "var(--on-blue)",
+                  boxShadow: "0 4px 20px rgba(0, 0, 0, 0.35)",
                 }}
               >
                 ✦ Fully Owned

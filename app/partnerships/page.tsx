@@ -5,16 +5,30 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Strategic Partnerships",
+  title: "Strategic Partnerships — Real Estate, Islamic Finance & Technology Alliances",
   description:
     "Daeson Technologies seeks strategic partnerships with real estate firms, Islamic finance institutions, operational advisors, and technology partners aligned with our mission of building owned operational infrastructure.",
+  keywords: [
+    "Daeson Technologies partnerships",
+    "Islamic finance strategic partnership",
+    "real estate technology partnership",
+    "Shariah advisory collaboration",
+    "enterprise technology alliance",
+  ],
+  alternates: { canonical: "https://daesontechnologies.online/partnerships" },
+  openGraph: {
+    title: "Strategic Partnerships | Daeson Technologies",
+    description:
+      "Strategic partnerships with real estate firms, Islamic finance institutions, and technology partners building owned operational infrastructure.",
+    url: "https://daesontechnologies.online/partnerships",
+  },
 };
 
 const currentPartnership = {
   name: "Alhamd Shariah Advisory",
   type: "Strategic Shariah Advisory Collaboration",
   description:
-    "Alhamd Shariah Advisory provides strategic domain expertise and Shariah operational knowledge supporting the development of Amanah AI. This collaboration ensures that Amanah AI's workflow architecture is grounded in practical Shariah compliance requirements â€” informed by qualified Shariah expertise rather than theoretical assumptions.",
+    "Alhamd Shariah Advisory provides strategic domain expertise and Shariah operational knowledge supporting the development of Amanah AI. This collaboration ensures that Amanah AI's workflow architecture is grounded in practical Shariah compliance requirements — informed by qualified Shariah expertise rather than theoretical assumptions.",
   scope: [
     "Domain expertise for Amanah AI workflow architecture",
     "Shariah operational requirements review",
@@ -43,7 +57,7 @@ const partnershipTypes = [
   {
     title: "Shariah Advisory & Governance",
     description:
-      "We welcome relationships with qualified Shariah scholars, advisory boards, and governance institutions who are interested in how AI can support â€” not replace â€” Shariah compliance operations. Collaboration is always advisory and complementary to human scholarly decision-making.",
+      "We welcome relationships with qualified Shariah scholars, advisory boards, and governance institutions who are interested in how AI can support — not replace — Shariah compliance operations. Collaboration is always advisory and complementary to human scholarly decision-making.",
     ideal: ["Shariah advisory boards", "Islamic governance consultancies", "Compliance advisory firms", "Academic Islamic finance institutions"],
     color: "var(--gold)",
   },
@@ -59,11 +73,11 @@ const partnershipTypes = [
 const partnershipSchema = {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  name: "Strategic Partnerships â€” Daeson Technologies",
+  name: "Strategic Partnerships — Daeson Technologies",
   description:
     "Daeson Technologies seeks strategic partnerships with real estate firms, Islamic finance institutions, and operational advisors aligned with its mission of building owned operational infrastructure.",
-  url: "https://daesontechagency.online/partnerships",
-  isPartOf: { "@id": "https://daesontechagency.online/#website" },
+  url: "https://daesontechnologies.online/partnerships",
+  isPartOf: { "@id": "https://daesontechnologies.online/#website" },
 };
 
 export default function PartnershipsPage() {
@@ -100,7 +114,7 @@ export default function PartnershipsPage() {
             style={{ color: "var(--text-secondary)" }}
           >
             Daeson Technologies is early-stage and growing deliberately. We do not pursue partnerships
-            for optics â€” we seek relationships with organizations that share our belief that serious
+            for optics — we seek relationships with organizations that share our belief that serious
             businesses deserve infrastructure built for them.
           </p>
           <p className="text-[14px] leading-relaxed max-w-xl" style={{ color: "var(--text-muted)" }}>
@@ -110,7 +124,7 @@ export default function PartnershipsPage() {
         </div>
 
         {/* Current Partnership */}
-        <div style={{ backgroundColor: "var(--bg-surface)", borderTop: "1px solid var(--border)", borderBottom: "1px solid var(--border)" }}>
+        <div className="section-light" style={{ backgroundColor: "var(--bg-surface)", borderTop: "1px solid var(--border)", borderBottom: "1px solid var(--border)" }}>
           <div className="max-w-5xl mx-auto px-6 py-16">
             <p className="text-[10px] font-semibold uppercase tracking-widest mb-8" style={{ color: "var(--text-faint)" }}>
               Current Strategic Collaboration
@@ -241,7 +255,7 @@ export default function PartnershipsPage() {
         </div>
 
         {/* CTA */}
-        <div style={{ backgroundColor: "var(--bg-surface)", borderTop: "1px solid var(--border)" }}>
+        <div className="section-light" style={{ backgroundColor: "var(--bg-surface)", borderTop: "1px solid var(--border)" }}>
           <div className="max-w-5xl mx-auto px-6 py-16">
             <div className="grid md:grid-cols-[1.2fr_1fr] gap-10 items-center">
               <div>
@@ -259,8 +273,8 @@ export default function PartnershipsPage() {
                 <div className="flex flex-wrap gap-3">
                   <Link
                     href="/contact"
-                    className="inline-flex items-center gap-2 px-6 py-3.5 text-white text-[14px] font-semibold rounded-xl transition-all duration-200"
-                    style={{ backgroundColor: "var(--blue)", boxShadow: "0 4px 20px rgba(59, 106, 255, 0.25)" }}
+                    className="inline-flex items-center gap-2 px-6 py-3.5 text-[14px] font-semibold rounded-xl transition-all duration-200"
+                    style={{ backgroundColor: "var(--blue)", color: "var(--on-blue)", boxShadow: "0 4px 20px rgba(0, 0, 0, 0.35)" }}
                   >
                     Begin Partnership Discussion
                     <ArrowRight size={14} />
@@ -279,7 +293,7 @@ export default function PartnershipsPage() {
                 {[
                   { label: "Response Time", value: "Within 48 business hours" },
                   { label: "Format", value: "Direct conversation, no sales process" },
-                  { label: "Commitment", value: "Exploratory â€” no obligation" },
+                  { label: "Commitment", value: "Exploratory — no obligation" },
                   { label: "Primary Contact", value: "Founding team directly" },
                 ].map((item) => (
                   <div

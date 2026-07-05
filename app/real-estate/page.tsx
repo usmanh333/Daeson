@@ -5,9 +5,9 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Real Estate Operational Infrastructure â€” Owned CRM, Investor Dashboards & AI Analytics",
+  title: "Real Estate Operational Infrastructure — Owned CRM, Investor Dashboards & AI Analytics",
   description:
-    "Daeson Technologies builds owned operational infrastructure for real estate firms â€” replacing fragmented SaaS with unified CRM, investor reporting dashboards, AI lead intelligence, payment tracking, and executive analytics. Designed for portfolio complexity.",
+    "Daeson Technologies builds owned operational infrastructure for real estate firms — replacing fragmented SaaS with unified CRM, investor reporting dashboards, AI lead intelligence, payment tracking, and executive analytics. Designed for portfolio complexity.",
   keywords: [
     "real estate operational infrastructure",
     "real estate CRM software",
@@ -23,29 +23,29 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Real Estate Operational Infrastructure | Daeson Technologies",
     description:
-      "Purpose-built operational infrastructure for real estate firms â€” owned CRM, investor dashboards, AI lead intelligence, and executive analytics. No SaaS subscriptions.",
-    url: "https://daesontechagency.online/real-estate",
+      "Purpose-built operational infrastructure for real estate firms — owned CRM, investor dashboards, AI lead intelligence, and executive analytics. No SaaS subscriptions.",
+    url: "https://daesontechnologies.online/real-estate",
   },
   alternates: {
-    canonical: "https://daesontechagency.online/real-estate",
+    canonical: "https://daesontechnologies.online/real-estate",
   },
 };
 
 const serviceSchema = {
   "@context": "https://schema.org",
   "@type": "Service",
-  "@id": "https://daesontechagency.online/real-estate#service",
+  "@id": "https://daesontechnologies.online/real-estate#service",
   name: "Real Estate Operational Infrastructure",
   serviceType: "Custom Software Development",
   provider: {
     "@type": "Organization",
     name: "Daeson Technologies",
-    url: "https://daesontechagency.online",
-    "@id": "https://daesontechagency.online/#organization",
+    url: "https://daesontechnologies.online",
+    "@id": "https://daesontechnologies.online/#organization",
   },
   areaServed: ["UAE", "Saudi Arabia", "Canada", "United States", "Pakistan", "United Kingdom"],
   description:
-    "Purpose-built operational infrastructure for real estate firms â€” replacing fragmented SaaS tools with owned platforms covering CRM, investor dashboards, AI lead intelligence, payment tracking, and executive analytics.",
+    "Purpose-built operational infrastructure for real estate firms — replacing fragmented SaaS tools with owned platforms covering CRM, investor dashboards, AI lead intelligence, payment tracking, and executive analytics.",
   offers: {
     "@type": "Offer",
     name: "Real Estate Operations Platform",
@@ -75,7 +75,7 @@ const faqSchema = {
       name: "Why do real estate brokerages struggle with fragmented operations?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Most real estate brokerages use 5â€“10 disconnected tools for CRM, lead management, investor communication, project tracking, and reporting â€” none of which were built for real estate. Data lives in silos, reporting requires manual aggregation, and leadership has no real-time visibility across operations. This fragmentation slows execution, reduces investor confidence, and creates operational risk.",
+        text: "Most real estate brokerages use 5–10 disconnected tools for CRM, lead management, investor communication, project tracking, and reporting — none of which were built for real estate. Data lives in silos, reporting requires manual aggregation, and leadership has no real-time visibility across operations. This fragmentation slows execution, reduces investor confidence, and creates operational risk.",
       },
     },
     {
@@ -83,7 +83,7 @@ const faqSchema = {
       name: "How does AI lead intelligence work in real estate?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "AI lead intelligence for real estate automatically qualifies and prioritizes incoming leads based on behavioral signals, property interest patterns, budget indicators, and engagement data. Instead of agents manually working every lead equally, the system surfaces high-intent prospects first, triggers relevant follow-up sequences, and flags leads that are about to go cold â€” improving conversion rates without increasing headcount.",
+        text: "AI lead intelligence for real estate automatically qualifies and prioritizes incoming leads based on behavioral signals, property interest patterns, budget indicators, and engagement data. Instead of agents manually working every lead equally, the system surfaces high-intent prospects first, triggers relevant follow-up sequences, and flags leads that are about to go cold — improving conversion rates without increasing headcount.",
       },
     },
     {
@@ -91,7 +91,7 @@ const faqSchema = {
       name: "What is real estate operational infrastructure?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Real estate operational infrastructure refers to owned, purpose-built digital systems that power the core operations of a real estate firm â€” CRM, deal management, investor reporting, payment tracking, document management, and executive analytics â€” integrated into a single platform aligned to how the firm actually operates. Unlike generic SaaS, it is owned by the business, built around their specific workflows, and designed to scale with portfolio growth.",
+        text: "Real estate operational infrastructure refers to owned, purpose-built digital systems that power the core operations of a real estate firm — CRM, deal management, investor reporting, payment tracking, document management, and executive analytics — integrated into a single platform aligned to how the firm actually operates. Unlike generic SaaS, it is owned by the business, built around their specific workflows, and designed to scale with portfolio growth.",
       },
     },
     {
@@ -99,7 +99,7 @@ const faqSchema = {
       name: "How does investor reporting work in an operational infrastructure platform?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Investor reporting in an operational infrastructure platform is automated and real-time â€” rather than compiled manually from spreadsheets. Portfolio performance, payment schedules, milestone progress, and occupancy data are aggregated automatically into investor dashboards. Reports are generated on schedule without manual work, and investors access their information directly rather than waiting for email updates.",
+        text: "Investor reporting in an operational infrastructure platform is automated and real-time — rather than compiled manually from spreadsheets. Portfolio performance, payment schedules, milestone progress, and occupancy data are aggregated automatically into investor dashboards. Reports are generated on schedule without manual work, and investors access their information directly rather than waiting for email updates.",
       },
     },
     {
@@ -107,7 +107,7 @@ const faqSchema = {
       name: "Why build a real estate CRM instead of buying Salesforce or HubSpot?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Generic CRMs like Salesforce and HubSpot are built for general sales pipelines â€” not real estate deal cycles, investor relations, or property-specific workflows. Customizing them to work for real estate typically requires expensive consultants, produces fragile implementations, and still results in compromises. A purpose-built CRM is designed from the workflow outward â€” investor fields, deal stages, portfolio structure, and reporting are built in natively, not bolted on.",
+        text: "Generic CRMs like Salesforce and HubSpot are built for general sales pipelines — not real estate deal cycles, investor relations, or property-specific workflows. Customizing them to work for real estate typically requires expensive consultants, produces fragile implementations, and still results in compromises. A purpose-built CRM is designed from the workflow outward — investor fields, deal stages, portfolio structure, and reporting are built in natively, not bolted on.",
       },
     },
   ],
@@ -117,8 +117,8 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://daesontechagency.online" },
-    { "@type": "ListItem", position: 2, name: "Real Estate Infrastructure", item: "https://daesontechagency.online/real-estate" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://daesontechnologies.online" },
+    { "@type": "ListItem", position: 2, name: "Real Estate Infrastructure", item: "https://daesontechnologies.online/real-estate" },
   ],
 };
 
@@ -126,17 +126,17 @@ const features = [
   {
     title: "AI-Powered Lead Intelligence",
     description:
-      "Qualify and prioritize leads automatically using behavioral signals and engagement data. The system surfaces high-intent prospects first, triggers relevant follow-up sequences, and flags leads that are about to go cold â€” without manual scoring.",
+      "Qualify and prioritize leads automatically using behavioral signals and engagement data. The system surfaces high-intent prospects first, triggers relevant follow-up sequences, and flags leads that are about to go cold — without manual scoring.",
   },
   {
     title: "Unified CRM",
     description:
-      "One system for all deals, contacts, and portfolio interactions â€” designed around real estate deal cycles, investor relationships, and property-specific workflows. Not adapted from a generic sales pipeline.",
+      "One system for all deals, contacts, and portfolio interactions — designed around real estate deal cycles, investor relationships, and property-specific workflows. Not adapted from a generic sales pipeline.",
   },
   {
     title: "Investor Dashboard",
     description:
-      "Real-time portfolio visibility for investors. Automated reports, milestone updates, payment tracking, and occupancy data â€” accessible directly without manual emails or spreadsheet exports.",
+      "Real-time portfolio visibility for investors. Automated reports, milestone updates, payment tracking, and occupancy data — accessible directly without manual emails or spreadsheet exports.",
   },
   {
     title: "Payment & Project Tracking",
@@ -146,31 +146,31 @@ const features = [
   {
     title: "Document Management",
     description:
-      "Centralized, searchable document storage with version control, e-signature integration, and access controls â€” organized around deals, investors, and properties rather than generic folders.",
+      "Centralized, searchable document storage with version control, e-signature integration, and access controls — organized around deals, investors, and properties rather than generic folders.",
   },
   {
     title: "Executive Analytics",
     description:
-      "AI-powered operational dashboards that give leadership real-time visibility across portfolio performance, deal pipeline, team activity, and investor relations â€” from a single executive view.",
+      "AI-powered operational dashboards that give leadership real-time visibility across portfolio performance, deal pipeline, team activity, and investor relations — from a single executive view.",
   },
 ];
 
 const faqs = [
   {
     q: "Why do real estate brokerages struggle with fragmented operations?",
-    a: "Most brokerages use 5â€“10 disconnected tools for CRM, lead management, investor communication, project tracking, and reporting â€” none built for real estate. Data lives in silos, reporting requires manual aggregation, and leadership has no real-time visibility. This fragmentation slows execution, reduces investor confidence, and creates operational risk that scales with portfolio growth.",
+    a: "Most brokerages use 5–10 disconnected tools for CRM, lead management, investor communication, project tracking, and reporting — none built for real estate. Data lives in silos, reporting requires manual aggregation, and leadership has no real-time visibility. This fragmentation slows execution, reduces investor confidence, and creates operational risk that scales with portfolio growth.",
   },
   {
     q: "How does AI lead intelligence work in real estate?",
-    a: "AI lead intelligence automatically qualifies and prioritizes incoming leads based on behavioral signals, property interest patterns, budget indicators, and engagement data. Instead of agents working every lead equally, the system surfaces high-intent prospects first, triggers relevant follow-up sequences, and flags leads about to go cold â€” improving conversion rates without increasing headcount.",
+    a: "AI lead intelligence automatically qualifies and prioritizes incoming leads based on behavioral signals, property interest patterns, budget indicators, and engagement data. Instead of agents working every lead equally, the system surfaces high-intent prospects first, triggers relevant follow-up sequences, and flags leads about to go cold — improving conversion rates without increasing headcount.",
   },
   {
     q: "Why build a real estate CRM instead of buying Salesforce or HubSpot?",
-    a: "Generic CRMs are built for general sales pipelines â€” not real estate deal cycles, investor relations, or property-specific workflows. Customizing them for real estate typically requires expensive consultants, produces fragile implementations, and still results in compromises. A purpose-built CRM is designed from the workflow outward â€” investor fields, deal stages, portfolio structure, and reporting are native, not bolted on.",
+    a: "Generic CRMs are built for general sales pipelines — not real estate deal cycles, investor relations, or property-specific workflows. Customizing them for real estate typically requires expensive consultants, produces fragile implementations, and still results in compromises. A purpose-built CRM is designed from the workflow outward — investor fields, deal stages, portfolio structure, and reporting are native, not bolted on.",
   },
   {
     q: "How does investor reporting work in an operational infrastructure platform?",
-    a: "Investor reporting is automated and real-time. Portfolio performance, payment schedules, milestone progress, and occupancy data are aggregated automatically into investor dashboards. Reports generate on schedule without manual work, and investors access their information directly rather than waiting for email updates â€” eliminating a major source of operational overhead for growing firms.",
+    a: "Investor reporting is automated and real-time. Portfolio performance, payment schedules, milestone progress, and occupancy data are aggregated automatically into investor dashboards. Reports generate on schedule without manual work, and investors access their information directly rather than waiting for email updates — eliminating a major source of operational overhead for growing firms.",
   },
   {
     q: "What real estate markets does Daeson Technologies serve?",
@@ -198,7 +198,7 @@ export default function RealEstatePage() {
         <div className="absolute inset-0 grid-bg opacity-15 pointer-events-none" />
         <div
           className="absolute top-24 right-0 w-[500px] h-[500px] rounded-full pointer-events-none"
-          style={{ background: "radial-gradient(circle, rgba(59,106,255,0.04) 0%, transparent 70%)", filter: "blur(120px)" }}
+          style={{ background: "radial-gradient(circle, rgba(255,255,255,0.05) 0%, transparent 70%)", filter: "blur(120px)" }}
         />
 
         {/* Hero */}
@@ -222,7 +222,7 @@ export default function RealEstatePage() {
               style={{ color: "var(--text-secondary)" }}
             >
               Real estate firms with portfolio complexity, investor relationships, and multi-market operations
-              need owned infrastructure â€” not another SaaS subscription built for generic sales teams.
+              need owned infrastructure — not another SaaS subscription built for generic sales teams.
             </p>
 
             {/* GEO answer block */}
@@ -240,8 +240,8 @@ export default function RealEstatePage() {
               </p>
               <p className="text-[13px] leading-relaxed" style={{ color: "var(--text-secondary)" }}>
                 Real estate operational infrastructure refers to owned, purpose-built digital systems that
-                power the core operations of a property firm â€” CRM, investor reporting, payment tracking,
-                AI lead intelligence, and executive analytics â€” integrated into a single platform aligned
+                power the core operations of a property firm — CRM, investor reporting, payment tracking,
+                AI lead intelligence, and executive analytics — integrated into a single platform aligned
                 to how the firm actually operates. Unlike generic SaaS, it is owned outright and built
                 around specific workflows.
               </p>
@@ -250,8 +250,8 @@ export default function RealEstatePage() {
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
                 href="/contact"
-                className="inline-flex items-center gap-2 px-6 py-3.5 text-white text-[14px] font-semibold rounded-xl transition-colors"
-                style={{ backgroundColor: "var(--blue)" }}
+                className="inline-flex items-center gap-2 px-6 py-3.5 text-[14px] font-semibold rounded-xl transition-colors"
+                style={{ backgroundColor: "var(--blue)", color: "var(--on-blue)" }}
               >
                 Schedule Consultation <ArrowRight size={14} />
               </Link>
@@ -267,6 +267,7 @@ export default function RealEstatePage() {
         </section>
 
         {/* Problem vs Solution */}
+        <div className="section-light">
         <section
           className="relative py-20 border-y"
           style={{ backgroundColor: "var(--bg-surface)", borderColor: "var(--border)" }}
@@ -280,7 +281,7 @@ export default function RealEstatePage() {
                 Why Real Estate Firms Struggle with Fragmented Systems
               </h2>
               <p className="text-[14px] max-w-xl leading-relaxed" style={{ color: "var(--text-secondary)" }}>
-                The core problem is not a lack of software â€” it is software that was never designed for
+                The core problem is not a lack of software — it is software that was never designed for
                 how real estate firms actually operate.
               </p>
             </div>
@@ -312,11 +313,11 @@ export default function RealEstatePage() {
                 <div className="space-y-3">
                   {[
                     "CRM designed around your deal workflow, portfolio structure, and investor model",
-                    "Investor dashboards with real-time data â€” no manual reporting",
+                    "Investor dashboards with real-time data — no manual reporting",
                     "Integrated payment schedules and milestone tracking across all projects",
                     "Unified lead intelligence across all acquisition channels",
                     "AI analytics and executive reporting built into the platform",
-                    "Owned codebase â€” no vendor dependency, no per-seat licensing",
+                    "Owned codebase — no vendor dependency, no per-seat licensing",
                   ].map((s) => (
                     <div key={s} className="flex items-start gap-3 text-[14px]" style={{ color: "var(--text-secondary)" }}>
                       <span className="mt-1.5 w-1.5 h-1.5 rounded-full shrink-0" style={{ backgroundColor: "var(--blue)" }} />
@@ -328,6 +329,7 @@ export default function RealEstatePage() {
             </div>
           </div>
         </section>
+        </div>
 
         {/* Comparison table */}
         <section className="relative py-16" style={{ backgroundColor: "var(--bg-page)" }}>
@@ -356,7 +358,7 @@ export default function RealEstatePage() {
                 { factor: "Workflow alignment", owned: "Built around your specific processes", saas: "Your processes adapt to the software" },
                 { factor: "AI capability", owned: "Trained on your operational data", saas: "Generic AI features, no customization" },
                 { factor: "Integration", owned: "Built to connect your entire stack", saas: "Connector fees, Zapier workarounds" },
-                { factor: "Long-term cost", owned: "Lower after 2â€“3 years", saas: "Increases with team growth and features" },
+                { factor: "Long-term cost", owned: "Lower after 2–3 years", saas: "Increases with team growth and features" },
               ].map((row, i) => (
                 <div
                   key={row.factor}
@@ -376,6 +378,7 @@ export default function RealEstatePage() {
         </section>
 
         {/* Features */}
+        <div className="section-light">
         <section
           className="relative py-20 border-y"
           style={{ backgroundColor: "var(--bg-surface)", borderColor: "var(--border)" }}
@@ -395,7 +398,7 @@ export default function RealEstatePage() {
                 Built for Real Estate Operations
               </h2>
               <p className="text-[15px] max-w-xl leading-relaxed" style={{ color: "var(--text-secondary)" }}>
-                Every module is designed around real estate workflows â€” not adapted from generic enterprise software.
+                Every module is designed around real estate workflows — not adapted from generic enterprise software.
                 The result is infrastructure that works the way your business works.
               </p>
             </div>
@@ -424,6 +427,7 @@ export default function RealEstatePage() {
             </div>
           </div>
         </section>
+        </div>
 
         {/* FAQ */}
         <section className="relative py-20" style={{ backgroundColor: "var(--bg-page)" }}>
@@ -487,8 +491,8 @@ export default function RealEstatePage() {
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link
                   href="/contact"
-                  className="inline-flex items-center justify-center gap-2 px-6 py-3.5 text-white text-[14px] font-semibold rounded-xl transition-colors"
-                  style={{ backgroundColor: "var(--blue)" }}
+                  className="inline-flex items-center justify-center gap-2 px-6 py-3.5 text-[14px] font-semibold rounded-xl transition-colors"
+                  style={{ backgroundColor: "var(--blue)", color: "var(--on-blue)" }}
                 >
                   Schedule Consultation <ArrowRight size={14} />
                 </Link>

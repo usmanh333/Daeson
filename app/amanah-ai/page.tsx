@@ -2,12 +2,12 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Download, FileText } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Amanah AI â€” Islamic Finance Shariah Compliance Infrastructure",
+  title: "Amanah AI — Islamic Finance Shariah Compliance Infrastructure",
   description:
-    "Amanah AI is Daeson Technologies' AI-powered infrastructure platform for Islamic financial institutions. It automates Shariah compliance workflows including Murabaha contract analysis, governance documentation, and scholar review queues â€” currently in strategic development with Shariah advisory collaboration.",
+    "Amanah AI is Daeson Technologies' AI-powered infrastructure platform for Islamic financial institutions. It automates Shariah compliance workflows including Murabaha contract analysis, governance documentation, and scholar review queues — currently in strategic development with Shariah advisory collaboration.",
   keywords: [
     "Amanah AI",
     "Islamic finance AI",
@@ -21,13 +21,13 @@ export const metadata: Metadata = {
     "Daeson Technologies",
   ],
   openGraph: {
-    title: "Amanah AI â€” Islamic Finance Shariah Compliance Infrastructure | Daeson Technologies",
+    title: "Amanah AI — Islamic Finance Shariah Compliance Infrastructure | Daeson Technologies",
     description:
-      "AI-powered Shariah compliance infrastructure for Islamic financial institutions. Automates Murabaha contract analysis, governance documentation, and compliance audit trails â€” in strategic development with Shariah advisory collaboration.",
-    url: "https://daesontechagency.online/amanah-ai",
+      "AI-powered Shariah compliance infrastructure for Islamic financial institutions. Automates Murabaha contract analysis, governance documentation, and compliance audit trails — in strategic development with Shariah advisory collaboration.",
+    url: "https://daesontechnologies.online/amanah-ai",
   },
   alternates: {
-    canonical: "https://daesontechagency.online/amanah-ai",
+    canonical: "https://daesontechnologies.online/amanah-ai",
   },
 };
 
@@ -40,7 +40,7 @@ const faqSchema = {
       name: "What is Amanah AI?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Amanah AI is Daeson Technologies' AI-powered infrastructure platform for Islamic financial institutions. It automates Shariah compliance workflows â€” including Murabaha contract analysis, governance documentation, scholar review queues, and regulatory reporting. It is currently in strategic development in collaboration with Shariah advisory expertise.",
+        text: "Amanah AI is Daeson Technologies' AI-powered infrastructure platform for Islamic financial institutions. It automates Shariah compliance workflows — including Murabaha contract analysis, governance documentation, scholar review queues, and regulatory reporting. It is currently in strategic development in collaboration with Shariah advisory expertise.",
       },
     },
     {
@@ -48,7 +48,7 @@ const faqSchema = {
       name: "What is Murabaha workflow digitization?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Murabaha workflow digitization refers to replacing manual, paper-based Murabaha financing processes with structured digital workflows. This includes automated contract parsing, compliance checklist execution, documentation generation, and audit trail creation â€” allowing Islamic financial institutions to process contracts faster with consistent Shariah alignment and full auditability.",
+        text: "Murabaha workflow digitization refers to replacing manual, paper-based Murabaha financing processes with structured digital workflows. This includes automated contract parsing, compliance checklist execution, documentation generation, and audit trail creation — allowing Islamic financial institutions to process contracts faster with consistent Shariah alignment and full auditability.",
       },
     },
     {
@@ -56,7 +56,7 @@ const faqSchema = {
       name: "How does AI support Shariah compliance without replacing scholars?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "AI supports Shariah compliance by automating the operational burden â€” document parsing, contract classification, risk flagging, and compliance report generation â€” so Shariah scholars can focus on substantive jurisprudential decisions rather than manual review. The scholar remains the final governance authority; AI provides structured, consistent information to inform their judgment.",
+        text: "AI supports Shariah compliance by automating the operational burden — document parsing, contract classification, risk flagging, and compliance report generation — so Shariah scholars can focus on substantive jurisprudential decisions rather than manual review. The scholar remains the final governance authority; AI provides structured, consistent information to inform their judgment.",
       },
     },
     {
@@ -89,12 +89,12 @@ const faqSchema = {
 const webPageSchema = {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "@id": "https://daesontechagency.online/amanah-ai",
-  url: "https://daesontechagency.online/amanah-ai",
-  name: "Amanah AI â€” Islamic Finance Shariah Compliance Infrastructure",
+  "@id": "https://daesontechnologies.online/amanah-ai",
+  url: "https://daesontechnologies.online/amanah-ai",
+  name: "Amanah AI — Islamic Finance Shariah Compliance Infrastructure",
   description:
     "AI-powered Shariah compliance infrastructure for Islamic financial institutions. Automates Murabaha contract analysis, governance documentation, and compliance audit trails.",
-  isPartOf: { "@id": "https://daesontechagency.online/#website" },
+  isPartOf: { "@id": "https://daesontechnologies.online/#website" },
   about: {
     "@type": "SoftwareApplication",
     name: "Amanah AI",
@@ -103,7 +103,7 @@ const webPageSchema = {
     creator: {
       "@type": "Organization",
       name: "Daeson Technologies",
-      url: "https://daesontechagency.online",
+      url: "https://daesontechnologies.online",
     },
     description:
       "AI-assisted Shariah compliance infrastructure for Islamic financial institutions. Automates contract analysis, governance documentation, and scholar review queues.",
@@ -123,13 +123,13 @@ const capabilities = [
     title: "Murabaha Contract Analysis",
     color: "#D4AF37",
     description:
-      "Structured parsing and compliance review of Murabaha financing contracts. The system identifies clause-level compliance gaps, flags discrepancies, and generates structured review documentation for scholar approval â€” replacing manual reading with consistent, auditable analysis.",
+      "Structured parsing and compliance review of Murabaha financing contracts. The system identifies clause-level compliance gaps, flags discrepancies, and generates structured review documentation for scholar approval — replacing manual reading with consistent, auditable analysis.",
   },
   {
     title: "Scholar Governance Documentation",
     color: "#D4AF37",
     description:
-      "Automated generation of Shariah board documentation, fatwa reference mapping, and governance audit reports. Scholars receive structured briefing packages rather than raw contracts â€” reducing review time while improving documentation quality.",
+      "Automated generation of Shariah board documentation, fatwa reference mapping, and governance audit reports. Scholars receive structured briefing packages rather than raw contracts — reducing review time while improving documentation quality.",
   },
   {
     title: "Compliance Audit Trail",
@@ -147,13 +147,13 @@ const capabilities = [
     title: "Islamic Finance Risk Flagging",
     color: "#D4AF37",
     description:
-      "AI-powered identification of Shariah non-compliance risks in financing structures, contract terms, and operational workflows â€” surfaced as structured alerts for compliance teams and scholars before contract execution.",
+      "AI-powered identification of Shariah non-compliance risks in financing structures, contract terms, and operational workflows — surfaced as structured alerts for compliance teams and scholars before contract execution.",
   },
   {
     title: "Ijarah & Sukuk Workflow Support",
     color: "#D4AF37",
     description:
-      "Workflow infrastructure extending beyond Murabaha to support Ijarah lease documentation, Sukuk issuance compliance, and Wakala agency contract management â€” purpose-built for the full spectrum of Islamic financial products.",
+      "Workflow infrastructure extending beyond Murabaha to support Ijarah lease documentation, Sukuk issuance compliance, and Wakala agency contract management — purpose-built for the full spectrum of Islamic financial products.",
   },
 ];
 
@@ -178,15 +178,15 @@ const outcomes = [
 const faqs = [
   {
     q: "What is Amanah AI?",
-    a: "Amanah AI is Daeson Technologies' AI-powered infrastructure platform for Islamic financial institutions. It automates Shariah compliance workflows â€” including Murabaha contract analysis, governance documentation, scholar review queues, and regulatory reporting. It is currently in strategic development in collaboration with Shariah advisory expertise.",
+    a: "Amanah AI is Daeson Technologies' AI-powered infrastructure platform for Islamic financial institutions. It automates Shariah compliance workflows — including Murabaha contract analysis, governance documentation, scholar review queues, and regulatory reporting. It is currently in strategic development in collaboration with Shariah advisory expertise.",
   },
   {
     q: "What is Murabaha workflow digitization and why does it matter?",
-    a: "Murabaha is one of the most common Islamic financing structures, involving a cost-plus-profit sale arrangement. In most institutions, Murabaha workflows remain largely manual â€” contracts reviewed line-by-line, documentation compiled manually, scholar approval tracked through email. Digitization means replacing this with structured, automated workflows that parse contracts, execute compliance checklists, generate documentation, and maintain full audit trails â€” making the process faster, more consistent, and auditable at scale.",
+    a: "Murabaha is one of the most common Islamic financing structures, involving a cost-plus-profit sale arrangement. In most institutions, Murabaha workflows remain largely manual — contracts reviewed line-by-line, documentation compiled manually, scholar approval tracked through email. Digitization means replacing this with structured, automated workflows that parse contracts, execute compliance checklists, generate documentation, and maintain full audit trails — making the process faster, more consistent, and auditable at scale.",
   },
   {
     q: "How does AI support Shariah compliance without replacing scholars?",
-    a: "AI supports Shariah compliance by automating the operational layer â€” document parsing, contract classification, risk flagging, and compliance report generation â€” so Shariah scholars can focus on substantive jurisprudential decisions. The scholar remains the final governance authority; AI provides structured, consistent information to inform their judgment rather than replacing it. This is the same role a well-trained compliance analyst plays, but at greater scale and consistency.",
+    a: "AI supports Shariah compliance by automating the operational layer — document parsing, contract classification, risk flagging, and compliance report generation — so Shariah scholars can focus on substantive jurisprudential decisions. The scholar remains the final governance authority; AI provides structured, consistent information to inform their judgment rather than replacing it. This is the same role a well-trained compliance analyst plays, but at greater scale and consistency.",
   },
   {
     q: "Is Amanah AI currently available?",
@@ -194,11 +194,11 @@ const faqs = [
   },
   {
     q: "What Islamic financial products does Amanah AI support?",
-    a: "The platform is being designed to support Murabaha financing workflows, Ijarah (lease-based financing) documentation, Sukuk compliance reporting, Wakala (agency) contract management, and general Shariah governance audit infrastructure â€” intended for Islamic banks, Islamic fintech companies, investment funds, and payment institutions.",
+    a: "The platform is being designed to support Murabaha financing workflows, Ijarah (lease-based financing) documentation, Sukuk compliance reporting, Wakala (agency) contract management, and general Shariah governance audit infrastructure — intended for Islamic banks, Islamic fintech companies, investment funds, and payment institutions.",
   },
   {
     q: "Who is Daeson Technologies working with on Shariah advisory?",
-    a: "Daeson Technologies is developing Amanah AI in strategic collaboration with Alhamd Shariah Advisory â€” a dedicated Shariah advisory firm. This ensures the compliance infrastructure is developed with substantive scholarly input, not built as a pure technology product and then validated. The advisory relationship covers contract analysis logic, governance documentation structure, and compliance framework design.",
+    a: "Daeson Technologies is developing Amanah AI in strategic collaboration with Alhamd Shariah Advisory — a dedicated Shariah advisory firm. This ensures the compliance infrastructure is developed with substantive scholarly input, not built as a pure technology product and then validated. The advisory relationship covers contract analysis logic, governance documentation structure, and compliance framework design.",
   },
 ];
 
@@ -243,13 +243,13 @@ export default function AmanahAIPage() {
               className="text-[17px] leading-relaxed mb-6 max-w-2xl"
               style={{ color: "var(--text-secondary)" }}
             >
-              Amanah AI is an AI-powered operational platform for Islamic financial institutions â€”
+              Amanah AI is an AI-powered operational platform for Islamic financial institutions —
               automating Murabaha contract analysis, Shariah governance documentation, scholar review
               workflows, and compliance audit trails. Currently in strategic development with Shariah
               advisory collaboration.
             </p>
 
-            {/* GEO snippet â€” Answer block */}
+            {/* GEO snippet — Answer block */}
             <div
               className="rounded-xl p-5 mb-8 border-l-4"
               style={{
@@ -265,7 +265,7 @@ export default function AmanahAIPage() {
               <p className="text-[13px] leading-relaxed" style={{ color: "var(--text-secondary)" }}>
                 Amanah AI is Daeson Technologies&apos; AI-powered compliance infrastructure platform for
                 Islamic financial institutions. It automates the operational layer of Shariah compliance
-                â€” contract parsing, documentation, scholar review queues â€” so scholars can focus on
+                — contract parsing, documentation, scholar review queues — so scholars can focus on
                 jurisprudential judgment rather than manual document review.
               </p>
             </div>
@@ -332,7 +332,7 @@ export default function AmanahAIPage() {
                 Why Islamic Finance Workflows Remain Manual
               </h2>
               <p className="text-[15px] max-w-2xl leading-relaxed" style={{ color: "var(--text-secondary)" }}>
-                Most Islamic financial institutions rely on manual processes for Shariah compliance â€” not because
+                Most Islamic financial institutions rely on manual processes for Shariah compliance — not because
                 scholars prefer it, but because purpose-built infrastructure has not existed. The result is
                 bottlenecks, inconsistency, and audit exposure.
               </p>
@@ -403,14 +403,14 @@ export default function AmanahAIPage() {
                     <strong style={{ color: "var(--text-primary)" }}>Murabaha workflow digitization</strong> refers
                     to replacing manual, paper-based Murabaha financing processes with structured digital workflows.
                     Murabaha is a cost-plus-profit sale arrangement that is one of the most common structures in
-                    Islamic finance â€” used for home financing, vehicle purchase, commodity financing, and trade
+                    Islamic finance — used for home financing, vehicle purchase, commodity financing, and trade
                     finance.
                   </p>
                   <p className="text-[14px] leading-[1.8]" style={{ color: "var(--text-secondary)" }}>
                     In most institutions, Murabaha compliance is managed manually: contracts reviewed line-by-line
                     by compliance teams, documentation compiled manually, scholar approval tracked through email
                     threads. Digitization replaces this with structured, automated workflows that parse contracts,
-                    execute compliance checklists, generate documentation, and maintain full audit trails â€”
+                    execute compliance checklists, generate documentation, and maintain full audit trails —
                     making Murabaha processing faster, more consistent, and fully auditable.
                   </p>
                 </div>
@@ -439,7 +439,7 @@ export default function AmanahAIPage() {
                 Infrastructure Built for Islamic Finance Operations
               </h2>
               <p className="text-[15px] max-w-2xl leading-relaxed" style={{ color: "var(--text-secondary)" }}>
-                Every capability is designed around the operational realities of Shariah compliance â€” not adapted
+                Every capability is designed around the operational realities of Shariah compliance — not adapted
                 from generic compliance tools. The system works with scholars, not around them.
               </p>
             </div>
@@ -492,7 +492,7 @@ export default function AmanahAIPage() {
                   </h2>
                   <p className="text-[14px] leading-[1.8] mb-4" style={{ color: "var(--text-secondary)" }}>
                     Amanah AI is being developed in strategic collaboration with{" "}
-                    <strong style={{ color: "var(--text-primary)" }}>Alhamd Shariah Advisory</strong> â€” a dedicated
+                    <strong style={{ color: "var(--text-primary)" }}>Alhamd Shariah Advisory</strong> — a dedicated
                     Shariah advisory firm. This partnership ensures that the compliance infrastructure is developed
                     with substantive scholarly input from the beginning, not built as a pure technology product and
                     validated afterwards.
@@ -513,9 +513,9 @@ export default function AmanahAIPage() {
                 <div className="space-y-4">
                   {[
                     { label: "Advisory scope", value: "Contract analysis logic, governance documentation, compliance framework" },
-                    { label: "Collaboration type", value: "Strategic advisory â€” scholarly input throughout development" },
+                    { label: "Collaboration type", value: "Strategic advisory — scholarly input throughout development" },
                     { label: "Standard alignment", value: "AAOIFI guidelines, market-specific Shariah board requirements" },
-                    { label: "Platform status", value: "In development â€” not yet commercially deployed" },
+                    { label: "Platform status", value: "In development — not yet commercially deployed" },
                   ].map((item) => (
                     <div
                       key={item.label}
@@ -532,6 +532,96 @@ export default function AmanahAIPage() {
                   ))}
                 </div>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* ── WHITEPAPER DOWNLOADS ── */}
+        <section className="relative py-20" style={{ backgroundColor: "var(--bg-page)", borderTop: "1px solid var(--border)" }}>
+          <div className="max-w-7xl mx-auto px-6">
+            <div className="mb-12">
+              <div
+                className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-[11px] font-semibold tracking-widest uppercase mb-5"
+                style={{ border: "1px solid rgba(212,175,55,0.25)", backgroundColor: "rgba(212,175,55,0.06)", color: "var(--gold)" }}
+              >
+                <FileText size={10} /> Research & Whitepapers
+              </div>
+              <h2 className="text-[28px] md:text-[34px] font-bold tracking-tight mb-4" style={{ color: "var(--text-primary)" }}>
+                Published Research on Islamic Finance AI
+              </h2>
+              <p className="text-[15px] leading-relaxed max-w-2xl" style={{ color: "var(--text-secondary)" }}>
+                Our published research explores the technology gap in Islamic finance and the role AI can play
+                in Shariah compliance infrastructure. Download directly — no sign-up required.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-3 gap-6">
+              {[
+                {
+                  title: "AI and Shariah Compliance in the Next Generation of Financial Technology",
+                  desc: "An in-depth look at how AI is reshaping Shariah compliance infrastructure — covering governance frameworks, contract analysis automation, and the regulatory implications for next-generation Islamic fintech.",
+                  audience: "Islamic bank executives, Shariah compliance officers",
+                  href: "/whitepapers/whitepaper-shariah-ai-compliance.pdf",
+                  tag: "Shariah AI",
+                },
+                {
+                  title: "The Rise of AI Financial Copilots for SMEs in the GCC",
+                  desc: "How AI-powered financial copilots are transforming SME access to financial intelligence and working capital management across the Gulf Cooperation Council markets.",
+                  audience: "SME operators, fintech investors, GCC financial institutions",
+                  href: "/whitepapers/whitepaper-ai-financial-copilots-gcc.pdf",
+                  tag: "GCC Fintech",
+                },
+                {
+                  title: "The Infrastructure Gap in SME Digital Finance in the GCC",
+                  desc: "A data-driven assessment of the technology infrastructure deficit facing SMEs across GCC markets — examining the gap between enterprise-grade tools and what small businesses can actually access.",
+                  audience: "Policymakers, fintech operators, GCC banking executives",
+                  href: "/whitepapers/whitepaper-sme-digital-finance-gap.pdf",
+                  tag: "Infrastructure",
+                },
+              ].map((wp) => (
+                <div
+                  key={wp.title}
+                  className="rounded-2xl p-7 flex flex-col"
+                  style={{
+                    backgroundColor: "var(--bg-surface)",
+                    border: "1px solid var(--border)",
+                  }}
+                >
+                  <span
+                    className="self-start text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-widest mb-4"
+                    style={{ backgroundColor: "rgba(212,175,55,0.08)", color: "var(--gold)", border: "1px solid rgba(212,175,55,0.20)" }}
+                  >
+                    {wp.tag}
+                  </span>
+                  <h3 className="text-[15px] font-bold leading-snug mb-3 flex-1" style={{ color: "var(--text-primary)" }}>
+                    {wp.title}
+                  </h3>
+                  <p className="text-[12px] leading-relaxed mb-3" style={{ color: "var(--text-secondary)" }}>
+                    {wp.desc}
+                  </p>
+                  <p className="text-[11px] mb-5" style={{ color: "var(--text-faint)" }}>
+                    <span className="font-semibold">For:</span> {wp.audience}
+                  </p>
+                  <a
+                    href={wp.href}
+                    download
+                    className="inline-flex items-center gap-2 px-5 py-3 text-[13px] font-bold rounded-xl transition-all hover:opacity-90 mt-auto"
+                    style={{ backgroundColor: "var(--gold)", color: "white" }}
+                  >
+                    <Download size={14} /> Download PDF
+                  </a>
+                </div>
+              ))}
+            </div>
+
+            <div className="mt-8 text-center">
+              <Link
+                href="/research"
+                className="inline-flex items-center gap-2 text-[13px] font-semibold transition-colors"
+                style={{ color: "var(--blue)" }}
+              >
+                View full Research Center <ArrowRight size={13} />
+              </Link>
             </div>
           </div>
         </section>

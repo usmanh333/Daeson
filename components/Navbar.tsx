@@ -5,7 +5,6 @@ import { motion, AnimatePresence } from "framer-motion";
 import { ChevronDown, Menu, X, ArrowRight } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
-import { useTheme } from "@/app/components/ThemeProvider";
 
 const solutions = [
   {
@@ -52,84 +51,11 @@ const navLinks = [
   { label: "Contact", href: "/contact" },
 ];
 
-function ThemeToggle() {
-  const { theme, setTheme } = useTheme();
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(() => { setMounted(true); }, []);
-
-  if (!mounted) {
-    return (
-      <div className="flex items-center h-7 rounded-lg px-0.5 w-[116px]" style={{ backgroundColor: "var(--bg-elevated)", border: "1px solid var(--border)" }} />
-    );
-  }
-
-  return (
-    <div
-      className="relative flex items-center h-7 rounded-lg px-0.5 gap-0.5"
-      style={{ backgroundColor: "var(--bg-elevated)", border: "1px solid var(--border)" }}
-      role="group"
-      aria-label="Theme switcher"
-    >
-      <button
-        onClick={() => setTheme("dark")}
-        className={`relative z-10 flex items-center gap-1.5 px-2.5 h-6 rounded-md text-[11px] font-semibold transition-all duration-200 ${
-          theme === "dark"
-            ? "text-white"
-            : "text-[var(--text-muted)] hover:text-[var(--text-secondary)]"
-        }`}
-        aria-pressed={theme === "dark"}
-      >
-        {theme === "dark" && (
-          <motion.span
-            layoutId="theme-pill"
-            className="absolute inset-0 rounded-md"
-            style={{ backgroundColor: "var(--blue)" }}
-            transition={{ type: "spring", stiffness: 400, damping: 30 }}
-          />
-        )}
-        <span className="relative z-10 flex items-center gap-1">
-          <svg width="9" height="9" viewBox="0 0 9 9" fill="currentColor" aria-hidden="true">
-            <path d="M4.5 1.5C4.5 1.5 6.5 2.5 6.5 4.5C6.5 6.5 4.5 7.5 4.5 7.5C4.5 7.5 2.5 6.5 2.5 4.5C2.5 2.5 4.5 1.5 4.5 1.5Z" opacity="0.4"/>
-            <path fillRule="evenodd" clipRule="evenodd" d="M4.5 0C4.5 0 7.5 1.34 7.5 4.5C7.5 7.66 4.5 9 4.5 9C4.5 9 1.5 7.66 1.5 4.5C1.5 1.34 4.5 0 4.5 0ZM4.5 1.5C3.12 1.5 2 2.79 2 4.5C2 6.21 3.12 7.5 4.5 7.5C5.88 7.5 7 6.21 7 4.5C7 2.79 5.88 1.5 4.5 1.5Z"/>
-          </svg>
-          Dark
-        </span>
-      </button>
-
-      <button
-        onClick={() => setTheme("light")}
-        className={`relative z-10 flex items-center gap-1.5 px-2.5 h-6 rounded-md text-[11px] font-semibold transition-all duration-200 ${
-          theme === "light"
-            ? "text-[var(--text-primary)]"
-            : "text-[var(--text-muted)] hover:text-[var(--text-secondary)]"
-        }`}
-        aria-pressed={theme === "light"}
-      >
-        {theme === "light" && (
-          <motion.span
-            layoutId="theme-pill"
-            className="absolute inset-0 rounded-md"
-            style={{ backgroundColor: "var(--bg-surface)", border: "1px solid var(--border)" }}
-            transition={{ type: "spring", stiffness: 400, damping: 30 }}
-          />
-        )}
-        <span className="relative z-10 flex items-center gap-1">
-          <svg width="9" height="9" viewBox="0 0 9 9" fill="currentColor" aria-hidden="true">
-            <circle cx="4.5" cy="4.5" r="2"/>
-            <path d="M4.5 0.5V1.5M4.5 7.5V8.5M0.5 4.5H1.5M7.5 4.5H8.5M1.7 1.7L2.4 2.4M6.6 6.6L7.3 7.3M7.3 1.7L6.6 2.4M2.4 6.6L1.7 7.3" stroke="currentColor" strokeWidth="1" strokeLinecap="round"/>
-          </svg>
-          Light
-        </span>
-      </button>
-    </div>
-  );
-}
-
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const [solutionsOpen, setSolutionsOpen] = useState(false);
+  const [announced, setAnnounced] = useState(true);
   const solutionsRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -155,27 +81,70 @@ export default function Navbar() {
 
   return (
     <>
+      {/* Announcement Bar */}
+      {announced && (
+        <div
+          className="w-full text-center py-2 px-4 relative"
+          style={{ background: "rgba(255,255,255,0.06)", borderBottom: "1px solid rgba(255,255,255,0.12)" }}
+        >
+          <span className="text-[12px] font-medium hidden sm:inline" style={{ color: "rgba(255,255,255,0.75)" }}>
+            Daeson Technologies · Enterprise Technology Company · UAE · Pakistan · Canada
+          </span>
+          <span className="text-[11px] font-medium sm:hidden" style={{ color: "rgba(255,255,255,0.75)" }}>
+            Daeson Technologies · Enterprise Technology Company
+          </span>
+          <button
+            onClick={() => setAnnounced(false)}
+            className="absolute right-4 top-1/2 -translate-y-1/2 opacity-50 hover:opacity-100 transition-opacity"
+            style={{ color: "#FFFFFF" }}
+            aria-label="Dismiss announcement"
+          >
+            <X size={14} />
+          </button>
+        </div>
+      )}
+
       <header
-        className="fixed top-0 left-0 right-0 z-50 transition-all duration-300"
+        className="sticky top-0 left-0 right-0 z-50 transition-all duration-300"
         style={{
-          backgroundColor: scrolled ? "var(--bg-page)" : "transparent",
+          backgroundColor: scrolled ? "var(--bg-page)" : "var(--bg-page)",
           backdropFilter: scrolled ? "blur(16px)" : "none",
           WebkitBackdropFilter: scrolled ? "blur(16px)" : "none",
-          borderBottom: scrolled ? "1px solid var(--border)" : "1px solid transparent",
+          borderBottom: scrolled ? "1px solid var(--border)" : "1px solid var(--border)",
         }}
       >
         <nav className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 group">
-            <div
-              className="w-8 h-8 rounded-lg flex items-center justify-center flex-shrink-0"
-              style={{ background: "linear-gradient(135deg, var(--blue) 0%, #1A45CC 100%)" }}
-            >
-              <Image src="/logo.png" alt="Daeson" width={20} height={20} className="object-contain" unoptimized />
+            <div className="relative w-9 h-9 flex items-center justify-center shrink-0">
+              {/* Subtle glow behind logo */}
+              <div
+                className="absolute inset-0 rounded-full transition-opacity duration-300 opacity-0 group-hover:opacity-100"
+                style={{ background: "radial-gradient(circle, rgba(255,255,255,0.35) 0%, transparent 70%)", filter: "blur(10px)" }}
+              />
+              <Image
+                src="/logo.png"
+                alt="Daeson Technologies"
+                width={34}
+                height={34}
+                className="object-contain relative z-10 transition-transform duration-200 group-hover:scale-110"
+                style={{ filter: "brightness(0) invert(1)" }}
+                unoptimized
+              />
             </div>
-            <div className="flex flex-col leading-none">
-              <span className="text-[13px] font-bold tracking-[0.12em] uppercase" style={{ color: "var(--text-primary)" }}>Daeson</span>
-              <span className="text-[9px] font-medium tracking-[0.18em] uppercase" style={{ color: "var(--text-muted)" }}>Technologies</span>
+            <div className="hidden sm:flex flex-col gap-[3px] leading-none">
+              <span
+                className="text-[16px] font-bold tracking-[0.06em] uppercase"
+                style={{ color: "var(--text-primary)", lineHeight: 1 }}
+              >
+                Daeson
+              </span>
+              <span
+                className="text-[7.5px] font-semibold tracking-[0.32em] uppercase"
+                style={{ color: "var(--text-faint)", lineHeight: 1 }}
+              >
+                Technologies
+              </span>
             </div>
           </Link>
 
@@ -268,15 +237,15 @@ export default function Navbar() {
             ))}
           </div>
 
-          {/* Right — Theme + CTA */}
+          {/* Right — CTA */}
           <div className="hidden md:flex items-center gap-3">
-            <ThemeToggle />
             <Link
               href="/contact"
-              className="flex items-center gap-2 px-4 py-2 text-[13px] font-semibold text-white rounded-lg transition-all duration-200"
+              className="flex items-center gap-2 px-4 py-2 text-[13px] font-semibold rounded-lg transition-all duration-200"
               style={{
                 backgroundColor: "var(--blue)",
-                boxShadow: "0 2px 12px rgba(59, 106, 255, 0.25)",
+                color: "var(--on-blue)",
+                boxShadow: "0 2px 12px rgba(0, 0, 0, 0.35)",
               }}
               onMouseEnter={e => ((e.currentTarget as HTMLElement).style.backgroundColor = "var(--blue-hover)")}
               onMouseLeave={e => ((e.currentTarget as HTMLElement).style.backgroundColor = "var(--blue)")}
@@ -355,14 +324,11 @@ export default function Navbar() {
               </div>
 
               <div className="mt-6 pb-4">
-                <div className="flex items-center justify-center mb-5">
-                  <ThemeToggle />
-                </div>
                 <Link
                   href="/contact"
                   onClick={() => setMobileOpen(false)}
-                  className="flex items-center justify-center gap-2 w-full py-4 text-white text-[15px] font-semibold rounded-xl transition-colors"
-                  style={{ backgroundColor: "var(--blue)" }}
+                  className="flex items-center justify-center gap-2 w-full py-4 text-[15px] font-semibold rounded-xl transition-colors"
+                  style={{ backgroundColor: "var(--blue)", color: "var(--on-blue)" }}
                 >
                   Request Executive Consultation
                   <ArrowRight size={16} />

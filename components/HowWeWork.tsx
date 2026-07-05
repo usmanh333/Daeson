@@ -49,7 +49,7 @@ export default function HowWeWork() {
       <div className="absolute inset-0 grid-bg opacity-20" />
       <div
         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[400px] rounded-full pointer-events-none"
-        style={{ background: "radial-gradient(circle, rgba(59,106,255,0.035) 0%, transparent 70%)", filter: "blur(80px)" }}
+        style={{ background: "radial-gradient(circle, rgba(255,255,255,0.045) 0%, transparent 70%)", filter: "blur(80px)" }}
       />
 
       <div className="relative max-w-7xl mx-auto px-6">
@@ -86,7 +86,7 @@ export default function HowWeWork() {
           {/* Vertical connector line */}
           <div
             className="absolute left-[27px] md:left-1/2 top-0 bottom-0 w-px hidden sm:block md:-translate-x-1/2"
-            style={{ background: "linear-gradient(to bottom, var(--blue-border), rgba(59,106,255,0.08), transparent)" }}
+            style={{ background: "linear-gradient(to bottom, var(--blue-border), rgba(255,255,255,0.10), transparent)" }}
           />
 
           <div className="space-y-10">

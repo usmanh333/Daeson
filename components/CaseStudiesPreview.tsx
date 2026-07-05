@@ -7,7 +7,7 @@ import { ArrowRight } from "lucide-react";
 const caseStudies = [
   {
     tag: "Real Estate Operations",
-    tagColor: "#3B6AFF",
+    tagColor: "#FFFFFF",
     title: "Real Estate Operations Platform",
     problem:
       "A property development firm was operating with four disconnected tools — a generic CRM, a spreadsheet-based investor tracker, a separate payment system, and email for lead management. Data lived everywhere and nowhere.",
@@ -61,7 +61,7 @@ export default function CaseStudiesPreview() {
           </div>
           <Link
             href="/case-studies"
-            className="inline-flex items-center gap-2 text-[13px] font-semibold text-[#3B6AFF] hover:text-[#4F7FFF] transition-colors flex-shrink-0"
+            className="inline-flex items-center gap-2 text-[13px] font-semibold text-white hover:text-neutral-300 transition-colors flex-shrink-0"
           >
             All case studies <ArrowRight size={14} />
           </Link>

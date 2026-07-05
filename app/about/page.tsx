@@ -5,7 +5,7 @@ import Link from "next/link";
 import { ArrowRight, Linkedin, Mail, ArrowUpRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "About â€” Mahnoor Zafar & Usman Ahmad, Founders of Daeson Technologies",
+  title: "About — Mahnoor Zafar & Usman Ahmad, Founders of Daeson Technologies",
   description:
     "Daeson Technologies is led by Mahnoor Zafar (Founder & Strategic Systems Lead) and Usman Ahmad (Co-Founder & Technical Lead). Building owned AI-powered operational infrastructure for real estate, Islamic finance, and enterprise organizations.",
   keywords: [
@@ -17,13 +17,13 @@ export const metadata: Metadata = {
     "enterprise software founders UAE",
   ],
   openGraph: {
-    title: "About Daeson Technologies â€” Mahnoor Zafar & Usman Ahmad",
+    title: "About Daeson Technologies — Mahnoor Zafar & Usman Ahmad",
     description:
       "Daeson Technologies is led by Mahnoor Zafar and Usman Ahmad. A founder-led, workflow-first operational infrastructure company serving real estate, Islamic finance, and enterprise organizations.",
-    url: "https://daesontechagency.online/about",
+    url: "https://daesontechnologies.online/about",
   },
   alternates: {
-    canonical: "https://daesontechagency.online/about",
+    canonical: "https://daesontechnologies.online/about",
   },
 };
 
@@ -31,7 +31,7 @@ const personSchemas = [
   {
     "@context": "https://schema.org",
     "@type": "Person",
-    "@id": "https://daesontechagency.online/about#mahnoor-zafar",
+    "@id": "https://daesontechnologies.online/about#mahnoor-zafar",
     name: "Mahnoor Zafar",
     jobTitle: "Founder & Strategic Systems Lead",
     description:
@@ -39,9 +39,9 @@ const personSchemas = [
     worksFor: {
       "@type": "Organization",
       name: "Daeson Technologies",
-      url: "https://daesontechagency.online",
+      url: "https://daesontechnologies.online",
     },
-    url: "https://daesontechagency.online/about",
+    url: "https://daesontechnologies.online/about",
     sameAs: [
       "https://www.linkedin.com/in/mahnoor-zafar-6a33a4248/",
     ],
@@ -57,7 +57,7 @@ const personSchemas = [
   {
     "@context": "https://schema.org",
     "@type": "Person",
-    "@id": "https://daesontechagency.online/about#usman-ahmad",
+    "@id": "https://daesontechnologies.online/about#usman-ahmad",
     name: "Usman Ahmad",
     jobTitle: "Co-Founder & Technical Lead",
     description:
@@ -65,9 +65,9 @@ const personSchemas = [
     worksFor: {
       "@type": "Organization",
       name: "Daeson Technologies",
-      url: "https://daesontechagency.online",
+      url: "https://daesontechnologies.online",
     },
-    url: "https://daesontechagency.online/about",
+    url: "https://daesontechnologies.online/about",
     knowsAbout: [
       "Enterprise System Architecture",
       "AI Infrastructure Engineering",
@@ -81,11 +81,11 @@ const personSchemas = [
 const webPageSchema = {
   "@context": "https://schema.org",
   "@type": "AboutPage",
-  "@id": "https://daesontechagency.online/about",
-  url: "https://daesontechagency.online/about",
-  name: "About Daeson Technologies â€” Mahnoor Zafar & Usman Ahmad",
-  isPartOf: { "@id": "https://daesontechagency.online/#website" },
-  about: { "@id": "https://daesontechagency.online/#organization" },
+  "@id": "https://daesontechnologies.online/about",
+  url: "https://daesontechnologies.online/about",
+  name: "About Daeson Technologies — Mahnoor Zafar & Usman Ahmad",
+  isPartOf: { "@id": "https://daesontechnologies.online/#website" },
+  about: { "@id": "https://daesontechnologies.online/#organization" },
 };
 
 const leaders = [
@@ -93,11 +93,12 @@ const leaders = [
     initials: "MZ",
     name: "Mahnoor Zafar",
     title: "Founder & Strategic Systems Lead",
-    accentColor: "#3B6AFF",
+    accentColor: "var(--blue)",
+    tintHex: "#888888",
     linkedin: "https://www.linkedin.com/in/mahnoor-zafar-6a33a4248/",
     bio: [
-      "Mahnoor founded Daeson Technologies to address a structural gap she observed across operationally complex industries: businesses patching together generic SaaS tools and calling it infrastructure â€” then wondering why their operations remained fragmented, slow, and dependent on vendors who don't understand their workflow.",
-      "Her focus is on the strategic layer of operational systems design â€” understanding how businesses actually run before designing the architecture that should power them. She leads discovery, operational architecture, and strategic client relationships across Daeson's real estate and governance-sensitive industry engagements.",
+      "Mahnoor founded Daeson Technologies to address a structural gap she observed across operationally complex industries: businesses patching together generic SaaS tools and calling it infrastructure — then wondering why their operations remained fragmented, slow, and dependent on vendors who don't understand their workflow.",
+      "Her focus is on the strategic layer of operational systems design — understanding how businesses actually run before designing the architecture that should power them. She leads discovery, operational architecture, and strategic client relationships across Daeson's real estate and governance-sensitive industry engagements.",
       "Mahnoor is particularly focused on industries where operational precision is a competitive variable: real estate with portfolio and investor complexity, and Islamic finance where compliance infrastructure directly affects institutional credibility.",
     ],
     areas: [
@@ -113,11 +114,12 @@ const leaders = [
     initials: "UA",
     name: "Usman Ahmad",
     title: "Co-Founder & Technical Lead",
-    accentColor: "#6A7FFF",
+    accentColor: "var(--text-secondary)",
+    tintHex: "#888888",
     linkedin: null as null | string,
     bio: [
       "Usman leads the technical execution of Daeson's operational infrastructure platforms. His responsibility spans system architecture, engineering leadership, and the technical operations that ensure every platform we build is enterprise-grade, scalable, and fully owned by the client.",
-      "He translates Daeson's operational architecture decisions into production systems â€” overseeing the engineering of AI-integrated platforms for real estate, Islamic finance, and enterprise operations. His approach prioritizes clean architecture, long-term maintainability, and systems that perform at the scale clients actually need.",
+      "He translates Daeson's operational architecture decisions into production systems — overseeing the engineering of AI-integrated platforms for real estate, Islamic finance, and enterprise operations. His approach prioritizes clean architecture, long-term maintainability, and systems that perform at the scale clients actually need.",
       "Prior to Daeson, Usman worked across the full stack of enterprise software development with particular depth in AI integration, data infrastructure, and system design for regulated industries.",
     ],
     areas: [
@@ -175,14 +177,14 @@ export default function AboutPage() {
           </div>
           <div className="grid md:grid-cols-[1fr_auto] gap-6 items-end mb-6">
             <h1
-              className="text-[42px] md:text-[52px] font-extrabold tracking-tight leading-[1.06]"
+              className="speakable text-[42px] md:text-[52px] font-extrabold tracking-tight leading-[1.06]"
               style={{ color: "var(--text-primary)" }}
             >
               The People Behind{" "}
               <span style={{ color: "var(--blue)" }}>Daeson Technologies.</span>
             </h1>
             <a
-              href="https://www.linkedin.com/company/daeson-tech-agency/"
+              href="https://www.linkedin.com/company/daeson-technologies/"
               target="_blank"
               rel="noopener noreferrer"
               className="hidden md:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-[11px] font-semibold transition-all duration-200 group shrink-0"
@@ -199,7 +201,8 @@ export default function AboutPage() {
           </p>
         </section>
 
-        {/* Founder authority â€” positioning statement */}
+        {/* Founder authority — positioning statement */}
+        <div className="section-light py-4">
         <section className="relative max-w-7xl mx-auto px-6 pb-8">
           <div
             className="rounded-2xl p-7 border-l-4"
@@ -230,7 +233,7 @@ export default function AboutPage() {
                   No vendor lock-in
                 </p>
                 <p className="text-[12px] leading-relaxed" style={{ color: "var(--text-secondary)" }}>
-                  Every system we build is fully owned by the client â€” source code, data, and architecture.
+                  Every system we build is fully owned by the client — source code, data, and architecture.
                 </p>
               </div>
               <div>
@@ -241,13 +244,14 @@ export default function AboutPage() {
                   Deep over broad
                 </p>
                 <p className="text-[12px] leading-relaxed" style={{ color: "var(--text-secondary)" }}>
-                  Real estate, Islamic finance, and enterprise operations â€” industries where operational
+                  Real estate, Islamic finance, and enterprise operations — industries where operational
                   precision is a competitive variable.
                 </p>
               </div>
             </div>
           </div>
         </section>
+        </div>
 
         {/* Leader Profiles */}
         <section className="relative max-w-7xl mx-auto px-6 pb-20 space-y-6 pt-4">
@@ -261,14 +265,14 @@ export default function AboutPage() {
                 className="grid md:grid-cols-[280px_1fr] divide-y md:divide-y-0 md:divide-x"
                 style={{ borderColor: "var(--border)" }}
               >
-                {/* Left â€” Identity panel */}
+                {/* Left — Identity panel */}
                 <div className="p-8 flex flex-col gap-6" style={{ borderColor: "var(--border)" }}>
                   {/* Portrait */}
                   <div
                     className="w-16 h-16 rounded-2xl border flex items-center justify-center"
                     style={{
-                      background: `linear-gradient(135deg, ${leader.accentColor}18 0%, ${leader.accentColor}08 100%)`,
-                      borderColor: `${leader.accentColor}28`,
+                      background: `linear-gradient(135deg, ${leader.tintHex}18 0%, ${leader.tintHex}08 100%)`,
+                      borderColor: `${leader.tintHex}28`,
                     }}
                   >
                     <span
@@ -327,7 +331,7 @@ export default function AboutPage() {
                   </div>
                 </div>
 
-                {/* Right â€” Bio */}
+                {/* Right — Bio */}
                 <div className="p-8">
                   <div className="space-y-4 text-[14px] leading-[1.82]" style={{ color: "var(--text-secondary)" }}>
                     {leader.bio.map((para, j) => (
@@ -341,6 +345,7 @@ export default function AboutPage() {
         </section>
 
         {/* Business Development section */}
+        <div className="section-light py-4">
         <section className="relative max-w-7xl mx-auto px-6 pb-20">
           <div
             className="rounded-2xl p-8 md:p-10"
@@ -425,8 +430,8 @@ export default function AboutPage() {
 
                 <Link
                   href="/contact"
-                  className="inline-flex items-center gap-2 px-4 py-2.5 text-white text-[13px] font-semibold rounded-lg transition-colors"
-                  style={{ backgroundColor: "var(--blue)" }}
+                  className="inline-flex items-center gap-2 px-4 py-2.5 text-[13px] font-semibold rounded-lg transition-colors"
+                  style={{ backgroundColor: "var(--blue)", color: "var(--on-blue)" }}
                 >
                   Schedule consultation
                   <ArrowRight size={13} />
@@ -435,6 +440,7 @@ export default function AboutPage() {
             </div>
           </div>
         </section>
+        </div>
 
         {/* Company values */}
         <section className="relative max-w-7xl mx-auto px-6 pb-24">
@@ -442,7 +448,7 @@ export default function AboutPage() {
             {[
               {
                 title: "Operational depth over breadth",
-                body: "We serve a small number of industries and develop deep knowledge of how they actually operate â€” not surface-level familiarity. Real estate and Islamic finance are not adjacent to enterprise software; they require distinct expertise.",
+                body: "We serve a small number of industries and develop deep knowledge of how they actually operate — not surface-level familiarity. Real estate and Islamic finance are not adjacent to enterprise software; they require distinct expertise.",
                 accent: "var(--blue)",
               },
               {
@@ -452,7 +458,7 @@ export default function AboutPage() {
               },
               {
                 title: "Architecture before code",
-                body: "We design before we build. Discovery and operational mapping come before development â€” because systems built on misunderstood workflows fail, regardless of how well they are engineered.",
+                body: "We design before we build. Discovery and operational mapping come before development — because systems built on misunderstood workflows fail, regardless of how well they are engineered.",
                 accent: "#10B981",
               },
             ].map((value) => (

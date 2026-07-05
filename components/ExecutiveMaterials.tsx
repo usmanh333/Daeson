@@ -8,7 +8,7 @@ const materials = [
   {
     icon: FileText,
     tag: "Real Estate",
-    tagColor: "#3B6AFF",
+    tagColor: "#FFFFFF",
     title: "Real Estate Infrastructure\nBrochure",
     description:
       "An executive overview of the Real Estate Operations Platform — covering system architecture, modules, implementation approach, and expected operational outcomes.",

@@ -64,7 +64,7 @@ export default function ConceptDemos() {
       <div className="absolute inset-0 grid-bg opacity-20" />
       <div
         className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[700px] h-[400px] rounded-full pointer-events-none"
-        style={{ background: "radial-gradient(circle, rgba(59,106,255,0.04) 0%, transparent 70%)", filter: "blur(80px)" }}
+        style={{ background: "radial-gradient(circle, rgba(255,255,255,0.05) 0%, transparent 70%)", filter: "blur(80px)" }}
       />
 
       <div className="relative max-w-7xl mx-auto px-6">

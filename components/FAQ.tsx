@@ -82,8 +82,8 @@ Clients receive a complete handover package and can continue development indepen
 We believe businesses should own their infrastructure — not lease it.`,
   },
   {
-    q: "What makes Daeson Technologies different from a software agency?",
-    a: `Traditional software agencies build what clients ask for. They are execution partners — given specifications, they write code.
+    q: "What makes Daeson Technologies different?",
+    a: `Traditional software companies build what clients ask for. They are execution partners — given specifications, they write code.
 
 Daeson Technologies functions as an operational systems partner. We start with in-depth workflow discovery and operational architecture before development begins. Our approach is closer to a management consulting and technology implementation firm than a development shop.
 

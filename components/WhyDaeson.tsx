@@ -70,8 +70,8 @@ export default function WhyDaeson() {
               style={{ color: "var(--text-primary)" }}
             >
               A Systems Partner.
-              <br />
-              <span style={{ color: "var(--text-secondary)", fontWeight: 600 }}>Not a Software Agency.</span>
+            
+       
             </h2>
             <p className="text-[15px] leading-relaxed" style={{ color: "var(--text-secondary)" }}>
               The distinction matters. Agencies build what you ask for. We design what your operations

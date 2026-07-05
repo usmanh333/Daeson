@@ -7,7 +7,7 @@ const scenarios = [
     index: "01",
     sector: "Real Estate — Brokerage",
     title: "Growing Brokerage Replacing Fragmented Tools",
-    color: "#3B6AFF",
+    color: "#FFFFFF",
     colorVar: "var(--blue)",
     before: {
       label: "Operational Gaps",

@@ -5,7 +5,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Insights â€” Operational Infrastructure Research & Analysis",
+  title: "Insights — Operational Infrastructure Research & Analysis",
   description:
     "Research and analysis from Daeson Technologies on operational infrastructure, AI for business operations, real estate technology, Islamic finance AI, Murabaha workflow digitization, and enterprise workflow systems.",
   keywords: [
@@ -20,26 +20,32 @@ export const metadata: Metadata = {
     "Daeson Technologies insights",
   ],
   openGraph: {
-    title: "Insights â€” Operational Infrastructure Research | Daeson Technologies",
+    title: "Insights — Operational Infrastructure Research | Daeson Technologies",
     description:
       "Research and frameworks on operational infrastructure, AI for business operations, real estate technology, and Islamic finance systems from Daeson Technologies.",
-    url: "https://daesontechagency.online/insights",
+    url: "https://daesontechnologies.online/insights",
   },
   alternates: {
-    canonical: "https://daesontechagency.online/insights",
+    canonical: "https://daesontechnologies.online/insights",
   },
 };
 
 const itemListSchema = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
-  "@id": "https://daesontechagency.online/insights",
-  url: "https://daesontechagency.online/insights",
-  name: "Insights â€” Operational Infrastructure Research",
+  "@id": "https://daesontechnologies.online/insights",
+  url: "https://daesontechnologies.online/insights",
+  name: "Insights — Operational Infrastructure Research",
   description:
     "Research and analysis from Daeson Technologies on operational infrastructure, AI for business operations, real estate technology, and Islamic finance systems.",
-  isPartOf: { "@id": "https://daesontechagency.online/#website" },
-  about: { "@id": "https://daesontechagency.online/#organization" },
+  dateModified: new Date().toISOString(),
+  author: {
+    "@type": "Organization",
+    "@id": "https://daesontechnologies.online/#organization",
+    name: "Daeson Technologies",
+  },
+  isPartOf: { "@id": "https://daesontechnologies.online/#website" },
+  about: { "@id": "https://daesontechnologies.online/#organization" },
   mainEntity: {
     "@type": "ItemList",
     itemListElement: [
@@ -47,7 +53,7 @@ const itemListSchema = {
         "@type": "ListItem",
         position: 1,
         name: "Why Real Estate Firms Are Replacing SaaS Stacks with Owned Infrastructure",
-        url: "https://daesontechagency.online/insights/real-estate-saas-vs-owned",
+        url: "https://daesontechnologies.online/insights/real-estate-saas-vs-owned",
         description:
           "The era of patching together Salesforce, Excel, and email for real estate operations is ending. Forward-thinking property firms are building owned operational platforms that give them infrastructure control, data ownership, and AI capability without vendor dependency.",
       },
@@ -55,41 +61,41 @@ const itemListSchema = {
         "@type": "ListItem",
         position: 2,
         name: "AI and Shariah Compliance: Building Infrastructure That Supports Scholars",
-        url: "https://daesontechagency.online/insights/ai-shariah-compliance",
+        url: "https://daesontechnologies.online/insights/ai-shariah-compliance",
         description:
-          "AI in Islamic finance is most valuable when it removes operational burden from compliance workflows â€” freeing scholars to focus on substantive jurisprudential decisions rather than manual document review.",
+          "AI in Islamic finance is most valuable when it removes operational burden from compliance workflows — freeing scholars to focus on substantive jurisprudential decisions rather than manual document review.",
       },
       {
         "@type": "ListItem",
         position: 3,
         name: "What Is Operational Infrastructure? A Framework for Complex Businesses",
-        url: "https://daesontechagency.online/insights/operational-infrastructure-framework",
+        url: "https://daesontechnologies.online/insights/operational-infrastructure-framework",
         description:
-          "Most businesses understand software. Few understand operational infrastructure â€” the layer of purpose-built systems that connect data, workflows, and intelligence across an organization.",
+          "Most businesses understand software. Few understand operational infrastructure — the layer of purpose-built systems that connect data, workflows, and intelligence across an organization.",
       },
       {
         "@type": "ListItem",
         position: 4,
         name: "The Total Cost of SaaS Dependency for Enterprise Operations",
-        url: "https://daesontechagency.online/insights/saas-dependency-cost",
+        url: "https://daesontechnologies.online/insights/saas-dependency-cost",
         description:
-          "When you add up per-seat licensing, integration costs, customization limits, and the hidden cost of data fragmentation â€” most enterprise SaaS stacks are more expensive than owned infrastructure within three years.",
+          "When you add up per-seat licensing, integration costs, customization limits, and the hidden cost of data fragmentation — most enterprise SaaS stacks are more expensive than owned infrastructure within three years.",
       },
       {
         "@type": "ListItem",
         position: 5,
         name: "AI Governance for Regulated Industries: Principles and Infrastructure",
-        url: "https://daesontechagency.online/insights/ai-governance-regulated-industries",
+        url: "https://daesontechnologies.online/insights/ai-governance-regulated-industries",
         description:
-          "As AI becomes embedded in compliance, finance, and operational workflows, the question of AI governance becomes critical â€” particularly in regulated industries like Islamic finance and real estate.",
+          "As AI becomes embedded in compliance, finance, and operational workflows, the question of AI governance becomes critical — particularly in regulated industries like Islamic finance and real estate.",
       },
       {
         "@type": "ListItem",
         position: 6,
         name: "Investor Reporting Infrastructure for Real Estate Firms: Building vs Buying",
-        url: "https://daesontechagency.online/insights/investor-reporting-real-estate",
+        url: "https://daesontechnologies.online/insights/investor-reporting-real-estate",
         description:
-          "Investor relations in real estate requires consistent, accurate, and timely reporting â€” but most generic tools weren't designed for this use case.",
+          "Investor relations in real estate requires consistent, accurate, and timely reporting — but most generic tools weren't designed for this use case.",
       },
     ],
   },
@@ -99,97 +105,58 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Home", item: "https://daesontechagency.online" },
-    { "@type": "ListItem", position: 2, name: "Insights", item: "https://daesontechagency.online/insights" },
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://daesontechnologies.online" },
+    { "@type": "ListItem", position: 2, name: "Insights", item: "https://daesontechnologies.online/insights" },
   ],
 };
 
 const articles = [
   {
     category: "Real Estate Operations",
-    color: "#3B6AFF",
-    rawColor: "#3B6AFF",
+    color: "var(--blue)",
+    rawColor: "#888888",
     title: "Why Real Estate Firms Are Replacing SaaS Stacks with Owned Infrastructure",
     excerpt:
       "The era of patching together Salesforce, Excel, and email for real estate operations is ending. Forward-thinking property firms are building owned operational platforms that give them infrastructure control, data ownership, and AI capability without vendor dependency.",
     readTime: "8 min read",
     topics: ["CRM Ownership", "Real Estate AI", "Operational Infrastructure"],
     href: "/insights/real-estate-saas-vs-owned",
-    available: false,
   },
   {
     category: "Islamic Finance",
-    color: "#D4AF37",
-    rawColor: "#D4AF37",
+    color: "var(--gold)",
+    rawColor: "#B9912F",
     title: "AI and Shariah Compliance: Building Infrastructure That Supports Scholars",
     excerpt:
-      "Artificial intelligence in Islamic finance is not about replacing Shariah scholars â€” it's about building infrastructure that removes the operational burden from compliance workflows, so scholars can focus on jurisprudential judgment rather than manual document review.",
+      "Artificial intelligence in Islamic finance is not about replacing Shariah scholars — it is about building infrastructure that removes operational burden from compliance workflows, so scholars can focus on jurisprudential judgment rather than manual document review.",
     readTime: "10 min read",
     topics: ["Amanah AI", "Shariah Compliance", "Governance Systems"],
     href: "/insights/ai-shariah-compliance",
-    available: false,
   },
   {
-    category: "Operational Intelligence",
-    color: "#10B981",
-    rawColor: "#10B981",
-    title: "What Is Operational Infrastructure? A Framework for Complex Businesses",
+    category: "Founder Insight",
+    color: "var(--text-secondary)",
+    rawColor: "#888888",
+    title: "Islamic Finance Has a Technology Gap",
     excerpt:
-      "Most businesses understand software. Few understand operational infrastructure â€” the layer of purpose-built systems that connect data, workflows, and intelligence across an organization. This piece defines the framework and explains why it matters for complex operations.",
-    readTime: "12 min read",
-    topics: ["Operational Infrastructure", "Enterprise AI", "Workflow Automation"],
-    href: "/insights/operational-infrastructure-framework",
-    available: false,
-  },
-  {
-    category: "Enterprise Systems",
-    color: "#7B6AFF",
-    rawColor: "#7B6AFF",
-    title: "The Total Cost of SaaS Dependency for Enterprise Operations",
-    excerpt:
-      "When you add up per-seat licensing, integration costs, customization limits, and the hidden cost of data fragmentation â€” most enterprise SaaS stacks are more expensive than owned infrastructure within three years.",
-    readTime: "9 min read",
-    topics: ["SaaS vs Custom", "Enterprise Cost Analysis", "Build vs Buy"],
-    href: "/insights/saas-dependency-cost",
-    available: false,
-  },
-  {
-    category: "AI Governance",
-    color: "#EF4444",
-    rawColor: "#EF4444",
-    title: "AI Governance for Regulated Industries: Principles and Infrastructure",
-    excerpt:
-      "As AI becomes embedded in compliance, finance, and operational workflows, the question of AI governance becomes critical â€” particularly in regulated industries like Islamic finance and real estate. This piece outlines the infrastructure principles that enable responsible AI deployment.",
-    readTime: "11 min read",
-    topics: ["AI Governance", "Compliance Infrastructure", "Regulated Industries"],
-    href: "/insights/ai-governance-regulated-industries",
-    available: false,
-  },
-  {
-    category: "Real Estate Technology",
-    color: "#3B6AFF",
-    rawColor: "#3B6AFF",
-    title: "Investor Reporting Infrastructure for Real Estate Firms: Building vs Buying",
-    excerpt:
-      "Investor relations in real estate requires consistent, accurate, and timely reporting â€” but most generic tools weren't designed for this use case. We examine the build vs. buy decision for real estate investor reporting infrastructure.",
-    readTime: "7 min read",
-    topics: ["Investor Relations", "Real Estate CRM", "Reporting Automation"],
-    href: "/insights/investor-reporting-real-estate",
-    available: false,
+      "A $3 trillion industry still running on spreadsheets and manual approval chains. Founder Mahnoor Zafar examines why Islamic finance institutions have fallen behind on operational technology — and what closing the gap actually requires.",
+    readTime: "6 min read",
+    topics: ["Islamic Finance", "Operational Technology", "Fintech Infrastructure"],
+    href: "/insights/islamic-finance-technology-gap",
   },
 ];
 
 const geoTopics = [
-  { label: "Real Estate SaaS Fatigue", color: "#3B6AFF" },
-  { label: "Murabaha Workflow Digitization", color: "#D4AF37" },
-  { label: "AI Lead Qualification", color: "#3B6AFF" },
-  { label: "Shariah Governance Systems", color: "#D4AF37" },
-  { label: "Ownership vs SaaS", color: "#10B981" },
-  { label: "Investor Reporting Infrastructure", color: "#3B6AFF" },
-  { label: "Operational Visibility Systems", color: "#10B981" },
-  { label: "AI Governance", color: "#EF4444" },
-  { label: "Brokerage Operational Intelligence", color: "#3B6AFF" },
-  { label: "Islamic Finance Workflow", color: "#D4AF37" },
+  { label: "Real Estate SaaS Fatigue", color: "#FFFFFF" },
+  { label: "Murabaha Workflow Digitization", color: "#FFFFFF" },
+  { label: "AI Lead Qualification", color: "#FFFFFF" },
+  { label: "Shariah Governance Systems", color: "#FFFFFF" },
+  { label: "Ownership vs SaaS", color: "#FFFFFF" },
+  { label: "Investor Reporting Infrastructure", color: "#FFFFFF" },
+  { label: "Operational Visibility Systems", color: "#FFFFFF" },
+  { label: "AI Governance", color: "#FFFFFF" },
+  { label: "Brokerage Operational Intelligence", color: "#FFFFFF" },
+  { label: "Islamic Finance Workflow", color: "#FFFFFF" },
 ];
 
 export default function InsightsPage() {
@@ -225,7 +192,7 @@ export default function InsightsPage() {
             </h1>
             <p className="text-[15px] leading-relaxed" style={{ color: "var(--text-secondary)" }}>
               Research, frameworks, and analysis on operational infrastructure, AI for business operations,
-              real estate technology, and Islamic finance systems â€” written for decision-makers, not marketers.
+              real estate technology, and Islamic finance systems "" written for decision-makers, not marketers.
             </p>
           </div>
 
@@ -244,7 +211,7 @@ export default function InsightsPage() {
             </p>
             <p className="text-[13px] leading-relaxed" style={{ color: "var(--text-secondary)" }}>
               Operational infrastructure refers to purpose-built digital systems that power the core workflows
-              of a business â€” CRM, reporting, compliance, workflow automation, and executive analytics â€”
+              of a business "" CRM, reporting, compliance, workflow automation, and executive analytics ""
               designed around how the organization actually operates. Unlike generic SaaS tools, operational
               infrastructure is owned by the business and aligned to its specific data model and processes.
             </p>
@@ -278,6 +245,7 @@ export default function InsightsPage() {
         </section>
 
         {/* Articles */}
+        <div className="section-light">
         <section className="relative max-w-7xl mx-auto px-6 pb-24 pt-16">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {articles.map((article) => (
@@ -321,17 +289,13 @@ export default function InsightsPage() {
                   ))}
                 </div>
 
-                {article.available ? (
-                  <Link
-                    href={article.href}
-                    className="inline-flex items-center gap-2 text-[13px] font-semibold transition-colors"
-                    style={{ color: article.color }}
-                  >
-                    Read article <ArrowRight size={13} className="group-hover:translate-x-1 transition-transform" />
-                  </Link>
-                ) : (
-                  <span className="text-[12px] font-medium" style={{ color: "var(--text-faint)" }}>Publishing soon</span>
-                )}
+                <Link
+                  href={article.href}
+                  className="inline-flex items-center gap-2 text-[13px] font-semibold transition-colors"
+                  style={{ color: article.color }}
+                >
+                  Read article <ArrowRight size={13} className="group-hover:translate-x-1 transition-transform" />
+                </Link>
               </div>
             ))}
           </div>
@@ -349,13 +313,13 @@ export default function InsightsPage() {
             </h2>
             <p className="text-[14px] leading-relaxed mb-6" style={{ color: "var(--text-secondary)" }}>
               We publish research on operational infrastructure, AI systems, and enterprise technology.
-              No noise â€” just high-signal thinking on the topics covered above.
+              No noise "" just high-signal thinking on the topics covered above.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <Link
                 href="/contact"
-                className="inline-flex items-center justify-center gap-2 px-6 py-3 text-white text-[14px] font-semibold rounded-xl transition-colors"
-                style={{ backgroundColor: "var(--blue)" }}
+                className="inline-flex items-center justify-center gap-2 px-6 py-3 text-[14px] font-semibold rounded-xl transition-colors"
+                style={{ backgroundColor: "var(--blue)", color: "var(--on-blue)" }}
               >
                 Stay in Touch <ArrowRight size={14} />
               </Link>
@@ -369,6 +333,7 @@ export default function InsightsPage() {
             </div>
           </div>
         </section>
+        </div>
       </main>
       <Footer />
     </>

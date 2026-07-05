@@ -216,7 +216,7 @@ export default function SheriffCaseStudy() {
                 </a>
                 <a href="https://www.goodfirms.co/company/daeson-technologies" target="_blank">
                   <Image
-                    src="/Goodfirms.png"
+                    src="/goodfirm.png"
                     alt="GoodFirms"
                     width={140}
                     height={40}

@@ -16,7 +16,7 @@ export default function ThankYouPage() {
       <Navbar />
       <main className="bg-[#070B12] min-h-screen pt-24 flex items-center">
         <div className="absolute inset-0 grid-bg opacity-20 pointer-events-none" />
-        <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[400px] rounded-full bg-[#3B6AFF]/[0.05] blur-[120px] pointer-events-none" />
+        <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[400px] rounded-full bg-white/5 blur-[120px] pointer-events-none" />
 
         <div className="relative max-w-2xl mx-auto px-6 py-24 text-center w-full">
           {/* Check */}
@@ -65,7 +65,7 @@ export default function ThankYouPage() {
               href="https://calendly.com/daeson-technologies/executive-consultation"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-5 py-3 bg-[#3B6AFF] hover:bg-[#4F7FFF] text-white text-[13px] font-semibold rounded-xl transition-colors"
+              className="inline-flex items-center gap-2 px-5 py-3 bg-white hover:bg-neutral-300 text-black text-[13px] font-semibold rounded-xl transition-colors"
             >
               <Calendar size={14} />
               Schedule Introductory Call

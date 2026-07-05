@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 const cases = [
   {
     tag: "Real Estate Operations",
-    color: "#3B6AFF",
+    color: "#FFFFFF",
     status: "In Production",
     statusColor: "text-emerald-400",
     title: "Real Estate Operations Platform",
@@ -96,7 +96,7 @@ export default function CaseStudiesPage() {
             Systems We&apos;ve{" "}
             <span
               style={{
-                background: "linear-gradient(135deg, #3B6AFF 0%, #7B9FFF 100%)",
+                background: "linear-gradient(135deg, #FFFFFF 0%, #A0A0A0 100%)",
                 WebkitBackgroundClip: "text",
                 WebkitTextFillColor: "transparent",
                 backgroundClip: "text",
@@ -190,7 +190,7 @@ export default function CaseStudiesPage() {
             </p>
             <Link
               href="/contact"
-              className="inline-flex items-center gap-2 px-6 py-3.5 bg-[#3B6AFF] hover:bg-[#4F7FFF] text-white text-[14px] font-semibold rounded-xl transition-colors"
+              className="inline-flex items-center gap-2 px-6 py-3.5 bg-white hover:bg-neutral-300 text-black text-[14px] font-semibold rounded-xl transition-colors"
             >
               Schedule Consultation <ArrowRight size={14} />
             </Link>

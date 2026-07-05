@@ -1,83 +1,118 @@
 @import "tailwindcss";
 
-/* ─── Executive Dark Mode (default) ─────────────────────────────── */
+/* ─── Black & White Editorial Theme ──────────────────────────────── */
 :root {
-  --bg-page:     #07111F;
-  --bg-surface:  #0C1726;
-  --bg-card:     #101C2D;
-  --bg-elevated: #0F1E33;
+  /* Backgrounds — deep black, layered surfaces */
+  --bg-page:     #080808;
+  --bg-surface:  #0E0E0E;
+  --bg-card:     #121212;
+  --bg-elevated: #1C1C1C;
 
-  --blue:        #3B6AFF;
-  --blue-hover:  #4F7FFF;
-  --blue-muted:  rgba(59, 106, 255, 0.10);
-  --blue-border: rgba(59, 106, 255, 0.22);
+  /* Primary accent — Monochrome white (sole color element) */
+  --blue:        #FFFFFF;
+  --blue-hover:  #D4D4D4;
+  --blue-muted:  rgba(255, 255, 255, 0.10);
+  --blue-border: rgba(255, 255, 255, 0.24);
 
-  --gold:        #D4AF37;
-  --gold-light:  #E8C84A;
-  --gold-muted:  rgba(212, 175, 55, 0.10);
-  --gold-border: rgba(212, 175, 55, 0.20);
-
-  --text-primary:   #F5F7FA;
-  --text-secondary: #B3BDC9;
-  --text-muted:     #7E8A9A;
-  --text-faint:     #4B5568;
-
-  --border:       rgba(255, 255, 255, 0.07);
-  --border-hover: rgba(255, 255, 255, 0.13);
-  --border-strong:rgba(255, 255, 255, 0.20);
-
-  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.5);
-  --shadow-lg:   0 8px 32px rgba(0, 0, 0, 0.4);
-
-  /* Amanah AI (always dark) */
-  --primary:        #0f3d2e;
-  --primary-dark:   #082818;
-  --primary-light:  #1a6b50;
-  --primary-muted:  #e8f4ef;
-  --gold-amanah:      #d4af37;
-  --gold-amanah-light: #f0d060;
-  --gold-amanah-muted: #fdf8e7;
-
-  /* Legacy (kept for amanah-ai components) */
-  --accent: #D4AF37;
-}
-
-/* ─── Institutional Light Mode ───────────────────────────────────── */
-[data-theme="light"] {
-  --bg-page:     #F8FAFC;
-  --bg-surface:  #FFFFFF;
-  --bg-card:     #FFFFFF;
-  --bg-elevated: #F1F5F9;
-
-  --blue:        #2655E8;
-  --blue-hover:  #3B6AFF;
-  --blue-muted:  rgba(38, 85, 232, 0.08);
-  --blue-border: rgba(38, 85, 232, 0.18);
-
+  /* Gold — Amanah AI only */
   --gold:        #B9912F;
   --gold-light:  #C9A840;
-  --gold-muted:  rgba(185, 145, 47, 0.08);
-  --gold-border: rgba(185, 145, 47, 0.20);
+  --gold-muted:  rgba(185, 145, 47, 0.12);
+  --gold-border: rgba(185, 145, 47, 0.25);
 
-  --text-primary:   #0F172A;
-  --text-secondary: #475569;
-  --text-muted:     #64748B;
-  --text-faint:     #94A3B8;
+  /* Typography — white hierarchy */
+  --text-primary:   #F2F2F2;
+  --text-secondary: rgba(242, 242, 242, 0.62);
+  --text-muted:     rgba(242, 242, 242, 0.40);
+  --text-faint:     rgba(242, 242, 242, 0.24);
 
-  --border:       #E5E7EB;
-  --border-hover: #CBD5E1;
-  --border-strong:#94A3B8;
+  /* Borders — barely-there white lines */
+  --border:        rgba(255, 255, 255, 0.07);
+  --border-hover:  rgba(255, 255, 255, 0.14);
+  --border-strong: rgba(255, 255, 255, 0.22);
 
-  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.08);
-  --shadow-lg:   0 8px 32px rgba(0, 0, 0, 0.12);
+  /* Shadows — deep on dark */
+  --shadow-card: 0 1px 4px rgba(0, 0, 0, 0.7);
+  --shadow-lg:   0 8px 40px rgba(0, 0, 0, 0.8);
+
+  /* Amanah AI (isolated system — keep as-is) */
+  --primary:           #0f3d2e;
+  --primary-dark:      #082818;
+  --primary-light:     #1a6b50;
+  --primary-muted:     rgba(15, 61, 46, 0.2);
+  --gold-amanah:       #d4af37;
+  --gold-amanah-light: #f0d060;
+  --gold-amanah-muted: rgba(212, 175, 55, 0.12);
+
+  /* Text color to place on top of a solid var(--blue) fill — flips in .section-light */
+  --on-blue: #000000;
+
+  /* Legacy */
+  --accent: #D4AF37;
+
+  /* Neutral section backgrounds */
+  --bg-purple:      #080808;
+  --bg-purple-soft: rgba(255, 255, 255, 0.03);
+  --bg-purple-mid:  rgba(255, 255, 255, 0.06);
 }
 
-/* ─── Theme Transition ───────────────────────────────────────────── */
-*, *::before, *::after {
-  transition-property: background-color, border-color, color, fill, stroke;
-  transition-duration: 200ms;
-  transition-timing-function: ease;
+/* ─── Green aliases → Monochrome (solutions page) ────────────────── */
+:root {
+  --green:        #FFFFFF;
+  --green-hover:  #D4D4D4;
+  --green-muted:  rgba(255, 255, 255, 0.10);
+  --green-border: rgba(255, 255, 255, 0.24);
+  --green-light:  #E5E5E5;
 }
+
+/* ─── Light section — flips the theme to white bg / black text ──────
+   Wrap any section in this class to alternate it against the dark
+   page for an editorial black/white "zebra" rhythm. Every component
+   already reads colors from these custom properties, so wrapping is
+   enough — no per-component edits needed. ───────────────────────── */
+.section-light {
+  --bg-page:     #FFFFFF;
+  --bg-surface:  #F6F6F6;
+  --bg-card:     #FFFFFF;
+  --bg-elevated: #ECECEC;
+
+  --blue:        #000000;
+  --blue-hover:  #333333;
+  --blue-muted:  rgba(0, 0, 0, 0.06);
+  --blue-border: rgba(0, 0, 0, 0.18);
+
+  --green:        #000000;
+  --green-hover:  #333333;
+  --green-muted:  rgba(0, 0, 0, 0.06);
+  --green-border: rgba(0, 0, 0, 0.18);
+  --green-light:  #333333;
+
+  --on-blue: #FFFFFF;
+
+  --text-primary:   #0A0A0A;
+  --text-secondary: rgba(10, 10, 10, 0.66);
+  --text-muted:     rgba(10, 10, 10, 0.46);
+  --text-faint:     rgba(10, 10, 10, 0.32);
+
+  --border:        rgba(0, 0, 0, 0.10);
+  --border-hover:  rgba(0, 0, 0, 0.18);
+  --border-strong: rgba(0, 0, 0, 0.28);
+
+  --shadow-card: 0 1px 4px rgba(0, 0, 0, 0.08);
+  --shadow-lg:   0 8px 30px rgba(0, 0, 0, 0.12);
+
+  background-color: var(--bg-page);
+  color: var(--text-primary);
+}
+
+.section-light .grid-bg,
+.section-light .grid-bg-fine {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 0, 0, 0.05) 1px, transparent 1px);
+}
+
+.section-light ::-webkit-scrollbar-thumb { background: rgba(0, 0, 0, 0.25); }
 
 /* ─── Base ───────────────────────────────────────────────────────── */
 html {
@@ -101,24 +136,20 @@ img { max-width: 100%; display: block; }
 a { color: inherit; text-decoration: none; }
 
 /* ─── Semantic Utility Classes ───────────────────────────────────── */
-/* Backgrounds */
 .dt-bg-page     { background-color: var(--bg-page); }
 .dt-bg-surface  { background-color: var(--bg-surface); }
 .dt-bg-card     { background-color: var(--bg-card); }
 .dt-bg-elevated { background-color: var(--bg-elevated); }
 
-/* Text */
 .dt-text-primary   { color: var(--text-primary); }
 .dt-text-secondary { color: var(--text-secondary); }
 .dt-text-muted     { color: var(--text-muted); }
 .dt-text-faint     { color: var(--text-faint); }
 
-/* Borders */
 .dt-border         { border-color: var(--border); }
 .dt-border-hover   { border-color: var(--border-hover); }
 .dt-border-strong  { border-color: var(--border-strong); }
 
-/* Hover variants */
 .hover\:dt-border-hover:hover  { border-color: var(--border-hover); }
 .hover\:dt-bg-surface:hover    { background-color: var(--bg-surface); }
 .hover\:dt-text-primary:hover  { color: var(--text-primary); }
@@ -126,28 +157,42 @@ a { color: inherit; text-decoration: none; }
 /* ─── Scrollbar ──────────────────────────────────────────────────── */
 ::-webkit-scrollbar { width: 4px; }
 ::-webkit-scrollbar-track { background: var(--bg-page); }
-::-webkit-scrollbar-thumb { background: rgba(59, 106, 255, 0.35); border-radius: 4px; }
+::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.30); border-radius: 4px; }
 
-/* ─── Structural Utilities ───────────────────────────────────────── */
+/* ─── Grid background — subtle white lines on dark ───────────────── */
 .grid-bg {
   background-image:
-    linear-gradient(rgba(255, 255, 255, 0.022) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.022) 1px, transparent 1px);
-  background-size: 64px 64px;
-}
-
-[data-theme="light"] .grid-bg {
-  background-image:
-    linear-gradient(rgba(0, 0, 0, 0.04) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(0, 0, 0, 0.04) 1px, transparent 1px);
+    linear-gradient(rgba(255, 255, 255, 0.028) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.028) 1px, transparent 1px);
   background-size: 64px 64px;
 }
 
 .grid-bg-fine {
   background-image:
-    linear-gradient(rgba(255, 255, 255, 0.015) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.015) 1px, transparent 1px);
+    linear-gradient(rgba(255, 255, 255, 0.022) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.022) 1px, transparent 1px);
   background-size: 32px 32px;
+}
+
+/* ─── Monochrome Gradient Utilities ──────────────────────────────── */
+.purple-gradient {
+  background: linear-gradient(135deg, #FFFFFF 0%, #D4D4D4 50%, #9A9A9A 100%);
+}
+
+.purple-glow {
+  box-shadow: 0 0 48px rgba(255, 255, 255, 0.18);
+}
+
+/* ─── Answer Capsule (GEO / AI Search) ──────────────────────────── */
+.answer-capsule {
+  background: rgba(255, 255, 255, 0.05);
+  border-left: 3px solid #FFFFFF;
+  padding: 16px 20px;
+  border-radius: 0 8px 8px 0;
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--text-primary);
+  margin-bottom: 24px;
 }
 
 /* ─── Text Gradients ─────────────────────────────────────────────── */
@@ -159,15 +204,14 @@ a { color: inherit; text-decoration: none; }
 }
 
 .text-gradient-primary {
-  background: linear-gradient(135deg, var(--text-primary) 0%, var(--text-secondary) 100%);
+  background: linear-gradient(135deg, #FFFFFF 0%, #A0A0A0 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
-/* Legacy (keep for amanah-ai) */
 .text-gradient-blue {
-  background: linear-gradient(135deg, #ffffff 0%, #94A3B8 100%);
+  background: linear-gradient(135deg, #FFFFFF 0%, #A0A0A0 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -188,30 +232,49 @@ a { color: inherit; text-decoration: none; }
   -webkit-backdrop-filter: blur(12px);
 }
 
-[data-theme="light"] .glass-card {
-  background: rgba(255, 255, 255, 0.85);
-  border-color: var(--border);
-}
-
 .glass-card-hover {
   transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .glass-card-hover:hover {
   border-color: var(--border-hover);
-  transform: translateY(-1px);
+  transform: translateY(-2px);
   box-shadow: var(--shadow-lg);
+}
+
+/* ─── Footer badge images — full-color logos, dimmed on dark bg ──── */
+.footer-badge-img {
+  opacity: 0.85;
+  background-color: #FFFFFF;
+  border-radius: 6px;
+  padding: 6px 10px;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+a:hover .footer-badge-img,
+.footer-badge-img:hover {
+  opacity: 1;
+  transform: translateY(-1px);
 }
 
 /* ─── Section Separator ──────────────────────────────────────────── */
 .section-sep {
   height: 1px;
-  background: linear-gradient(90deg, transparent, var(--border), transparent);
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.08), transparent);
 }
 
-/* ─── Amanah AI section gradient (always green) ──────────────────── */
+/* ─── Amanah AI section gradient ────────────────────────────────── */
 .section-gradient {
-  background: linear-gradient(160deg, #f8fffe 0%, #f0f9f4 100%);
+  background: linear-gradient(160deg, rgba(15, 61, 46, 0.3) 0%, rgba(8, 40, 24, 0.4) 100%);
+}
+
+/* ─── Press card hover ───────────────────────────────────────────── */
+.press-card {
+  transition: border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+}
+.press-card:hover {
+  border-color: rgba(255, 255, 255, 0.30) !important;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.6) !important;
+  transform: translateY(-2px);
 }
 
 /* ─── Animations ─────────────────────────────────────────────────── */
@@ -229,7 +292,7 @@ a { color: inherit; text-decoration: none; }
 }
 @keyframes pulseGold {
   0%, 100% { box-shadow: 0 0 0 0 rgba(212, 175, 55, 0.3); opacity: 0.85; }
-  50%       { box-shadow: 0 0 18px 6px rgba(212, 175, 55, 0.10); opacity: 1; }
+  50%       { box-shadow: 0 0 18px 6px rgba(212, 175, 55, 0.12); opacity: 1; }
 }
 @keyframes float {
   0%, 100% { transform: translateY(0px); }
@@ -247,6 +310,11 @@ a { color: inherit; text-decoration: none; }
   0%   { transform: translateY(-6px); opacity: 0; }
   100% { transform: translateY(0);    opacity: 1; }
 }
+@keyframes pulseRing {
+  0%   { transform: scale(1); opacity: 0.5; }
+  70%  { transform: scale(1.8); opacity: 0; }
+  100% { transform: scale(1.8); opacity: 0; }
+}
 
 .animate-scaleIn    { animation: scaleIn 0.55s ease-out forwards; }
 .animate-fadeUp     { animation: fadeUp 0.55s ease-out forwards; }
@@ -255,8 +323,9 @@ a { color: inherit; text-decoration: none; }
 .animate-float      { animation: float 4s ease-in-out infinite; }
 .animate-spin-slow  { animation: spin-slow 20s linear infinite; }
 .animate-slideDown  { animation: slideDown 0.2s ease-out forwards; }
+.animate-pulse-ring { animation: pulseRing 2s ease-out infinite; }
 
-/* ─── Reduce motion for sensitive users ──────────────────────────── */
+/* ─── Reduce motion ──────────────────────────────────────────────── */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
     animation-duration: 0.01ms !important;

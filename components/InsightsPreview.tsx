@@ -8,35 +8,32 @@ const articles = [
   {
     category: "Real Estate Operations",
     color: "var(--blue)",
-    rawColor: "#3B6AFF",
+    rawColor: "#888888",
     title: "Why Real Estate Firms Are Replacing SaaS Stacks with Owned Infrastructure",
     excerpt:
-      "Forward-thinking property firms are moving away from stitched-together SaaS tools. The case for owned operational platforms is increasingly compelling — especially for firms with investor complexity, multi-market portfolios, and reporting demands that generic CRMs were never designed to handle.",
+      "The era of patching together Salesforce, Excel, and email for real estate operations is ending. Forward-thinking firms are building owned operational platforms — with full data control, AI capability, and no vendor lock-in.",
     readTime: "8 min read",
-    status: "Publishing soon",
-    href: "/insights",
+    href: "/insights/real-estate-saas-vs-owned",
   },
   {
     category: "Islamic Finance",
     color: "var(--gold)",
-    rawColor: "#D4AF37",
+    rawColor: "#B9912F",
     title: "AI and Shariah Compliance: Building Infrastructure That Supports Scholars",
     excerpt:
-      "AI in Islamic finance is most valuable when it removes operational burden from compliance workflows — freeing scholars to focus on substantive jurisprudential decisions rather than manual document review. This is an infrastructure problem, not a technology problem.",
+      "AI in Islamic finance works when it removes operational burden from compliance workflows — freeing scholars to focus on jurisprudential judgment rather than manual document review. This is an infrastructure problem.",
     readTime: "10 min read",
-    status: "Publishing soon",
-    href: "/insights",
+    href: "/insights/ai-shariah-compliance",
   },
   {
-    category: "Operational Intelligence",
-    color: "#10B981",
-    rawColor: "#10B981",
-    title: "What Is Operational Infrastructure? A Framework for Complex Businesses",
+    category: "Founder Insight",
+    color: "var(--text-secondary)",
+    rawColor: "#888888",
+    title: "Islamic Finance Has a Technology Gap",
     excerpt:
-      "Most business leaders understand software. Fewer understand operational infrastructure — the layer of purpose-built systems that connects data, workflows, and intelligence across an organization. This piece defines the framework and explains why the distinction matters.",
-    readTime: "12 min read",
-    status: "Publishing soon",
-    href: "/insights",
+      "A $3 trillion industry still running on spreadsheets and email approvals. Mahnoor Zafar examines why Islamic finance institutions lag in operational technology — and what closing the gap actually requires.",
+    readTime: "6 min read",
+    href: "/insights/islamic-finance-technology-gap",
   },
 ];
 
@@ -126,18 +123,15 @@ export default function InsightsPreview() {
                 {article.excerpt}
               </p>
 
-              <div className="flex items-center justify-between mt-auto">
-                <span className="text-[11px] font-medium" style={{ color: "var(--text-faint)" }}>
-                  {article.status}
-                </span>
-                <Link
-                  href={article.href}
-                  className="inline-flex items-center gap-1.5 text-[12px] font-semibold transition-colors"
-                  style={{ color: article.color }}
-                >
-                  Read <ArrowRight size={11} />
-                </Link>
-              </div>
+              <Link
+                href={article.href}
+                className="inline-flex items-center gap-1.5 text-[12px] font-semibold mt-auto transition-all duration-200"
+                style={{ color: article.color }}
+                onMouseEnter={e => ((e.currentTarget as HTMLElement).style.gap = "10px")}
+                onMouseLeave={e => ((e.currentTarget as HTMLElement).style.gap = "6px")}
+              >
+                Read article <ArrowRight size={11} />
+              </Link>
             </motion.div>
           ))}
         </div>

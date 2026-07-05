@@ -1,16 +1,8 @@
-import Navbar from "@/components/Navbar";
+﻿import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
-import IndustryProblems from "@/components/IndustryProblems";
-import ConceptDemos from "@/components/ConceptDemos";
-import OperationalScenarios from "@/components/OperationalScenarios";
-import OwnershipModel from "@/components/OwnershipModel";
 import WhatWeBuild from "@/components/WhatWeBuild";
-import HowWeWork from "@/components/HowWeWork";
 import WhyDaeson from "@/components/WhyDaeson";
-import StrategicCollaboration from "@/components/StrategicCollaboration";
-import FounderMessage from "@/components/FounderMessage";
 import LeadershipSection from "@/components/LeadershipSection";
-import ExecutiveMaterials from "@/components/ExecutiveMaterials";
 import InsightsPreview from "@/components/InsightsPreview";
 import FAQ from "@/components/FAQ";
 import CTA from "@/components/CTA";
@@ -134,7 +126,7 @@ const serviceSchema = {
   provider: {
     "@type": "Organization",
     name: "Daeson Technologies",
-    url: "https://daesontechagency.online",
+    url: "https://daesontechnologies.online",
   },
   areaServed: ["UAE", "GCC", "Saudi Arabia", "Canada", "United States", "Pakistan", "UK"],
   description:
@@ -166,7 +158,7 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Home",
-      item: "https://daesontechagency.online",
+      item: "https://daesontechnologies.online",
     },
   ],
 };
@@ -188,49 +180,24 @@ export default function Home() {
       />
       <Navbar />
       <main>
-        {/* 1. Hero — positioning and CTA */}
+        <div className="sr-only">
+          Daeson Technologies is an enterprise technology company based in Pakistan and UAE,
+          building owned AI-powered operational infrastructure for real estate firms, Islamic
+          financial institutions, and enterprise organizations. Founded by Mahnoor Zafar and
+          Usman Ahmad. No SaaS subscriptions — clients own all source code.
+        </div>
         <Hero />
-
-        {/* 2. Industry Problems — pain points */}
-        <IndustryProblems />
-
-        {/* 3. Concept Demonstrations — proof of capability */}
-        <ConceptDemos />
-
-        {/* 4. Illustrative Scenarios — outcome framing (no fake clients) */}
-        <OperationalScenarios />
-
-        {/* 5. Ownership Model — differentiation */}
-        <OwnershipModel />
-
-        {/* 6. What We Build — service pillars */}
-        <WhatWeBuild />
-
-        {/* 7. How We Build — execution trust system */}
-        <HowWeWork />
-
-        {/* 8. Why Daeson — trust pillars */}
+        <div className="section-light">
+          <WhatWeBuild />
+        </div>
         <WhyDaeson />
-
-        {/* 9. Strategic Collaboration — Alhamd partnership */}
-        <StrategicCollaboration />
-
-        {/* 10. Founder Perspective */}
-        <FounderMessage />
-
-        {/* 11. Leadership Team */}
-        <LeadershipSection />
-
-        {/* 12. Executive Materials */}
-        <ExecutiveMaterials />
-
-        {/* 13. Insights & Research */}
+        <div className="section-light">
+          <LeadershipSection />
+        </div>
         <InsightsPreview />
-
-        {/* 14. FAQ — GEO/LLM SEO */}
-        <FAQ />
-
-        {/* 15. Final conversion CTA */}
+        <div className="section-light">
+          <FAQ />
+        </div>
         <CTA />
       </main>
       <Footer />

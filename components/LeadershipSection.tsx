@@ -10,7 +10,7 @@ const leaders = [
     name: "Mahnoor Zafar",
     title: "Founder & Strategic Systems Lead",
     accentColor: "var(--blue)",
-    rawAccent: "#3B6AFF",
+    rawAccent: "#FFFFFF",
     positioning:
       "Focused on operational infrastructure, workflow intelligence, and scalable business systems for real estate and governance-sensitive industries.",
     areas: [
@@ -26,8 +26,8 @@ const leaders = [
     initials: "UA",
     name: "Usman Ahmad",
     title: "Co-Founder & Technical Lead",
-    accentColor: "#6A7FFF",
-    rawAccent: "#6A7FFF",
+    accentColor: "var(--text-secondary)",
+    rawAccent: "#888888",
     positioning:
       "Responsible for system architecture, scalable product execution, and technology operations across Daeson's enterprise infrastructure platforms.",
     areas: [
@@ -100,7 +100,7 @@ export default function LeadershipSection() {
             </h2>
             <div className="hidden md:block">
               <LinkedInBadge
-                href="https://www.linkedin.com/company/daeson-tech-agency/"
+                href="https://www.linkedin.com/company/daeson-technologies/"
                 label="Daeson Technologies on LinkedIn"
               />
             </div>
@@ -290,8 +290,8 @@ export default function LeadershipSection() {
 
               <Link
                 href="/contact"
-                className="inline-flex items-center gap-2 px-4 py-2.5 text-white text-[13px] font-semibold rounded-lg transition-all duration-200"
-                style={{ backgroundColor: "var(--blue)" }}
+                className="inline-flex items-center gap-2 px-4 py-2.5 text-[13px] font-semibold rounded-lg transition-all duration-200"
+                style={{ backgroundColor: "var(--blue)", color: "var(--on-blue)" }}
                 onMouseEnter={e => ((e.currentTarget as HTMLElement).style.backgroundColor = "var(--blue-hover)")}
                 onMouseLeave={e => ((e.currentTarget as HTMLElement).style.backgroundColor = "var(--blue)")}
               >

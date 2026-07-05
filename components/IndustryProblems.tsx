@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const industries = [
   {
     name: "Real Estate & PropTech",
-    color: "#3B6AFF",
+    color: "#FFFFFF",
     badge: "Real Estate",
     problems: [
       "Fragmented CRM and lead management systems",
