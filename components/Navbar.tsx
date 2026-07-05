@@ -82,7 +82,7 @@ export default function Navbar() {
   return (
     <>
       {/* Announcement Bar */}
-      {announced && (
+      {/* {announced && (
         <div
           className="w-full text-center py-2 px-4 relative"
           style={{ background: "rgba(255,255,255,0.06)", borderBottom: "1px solid rgba(255,255,255,0.12)" }}
@@ -102,7 +102,7 @@ export default function Navbar() {
             <X size={14} />
           </button>
         </div>
-      )}
+      )} */}
 
       <header
         className="sticky top-0 left-0 right-0 z-50 transition-all duration-300"

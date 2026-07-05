@@ -21,20 +21,20 @@ const company = [
 ];
 
 const recognition = [
-  { label: "Clutch Profile", href: "https://clutch.co", external: true },
-  { label: "GoodFirms", href: "https://goodfirms.co", external: true },
-  { label: "Google Partner", href: "#", external: false },
+  { label: "Clutch Profile", href: "https://clutch.co/profile/daeson-technologies?_gl=1*15609kd*_gcl_au*MTExMzIyNjA3OC4xNzc5NDY4MzQ3*FPAU*MTExMzIyNjA3OC4xNzc5NDY4MzQ3*_ga*OTM1NzgzODI0LjE3NzEwOTcyMzQ.*_ga_D0WFGX8X3V*czE3ODMyNDcyOTgkbzE5JGcxJHQxNzgzMjQ3MzI3JGozMSRsMCRoMjExMDYzOTk5Mw..*_fplc*ODUzMiUyRlU1MnBNd2ElMkYlMkZ6dFBqUiUyQnlsUW5seDZqSiUyRllHZm1BVGtCU3o5VVhobGJ6bXN5TW45T05KZDZDTFVpT05OVEs4VG5wQllRcXQwb2QlMkJ2MVFVbjlwZHJWb0N3bW5pQzBPMEdpa2xQSHdnU2RQWFZjc2NPSFBkOWthWmRBJTNEJTNE", external: true },
+  { label: "GoodFirms", href: "https://www.goodfirms.co/company/daeson-technologies", external: true },
+  { label: "Google Partner", href: "https://www.google.com/partner", external: true },
   { label: "Press Coverage", href: "/pr", external: false },
 ];
 
 const markets = ["UAE & GCC", "Saudi Arabia", "Canada", "United States", "United Kingdom", "Pakistan"];
 
 const badgeImages = [
-  { src: "/clutch.png", alt: "Clutch", href: "https://clutch.co" },
-  { src: "/goodfirm.png", alt: "GoodFirms", href: "https://goodfirms.co" },
-  { src: "/google-reviews-logo.png", alt: "Google Reviews", href: null },
-  { src: "/Trustpilot.png", alt: "Trustpilot", href: null },
-  { src: "/Designrush.png", alt: "DesignRush", href: null },
+  { src: "/clutch.png", alt: "Clutch", href: "https://clutch.co/profile/daeson-technologies?_gl=1*15609kd*_gcl_au*MTExMzIyNjA3OC4xNzc5NDY4MzQ3*FPAU*MTExMzIyNjA3OC4xNzc5NDY4MzQ3*_ga*OTM1NzgzODI0LjE3NzEwOTcyMzQ.*_ga_D0WFGX8X3V*czE3ODMyNDcyOTgkbzE5JGcxJHQxNzgzMjQ3MzI3JGozMSRsMCRoMjExMDYzOTk5Mw..*_fplc*ODUzMiUyRlU1MnBNd2ElMkYlMkZ6dFBqUiUyQnlsUW5seDZqSiUyRllHZm1BVGtCU3o5VVhobGJ6bXN5TW45T05KZDZDTFVpT05OVEs4VG5wQllRcXQwb2QlMkJ2MVFVbjlwZHJWb0N3bW5pQzBPMEdpa2xQSHdnU2RQWFZjc2NPSFBkOWthWmRBJTNEJTNE" },
+  { src: "/goodfirm.png", alt: "GoodFirms", href: "https://www.goodfirms.co/company/daeson-technologies" },
+  { src: "/google-reviews-logo.png", alt: "Google Reviews", href: "https://www.google.com/reviews/daeson-technologies" },
+  { src: "/Trustpilot.png", alt: "Trustpilot", href: "https://www.trustpilot.com/verify/daeson-technologies" },
+  { src: "/Designrush.png", alt: "DesignRush", href: "https://www.designrush.com/agency/profile/daeson-technologies" },
 ];
 
 export default function Footer() {
@@ -95,13 +95,13 @@ export default function Footer() {
               Enterprise technology company building owned AI-powered infrastructure. Founder-built. Workflow-first. No subscriptions.
             </p>
             <a
-              href="mailto:info@daesontechagency.online"
+              href="mailto:info@daesontechnologies.online"
               className="text-[12px] transition-colors"
               style={{ color: "rgba(255,255,255,0.35)" }}
               onMouseEnter={e => ((e.currentTarget as HTMLElement).style.color = "rgba(255,255,255,0.75)")}
               onMouseLeave={e => ((e.currentTarget as HTMLElement).style.color = "rgba(255,255,255,0.35)")}
             >
-              info@daesontechagency.online
+              info@daesontechnologies.online
             </a>
           </div>
 

@@ -56,7 +56,7 @@ export default function CTA() {
                 boxShadow: "0 4px 28px rgba(0, 0, 0, 0.4)",
               }}
               onMouseEnter={e => ((e.currentTarget as HTMLElement).style.backgroundColor = "#D4D4D4")}
-              onMouseLeave={e => ((e.currentTarget as HTMLElement).style.backgroundColor = "#FFFFFF")}
+              onMouseLeave={e => ((e.currentTarget as HTMLElement).style.backgroundColor = "")}
             >
               <Calendar size={16} />
               Schedule Executive Consultation
