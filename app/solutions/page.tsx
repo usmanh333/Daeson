@@ -296,8 +296,8 @@ export default function SolutionsPage() {
                 <div className="flex flex-wrap gap-3">
                   <Link
                     href="/contact"
-                    className="inline-flex items-center gap-2 px-6 py-3.5 text-black text-[14px] font-semibold rounded-xl transition-all duration-200"
-                    // style={{ backgroundColor: "var(--green)", boxShadow: "0 4px 20px rgba(5, 150, 105, 0.25)" }}
+                    className="inline-flex items-center gap-2 px-6 py-3.5 text-white text-[14px] font-semibold rounded-xl transition-all duration-200"
+                    style={{ backgroundColor: "var(--green)", boxShadow: "0 4px 20px rgba(5, 150, 105, 0.25)" }}
                   >
                     Request Executive Consultation
                     <ArrowRight size={14} />
