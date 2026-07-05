@@ -280,11 +280,11 @@ export default function PartnershipsPage() {
                     <ArrowRight size={14} />
                   </Link>
                   <a
-                    href="mailto:partnerships@daesontechagency.online"
+                    href="mailto:partnerships@daesontechnologies.online"
                     className="inline-flex items-center gap-2 px-6 py-3.5 text-[14px] font-semibold rounded-xl transition-all duration-200"
                     style={{ border: "1px solid var(--border)", color: "var(--text-primary)" }}
                   >
-                    partnerships@daesontechagency.online
+                    partnerships@daesontechnologies.online
                   </a>
                 </div>
               </div>

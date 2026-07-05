@@ -382,7 +382,7 @@ export default function AboutPage() {
                 </p>
                 <div className="space-y-4">
                   <a
-                    href="mailto:partnerships@daesontechagency.online"
+                    href="mailto:partnerships@daesontechnologies.online"
                     className="flex items-center gap-3 text-[13px] transition-colors"
                     style={{ color: "var(--text-secondary)" }}
                   >
@@ -394,11 +394,11 @@ export default function AboutPage() {
                     </div>
                     <div>
                       <span className="block font-semibold" style={{ color: "var(--text-primary)" }}>Strategic Partnerships</span>
-                      <span className="text-[11px]" style={{ color: "var(--text-faint)" }}>partnerships@daesontechagency.online</span>
+                      <span className="text-[11px]" style={{ color: "var(--text-faint)" }}>partnerships@daesontechnologies.online</span>
                     </div>
                   </a>
                   <a
-                    href="mailto:contact@daesontechagency.online"
+                    href="mailto:contact@daesontechnologies.online"
                     className="flex items-center gap-3 text-[13px] transition-colors"
                     style={{ color: "var(--text-secondary)" }}
                   >
@@ -410,7 +410,7 @@ export default function AboutPage() {
                     </div>
                     <div>
                       <span className="block font-semibold" style={{ color: "var(--text-primary)" }}>General Contact</span>
-                      <span className="text-[11px]" style={{ color: "var(--text-faint)" }}>contact@daesontechagency.online</span>
+                      <span className="text-[11px]" style={{ color: "var(--text-faint)" }}>contact@daesontechnologies.online</span>
                     </div>
                   </a>
                 </div>

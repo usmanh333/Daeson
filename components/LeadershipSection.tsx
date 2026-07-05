@@ -237,7 +237,7 @@ export default function LeadershipSection() {
                 </p>
                 <div className="space-y-3">
                   <a
-                    href="mailto:partnerships@daesontechagency.online"
+                    href="mailto:partnerships@daesontechnologies.online"
                     className="flex items-center gap-3 text-[13px] transition-colors"
                     style={{ color: "var(--text-secondary)" }}
                     onMouseEnter={e => ((e.currentTarget as HTMLElement).style.color = "var(--text-primary)")}
@@ -251,11 +251,11 @@ export default function LeadershipSection() {
                     </div>
                     <div>
                       <span className="block font-medium">Strategic Partnerships</span>
-                      <span className="text-[11px]" style={{ color: "var(--text-faint)" }}>partnerships@daesontechagency.online</span>
+                      <span className="text-[11px]" style={{ color: "var(--text-faint)" }}>partnerships@daesontechnologies.online</span>
                     </div>
                   </a>
                   <a
-                    href="mailto:contact@daesontechagency.online"
+                    href="mailto:contact@daesontechnologies.online"
                     className="flex items-center gap-3 text-[13px] transition-colors"
                     style={{ color: "var(--text-secondary)" }}
                     onMouseEnter={e => ((e.currentTarget as HTMLElement).style.color = "var(--text-primary)")}
@@ -269,7 +269,7 @@ export default function LeadershipSection() {
                     </div>
                     <div>
                       <span className="block font-medium">General Inquiries</span>
-                      <span className="text-[11px]" style={{ color: "var(--text-faint)" }}>contact@daesontechagency.online</span>
+                      <span className="text-[11px]" style={{ color: "var(--text-faint)" }}>contact@daesontechnologies.online</span>
                     </div>
                   </a>
                 </div>

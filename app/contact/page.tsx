@@ -178,17 +178,17 @@ export default function ContactPage() {
                 {[
                   {
                     label: "General Inquiries",
-                    email: "contact@daesontechagency.online",
+                    email: "contact@daesontechnologies.online",
                     desc: "Product questions, general information",
                   },
                   {
                     label: "Strategic Partnerships",
-                    email: "partnerships@daesontechagency.online",
+                    email: "partnerships@daesontechnologies.online",
                     desc: "Partnership and advisory discussions",
                   },
                   {
                     label: "Founder Conversations",
-                    email: "mahnoorzafar@daesontechagency.online",
+                    email: "mahnoorzafar@daesontechnologies.online",
                     desc: "Strategic conversations — handled personally by Mahnoor",
                   },
                 ].map((contact) => (
@@ -226,7 +226,7 @@ export default function ContactPage() {
               </p>
 
               <form
-                action="https://formsubmit.co/contact@daesontechagency.online"
+                action="https://formsubmit.co/contact@daesontechnologies.online"
                 method="POST"
                 className="space-y-5"
               >

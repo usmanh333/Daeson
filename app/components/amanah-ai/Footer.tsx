@@ -39,7 +39,7 @@ export default function Footer() {
                 href="mailto:contact@daesontechagency.online"
                 className="hover:text-[#0F3D2E] transition-colors"
               >
-                contact@daesontechagency.online
+                contact@daesontechnologies.online
               </a>
             </div>
           </div>

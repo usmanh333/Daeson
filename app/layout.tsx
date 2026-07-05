@@ -154,14 +154,14 @@ const organizationSchema = {
   contactPoint: [
     {
       "@type": "ContactPoint",
-      email: "contact@daesontechagency.online",
+      email: "contact@daesontechnologies.online",
       contactType: "customer support",
       areaServed: ["AE", "SA", "CA", "US", "PK", "GB"],
       availableLanguage: ["English", "Arabic", "Urdu"],
     },
     {
       "@type": "ContactPoint",
-      email: "partnerships@daesontechagency.online",
+      email: "partnerships@daesontechnologies.online",
       contactType: "sales",
       areaServed: ["AE", "SA", "CA", "US", "PK", "GB"],
     },
@@ -224,7 +224,7 @@ const organizationSchema = {
     ],
   },
   sameAs: [
-    "https://www.linkedin.com/company/daeson-tech-agency/",
+    "https://www.linkedin.com/company/daeson-technologies/",
   ],
 };
 
