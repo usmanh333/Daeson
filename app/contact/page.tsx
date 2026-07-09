@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { Calendar, ArrowRight, CheckCircle } from "lucide-react";
+import { Calendar, CheckCircle } from "lucide-react";
+import ContactForm from "./ContactForm";
 
 export const metadata: Metadata = {
   title: "Executive Consultation — Start a Conversation",
@@ -9,39 +10,6 @@ export const metadata: Metadata = {
     "Schedule an executive consultation with Daeson Technologies. We map your operations, identify infrastructure gaps, and present a clear architectural approach — no commitment required.",
   alternates: { canonical: "https://daesontechnologies.online/contact" },
 };
-
-const interests = [
-  "Real Estate Operations Platform",
-  "Amanah AI",
-  "Enterprise AI Systems",
-  "Strategic Partnership",
-  "Executive Consultation",
-  "Other",
-];
-
-const industries = [
-  "Real Estate & PropTech",
-  "Islamic Finance",
-  "Enterprise Operations",
-  "Other",
-];
-
-const budgets = [
-  "Exploring — budget TBD",
-  "Under $25,000",
-  "$25,000 – $75,000",
-  "$75,000 – $150,000",
-  "$150,000+",
-];
-
-const timelines = [
-  "Immediately (within 1 month)",
-  "Soon (1–3 months)",
-  "Planning (3–6 months)",
-  "Exploring (6+ months)",
-];
-
-const teamSizes = ["1–10", "11–50", "51–200", "200+"];
 
 const process = [
   {
@@ -159,7 +127,7 @@ export default function ContactPage() {
                   conversation about your operations.
                 </p>
                 <a
-                  href="https://calendly.com/d/dv3h-6kf-yf7/stratergic-discussion"
+                  href="https://calendar.google.com/calendar/u/7/r/week?pli=1"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 px-5 py-2.5 text-[13px] font-semibold rounded-xl transition-all hover:opacity-90"
@@ -214,233 +182,7 @@ export default function ContactPage() {
             </div>
 
             {/* Right — Form */}
-            <div
-              className="rounded-2xl p-7 md:p-8"
-              style={{ backgroundColor: "var(--bg-surface)", border: "1px solid var(--border)" }}
-            >
-              <h2 className="text-[20px] font-bold mb-1 tracking-tight" style={{ color: "var(--text-primary)" }}>
-                Tell us about your business
-              </h2>
-              <p className="text-[12px] mb-7" style={{ color: "var(--text-faint)" }}>
-                Fields marked * are required. We respond within 24–48 hours.
-              </p>
-
-              <form
-                action="https://formsubmit.co/contact@daesontechnologies.online"
-                method="POST"
-                className="space-y-5"
-              >
-                <input type="hidden" name="_subject" value="New Executive Consultation Request — Daeson Technologies" />
-                <input type="hidden" name="_captcha" value="false" />
-                <input type="hidden" name="_template" value="table" />
-                <input type="hidden" name="_next" value="https://daesontechnologies.online/thank-you" />
-                <input type="text" name="_honey" className="hidden" aria-hidden="true" tabIndex={-1} />
-
-                <div className="grid grid-cols-2 gap-4">
-                  <div>
-                    <label className="block text-[10px] font-bold uppercase tracking-widest mb-2" style={{ color: "var(--text-muted)" }}>
-                      First Name *
-                    </label>
-                    <input
-                      type="text"
-                      name="first_name"
-                      required
-                      autoComplete="given-name"
-                      className="w-full rounded-xl px-4 py-3 text-[13px] transition-colors focus:outline-none"
-                      style={{
-                        backgroundColor: "var(--bg-page)",
-                        border: "1px solid var(--border)",
-                        color: "var(--text-primary)",
-                      }}
-                      placeholder="First name"
-                    />
-                  </div>
-                  <div>
-                    <label className="block text-[10px] font-bold uppercase tracking-widest mb-2" style={{ color: "var(--text-muted)" }}>
-                      Last Name *
-                    </label>
-                    <input
-                      type="text"
-                      name="last_name"
-                      required
-                      autoComplete="family-name"
-                      className="w-full rounded-xl px-4 py-3 text-[13px] transition-colors focus:outline-none"
-                      style={{
-                        backgroundColor: "var(--bg-page)",
-                        border: "1px solid var(--border)",
-                        color: "var(--text-primary)",
-                      }}
-                      placeholder="Last name"
-                    />
-                  </div>
-                </div>
-
-                <div>
-                  <label className="block text-[10px] font-bold uppercase tracking-widest mb-2" style={{ color: "var(--text-muted)" }}>
-                    Business Email *
-                  </label>
-                  <input
-                    type="email"
-                    name="email"
-                    required
-                    autoComplete="email"
-                    className="w-full rounded-xl px-4 py-3 text-[13px] transition-colors focus:outline-none"
-                    style={{
-                      backgroundColor: "var(--bg-page)",
-                      border: "1px solid var(--border)",
-                      color: "var(--text-primary)",
-                    }}
-                    placeholder="you@company.com"
-                  />
-                </div>
-
-                <div>
-                  <label className="block text-[10px] font-bold uppercase tracking-widest mb-2" style={{ color: "var(--text-muted)" }}>
-                    Company *
-                  </label>
-                  <input
-                    type="text"
-                    name="company"
-                    required
-                    autoComplete="organization"
-                    className="w-full rounded-xl px-4 py-3 text-[13px] transition-colors focus:outline-none"
-                    style={{
-                      backgroundColor: "var(--bg-page)",
-                      border: "1px solid var(--border)",
-                      color: "var(--text-primary)",
-                    }}
-                    placeholder="Company name"
-                  />
-                </div>
-
-                <div>
-                  <label className="block text-[10px] font-bold uppercase tracking-widest mb-2" style={{ color: "var(--text-muted)" }}>
-                    Area of Interest *
-                  </label>
-                  <select
-                    name="area_of_interest"
-                    required
-                    className="w-full rounded-xl px-4 py-3 text-[13px] focus:outline-none appearance-none"
-                    style={{
-                      backgroundColor: "var(--bg-page)",
-                      border: "1px solid var(--border)",
-                      color: "var(--text-primary)",
-                    }}
-                  >
-                    <option value="">Select area of interest</option>
-                    {interests.map((i) => <option key={i} value={i}>{i}</option>)}
-                  </select>
-                </div>
-
-                <div className="grid grid-cols-2 gap-4">
-                  <div>
-                    <label className="block text-[10px] font-bold uppercase tracking-widest mb-2" style={{ color: "var(--text-muted)" }}>
-                      Industry
-                    </label>
-                    <select
-                      name="industry"
-                      className="w-full rounded-xl px-4 py-3 text-[13px] focus:outline-none appearance-none"
-                      style={{
-                        backgroundColor: "var(--bg-page)",
-                        border: "1px solid var(--border)",
-                        color: "var(--text-primary)",
-                      }}
-                    >
-                      <option value="">Select</option>
-                      {industries.map((i) => <option key={i} value={i}>{i}</option>)}
-                    </select>
-                  </div>
-                  <div>
-                    <label className="block text-[10px] font-bold uppercase tracking-widest mb-2" style={{ color: "var(--text-muted)" }}>
-                      Team Size
-                    </label>
-                    <select
-                      name="team_size"
-                      className="w-full rounded-xl px-4 py-3 text-[13px] focus:outline-none appearance-none"
-                      style={{
-                        backgroundColor: "var(--bg-page)",
-                        border: "1px solid var(--border)",
-                        color: "var(--text-primary)",
-                      }}
-                    >
-                      <option value="">Select</option>
-                      {teamSizes.map((s) => <option key={s} value={s}>{s}</option>)}
-                    </select>
-                  </div>
-                </div>
-
-                <div className="grid grid-cols-2 gap-4">
-                  <div>
-                    <label className="block text-[10px] font-bold uppercase tracking-widest mb-2" style={{ color: "var(--text-muted)" }}>
-                      Budget Range
-                    </label>
-                    <select
-                      name="budget"
-                      className="w-full rounded-xl px-4 py-3 text-[13px] focus:outline-none appearance-none"
-                      style={{
-                        backgroundColor: "var(--bg-page)",
-                        border: "1px solid var(--border)",
-                        color: "var(--text-primary)",
-                      }}
-                    >
-                      <option value="">Select</option>
-                      {budgets.map((b) => <option key={b} value={b}>{b}</option>)}
-                    </select>
-                  </div>
-                  <div>
-                    <label className="block text-[10px] font-bold uppercase tracking-widest mb-2" style={{ color: "var(--text-muted)" }}>
-                      Timeline
-                    </label>
-                    <select
-                      name="timeline"
-                      className="w-full rounded-xl px-4 py-3 text-[13px] focus:outline-none appearance-none"
-                      style={{
-                        backgroundColor: "var(--bg-page)",
-                        border: "1px solid var(--border)",
-                        color: "var(--text-primary)",
-                      }}
-                    >
-                      <option value="">Select</option>
-                      {timelines.map((t) => <option key={t} value={t}>{t}</option>)}
-                    </select>
-                  </div>
-                </div>
-
-                <div>
-                  <label className="block text-[10px] font-bold uppercase tracking-widest mb-2" style={{ color: "var(--text-muted)" }}>
-                    Your Operational Challenge *
-                  </label>
-                  <textarea
-                    name="challenge"
-                    required
-                    rows={4}
-                    className="w-full rounded-xl px-4 py-3 text-[13px] transition-colors focus:outline-none resize-none"
-                    style={{
-                      backgroundColor: "var(--bg-page)",
-                      border: "1px solid var(--border)",
-                      color: "var(--text-primary)",
-                    }}
-                    placeholder="Tell us about your business, current systems, and what you're trying to improve. Be as specific as you like — the more context you share, the more useful our first conversation will be."
-                  />
-                </div>
-
-                <button
-                  type="submit"
-                  className="w-full py-4 text-[14px] font-bold rounded-xl transition-all hover:opacity-90"
-                  style={{
-                    backgroundColor: "var(--blue)",
-                    color: "var(--on-blue)",
-                    boxShadow: "0 4px 20px rgba(0,0,0,0.35)",
-                  }}
-                >
-                  Request Executive Consultation <ArrowRight size={14} className="inline ml-1.5 -mt-0.5" />
-                </button>
-
-                <p className="text-[11px] text-center leading-relaxed" style={{ color: "var(--text-faint)" }}>
-                  We respond within 24–48 business hours. Your information is handled with complete discretion.
-                </p>
-              </form>
-            </div>
+            <ContactForm />
           </div>
         </section>
         </div>
