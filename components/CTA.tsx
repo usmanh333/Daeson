@@ -52,8 +52,8 @@ export default function CTA() {
               href="/contact"
               className="inline-flex items-center justify-center gap-2.5 px-8 py-4 text-black text-[15px] font-semibold rounded-xl transition-all duration-200"
               style={{
-                backgroundColor: "#FFFFFF",
-                boxShadow: "0 4px 28px rgba(0, 0, 0, 0.4)",
+                backgroundColor: "",
+                boxShadow: "",
               }}
               onMouseEnter={e => ((e.currentTarget as HTMLElement).style.backgroundColor = "#D4D4D4")}
               onMouseLeave={e => ((e.currentTarget as HTMLElement).style.backgroundColor = "")}

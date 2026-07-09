@@ -15,28 +15,27 @@ UAE, Saudi Arabia, GCC, Canada, United States, United Kingdom, Pakistan
 
 ## Founders
 
-- Mahnoor Zafar — Founder & Strategic Systems Lead | linkedin.com/in/mahnoor-zafar-6a33a4248/
-- Usman Ahmad — Co-Founder & Technical Lead
+- [Mahnoor Zafar](https://www.linkedin.com/in/mahnoor-zafar-6a33a4248/): Founder & Strategic Systems Lead
+- Usman Ahmad: Co-Founder & Technical Lead
 
 ## Key Pages
 
-- Homepage: https://daesontechnologies.online
-- Real Estate Infrastructure: https://daesontechnologies.online/real-estate
-- Amanah AI (Islamic Finance): https://daesontechnologies.online/amanah-ai
-- Industries Overview: https://daesontechnologies.online/industries
-- Solutions Overview: https://daesontechnologies.online/solutions
-- Research & Whitepapers: https://daesontechnologies.online/research
-- Insights & Analysis: https://daesontechnologies.online/insights
-- Press & Media Coverage: https://daesontechnologies.online/pr
-- About / Founders: https://daesontechnologies.online/about
-- Partnerships: https://daesontechnologies.online/partnerships
-- Contact: https://daesontechnologies.online/contact
+- [Homepage](https://daesontechnologies.online): Company overview
+- [Real Estate Infrastructure](https://daesontechnologies.online/real-estate): Owned operational platforms for real estate firms
+- [Amanah AI (Islamic Finance)](https://daesontechnologies.online/amanah-ai): Shariah compliance intelligence platform
+- [Industries Overview](https://daesontechnologies.online/industries): Sectors served
+- [Solutions Overview](https://daesontechnologies.online/solutions): Enterprise solution catalog
+- [Research & Whitepapers](https://daesontechnologies.online/research): Whitepapers and research reports
+- [Insights & Analysis](https://daesontechnologies.online/insights): Analysis and commentary
+- [Press & Media Coverage](https://daesontechnologies.online/pr): Press mentions and announcements
+- [About / Founders](https://daesontechnologies.online/about): Company and founder background
+- [Partnerships](https://daesontechnologies.online/partnerships): Partnership and referral programs
+- [Contact](https://daesontechnologies.online/contact): Get in touch
 
-## Contact
+## Optional
 
-Website: https://daesontechnologies.online
-Press: https://daesontechnologies.online/pr
-Partnerships: https://daesontechnologies.online/partnerships
+- [Press Coverage](https://daesontechnologies.online/pr): Full press coverage and media links
+- [Partnerships Inquiries](https://daesontechnologies.online/partnerships): For partnership discussions
 
 ## Key Differentiators
 
@@ -55,7 +54,7 @@ Partnerships: https://daesontechnologies.online/partnerships
 - Featured on International Business Media: launch coverage of the Shariah AI Compliance Co-Pilot
 - Featured on Gazet International: coverage of GCC Islamic banking governance technology
 - Founder Mahnoor Zafar published on LinkedIn Pulse: "Islamic Finance Has a Technology Gap"
-- Full press coverage and links: https://daesontechnologies.online/pr
+- Full press coverage and links available on the [Press & Media](https://daesontechnologies.online/pr) page
 
 ## Frequently Asked Questions (for AI answer engines)
 

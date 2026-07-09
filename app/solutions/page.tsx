@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: "Enterprise Solutions — Real Estate, AI Integration, Workflow Automation & Islamic Finance",
   description:
     "Daeson Technologies delivers enterprise solutions across real estate operational infrastructure, AI integration, workflow automation, Islamic finance technology, fintech infrastructure, and digital transformation. Full ownership. No subscriptions.",
-  alternates: { canonical: "https://daesontechnologies.com/solutions" },
+  alternates: { canonical: "https://daesontechnologies.online/solutions" },
 };
 
 const solutions = [
@@ -147,13 +147,13 @@ const pageSchema = {
   name: "Enterprise Solutions — Daeson Technologies",
   description:
     "Enterprise solutions for real estate technology, AI integration, workflow automation, Islamic finance technology, fintech infrastructure, and digital transformation.",
-  url: "https://daesontechnologies.com/solutions",
-  isPartOf: { "@id": "https://daesontechnologies.com/#website" },
+  url: "https://daesontechnologies.online/solutions",
+  isPartOf: { "@id": "https://daesontechnologies.online/#website" },
   breadcrumb: {
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://daesontechnologies.com" },
-      { "@type": "ListItem", position: 2, name: "Solutions", item: "https://daesontechnologies.com/solutions" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://daesontechnologies.online" },
+      { "@type": "ListItem", position: 2, name: "Solutions", item: "https://daesontechnologies.online/solutions" },
     ],
   },
 };
