@@ -48,7 +48,9 @@ export default function ContactForm() {
         body: formData,
       });
 
-      if (!res.ok) throw new Error("Submission failed");
+      const data = await res.json().catch(() => null);
+      const succeeded = res.ok && (data?.success === "true" || data?.success === true);
+      if (!succeeded) throw new Error(data?.message || "Submission failed");
       setStatus("success");
     } catch {
       setStatus("error");
@@ -262,7 +264,7 @@ export default function ContactForm() {
         <button
           type="submit"
           disabled={status === "submitting"}
-          className="w-full py-4 text-[14px] font-bold rounded-xl transition-all hover:opacity-90 disabled:opacity-60"
+          className="w-full py-4 text-[14px] font-bold rounded-xl transition-all hover:opacity-90 cursor-pointer disabled:opacity-60 disabled:cursor-not-allowed"
           style={{ backgroundColor: "var(--blue)", color: "var(--on-blue)", boxShadow: "0 4px 20px rgba(0,0,0,0.35)" }}
         >
           {status === "submitting" ? "Sending..." : "Request Executive Consultation"}
