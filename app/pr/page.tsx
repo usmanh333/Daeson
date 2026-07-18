@@ -84,6 +84,37 @@ const pressItems = [
   },
 ];
 
+const perspectives = [
+  {
+    id: "p1",
+    title: "SaaS Real Estate Platforms vs. Owned Infrastructure — What Actually Differs",
+    body: "SaaS real estate investment platforms (the SaaSProperties.com model, and similar tools) charge a recurring fee for shared, templated software — useful for getting a firm running quickly, but the firm never owns the system or its data. Traditional real estate investing and REIT reporting solve a different problem entirely: capital structure, not day-to-day operations. Firms evaluating either path are usually really asking a third question — do we rent our operating system indefinitely, or build one we own outright? That's the comparison worth making before choosing a platform.",
+    href: "/insights/real-estate-saas-vs-owned",
+    linkLabel: "Read the full comparison",
+  },
+  {
+    id: "p2",
+    title: "What to Actually Compare Between Real Estate SaaS Platforms",
+    body: "Feature lists look similar across most real estate SaaS platforms. The differences that matter show up in fees over a 3–5 year horizon, how much of your investor and deal data you can export cleanly if you leave, and whether the roadmap serves your workflow or the vendor's release calendar. Those three questions matter more than any single feature comparison chart.",
+    href: "/real-estate",
+    linkLabel: "See our operations platform approach",
+  },
+  {
+    id: "p3",
+    title: "Dashboarding for REITs and Real Estate Portfolios",
+    body: "Most 'real estate dashboard' tools are generic BI wrappers bolted onto a spreadsheet export. A dashboard built for REITs and property portfolios needs to speak the domain directly — occupancy, NOI, investor distributions, and deal-stage pipeline in one view, not a generic chart builder. That distinction is what separates a real estate CRM dashboard from a repurposed analytics tool.",
+    href: "/industries/real-estate",
+    linkLabel: "See how we approach it",
+  },
+  {
+    id: "p4",
+    title: "Choosing a Software Provider for Islamic Finance Analytics & Reporting",
+    body: "Islamic finance institutions evaluating analytics and reporting software run into a hard requirement most generic fintech tools skip: Shariah governance has to be built into the workflow, not bolted on afterward. That means contract analysis, scholar review queues, and regulatory reporting need to share one audit trail — not live in three disconnected tools.",
+    href: "/amanah-ai",
+    linkLabel: "How Amanah AI approaches this",
+  },
+];
+
 const articleListSchema = {
   "@context": "https://schema.org",
   "@type": "ItemList",
@@ -298,6 +329,50 @@ export default function PRPage() {
           </div>
         </section>
 
+        {/* ── PERSPECTIVES (first-party, clearly separate from press coverage) ── */}
+        <div className="section-light" style={{ borderTop: "1px solid var(--border)" }}>
+        <section className="py-16 px-6">
+          <div className="max-w-6xl mx-auto">
+            <p className="text-[10px] font-bold uppercase tracking-widest mb-2" style={{ color: "var(--text-faint)" }}>
+              Perspectives From Our Team
+            </p>
+            <p className="text-[13px] mb-8 max-w-2xl" style={{ color: "var(--text-secondary)" }}>
+              Short takes from Daeson Technologies — not third-party press, our own perspective on
+              questions we hear from prospective clients.
+            </p>
+            <div className="grid md:grid-cols-2 gap-6">
+              {perspectives.map((item) => (
+                <Link
+                  key={item.id}
+                  href={item.href}
+                  className="press-card group flex flex-col rounded-2xl p-8"
+                  style={{ border: "1px solid var(--border)", backgroundColor: "var(--bg-card)" }}
+                >
+                  <span
+                    className="inline-flex items-center self-start text-[10px] font-bold uppercase tracking-widest px-2.5 py-1 rounded-full mb-5"
+                    style={{ backgroundColor: "var(--bg-elevated)", color: "var(--text-muted)", border: "1px solid var(--border)" }}
+                  >
+                    Daeson Perspective
+                  </span>
+                  <h3 className="text-[16px] font-bold leading-snug mb-3" style={{ color: "var(--text-primary)" }}>
+                    {item.title}
+                  </h3>
+                  <p className="text-[13px] leading-relaxed flex-1 mb-6" style={{ color: "var(--text-secondary)" }}>
+                    {item.body}
+                  </p>
+                  <span
+                    className="flex items-center gap-1.5 text-[13px] font-semibold group-hover:gap-2.5 transition-all pt-5"
+                    style={{ color: "var(--blue)", borderTop: "1px solid var(--border)" }}
+                  >
+                    {item.linkLabel} <ArrowRight size={14} />
+                  </span>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+        </div>
+
         {/* ── TRUST BADGES ── */}
         <section
           className="section-light py-16 px-6"
@@ -343,7 +418,7 @@ export default function PRPage() {
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <a
-                href="mailto:info@daesontechagency.online"
+                href="mailto:contact@daesontechnologies.online"
                 className="px-8 py-3.5 text-[14px] font-bold rounded-xl transition-all hover:opacity-90"
                 style={{ backgroundColor: "var(--blue)", color: "var(--on-blue)" }}
               >

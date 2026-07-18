@@ -90,6 +90,11 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://daesontechnologies.online",
   },
+  verification: {
+    other: {
+      "msvalidate.01": "F37F2F8CD2614E3C3BEA599012CAB282",
+    },
+  },
   robots: {
     index: true,
     follow: true,

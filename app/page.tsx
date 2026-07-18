@@ -1,5 +1,6 @@
 ﻿import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
+import AylinorAnnouncement from "@/components/AylinorAnnouncement";
 import WhatWeBuild from "@/components/WhatWeBuild";
 import WhyDaeson from "@/components/WhyDaeson";
 import LeadershipSection from "@/components/LeadershipSection";
@@ -187,6 +188,7 @@ export default function Home() {
           Usman Ahmad. No SaaS subscriptions — clients own all source code.
         </div>
         <Hero />
+        <AylinorAnnouncement />
         <div className="section-light">
           <WhatWeBuild />
         </div>
