@@ -5,7 +5,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Islamic Finance Technology — Shariah Compliance & Operational Intelligence",
+  title: "Islamic Finance Technology & Compliance",
   description:
     "Daeson Technologies delivers Islamic finance technology through Amanah AI: Murabaha workflow automation, Shariah governance documentation, scholar review systems, and compliance audit trails for Islamic financial institutions.",
   alternates: { canonical: "https://daesontechnologies.online/industries/islamic-finance" },

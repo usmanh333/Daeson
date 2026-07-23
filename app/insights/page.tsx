@@ -5,7 +5,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Insights — Operational Infrastructure Research & Analysis",
+  title: "Insights — Infrastructure Research",
   description:
     "Research and analysis from Daeson Technologies on operational infrastructure, AI for business operations, real estate technology, Islamic finance AI, Murabaha workflow digitization, and enterprise workflow systems.",
   keywords: [

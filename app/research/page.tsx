@@ -5,7 +5,7 @@ import Link from "next/link";
 import { ArrowRight, Download } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Research Center — Whitepapers, Industry Reports & Executive Briefings",
+  title: "Research Center — Whitepapers & Reports",
   description:
     "Daeson Technologies Research Center: whitepapers on real estate technology, Islamic finance AI, enterprise workflow automation, and operational intelligence. Executive briefings and industry reports for enterprise decision-makers.",
   alternates: { canonical: "https://daesontechnologies.online/research" },

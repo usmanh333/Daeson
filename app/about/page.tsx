@@ -5,7 +5,7 @@ import Link from "next/link";
 import { ArrowRight, Linkedin, Mail, ArrowUpRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "About — Mahnoor Zafar & Usman Ahmad, Founders of Daeson Technologies",
+  title: "About — Founders of Daeson Technologies",
   description:
     "Daeson Technologies is led by Mahnoor Zafar (Founder & Strategic Systems Lead) and Usman Ahmad (Co-Founder & Technical Lead). Building owned AI-powered operational infrastructure for real estate, Islamic finance, and enterprise organizations.",
   keywords: [

@@ -5,7 +5,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Strategic Partnerships — Real Estate, Islamic Finance & Technology Alliances",
+  title: "Strategic Partnerships — Real Estate & Fintech",
   description:
     "Daeson Technologies seeks strategic partnerships with real estate firms, Islamic finance institutions, operational advisors, and technology partners aligned with our mission of building owned operational infrastructure.",
   keywords: [

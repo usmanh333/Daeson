@@ -5,7 +5,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Founder Insights — Operational Intelligence & Enterprise Technology Perspectives",
+  title: "Founder Insights — Operational Intelligence",
   description:
     "Perspectives from the Daeson Technologies founding team on operational infrastructure, real estate technology, Islamic finance AI, workflow automation, and the future of enterprise software.",
   alternates: { canonical: "https://daesontechnologies.online/founder-insights" },

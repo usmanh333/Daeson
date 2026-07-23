@@ -5,7 +5,7 @@ import Link from "next/link";
 import { ArrowRight, ArrowLeft } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Why Real Estate Firms Are Replacing SaaS Stacks with Owned Infrastructure",
+  title: "SaaS vs. Owned Real Estate Infrastructure",
   description:
     "The era of patching together Salesforce, Excel, and email for real estate operations is ending. Forward-thinking property firms are building owned operational platforms — and the ROI case is clear.",
   alternates: { canonical: "https://daesontechnologies.online/insights/real-estate-saas-vs-owned" },

@@ -5,7 +5,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Demo Center — Explore Daeson Technologies Enterprise Platforms",
+  title: "Demo Center — Explore Our Platforms",
   description:
     "Request a demonstration of Daeson Technologies enterprise platforms: Real Estate Operations Platform, Amanah AI Islamic finance intelligence, workflow automation systems, and enterprise AI integration.",
   alternates: { canonical: "https://daesontechnologies.online/demo" },

@@ -5,7 +5,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Case Studies — Operational Infrastructure Projects",
+  title: "Case Studies — Infrastructure Projects",
   description:
     "Explore Daeson Technologies case studies — real estate operational platforms, Amanah AI Islamic finance infrastructure, and enterprise AI systems.",
   alternates: { canonical: "https://daesontechnologies.online/case-studies" },

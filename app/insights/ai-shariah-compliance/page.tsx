@@ -5,7 +5,7 @@ import Link from "next/link";
 import { ArrowRight, ArrowLeft } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "AI and Shariah Compliance: Building Infrastructure That Supports Scholars",
+  title: "AI and Shariah Compliance Infrastructure",
   description:
     "AI in Islamic finance is most valuable when it removes operational burden from compliance workflows — freeing scholars to focus on substantive jurisprudential decisions rather than manual document review.",
   alternates: { canonical: "https://daesontechnologies.online/insights/ai-shariah-compliance" },

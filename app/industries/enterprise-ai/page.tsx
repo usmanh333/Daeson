@@ -5,7 +5,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Enterprise AI Integration — AI Embedded in Existing Systems & Workflows",
+  title: "Enterprise AI Integration & Automation",
   description:
     "Daeson Technologies integrates AI into existing enterprise systems as an operational layer — automating analysis, surfacing intelligence, and supporting decisions within live workflows. Not chatbots. Operational AI.",
   alternates: { canonical: "https://daesontechnologies.online/industries/enterprise-ai" },

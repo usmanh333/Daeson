@@ -5,7 +5,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Workflow Automation — Intelligent Enterprise Workflow Systems",
+  title: "Workflow Automation — Enterprise Systems",
   description:
     "Daeson Technologies builds intelligent workflow automation systems for enterprise operations. End-to-end workflow design, AI-powered orchestration, automated approval flows, and compliance enforcement. Full ownership.",
   alternates: { canonical: "https://daesontechnologies.online/industries/workflow-automation" },

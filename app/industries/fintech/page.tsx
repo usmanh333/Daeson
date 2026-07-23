@@ -5,7 +5,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Fintech Infrastructure — Custom Financial Technology Development",
+  title: "Fintech Infrastructure Development",
   description:
     "Daeson Technologies builds custom fintech infrastructure: payment systems, wallet infrastructure, financial operations platforms, and transaction processing. Full ownership, no third-party dependency on critical financial flows.",
   alternates: { canonical: "https://daesontechnologies.online/industries/fintech" },

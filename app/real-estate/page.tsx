@@ -5,7 +5,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Real Estate Operational Infrastructure — Owned CRM, Investor Dashboards & AI Analytics",
+  title: "Real Estate Operational Infrastructure",
   description:
     "Daeson Technologies builds owned operational infrastructure for real estate firms — replacing fragmented SaaS with unified CRM, investor reporting dashboards, AI lead intelligence, payment tracking, and executive analytics. Designed for portfolio complexity.",
   keywords: [

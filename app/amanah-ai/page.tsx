@@ -5,7 +5,7 @@ import Link from "next/link";
 import { ArrowRight, Download, FileText } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Amanah AI — Islamic Finance Shariah Compliance Infrastructure",
+  title: "Amanah AI — Shariah Compliance Infrastructure",
   description:
     "Amanah AI is Daeson Technologies' AI-powered infrastructure platform for Islamic financial institutions. It automates Shariah compliance workflows including Murabaha contract analysis, governance documentation, and scholar review queues — currently in strategic development with Shariah advisory collaboration.",
   keywords: [

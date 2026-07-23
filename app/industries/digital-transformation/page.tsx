@@ -5,7 +5,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Enterprise Digital Transformation — Strategy, Architecture & Implementation",
+  title: "Digital Transformation — Strategy & Execution",
   description:
     "Daeson Technologies delivers enterprise digital transformation: replacing legacy systems, consolidating fragmented tools, and building owned operational infrastructure. Strategy through implementation.",
   alternates: { canonical: "https://daesontechnologies.online/industries/digital-transformation" },

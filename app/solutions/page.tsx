@@ -5,7 +5,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Enterprise Solutions — Real Estate, AI Integration, Workflow Automation & Islamic Finance",
+  title: "Enterprise Solutions — Real Estate & AI",
   description:
     "Daeson Technologies delivers enterprise solutions across real estate operational infrastructure, AI integration, workflow automation, Islamic finance technology, fintech infrastructure, and digital transformation. Full ownership. No subscriptions.",
   alternates: { canonical: "https://daesontechnologies.online/solutions" },

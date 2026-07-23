@@ -5,7 +5,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Real Estate & PropTech Industry — Why Firms Need Owned Infrastructure",
+  title: "Real Estate & PropTech Infrastructure",
   description:
     "Real estate firms, brokerages, and property developers running on fragmented SaaS tools face data silos, manual reporting, and vendor lock-in. See why the industry is shifting to owned operational infrastructure — and how Daeson Technologies builds it.",
   keywords: [

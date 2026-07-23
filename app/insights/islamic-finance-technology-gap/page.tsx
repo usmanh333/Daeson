@@ -5,7 +5,7 @@ import Link from "next/link";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Islamic Finance Has a Technology Gap — Mahnoor Zafar",
+  title: "Islamic Finance's Technology Gap",
   description:
     "A $3 trillion industry still running on spreadsheets and manual approval chains. Founder Mahnoor Zafar examines why Islamic finance institutions lag in operational technology — and what it actually takes to close the gap.",
   keywords: [

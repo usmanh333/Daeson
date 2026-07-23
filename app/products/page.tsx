@@ -5,7 +5,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Products — Amanah AI & Enterprise Operational Platforms",
+  title: "Products — Amanah AI & Enterprise Platforms",
   description:
     "Daeson Technologies products include Amanah AI — the Islamic finance operational intelligence platform — and the Real Estate Operations Platform. Enterprise-grade, fully owned, AI-powered.",
   alternates: { canonical: "https://daesontechnologies.online/products" },
