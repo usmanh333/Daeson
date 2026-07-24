@@ -59,7 +59,7 @@ const industries = [
   },
   {
     badge: "Enterprise",
-    color: "#10B981",
+    color: "#FFFFFF",
     title: "Enterprise Operations",
     description:
       "Enterprise organizations with complex cross-department operations need AI-integrated workflow systems that connect their data and give leadership the visibility to make execution-level decisions.",

@@ -32,8 +32,8 @@ const scenarios = [
     index: "02",
     sector: "Real Estate — Commercial",
     title: "Commercial Firm with Investor Reporting Gaps",
-    color: "#10B981",
-    colorVar: "#10B981",
+    color: "#FFFFFF",
+    colorVar: "var(--blue)",
     before: {
       label: "Operational Gaps",
       points: [

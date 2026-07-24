@@ -32,7 +32,7 @@ const materials = [
   {
     icon: FileText,
     tag: "Company",
-    tagColor: "#10B981",
+    tagColor: "#FFFFFF",
     title: "Daeson Technologies\nCompany Overview",
     description:
       "A concise company overview covering Daeson's positioning, infrastructure disciplines, methodology, and current focus areas — suitable for internal sharing.",

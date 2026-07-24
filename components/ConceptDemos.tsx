@@ -10,7 +10,7 @@ const demos = [
     tagColor: "var(--blue)",
     tagBg: "var(--blue-muted)",
     status: "Available for Review",
-    statusColor: "#10B981",
+    statusColor: "var(--blue)",
     title: "Real Estate Operations Platform",
     subtitle: "Real Estate & PropTech",
     description:

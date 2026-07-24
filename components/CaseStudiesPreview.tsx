@@ -15,7 +15,7 @@ const caseStudies = [
       "We designed and built a unified operational platform that replaced all four tools. The platform includes an AI-powered lead intelligence system, investor dashboard with real-time portfolio visibility, integrated payment and milestone tracking, and executive reporting.",
     features: ["Unified CRM", "Investor Dashboard", "Payment Tracking", "Lead Intelligence", "AI Analytics"],
     status: "In Production",
-    statusColor: "text-emerald-400",
+    statusColor: "text-[var(--blue)]",
     href: "/case-studies",
   },
   {

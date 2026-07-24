@@ -66,7 +66,7 @@ const partnershipTypes = [
     description:
       "We are interested in relationships with operational advisors, technology consultants, and professional services firms who work with organizations in our target sectors and believe their clients deserve better infrastructure than generic SaaS.",
     ideal: ["Management consultants (real estate / finance)", "Technology implementation firms", "Enterprise advisory practices", "Independent operational advisors"],
-    color: "#10B981",
+    color: "var(--blue)",
   },
 ];
 

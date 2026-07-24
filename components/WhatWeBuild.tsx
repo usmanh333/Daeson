@@ -49,8 +49,8 @@ const pillars = [
       "Enterprise-grade secure deployment",
     ],
     href: "/industries",
-    color: "#10B981",
-    rawColor: "#10B981",
+    color: "var(--blue)",
+    rawColor: "#888888",
     label: "Enterprise",
   },
 ];

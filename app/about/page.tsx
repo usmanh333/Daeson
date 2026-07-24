@@ -459,7 +459,7 @@ export default function AboutPage() {
               {
                 title: "Architecture before code",
                 body: "We design before we build. Discovery and operational mapping come before development — because systems built on misunderstood workflows fail, regardless of how well they are engineered.",
-                accent: "#10B981",
+                accent: "var(--blue)",
               },
             ].map((value) => (
               <div

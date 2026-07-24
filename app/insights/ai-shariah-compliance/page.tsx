@@ -347,7 +347,7 @@ export default function ArticlePage() {
           <div className="max-w-3xl mx-auto px-6 py-16">
             <div
               className="rounded-2xl p-10 text-center"
-              style={{ background: "linear-gradient(135deg, #FFFBEB 0%, #FFF7E6 100%)", border: "1px solid rgba(185,145,47,0.25)" }}
+              style={{ background: "var(--bg-surface)", border: "1px solid rgba(185,145,47,0.25)" }}
             >
               <h2 className="text-[24px] font-bold mb-3 tracking-tight" style={{ color: "var(--text-primary)" }}>
                 Building Shariah compliance infrastructure?

@@ -16,7 +16,7 @@ const cases = [
     tag: "Real Estate Operations",
     color: "#FFFFFF",
     status: "In Production",
-    statusColor: "text-emerald-400",
+    statusColor: "text-[var(--blue)]",
     title: "Real Estate Operations Platform",
     summary:
       "A property development firm replaced four disconnected tools with a single owned operational platform. The result: unified lead management, real-time investor dashboards, and automated payment tracking.",
@@ -59,9 +59,9 @@ const cases = [
   },
   {
     tag: "Law Enforcement Systems",
-    color: "#10B981",
+    color: "#FFFFFF",
     status: "Delivered",
-    statusColor: "text-emerald-400",
+    statusColor: "text-[var(--blue)]",
     title: "Sheriff Police Department — Desktop Operations System",
     summary:
       "A USA Sheriff Police Department needed a custom desktop operations system to manage case files, incident reports, and officer workflows — replacing a legacy system that no longer met operational requirements.",

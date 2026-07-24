@@ -29,7 +29,7 @@ const industries = [
   },
   {
     name: "Enterprise Operations",
-    color: "#10B981",
+    color: "#FFFFFF",
     badge: "Enterprise",
     problems: [
       "Disconnected systems across departments",

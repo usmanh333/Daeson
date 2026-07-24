@@ -71,7 +71,7 @@ export default function FounderMessage() {
                 {[
                   { label: "Real Estate Infrastructure", color: "var(--blue)" },
                   { label: "Governance Systems", color: "var(--gold)" },
-                  { label: "Workflow Intelligence", color: "#10B981" },
+                  { label: "Workflow Intelligence", color: "var(--blue)" },
                 ].map((item) => (
                   <div key={item.label} className="flex items-center gap-2 text-[11px] mb-1 last:mb-0" style={{ color: "var(--text-secondary)" }}>
                     <span className="w-1.5 h-1.5 rounded-full shrink-0" style={{ backgroundColor: item.color }} />

@@ -97,6 +97,14 @@ const itemListSchema = {
         description:
           "Investor relations in real estate requires consistent, accurate, and timely reporting — but most generic tools weren't designed for this use case.",
       },
+      {
+        "@type": "ListItem",
+        position: 7,
+        name: "When Does a Real Estate Operating Platform Beat One-Off Property Deals?",
+        url: "https://daesontechnologies.online/insights/real-estate-operating-platform-vs-one-off-deals",
+        description:
+          "A framework for investors and asset managers: the five signals that indicate it's time to build real estate operating infrastructure instead of running one-off deals.",
+      },
     ],
   },
 };
@@ -143,6 +151,17 @@ const articles = [
     readTime: "6 min read",
     topics: ["Islamic Finance", "Operational Technology", "Fintech Infrastructure"],
     href: "/insights/islamic-finance-technology-gap",
+  },
+  {
+    category: "Real Estate Operations",
+    color: "var(--blue)",
+    rawColor: "#888888",
+    title: "When Does a Real Estate Operating Platform Beat One-Off Property Deals?",
+    excerpt:
+      "A framework for investors and asset managers: the five signals that indicate it's time to build real estate operating infrastructure instead of running deal-by-deal — opaque comps, deal sourcing, rate volatility, slow diligence, and fragmented LP reporting.",
+    readTime: "7 min read",
+    topics: ["Deal Flow", "LP Reporting", "Asset Management"],
+    href: "/insights/real-estate-operating-platform-vs-one-off-deals",
   },
 ];
 

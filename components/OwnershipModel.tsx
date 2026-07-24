@@ -28,7 +28,7 @@ const pillars = [
   {
     number: "03",
     title: "Operational Intelligence",
-    color: "#10B981",
+    color: "var(--blue)",
     points: [
       "AI built on your actual business data",
       "Reporting designed around your decisions",
