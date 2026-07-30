@@ -18,7 +18,7 @@ const solutions = [
     ),
   },
   {
-    label: "Amanah AI",
+    label: "Aylinor",
     description: "Islamic finance compliance intelligence",
     href: "/amanah-ai",
     icon: (

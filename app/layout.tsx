@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     "enterprise workflow systems",
     "custom software development UAE",
     "AI workflow automation",
-    "Amanah AI",
+    "Aylinor",
     "Daeson Technologies",
     "enterprise software GCC",
     "operational intelligence platform",
@@ -190,7 +190,7 @@ const organizationSchema = {
     "Islamic Finance AI",
     "Shariah Compliance Software",
     "Murabaha Workflow Digitization",
-    "Amanah AI",
+    "Aylinor",
     "Islamic Finance Operations",
     "Shariah Governance Systems",
     "Enterprise Workflow Automation",
@@ -214,7 +214,7 @@ const organizationSchema = {
       },
       {
         "@type": "Offer",
-        name: "Amanah AI — Islamic Finance Intelligence",
+        name: "Aylinor — Islamic Finance Intelligence",
         description:
           "AI-powered Shariah compliance infrastructure for Islamic financial institutions — Murabaha contract analysis, governance documentation, scholar review queues, and regulatory reporting. In strategic development.",
         url: "https://daesontechnologies.online/amanah-ai",

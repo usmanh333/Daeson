@@ -105,6 +105,22 @@ const itemListSchema = {
         description:
           "A framework for investors and asset managers: the five signals that indicate it's time to build real estate operating infrastructure instead of running one-off deals.",
       },
+      {
+        "@type": "ListItem",
+        position: 8,
+        name: "Why the Future of Islamic Finance Depends on Shariah-Compliant Software",
+        url: "https://daesontechnologies.online/insights/shariah-compliant-software-future",
+        description:
+          "Why the future of Islamic finance depends on Shariah-compliant software — and how Aylinor is building the infrastructure to support it, starting with Murabaha financing.",
+      },
+      {
+        "@type": "ListItem",
+        position: 9,
+        name: "Home 1.0: Building Happier Tenants, Better Communities",
+        url: "https://daesontechnologies.online/insights/home-1-0-residential-property-management",
+        description:
+          "Home 1.0 is Daeson Technologies' AI-powered residential property management platform — built for happier tenants, better living communities, and smarter operations.",
+      },
     ],
   },
 };
@@ -138,7 +154,7 @@ const articles = [
     excerpt:
       "Artificial intelligence in Islamic finance is not about replacing Shariah scholars — it is about building infrastructure that removes operational burden from compliance workflows, so scholars can focus on jurisprudential judgment rather than manual document review.",
     readTime: "10 min read",
-    topics: ["Amanah AI", "Shariah Compliance", "Governance Systems"],
+    topics: ["Aylinor", "Shariah Compliance", "Governance Systems"],
     href: "/insights/ai-shariah-compliance",
   },
   {
@@ -162,6 +178,28 @@ const articles = [
     readTime: "7 min read",
     topics: ["Deal Flow", "LP Reporting", "Asset Management"],
     href: "/insights/real-estate-operating-platform-vs-one-off-deals",
+  },
+  {
+    category: "Islamic Finance",
+    color: "var(--gold)",
+    rawColor: "#B9912F",
+    title: "Why the Future of Islamic Finance Depends on Shariah-Compliant Software",
+    excerpt:
+      "Most Shariah compliance processes are still heavily manual. As Islamic finance goes digital, governance has to become structured, auditable software — this is why Daeson Technologies is building Aylinor, starting with Murabaha financing.",
+    readTime: "6 min read",
+    topics: ["Aylinor", "Shariah Compliance", "Islamic Banking Software"],
+    href: "/insights/shariah-compliant-software-future",
+  },
+  {
+    category: "Real Estate Operations",
+    color: "var(--blue)",
+    rawColor: "#888888",
+    title: "Home 1.0: Building Happier Tenants, Better Communities",
+    excerpt:
+      "Home 1.0 is Daeson Technologies' AI-powered residential property management platform — unifying resident communication, maintenance, leasing, and payments into one owned system instead of spreadsheets and WhatsApp groups.",
+    readTime: "6 min read",
+    topics: ["Home 1.0", "PropTech", "Property Management"],
+    href: "/insights/home-1-0-residential-property-management",
   },
 ];
 

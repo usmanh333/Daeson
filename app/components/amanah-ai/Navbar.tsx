@@ -36,7 +36,7 @@ export default function Navbar() {
               <Shield className="w-4 h-4 text-white" />
             </div>
             <span className="font-bold text-xl text-[#0F3D2E] tracking-tight">
-              Amanah AI
+              Aylinor
             </span>
           </a>
 

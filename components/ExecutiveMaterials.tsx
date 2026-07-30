@@ -21,9 +21,9 @@ const materials = [
     icon: FileText,
     tag: "Islamic Finance",
     tagColor: "#D4AF37",
-    title: "Amanah AI\nProduct Overview",
+    title: "Aylinor\nProduct Overview",
     description:
-      "A detailed overview of Amanah AI's Shariah compliance infrastructure approach — including workflow architecture, compliance scope, and institutional positioning.",
+      "A detailed overview of Aylinor's Shariah compliance infrastructure approach — including workflow architecture, compliance scope, and institutional positioning.",
     audience: "Islamic bank leadership, Shariah boards, fintech executives",
     format: "PDF · 10 pages",
     href: "/contact",

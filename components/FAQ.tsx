@@ -34,10 +34,10 @@ Purpose-built real estate operational infrastructure can include unified lead an
 Daeson Technologies has designed operational infrastructure architecture specifically for real estate and property development firms operating across UAE, GCC, and international markets.`,
   },
   {
-    q: "What is Amanah AI and how does it support Shariah compliance?",
-    a: `Amanah AI is Daeson Technologies' dedicated platform for Islamic financial institutions, currently in strategic development with Alhamd Shariah Advisory collaboration. It provides AI-assisted support for Shariah compliance workflows — including Murabaha contract analysis, risk scoring, governance documentation, scholar review queues, and regulatory reporting.
+    q: "What is Aylinor and how does it support Shariah compliance?",
+    a: `Aylinor is Daeson Technologies' dedicated platform for Islamic financial institutions, currently in strategic development with Alhamd Shariah Advisory collaboration. It provides AI-assisted support for Shariah compliance workflows — including Murabaha contract analysis, risk scoring, governance documentation, scholar review queues, and regulatory reporting.
 
-Amanah AI is designed to support — not replace — Shariah scholars and compliance teams. It automates the repetitive, time-consuming analysis tasks and creates consistent, auditable documentation, so scholars can focus on substantive governance decisions rather than manual document review.
+Aylinor is designed to support — not replace — Shariah scholars and compliance teams. It automates the repetitive, time-consuming analysis tasks and creates consistent, auditable documentation, so scholars can focus on substantive governance decisions rather than manual document review.
 
 The platform is in development for Islamic banks, Islamic fintech platforms, investment funds, and payment institutions operating across GCC, Pakistan, and UK markets.`,
   },

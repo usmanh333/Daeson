@@ -81,7 +81,7 @@ export default function TrustSection() {
             <span style={{ color: '#0F3D2E' }}>Institutional Use</span>
           </h2>
           <p className="text-lg text-gray-500 leading-relaxed">
-            Every layer of Amanah AI is built to meet the expectations of global financial institutions
+            Every layer of Aylinor is built to meet the expectations of global financial institutions
             — from security architecture to regulatory documentation readiness.
           </p>
         </motion.div>

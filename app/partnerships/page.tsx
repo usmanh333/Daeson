@@ -28,9 +28,9 @@ const currentPartnership = {
   name: "Alhamd Shariah Advisory",
   type: "Strategic Shariah Advisory Collaboration",
   description:
-    "Alhamd Shariah Advisory provides strategic domain expertise and Shariah operational knowledge supporting the development of Amanah AI. This collaboration ensures that Amanah AI's workflow architecture is grounded in practical Shariah compliance requirements — informed by qualified Shariah expertise rather than theoretical assumptions.",
+    "Alhamd Shariah Advisory provides strategic domain expertise and Shariah operational knowledge supporting the development of Aylinor. This collaboration ensures that Aylinor's workflow architecture is grounded in practical Shariah compliance requirements — informed by qualified Shariah expertise rather than theoretical assumptions.",
   scope: [
-    "Domain expertise for Amanah AI workflow architecture",
+    "Domain expertise for Aylinor workflow architecture",
     "Shariah operational requirements review",
     "Practical compliance workflow alignment",
     "Advisory guidance on governance documentation approach",
@@ -50,7 +50,7 @@ const partnershipTypes = [
   {
     title: "Islamic Finance Institutions",
     description:
-      "We are actively seeking introductions to Islamic banks, Islamic fintech platforms, and Shariah-compliant investment firms operating across GCC, Pakistan, and UK markets. Early institutional partners inform Amanah AI's compliance architecture and gain early engagement access.",
+      "We are actively seeking introductions to Islamic banks, Islamic fintech platforms, and Shariah-compliant investment firms operating across GCC, Pakistan, and UK markets. Early institutional partners inform Aylinor's compliance architecture and gain early engagement access.",
     ideal: ["Islamic banks and financial institutions", "Islamic fintech platforms", "Shariah-compliant investment funds", "Islamic payment institutions"],
     color: "var(--gold)",
   },

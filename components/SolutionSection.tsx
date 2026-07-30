@@ -66,14 +66,14 @@ export default function SolutionSection() {
             </h2>
 
             <p className="text-lg text-gray-600 leading-relaxed">
-              Amanah AI is the Shariah Compliance Intelligence Platform — enabling financial
+              Aylinor is the Shariah Compliance Intelligence Platform — enabling financial
               institutions to analyse contracts with AI, validate against Shariah principles, and
               streamline scholar decision-making within a unified, auditable system.
             </p>
 
             <p className="text-base text-gray-500 leading-relaxed">
               From automated risk scoring to structured scholar workflows and complete audit trails,
-              Amanah AI delivers the infrastructure Islamic finance institutions need to operate with
+              Aylinor delivers the infrastructure Islamic finance institutions need to operate with
               confidence, consistency, and regulatory transparency — across every market.
             </p>
 

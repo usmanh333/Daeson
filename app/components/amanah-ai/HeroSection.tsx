@@ -12,7 +12,7 @@ function DashboardMock() {
         <div className="flex items-center justify-between px-5 py-3 border-b border-gray-200 bg-[#0F3D2E]">
           <div className="flex items-center gap-2">
             <Shield className="w-4 h-4 text-white/80" />
-            <span className="text-white text-sm font-semibold tracking-tight">Amanah AI — Compliance Dashboard</span>
+            <span className="text-white text-sm font-semibold tracking-tight">Aylinor — Compliance Dashboard</span>
           </div>
           <div className="flex items-center gap-1.5">
             <div className="w-2 h-2 rounded-full bg-[#16A34A]" />
@@ -173,7 +173,7 @@ export default function HeroSection() {
                 <span className="text-[#0F3D2E]">for Modern Banking</span>
               </h1>
               <p className="text-lg text-gray-600 leading-relaxed max-w-lg">
-                Amanah AI helps financial institutions streamline contract review, identify compliance considerations, and maintain audit-ready workflows.
+                Aylinor helps financial institutions streamline contract review, identify compliance considerations, and maintain audit-ready workflows.
               </p>
             </motion.div>
 

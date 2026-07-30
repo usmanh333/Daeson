@@ -52,7 +52,7 @@ const caseStudies = [
   },
   {
     sector: "Islamic Finance Operations",
-    tag: "Amanah AI — In Development",
+    tag: "Aylinor — In Development",
     color: "var(--gold)",
     colorMuted: "var(--gold-muted)",
     colorBorder: "var(--gold-border)",
@@ -71,7 +71,7 @@ const caseStudies = [
       { metric: "100%", label: "Compliance audit trail" },
     ],
     href: "/amanah-ai",
-    linkLabel: "Explore Amanah AI",
+    linkLabel: "Explore Aylinor",
   },
 ];
 

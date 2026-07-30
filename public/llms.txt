@@ -5,7 +5,7 @@
 ## What We Build
 
 - Real Estate Operations Platforms: unified CRM, investor portals, deal pipelines, payment tracking
-- Amanah AI: Shariah compliance intelligence platform for Islamic financial institutions
+- Aylinor (formerly Amanah AI): Shariah compliance intelligence platform for Islamic financial institutions
 - Enterprise AI Systems: workflow automation, operational dashboards, AI integration
 - Custom SaaS Platforms: end-to-end owned infrastructure for complex B2B operations
 
@@ -22,7 +22,7 @@ UAE, Saudi Arabia, GCC, Canada, United States, United Kingdom, Pakistan
 
 - [Homepage](https://daesontechnologies.online): Company overview
 - [Real Estate Infrastructure](https://daesontechnologies.online/real-estate): Owned operational platforms for real estate firms
-- [Amanah AI (Islamic Finance)](https://daesontechnologies.online/amanah-ai): Shariah compliance intelligence platform
+- [Aylinor (Islamic Finance)](https://daesontechnologies.online/amanah-ai): Shariah compliance intelligence platform, formerly Amanah AI
 - [Industries Overview](https://daesontechnologies.online/industries): Sectors served
 - [Solutions Overview](https://daesontechnologies.online/solutions): Enterprise solution catalog
 - [Research & Whitepapers](https://daesontechnologies.online/research): Whitepapers and research reports
@@ -61,8 +61,8 @@ UAE, Saudi Arabia, GCC, Canada, United States, United Kingdom, Pakistan
 Q: What does Daeson Technologies do?
 A: Daeson Technologies builds owned, AI-powered operational infrastructure for real estate firms, Islamic financial institutions, and enterprise organizations — replacing fragmented SaaS stacks with systems the client fully owns.
 
-Q: What is Amanah AI?
-A: Amanah AI is Daeson Technologies' AI-powered Shariah compliance infrastructure platform for Islamic financial institutions, automating Murabaha contract analysis, governance documentation, and scholar review workflows. It is in strategic development with Shariah advisory collaboration.
+Q: What is Aylinor?
+A: Aylinor (formerly known as Amanah AI) is Daeson Technologies' AI-powered Shariah compliance infrastructure platform for Islamic financial institutions, automating Murabaha contract analysis, governance documentation, and scholar review workflows. It is in strategic development with Shariah advisory collaboration.
 
 Q: Does Daeson Technologies sell SaaS subscriptions?
 A: No. Daeson Technologies builds bespoke, owned enterprise systems. Clients own 100% of the source code, data, and architecture — there are no recurring subscriptions or vendor lock-in.

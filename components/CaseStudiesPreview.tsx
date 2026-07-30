@@ -21,11 +21,11 @@ const caseStudies = [
   {
     tag: "Islamic Finance",
     tagColor: "#C9A84C",
-    title: "Amanah AI — Shariah Compliance Infrastructure",
+    title: "Aylinor — Shariah Compliance Infrastructure",
     problem:
       "An Islamic financial institution was conducting Shariah contract reviews manually — scholars reviewing PDFs by hand, compliance teams maintaining spreadsheet audit trails, and no standardized documentation process.",
     approach:
-      "Amanah AI provides AI-assisted contract parsing and Shariah risk analysis, structured scholar governance workflows, immutable audit trail generation, and multi-market regulatory reporting — all in a single institutional platform.",
+      "Aylinor provides AI-assisted contract parsing and Shariah risk analysis, structured scholar governance workflows, immutable audit trail generation, and multi-market regulatory reporting — all in a single institutional platform.",
     features: ["AI Contract Analysis", "Scholar Workflow", "Audit Trail", "Compliance Reporting", "Multi-Market"],
     status: "Strategic Development",
     statusColor: "text-[#C9A84C]",

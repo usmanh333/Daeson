@@ -7,7 +7,7 @@ const deploymentFeatures = [
     icon: Server,
     title: "Deployable Within Bank Infrastructure",
     description:
-      "Amanah AI can be deployed entirely within your institution’s own data center or private cloud — no mandatory external connectivity required.",
+      "Aylinor can be deployed entirely within your institution’s own data center or private cloud — no mandatory external connectivity required.",
     detail: "On-premise ready",
   },
   {
@@ -56,7 +56,7 @@ export default function PakistanFocusSection() {
             <span className="text-[#16A34A]">Institutional Environments</span>
           </h2>
           <p className="text-white/60 max-w-xl mx-auto text-base">
-            Amanah AI is built from the ground up for regulated financial institutions —
+            Aylinor is built from the ground up for regulated financial institutions —
             with the security, control, and integration capabilities that enterprise banking demands.
           </p>
         </div>

@@ -62,7 +62,7 @@ const openRoles = [
     type: "Technical",
     location: "Remote (UAE / Canada)",
     description:
-      "Senior engineer with full-stack expertise to join the core development team. You'll work on real estate operational platforms, Amanah AI, and enterprise client systems.",
+      "Senior engineer with full-stack expertise to join the core development team. You'll work on real estate operational platforms, Aylinor, and enterprise client systems.",
     requirements: [
       "5+ years full-stack development experience",
       "Strong TypeScript, React/Next.js, Node.js",
@@ -76,7 +76,7 @@ const openRoles = [
     type: "Technical",
     location: "Remote (UAE / Canada)",
     description:
-      "Join the AI team working on Amanah AI's document analysis, workflow automation, and operational intelligence layers — at the intersection of AI engineering and real enterprise operations.",
+      "Join the AI team working on Aylinor's document analysis, workflow automation, and operational intelligence layers — at the intersection of AI engineering and real enterprise operations.",
     requirements: [
       "Experience with LLM integration and fine-tuning",
       "Python, PyTorch/TensorFlow proficiency",
@@ -104,7 +104,7 @@ const openRoles = [
     type: "Advisory",
     location: "Remote or GCC-based",
     description:
-      "A qualified Islamic finance professional to support the operational design and domain accuracy of Amanah AI — working directly with the product team on workflow logic, compliance requirements, and domain validation.",
+      "A qualified Islamic finance professional to support the operational design and domain accuracy of Aylinor — working directly with the product team on workflow logic, compliance requirements, and domain validation.",
     requirements: [
       "Practical Islamic finance operations experience",
       "Familiarity with Murabaha, Ijara, and other Islamic structures",
@@ -123,7 +123,7 @@ const futureOpportunities = [
   },
   {
     area: "Shariah Compliance Analyst",
-    description: "As Amanah AI scales, we'll need dedicated compliance analysts with hands-on Islamic finance experience to support governance workflows.",
+    description: "As Aylinor scales, we'll need dedicated compliance analysts with hands-on Islamic finance experience to support governance workflows.",
     timeline: "Q3 2025",
   },
   {

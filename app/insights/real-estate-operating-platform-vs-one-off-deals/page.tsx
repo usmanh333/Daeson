@@ -184,7 +184,7 @@ export default function ArticlePage() {
             </p>
             <p className="text-[15px] leading-[1.85]">
               For firms whose platform strategy extends into holding and operating residential assets
-              after acquisition, <strong style={{ color: "var(--text-primary)" }}>Home101</strong> handles
+              after acquisition, <strong style={{ color: "var(--text-primary)" }}>Home 1.0</strong> handles
               that next stage — tenant management, AI-driven tenant support, and payment operations for
               the portfolio once it&apos;s live.
             </p>

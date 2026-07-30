@@ -8,7 +8,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Press & Media — Daeson Technologies in the News",
   description:
-    "Press coverage, media features, and articles about Daeson Technologies and Amanah AI — as featured by TradingView/Zawya, The Arabian Post, LinkedIn, International Business Media, and Gazet International.",
+    "Press coverage, media features, and articles about Daeson Technologies and Aylinor — as featured by TradingView/Zawya, The Arabian Post, LinkedIn, International Business Media, and Gazet International.",
   alternates: { canonical: "https://daesontechnologies.online/pr" },
   openGraph: {
     title: "Press & Media — Daeson Technologies",
@@ -107,6 +107,96 @@ const pressItems = [
     href: "https://medium.com/@daesontechnologies/islamic-finance-has-a-technology-gap-not-a-finance-gap-39836ddc31a1",
     tag: "Founder Insight",
   },
+  {
+    id: 7,
+    outlet: "Dev.to",
+    wordmark: "DEV",
+    category: "Thought Leadership",
+    author: "Daeson Technologies",
+    headline: "Why Real Estate Market Needs Better Investor Transparency",
+    excerpt:
+      "Daeson Technologies argues that real estate developers courting international investors are held back by fragmented communication and reporting — and that AI-powered operational platforms are what actually close the transparency gap.",
+    date: "July 2026",
+    isoDate: "2026-07-09",
+    readTime: "Thought Leadership",
+    href: "https://dev.to/daeson_technologies_612f4/why-real-estate-market-needs-better-investor-transparency-1o09",
+    tag: "Real Estate",
+  },
+  {
+    id: 8,
+    outlet: "Dev.to",
+    wordmark: "DEV",
+    category: "Thought Leadership",
+    author: "Daeson Technologies",
+    headline: "Residential Property Management Is Broken. The Problem Isn't People. It's Systems.",
+    excerpt:
+      "A look at why residential property management breaks down — not from staff failures, but from fragmented, disconnected systems — and how a unified operational platform restores visibility and resident satisfaction.",
+    date: "July 2026",
+    isoDate: "2026-07-09",
+    readTime: "Thought Leadership",
+    href: "https://dev.to/daeson_technologies_612f4/residential-property-management-is-broken-the-problem-isnt-people-its-systems-1hmd",
+    tag: "Real Estate",
+  },
+  {
+    id: 9,
+    outlet: "Dev.to",
+    wordmark: "DEV",
+    category: "Thought Leadership",
+    author: "Daeson Technologies",
+    headline: "The Part of Real Estate Nobody's Actually Fixing",
+    excerpt:
+      "Most proptech investment focuses on the transaction. Daeson Technologies makes the case that post-transaction operations — routine communication, coordination across time zones, administrative overhead — is the underserved half of the industry.",
+    date: "July 2026",
+    isoDate: "2026-07-09",
+    readTime: "Thought Leadership",
+    href: "https://dev.to/daeson_technologies_612f4/the-part-of-real-estate-nobodys-actually-fixing-10m5",
+    tag: "Real Estate",
+  },
+  {
+    id: 10,
+    outlet: "Medium",
+    wordmark: "Medium",
+    category: "Thought Leadership",
+    author: "Daeson Technologies",
+    headline: "AI FinTech Development Company: Why Financial Institutions Need Technology Partners, Not Just Software Vendors",
+    excerpt:
+      "Daeson Technologies argues that financial institutions are better served by technology partners who build owned, purpose-built platforms than by generic SaaS vendors — covering AI integration, digital wallets, and compliance infrastructure built around the institution's actual operations.",
+    date: "July 2026",
+    isoDate: "2026-07-09",
+    readTime: "Thought Leadership",
+    href: "https://medium.com/@daesontechnologies/ai-fintech-development-company-why-financial-institutions-need-technology-partners-not-just-f0ffedce0e27",
+    tag: "Fintech",
+  },
+  {
+    id: 11,
+    outlet: "Medium",
+    wordmark: "Medium",
+    category: "Thought Leadership",
+    author: "Daeson Technologies",
+    headline: "Shariah Compliance Is Still Manual. That's the Real Risk.",
+    excerpt:
+      "Islamic financial institutions have digitized banking but not Shariah governance — Daeson Technologies makes the case for structured, AI-assisted compliance workflows that support scholars rather than replace their judgment.",
+    date: "July 2026",
+    isoDate: "2026-07-09",
+    readTime: "Thought Leadership",
+    href: "https://medium.com/@daesontechnologies/shariah-compliance-is-still-manual-thats-the-real-risk-bbdae3f2efdc",
+    tag: "Islamic Finance",
+  },
+  {
+    id: 12,
+    outlet: "Medium",
+    wordmark: "Medium",
+    category: "Thought Leadership",
+    author: "Daeson Technologies",
+    headline: "When Does a Real Estate Operating Platform Beat One-Off Deals?",
+    excerpt:
+      "The companion piece to our site framework: the five signals — opaque comps, deal sourcing friction, rate volatility, slow diligence, fragmented LP reporting — that indicate it's time to build operating infrastructure instead of running deals one at a time.",
+    date: "July 2026",
+    isoDate: "2026-07-09",
+    readTime: "Thought Leadership",
+    href: "https://medium.com/@daesontechnologies/when-does-a-real-estate-operating-platform-beat-one-off-deals-deb124a19782",
+    tag: "Real Estate",
+  },
 ];
 
 const perspectives = [
@@ -136,7 +226,7 @@ const perspectives = [
     title: "Choosing a Software Provider for Islamic Finance Analytics & Reporting",
     body: "Islamic finance institutions evaluating analytics and reporting software run into a hard requirement most generic fintech tools skip: Shariah governance has to be built into the workflow, not bolted on afterward. That means contract analysis, scholar review queues, and regulatory reporting need to share one audit trail — not live in three disconnected tools.",
     href: "/amanah-ai",
-    linkLabel: "How Amanah AI approaches this",
+    linkLabel: "How Aylinor approaches this",
   },
 ];
 
@@ -144,7 +234,7 @@ const articleListSchema = {
   "@context": "https://schema.org",
   "@type": "ItemList",
   name: "Daeson Technologies Press Coverage",
-  description: "Press releases, articles, and media coverage featuring Daeson Technologies and Amanah AI.",
+  description: "Press releases, articles, and media coverage featuring Daeson Technologies and Aylinor.",
   url: "https://daesontechnologies.online/pr",
   itemListElement: pressItems.map((item, i) => ({
     "@type": "ListItem",

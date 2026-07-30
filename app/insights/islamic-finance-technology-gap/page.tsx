@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     "Islamic fintech infrastructure",
     "Murabaha workflow digitization",
     "Islamic banking AI",
-    "Amanah AI",
+    "Aylinor",
     "Daeson Technologies Islamic finance",
   ],
   openGraph: {
@@ -295,10 +295,10 @@ export default function IslamicFinanceTechGapArticle() {
               style={{ background: "linear-gradient(135deg, rgba(185,145,47,0.1) 0%, rgba(185,145,47,0.05) 100%)", border: "1px solid rgba(185,145,47,0.2)" }}
             >
               <p className="text-[11px] font-semibold uppercase tracking-widest mb-3" style={{ color: "#B9912F" }}>
-                About Amanah AI
+                About Aylinor
               </p>
               <p className="text-[15px] leading-relaxed" style={{ color: "var(--text-secondary)" }}>
-                Amanah AI is Daeson Technologies&apos; AI-powered compliance infrastructure platform for Islamic financial institutions — currently in strategic development in collaboration with Alhamd Shariah Advisory. It addresses exactly the operational gap described in this article: automating Murabaha contract analysis, structuring scholar review workflows, and building full governance documentation trails that satisfy both Shariah board and regulatory audit requirements.
+                Aylinor is Daeson Technologies&apos; AI-powered compliance infrastructure platform for Islamic financial institutions — currently in strategic development in collaboration with Alhamd Shariah Advisory. It addresses exactly the operational gap described in this article: automating Murabaha contract analysis, structuring scholar review workflows, and building full governance documentation trails that satisfy both Shariah board and regulatory audit requirements.
               </p>
               <div className="mt-6 flex flex-wrap gap-3">
                 <Link
@@ -306,7 +306,7 @@ export default function IslamicFinanceTechGapArticle() {
                   className="inline-flex items-center gap-2 px-5 py-2.5 text-[13px] font-semibold rounded-xl text-white transition-colors"
                   style={{ backgroundColor: "#B9912F" }}
                 >
-                  Learn about Amanah AI <ArrowRight size={13} />
+                  Learn about Aylinor <ArrowRight size={13} />
                 </Link>
                 <Link
                   href="/contact"

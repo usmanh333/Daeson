@@ -25,7 +25,7 @@ const architectureModules = [
     ],
   },
   {
-    title: "Amanah AI",
+    title: "Aylinor",
     tag: "In Development",
     items: [
       { label: "Murabaha Workflow", note: "Structured" },

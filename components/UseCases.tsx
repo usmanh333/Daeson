@@ -79,7 +79,7 @@ export default function UseCases() {
             <span style={{ color: '#0F3D2E' }}>Islamic Finance Institution</span>
           </h2>
           <p className="text-lg text-gray-500 leading-relaxed">
-            Whether you&apos;re a fintech startup or a multinational bank, Amanah AI fits into
+            Whether you&apos;re a fintech startup or a multinational bank, Aylinor fits into
             your compliance workflow without disruption.
           </p>
         </motion.div>

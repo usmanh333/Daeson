@@ -32,7 +32,7 @@ const solutions = [
   },
   {
     category: "Islamic Finance Technology",
-    title: "Amanah AI — Shariah Compliance Intelligence",
+    title: "Aylinor — Shariah Compliance Intelligence",
     description:
       "An AI-powered operational intelligence platform designed specifically for Islamic financial institutions. Automates Murabaha contract analysis, Shariah governance documentation, scholar review workflows, and compliance audit trails — reducing operational burden while maintaining full governance accountability.",
     capabilities: [

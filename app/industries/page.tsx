@@ -53,9 +53,9 @@ const industries = [
       "No immutable audit trail infrastructure",
       "Fragmented multi-market regulatory reporting",
     ],
-    what: "Amanah AI provides AI-assisted Shariah compliance infrastructure — contract analysis, governance workflows, audit trails, and regulatory reporting — designed for GCC, Pakistan, and UK markets.",
+    what: "Aylinor provides AI-assisted Shariah compliance infrastructure — contract analysis, governance workflows, audit trails, and regulatory reporting — designed for GCC, Pakistan, and UK markets.",
     href: "/amanah-ai",
-    cta: "Explore Amanah AI",
+    cta: "Explore Aylinor",
   },
   {
     badge: "Enterprise",

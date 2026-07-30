@@ -22,7 +22,7 @@ export default function Footer() {
               </div>
               <div>
                 <span className="font-bold text-lg text-[#0F3D2E] block leading-none">
-                  Amanah AI
+                  Aylinor
                 </span>
                 <span className="text-xs text-gray-400">
                   by Daeson Technologies

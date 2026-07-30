@@ -5,11 +5,11 @@ import Link from "next/link";
 import { ArrowRight, Download, FileText } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Amanah AI — Shariah Compliance Infrastructure",
+  title: "Aylinor — Shariah Compliance Infrastructure",
   description:
-    "Amanah AI is Daeson Technologies' AI-powered infrastructure platform for Islamic financial institutions. It automates Shariah compliance workflows including Murabaha contract analysis, governance documentation, and scholar review queues — currently in strategic development with Shariah advisory collaboration.",
+    "Aylinor is Daeson Technologies' AI-powered infrastructure platform for Islamic financial institutions. It automates Shariah compliance workflows including Murabaha contract analysis, governance documentation, and scholar review queues — currently in strategic development with Shariah advisory collaboration.",
   keywords: [
-    "Amanah AI",
+    "Aylinor",
     "Islamic finance AI",
     "Shariah compliance software",
     "Murabaha workflow digitization",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     "Daeson Technologies",
   ],
   openGraph: {
-    title: "Amanah AI — Islamic Finance Shariah Compliance Infrastructure | Daeson Technologies",
+    title: "Aylinor — Islamic Finance Shariah Compliance Infrastructure | Daeson Technologies",
     description:
       "AI-powered Shariah compliance infrastructure for Islamic financial institutions. Automates Murabaha contract analysis, governance documentation, and compliance audit trails — in strategic development with Shariah advisory collaboration.",
     url: "https://daesontechnologies.online/amanah-ai",
@@ -37,10 +37,10 @@ const faqSchema = {
   mainEntity: [
     {
       "@type": "Question",
-      name: "What is Amanah AI?",
+      name: "What is Aylinor?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Amanah AI is Daeson Technologies' AI-powered infrastructure platform for Islamic financial institutions. It automates Shariah compliance workflows — including Murabaha contract analysis, governance documentation, scholar review queues, and regulatory reporting. It is currently in strategic development in collaboration with Shariah advisory expertise.",
+        text: "Aylinor is Daeson Technologies' AI-powered infrastructure platform for Islamic financial institutions. It automates Shariah compliance workflows — including Murabaha contract analysis, governance documentation, scholar review queues, and regulatory reporting. It is currently in strategic development in collaboration with Shariah advisory expertise.",
       },
     },
     {
@@ -61,26 +61,26 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "Is Amanah AI currently live?",
+      name: "Is Aylinor currently live?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Amanah AI is currently in strategic development. Daeson Technologies is building the platform in collaboration with Shariah advisory expertise to ensure the system accurately reflects scholarly consensus and institutional governance requirements. The platform is not yet deployed as a commercial product.",
+        text: "Aylinor is currently in strategic development. Daeson Technologies is building the platform in collaboration with Shariah advisory expertise to ensure the system accurately reflects scholarly consensus and institutional governance requirements. The platform is not yet deployed as a commercial product.",
       },
     },
     {
       "@type": "Question",
-      name: "What Islamic financial products does Amanah AI support?",
+      name: "What Islamic financial products does Aylinor support?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Amanah AI is being designed to support Murabaha financing workflows, Ijarah (lease-based financing) documentation, Sukuk compliance reporting, Wakala (agency) contract management, and general Shariah governance audit infrastructure. The platform is intended for Islamic banks, Islamic fintech companies, investment funds, and payment institutions.",
+        text: "Aylinor is being designed to support Murabaha financing workflows, Ijarah (lease-based financing) documentation, Sukuk compliance reporting, Wakala (agency) contract management, and general Shariah governance audit infrastructure. The platform is intended for Islamic banks, Islamic fintech companies, investment funds, and payment institutions.",
       },
     },
     {
       "@type": "Question",
-      name: "Which markets is Amanah AI designed for?",
+      name: "Which markets is Aylinor designed for?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Amanah AI is being developed for Islamic financial institutions operating across GCC markets (UAE, Saudi Arabia, Kuwait, Bahrain), Pakistan, Malaysia, and UK-based Islamic finance entities. The platform is designed to accommodate multi-market regulatory environments and multiple scholarly board structures.",
+        text: "Aylinor is being developed for Islamic financial institutions operating across GCC markets (UAE, Saudi Arabia, Kuwait, Bahrain), Pakistan, Malaysia, and UK-based Islamic finance entities. The platform is designed to accommodate multi-market regulatory environments and multiple scholarly board structures.",
       },
     },
   ],
@@ -91,13 +91,13 @@ const webPageSchema = {
   "@type": "WebPage",
   "@id": "https://daesontechnologies.online/amanah-ai",
   url: "https://daesontechnologies.online/amanah-ai",
-  name: "Amanah AI — Islamic Finance Shariah Compliance Infrastructure",
+  name: "Aylinor — Islamic Finance Shariah Compliance Infrastructure",
   description:
     "AI-powered Shariah compliance infrastructure for Islamic financial institutions. Automates Murabaha contract analysis, governance documentation, and compliance audit trails.",
   isPartOf: { "@id": "https://daesontechnologies.online/#website" },
   about: {
     "@type": "SoftwareApplication",
-    name: "Amanah AI",
+    name: "Aylinor",
     applicationCategory: "BusinessApplication",
     operatingSystem: "Web",
     creator: {
@@ -177,8 +177,8 @@ const outcomes = [
 
 const faqs = [
   {
-    q: "What is Amanah AI?",
-    a: "Amanah AI is Daeson Technologies' AI-powered infrastructure platform for Islamic financial institutions. It automates Shariah compliance workflows — including Murabaha contract analysis, governance documentation, scholar review queues, and regulatory reporting. It is currently in strategic development in collaboration with Shariah advisory expertise.",
+    q: "What is Aylinor?",
+    a: "Aylinor is Daeson Technologies' AI-powered infrastructure platform for Islamic financial institutions. It automates Shariah compliance workflows — including Murabaha contract analysis, governance documentation, scholar review queues, and regulatory reporting. It is currently in strategic development in collaboration with Shariah advisory expertise.",
   },
   {
     q: "What is Murabaha workflow digitization and why does it matter?",
@@ -189,16 +189,16 @@ const faqs = [
     a: "AI supports Shariah compliance by automating the operational layer — document parsing, contract classification, risk flagging, and compliance report generation — so Shariah scholars can focus on substantive jurisprudential decisions. The scholar remains the final governance authority; AI provides structured, consistent information to inform their judgment rather than replacing it. This is the same role a well-trained compliance analyst plays, but at greater scale and consistency.",
   },
   {
-    q: "Is Amanah AI currently available?",
-    a: "Amanah AI is currently in strategic development. Daeson Technologies is building the platform in collaboration with Shariah advisory expertise to ensure it accurately reflects scholarly consensus and institutional governance requirements. The platform is not yet deployed commercially. Institutions interested in the early partnership program can contact us directly.",
+    q: "Is Aylinor currently available?",
+    a: "Aylinor is currently in strategic development. Daeson Technologies is building the platform in collaboration with Shariah advisory expertise to ensure it accurately reflects scholarly consensus and institutional governance requirements. The platform is not yet deployed commercially. Institutions interested in the early partnership program can contact us directly.",
   },
   {
-    q: "What Islamic financial products does Amanah AI support?",
+    q: "What Islamic financial products does Aylinor support?",
     a: "The platform is being designed to support Murabaha financing workflows, Ijarah (lease-based financing) documentation, Sukuk compliance reporting, Wakala (agency) contract management, and general Shariah governance audit infrastructure — intended for Islamic banks, Islamic fintech companies, investment funds, and payment institutions.",
   },
   {
     q: "Who is Daeson Technologies working with on Shariah advisory?",
-    a: "Daeson Technologies is developing Amanah AI in strategic collaboration with Alhamd Shariah Advisory — a dedicated Shariah advisory firm. This ensures the compliance infrastructure is developed with substantive scholarly input, not built as a pure technology product and then validated. The advisory relationship covers contract analysis logic, governance documentation structure, and compliance framework design.",
+    a: "Daeson Technologies is developing Aylinor in strategic collaboration with Alhamd Shariah Advisory — a dedicated Shariah advisory firm. This ensures the compliance infrastructure is developed with substantive scholarly input, not built as a pure technology product and then validated. The advisory relationship covers contract analysis logic, governance documentation structure, and compliance framework design.",
   },
 ];
 
@@ -243,7 +243,7 @@ export default function AmanahAIPage() {
               className="text-[17px] leading-relaxed mb-6 max-w-2xl"
               style={{ color: "var(--text-secondary)" }}
             >
-              Amanah AI is an AI-powered operational platform for Islamic financial institutions —
+              Aylinor is an AI-powered operational platform for Islamic financial institutions —
               automating Murabaha contract analysis, Shariah governance documentation, scholar review
               workflows, and compliance audit trails. Currently in strategic development with Shariah
               advisory collaboration.
@@ -260,10 +260,10 @@ export default function AmanahAIPage() {
               }}
             >
               <p className="text-[11px] font-semibold uppercase tracking-widest mb-2" style={{ color: "var(--gold)" }}>
-                What is Amanah AI?
+                What is Aylinor?
               </p>
               <p className="text-[13px] leading-relaxed" style={{ color: "var(--text-secondary)" }}>
-                Amanah AI is Daeson Technologies&apos; AI-powered compliance infrastructure platform for
+                Aylinor is Daeson Technologies&apos; AI-powered compliance infrastructure platform for
                 Islamic financial institutions. It automates the operational layer of Shariah compliance
                 — contract parsing, documentation, scholar review queues — so scholars can focus on
                 jurisprudential judgment rather than manual document review.
@@ -303,7 +303,7 @@ export default function AmanahAIPage() {
                 Development Status
               </div>
               <p className="text-[13px] leading-relaxed" style={{ color: "var(--text-secondary)" }}>
-                Amanah AI is currently in strategic development. We are building in collaboration with{" "}
+                Aylinor is currently in strategic development. We are building in collaboration with{" "}
                 <Link href="/partnerships" style={{ color: "var(--gold)" }}>Alhamd Shariah Advisory</Link>{" "}
                 to ensure the platform is grounded in scholarly consensus before commercial release. This page
                 describes the intended system capabilities.
@@ -359,7 +359,7 @@ export default function AmanahAIPage() {
                   className="text-[11px] font-semibold uppercase tracking-widest mb-5"
                   style={{ color: "var(--gold)" }}
                 >
-                  With Amanah AI
+                  With Aylinor
                 </p>
                 <div className="space-y-3">
                   {outcomes.map((o) => (
@@ -491,7 +491,7 @@ export default function AmanahAIPage() {
                     Built in Collaboration with Shariah Advisory Expertise
                   </h2>
                   <p className="text-[14px] leading-[1.8] mb-4" style={{ color: "var(--text-secondary)" }}>
-                    Amanah AI is being developed in strategic collaboration with{" "}
+                    Aylinor is being developed in strategic collaboration with{" "}
                     <strong style={{ color: "var(--text-primary)" }}>Alhamd Shariah Advisory</strong> — a dedicated
                     Shariah advisory firm. This partnership ensures that the compliance infrastructure is developed
                     with substantive scholarly input from the beginning, not built as a pure technology product and
@@ -643,7 +643,7 @@ export default function AmanahAIPage() {
                 className="text-[28px] font-bold tracking-tight"
                 style={{ color: "var(--text-primary)" }}
               >
-                Questions About Amanah AI
+                Questions About Aylinor
               </h2>
             </div>
             <div className="space-y-4">
@@ -679,7 +679,7 @@ export default function AmanahAIPage() {
                 className="text-[28px] font-bold mb-4 tracking-tight"
                 style={{ color: "var(--text-primary)" }}
               >
-                Interested in Amanah AI for Your Institution?
+                Interested in Aylinor for Your Institution?
               </h2>
               <p className="text-[15px] leading-relaxed mb-8" style={{ color: "var(--text-secondary)" }}>
                 We are selectively discussing the platform with Islamic financial institutions who want to

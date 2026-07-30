@@ -353,7 +353,7 @@ export default function ArticlePage() {
                 Building Shariah compliance infrastructure?
               </h2>
               <p className="text-[14px] leading-relaxed mb-7 max-w-lg mx-auto" style={{ color: "var(--text-secondary)" }}>
-                Amanah AI is Daeson Technologies&apos; platform for Islamic financial institutions — built in
+                Aylinor is Daeson Technologies&apos; platform for Islamic financial institutions — built in
                 collaboration with Alhamd Shariah Advisory. We are selectively discussing the platform with
                 institutions interested in the early development phase.
               </p>
@@ -363,7 +363,7 @@ export default function ArticlePage() {
                   className="inline-flex items-center gap-2 px-7 py-3.5 text-white text-[14px] font-bold rounded-xl hover:opacity-90 transition-all"
                   style={{ backgroundColor: "var(--gold)" }}
                 >
-                  Learn About Amanah AI <ArrowRight size={14} />
+                  Learn About Aylinor <ArrowRight size={14} />
                 </Link>
                 <Link
                   href="/contact"

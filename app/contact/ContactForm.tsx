@@ -5,7 +5,7 @@ import { ArrowRight, CheckCircle } from "lucide-react";
 
 const interests = [
   "Real Estate Operations Platform",
-  "Amanah AI",
+  "Aylinor",
   "Enterprise AI Systems",
   "Strategic Partnership",
   "Executive Consultation",

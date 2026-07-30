@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const solutions = [
   { label: "Real Estate Infrastructure", href: "/real-estate" },
-  { label: "Amanah AI", href: "/amanah-ai" },
+  { label: "Aylinor", href: "/amanah-ai" },
   { label: "Enterprise AI Systems", href: "/industries" },
   { label: "Solutions Overview", href: "/solutions" },
   { label: "Products", href: "/products" },

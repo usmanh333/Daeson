@@ -23,7 +23,7 @@ const pillars = [
   },
   {
     number: "02",
-    title: "Amanah AI — Islamic Finance Intelligence",
+    title: "Aylinor — Islamic Finance Intelligence",
     description:
       "AI-supported Shariah compliance infrastructure that streamlines contract analysis, governance workflows, and regulatory reporting for Islamic financial institutions. Currently in strategic development with Shariah advisory collaboration.",
     outcomes: [

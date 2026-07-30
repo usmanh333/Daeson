@@ -7,7 +7,7 @@ import { ArrowRight } from "lucide-react";
 export const metadata: Metadata = {
   title: "Demo Center — Explore Our Platforms",
   description:
-    "Request a demonstration of Daeson Technologies enterprise platforms: Real Estate Operations Platform, Amanah AI Islamic finance intelligence, workflow automation systems, and enterprise AI integration.",
+    "Request a demonstration of Daeson Technologies enterprise platforms: Real Estate Operations Platform, Aylinor Islamic finance intelligence, workflow automation systems, and enterprise AI integration.",
   alternates: { canonical: "https://daesontechnologies.online/demo" },
 };
 
@@ -31,10 +31,10 @@ const demos = [
     href: "/contact?demo=real-estate",
   },
   {
-    title: "Amanah AI",
+    title: "Aylinor",
     subtitle: "Islamic Finance Compliance Intelligence",
     description:
-      "A walkthrough of the Amanah AI platform architecture — demonstrating the Murabaha workflow automation, Shariah governance documentation, and compliance visibility systems currently in development.",
+      "A walkthrough of the Aylinor platform architecture — demonstrating the Murabaha workflow automation, Shariah governance documentation, and compliance visibility systems currently in development.",
     highlights: [
       "Murabaha contract analysis workflow",
       "Shariah governance documentation generation",

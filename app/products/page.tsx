@@ -5,9 +5,9 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Products — Amanah AI & Enterprise Platforms",
+  title: "Products — Aylinor & Enterprise Platforms",
   description:
-    "Daeson Technologies products include Amanah AI — the Islamic finance operational intelligence platform — and the Real Estate Operations Platform. Enterprise-grade, fully owned, AI-powered.",
+    "Daeson Technologies products include Aylinor — the Islamic finance operational intelligence platform — and the Real Estate Operations Platform. Enterprise-grade, fully owned, AI-powered.",
   alternates: { canonical: "https://daesontechnologies.online/products" },
 };
 
@@ -29,11 +29,11 @@ const productSchema = {
 const amanahSchema = {
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
-  name: "Amanah AI",
+  name: "Aylinor",
   applicationCategory: "BusinessApplication",
   operatingSystem: "Web",
   description:
-    "Amanah AI is an AI-powered operational intelligence platform for Islamic financial institutions. It automates Murabaha contract analysis, Shariah governance documentation, scholar review workflows, and compliance audit trail generation. Developed by Daeson Technologies in strategic collaboration with Alhamd Shariah Advisory.",
+    "Aylinor is an AI-powered operational intelligence platform for Islamic financial institutions. It automates Murabaha contract analysis, Shariah governance documentation, scholar review workflows, and compliance audit trail generation. Developed by Daeson Technologies in strategic collaboration with Alhamd Shariah Advisory.",
   creator: {
     "@type": "Organization",
     name: "Daeson Technologies",
@@ -60,14 +60,14 @@ const products = [
     status: "In Strategic Development",
     statusColor: "var(--gold)",
     statusBg: "var(--gold-muted)",
-    name: "Amanah AI",
+    name: "Aylinor",
     tagline: "Islamic Finance Operational Intelligence Platform",
     description:
-      "Amanah AI is an AI-powered platform designed specifically for Islamic financial institutions. It addresses the operational gap between Shariah compliance requirements and the manual, paper-heavy processes that currently govern most Islamic finance workflows.",
+      "Aylinor is an AI-powered platform designed specifically for Islamic financial institutions. It addresses the operational gap between Shariah compliance requirements and the manual, paper-heavy processes that currently govern most Islamic finance workflows.",
     problem:
       "Islamic financial institutions handle complex Shariah-governed transactions — Murabaha, Ijara, Musharaka — that require meticulous documentation, scholar review, and compliance verification. Most institutions rely on manual processes that are slow, error-prone, and create audit risk.",
     solution:
-      "Amanah AI automates the operational layer of Shariah compliance: contract analysis, governance documentation, scholar review queue management, and audit trail generation — reducing operational burden so scholars can focus on substantive jurisprudential decisions.",
+      "Aylinor automates the operational layer of Shariah compliance: contract analysis, governance documentation, scholar review queue management, and audit trail generation — reducing operational burden so scholars can focus on substantive jurisprudential decisions.",
     capabilities: [
       "Murabaha contract parsing & compliance analysis",
       "Shariah governance documentation generation",
@@ -78,7 +78,7 @@ const products = [
     ],
     collaboration: "Developed in strategic collaboration with Alhamd Shariah Advisory",
     href: "/amanah-ai",
-    cta: "Explore Amanah AI",
+    cta: "Explore Aylinor",
   },
   {
     status: "Concept Architecture",
@@ -107,11 +107,11 @@ const products = [
 ];
 
 const roadmapItems = [
-  { phase: "Q3 2025", item: "Amanah AI — Murabaha workflow module (beta)", status: "In Progress" },
-  { phase: "Q4 2025", item: "Amanah AI — Scholar review & governance documentation", status: "Planned" },
+  { phase: "Q3 2025", item: "Aylinor — Murabaha workflow module (beta)", status: "In Progress" },
+  { phase: "Q4 2025", item: "Aylinor — Scholar review & governance documentation", status: "Planned" },
   { phase: "Q1 2026", item: "Real Estate Operations Platform — CRM & deal pipeline core", status: "Planned" },
   { phase: "Q2 2026", item: "Real Estate Operations Platform — Investor portal module", status: "Planned" },
-  { phase: "Q3 2026", item: "Amanah AI — Full compliance suite & audit reporting", status: "Roadmap" },
+  { phase: "Q3 2026", item: "Aylinor — Full compliance suite & audit reporting", status: "Roadmap" },
 ];
 
 export default function ProductsPage() {

@@ -7,7 +7,7 @@ import { ArrowRight } from "lucide-react";
 export const metadata: Metadata = {
   title: "Islamic Finance Technology & Compliance",
   description:
-    "Daeson Technologies delivers Islamic finance technology through Amanah AI: Murabaha workflow automation, Shariah governance documentation, scholar review systems, and compliance audit trails for Islamic financial institutions.",
+    "Daeson Technologies delivers Islamic finance technology through Aylinor: Murabaha workflow automation, Shariah governance documentation, scholar review systems, and compliance audit trails for Islamic financial institutions.",
   alternates: { canonical: "https://daesontechnologies.online/industries/islamic-finance" },
 };
 
@@ -112,7 +112,7 @@ export default function IslamicFinancePage() {
             <span style={{ color: "var(--gold)" }}>Built for Shariah Governance</span>
           </h1>
           <p className="text-[16px] leading-relaxed max-w-2xl mb-4" style={{ color: "var(--text-secondary)" }}>
-            Daeson Technologies is developing Amanah AI — an AI-powered operational intelligence platform
+            Daeson Technologies is developing Aylinor — an AI-powered operational intelligence platform
             designed specifically for Islamic financial institutions, their compliance workflows, and governance requirements.
           </p>
           <div
@@ -126,7 +126,7 @@ export default function IslamicFinancePage() {
           </div>
           <div className="flex flex-wrap gap-3">
             <Link href="/amanah-ai" className="inline-flex items-center gap-2 px-6 py-3.5 text-[14px] font-semibold rounded-xl" style={{ backgroundColor: "var(--green)", color: "var(--on-blue)" }}>
-              Explore Amanah AI <ArrowRight size={14} />
+              Explore Aylinor <ArrowRight size={14} />
             </Link>
             <Link href="/contact" className="inline-flex items-center gap-2 px-6 py-3.5 text-[14px] font-semibold rounded-xl" style={{ border: "1px solid var(--border)", color: "var(--text-primary)" }}>
               Request Consultation
@@ -152,7 +152,7 @@ export default function IslamicFinancePage() {
           </div>
         </div>
 
-        {/* Amanah AI Solution */}
+        {/* Aylinor Solution */}
         <div className="max-w-5xl mx-auto px-6 py-20">
           <p className="text-[10px] font-bold uppercase tracking-widest mb-10" style={{ color: "var(--text-faint)" }}>
             The Solution
@@ -208,7 +208,7 @@ export default function IslamicFinancePage() {
             </div>
             <div className="flex gap-3">
               <Link href="/amanah-ai" className="inline-flex items-center gap-2 px-5 py-3 text-[13px] font-semibold rounded-lg" style={{ backgroundColor: "var(--green)", color: "var(--on-blue)" }}>
-                Explore Amanah AI <ArrowRight size={13} />
+                Explore Aylinor <ArrowRight size={13} />
               </Link>
               <Link href="/research" className="inline-flex items-center gap-2 px-5 py-3 text-[13px] font-semibold rounded-lg" style={{ border: "1px solid var(--border)", color: "var(--text-primary)" }}>
                 Read Research

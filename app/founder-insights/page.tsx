@@ -110,7 +110,7 @@ const faqSchema = {
       name: "Why does Islamic finance need better operational infrastructure?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Islamic financial transactions require meticulous Shariah compliance documentation, scholar review, audit trail generation, and governance oversight at every stage. Most Islamic financial institutions manage these requirements through manual, paper-heavy processes — which are slow, error-prone, and create audit risk. Better operational infrastructure means digitizing and automating the compliance workflow layer so scholars can focus on substantive jurisprudential decisions rather than administrative documentation. This is what Amanah AI is designed to do.",
+        text: "Islamic financial transactions require meticulous Shariah compliance documentation, scholar review, audit trail generation, and governance oversight at every stage. Most Islamic financial institutions manage these requirements through manual, paper-heavy processes — which are slow, error-prone, and create audit risk. Better operational infrastructure means digitizing and automating the compliance workflow layer so scholars can focus on substantive jurisprudential decisions rather than administrative documentation. This is what Aylinor is designed to do.",
       },
     },
   ],

@@ -34,10 +34,10 @@ const demos = [
     tagBg: "var(--gold-muted)",
     status: "Strategic Development",
     statusColor: "var(--gold)",
-    title: "Amanah AI",
+    title: "Aylinor",
     subtitle: "Islamic Finance Compliance Intelligence",
     description:
-      "Amanah AI is being developed to support Shariah compliance workflows inside Islamic financial institutions — providing AI-assisted contract analysis, governance documentation, and regulatory reporting. Development is informed by strategic Shariah advisory collaboration.",
+      "Aylinor is being developed to support Shariah compliance workflows inside Islamic financial institutions — providing AI-assisted contract analysis, governance documentation, and regulatory reporting. Development is informed by strategic Shariah advisory collaboration.",
     modules: [
       "Murabaha Workflow Intelligence",
       "Compliance Document Processing",
@@ -46,7 +46,7 @@ const demos = [
       "Multi-Market Regulatory Support",
       "Scholar Review Interface",
     ],
-    note: "Amanah AI is currently being developed in strategic collaboration with Shariah advisory expertise to support practical workflow alignment.",
+    note: "Aylinor is currently being developed in strategic collaboration with Shariah advisory expertise to support practical workflow alignment.",
     primaryCta: { label: "Learn More", href: "/amanah-ai" },
     secondaryCta: { label: "Express Interest", href: "/contact" },
     accentColor: "var(--gold)",
@@ -169,7 +169,7 @@ export default function ConceptDemos() {
 
                 {demo.disclaimer && (
                   <p className="text-[11px] mb-5 italic" style={{ color: "var(--text-faint)" }}>
-                    Advisory note: Amanah AI provides workflow support — it does not issue Shariah rulings.
+                    Advisory note: Aylinor provides workflow support — it does not issue Shariah rulings.
                     All compliance decisions rest with qualified Shariah scholars.
                   </p>
                 )}

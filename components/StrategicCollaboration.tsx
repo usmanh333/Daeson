@@ -42,7 +42,7 @@ export default function StrategicCollaboration() {
               </h2>
               <p className="text-[13px] leading-relaxed" style={{ color: "var(--text-secondary)" }}>
                 Strategic Shariah advisory collaboration supporting practical workflow alignment and domain
-                expertise for Amanah AI.
+                expertise for Aylinor.
               </p>
             </div>
 
@@ -52,7 +52,7 @@ export default function StrategicCollaboration() {
             {/* Right */}
             <div className="space-y-4">
               <p className="text-[13px] leading-relaxed" style={{ color: "var(--text-secondary)" }}>
-                Amanah AI&apos;s compliance infrastructure is being designed in collaboration with
+                Aylinor&apos;s compliance infrastructure is being designed in collaboration with
                 Shariah domain expertise from Alhamd Shariah Advisory. This collaboration ensures that the
                 platform&apos;s workflow architecture remains grounded in practical Shariah operational
                 requirements — not theoretical assumptions.
@@ -69,7 +69,7 @@ export default function StrategicCollaboration() {
                 onMouseEnter={e => ((e.currentTarget as HTMLElement).style.color = "var(--gold-light)")}
                 onMouseLeave={e => ((e.currentTarget as HTMLElement).style.color = "var(--gold)")}
               >
-                About Amanah AI <ArrowRight size={13} />
+                About Aylinor <ArrowRight size={13} />
               </Link>
             </div>
           </div>

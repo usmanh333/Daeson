@@ -100,7 +100,7 @@ export default function Features() {
             <span style={{ color: '#0F3D2E' }}> Compliance</span>
           </h2>
           <p className="text-lg text-gray-500 leading-relaxed">
-            From initial contract ingestion to final board reporting, Amanah AI covers every
+            From initial contract ingestion to final board reporting, Aylinor covers every
             step of the institutional Shariah compliance lifecycle.
           </p>
         </motion.div>

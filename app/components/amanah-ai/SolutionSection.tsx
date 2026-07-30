@@ -47,7 +47,7 @@ export default function SolutionSection() {
             </div>
 
             <p className="text-gray-600 text-base leading-relaxed">
-              Amanah AI provides a layered compliance intelligence framework — combining
+              Aylinor provides a layered compliance intelligence framework — combining
               AI-driven contract analysis with structured scholar workflows and full
               audit traceability for Pakistan’s banking ecosystem.
             </p>

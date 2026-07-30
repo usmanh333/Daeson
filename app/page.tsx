@@ -55,10 +55,10 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "What is Amanah AI and how does it support Islamic finance?",
+      name: "What is Aylinor and how does it support Islamic finance?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Amanah AI is Daeson Technologies' AI-powered platform for Islamic financial institutions, currently in strategic development in collaboration with Alhamd Shariah Advisory. It automates Murabaha contract analysis, Shariah governance documentation, scholar review workflows, and compliance audit trails — reducing operational burden so scholars can focus on substantive jurisprudential decisions rather than manual document review.",
+        text: "Aylinor is Daeson Technologies' AI-powered platform for Islamic financial institutions, currently in strategic development in collaboration with Alhamd Shariah Advisory. It automates Murabaha contract analysis, Shariah governance documentation, scholar review workflows, and compliance audit trails — reducing operational burden so scholars can focus on substantive jurisprudential decisions rather than manual document review.",
       },
     },
     {
@@ -140,7 +140,7 @@ const serviceSchema = {
     },
     {
       "@type": "Offer",
-      name: "Amanah AI — Islamic Finance Intelligence",
+      name: "Aylinor — Islamic Finance Intelligence",
       description: "Shariah compliance AI platform in strategic development for Islamic financial institutions.",
     },
     {
