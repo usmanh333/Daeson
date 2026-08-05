@@ -121,6 +121,46 @@ const itemListSchema = {
         description:
           "Home 1.0 is Daeson Technologies' AI-powered residential property management platform — built for happier tenants, better living communities, and smarter operations.",
       },
+      {
+        "@type": "ListItem",
+        position: 10,
+        name: "The Murabaha Contract Review Bottleneck",
+        url: "https://daesontechnologies.online/insights/murabaha-contract-review-bottleneck",
+        description:
+          "Why manual Murabaha contract review is the single biggest operational bottleneck in Islamic banking, and what AI-assisted review changes without replacing scholars.",
+      },
+      {
+        "@type": "ListItem",
+        position: 11,
+        name: "Why Shariah Governance Needs Audit Trails",
+        url: "https://daesontechnologies.online/insights/shariah-governance-audit-trail",
+        description:
+          "Undocumented Shariah governance decisions are a regulatory exposure, not just an inefficiency. Why immutable audit trails matter as much as the ruling itself.",
+      },
+      {
+        "@type": "ListItem",
+        position: 12,
+        name: "Multi-Market Islamic Finance Compliance",
+        url: "https://daesontechnologies.online/insights/multi-market-islamic-finance-compliance",
+        description:
+          "Islamic financial institutions operating across the GCC, Pakistan, and the UK face different regulators and reporting formats for the same underlying transactions.",
+      },
+      {
+        "@type": "ListItem",
+        position: 13,
+        name: "How to Choose Shariah Compliance Software",
+        url: "https://daesontechnologies.online/insights/choosing-shariah-compliance-software",
+        description:
+          "A practical checklist for Islamic financial institutions evaluating Shariah compliance software — what actually matters beyond the feature list.",
+      },
+      {
+        "@type": "ListItem",
+        position: 14,
+        name: "AAOIFI & IFSB Standards in Compliance Software",
+        url: "https://daesontechnologies.online/insights/aaoifi-ifsb-compliance-software",
+        description:
+          "Generic compliance checklists don't understand AAOIFI or IFSB standards. Why Shariah compliance software needs standards-awareness built into its architecture.",
+      },
     ],
   },
 };
@@ -200,6 +240,61 @@ const articles = [
     readTime: "6 min read",
     topics: ["Home 1.0", "PropTech", "Property Management"],
     href: "/insights/home-1-0-residential-property-management",
+  },
+  {
+    category: "Islamic Finance",
+    color: "var(--gold)",
+    rawColor: "#B9912F",
+    title: "The Murabaha Contract Review Bottleneck",
+    excerpt:
+      "Murabaha is the most common Islamic financing structure — and at most institutions, still the most manually reviewed. Why review capacity doesn't scale with volume, and what changes when it's structured instead of manual.",
+    readTime: "5 min read",
+    topics: ["Murabaha", "Aylinor", "Shariah Compliance"],
+    href: "/insights/murabaha-contract-review-bottleneck",
+  },
+  {
+    category: "Islamic Finance",
+    color: "var(--gold)",
+    rawColor: "#B9912F",
+    title: "Why Shariah Governance Needs Audit Trails",
+    excerpt:
+      "A compliant decision that isn't documented is functionally indistinguishable, to a regulator, from a decision that was never made. Why immutable, contract-linked audit trails matter as much as the ruling itself.",
+    readTime: "5 min read",
+    topics: ["Shariah Governance", "Audit Trail", "Aylinor"],
+    href: "/insights/shariah-governance-audit-trail",
+  },
+  {
+    category: "Islamic Finance",
+    color: "var(--gold)",
+    rawColor: "#B9912F",
+    title: "Multi-Market Islamic Finance Compliance",
+    excerpt:
+      "Institutions operating across the GCC, Pakistan, and the UK face different regulators and report formats for the same underlying transaction. Why one canonical compliance record beats parallel record-keeping.",
+    readTime: "6 min read",
+    topics: ["Multi-Market Compliance", "Aylinor", "Regulatory Reporting"],
+    href: "/insights/multi-market-islamic-finance-compliance",
+  },
+  {
+    category: "Islamic Finance",
+    color: "var(--gold)",
+    rawColor: "#B9912F",
+    title: "How to Choose Shariah Compliance Software",
+    excerpt:
+      "A practical checklist for what to verify before signing a long-term vendor contract — audit trail integrity, multi-jurisdiction support, scholar workflow, uptime guarantees, and data ownership.",
+    readTime: "7 min read",
+    topics: ["Buyer's Guide", "Shariah Compliance", "Aylinor"],
+    href: "/insights/choosing-shariah-compliance-software",
+  },
+  {
+    category: "Islamic Finance",
+    color: "var(--gold)",
+    rawColor: "#B9912F",
+    title: "AAOIFI & IFSB Standards in Compliance Software",
+    excerpt:
+      "Generic compliance checklists don't understand AAOIFI or IFSB standards. Why standards-awareness has to be architecture, not a checklist bolted onto conventional fintech software.",
+    readTime: "6 min read",
+    topics: ["AAOIFI", "IFSB", "Aylinor"],
+    href: "/insights/aaoifi-ifsb-compliance-software",
   },
 ];
 
