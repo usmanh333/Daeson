@@ -308,11 +308,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=AW-17758896306"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
         />
         <Script
           id="google-ads-tag"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
           dangerouslySetInnerHTML={{
             __html: `
               window.dataLayer = window.dataLayer || [];

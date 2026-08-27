@@ -709,19 +709,19 @@ export default function PRPage() {
             </p>
             <div className="flex flex-wrap items-center justify-center gap-6">
               <span className="footer-badge-img">
-                <Image src="/google-reviews-logo.png" alt="Google Reviews" width={130} height={40} className="h-8 w-auto object-contain" unoptimized />
+                <Image src="/google-reviews-logo.png" alt="Google Reviews" width={130} height={40} className="h-8 w-auto object-contain" />
               </span>
               <span className="footer-badge-img">
-                <Image src="/Trustpilot.png" alt="Trustpilot" width={130} height={40} className="h-8 w-auto object-contain" unoptimized />
+                <Image src="/Trustpilot.png" alt="Trustpilot" width={130} height={40} className="h-8 w-auto object-contain" />
               </span>
               <a href="https://clutch.co" target="_blank" rel="noopener noreferrer" className="footer-badge-img">
-                <Image src="/clutch.png" alt="Clutch" width={120} height={40} className="h-8 w-auto object-contain" unoptimized />
+                <Image src="/clutch.png" alt="Clutch" width={120} height={40} className="h-8 w-auto object-contain" />
               </a>
               <a href="https://goodfirms.co" target="_blank" rel="noopener noreferrer" className="footer-badge-img">
-                <Image src="/goodfirm.png" alt="GoodFirms" width={130} height={40} className="h-8 w-auto object-contain" unoptimized />
+                <Image src="/goodfirm.png" alt="GoodFirms" width={130} height={40} className="h-8 w-auto object-contain" />
               </a>
               <span className="footer-badge-img">
-                <Image src="/Designrush.png" alt="DesignRush" width={130} height={40} className="h-8 w-auto object-contain" unoptimized />
+                <Image src="/Designrush.png" alt="DesignRush" width={130} height={40} className="h-8 w-auto object-contain" />
               </span>
             </div>
           </div>

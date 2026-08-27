@@ -73,7 +73,6 @@ export default function Footer() {
                   height={18}
                   className="object-contain"
                   style={{ filter: "brightness(0) invert(1)" }}
-                  unoptimized
                 />
               </div>
               <div className="flex flex-col gap-[3px] leading-none">
@@ -218,7 +217,6 @@ export default function Footer() {
                   width={120}
                   height={36}
                   className="h-8 w-auto object-contain footer-badge-img"
-                  unoptimized
                 />
               );
               return badge.href ? (

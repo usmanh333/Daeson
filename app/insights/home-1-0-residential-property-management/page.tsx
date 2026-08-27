@@ -287,7 +287,7 @@ export default function ArticlePage() {
           <div className="max-w-3xl mx-auto px-6 py-16">
             <div
               className="rounded-2xl p-10 text-center"
-              style={{ background: "linear-gradient(135deg, #F3F0FF 0%, #EDE9FE 100%)", border: "1px solid var(--blue-border)" }}
+              style={{ background: "var(--bg-surface)", border: "1px solid var(--blue-border)" }}
             >
               <h2 className="text-[24px] font-bold mb-3 tracking-tight" style={{ color: "var(--text-primary)" }}>
                 Building better communities together?

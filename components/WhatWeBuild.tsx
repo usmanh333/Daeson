@@ -163,7 +163,7 @@ export default function WhatWeBuild() {
                   className="flex items-center gap-2 text-[13px] font-semibold transition-colors mt-2 shrink-0"
                   style={{ color: pillar.color }}
                 >
-                  Learn more <ArrowRight size={14} className="group-hover:translate-x-0.5 transition-transform" />
+                  Learn more about {pillar.label} <ArrowRight size={14} className="group-hover:translate-x-0.5 transition-transform" />
                 </Link>
               </div>
             </motion.div>

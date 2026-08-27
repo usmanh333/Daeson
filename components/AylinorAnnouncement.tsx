@@ -46,7 +46,7 @@ export default function AylinorAnnouncement() {
               className="inline-flex items-center gap-2 px-6 py-3 text-[13px] font-bold rounded-xl transition-all hover:opacity-90"
               style={{ backgroundColor: "var(--gold-light)", color: "#0B0E14" }}
             >
-              Learn more <ArrowRight size={14} />
+              Learn more about Aylinor <ArrowRight size={14} />
             </Link>
             <span className="text-[12px]" style={{ color: "var(--text-faint)" }}>
               — Mahnoor Zafar &amp; Usman Ahmad, Co-Founders

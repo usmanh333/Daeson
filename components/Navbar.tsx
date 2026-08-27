@@ -129,7 +129,6 @@ export default function Navbar() {
                 height={34}
                 className="object-contain relative z-10 transition-transform duration-200 group-hover:scale-110"
                 style={{ filter: "brightness(0) invert(1)" }}
-                unoptimized
               />
             </div>
             <div className="hidden sm:flex flex-col gap-[3px] leading-none">
