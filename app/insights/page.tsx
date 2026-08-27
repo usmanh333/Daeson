@@ -161,6 +161,30 @@ const itemListSchema = {
         description:
           "Generic compliance checklists don't understand AAOIFI or IFSB standards. Why Shariah compliance software needs standards-awareness built into its architecture.",
       },
+      {
+        "@type": "ListItem",
+        position: 15,
+        name: "More Investors Means More Scrutiny",
+        url: "https://daesontechnologies.online/insights/investor-growth-demands-transparency",
+        description:
+          "Every investor you add doesn't just add capital — it adds a relationship that expects its own visibility. Why investor growth breaks manual reporting.",
+      },
+      {
+        "@type": "ListItem",
+        position: 16,
+        name: "What Breaks First When Sales Outpaces Your Systems",
+        url: "https://daesontechnologies.online/insights/sales-growth-needs-management-systems",
+        description:
+          "More sales is supposed to be the good problem. Why revenue growth without an internal management system underneath it becomes the actual bottleneck.",
+      },
+      {
+        "@type": "ListItem",
+        position: 17,
+        name: "The Hidden Tax of Growing Your Team Across Tools",
+        url: "https://daesontechnologies.online/insights/team-growth-tool-sprawl-tax",
+        description:
+          "Every new hire in a growing real estate firm inherits 5 to 10 disconnected tools and the phone calls needed to keep them in sync.",
+      },
     ],
   },
 };
@@ -295,6 +319,39 @@ const articles = [
     readTime: "6 min read",
     topics: ["AAOIFI", "IFSB", "Aylinor"],
     href: "/insights/aaoifi-ifsb-compliance-software",
+  },
+  {
+    category: "Founder Insight",
+    color: "var(--text-secondary)",
+    rawColor: "#888888",
+    title: "More Investors Means More Scrutiny",
+    excerpt:
+      "Every investor you add doesn't just add capital — it adds a relationship that expects its own visibility. Why investor growth breaks manual reporting, and what real-time transparency actually requires.",
+    readTime: "5 min read",
+    topics: ["Investor Relations", "LuxeProperty AI", "Transparency"],
+    href: "/insights/investor-growth-demands-transparency",
+  },
+  {
+    category: "Founder Insight",
+    color: "var(--text-secondary)",
+    rawColor: "#888888",
+    title: "What Breaks First When Sales Outpaces Your Systems",
+    excerpt:
+      "More sales is supposed to be the good problem. Without an internal management system underneath it, revenue growth just means more manual work and leadership decisions made on stale data.",
+    readTime: "5 min read",
+    topics: ["Internal Management Systems", "LuxeProperty AI", "Sales Operations"],
+    href: "/insights/sales-growth-needs-management-systems",
+  },
+  {
+    category: "Founder Insight",
+    color: "var(--text-secondary)",
+    rawColor: "#888888",
+    title: "The Hidden Tax of Growing Your Team Across Tools",
+    excerpt:
+      "A founder juggling 5 to 10 disconnected tools can hold it together from memory. Once a team grows, that coordination becomes phone calls and asking everyone individually — here's the actual fix.",
+    readTime: "5 min read",
+    topics: ["Tool Sprawl", "LuxeProperty AI", "Team Operations"],
+    href: "/insights/team-growth-tool-sprawl-tax",
   },
 ];
 
