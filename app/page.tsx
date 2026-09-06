@@ -4,6 +4,7 @@ import AylinorAnnouncement from "@/components/AylinorAnnouncement";
 import WhatWeBuild from "@/components/WhatWeBuild";
 import WhyDaeson from "@/components/WhyDaeson";
 import LeadershipSection from "@/components/LeadershipSection";
+import Testimonials from "@/components/Testimonials";
 import InsightsPreview from "@/components/InsightsPreview";
 import FAQ from "@/components/FAQ";
 import CTA from "@/components/CTA";
@@ -193,6 +194,7 @@ export default function Home() {
           <WhatWeBuild />
         </div>
         <WhyDaeson />
+        <Testimonials />
         <div className="section-light">
           <LeadershipSection />
         </div>

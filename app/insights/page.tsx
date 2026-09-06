@@ -185,6 +185,14 @@ const itemListSchema = {
         description:
           "Every new hire in a growing real estate firm inherits 5 to 10 disconnected tools and the phone calls needed to keep them in sync.",
       },
+      {
+        "@type": "ListItem",
+        position: 18,
+        name: "AI Is No Longer a Luxury for Small Property Owners",
+        url: "https://daesontechnologies.online/insights/ai-property-management-software-uae",
+        description:
+          "AI-powered property management software for UAE landlords and property managers — tenants, rent, maintenance, and leases in one platform. 30-day free trial.",
+      },
     ],
   },
 };
@@ -352,6 +360,17 @@ const articles = [
     readTime: "5 min read",
     topics: ["Tool Sprawl", "LuxeProperty AI", "Team Operations"],
     href: "/insights/team-growth-tool-sprawl-tax",
+  },
+  {
+    category: "Product Announcement",
+    color: "var(--blue)",
+    rawColor: "#888888",
+    title: "AI Is No Longer a Luxury for Small Property Owners",
+    excerpt:
+      "Why we built Home 1.0 for the owners and property managers still doing too much manually — AI-assisted property management for UAE landlords, with a 30-day free trial.",
+    readTime: "8 min read",
+    topics: ["Home 1.0", "AI Property Management", "UAE"],
+    href: "/insights/ai-property-management-software-uae",
   },
 ];
 

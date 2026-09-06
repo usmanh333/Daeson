@@ -26,6 +26,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/insights/multi-market-islamic-finance-compliance`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.75 },
     { url: `${BASE}/insights/choosing-shariah-compliance-software`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.75 },
     { url: `${BASE}/insights/aaoifi-ifsb-compliance-software`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.75 },
+    { url: `${BASE}/insights/ai-property-management-software-uae`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE}/insights/investor-growth-demands-transparency`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.75 },
     { url: `${BASE}/insights/sales-growth-needs-management-systems`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.75 },
     { url: `${BASE}/insights/team-growth-tool-sprawl-tax`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.75 },
