@@ -23,7 +23,7 @@ export default function Testimonials() {
   const next = () => setIndex((i) => (i === testimonials.length - 1 ? 0 : i + 1));
 
   return (
-    <section className="py-24 px-6" style={{ backgroundColor: "var(--bg-page)" }}>
+    <section className="py-24 px-6" style={{ backgroundColor: "white" }}>
       <div className="max-w-2xl mx-auto">
         <p
           className="text-[10px] font-bold uppercase tracking-widest mb-10 text-center"
