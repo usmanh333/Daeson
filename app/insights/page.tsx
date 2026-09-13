@@ -193,6 +193,30 @@ const itemListSchema = {
         description:
           "AI-powered property management software for UAE landlords and property managers — tenants, rent, maintenance, and leases in one platform. 30-day free trial.",
       },
+      {
+        "@type": "ListItem",
+        position: 19,
+        name: "What Is Islamic Banking Software and Why Does It Matter?",
+        url: "https://daesontechnologies.online/insights/islamic-banking-software-guide",
+        description:
+          "What Islamic banking software actually needs to support — financing workflows, Shariah governance, audit trails and AAOIFI-aligned compliance — and how to evaluate vendors.",
+      },
+      {
+        "@type": "ListItem",
+        position: 20,
+        name: "How Shariah-Compliant Banking Software Supports Modern Financial Institutions",
+        url: "https://daesontechnologies.online/insights/shariah-compliant-banking-software",
+        description:
+          "How Shariah-compliant banking software supports modern Islamic financial institutions — governance, contract-level review, and where AI can responsibly help.",
+      },
+      {
+        "@type": "ListItem",
+        position: 21,
+        name: "Choosing the Best Islamic Banking Software for Commercial Banks",
+        url: "https://daesontechnologies.online/insights/best-islamic-banking-software-commercial-banks",
+        description:
+          "A practical framework for commercial banks evaluating Islamic banking software — product coverage, core banking integration, Shariah governance, security and vendor transparency.",
+      },
     ],
   },
 };
@@ -371,6 +395,39 @@ const articles = [
     readTime: "8 min read",
     topics: ["Home 1.0", "AI Property Management", "UAE"],
     href: "/insights/ai-property-management-software-uae",
+  },
+  {
+    category: "Islamic Finance",
+    color: "var(--gold)",
+    rawColor: "#B9912F",
+    title: "What Is Islamic Banking Software and Why Does It Matter?",
+    excerpt:
+      "What Islamic banking software actually needs to support — financing workflows, Shariah governance, audit trails and AAOIFI-aligned compliance — and how to evaluate vendors.",
+    readTime: "9 min read",
+    topics: ["Islamic Banking Software", "AAOIFI", "Aylinor"],
+    href: "/insights/islamic-banking-software-guide",
+  },
+  {
+    category: "Islamic Finance",
+    color: "var(--gold)",
+    rawColor: "#B9912F",
+    title: "How Shariah-Compliant Banking Software Supports Modern Financial Institutions",
+    excerpt:
+      "Governance, contract-level review, and where artificial intelligence can responsibly help — without replacing the humans who make Shariah decisions.",
+    readTime: "9 min read",
+    topics: ["Shariah Compliance Intelligence", "Aylinor", "AI Governance"],
+    href: "/insights/shariah-compliant-banking-software",
+  },
+  {
+    category: "Islamic Finance",
+    color: "var(--gold)",
+    rawColor: "#B9912F",
+    title: "Choosing the Best Islamic Banking Software for Commercial Banks",
+    excerpt:
+      "A practical evaluation framework for banks that need Islamic financing workflows, Shariah governance and enterprise integration to work together at scale.",
+    readTime: "10 min read",
+    topics: ["Commercial Banks", "Murabaha", "Aylinor"],
+    href: "/insights/best-islamic-banking-software-commercial-banks",
   },
 ];
 
