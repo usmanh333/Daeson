@@ -217,6 +217,78 @@ const itemListSchema = {
         description:
           "A practical framework for commercial banks evaluating Islamic banking software — product coverage, core banking integration, Shariah governance, security and vendor transparency.",
       },
+      {
+        "@type": "ListItem",
+        position: 22,
+        name: "What to Check Before Signing a Long-Term Real Estate Technology Contract",
+        url: "https://daesontechnologies.online/insights/real-estate-technology-contract-checklist",
+        description:
+          "Uptime, data ownership, backups, support, pricing and integration — a practical checklist before committing to a long-term real estate technology contract.",
+      },
+      {
+        "@type": "ListItem",
+        position: 23,
+        name: "What Buyers and Investors Should Compare Across UAE Property Developers",
+        url: "https://daesontechnologies.online/insights/uae-property-developer-visibility",
+        description:
+          "A practical framework for comparing UAE property developer projects, payment plans, fees, transparency and investor visibility.",
+      },
+      {
+        "@type": "ListItem",
+        position: 24,
+        name: "Murabaha Financing Software: What It Needs to Actually Support",
+        url: "https://daesontechnologies.online/insights/murabaha-financing-software",
+        description:
+          "Murabaha financing software has to manage a real sale structure, not a relabeled loan — what asset ownership sequencing, profit disclosure and documentation actually require.",
+      },
+      {
+        "@type": "ListItem",
+        position: 25,
+        name: "Islamic Banking Software Vendors: What to Ask Before Signing",
+        url: "https://daesontechnologies.online/insights/islamic-banking-software-vendors",
+        description:
+          "A short vendor-evaluation guide for Islamic banking software — what to ask about product coverage, Shariah governance, customization and data control.",
+      },
+      {
+        "@type": "ListItem",
+        position: 26,
+        name: "Islamic Banking Software for Financial Institutions: Beyond the Bank",
+        url: "https://daesontechnologies.online/insights/islamic-banking-software-financial-institutions",
+        description:
+          "Islamic banking software isn't only for banks. What Islamic windows, fintechs, and other financial institutions should look for beyond core banking.",
+      },
+      {
+        "@type": "ListItem",
+        position: 27,
+        name: "Islamic Banking Software Solutions: Core Modules Explained",
+        url: "https://daesontechnologies.online/insights/islamic-banking-software-solutions",
+        description:
+          "A short breakdown of the core modules that make up Islamic banking software solutions — financing workflows, governance, audit trails and reporting.",
+      },
+      {
+        "@type": "ListItem",
+        position: 28,
+        name: "How to Vet an Islamic Banking Software Provider",
+        url: "https://daesontechnologies.online/insights/islamic-banking-software-provider",
+        description:
+          "What separates a credible Islamic banking software provider from one that has simply relabeled a conventional platform — a short vetting guide.",
+      },
+      {
+        "@type": "ListItem",
+        position: 29,
+        name: "Islamic Retail Banking Software: What Customer-Facing Products Need",
+        url: "https://daesontechnologies.online/insights/islamic-retail-banking-software",
+        description:
+          "Islamic retail banking software has to support customer-facing financing products like Murabaha home finance and Ijarah — with documentation and disclosure built in.",
+      },
+      {
+        "@type": "ListItem",
+        position: 30,
+        name: "Islamic Core Banking Software vs. a Shariah Compliance Layer",
+        url: "https://daesontechnologies.online/insights/islamic-core-banking-software",
+        description:
+          "Islamic core banking software and Shariah compliance intelligence solve different problems. What each one actually covers, and when you need both.",
+      },
     ],
   },
 };
@@ -428,6 +500,105 @@ const articles = [
     readTime: "10 min read",
     topics: ["Commercial Banks", "Murabaha", "Aylinor"],
     href: "/insights/best-islamic-banking-software-commercial-banks",
+  },
+  {
+    category: "Real Estate Operations",
+    color: "var(--blue)",
+    rawColor: "#888888",
+    title: "What to Check Before Signing a Long-Term Real Estate Technology Contract",
+    excerpt:
+      "Uptime, data ownership, backups, support, pricing and integration — a practical checklist for developers and property companies before committing long term.",
+    readTime: "8 min read",
+    topics: ["Real Estate Technology", "Contracts", "LuxeProperty AI"],
+    href: "/insights/real-estate-technology-contract-checklist",
+  },
+  {
+    category: "Real Estate Operations",
+    color: "var(--blue)",
+    rawColor: "#888888",
+    title: "What Buyers and Investors Should Compare Across UAE Property Developers",
+    excerpt:
+      "Choosing a UAE property developer takes more than comparing the advertised price. A framework for comparing projects, payment plans, fees and investor visibility.",
+    readTime: "9 min read",
+    topics: ["UAE Real Estate", "Investor Visibility", "LuxeProperty AI"],
+    href: "/insights/uae-property-developer-visibility",
+  },
+  {
+    category: "Islamic Finance",
+    color: "var(--gold)",
+    rawColor: "#B9912F",
+    title: "Murabaha Financing Software: What It Needs to Actually Support",
+    excerpt:
+      "A repayment calculator is not Murabaha financing software. What asset ownership sequencing, profit disclosure and documentation actually require from the system.",
+    readTime: "4 min read",
+    topics: ["Murabaha", "Islamic Financing Software", "Aylinor"],
+    href: "/insights/murabaha-financing-software",
+  },
+  {
+    category: "Islamic Finance",
+    color: "var(--gold)",
+    rawColor: "#B9912F",
+    title: "Islamic Banking Software Vendors: What to Ask Before Signing",
+    excerpt:
+      "Not every vendor using Islamic finance terminology has actually built for it. A short checklist before you sign.",
+    readTime: "4 min read",
+    topics: ["Vendor Evaluation", "Islamic Banking Software", "Aylinor"],
+    href: "/insights/islamic-banking-software-vendors",
+  },
+  {
+    category: "Islamic Finance",
+    color: "var(--gold)",
+    rawColor: "#B9912F",
+    title: "Islamic Banking Software for Financial Institutions: Beyond the Bank",
+    excerpt:
+      "Islamic windows, fintechs and non-bank financial institutions need Shariah-aware technology too — and their requirements aren't identical to a full-scale bank's.",
+    readTime: "4 min read",
+    topics: ["Islamic Financial Institutions", "Islamic Windows", "Aylinor"],
+    href: "/insights/islamic-banking-software-financial-institutions",
+  },
+  {
+    category: "Islamic Finance",
+    color: "var(--gold)",
+    rawColor: "#B9912F",
+    title: "Islamic Banking Software Solutions: Core Modules Explained",
+    excerpt:
+      "What \"Islamic banking software solutions\" actually means once you break it into its component modules — financing, governance, audit, reporting.",
+    readTime: "4 min read",
+    topics: ["Islamic Banking Software", "Solution Architecture", "Aylinor"],
+    href: "/insights/islamic-banking-software-solutions",
+  },
+  {
+    category: "Islamic Finance",
+    color: "var(--gold)",
+    rawColor: "#B9912F",
+    title: "How to Vet an Islamic Banking Software Provider",
+    excerpt:
+      "The difference between a provider that supports your Shariah structures and one that relabeled a conventional platform usually shows up in the details.",
+    readTime: "4 min read",
+    topics: ["Vendor Vetting", "Islamic Banking Software", "Aylinor"],
+    href: "/insights/islamic-banking-software-provider",
+  },
+  {
+    category: "Islamic Finance",
+    color: "var(--gold)",
+    rawColor: "#B9912F",
+    title: "Islamic Retail Banking Software: What Customer-Facing Products Need",
+    excerpt:
+      "Retail Islamic finance touches customers directly — home financing, personal financing, auto financing — which raises the bar for disclosure and documentation.",
+    readTime: "4 min read",
+    topics: ["Retail Banking", "Murabaha", "Aylinor"],
+    href: "/insights/islamic-retail-banking-software",
+  },
+  {
+    category: "Islamic Finance",
+    color: "var(--gold)",
+    rawColor: "#B9912F",
+    title: "Islamic Core Banking Software vs. a Shariah Compliance Layer",
+    excerpt:
+      "Core banking and Shariah compliance intelligence are not the same purchase decision — and confusing the two leads to the wrong RFP.",
+    readTime: "4 min read",
+    topics: ["Core Banking", "Shariah Compliance Layer", "Aylinor"],
+    href: "/insights/islamic-core-banking-software",
   },
 ];
 
