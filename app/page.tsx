@@ -1,6 +1,7 @@
 ﻿import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import AylinorAnnouncement from "@/components/AylinorAnnouncement";
+import AskAylinorVideo from "@/components/AskAylinorVideo";
 import WhatWeBuild from "@/components/WhatWeBuild";
 import WhyDaeson from "@/components/WhyDaeson";
 import LeadershipSection from "@/components/LeadershipSection";
@@ -190,6 +191,7 @@ export default function Home() {
         </div>
         <Hero />
         <AylinorAnnouncement />
+        <AskAylinorVideo />
         <div className="section-light">
           <WhatWeBuild />
         </div>
