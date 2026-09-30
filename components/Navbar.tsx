@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronDown, Menu, X, ArrowRight } from "lucide-react";
+import { PRODUCT_URLS, linkTargetProps } from "@/lib/products";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -20,7 +21,7 @@ const solutions = [
   {
     label: "Aylinor",
     description: "Islamic finance compliance intelligence",
-    href: "/amanah-ai",
+    href: PRODUCT_URLS.aylinor,
     icon: (
       <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
         <circle cx="7" cy="7" r="5.5" stroke="currentColor" strokeWidth="1.25" fill="none"/>
@@ -44,6 +45,22 @@ const solutions = [
   },
 ];
 
+const productCategories = [
+  {
+    category: "Fintech",
+    items: [
+      { label: "Aylinor", description: "Shariah compliance intelligence, our core product", href: PRODUCT_URLS.aylinor, badge: "Core" },
+    ],
+  },
+  {
+    category: "PropTech",
+    items: [
+      { label: "Home 1.0", description: "Property management software", href: PRODUCT_URLS.home, badge: null },
+      { label: "LuxeProperty AI", description: "Team, investors & CEO in one platform", href: PRODUCT_URLS.luxe, badge: null },
+    ],
+  },
+];
+
 const navLinks = [
   { label: "About", href: "/about" },
   { label: "Partnerships", href: "/partnerships" },
@@ -55,8 +72,10 @@ export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const [solutionsOpen, setSolutionsOpen] = useState(false);
+  const [productsOpen, setProductsOpen] = useState(false);
   const [announced, setAnnounced] = useState(true);
   const solutionsRef = useRef<HTMLDivElement>(null);
+  const productsRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 20);
@@ -68,6 +87,9 @@ export default function Navbar() {
     const handleClick = (e: MouseEvent) => {
       if (solutionsRef.current && !solutionsRef.current.contains(e.target as Node)) {
         setSolutionsOpen(false);
+      }
+      if (productsRef.current && !productsRef.current.contains(e.target as Node)) {
+        setProductsOpen(false);
       }
     };
     document.addEventListener("mousedown", handleClick);
@@ -127,8 +149,7 @@ export default function Navbar() {
                 alt="Daeson Technologies"
                 width={34}
                 height={34}
-                className="object-contain relative z-10 transition-transform duration-200 group-hover:scale-110"
-                style={{ filter: "brightness(0) invert(1)" }}
+                className="nav-logo object-contain relative z-10 transition-transform duration-200 group-hover:scale-110"
               />
             </div>
             <div className="hidden sm:flex flex-col gap-[3px] leading-none">
@@ -149,14 +170,83 @@ export default function Navbar() {
 
           {/* Desktop Nav */}
           <div className="hidden md:flex items-center gap-1">
+            <div
+              ref={productsRef}
+              className="relative mr-1"
+              onMouseEnter={() => setProductsOpen(true)}
+              onMouseLeave={() => setProductsOpen(false)}
+            >
+              <button
+                type="button"
+                onClick={() => setProductsOpen(!productsOpen)}
+                aria-expanded={productsOpen}
+                className="btn-ghost nav-yellow flex items-center gap-1.5 px-4 py-2 text-[13px] font-semibold rounded-full"
+              >
+                Our Products
+                <ChevronDown size={12} className={`transition-transform duration-200 ${productsOpen ? "rotate-180" : ""}`} />
+              </button>
+
+              <AnimatePresence>
+                {productsOpen && (
+                  <motion.div
+                    initial={{ opacity: 0, y: 6, scale: 0.97 }}
+                    animate={{ opacity: 1, y: 0, scale: 1 }}
+                    exit={{ opacity: 0, y: 6, scale: 0.97 }}
+                    transition={{ duration: 0.14, ease: "easeOut" }}
+                    className="absolute top-full left-0 pt-2 w-80"
+                  >
+                    <div
+                      className="rounded-xl overflow-hidden p-2"
+                      style={{ backgroundColor: "var(--bg-surface)", border: "1px solid var(--border)", boxShadow: "var(--shadow-lg)" }}
+                    >
+                      {productCategories.map((group) => (
+                        <div key={group.category} className="mb-1 last:mb-0">
+                          <p className="px-3 pt-2.5 pb-1.5 text-[10px] font-bold tracking-[0.18em] uppercase" style={{ color: "var(--text-faint)" }}>
+                            {group.category}
+                          </p>
+                          {group.items.map((item) => (
+                            <Link
+                              key={item.href}
+                              href={item.href}
+                              {...linkTargetProps(item.href)}
+                              onClick={() => setProductsOpen(false)}
+                              className="group flex items-center justify-between gap-3 p-3 rounded-lg transition-colors hover:bg-(--bg-elevated)"
+                            >
+                              <div>
+                                <div className="flex items-center gap-2 text-[13.5px] font-bold mb-0.5" style={{ color: "var(--text-primary)" }}>
+                                  {item.label}
+                                  {item.badge && (
+                                    <span
+                                      className="text-[9px] font-bold tracking-widest uppercase px-1.5 py-0.5 rounded"
+                                      style={{ backgroundColor: "var(--text-primary)", color: "var(--bg-page)" }}
+                                    >
+                                      {item.badge}
+                                    </span>
+                                  )}
+                                </div>
+                                <div className="text-[11.5px]" style={{ color: "var(--text-muted)" }}>{item.description}</div>
+                              </div>
+                              <ArrowRight
+                                size={13}
+                                className="shrink-0 opacity-0 -translate-x-1 transition-all group-hover:opacity-100 group-hover:translate-x-0"
+                                style={{ color: "var(--text-primary)" }}
+                              />
+                            </Link>
+                          ))}
+                        </div>
+                      ))}
+                    </div>
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </div>
+
             {/* Solutions Dropdown */}
             <div ref={solutionsRef} className="relative">
               <button
                 onClick={() => setSolutionsOpen(!solutionsOpen)}
-                className="flex items-center gap-1.5 px-3 py-2 text-[13px] font-medium rounded-lg transition-colors duration-150"
+                className="nav-yellow flex items-center gap-1.5 px-3 py-2 text-[13px] font-medium rounded-lg"
                 style={{ color: "var(--text-secondary)" }}
-                onMouseEnter={e => (e.currentTarget.style.color = "var(--text-primary)")}
-                onMouseLeave={e => (e.currentTarget.style.color = "var(--text-secondary)")}
               >
                 Solutions
                 <ChevronDown
@@ -184,6 +274,7 @@ export default function Navbar() {
                         <Link
                           key={item.href}
                           href={item.href}
+                          {...linkTargetProps(item.href)}
                           onClick={() => setSolutionsOpen(false)}
                           className="flex items-start gap-3 p-3 rounded-lg transition-colors group"
                           style={{ color: "inherit" }}
@@ -226,28 +317,19 @@ export default function Navbar() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="px-3 py-2 text-[13px] font-medium rounded-lg transition-colors duration-150"
+                className="nav-yellow px-3 py-2 text-[13px] font-medium rounded-lg"
                 style={{ color: "var(--text-secondary)" }}
-                onMouseEnter={e => (e.currentTarget.style.color = "var(--text-primary)")}
-                onMouseLeave={e => (e.currentTarget.style.color = "var(--text-secondary)")}
               >
                 {link.label}
               </Link>
             ))}
           </div>
 
-          {/* Right — CTA */}
+          {/* Right: CTA */}
           <div className="hidden md:flex items-center gap-3">
             <Link
               href="/contact"
-              className="flex items-center gap-2 px-4 py-2 text-[13px] font-semibold rounded-lg transition-all duration-200"
-              style={{
-                backgroundColor: "var(--blue)",
-                color: "var(--on-blue)",
-                boxShadow: "0 2px 12px rgba(0, 0, 0, 0.35)",
-              }}
-              onMouseEnter={e => ((e.currentTarget as HTMLElement).style.backgroundColor = "var(--blue-hover)")}
-              onMouseLeave={e => ((e.currentTarget as HTMLElement).style.backgroundColor = "var(--blue)")}
+              className="btn-solid nav-yellow flex items-center gap-2 px-4 py-2 text-[13px] font-semibold rounded-lg"
             >
               Get in Touch
               <ArrowRight size={12} />
@@ -279,6 +361,28 @@ export default function Navbar() {
           >
             <div className="flex flex-col h-full pt-20 pb-8 px-6 overflow-y-auto">
               <div className="flex flex-col gap-1">
+                {productCategories.map((group) => (
+                  <div key={group.category} className="mb-2">
+                    <p className="text-[10px] font-semibold tracking-[0.15em] uppercase mb-2 px-2" style={{ color: "var(--text-faint)" }}>
+                      Our Products · {group.category}
+                    </p>
+                    {group.items.map((item) => (
+                      <Link
+                        key={item.href}
+                        href={item.href}
+                        {...linkTargetProps(item.href)}
+                        onClick={() => setMobileOpen(false)}
+                        className="block px-2 py-3 rounded-lg transition-colors hover:bg-(--bg-surface)"
+                      >
+                        <div className="text-[15px] font-bold" style={{ color: "var(--text-primary)" }}>{item.label}</div>
+                        <div className="text-[12px]" style={{ color: "var(--text-muted)" }}>{item.description}</div>
+                      </Link>
+                    ))}
+                  </div>
+                ))}
+
+                <div className="my-4" style={{ height: "1px", backgroundColor: "var(--border)" }} />
+
                 <p className="text-[10px] font-semibold tracking-[0.15em] uppercase mb-3 px-2" style={{ color: "var(--text-faint)" }}>
                   Solutions
                 </p>
@@ -286,6 +390,7 @@ export default function Navbar() {
                   <Link
                     key={item.href}
                     href={item.href}
+                    {...linkTargetProps(item.href)}
                     onClick={() => setMobileOpen(false)}
                     className="flex items-center gap-3 px-2 py-3 rounded-lg transition-colors"
                     onMouseEnter={e => (e.currentTarget.style.backgroundColor = "var(--bg-surface)")}

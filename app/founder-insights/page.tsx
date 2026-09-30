@@ -5,7 +5,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Founder Insights — Operational Intelligence",
+  title: "Founder Insights: Operational Intelligence",
   description:
     "Perspectives from the Daeson Technologies founding team on operational infrastructure, real estate technology, Islamic finance AI, workflow automation, and the future of enterprise software.",
   alternates: { canonical: "https://daesontechnologies.online/founder-insights" },
@@ -16,7 +16,7 @@ const articles = [
     category: "Operations",
     title: "Why Operational Ownership Matters More Than Technology Stack",
     excerpt:
-      "Most enterprise technology conversations start with 'which tools should we use?' But the more important question is: who owns the operational logic of your business? When you build on SaaS, you lease it. When you build owned infrastructure, your operational knowledge compounds — it becomes a strategic asset.",
+      "Most enterprise technology conversations start with 'which tools should we use?' But the more important question is: who owns the operational logic of your business? When you build on SaaS, you lease it. When you build owned infrastructure, your operational knowledge compounds, it becomes a strategic asset.",
     readTime: "8 min read",
     slug: "#why-operational-ownership",
     featured: true,
@@ -25,14 +25,14 @@ const articles = [
     category: "Real Estate Technology",
     title: "The Future of Real Estate Technology Is Operational, Not Transactional",
     excerpt:
-      "Real estate technology has been dominated by transactional tools — CRMs, listing platforms, transaction management software. The next era belongs to operational platforms: systems that give real estate firms comprehensive visibility into their portfolio, pipeline, investors, and performance in real time.",
+      "Real estate technology has been dominated by transactional tools: CRMs, listing platforms, transaction management software. The next era belongs to operational platforms: systems that give real estate firms comprehensive visibility into their portfolio, pipeline, investors, and performance in real time.",
     readTime: "7 min read",
     slug: "#future-re-tech",
     featured: false,
   },
   {
     category: "Enterprise Software",
-    title: "Subscription Fatigue Is Real — And It's Getting Worse",
+    title: "Subscription Fatigue Is Real: And It's Getting Worse",
     excerpt:
       "The average enterprise technology team now manages dozens of SaaS subscriptions. Each one seemed reasonable when purchased. Together, they create fragmented data, manual integration work, and zero operational coherence. The subscription model was sold as flexibility. It delivered dependency.",
     readTime: "6 min read",
@@ -43,16 +43,16 @@ const articles = [
     category: "AI Integration",
     title: "AI Beyond Chatbots: What Enterprise AI Actually Does",
     excerpt:
-      "Most enterprise AI conversations default to chatbots and Q&A interfaces. But the highest-value AI implementations embed intelligence directly into operational workflows — automating analysis, surfacing patterns, flagging compliance issues, and generating documentation at the point where decisions are made.",
+      "Most enterprise AI conversations default to chatbots and Q&A interfaces. But the highest-value AI implementations embed intelligence directly into operational workflows, automating analysis, surfacing patterns, flagging compliance issues, and generating documentation at the point where decisions are made.",
     readTime: "9 min read",
     slug: "#ai-beyond-chatbots",
     featured: false,
   },
   {
     category: "Islamic Finance",
-    title: "Islamic Finance Needs Better Infrastructure — Not Just Better Apps",
+    title: "Islamic Finance Needs Better Infrastructure: Not Just Better Apps",
     excerpt:
-      "The Islamic finance industry has seen significant fintech activity at the consumer layer — payment apps, savings products, halal investment platforms. What remains underserved is the operational layer: the compliance workflows, governance documentation, and audit infrastructure that Islamic financial institutions rely on daily.",
+      "The Islamic finance industry has seen significant fintech activity at the consumer layer, payment apps, savings products, halal investment platforms. What remains underserved is the operational layer: the compliance workflows, governance documentation, and audit infrastructure that Islamic financial institutions rely on daily.",
     readTime: "10 min read",
     slug: "#islamic-finance-infrastructure",
     featured: false,
@@ -86,7 +86,7 @@ const faqSchema = {
       name: "What is operational ownership in enterprise software?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Operational ownership means the organization controls and owns the software systems that run its operations — rather than leasing SaaS tools from third-party vendors. Owned infrastructure means you own the source code, database, architecture, and operational logic. This eliminates subscription dependency, enables deep customization, and turns your operational systems into a compounding strategic asset rather than a recurring cost center.",
+        text: "Operational ownership means the organization controls and owns the software systems that run its operations, rather than leasing SaaS tools from third-party vendors. Owned infrastructure means you own the source code, database, architecture, and operational logic. This eliminates subscription dependency, enables deep customization, and turns your operational systems into a compounding strategic asset rather than a recurring cost center.",
       },
     },
     {
@@ -94,7 +94,7 @@ const faqSchema = {
       name: "Why is subscription fatigue a growing problem in enterprise software?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Enterprise organizations have accumulated dozens of SaaS subscriptions, each addressing a specific operational need. The cumulative effect is data fragmentation (each system holds different data), integration overhead (manual or brittle connections between systems), vendor dependency (no control over pricing, features, or continuity), and operational incoherence (no unified view of the business). The subscription model is also increasingly expensive at scale — per-seat pricing compounds as organizations grow. The result is that many enterprises are spending more on SaaS than they would have on purpose-built owned systems.",
+        text: "Enterprise organizations have accumulated dozens of SaaS subscriptions, each addressing a specific operational need. The cumulative effect is data fragmentation (each system holds different data), integration overhead (manual or brittle connections between systems), vendor dependency (no control over pricing, features, or continuity), and operational incoherence (no unified view of the business). The subscription model is also increasingly expensive at scale, per-seat pricing compounds as organizations grow. The result is that many enterprises are spending more on SaaS than they would have on purpose-built owned systems.",
       },
     },
     {
@@ -110,7 +110,7 @@ const faqSchema = {
       name: "Why does Islamic finance need better operational infrastructure?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Islamic financial transactions require meticulous Shariah compliance documentation, scholar review, audit trail generation, and governance oversight at every stage. Most Islamic financial institutions manage these requirements through manual, paper-heavy processes — which are slow, error-prone, and create audit risk. Better operational infrastructure means digitizing and automating the compliance workflow layer so scholars can focus on substantive jurisprudential decisions rather than administrative documentation. This is what Aylinor is designed to do.",
+        text: "Islamic financial transactions require meticulous Shariah compliance documentation, scholar review, audit trail generation, and governance oversight at every stage. Most Islamic financial institutions manage these requirements through manual, paper-heavy processes, which are slow, error-prone, and create audit risk. Better operational infrastructure means digitizing and automating the compliance workflow layer so scholars can focus on substantive jurisprudential decisions rather than administrative documentation. This is what Aylinor is designed to do.",
       },
     },
   ],
@@ -119,7 +119,7 @@ const faqSchema = {
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Blog",
-  name: "Founder Insights — Daeson Technologies",
+  name: "Founder Insights | Daeson Technologies",
   description: "Perspectives on operational infrastructure, enterprise technology, real estate technology, and Islamic finance AI",
   url: "https://daesontechnologies.online/founder-insights",
   publisher: {
@@ -140,7 +140,7 @@ const articleSchema = {
 const pageSchema = {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  name: "Founder Insights — Daeson Technologies",
+  name: "Founder Insights | Daeson Technologies",
   url: "https://daesontechnologies.online/founder-insights",
   isPartOf: { "@id": "https://daesontechnologies.online/#website" },
 };
@@ -213,9 +213,9 @@ export default function FounderInsightsPage() {
                     className="text-[16px] leading-relaxed font-medium"
                     style={{ color: "var(--text-primary)", borderLeft: "3px solid var(--green)", paddingLeft: "16px" }}
                   >
-                    "When you build on SaaS, you lease it. When you build owned infrastructure, your operational knowledge compounds — it becomes a strategic asset."
+                    "When you build on SaaS, you lease it. When you build owned infrastructure, your operational knowledge compounds, it becomes a strategic asset."
                   </blockquote>
-                  <p className="mt-4 text-[11px]" style={{ color: "var(--text-faint)" }}>— Mahnoor Zafar, Founder</p>
+                  <p className="mt-4 text-[11px]" style={{ color: "var(--text-faint)" }}>Mahnoor Zafar, Founder</p>
                 </div>
               </div>
             </div>
@@ -271,15 +271,15 @@ export default function FounderInsightsPage() {
               {[
                 {
                   q: "What is operational ownership in enterprise software?",
-                  a: "Operational ownership means the organization controls and owns the software systems that run its operations — rather than leasing SaaS tools from third-party vendors. Owned infrastructure means you own the source code, database, architecture, and operational logic. This eliminates subscription dependency, enables deep customization, and turns your operational systems into a compounding strategic asset.",
+                  a: "Operational ownership means the organization controls and owns the software systems that run its operations, rather than leasing SaaS tools from third-party vendors. Owned infrastructure means you own the source code, database, architecture, and operational logic. This eliminates subscription dependency, enables deep customization, and turns your operational systems into a compounding strategic asset.",
                 },
                 {
                   q: "Why is subscription fatigue a growing problem in enterprise software?",
-                  a: "Enterprise organizations have accumulated dozens of SaaS subscriptions, each addressing a specific operational need. The cumulative effect is data fragmentation, integration overhead, vendor dependency, and operational incoherence — no unified view of the business. The subscription model is also increasingly expensive at scale as per-seat pricing compounds with organizational growth.",
+                  a: "Enterprise organizations have accumulated dozens of SaaS subscriptions, each addressing a specific operational need. The cumulative effect is data fragmentation, integration overhead, vendor dependency, and operational incoherence, no unified view of the business. The subscription model is also increasingly expensive at scale as per-seat pricing compounds with organizational growth.",
                 },
                 {
                   q: "What does AI integration actually do for enterprise operations?",
-                  a: "When AI is integrated as an operational layer — not a bolt-on chatbot — it automates routine analytical tasks, surfaces patterns from operational data, and provides decision support at the point where decisions are made. The result is measurable improvement in operational efficiency, decision quality, and executive visibility.",
+                  a: "When AI is integrated as an operational layer, not a bolt-on chatbot, it automates routine analytical tasks, surfaces patterns from operational data, and provides decision support at the point where decisions are made. The result is measurable improvement in operational efficiency, decision quality, and executive visibility.",
                 },
                 {
                   q: "Why does Islamic finance need better operational infrastructure?",

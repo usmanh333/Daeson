@@ -5,9 +5,9 @@ import Link from "next/link";
 import { ArrowRight, ArrowLeft, Home } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Home 1.0 — Smarter Property Management",
+  title: "Home 1.0: Smarter Property Management",
   description:
-    "Home 1.0 is Daeson Technologies' AI-powered residential property management platform — built for happier tenants, better living communities, and smarter operations.",
+    "Home 1.0 is Daeson Technologies' AI-powered residential property management platform, built for happier tenants, better living communities, and smarter operations.",
   alternates: { canonical: "https://daesontechnologies.online/insights/home-1-0-residential-property-management" },
   openGraph: {
     title: "Home 1.0: Building Happier Tenants, Better Communities",
@@ -20,7 +20,7 @@ const articleSchema = {
   "@type": "Article",
   headline: "Home 1.0: Building Happier Tenants, Better Communities Through Property Technology",
   description:
-    "Home 1.0 is Daeson Technologies' AI-powered residential property management platform — built for happier tenants, better living communities, and smarter operations.",
+    "Home 1.0 is Daeson Technologies' AI-powered residential property management platform, built for happier tenants, better living communities, and smarter operations.",
   author: { "@type": "Organization", name: "Daeson Technologies", url: "https://daesontechnologies.online" },
   publisher: { "@type": "Organization", name: "Daeson Technologies", url: "https://daesontechnologies.online" },
   url: "https://daesontechnologies.online/insights/home-1-0-residential-property-management",
@@ -38,7 +38,7 @@ const modules = [
   { title: "Maintenance Management", points: ["Submit & assign requests", "Track progress to close", "Measure response times"] },
   { title: "Lease Management", points: ["Digital lease documents", "Expiration & renewal tracking", "Vacancy & occupancy rates"] },
   { title: "Rent & Payment Tracking", points: ["Outstanding payment visibility", "Collection status", "Financial reporting"] },
-  { title: "Community Communication", points: ["Broadcast announcements", "Resident notifications", "Structured updates — no more scattered chats"] },
+  { title: "Community Communication", points: ["Broadcast announcements", "Resident notifications", "Structured updates, no more scattered chats"] },
 ];
 
 export default function ArticlePage() {
@@ -121,7 +121,7 @@ export default function ArticlePage() {
               </p>
               <p className="text-[15px] leading-relaxed" style={{ color: "var(--text-primary)" }}>
                 Home 1.0 is Daeson Technologies&apos; AI-powered residential property management
-                platform — bringing resident communication, maintenance, leasing, payments, and
+                platform, bringing resident communication, maintenance, leasing, payments, and
                 community updates into one system instead of spreadsheets, WhatsApp groups, and
                 disconnected tools. It&apos;s designed to be affordable and owned, not just for large
                 enterprises.
@@ -132,7 +132,7 @@ export default function ArticlePage() {
               Managing residential properties has become more complex than ever. Property managers are
               expected to handle maintenance requests, rent collection, lease renewals, resident
               communication, financial reporting, occupancy tracking, and dozens of daily operational
-              tasks — all while delivering a better living experience.
+              tasks, all while delivering a better living experience.
             </p>
             <p className="text-[15px] leading-[1.85]">
               Many residential communities still rely on disconnected software, spreadsheets, WhatsApp
@@ -150,7 +150,7 @@ export default function ArticlePage() {
             <p className="text-[15px] leading-[1.85]">
               Across Asia, the Middle East, Europe, and North America, residential communities are
               becoming smarter. Residents now expect digital experiences similar to online banking or
-              food delivery apps — pay rent online, submit maintenance requests instantly, track
+              food delivery apps, pay rent online, submit maintenance requests instantly, track
               request status, receive announcements, renew leases digitally, and reach management
               without waiting days for a response.
             </p>
@@ -202,7 +202,7 @@ export default function ArticlePage() {
             <p className="text-[15px] leading-[1.85]">
               Rather than forcing residential companies to purchase multiple disconnected products,
               Home 1.0 brings everyday operations into one unified platform. Our goal is not to
-              replace people — it&apos;s to help property teams work smarter.
+              replace people, it&apos;s to help property teams work smarter.
             </p>
 
             <h2 className="text-[24px] font-bold tracking-tight pt-4" style={{ color: "var(--text-primary)" }}>
@@ -232,7 +232,7 @@ export default function ArticlePage() {
             </h2>
             <p className="text-[15px] leading-[1.85]">
               One misconception in property technology is that enterprise software must be expensive.
-              Home 1.0 is being designed with affordability in mind — smaller residential companies
+              Home 1.0 is being designed with affordability in mind, smaller residential companies
               deserve modern technology just as much as large enterprises. Whether managing one
               building or multiple communities, our vision is to provide a platform that scales with
               business growth.
@@ -243,7 +243,7 @@ export default function ArticlePage() {
             </h2>
             <p className="text-[15px] leading-[1.85]">
               Many software platforms lock customers into expensive subscriptions with limited
-              customization. Our philosophy is different — we believe companies should have greater
+              customization. Our philosophy is different, we believe companies should have greater
               control over their technology investments. Ownership creates long-term flexibility, it
               enables future customization, and it allows businesses to build around their own
               operational processes.
@@ -256,7 +256,7 @@ export default function ArticlePage() {
               Property management isn&apos;t only about buildings. It&apos;s about people. A faster
               maintenance response means a happier resident. Clear communication builds trust.
               Efficient operations create stronger communities. Technology should support these
-              outcomes — not complicate them.
+              outcomes, not complicate them.
             </p>
 
             <h2 className="text-[24px] font-bold tracking-tight pt-4" style={{ color: "var(--text-primary)" }}>

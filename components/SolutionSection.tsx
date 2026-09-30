@@ -7,13 +7,13 @@ const pillars = [
   {
     step: '01',
     title: 'Ingest Financial Contracts',
-    desc: 'Upload contracts in any standard format. The system parses, structures, and classifies content automatically — including complex multi-clause instruments.',
+    desc: 'Upload contracts in any standard format. The system parses, structures, and classifies content automatically, including complex multi-clause instruments.',
     color: '#0F3D2E',
   },
   {
     step: '02',
     title: 'AI-Powered Shariah Analysis',
-    desc: 'Deep analysis of contract clauses against Shariah principles, AAOIFI standards, and institution-specific rulings — with explainable risk scoring.',
+    desc: 'Deep analysis of contract clauses against Shariah principles, AAOIFI standards, and institution-specific rulings, with explainable risk scoring.',
     color: '#1a6b50',
   },
   {
@@ -25,7 +25,7 @@ const pillars = [
   {
     step: '04',
     title: 'Report & Audit Trail',
-    desc: 'Instant generation of institution-grade compliance reports with an immutable audit trail — ready for regulators, boards, and external auditors.',
+    desc: 'Instant generation of institution-grade compliance reports with an immutable audit trail, ready for regulators, boards, and external auditors.',
     color: '#0F3D2E',
   },
 ];
@@ -66,7 +66,7 @@ export default function SolutionSection() {
             </h2>
 
             <p className="text-lg text-gray-600 leading-relaxed">
-              Aylinor is the Shariah Compliance Intelligence Platform — enabling financial
+              Aylinor is the Shariah Compliance Intelligence Platform, enabling financial
               institutions to analyse contracts with AI, validate against Shariah principles, and
               streamline scholar decision-making within a unified, auditable system.
             </p>
@@ -74,7 +74,7 @@ export default function SolutionSection() {
             <p className="text-base text-gray-500 leading-relaxed">
               From automated risk scoring to structured scholar workflows and complete audit trails,
               Aylinor delivers the infrastructure Islamic finance institutions need to operate with
-              confidence, consistency, and regulatory transparency — across every market.
+              confidence, consistency, and regulatory transparency, across every market.
             </p>
 
             {/* Benefits */}

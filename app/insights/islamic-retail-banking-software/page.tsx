@@ -7,7 +7,7 @@ import { ArrowRight, ArrowLeft } from "lucide-react";
 export const metadata: Metadata = {
   title: "Islamic Retail Banking Software: What Customer-Facing Products Need",
   description:
-    "Islamic retail banking software has to support customer-facing financing products like Murabaha home finance and Ijarah — with documentation and disclosure built in, not bolted on.",
+    "Islamic retail banking software has to support customer-facing financing products like Murabaha home finance and Ijarah, with documentation and disclosure built in, not bolted on.",
   keywords: ["Islamic retail banking software", "Islamic home financing software", "retail Murabaha software", "Aylinor"],
   alternates: { canonical: "https://daesontechnologies.online/insights/islamic-retail-banking-software" },
   openGraph: {
@@ -21,7 +21,7 @@ const articleSchema = {
   "@type": "Article",
   headline: "Islamic Retail Banking Software: What Customer-Facing Products Need",
   description:
-    "Islamic retail banking software has to support customer-facing financing products like Murabaha home finance and Ijarah — with documentation and disclosure built in, not bolted on.",
+    "Islamic retail banking software has to support customer-facing financing products like Murabaha home finance and Ijarah, with documentation and disclosure built in, not bolted on.",
   author: { "@type": "Organization", name: "Daeson Technologies", url: "https://daesontechnologies.online" },
   publisher: { "@type": "Organization", name: "Daeson Technologies", url: "https://daesontechnologies.online" },
   url: "https://daesontechnologies.online/insights/islamic-retail-banking-software",
@@ -61,8 +61,8 @@ export default function ArticlePage() {
               Islamic Retail Banking Software: What Customer-Facing Products Need
             </h1>
             <p className="text-[17px] leading-relaxed" style={{ color: "var(--text-secondary)" }}>
-              Retail Islamic finance touches customers directly — home financing, personal
-              financing, auto financing — which raises the bar for disclosure and documentation.
+              Retail Islamic finance touches customers directly, home financing, personal
+              financing, auto financing, which raises the bar for disclosure and documentation.
             </p>
           </div>
         </section>
@@ -72,8 +72,8 @@ export default function ArticlePage() {
             <div className="answer-capsule">
               <p className="text-[12px] font-bold uppercase tracking-widest mb-2" style={{ color: "var(--gold)" }}>The short answer</p>
               <p className="text-[15px] leading-relaxed" style={{ color: "var(--text-primary)" }}>
-                Islamic retail banking software needs to handle customer-facing financing products
-                — typically Murabaha home and auto financing, and Ijarah leasing — with clear
+                Islamic retail banking software needs to handle customer-facing financing products,
+                typically Murabaha home and auto financing, and Ijarah leasing, with clear
                 profit disclosure, documentation the customer can understand, and a workflow that
                 holds up to both regulatory and Shariah review.
               </p>
@@ -89,13 +89,13 @@ export default function ArticlePage() {
               This is the same underlying workflow challenge covered in{" "}
               <Link href="/insights/murabaha-financing-software" style={{ color: "var(--gold)", fontWeight: 600 }}>our piece on Murabaha financing software</Link>{" "}
               and{" "}
-              <Link href="/insights/murabaha-contract-review-bottleneck" style={{ color: "var(--gold)", fontWeight: 600 }}>the Murabaha contract review bottleneck</Link> —
+              <Link href="/insights/murabaha-contract-review-bottleneck" style={{ color: "var(--gold)", fontWeight: 600 }}>the Murabaha contract review bottleneck</Link>,
               retail simply adds volume and customer-experience pressure on top of the same
               compliance requirements.
             </p>
             <p className="text-[15px] leading-[1.85]">
               <Link href="/amanah-ai" style={{ color: "var(--gold)", fontWeight: 600 }}>Aylinor</Link> is
-              being built with this volume problem in mind — structuring contract review so retail
+              being built with this volume problem in mind, structuring contract review so retail
               financing teams can move quickly without asking scholars to re-verify the same
               document mechanics on every application.
             </p>

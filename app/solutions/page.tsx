@@ -5,7 +5,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Enterprise Solutions — Real Estate & AI",
+  title: "Enterprise Solutions: Real Estate & AI",
   description:
     "Daeson Technologies delivers enterprise solutions across real estate operational infrastructure, AI integration, workflow automation, Islamic finance technology, fintech infrastructure, and digital transformation. Full ownership. No subscriptions.",
   alternates: { canonical: "https://daesontechnologies.online/solutions" },
@@ -16,7 +16,7 @@ const solutions = [
     category: "Real Estate Technology",
     title: "Real Estate Operational Infrastructure",
     description:
-      "An owned, AI-powered operational platform replacing the fragmented SaaS stack used by real estate firms, brokerages, and property developers. Includes unified CRM, investor dashboards, payment tracking, AI lead intelligence, and executive analytics — built around your firm's actual workflows.",
+      "An owned, AI-powered operational platform replacing the fragmented SaaS stack used by real estate firms, brokerages, and property developers. Includes unified CRM, investor dashboards, payment tracking, AI lead intelligence, and executive analytics, built around your firm's actual workflows.",
     capabilities: [
       "Unified CRM & deal pipeline management",
       "Investor visibility portals with real-time reporting",
@@ -32,9 +32,9 @@ const solutions = [
   },
   {
     category: "Islamic Finance Technology",
-    title: "Aylinor — Shariah Compliance Intelligence",
+    title: "Aylinor: Shariah Compliance Intelligence",
     description:
-      "An AI-powered operational intelligence platform designed specifically for Islamic financial institutions. Automates Murabaha contract analysis, Shariah governance documentation, scholar review workflows, and compliance audit trails — reducing operational burden while maintaining full governance accountability.",
+      "An AI-powered operational intelligence platform designed specifically for Islamic financial institutions. Automates Murabaha contract analysis, Shariah governance documentation, scholar review workflows, and compliance audit trails, reducing operational burden while maintaining full governance accountability.",
     capabilities: [
       "Murabaha contract analysis & digitization",
       "Shariah governance documentation automation",
@@ -52,7 +52,7 @@ const solutions = [
     category: "Enterprise AI",
     title: "Enterprise AI Integration",
     description:
-      "AI embedded directly into your existing enterprise systems and workflows — not bolted on as a separate tool. We design AI as an operational layer that surfaces intelligence, automates repetitive analytical tasks, and gives leadership real-time visibility across the organization.",
+      "AI embedded directly into your existing enterprise systems and workflows, not bolted on as a separate tool. We design AI as an operational layer that surfaces intelligence, automates repetitive analytical tasks, and gives leadership real-time visibility across the organization.",
     capabilities: [
       "AI integration into existing enterprise systems",
       "Intelligent document processing & analysis",
@@ -106,7 +106,7 @@ const solutions = [
     category: "Transformation",
     title: "Enterprise Digital Transformation",
     description:
-      "Comprehensive digital transformation programs for enterprise organizations — from strategy and architecture through implementation and adoption. We replace legacy systems and fragmented tools with owned platforms that align to how your organization actually operates.",
+      "Comprehensive digital transformation programs for enterprise organizations, from strategy and architecture through implementation and adoption. We replace legacy systems and fragmented tools with owned platforms that align to how your organization actually operates.",
     capabilities: [
       "Transformation strategy & architecture",
       "Legacy system migration & replacement",
@@ -129,11 +129,11 @@ const differentiators = [
   },
   {
     title: "Workflow-First Design",
-    body: "Every system starts with operational discovery — mapping real workflows before writing a single line of code. Infrastructure built around how you actually operate.",
+    body: "Every system starts with operational discovery, mapping real workflows before writing a single line of code. Infrastructure built around how you actually operate.",
   },
   {
     title: "AI as an Operational Layer",
-    body: "We integrate AI into the operational core of your systems — not as a chatbot add-on, but as intelligence embedded in workflows, dashboards, and decision processes.",
+    body: "We integrate AI into the operational core of your systems, not as a chatbot add-on, but as intelligence embedded in workflows, dashboards, and decision processes.",
   },
   {
     title: "Governance-Sensitive Architecture",
@@ -144,7 +144,7 @@ const differentiators = [
 const pageSchema = {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  name: "Enterprise Solutions — Daeson Technologies",
+  name: "Enterprise Solutions | Daeson Technologies",
   description:
     "Enterprise solutions for real estate technology, AI integration, workflow automation, Islamic finance technology, fintech infrastructure, and digital transformation.",
   url: "https://daesontechnologies.online/solutions",
@@ -183,7 +183,7 @@ export default function SolutionsPage() {
           </h1>
           <p className="text-[17px] leading-relaxed max-w-2xl mb-4" style={{ color: "var(--text-secondary)" }}>
             Daeson Technologies builds owned, AI-powered operational systems for industries where generic
-            SaaS tools fail — real estate, Islamic finance, fintech, and enterprise operations.
+            SaaS tools fail, real estate, Islamic finance, fintech, and enterprise operations.
           </p>
           <p className="text-[14px] leading-relaxed max-w-xl" style={{ color: "var(--text-muted)" }}>
             Every solution is designed around your specific workflows. Clients own everything outright.
@@ -289,7 +289,7 @@ export default function SolutionsPage() {
                   Ready to Discuss Your Operational Challenges?
                 </h2>
                 <p className="text-[15px] leading-relaxed mb-6" style={{ color: "var(--text-secondary)" }}>
-                  We start every engagement with an operational discovery session — no sales pitch,
+                  We start every engagement with an operational discovery session, no sales pitch,
                   just a direct conversation about your infrastructure challenges and what a purpose-built
                   solution would look like for your organization.
                 </p>
@@ -315,7 +315,7 @@ export default function SolutionsPage() {
                 {[
                   { label: "Engagement Start", value: "Operational discovery session" },
                   { label: "Ownership Model", value: "Full source code & IP ownership" },
-                  { label: "Subscription Fees", value: "None — one-time build investment" },
+                  { label: "Subscription Fees", value: "None, one-time build investment" },
                   { label: "Markets", value: "UAE, GCC, Canada, UK, Pakistan" },
                 ].map((item) => (
                   <div

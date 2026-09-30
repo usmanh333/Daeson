@@ -5,7 +5,7 @@ import Link from "next/link";
 import { ArrowRight, Linkedin, Mail, ArrowUpRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "About — Founders of Daeson Technologies",
+  title: "About: Founders of Daeson Technologies",
   description:
     "Daeson Technologies is led by Mahnoor Zafar (Founder & Strategic Systems Lead) and Usman Ahmad (Co-Founder & Technical Lead). Building owned AI-powered operational infrastructure for real estate, Islamic finance, and enterprise organizations.",
   keywords: [
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "enterprise software founders UAE",
   ],
   openGraph: {
-    title: "About Daeson Technologies — Mahnoor Zafar & Usman Ahmad",
+    title: "About Daeson Technologies Mahnoor Zafar & Usman Ahmad",
     description:
       "Daeson Technologies is led by Mahnoor Zafar and Usman Ahmad. A founder-led, workflow-first operational infrastructure company serving real estate, Islamic finance, and enterprise organizations.",
     url: "https://daesontechnologies.online/about",
@@ -83,7 +83,7 @@ const webPageSchema = {
   "@type": "AboutPage",
   "@id": "https://daesontechnologies.online/about",
   url: "https://daesontechnologies.online/about",
-  name: "About Daeson Technologies — Mahnoor Zafar & Usman Ahmad",
+  name: "About Daeson Technologies Mahnoor Zafar & Usman Ahmad",
   isPartOf: { "@id": "https://daesontechnologies.online/#website" },
   about: { "@id": "https://daesontechnologies.online/#organization" },
 };
@@ -97,8 +97,8 @@ const leaders = [
     tintHex: "#888888",
     linkedin: "https://www.linkedin.com/in/mahnoor-zafar-6a33a4248/",
     bio: [
-      "Mahnoor founded Daeson Technologies to address a structural gap she observed across operationally complex industries: businesses patching together generic SaaS tools and calling it infrastructure — then wondering why their operations remained fragmented, slow, and dependent on vendors who don't understand their workflow.",
-      "Her focus is on the strategic layer of operational systems design — understanding how businesses actually run before designing the architecture that should power them. She leads discovery, operational architecture, and strategic client relationships across Daeson's real estate and governance-sensitive industry engagements.",
+      "Mahnoor founded Daeson Technologies to address a structural gap she observed across operationally complex industries: businesses patching together generic SaaS tools and calling it infrastructure, then wondering why their operations remained fragmented, slow, and dependent on vendors who don't understand their workflow.",
+      "Her focus is on the strategic layer of operational systems design, understanding how businesses actually run before designing the architecture that should power them. She leads discovery, operational architecture, and strategic client relationships across Daeson's real estate and governance-sensitive industry engagements.",
       "Mahnoor is particularly focused on industries where operational precision is a competitive variable: real estate with portfolio and investor complexity, and Islamic finance where compliance infrastructure directly affects institutional credibility.",
     ],
     areas: [
@@ -119,7 +119,7 @@ const leaders = [
     linkedin: null as null | string,
     bio: [
       "Usman leads the technical execution of Daeson's operational infrastructure platforms. His responsibility spans system architecture, engineering leadership, and the technical operations that ensure every platform we build is enterprise-grade, scalable, and fully owned by the client.",
-      "He translates Daeson's operational architecture decisions into production systems — overseeing the engineering of AI-integrated platforms for real estate, Islamic finance, and enterprise operations. His approach prioritizes clean architecture, long-term maintainability, and systems that perform at the scale clients actually need.",
+      "He translates Daeson's operational architecture decisions into production systems, overseeing the engineering of AI-integrated platforms for real estate, Islamic finance, and enterprise operations. His approach prioritizes clean architecture, long-term maintainability, and systems that perform at the scale clients actually need.",
       "Prior to Daeson, Usman worked across the full stack of enterprise software development with particular depth in AI integration, data infrastructure, and system design for regulated industries.",
     ],
     areas: [
@@ -201,7 +201,7 @@ export default function AboutPage() {
           </p>
         </section>
 
-        {/* Founder authority — positioning statement */}
+        {/* Founder authority, positioning statement */}
         <div className="section-light py-4">
         <section className="relative max-w-7xl mx-auto px-6 pb-8">
           <div
@@ -233,7 +233,7 @@ export default function AboutPage() {
                   No vendor lock-in
                 </p>
                 <p className="text-[12px] leading-relaxed" style={{ color: "var(--text-secondary)" }}>
-                  Every system we build is fully owned by the client — source code, data, and architecture.
+                  Every system we build is fully owned by the client, source code, data, and architecture.
                 </p>
               </div>
               <div>
@@ -244,7 +244,7 @@ export default function AboutPage() {
                   Deep over broad
                 </p>
                 <p className="text-[12px] leading-relaxed" style={{ color: "var(--text-secondary)" }}>
-                  Real estate, Islamic finance, and enterprise operations — industries where operational
+                  Real estate, Islamic finance, and enterprise operations, industries where operational
                   precision is a competitive variable.
                 </p>
               </div>
@@ -265,7 +265,7 @@ export default function AboutPage() {
                 className="grid md:grid-cols-[280px_1fr] divide-y md:divide-y-0 md:divide-x"
                 style={{ borderColor: "var(--border)" }}
               >
-                {/* Left — Identity panel */}
+                {/* Left: Identity panel */}
                 <div className="p-8 flex flex-col gap-6" style={{ borderColor: "var(--border)" }}>
                   {/* Portrait */}
                   <div
@@ -331,7 +331,7 @@ export default function AboutPage() {
                   </div>
                 </div>
 
-                {/* Right — Bio */}
+                {/* Right: Bio */}
                 <div className="p-8">
                   <div className="space-y-4 text-[14px] leading-[1.82]" style={{ color: "var(--text-secondary)" }}>
                     {leader.bio.map((para, j) => (
@@ -448,7 +448,7 @@ export default function AboutPage() {
             {[
               {
                 title: "Operational depth over breadth",
-                body: "We serve a small number of industries and develop deep knowledge of how they actually operate — not surface-level familiarity. Real estate and Islamic finance are not adjacent to enterprise software; they require distinct expertise.",
+                body: "We serve a small number of industries and develop deep knowledge of how they actually operate, not surface-level familiarity. Real estate and Islamic finance are not adjacent to enterprise software; they require distinct expertise.",
                 accent: "var(--blue)",
               },
               {
@@ -458,7 +458,7 @@ export default function AboutPage() {
               },
               {
                 title: "Architecture before code",
-                body: "We design before we build. Discovery and operational mapping come before development — because systems built on misunderstood workflows fail, regardless of how well they are engineered.",
+                body: "We design before we build. Discovery and operational mapping come before development, because systems built on misunderstood workflows fail, regardless of how well they are engineered.",
                 accent: "var(--blue)",
               },
             ].map((value) => (

@@ -7,7 +7,7 @@ import { ArrowRight, ArrowLeft, Check } from "lucide-react";
 export const metadata: Metadata = {
   title: "How to Choose Shariah Compliance Software",
   description:
-    "A practical checklist for Islamic financial institutions evaluating Shariah compliance software — what actually matters beyond the feature list, and the questions to ask vendors.",
+    "A practical checklist for Islamic financial institutions evaluating Shariah compliance software, what actually matters beyond the feature list, and the questions to ask vendors.",
   alternates: { canonical: "https://daesontechnologies.online/insights/choosing-shariah-compliance-software" },
   openGraph: {
     title: "How to Choose Shariah Compliance Software: A Buyer's Checklist",
@@ -18,9 +18,9 @@ export const metadata: Metadata = {
 const checklist = [
   { title: "Does it produce an immutable audit trail, or just a log?", body: "A log that can be silently edited isn't evidence. Ask specifically whether records are append-only and tied directly to the transaction they document." },
   { title: "Does it support your actual financing structures?", body: "Murabaha, Ijara, and Musharakah have different documentation and workflow requirements. Generic compliance software often handles one well and forces the rest into a workaround." },
-  { title: "Can it generate different reports for different regulators from one record?", body: "If you operate in more than one market, ask whether the vendor supports one canonical compliance record with multiple report outputs — or whether you'll be maintaining parallel records yourself." },
+  { title: "Can it generate different reports for different regulators from one record?", body: "If you operate in more than one market, ask whether the vendor supports one canonical compliance record with multiple report outputs, or whether you'll be maintaining parallel records yourself." },
   { title: "Does it support scholars, or route around them?", body: "AI-assisted review should surface information for a scholar's decision, not generate a ruling. Ask exactly where the human decision point sits in the workflow." },
-  { title: "What are the uptime and accessibility guarantees, in writing?", body: "Compliance infrastructure that's unavailable during an audit or a regulatory deadline is a real operational risk — get uptime commitments in the contract, not just marketing language." },
+  { title: "What are the uptime and accessibility guarantees, in writing?", body: "Compliance infrastructure that's unavailable during an audit or a regulatory deadline is a real operational risk, get uptime commitments in the contract, not just marketing language." },
   { title: "Who owns the data and the system after the contract ends?", body: "Subscription software that locks your compliance history behind a vendor relationship creates long-term dependency. Understand what happens to your audit trail if you switch providers." },
 ];
 
@@ -29,7 +29,7 @@ const articleSchema = {
   "@type": "Article",
   headline: "How to Choose Shariah Compliance Software",
   description:
-    "A practical checklist for Islamic financial institutions evaluating Shariah compliance software — what actually matters beyond the feature list.",
+    "A practical checklist for Islamic financial institutions evaluating Shariah compliance software, what actually matters beyond the feature list.",
   author: { "@type": "Organization", name: "Daeson Technologies", url: "https://daesontechnologies.online" },
   publisher: { "@type": "Organization", name: "Daeson Technologies", url: "https://daesontechnologies.online" },
   url: "https://daesontechnologies.online/insights/choosing-shariah-compliance-software",
@@ -54,7 +54,7 @@ const faqSchema = {
     {
       "@type": "Question",
       name: "Is a feature list enough to evaluate Shariah compliance software?",
-      acceptedAnswer: { "@type": "Answer", text: "No. Feature lists look similar across vendors. What differs is audit trail integrity, multi-jurisdiction reporting support, how the system treats the scholar's role, and data ownership terms — none of which show up on a feature comparison chart." },
+      acceptedAnswer: { "@type": "Answer", text: "No. Feature lists look similar across vendors. What differs is audit trail integrity, multi-jurisdiction reporting support, how the system treats the scholar's role, and data ownership terms, none of which show up on a feature comparison chart." },
     },
   ],
 };
@@ -83,7 +83,7 @@ export default function ArticlePage() {
               How to Choose Shariah Compliance Software
             </h1>
             <p className="text-[17px] leading-relaxed" style={{ color: "var(--text-secondary)" }}>
-              A practical checklist for what to verify before signing — beyond the feature list every
+              A practical checklist for what to verify before signing, beyond the feature list every
               vendor shows you.
             </p>
           </div>
@@ -97,14 +97,14 @@ export default function ArticlePage() {
               <p className="text-[12px] font-bold uppercase tracking-widest mb-2" style={{ color: "var(--gold)" }}>The short answer</p>
               <p className="text-[15px] leading-relaxed" style={{ color: "var(--text-primary)" }}>
                 Feature lists look nearly identical across Shariah compliance vendors. What actually
-                differs — and what to check before signing a long-term contract — is audit trail
+                differs, and what to check before signing a long-term contract, is audit trail
                 integrity, multi-jurisdiction reporting support, how the system treats the scholar&apos;s
                 role, uptime commitments in writing, and what happens to your data if you leave.
               </p>
             </div>
 
             <p className="text-[15px] leading-[1.85]">
-              Evaluating Shariah compliance software usually starts with a feature demo — contract
+              Evaluating Shariah compliance software usually starts with a feature demo, contract
               parsing, dashboards, reporting modules. Most vendors can show all of that convincingly.
               The differences that actually matter over a multi-year contract rarely show up in a demo.
             </p>
@@ -130,7 +130,7 @@ export default function ArticlePage() {
               whether the audit trail would hold up under regulatory scrutiny, whether the reporting
               engine will actually save you work across three jurisdictions, or whether you&apos;ll own
               your compliance history if you ever switch providers. Those are the questions that decide
-              whether the software is still the right decision three years in — which is what
+              whether the software is still the right decision three years in, which is what
               we built <Link href="/amanah-ai" style={{ color: "var(--gold)", fontWeight: 600 }}>Aylinor</Link> to
               answer honestly, not just demo well.
             </p>
@@ -150,7 +150,7 @@ export default function ArticlePage() {
                 Evaluating vendors right now?
               </h2>
               <p className="text-[14px] leading-relaxed mb-7 max-w-lg mx-auto" style={{ color: "var(--text-secondary)" }}>
-                Ask us these six questions directly — we&apos;ll answer them without a sales script.
+                Ask us these six questions directly, we&apos;ll answer them without a sales script.
               </p>
               <div className="flex flex-wrap gap-4 justify-center">
                 <Link href="/contact" className="inline-flex items-center gap-2 px-7 py-3.5 text-[14px] font-bold rounded-xl hover:opacity-90 transition-all" style={{ backgroundColor: "var(--gold)", color: "#0B0E14" }}>

@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 const challenges = [
   {
     title: "Manual Murabaha Contract Processing",
-    body: "Murabaha financing involves complex cost-plus-profit documentation requirements. Most institutions process contracts manually — slow, error-prone, and difficult to audit at scale.",
+    body: "Murabaha financing involves complex cost-plus-profit documentation requirements. Most institutions process contracts manually, slow, error-prone, and difficult to audit at scale.",
   },
   {
     title: "Scholar Review Bandwidth Constraints",
@@ -26,7 +26,7 @@ const challenges = [
   },
   {
     title: "Governance Visibility Gap",
-    body: "Senior management and boards often lack real-time visibility into the compliance status of the institution's Islamic finance portfolio — creating governance risk that is difficult to detect until it becomes material.",
+    body: "Senior management and boards often lack real-time visibility into the compliance status of the institution's Islamic finance portfolio, creating governance risk that is difficult to detect until it becomes material.",
   },
   {
     title: "Technology Not Built for Islamic Finance",
@@ -34,7 +34,7 @@ const challenges = [
   },
   {
     title: "Scaling Compliance Operations",
-    body: "As Islamic financial institutions grow, their compliance operations must scale proportionally. Manual processes cannot scale efficiently — creating either compliance risk or prohibitive overhead costs.",
+    body: "As Islamic financial institutions grow, their compliance operations must scale proportionally. Manual processes cannot scale efficiently, creating either compliance risk or prohibitive overhead costs.",
   },
 ];
 
@@ -47,7 +47,7 @@ const faqSchema = {
       name: "What is Islamic finance technology?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Islamic finance technology refers to purpose-built digital platforms and AI systems designed for the specific compliance, governance, and operational requirements of Islamic financial institutions. Unlike conventional fintech adapted for Islamic products, Islamic finance technology is architected around Shariah governance requirements — including contract structures like Murabaha, Ijara, and Musharaka, scholar review workflows, fatwa documentation, and compliance audit trail generation.",
+        text: "Islamic finance technology refers to purpose-built digital platforms and AI systems designed for the specific compliance, governance, and operational requirements of Islamic financial institutions. Unlike conventional fintech adapted for Islamic products, Islamic finance technology is architected around Shariah governance requirements, including contract structures like Murabaha, Ijara, and Musharaka, scholar review workflows, fatwa documentation, and compliance audit trail generation.",
       },
     },
     {
@@ -63,7 +63,7 @@ const faqSchema = {
       name: "How does AI support Shariah compliance without replacing scholars?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "AI supports Shariah compliance by automating the operational and documentation layer of the compliance process — not by making Shariah judgments. AI can analyze contracts against documented Shariah criteria, generate governance documentation, route matters for scholar review, and maintain audit trails. All substantive Shariah determinations remain with qualified scholars. AI reduces the administrative burden so scholars can focus on genuine jurisprudential analysis rather than document processing.",
+        text: "AI supports Shariah compliance by automating the operational and documentation layer of the compliance process, not by making Shariah judgments. AI can analyze contracts against documented Shariah criteria, generate governance documentation, route matters for scholar review, and maintain audit trails. All substantive Shariah determinations remain with qualified scholars. AI reduces the administrative burden so scholars can focus on genuine jurisprudential analysis rather than document processing.",
       },
     },
     {
@@ -71,7 +71,7 @@ const faqSchema = {
       name: "What is governance-sensitive AI in Islamic finance?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Governance-sensitive AI in Islamic finance refers to AI systems designed with explicit audit trails, human oversight requirements, and explainability — appropriate for environments where decisions carry religious and legal accountability. In Islamic finance, AI recommendations must be documentable, auditable, and subject to scholar review. Governance-sensitive design means these requirements are built into the system architecture from the start, not added as afterthoughts.",
+        text: "Governance-sensitive AI in Islamic finance refers to AI systems designed with explicit audit trails, human oversight requirements, and explainability, appropriate for environments where decisions carry religious and legal accountability. In Islamic finance, AI recommendations must be documentable, auditable, and subject to scholar review. Governance-sensitive design means these requirements are built into the system architecture from the start, not added as afterthoughts.",
       },
     },
   ],
@@ -80,7 +80,7 @@ const faqSchema = {
 const pageSchema = {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  name: "Islamic Finance Technology — Daeson Technologies",
+  name: "Islamic Finance Technology | Daeson Technologies",
   url: "https://daesontechnologies.online/industries/islamic-finance",
   isPartOf: { "@id": "https://daesontechnologies.online/#website" },
   breadcrumb: {
@@ -112,7 +112,7 @@ export default function IslamicFinancePage() {
             <span style={{ color: "var(--gold)" }}>Built for Shariah Governance</span>
           </h1>
           <p className="text-[16px] leading-relaxed max-w-2xl mb-4" style={{ color: "var(--text-secondary)" }}>
-            Daeson Technologies is developing Aylinor — an AI-powered operational intelligence platform
+            Daeson Technologies is developing Aylinor, an AI-powered operational intelligence platform
             designed specifically for Islamic financial institutions, their compliance workflows, and governance requirements.
           </p>
           <div
@@ -161,11 +161,11 @@ export default function IslamicFinancePage() {
             {[
               {
                 title: "Murabaha Workflow Automation",
-                body: "Automated parsing and analysis of Murabaha contracts against documented Shariah compliance criteria — with structured output for scholar review.",
+                body: "Automated parsing and analysis of Murabaha contracts against documented Shariah compliance criteria, with structured output for scholar review.",
               },
               {
                 title: "Shariah Governance Documentation",
-                body: "Automated generation of Shariah governance documentation — fatwa summaries, compliance checklists, and approval records — creating a structured governance archive.",
+                body: "Automated generation of Shariah governance documentation, fatwa summaries, compliance checklists, and approval records, creating a structured governance archive.",
               },
               {
                 title: "Scholar Review Queue Management",
@@ -173,7 +173,7 @@ export default function IslamicFinancePage() {
               },
               {
                 title: "Compliance Audit Trail",
-                body: "Full, immutable audit trail of every compliance decision, document, and scholar interaction — designed to satisfy regulatory and institutional governance requirements.",
+                body: "Full, immutable audit trail of every compliance decision, document, and scholar interaction, designed to satisfy regulatory and institutional governance requirements.",
               },
               {
                 title: "Governance Visibility Dashboards",

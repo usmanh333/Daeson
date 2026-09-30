@@ -11,13 +11,13 @@ const steps = [
     desc: 'Submit financial contracts, investment documents, or product structures in any standard format. Bulk uploads supported for institutional-scale operations.',
     color: '#0F3D2E',
     bg: '#e8f4ef',
-    detail: 'PDF, DOCX, XML, JSON — any format accepted',
+    detail: 'PDF, DOCX, XML, JSON, any format accepted',
   },
   {
     icon: BrainCircuit,
     step: '02',
     label: 'AI Parsing & Risk Analysis',
-    desc: 'The AI engine extracts clauses, identifies contract type, scores Shariah risk, and flags elements requiring scholar review — in under 30 seconds.',
+    desc: 'The AI engine extracts clauses, identifies contract type, scores Shariah risk, and flags elements requiring scholar review, in under 30 seconds.',
     color: '#1a6b50',
     bg: '#d1ead8',
     detail: 'Powered by NLP tuned for Islamic finance',
@@ -26,7 +26,7 @@ const steps = [
     icon: ShieldCheck,
     step: '03',
     label: 'Compliance Engine Validation',
-    desc: 'A deterministic rule engine cross-validates AI findings against encoded Shariah principles and AAOIFI standards — producing structured, explainable decisions.',
+    desc: 'A deterministic rule engine cross-validates AI findings against encoded Shariah principles and AAOIFI standards, producing structured, explainable decisions.',
     color: '#D4AF37',
     bg: '#fdf8e7',
     detail: 'AAOIFI-aligned rule set, institution-configurable',
@@ -35,7 +35,7 @@ const steps = [
     icon: FileText,
     step: '04',
     label: 'Audit-Ready Output',
-    desc: 'Receive a full Shariah compliance report with scholar annotations, risk scores, and an immutable audit trail — ready for regulators, boards, and external audit.',
+    desc: 'Receive a full Shariah compliance report with scholar annotations, risk scores, and an immutable audit trail, ready for regulators, boards, and external audit.',
     color: '#0F3D2E',
     bg: '#e8f4ef',
     detail: 'Formatted for SBP, SAMA, FCA, and board reporting',
@@ -71,12 +71,12 @@ export default function HowItWorks() {
             Platform Workflow
           </div>
           <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-            From Upload to Compliance —
+            From Upload to Compliance,
             <span style={{ color: '#0F3D2E' }}> Fully Streamlined</span>
           </h2>
           <p className="text-lg text-gray-500 leading-relaxed">
             Four clear steps take any financial contract from submission to a fully documented
-            Shariah compliance output — with zero gaps in the audit trail.
+            Shariah compliance output, with zero gaps in the audit trail.
           </p>
         </motion.div>
 
@@ -103,7 +103,7 @@ export default function HowItWorks() {
                 {step.step}
               </div>
 
-              {/* Connector line (desktop only) — visual only */}
+              {/* Connector line (desktop only), visual only */}
               {i < steps.length - 1 && (
                 <div className="hidden lg:block absolute top-[46px] right-0 w-6 h-px bg-gray-200 z-10" />
               )}
@@ -154,7 +154,7 @@ export default function HowItWorks() {
             <span style={{ color: '#0F3D2E' }}>under 3 minutes</span>
           </p>
           <p className="text-sm text-gray-500">
-            Compared to industry average of 3–7 days for manual Shariah review cycles.
+            Compared to industry average of 3 to 7 days for manual Shariah review cycles.
           </p>
         </motion.div>
       </div>

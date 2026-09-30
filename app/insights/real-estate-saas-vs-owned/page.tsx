@@ -7,7 +7,7 @@ import { ArrowRight, ArrowLeft } from "lucide-react";
 export const metadata: Metadata = {
   title: "SaaS vs. Owned Real Estate Infrastructure",
   description:
-    "The era of patching together Salesforce, Excel, and email for real estate operations is ending. Forward-thinking property firms are building owned operational platforms — and the ROI case is clear.",
+    "The era of patching together Salesforce, Excel, and email for real estate operations is ending. Forward-thinking property firms are building owned operational platforms, and the ROI case is clear.",
   alternates: { canonical: "https://daesontechnologies.online/insights/real-estate-saas-vs-owned" },
   openGraph: {
     title: "Why Real Estate Firms Are Replacing SaaS Stacks with Owned Infrastructure",
@@ -20,7 +20,7 @@ const articleSchema = {
   "@type": "Article",
   headline: "Why Real Estate Firms Are Replacing SaaS Stacks with Owned Infrastructure",
   description:
-    "The era of patching together Salesforce, Excel, and email for real estate operations is ending. Forward-thinking property firms are building owned operational platforms — and the ROI case is clear.",
+    "The era of patching together Salesforce, Excel, and email for real estate operations is ending. Forward-thinking property firms are building owned operational platforms, and the ROI case is clear.",
   author: { "@type": "Organization", name: "Daeson Technologies", url: "https://daesontechnologies.online" },
   publisher: { "@type": "Organization", name: "Daeson Technologies", url: "https://daesontechnologies.online" },
   url: "https://daesontechnologies.online/insights/real-estate-saas-vs-owned",
@@ -72,7 +72,7 @@ export default function ArticlePage() {
 
             <p className="text-[17px] leading-relaxed" style={{ color: "var(--text-secondary)" }}>
               The era of patching together Salesforce, Excel, and a half-dozen other tools to run a
-              property business is coming to an end — not because those tools stopped working, but because
+              property business is coming to an end, not because those tools stopped working, but because
               the cost of using them finally became visible.
             </p>
           </div>
@@ -91,8 +91,8 @@ export default function ArticlePage() {
                 The short answer
               </p>
               <p className="text-[15px] leading-relaxed" style={{ color: "var(--text-primary)" }}>
-                Real estate firms are replacing fragmented SaaS stacks because the hidden costs — data
-                silos, manual reporting, integration failures, and vendor lock-in — now outweigh the
+                Real estate firms are replacing fragmented SaaS stacks because the hidden costs, data
+                silos, manual reporting, integration failures, and vendor lock-in, now outweigh the
                 convenience. Owned operational infrastructure gives firms full control, zero recurring
                 licensing fees, and systems built around how they actually work.
               </p>
@@ -139,7 +139,7 @@ export default function ArticlePage() {
               </p>
               <ul className="space-y-2">
                 {[
-                  "Staff time spent on manual data transfers between systems (often 10–20 hours per week)",
+                  "Staff time spent on manual data transfers between systems (often 10 to 20 hours per week)",
                   "Reporting errors from stale or mismatched data across platforms",
                   "Investor trust erosion from delayed or inconsistent portfolio updates",
                   "Missed deals because lead intelligence is siloed from deal management",
@@ -155,8 +155,8 @@ export default function ArticlePage() {
             </div>
 
             <p className="text-[15px] leading-[1.85]">
-              When firms actually calculate the total cost — licenses, integrations, consultant fees,
-              staff time, and the opportunity cost of decisions made with incomplete data — the number is
+              When firms actually calculate the total cost, licenses, integrations, consultant fees,
+              staff time, and the opportunity cost of decisions made with incomplete data, the number is
               almost always higher than the cost of building owned infrastructure once.
             </p>
 
@@ -165,14 +165,14 @@ export default function ArticlePage() {
             </h2>
             <p className="text-[15px] leading-[1.85]">
               Salesforce was not built for real estate. Neither was HubSpot, nor most CRMs marketed to the
-              industry. They were built for general sales organizations and then adapted — through expensive
-              customizations and third-party integrations — to approximate what real estate firms actually need.
+              industry. They were built for general sales organizations and then adapted, through expensive
+              customizations and third-party integrations, to approximate what real estate firms actually need.
             </p>
             <p className="text-[15px] leading-[1.85]">
               Real estate operations have specific structural requirements that generic tools handle poorly.
               Investors need different visibility than brokers. Payment milestones are tied to construction
               phases, not calendar dates. Lead qualification in property sales depends on financial capacity,
-              residency status, and purchasing timeline — not just engagement signals. Project tracking must
+              residency status, and purchasing timeline, not just engagement signals. Project tracking must
               link to the financial model, not just the calendar.
             </p>
             <p className="text-[15px] leading-[1.85]">
@@ -186,8 +186,8 @@ export default function ArticlePage() {
             </h2>
             <p className="text-[15px] leading-[1.85]">
               Owned infrastructure is not a single application. It is a purpose-built platform that brings
-              together the core operational functions of the firm — lead management, investor relations,
-              payment tracking, project milestones, compliance documentation, and executive reporting —
+              together the core operational functions of the firm, lead management, investor relations,
+              payment tracking, project milestones, compliance documentation, and executive reporting,
               into a single system designed around how the business actually works.
             </p>
             <p className="text-[15px] leading-[1.85]">
@@ -199,7 +199,7 @@ export default function ArticlePage() {
             <p className="text-[15px] leading-[1.85]">
               For a real estate firm operating in UAE and GCC markets, this typically means a unified
               platform where a broker updating a deal in the CRM automatically reflects in the investor
-              portal, triggers the next payment milestone notification, and updates the executive dashboard —
+              portal, triggers the next payment milestone notification, and updates the executive dashboard,
               all without a single manual data transfer.
             </p>
 
@@ -213,8 +213,8 @@ export default function ArticlePage() {
               systems evolve when you decide they should, not when your vendor&apos;s product team prioritizes it.
             </p>
             <p className="text-[15px] leading-[1.85]">
-              For firms operating in markets where data residency and operational security matter — which
-              increasingly includes GCC real estate — owned infrastructure also means control over where
+              For firms operating in markets where data residency and operational security matter, which
+              increasingly includes GCC real estate, owned infrastructure also means control over where
               your data lives and who has access to it.
             </p>
 
@@ -267,26 +267,26 @@ export default function ArticlePage() {
               When does the ROI calculation favor ownership?
             </h2>
             <p className="text-[15px] leading-[1.85]">
-              Owned infrastructure makes economic sense when the total cost of the SaaS stack — including
-              licenses, integration tools, consultant customization fees, and staff time — exceeds the build
+              Owned infrastructure makes economic sense when the total cost of the SaaS stack, including
+              licenses, integration tools, consultant customization fees, and staff time, exceeds the build
               cost within a reasonable timeframe. For most mid-size real estate firms with active portfolios,
               this crossover happens within 18 to 36 months.
             </p>
             <p className="text-[15px] leading-[1.85]">
               Beyond the direct cost comparison, there is an indirect ROI from operational clarity. Firms
               with real-time, unified operational visibility make better decisions faster. Investor reporting
-              that takes a week manually can take minutes automatically — and that time compounds across
+              that takes a week manually can take minutes automatically, and that time compounds across
               every reporting cycle, every investor update, every executive meeting.
             </p>
             <p className="text-[15px] leading-[1.85]">
               The firms making this transition are not doing it because they dislike SaaS tools in principle.
-              They are doing it because they have grown to a point where the cost of fragmentation — in
-              time, in errors, in missed opportunities, and in leadership visibility — is simply higher than
+              They are doing it because they have grown to a point where the cost of fragmentation, in
+              time, in errors, in missed opportunities, and in leadership visibility, is simply higher than
               the alternative.
             </p>
 
             <h2 className="text-[24px] font-bold tracking-tight pt-4" style={{ color: "var(--text-primary)" }}>
-              Starting the transition — what the process looks like
+              Starting the transition, what the process looks like
             </h2>
             <p className="text-[15px] leading-[1.85]">
               The right starting point is operational discovery, not a technology decision. Before any
@@ -297,11 +297,11 @@ export default function ArticlePage() {
             <p className="text-[15px] leading-[1.85]">
               This discovery process typically takes two to four weeks and produces a clear architectural
               specification. That specification then drives a build that is precisely aligned to the firm&apos;s
-              actual operations — not a generic template configured to approximate them.
+              actual operations, not a generic template configured to approximate them.
             </p>
             <p className="text-[15px] leading-[1.85]">
               The transition does not happen overnight, and it should not. The most successful
-              implementations replace SaaS tools incrementally — starting with the highest-friction areas,
+              implementations replace SaaS tools incrementally, starting with the highest-friction areas,
               validating the owned system against real operations, and expanding scope as confidence builds.
             </p>
 
@@ -311,14 +311,14 @@ export default function ArticlePage() {
             <p className="text-[15px] leading-[1.85]">
               Owned infrastructure is not the right answer for every real estate firm. It requires an
               upfront investment and a clear picture of the operational workflows that need to be supported.
-              For very early-stage firms still figuring out how they operate, generic tools are appropriate —
+              For very early-stage firms still figuring out how they operate, generic tools are appropriate,
               they provide flexibility while the business model is being refined.
             </p>
             <p className="text-[15px] leading-[1.85]">
               The transition makes the most sense for firms that have reached operational maturity: a defined
               workflow, a growing portfolio, investor relationships that require consistent reporting, and a
               leadership team that is spending real time managing the systems rather than the business.
-              At that stage, owned infrastructure is not a luxury — it is the logical next step.
+              At that stage, owned infrastructure is not a luxury, it is the logical next step.
             </p>
           </div>
 
@@ -347,7 +347,7 @@ export default function ArticlePage() {
                 Thinking about owned infrastructure for your firm?
               </h2>
               <p className="text-[14px] leading-relaxed mb-7 max-w-lg mx-auto" style={{ color: "var(--text-secondary)" }}>
-                We start every engagement with operational discovery — mapping your current workflows and
+                We start every engagement with operational discovery, mapping your current workflows and
                 identifying where owned infrastructure creates the most value. No commitment required.
               </p>
               <div className="flex flex-wrap gap-4 justify-center">

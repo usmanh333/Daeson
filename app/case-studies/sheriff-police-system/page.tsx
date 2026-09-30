@@ -70,7 +70,7 @@ export default function SheriffCaseStudy() {
             departmental compliance standards.
             <br /><br />
             Daily operations involved managing sensitive criminal records,
-            incident reports, personnel data, and internal communications — all
+            incident reports, personnel data, and internal communications, all
             demanding absolute reliability and security. Any downtime or data
             inconsistency posed serious operational and legal risks.
             <br /><br />
@@ -153,7 +153,7 @@ export default function SheriffCaseStudy() {
             The new system significantly reduced operational delays, improved
             data accuracy, and strengthened overall security compliance.
             Officers now access and manage critical information faster and
-            safer — even in demanding operational environments.
+            safer, even in demanding operational environments.
             <br /><br />
             By replacing fragmented tools with a unified platform, the
             department achieved better transparency, consistent reporting,
@@ -233,7 +233,7 @@ export default function SheriffCaseStudy() {
 
             <div>
               <p className="uppercase text-sm tracking-widest">Support</p>
-              <p className="mt-6">09:00 am – 17:00 pm</p>
+              <p className="mt-6">09:00 am to 17:00 pm</p>
               <p className="underline mt-2">info@daesontechagency.online</p>
             </div>
 

@@ -15,21 +15,21 @@ const interests = [
 const industries = ["Real Estate & PropTech", "Islamic Finance", "Enterprise Operations", "Other"];
 
 const budgets = [
-  "Exploring — budget TBD",
+  "Exploring, budget TBD",
   "Under $25,000",
-  "$25,000 – $75,000",
-  "$75,000 – $150,000",
+  "$25,000 to $75,000",
+  "$75,000 to $150,000",
   "$150,000+",
 ];
 
 const timelines = [
   "Immediately (within 1 month)",
-  "Soon (1–3 months)",
-  "Planning (3–6 months)",
+  "Soon (1 to 3 months)",
+  "Planning (3 to 6 months)",
   "Exploring (6+ months)",
 ];
 
-const teamSizes = ["1–10", "11–50", "51–200", "200+"];
+const teamSizes = ["1 to 10", "11 to 50", "51 to 200", "200+"];
 
 export default function ContactForm() {
   const [status, setStatus] = useState<"idle" | "submitting" | "success" | "error">("idle");
@@ -88,11 +88,11 @@ export default function ContactForm() {
         Tell us about your business
       </h2>
       <p className="text-[12px] mb-7" style={{ color: "var(--text-faint)" }}>
-        Fields marked * are required. We respond within 24–48 hours.
+        Fields marked * are required. We respond within 24 to 48 hours.
       </p>
 
       <form onSubmit={handleSubmit} className="space-y-5">
-        <input type="hidden" name="_subject" value="New Executive Consultation Request — Daeson Technologies" />
+        <input type="hidden" name="_subject" value="New Executive Consultation Request | Daeson Technologies" />
         <input type="hidden" name="_captcha" value="false" />
         <input type="hidden" name="_template" value="table" />
         <input type="text" name="_honey" className="hidden" aria-hidden="true" tabIndex={-1} />
@@ -251,7 +251,7 @@ export default function ContactForm() {
             rows={4}
             className="w-full rounded-xl px-4 py-3 text-[13px] transition-colors focus:outline-none resize-none"
             style={{ backgroundColor: "var(--bg-page)", border: "1px solid var(--border)", color: "var(--text-primary)" }}
-            placeholder="Tell us about your business, current systems, and what you're trying to improve. Be as specific as you like — the more context you share, the more useful our first conversation will be."
+            placeholder="Tell us about your business, current systems, and what you're trying to improve. Be as specific as you like, the more context you share, the more useful our first conversation will be."
           />
         </div>
 
@@ -272,7 +272,7 @@ export default function ContactForm() {
         </button>
 
         <p className="text-[11px] text-center leading-relaxed" style={{ color: "var(--text-faint)" }}>
-          We respond within 24–48 business hours. Your information is handled with complete discretion.
+          We respond within 24 to 48 business hours. Your information is handled with complete discretion.
         </p>
       </form>
     </div>

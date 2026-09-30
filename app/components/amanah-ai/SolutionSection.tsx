@@ -13,13 +13,13 @@ const solutions = [
     icon: AlertOctagon,
     title: "Risk Identification",
     description:
-      "Quantified risk scoring surfaces Riba, Gharar, and structural compliance concerns with clear severity indicators — enabling prioritization.",
+      "Quantified risk scoring surfaces Riba, Gharar, and structural compliance concerns with clear severity indicators, enabling prioritization.",
   },
   {
     icon: GitMerge,
     title: "Workflow Standardization",
     description:
-      "A structured digital pipeline replaces ad-hoc processes — ensuring every contract follows a consistent review, approval, and documentation path.",
+      "A structured digital pipeline replaces ad-hoc processes, ensuring every contract follows a consistent review, approval, and documentation path.",
   },
   {
     icon: BookOpen,
@@ -47,7 +47,7 @@ export default function SolutionSection() {
             </div>
 
             <p className="text-gray-600 text-base leading-relaxed">
-              Aylinor provides a layered compliance intelligence framework — combining
+              Aylinor provides a layered compliance intelligence framework, combining
               AI-driven contract analysis with structured scholar workflows and full
               audit traceability for Pakistan’s banking ecosystem.
             </p>

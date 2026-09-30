@@ -18,7 +18,7 @@ const useCases = [
     icon: Landmark,
     title: 'Islamic Fintech Platforms',
     description:
-      'Embed real-time Shariah compliance validation directly into product flows — from loan origination to investment recommendation engines. Reduce manual scholar review time by over 70%.',
+      'Embed real-time Shariah compliance validation directly into product flows, from loan origination to investment recommendation engines. Reduce manual scholar review time by over 70%.',
     tags: ['Contract Validation', 'Real-time Scoring', 'API Integration'],
     markets: ['GCC', 'UK'],
     color: '#1a6b50',

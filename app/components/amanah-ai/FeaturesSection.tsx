@@ -22,7 +22,7 @@ const features = [
     icon: AlertOctagon,
     title: "Risk Flags",
     description:
-      "Quantifies compliance exposure with standardized risk indicators — giving institutions a clear severity score per contract.",
+      "Quantifies compliance exposure with standardized risk indicators, giving institutions a clear severity score per contract.",
     tag: "Analytics",
     tagColor: "bg-amber-50 text-amber-700",
   },
@@ -38,7 +38,7 @@ const features = [
     icon: ClipboardList,
     title: "Audit Logs",
     description:
-      "Full immutable audit trails for every compliance decision — ready for internal review or SBP regulatory examination.",
+      "Full immutable audit trails for every compliance decision, ready for internal review or SBP regulatory examination.",
     tag: "Compliance",
     tagColor: "bg-[#16A34A]/10 text-[#16A34A]",
   },
@@ -46,7 +46,7 @@ const features = [
     icon: FileBarChart,
     title: "Reporting",
     description:
-      "Generate structured Shariah compliance reports instantly — exportable for boards, regulators, and Shariah supervisory committees.",
+      "Generate structured Shariah compliance reports instantly, exportable for boards, regulators, and Shariah supervisory committees.",
     tag: "Reporting",
     tagColor: "bg-purple-50 text-purple-700",
   },
@@ -54,7 +54,7 @@ const features = [
     icon: Users,
     title: "Multi-Role Access",
     description:
-      "Purpose-built for compliance officers, Shariah scholars, auditors, and senior management — each with tailored views.",
+      "Purpose-built for compliance officers, Shariah scholars, auditors, and senior management, each with tailored views.",
     tag: "Platform",
     tagColor: "bg-[#0F3D2E]/8 text-[#0F3D2E]",
   },
@@ -74,7 +74,7 @@ export default function FeaturesSection() {
             <span className="text-[#0F3D2E]">Shariah Compliance</span>
           </h2>
           <p className="text-gray-500 max-w-xl mx-auto text-base">
-            A complete intelligence layer for Islamic finance compliance — from AI
+            A complete intelligence layer for Islamic finance compliance, from AI
             analysis to scholar workflows and regulatory reporting.
           </p>
         </div>

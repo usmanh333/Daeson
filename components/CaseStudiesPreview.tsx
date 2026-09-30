@@ -10,7 +10,7 @@ const caseStudies = [
     tagColor: "#FFFFFF",
     title: "Real Estate Operations Platform",
     problem:
-      "A property development firm was operating with four disconnected tools — a generic CRM, a spreadsheet-based investor tracker, a separate payment system, and email for lead management. Data lived everywhere and nowhere.",
+      "A property development firm was operating with four disconnected tools, a generic CRM, a spreadsheet-based investor tracker, a separate payment system, and email for lead management. Data lived everywhere and nowhere.",
     approach:
       "We designed and built a unified operational platform that replaced all four tools. The platform includes an AI-powered lead intelligence system, investor dashboard with real-time portfolio visibility, integrated payment and milestone tracking, and executive reporting.",
     features: ["Unified CRM", "Investor Dashboard", "Payment Tracking", "Lead Intelligence", "AI Analytics"],
@@ -21,11 +21,11 @@ const caseStudies = [
   {
     tag: "Islamic Finance",
     tagColor: "#C9A84C",
-    title: "Aylinor — Shariah Compliance Infrastructure",
+    title: "Aylinor: Shariah Compliance Infrastructure",
     problem:
-      "An Islamic financial institution was conducting Shariah contract reviews manually — scholars reviewing PDFs by hand, compliance teams maintaining spreadsheet audit trails, and no standardized documentation process.",
+      "An Islamic financial institution was conducting Shariah contract reviews manually, scholars reviewing PDFs by hand, compliance teams maintaining spreadsheet audit trails, and no standardized documentation process.",
     approach:
-      "Aylinor provides AI-assisted contract parsing and Shariah risk analysis, structured scholar governance workflows, immutable audit trail generation, and multi-market regulatory reporting — all in a single institutional platform.",
+      "Aylinor provides AI-assisted contract parsing and Shariah risk analysis, structured scholar governance workflows, immutable audit trail generation, and multi-market regulatory reporting, all in a single institutional platform.",
     features: ["AI Contract Analysis", "Scholar Workflow", "Audit Trail", "Compliance Reporting", "Multi-Market"],
     status: "Strategic Development",
     statusColor: "text-[#C9A84C]",

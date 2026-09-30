@@ -7,7 +7,7 @@ import { ArrowRight } from "lucide-react";
 export const metadata: Metadata = {
   title: "Real Estate & PropTech Infrastructure",
   description:
-    "Real estate firms, brokerages, and property developers running on fragmented SaaS tools face data silos, manual reporting, and vendor lock-in. See why the industry is shifting to owned operational infrastructure — and how Daeson Technologies builds it.",
+    "Real estate firms, brokerages, and property developers running on fragmented SaaS tools face data silos, manual reporting, and vendor lock-in. See why the industry is shifting to owned operational infrastructure, and how Daeson Technologies builds it.",
   keywords: [
     "real estate industry technology challenges",
     "proptech operational infrastructure",
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Real Estate & PropTech Industry | Daeson Technologies",
     description:
-      "Why real estate firms are replacing fragmented SaaS tools with owned operational infrastructure — unified CRM, investor dashboards, and AI lead intelligence.",
+      "Why real estate firms are replacing fragmented SaaS tools with owned operational infrastructure, unified CRM, investor dashboards, and AI lead intelligence.",
     url: "https://daesontechnologies.online/industries/real-estate",
   },
 };
@@ -26,11 +26,11 @@ export const metadata: Metadata = {
 const challenges = [
   {
     title: "Data Fragmentation Across SaaS Tools",
-    body: "Real estate firms typically operate across 5–10 disconnected SaaS subscriptions — a CRM, a reporting tool, a payment tracker, a marketing platform. None of them share data. Leadership has no unified view of operations.",
+    body: "Real estate firms typically operate across 5 to 10 disconnected SaaS subscriptions, a CRM, a reporting tool, a payment tracker, a marketing platform. None of them share data. Leadership has no unified view of operations.",
   },
   {
     title: "Manual Investor Reporting",
-    body: "Investor reporting is frequently built from manual spreadsheet pulls across multiple systems. This is slow, error-prone, and delays the frequency and quality of investor communication — creating relationship risk.",
+    body: "Investor reporting is frequently built from manual spreadsheet pulls across multiple systems. This is slow, error-prone, and delays the frequency and quality of investor communication, creating relationship risk.",
   },
   {
     title: "No Real-Time Operational Visibility",
@@ -38,32 +38,32 @@ const challenges = [
   },
   {
     title: "AI Lead Intelligence Is Absent",
-    body: "Most real estate CRMs have basic lead management. None provide AI-powered lead scoring, behavioral qualification, or conversion probability prediction — despite the commercial value these capabilities represent.",
+    body: "Most real estate CRMs have basic lead management. None provide AI-powered lead scoring, behavioral qualification, or conversion probability prediction, despite the commercial value these capabilities represent.",
   },
   {
     title: "Subscription Costs Compound at Scale",
-    body: "As a real estate firm grows, per-seat SaaS pricing compounds. Firms with 30+ staff are paying tens of thousands annually for tools that weren't built for real estate workflows — and still require manual work to connect them.",
+    body: "As a real estate firm grows, per-seat SaaS pricing compounds. Firms with 30+ staff are paying tens of thousands annually for tools that weren't built for real estate workflows, and still require manual work to connect them.",
   },
   {
     title: "Operational Knowledge Is Not Captured",
-    body: "Because operations live in disconnected tools, organizational knowledge — about clients, transactions, market history — is fragmented and at risk every time a team member leaves.",
+    body: "Because operations live in disconnected tools, organizational knowledge, about clients, transactions, market history, is fragmented and at risk every time a team member leaves.",
   },
 ];
 
 const capabilities = [
   {
     title: "Unified CRM & Deal Pipeline",
-    description: "A single system for managing leads, deals, clients, and transactions — replacing fragmented CRM tools with an owned platform aligned to how your firm actually manages its pipeline.",
+    description: "A single system for managing leads, deals, clients, and transactions, replacing fragmented CRM tools with an owned platform aligned to how your firm actually manages its pipeline.",
     items: ["Lead capture & qualification", "Deal stage management", "Client relationship tracking", "Pipeline analytics & forecasting"],
   },
   {
     title: "Investor Visibility Portal",
-    description: "Real-time investor portal giving portfolio investors visibility into their investments — portfolio performance, distributions, documentation, and communication — without manual report generation.",
+    description: "Real-time investor portal giving portfolio investors visibility into their investments, portfolio performance, distributions, documentation, and communication, without manual report generation.",
     items: ["Real-time portfolio dashboards", "Automated investor reporting", "Document management & sharing", "Communication history"],
   },
   {
     title: "Payment & Rent Tracking",
-    description: "Centralized payment tracking across the portfolio — rent collection, developer payments, commissions, and receivables — with automated reconciliation and exception alerts.",
+    description: "Centralized payment tracking across the portfolio, rent collection, developer payments, commissions, and receivables, with automated reconciliation and exception alerts.",
     items: ["Rent collection tracking", "Commission management", "Payment reconciliation", "Overdue & exception alerts"],
   },
   {
@@ -73,7 +73,7 @@ const capabilities = [
   },
   {
     title: "Executive Analytics",
-    description: "Operational dashboards for leadership — portfolio performance, team productivity, pipeline health, revenue tracking, and market activity — all real-time, all owned.",
+    description: "Operational dashboards for leadership, portfolio performance, team productivity, pipeline health, revenue tracking, and market activity, all real-time, all owned.",
     items: ["Portfolio performance dashboards", "Team productivity metrics", "Revenue & commission analytics", "Market activity tracking"],
   },
 ];
@@ -87,7 +87,7 @@ const faqSchema = {
       name: "What is real estate operational infrastructure?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Real estate operational infrastructure refers to a unified, owned technology platform that manages the core operational functions of a real estate firm — CRM, investor reporting, payment tracking, AI lead intelligence, and executive analytics — in a single integrated system. Unlike fragmented SaaS tools, operational infrastructure is purpose-built around the specific workflows and data model of a real estate business and is fully owned by the firm.",
+        text: "Real estate operational infrastructure refers to a unified, owned technology platform that manages the core operational functions of a real estate firm: CRM, investor reporting, payment tracking, AI lead intelligence, and executive analytics, in a single integrated system. Unlike fragmented SaaS tools, operational infrastructure is purpose-built around the specific workflows and data model of a real estate business and is fully owned by the firm.",
       },
     },
     {
@@ -95,7 +95,7 @@ const faqSchema = {
       name: "Why do real estate firms need owned software instead of SaaS tools?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Real estate firms that have grown beyond startup scale typically operate across 5–10 SaaS tools that weren't built for real estate workflows. This creates data fragmentation, manual reporting overhead, subscription cost compounding, and no real-time operational visibility for leadership. Owned software eliminates these problems by providing a unified platform aligned to the firm's actual workflows — with no ongoing subscription costs and full control over the operational logic of the business.",
+        text: "Real estate firms that have grown beyond startup scale typically operate across 5 to 10 SaaS tools that weren't built for real estate workflows. This creates data fragmentation, manual reporting overhead, subscription cost compounding, and no real-time operational visibility for leadership. Owned software eliminates these problems by providing a unified platform aligned to the firm's actual workflows, with no ongoing subscription costs and full control over the operational logic of the business.",
       },
     },
     {
@@ -111,7 +111,7 @@ const faqSchema = {
       name: "What markets does Daeson Technologies serve for real estate technology?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Daeson Technologies serves real estate firms and brokerages across UAE, Dubai, Abu Dhabi, GCC markets (Saudi Arabia, Qatar, Kuwait), Canada (Toronto, Vancouver, Calgary), and UK markets. Our systems are designed for multi-market, multi-currency operations — supporting real estate firms that operate across multiple geographies.",
+        text: "Daeson Technologies serves real estate firms and brokerages across UAE, Dubai, Abu Dhabi, GCC markets (Saudi Arabia, Qatar, Kuwait), Canada (Toronto, Vancouver, Calgary), and UK markets. Our systems are designed for multi-market, multi-currency operations, supporting real estate firms that operate across multiple geographies.",
       },
     },
     {
@@ -119,7 +119,7 @@ const faqSchema = {
       name: "How long does it take to build a real estate operations platform?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "A core real estate operations platform — including operational discovery, architecture design, development, and deployment — typically takes 3 to 6 months for a first production version covering CRM, investor dashboards, and payment tracking. AI lead intelligence and advanced analytics layers are typically added in subsequent phases. We show working prototypes within 4–6 weeks of engagement start.",
+        text: "A core real estate operations platform, including operational discovery, architecture design, development, and deployment, typically takes 3 to 6 months for a first production version covering CRM, investor dashboards, and payment tracking. AI lead intelligence and advanced analytics layers are typically added in subsequent phases. We show working prototypes within 4 to 6 weeks of engagement start.",
       },
     },
   ],
@@ -128,7 +128,7 @@ const faqSchema = {
 const pageSchema = {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  name: "Real Estate Technology — Daeson Technologies",
+  name: "Real Estate Technology | Daeson Technologies",
   url: "https://daesontechnologies.online/industries/real-estate",
   isPartOf: { "@id": "https://daesontechnologies.online/#website" },
   breadcrumb: {

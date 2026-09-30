@@ -7,7 +7,7 @@ import { ArrowRight, ArrowLeft, ShieldCheck } from "lucide-react";
 export const metadata: Metadata = {
   title: "Why Islamic Finance Needs Compliant Software",
   description:
-    "Why the future of Islamic finance depends on Shariah-compliant software — and how Aylinor is building the infrastructure to support it, starting with Murabaha financing.",
+    "Why the future of Islamic finance depends on Shariah-compliant software, and how Aylinor is building the infrastructure to support it, starting with Murabaha financing.",
   alternates: { canonical: "https://daesontechnologies.online/insights/shariah-compliant-software-future" },
   openGraph: {
     title: "Why the Future of Islamic Finance Depends on Shariah-Compliant Software",
@@ -20,7 +20,7 @@ const articleSchema = {
   "@type": "Article",
   headline: "Why the Future of Islamic Finance Depends on Shariah-Compliant Software",
   description:
-    "Why the future of Islamic finance depends on Shariah-compliant software — and how Aylinor is building the infrastructure to support it, starting with Murabaha financing.",
+    "Why the future of Islamic finance depends on Shariah-compliant software, and how Aylinor is building the infrastructure to support it, starting with Murabaha financing.",
   author: { "@type": "Organization", name: "Daeson Technologies", url: "https://daesontechnologies.online" },
   publisher: { "@type": "Organization", name: "Daeson Technologies", url: "https://daesontechnologies.online" },
   url: "https://daesontechnologies.online/insights/shariah-compliant-software-future",
@@ -123,7 +123,7 @@ export default function ArticlePage() {
                 The short answer
               </p>
               <p className="text-[15px] leading-relaxed" style={{ color: "var(--text-primary)" }}>
-                The Islamic finance industry has digitized banking, payments, and customer service —
+                The Islamic finance industry has digitized banking, payments, and customer service,
                 but Shariah governance itself is still largely manual: spreadsheets, emails, and
                 paper-based review. As the industry scales, compliance has to become structured,
                 auditable software, not a parallel process bolted onto digital banking. That&apos;s
@@ -224,7 +224,7 @@ export default function ArticlePage() {
               Aylinor Is Just the Beginning
             </h2>
             <p className="text-[15px] leading-[1.85]">
-              Murabaha is our starting point — not our destination. Our long-term vision is to build a
+              Murabaha is our starting point, not our destination. Our long-term vision is to build a
               complete ecosystem of Shariah-compliant software solutions that support Islamic financial
               institutions across multiple operational areas.
             </p>
@@ -345,7 +345,7 @@ export default function ArticlePage() {
                 Product
               </span>
               <p className="text-[14px] font-semibold mt-3 leading-snug" style={{ color: "var(--text-primary)" }}>
-                Aylinor — Shariah Compliance Infrastructure
+                Aylinor: Shariah Compliance Infrastructure
               </p>
               <p className="text-[12px] mt-2 flex items-center gap-1" style={{ color: "var(--gold)" }}>
                 Read more <ArrowRight size={11} />

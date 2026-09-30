@@ -7,7 +7,7 @@ import { ArrowRight, ArrowLeft } from "lucide-react";
 export const metadata: Metadata = {
   title: "Islamic Banking Software Solutions: Core Modules Explained",
   description:
-    "A short breakdown of the core modules that make up Islamic banking software solutions — financing workflows, governance, audit trails and reporting.",
+    "A short breakdown of the core modules that make up Islamic banking software solutions, financing workflows, governance, audit trails and reporting.",
   keywords: ["Islamic banking software solutions", "Islamic finance technology modules", "Shariah governance software", "Aylinor"],
   alternates: { canonical: "https://daesontechnologies.online/insights/islamic-banking-software-solutions" },
   openGraph: {
@@ -21,7 +21,7 @@ const articleSchema = {
   "@type": "Article",
   headline: "Islamic Banking Software Solutions: Core Modules Explained",
   description:
-    "A short breakdown of the core modules that make up Islamic banking software solutions — financing workflows, governance, audit trails and reporting.",
+    "A short breakdown of the core modules that make up Islamic banking software solutions, financing workflows, governance, audit trails and reporting.",
   author: { "@type": "Organization", name: "Daeson Technologies", url: "https://daesontechnologies.online" },
   publisher: { "@type": "Organization", name: "Daeson Technologies", url: "https://daesontechnologies.online" },
   url: "https://daesontechnologies.online/insights/islamic-banking-software-solutions",
@@ -72,8 +72,8 @@ export default function ArticlePage() {
               <p className="text-[12px] font-bold uppercase tracking-widest mb-2" style={{ color: "var(--gold)" }}>The short answer</p>
               <p className="text-[15px] leading-relaxed" style={{ color: "var(--text-primary)" }}>
                 &quot;Islamic banking software solutions&quot; usually refers to a set of modules
-                working together — financing workflows, customer and account management, Shariah
-                governance support, compliance and audit trails, and reporting — rather than a
+                working together, financing workflows, customer and account management, Shariah
+                governance support, compliance and audit trails, and reporting, rather than a
                 single monolithic product.
               </p>
             </div>
@@ -84,11 +84,11 @@ export default function ArticlePage() {
               into its actual components before comparing vendors.
             </p>
             <ul className="list-disc pl-6 space-y-2 text-[15px] leading-[1.85]">
-              <li><strong style={{ color: "var(--text-primary)" }}>Financing workflows</strong> — the application-to-completion process for products like Murabaha and Ijarah.</li>
-              <li><strong style={{ color: "var(--text-primary)" }}>Customer and account management</strong> — a consistent view of customer relationships and financial activity.</li>
-              <li><strong style={{ color: "var(--text-primary)" }}>Shariah governance support</strong> — organizing approved product structures, rulings and review records.</li>
-              <li><strong style={{ color: "var(--text-primary)" }}>Compliance and audit trails</strong> — who did what, when, and against which policy version.</li>
-              <li><strong style={{ color: "var(--text-primary)" }}>Reporting</strong> — visibility into pending reviews, documentation gaps and operational risk.</li>
+              <li><strong style={{ color: "var(--text-primary)" }}>Financing workflows</strong>: the application-to-completion process for products like Murabaha and Ijarah.</li>
+              <li><strong style={{ color: "var(--text-primary)" }}>Customer and account management</strong>: a consistent view of customer relationships and financial activity.</li>
+              <li><strong style={{ color: "var(--text-primary)" }}>Shariah governance support</strong>: organizing approved product structures, rulings and review records.</li>
+              <li><strong style={{ color: "var(--text-primary)" }}>Compliance and audit trails</strong>: who did what, when, and against which policy version.</li>
+              <li><strong style={{ color: "var(--text-primary)" }}>Reporting</strong>: visibility into pending reviews, documentation gaps and operational risk.</li>
             </ul>
             <p className="text-[15px] leading-[1.85]">
               We cover each of these in detail in{" "}
@@ -98,9 +98,9 @@ export default function ArticlePage() {
             </p>
             <p className="text-[15px] leading-[1.85]">
               <Link href="/amanah-ai" style={{ color: "var(--gold)", fontWeight: 600 }}>Aylinor</Link> focuses
-              specifically on the governance and compliance-intelligence layer of this stack —
+              specifically on the governance and compliance-intelligence layer of this stack,
               Murabaha contract analysis, governance documentation, scholar review workflows and
-              audit trails — as a support system institutions can run alongside their existing
+              audit trails, as a support system institutions can run alongside their existing
               core banking software.
             </p>
           </div>

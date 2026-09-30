@@ -11,7 +11,7 @@ const materials = [
     tagColor: "#FFFFFF",
     title: "Real Estate Infrastructure\nBrochure",
     description:
-      "An executive overview of the Real Estate Operations Platform — covering system architecture, modules, implementation approach, and expected operational outcomes.",
+      "An executive overview of the Real Estate Operations Platform, covering system architecture, modules, implementation approach, and expected operational outcomes.",
     audience: "Real estate executives, investment firms, property developers",
     format: "PDF · 12 pages",
     href: "/contact",
@@ -23,7 +23,7 @@ const materials = [
     tagColor: "#D4AF37",
     title: "Aylinor\nProduct Overview",
     description:
-      "A detailed overview of Aylinor's Shariah compliance infrastructure approach — including workflow architecture, compliance scope, and institutional positioning.",
+      "A detailed overview of Aylinor's Shariah compliance infrastructure approach, including workflow architecture, compliance scope, and institutional positioning.",
     audience: "Islamic bank leadership, Shariah boards, fintech executives",
     format: "PDF · 10 pages",
     href: "/contact",
@@ -35,7 +35,7 @@ const materials = [
     tagColor: "#FFFFFF",
     title: "Daeson Technologies\nCompany Overview",
     description:
-      "A concise company overview covering Daeson's positioning, infrastructure disciplines, methodology, and current focus areas — suitable for internal sharing.",
+      "A concise company overview covering Daeson's positioning, infrastructure disciplines, methodology, and current focus areas, suitable for internal sharing.",
     audience: "Enterprise decision-makers, procurement, C-suite",
     format: "PDF · 8 pages",
     href: "/contact",
@@ -78,7 +78,7 @@ export default function ExecutiveMaterials() {
             </h2>
             <p className="text-[15px] leading-relaxed" style={{ color: "var(--text-secondary)" }}>
               Professional materials for internal review, procurement evaluation, and leadership briefing.
-              Requested and delivered directly — no forms to a marketing funnel.
+              Requested and delivered directly, no forms to a marketing funnel.
             </p>
           </div>
         </motion.div>

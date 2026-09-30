@@ -18,15 +18,15 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: "What is Murabaha contract review?",
-    a: "Murabaha contract review is the process of checking a cost-plus-profit financing contract for Shariah compliance — verifying asset ownership sequencing, profit disclosure, and documentation requirements before the transaction is approved.",
+    a: "Murabaha contract review is the process of checking a cost-plus-profit financing contract for Shariah compliance, verifying asset ownership sequencing, profit disclosure, and documentation requirements before the transaction is approved.",
   },
   {
     q: "Why is Murabaha review still done manually at most institutions?",
-    a: "Most core banking systems were not built with Shariah structures in mind. Compliance teams work around this by reviewing contracts as PDFs, checking clauses against a mental or paper checklist, and logging decisions in spreadsheets — a process that scales linearly with headcount, not with volume.",
+    a: "Most core banking systems were not built with Shariah structures in mind. Compliance teams work around this by reviewing contracts as PDFs, checking clauses against a mental or paper checklist, and logging decisions in spreadsheets, a process that scales linearly with headcount, not with volume.",
   },
   {
     q: "Does AI replace the scholar's role in Murabaha review?",
-    a: "No. AI-assisted review is decision support, not decision-making. It surfaces the clauses that need scholarly attention, flags missing documentation, and structures the audit trail — the ruling itself remains a human, qualified decision.",
+    a: "No. AI-assisted review is decision support, not decision-making. It surfaces the clauses that need scholarly attention, flags missing documentation, and structures the audit trail, the ruling itself remains a human, qualified decision.",
   },
 ];
 
@@ -95,29 +95,29 @@ export default function ArticlePage() {
             <div className="answer-capsule">
               <p className="text-[12px] font-bold uppercase tracking-widest mb-2" style={{ color: "var(--gold)" }}>The short answer</p>
               <p className="text-[15px] leading-relaxed" style={{ color: "var(--text-primary)" }}>
-                Murabaha is the most common Islamic financing structure — and at most institutions,
+                Murabaha is the most common Islamic financing structure, and at most institutions,
                 still the most manually reviewed. Every contract requires checking asset ownership
                 sequencing, profit disclosure, and documentation against Shariah requirements, usually
                 by a scholar or compliance officer reading a PDF. As financing volume grows, review
-                capacity doesn&apos;t — that gap is the bottleneck.
+                capacity doesn&apos;t, that gap is the bottleneck.
               </p>
             </div>
 
             <p className="text-[15px] leading-[1.85]">
-              Murabaha — a cost-plus-profit sale structure — underpins home financing, trade finance,
+              Murabaha, a cost-plus-profit sale structure, underpins home financing, trade finance,
               and commodity financing across Islamic banking. It is, by transaction volume, the
               workhorse of the industry.
             </p>
             <p className="text-[15px] leading-[1.85]">
               It is also, structurally, one of the hardest financing types to review at scale. A
               compliant Murabaha transaction requires the bank to actually take ownership of the asset
-              before selling it to the customer at a marked-up price — sequencing that has to be
+              before selling it to the customer at a marked-up price, sequencing that has to be
               verified, not assumed, for every single contract.
             </p>
 
             <h2 className="text-[24px] font-bold tracking-tight pt-4" style={{ color: "var(--text-primary)" }}>Where the bottleneck actually lives</h2>
             <p className="text-[15px] leading-[1.85]">
-              At most institutions, a Murabaha contract is reviewed as a static document — a PDF read
+              At most institutions, a Murabaha contract is reviewed as a static document, a PDF read
               top to bottom by a compliance officer or scholar, checked against a mental or paper
               checklist, with the decision logged in a spreadsheet. This works when volume is low. It
               breaks down as the institution scales, because review capacity is a function of headcount,
@@ -131,7 +131,7 @@ export default function ArticlePage() {
 
             <h2 className="text-[24px] font-bold tracking-tight pt-4" style={{ color: "var(--text-primary)" }}>What structured review changes</h2>
             <p className="text-[15px] leading-[1.85]">
-              AI-assisted contract review does not remove the scholar from the decision — it removes
+              AI-assisted contract review does not remove the scholar from the decision, it removes
               the document mechanics from the scholar&apos;s workload. Structured parsing can flag
               missing ownership documentation, surface clauses that deviate from the institution&apos;s
               standard Murabaha template, and pre-organize a contract for review instead of leaving that

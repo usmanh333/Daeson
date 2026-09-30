@@ -7,29 +7,29 @@ const steps = [
     number: "01",
     title: "Operational Discovery",
     description:
-      "We map your operations in detail — workflows, data flows, decision-making patterns, compliance requirements, and friction points — before any architecture or code decisions are made.",
-    detail: "2–3 weeks",
+      "We map your operations in detail, workflows, data flows, decision-making patterns, compliance requirements, and friction points, before any architecture or code decisions are made.",
+    detail: "2 to 3 weeks",
   },
   {
     number: "02",
     title: "Workflow Architecture",
     description:
-      "Every integration, data model, user role, and system boundary is designed around your business logic — not adapted from a generic template. Architecture is reviewed and approved before development begins.",
-    detail: "1–2 weeks",
+      "Every integration, data model, user role, and system boundary is designed around your business logic, not adapted from a generic template. Architecture is reviewed and approved before development begins.",
+    detail: "1 to 2 weeks",
   },
   {
     number: "03",
     title: "Prototype & Validation",
     description:
-      "You see and approve your system before it's built. Interactive prototypes allow your team to validate workflows, confirm business logic, and identify gaps — reducing downstream risk significantly.",
-    detail: "2–4 weeks",
+      "You see and approve your system before it's built. Interactive prototypes allow your team to validate workflows, confirm business logic, and identify gaps, reducing downstream risk significantly.",
+    detail: "2 to 4 weeks",
   },
   {
     number: "04",
     title: "Development & Integration",
     description:
       "Structured build with weekly progress reviews and clear milestones. Every feature is documented and tested. Integration with existing tools and data sources is handled methodically.",
-    detail: "6–16 weeks",
+    detail: "6 to 16 weeks",
   },
   {
     number: "05",
@@ -76,7 +76,7 @@ export default function HowWeWork() {
             <span style={{ color: "var(--text-secondary)", fontWeight: 600 }}>to Production-Ready System</span>
           </h2>
           <p className="text-[15px] max-w-xl mx-auto leading-relaxed" style={{ color: "var(--text-secondary)" }}>
-            We typically begin with the highest operational priority and evolve systems gradually —
+            We typically begin with the highest operational priority and evolve systems gradually,
             reducing adoption risk while delivering measurable value from the first phase.
           </p>
         </motion.div>
@@ -180,8 +180,8 @@ export default function HowWeWork() {
           Every engagement starts with a{" "}
           <span className="font-semibold" style={{ color: "var(--text-primary)" }}>
             complimentary discovery call
-          </span>{" "}
-          — no commitment required.
+          </span>{" "},
+          no commitment required.
         </motion.p>
       </div>
     </section>

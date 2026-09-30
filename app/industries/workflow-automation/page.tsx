@@ -5,28 +5,28 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Workflow Automation — Enterprise Systems",
+  title: "Workflow Automation: Enterprise Systems",
   description:
     "Daeson Technologies builds intelligent workflow automation systems for enterprise operations. End-to-end workflow design, AI-powered orchestration, automated approval flows, and compliance enforcement. Full ownership.",
   alternates: { canonical: "https://daesontechnologies.online/industries/workflow-automation" },
 };
 
 const challenges = [
-  { title: "Manual Processes at Enterprise Scale", body: "Enterprise operations often involve dozens of manual workflow steps — approvals, data entry, reporting, notifications — that create overhead, delay decisions, and introduce human error at scale." },
+  { title: "Manual Processes at Enterprise Scale", body: "Enterprise operations often involve dozens of manual workflow steps, approvals, data entry, reporting, notifications, that create overhead, delay decisions, and introduce human error at scale." },
   { title: "RPA Limitations", body: "Robotic process automation works for simple, stable tasks. Complex enterprise workflows with exceptions, conditional logic, and cross-system dependencies require intelligent orchestration that RPA can't provide." },
   { title: "No Visibility Into Workflow Status", body: "When workflows are manual or semi-automated, leadership has no real-time visibility into where work is in the process, what's delayed, and what exceptions require intervention." },
-  { title: "Compliance Workflows Are Under-Engineered", body: "Compliance workflows in regulated industries — approvals, sign-offs, documentation — are often informal or email-driven, creating audit risk and compliance gaps." },
-  { title: "Cross-System Orchestration is Fragile", body: "Enterprise workflows that span multiple systems — from CRM to ERP to compliance tools — are typically connected through fragile integrations that break under change or load." },
-  { title: "Institutional Knowledge in Undocumented Processes", body: "Manual workflows carry institutional knowledge that exists only in people's heads. When those people leave, workflows break — sometimes catastrophically." },
+  { title: "Compliance Workflows Are Under-Engineered", body: "Compliance workflows in regulated industries, approvals, sign-offs, documentation, are often informal or email-driven, creating audit risk and compliance gaps." },
+  { title: "Cross-System Orchestration is Fragile", body: "Enterprise workflows that span multiple systems, from CRM to ERP to compliance tools, are typically connected through fragile integrations that break under change or load." },
+  { title: "Institutional Knowledge in Undocumented Processes", body: "Manual workflows carry institutional knowledge that exists only in people's heads. When those people leave, workflows break, sometimes catastrophically." },
 ];
 
 const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   mainEntity: [
-    { "@type": "Question", name: "What is intelligent workflow automation?", acceptedAnswer: { "@type": "Answer", text: "Intelligent workflow automation refers to systems that orchestrate complex business workflows with conditional logic, AI-powered decision support, exception handling, and cross-system integration — beyond what simple rule-based or RPA systems can manage. Intelligent workflow systems understand the context of a workflow instance, can adapt to exceptions, incorporate AI analysis at decision points, and maintain full audit trails of every workflow action." } },
-    { "@type": "Question", name: "What is the difference between RPA and intelligent workflow automation?", acceptedAnswer: { "@type": "Answer", text: "RPA (robotic process automation) excels at automating simple, stable, rules-based tasks — screen scraping, data entry, report extraction. It breaks down under complex conditional logic, frequent change, or exception-heavy workflows. Intelligent workflow automation handles complexity through programmatic orchestration, AI-powered decision support, and adaptive exception handling — making it appropriate for the full range of enterprise operational workflows rather than a narrow subset." } },
-    { "@type": "Question", name: "How does workflow automation support compliance?", acceptedAnswer: { "@type": "Answer",text: "Workflow automation supports compliance by enforcing required steps, approvals, and documentation as part of the workflow design — not as an afterthought. Automated compliance workflows ensure that every transaction or process that requires sign-off, documentation, or review gets it, with a full audit trail created automatically. This eliminates the compliance gaps that occur in manual or email-driven processes where steps are skipped or undocumented." } },
+    { "@type": "Question", name: "What is intelligent workflow automation?", acceptedAnswer: { "@type": "Answer", text: "Intelligent workflow automation refers to systems that orchestrate complex business workflows with conditional logic, AI-powered decision support, exception handling, and cross-system integration, beyond what simple rule-based or RPA systems can manage. Intelligent workflow systems understand the context of a workflow instance, can adapt to exceptions, incorporate AI analysis at decision points, and maintain full audit trails of every workflow action." } },
+    { "@type": "Question", name: "What is the difference between RPA and intelligent workflow automation?", acceptedAnswer: { "@type": "Answer", text: "RPA (robotic process automation) excels at automating simple, stable, rules-based tasks, screen scraping, data entry, report extraction. It breaks down under complex conditional logic, frequent change, or exception-heavy workflows. Intelligent workflow automation handles complexity through programmatic orchestration, AI-powered decision support, and adaptive exception handling, making it appropriate for the full range of enterprise operational workflows rather than a narrow subset." } },
+    { "@type": "Question", name: "How does workflow automation support compliance?", acceptedAnswer: { "@type": "Answer",text: "Workflow automation supports compliance by enforcing required steps, approvals, and documentation as part of the workflow design, not as an afterthought. Automated compliance workflows ensure that every transaction or process that requires sign-off, documentation, or review gets it, with a full audit trail created automatically. This eliminates the compliance gaps that occur in manual or email-driven processes where steps are skipped or undocumented." } },
     { "@type": "Question", name: "What types of workflows can be automated?", acceptedAnswer: { "@type": "Answer", text: "The most common enterprise workflows that benefit from intelligent automation include: approval and authorization workflows, document review and processing workflows, onboarding and offboarding workflows, compliance and audit workflows, reporting and data distribution workflows, exception identification and escalation workflows, and cross-system data synchronization workflows. The candidates are anywhere that humans are currently routing, reviewing, or approving work that follows a structured pattern." } },
   ],
 };
@@ -34,7 +34,7 @@ const faqSchema = {
 const pageSchema = {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  name: "Workflow Automation — Daeson Technologies",
+  name: "Workflow Automation | Daeson Technologies",
   url: "https://daesontechnologies.online/industries/workflow-automation",
   isPartOf: { "@id": "https://daesontechnologies.online/#website" },
   breadcrumb: {
@@ -62,7 +62,7 @@ export default function WorkflowAutomationPage() {
             <span style={{ color: "var(--green)" }}>Beyond RPA. Built for Complexity.</span>
           </h1>
           <p className="text-[16px] leading-relaxed max-w-2xl mb-8" style={{ color: "var(--text-secondary)" }}>
-            End-to-end workflow automation for enterprise operations — replacing manual, fragmented processes
+            End-to-end workflow automation for enterprise operations, replacing manual, fragmented processes
             with owned intelligent systems that enforce compliance, surface exceptions, and give leadership
             real-time operational visibility.
           </p>

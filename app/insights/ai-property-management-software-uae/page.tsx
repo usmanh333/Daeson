@@ -8,7 +8,7 @@ import { ArrowRight, ArrowLeft, ExternalLink } from "lucide-react";
 export const metadata: Metadata = {
   title: "AI Property Management Software UAE",
   description:
-    "AI-powered property management software for UAE landlords and property managers — tenants, rent, maintenance, and leases in one platform. 30-day free trial.",
+    "AI-powered property management software for UAE landlords and property managers, tenants, rent, maintenance, and leases in one platform. 30-day free trial.",
   alternates: { canonical: "https://daesontechnologies.online/insights/ai-property-management-software-uae" },
   keywords: [
     "AI property management software UAE",
@@ -35,7 +35,7 @@ const articleSchema = {
   "@type": "Article",
   headline: "AI Is No Longer a Luxury for Small Property Owners",
   description:
-    "AI-powered property management software for UAE landlords and property managers — tenants, rent, maintenance, and leases in one platform. 30-day free trial.",
+    "AI-powered property management software for UAE landlords and property managers, tenants, rent, maintenance, and leases in one platform. 30-day free trial.",
   author: { "@type": "Organization", name: "Daeson Technologies", url: "https://daesontechnologies.online" },
   publisher: { "@type": "Organization", name: "Daeson Technologies", url: "https://daesontechnologies.online" },
   url: "https://daesontechnologies.online/insights/ai-property-management-software-uae",
@@ -55,17 +55,17 @@ const faqSchema = {
     {
       "@type": "Question",
       name: "Is Home 1.0 only for large property companies?",
-      acceptedAnswer: { "@type": "Answer", text: "No. Home 1.0 was built specifically so a landlord with five properties has access to the same AI-assisted workflows as a company managing five hundred — modern property management shouldn't require an enterprise IT budget." },
+      acceptedAnswer: { "@type": "Answer", text: "No. Home 1.0 was built specifically so a landlord with five properties has access to the same AI-assisted workflows as a company managing five hundred, modern property management shouldn't require an enterprise IT budget." },
     },
     {
       "@type": "Question",
       name: "Does Home 1.0 support Arabic?",
-      acceptedAnswer: { "@type": "Answer", text: "Yes. Arabic is a first-class language experience in Home 1.0, not a translation added afterward — built for teams and tenants across the UAE and wider Middle East." },
+      acceptedAnswer: { "@type": "Answer", text: "Yes. Arabic is a first-class language experience in Home 1.0, not a translation added afterward, built for teams and tenants across the UAE and wider Middle East." },
     },
     {
       "@type": "Question",
       name: "Does Home 1.0 include hosting or servers?",
-      acceptedAnswer: { "@type": "Answer", text: "No. Home 1.0 is software — hosting, servers, and infrastructure are handled separately according to the deployment model you choose, giving businesses flexibility instead of forcing one infrastructure arrangement on every customer." },
+      acceptedAnswer: { "@type": "Answer", text: "No. Home 1.0 is software, hosting, servers, and infrastructure are handled separately according to the deployment model you choose, giving businesses flexibility instead of forcing one infrastructure arrangement on every customer." },
     },
     {
       "@type": "Question",
@@ -76,12 +76,12 @@ const faqSchema = {
 };
 
 const modules = [
-  { title: "Properties & Units", body: "Properties, suites, rent information, occupancy, amenities, documents, and staff assignments — organized in one place, whether you manage one building or a growing portfolio." },
-  { title: "Tenant Communication", body: "Real-time messaging between tenants, staff, and management — text, files, images, and voice messages — with notification and history so nothing gets lost in scattered threads." },
+  { title: "Properties & Units", body: "Properties, suites, rent information, occupancy, amenities, documents, and staff assignments, organized in one place, whether you manage one building or a growing portfolio." },
+  { title: "Tenant Communication", body: "Real-time messaging between tenants, staff, and management, text, files, images, and voice messages, with notification and history so nothing gets lost in scattered threads." },
   { title: "Leasing", body: "Public listings, lead capture, online applications, and e-signed lease agreements, with defined review workflows and renewals connected to prior leases." },
-  { title: "Rent & Payments", body: "Rent, deposits, promotions, taxes, refunds, credits, scheduled charges, and autopay — with tenants able to see their own payment history through their portal." },
+  { title: "Rent & Payments", body: "Rent, deposits, promotions, taxes, refunds, credits, scheduled charges, and autopay, with tenants able to see their own payment history through their portal." },
   { title: "Maintenance", body: "Tenants submit requests with photos or video; managers categorize, prioritize, and assign; status and comments are tracked through to completion." },
-  { title: "Tenant Portal", body: "Payments, maintenance, messages, announcements, agreements, documents, and referrals — self-service, so your team spends time on what actually needs a human." },
+  { title: "Tenant Portal", body: "Payments, maintenance, messages, announcements, agreements, documents, and referrals, self-service, so your team spends time on what actually needs a human." },
 ];
 
 export default function ArticlePage() {
@@ -122,7 +122,7 @@ export default function ArticlePage() {
           >
             <Image
               src="/home-1-0-logo.png"
-              alt="Home 1.0 — Smarter Property. Stronger Relationships."
+              alt="Home 1.0: Smarter Property. Stronger Relationships."
               width={360}
               height={320}
               style={{ height: "auto", width: "220px" }}
@@ -139,7 +139,7 @@ export default function ArticlePage() {
               <p className="text-[12px] font-bold uppercase tracking-widest mb-2" style={{ color: "var(--blue)" }}>The short answer</p>
               <p className="text-[15px] leading-relaxed" style={{ color: "var(--text-primary)" }}>
                 AI in property management has been treated as something only large developers and
-                institutional investors could afford. Home 1.0 exists to close that gap — practical,
+                institutional investors could afford. Home 1.0 exists to close that gap, practical,
                 affordable AI-assisted property management for the owner managing five properties, not
                 just the company managing five hundred, with a 30-day free trial to prove it before you commit.
               </p>
@@ -149,20 +149,20 @@ export default function ArticlePage() {
               For a long time, artificial intelligence in real estate felt like something reserved for
               large developers, institutional investors, and companies with large technology budgets.
               The small property owner had other priorities: rent collected, tenants answered,
-              maintenance followed up, leases renewed, documents found, inspections completed — all
+              maintenance followed up, leases renewed, documents found, inspections completed, all
               tracked through spreadsheets, WhatsApp messages, emails, paper, and memory.
             </p>
             <p className="text-[15px] leading-[1.85]">
               We believe that should change. AI should not be a luxury reserved for the biggest property
-              companies — it should be practical, affordable, and accessible to the person managing five
+              companies, it should be practical, affordable, and accessible to the person managing five
               properties just as much as the company managing five hundred. That is why we built{" "}
               <strong style={{ color: "var(--text-primary)" }}>Home 1.0</strong>.
             </p>
 
             <h2 className="text-[24px] font-bold tracking-tight pt-4" style={{ color: "var(--text-primary)" }}>Property management should not consume your entire day</h2>
             <p className="text-[15px] leading-[1.85]">
-              None of the daily tasks — a maintenance message, a lease question, a document request, a
-              payment check, a contractor update — are individually difficult. The problem is that they
+              None of the daily tasks, a maintenance message, a lease question, a document request, a
+              payment check, a contractor update, are individually difficult. The problem is that they
               never stop, and as your properties grow, the administrative work grows with them, until
               you&apos;re spending more time managing information than managing your properties. Home
               1.0 was built around a simple idea: your property management software should reduce the
@@ -174,7 +174,7 @@ export default function ArticlePage() {
               We are not building Home 1.0 around the idea that property managers should hand their
               business over to AI. The best use of AI is helping people make better decisions and get
               routine work done faster. Home 1.0&apos;s AI assistant works inside the platform, using
-              your property data to help you find answers and navigate information — part of the
+              your property data to help you find answers and navigate information, part of the
               workflow, not another separate tool to open. You still make the decisions, manage the
               relationships, and run your properties. AI simply gives you another layer of assistance
               when you need it.
@@ -194,7 +194,7 @@ export default function ArticlePage() {
             <p className="text-[15px] leading-[1.85]">
               The Middle East is not a market where technology should simply be translated at the last
               minute. That is why Arabic is a first-class language experience in Home 1.0, alongside the
-              platform&apos;s broader multilingual direction — your team may work in Arabic, your
+              platform&apos;s broader multilingual direction, your team may work in Arabic, your
               tenants may prefer it, and your software should never become the language barrier.
             </p>
 
@@ -207,7 +207,7 @@ export default function ArticlePage() {
 
             <h2 className="text-[24px] font-bold tracking-tight pt-4" style={{ color: "var(--text-primary)" }}>What about servers and hosting?</h2>
             <p className="text-[15px] leading-[1.85]">
-              One point we want to make clear: Home 1.0 is software — we do not provide physical servers
+              One point we want to make clear: Home 1.0 is software, we do not provide physical servers
               as part of the product. Hosting, infrastructure, and deployment are handled separately
               according to the model you choose, which gives businesses flexibility rather than forcing
               every customer into the same arrangement. If you need help scoping the right setup, our
@@ -216,10 +216,10 @@ export default function ArticlePage() {
 
             <h2 className="text-[24px] font-bold tracking-tight pt-4" style={{ color: "var(--text-primary)" }}>Why now</h2>
             <p className="text-[15px] leading-[1.85]">
-              The real estate industry is changing — in Dubai, AI and digital transformation are already
+              The real estate industry is changing, in Dubai, AI and digital transformation are already
               becoming part of how real estate services operate, with the Dubai Land Department actively
               integrating AI, automation, and centralized digital services into the sector. The question
-              is no longer whether AI enters property management — it&apos;s whether smaller property
+              is no longer whether AI enters property management, it&apos;s whether smaller property
               businesses get to benefit from it too. We believe they should.
             </p>
 
@@ -227,7 +227,7 @@ export default function ArticlePage() {
               <p className="text-[13px] font-semibold mb-3" style={{ color: "var(--text-primary)" }}>Home 1.0 in one place:</p>
               <p className="text-[13px] leading-relaxed" style={{ color: "var(--text-secondary)" }}>
                 Properties. Tenants. Leasing. Applications. Payments. Maintenance. Inspections.
-                Documents. Communication. Reporting. And AI assistance — one platform, one place to work.
+                Documents. Communication. Reporting. And AI assistance, one platform, one place to work.
               </p>
             </div>
 
@@ -257,7 +257,7 @@ export default function ArticlePage() {
                 Your properties may be small today. Your ambitions don&apos;t have to be.
               </h2>
               <p className="text-[14px] leading-relaxed mb-7 max-w-lg mx-auto" style={{ color: "var(--text-secondary)" }}>
-                See how modern property management can work for your business — with a 30-day free trial.
+                See how modern property management can work for your business, with a 30-day free trial.
               </p>
               <div className="flex flex-wrap gap-4 justify-center">
                 <a

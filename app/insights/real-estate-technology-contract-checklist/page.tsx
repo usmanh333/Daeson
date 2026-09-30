@@ -7,7 +7,7 @@ import { ArrowRight, ArrowLeft } from "lucide-react";
 export const metadata: Metadata = {
   title: "What to Check Before Signing a Long-Term Real Estate Technology Contract",
   description:
-    "Uptime, data ownership, backups, support, pricing and integration — a practical checklist for developers and property companies before committing to a long-term real estate technology contract.",
+    "Uptime, data ownership, backups, support, pricing and integration, a practical checklist for developers and property companies before committing to a long-term real estate technology contract.",
   keywords: [
     "real estate technology contract",
     "property management software contract checklist",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "What to Check Before Signing a Long-Term Real Estate Technology Contract",
     description:
-      "Uptime, data ownership, backups, support, pricing and integration — a practical checklist before committing to a long-term real estate technology contract.",
+      "Uptime, data ownership, backups, support, pricing and integration, a practical checklist before committing to a long-term real estate technology contract.",
     url: "https://daesontechnologies.online/insights/real-estate-technology-contract-checklist",
   },
 };
@@ -31,7 +31,7 @@ const faqs = [
   },
   {
     q: "Why does data ownership matter in a property technology contract?",
-    a: "The software provider and the real estate company are not the same thing. A contract should state who owns customer and property data, how it can be exported, and what happens to it when the contract ends — this should be resolved before signing, not after the relationship ends.",
+    a: "The software provider and the real estate company are not the same thing. A contract should state who owns customer and property data, how it can be exported, and what happens to it when the contract ends, this should be resolved before signing, not after the relationship ends.",
   },
   {
     q: "Should a real estate company replace all its existing tools with one new platform?",
@@ -44,7 +44,7 @@ const articleSchema = {
   "@type": "Article",
   headline: "What to Check Before Signing a Long-Term Real Estate Technology Contract",
   description:
-    "Uptime, data ownership, backups, support, pricing and integration — a practical checklist for developers and property companies before committing to a long-term real estate technology contract.",
+    "Uptime, data ownership, backups, support, pricing and integration, a practical checklist for developers and property companies before committing to a long-term real estate technology contract.",
   author: { "@type": "Organization", name: "Daeson Technologies", url: "https://daesontechnologies.online" },
   publisher: { "@type": "Organization", name: "Daeson Technologies", url: "https://daesontechnologies.online" },
   url: "https://daesontechnologies.online/insights/real-estate-technology-contract-checklist",
@@ -118,7 +118,7 @@ export default function ArticlePage() {
                 Before signing a long-term real estate technology contract, evaluate the uptime
                 commitment, data ownership and export rights, backup and recovery procedures, the
                 support structure, the full pricing model, and how the platform integrates with
-                existing tools — not just what the demo shows.
+                existing tools, not just what the demo shows.
               </p>
             </div>
 
@@ -126,7 +126,7 @@ export default function ArticlePage() {
               Real estate companies increasingly depend on digital systems to manage leads, sales
               activity, property information, customer communication and reporting. For a
               developer or property company, choosing a technology platform is therefore more than
-              a software purchase — it can become part of the company&apos;s daily operating
+              a software purchase, it can become part of the company&apos;s daily operating
               infrastructure.
             </p>
             <p className="text-[15px] leading-[1.85]">
@@ -198,7 +198,7 @@ export default function ArticlePage() {
               should identify implementation fees, user fees, data migration charges, integration
               costs, API charges, support fees, additional modules, custom development, contract
               renewal increases and cancellation terms. The goal is not necessarily to find the
-              cheapest platform — the goal is to understand the total cost of ownership.
+              cheapest platform, the goal is to understand the total cost of ownership.
             </p>
 
             <h2 className="text-[24px] font-bold tracking-tight pt-4" style={{ color: "var(--text-primary)" }}>7. Consider integration before replacement</h2>
@@ -207,7 +207,7 @@ export default function ArticlePage() {
               websites, payment platforms, messaging tools and internal databases. A new platform
               should therefore be evaluated based on how it fits into the existing technology
               environment. The right question is often not &quot;Can this software replace
-              everything?&quot; — it may instead be &quot;Can this software improve the parts of
+              everything?&quot;, it may instead be &quot;Can this software improve the parts of
               our workflow that currently create friction?&quot; That distinction can
               significantly reduce implementation risk.
             </p>
@@ -228,7 +228,7 @@ export default function ArticlePage() {
               the data, the roadmap, and the uptime guarantee all sit with a third party. This is
               part of why some real estate firms are moving toward{" "}
               <Link href="/insights/real-estate-saas-vs-owned" style={{ color: "var(--blue)", fontWeight: 600 }}>owned operational infrastructure</Link>{" "}
-              instead — platforms like <Link href="/real-estate" style={{ color: "var(--blue)", fontWeight: 600 }}>LuxeProperty AI</Link> are
+              instead, platforms like <Link href="/real-estate" style={{ color: "var(--blue)", fontWeight: 600 }}>LuxeProperty AI</Link> are
               built specifically so a developer or property company controls its own data,
               reporting and roadmap rather than negotiating for access to it.
             </p>
@@ -239,7 +239,7 @@ export default function ArticlePage() {
               another operational dependency. Before committing to a long-term contract,
               developers and property companies should evaluate reliability, accessibility, data
               ownership, recovery procedures, support and total cost. The strongest technology
-              decision is not simply the platform with the longest feature list — it is the
+              decision is not simply the platform with the longest feature list, it is the
               solution whose operational, technical and commercial terms are clear enough for the
               business to understand what it is committing to.
             </p>
@@ -269,7 +269,7 @@ export default function ArticlePage() {
                 Evaluating a real estate technology contract?
               </h2>
               <p className="text-[14px] leading-relaxed mb-7 max-w-lg mx-auto" style={{ color: "var(--text-secondary)" }}>
-                LuxeProperty AI is built on owned infrastructure — your data, your roadmap, no vendor lock-in.
+                LuxeProperty AI is built on owned infrastructure, your data, your roadmap, no vendor lock-in.
               </p>
               <div className="flex flex-wrap gap-4 justify-center">
                 <Link href="/contact" className="inline-flex items-center gap-2 px-7 py-3.5 text-[14px] font-bold rounded-xl hover:opacity-90 transition-all" style={{ backgroundColor: "var(--blue)", color: "var(--on-blue)" }}>

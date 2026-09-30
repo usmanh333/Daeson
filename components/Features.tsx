@@ -24,7 +24,7 @@ const features = [
     icon: BarChart3,
     title: 'Shariah Risk Scoring',
     description:
-      'Quantifies compliance exposure with clear, weighted risk indicators across contract types — giving decision-makers actionable clarity on every submission.',
+      'Quantifies compliance exposure with clear, weighted risk indicators across contract types, giving decision-makers actionable clarity on every submission.',
     badge: 'Risk Engine',
     color: '#D4AF37',
     bg: '#fdf8e7',
@@ -42,7 +42,7 @@ const features = [
     icon: ClipboardCheck,
     title: 'Immutable Audit Trails',
     description:
-      'Full, tamper-proof audit trails for every compliance decision — built for regulatory review, internal governance, and external reporting requirements.',
+      'Full, tamper-proof audit trails for every compliance decision, built for regulatory review, internal governance, and external reporting requirements.',
     badge: 'Compliance',
     color: '#D4AF37',
     bg: '#fdf8e7',
@@ -51,7 +51,7 @@ const features = [
     icon: FileText,
     title: 'Compliance Reporting',
     description:
-      'Generate structured, institution-grade Shariah compliance reports instantly — formatted for boards, regulators, and external auditors across all markets.',
+      'Generate structured, institution-grade Shariah compliance reports instantly, formatted for boards, regulators, and external auditors across all markets.',
     badge: 'Reporting',
     color: '#0F3D2E',
     bg: '#e8f4ef',
@@ -60,7 +60,7 @@ const features = [
     icon: Users,
     title: 'Multi-Role Access',
     description:
-      'Designed for compliance officers, Shariah scholars, auditors, and executives — each with the right level of access, visibility, and workflow permissions.',
+      'Designed for compliance officers, Shariah scholars, auditors, and executives, each with the right level of access, visibility, and workflow permissions.',
     badge: 'Enterprise',
     color: '#D4AF37',
     bg: '#fdf8e7',

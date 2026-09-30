@@ -2,10 +2,11 @@
 
 import Link from "next/link";
 import Image from "next/image";
+import { PRODUCT_URLS, linkTargetProps } from "@/lib/products";
 
 const solutions = [
   { label: "Real Estate Infrastructure", href: "/real-estate" },
-  { label: "Aylinor", href: "/amanah-ai" },
+  { label: "Aylinor", href: PRODUCT_URLS.aylinor },
   { label: "Enterprise AI Systems", href: "/industries" },
   { label: "Solutions Overview", href: "/solutions" },
   { label: "Products", href: "/products" },
@@ -37,7 +38,8 @@ const badgeImages = [
   { src: "/Designrush.png", alt: "DesignRush", href: "https://www.designrush.com/agency/profile/daeson-technologies" },
 ];
 
-export default function Footer() {
+// The homepage hides the badge row because the trust slider under the hero already shows them.
+export default function Footer({ showBadges = true }: { showBadges?: boolean }) {
   return (
     <footer
       style={{
@@ -53,7 +55,7 @@ export default function Footer() {
 
       <div className="max-w-7xl mx-auto px-6 pt-16 pb-8">
 
-        {/* Main Grid — 5 columns */}
+        {/* Main Grid, 5 columns */}
         <div className="grid md:grid-cols-[1.6fr_1fr_1fr_1fr_1fr] gap-10 mb-14">
 
           {/* Brand */}
@@ -114,6 +116,7 @@ export default function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
+                    {...linkTargetProps(link.href)}
                     className="text-[13px] transition-colors"
                     style={{ color: "rgba(255,255,255,0.52)" }}
                     onMouseEnter={e => ((e.currentTarget as HTMLElement).style.color = "#ffffff")}
@@ -136,6 +139,7 @@ export default function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
+                    {...linkTargetProps(link.href)}
                     className="text-[13px] transition-colors"
                     style={{ color: "rgba(255,255,255,0.52)" }}
                     onMouseEnter={e => ((e.currentTarget as HTMLElement).style.color = "#ffffff")}
@@ -204,6 +208,7 @@ export default function Footer() {
         </div>
 
         {/* Trust Badges */}
+        {showBadges && (
         <div className="mb-10 py-8" style={{ borderTop: "1px solid rgba(255,255,255,0.07)", borderBottom: "1px solid rgba(255,255,255,0.07)" }}>
           <p className="text-[10px] font-semibold tracking-[0.18em] uppercase mb-7 text-center" style={{ color: "rgba(255,255,255,0.28)" }}>
             Trusted &amp; Recognized By
@@ -229,6 +234,7 @@ export default function Footer() {
             })}
           </div>
         </div>
+        )}
 
         {/* Bottom */}
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-[12px] pt-2" style={{ color: "rgba(255,255,255,0.3)" }}>

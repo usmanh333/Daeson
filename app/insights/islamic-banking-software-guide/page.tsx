@@ -7,7 +7,7 @@ import { ArrowRight, ArrowLeft } from "lucide-react";
 export const metadata: Metadata = {
   title: "Islamic Banking Software: Features, Benefits and Future Developments",
   description:
-    "What Islamic banking software actually needs to support — financing workflows, Shariah governance, audit trails and AAOIFI-aligned compliance — and how to evaluate vendors.",
+    "What Islamic banking software actually needs to support, financing workflows, Shariah governance, audit trails and AAOIFI-aligned compliance, and how to evaluate vendors.",
   keywords: [
     "Islamic banking software",
     "Islamic finance technology",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Islamic Banking Software: Features, Benefits and Future Developments",
     description:
-      "What Islamic banking software actually needs to support — financing workflows, Shariah governance, audit trails and AAOIFI-aligned compliance.",
+      "What Islamic banking software actually needs to support, financing workflows, Shariah governance, audit trails and AAOIFI-aligned compliance.",
     url: "https://daesontechnologies.online/insights/islamic-banking-software-guide",
   },
 };
@@ -28,15 +28,15 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: "What is Islamic banking software?",
-    a: "Islamic banking software is technology built to support financial operations conducted according to Islamic finance principles — financing workflows for structures like Murabaha and Ijarah, customer and account management, Shariah governance documentation, compliance monitoring and reporting.",
+    a: "Islamic banking software is technology built to support financial operations conducted according to Islamic finance principles, financing workflows for structures like Murabaha and Ijarah, customer and account management, Shariah governance documentation, compliance monitoring and reporting.",
   },
   {
     q: "How is Islamic banking software different from conventional banking software?",
-    a: "Conventional banking software is built around interest-based lending and deposits. Islamic banking software has to support sale-, lease- and partnership-based structures — Murabaha, Ijarah, Musharakah, Mudarabah, Salam, Istisna, Wakalah and Sukuk — each with different contractual, ownership, profit and documentation requirements that can't be replicated by relabeling a conventional loan product.",
+    a: "Conventional banking software is built around interest-based lending and deposits. Islamic banking software has to support sale-, lease- and partnership-based structures: Murabaha, Ijarah, Musharakah, Mudarabah, Salam, Istisna, Wakalah and Sukuk, each with different contractual, ownership, profit and documentation requirements that can't be replicated by relabeling a conventional loan product.",
   },
   {
     q: "Why do AAOIFI standards matter when choosing Islamic banking software?",
-    a: "AAOIFI publishes standards covering Shariah governance, the Shariah compliance function, internal Shariah audit and Shariah decision-making processes. Software should be evaluated against how well it supports an institution's own approved policies, its regulator's requirements and its governance arrangements — not just its interface or feature count.",
+    a: "AAOIFI publishes standards covering Shariah governance, the Shariah compliance function, internal Shariah audit and Shariah decision-making processes. Software should be evaluated against how well it supports an institution's own approved policies, its regulator's requirements and its governance arrangements, not just its interface or feature count.",
   },
 ];
 
@@ -45,7 +45,7 @@ const articleSchema = {
   "@type": "Article",
   headline: "Islamic Banking Software: Features, Benefits and Future Developments",
   description:
-    "What Islamic banking software actually needs to support — financing workflows, Shariah governance, audit trails and AAOIFI-aligned compliance — and how to evaluate vendors.",
+    "What Islamic banking software actually needs to support, financing workflows, Shariah governance, audit trails and AAOIFI-aligned compliance, and how to evaluate vendors.",
   author: { "@type": "Organization", name: "Daeson Technologies", url: "https://daesontechnologies.online" },
   publisher: { "@type": "Organization", name: "Daeson Technologies", url: "https://daesontechnologies.online" },
   url: "https://daesontechnologies.online/insights/islamic-banking-software-guide",
@@ -104,8 +104,8 @@ export default function ArticlePage() {
               What Is Islamic Banking Software and Why Does It Matter?
             </h1>
             <p className="text-[17px] leading-relaxed" style={{ color: "var(--text-secondary)" }}>
-              A practical guide to what Islamic banking software needs to support — beyond
-              relabeling conventional loan products — and how to evaluate whether a platform
+              A practical guide to what Islamic banking software needs to support, beyond
+              relabeling conventional loan products, and how to evaluate whether a platform
               actually fits your institution.
             </p>
           </div>
@@ -119,7 +119,7 @@ export default function ArticlePage() {
               <p className="text-[12px] font-bold uppercase tracking-widest mb-2" style={{ color: "var(--gold)" }}>The short answer</p>
               <p className="text-[15px] leading-relaxed" style={{ color: "var(--text-primary)" }}>
                 Islamic banking software is technology designed to support financial operations
-                conducted according to Islamic finance principles — financing workflows, customer
+                conducted according to Islamic finance principles, financing workflows, customer
                 management, Shariah governance, compliance monitoring and reporting. It has to
                 support the institution&apos;s actual product structures, such as Murabaha or Ijarah,
                 rather than simply relabeling a conventional loan.
@@ -292,7 +292,7 @@ export default function ArticlePage() {
                 Evaluating Islamic banking software?
               </h2>
               <p className="text-[14px] leading-relaxed mb-7 max-w-lg mx-auto" style={{ color: "var(--text-secondary)" }}>
-                Aylinor is being built as Shariah compliance intelligence for institutional teams — starting with Murabaha.
+                Aylinor is being built as Shariah compliance intelligence for institutional teams, starting with Murabaha.
               </p>
               <div className="flex flex-wrap gap-4 justify-center">
                 <Link href="/contact" className="inline-flex items-center gap-2 px-7 py-3.5 text-[14px] font-bold rounded-xl hover:opacity-90 transition-all" style={{ backgroundColor: "var(--gold)", color: "#0B0E14" }}>

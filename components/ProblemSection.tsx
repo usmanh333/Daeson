@@ -15,7 +15,7 @@ const problems = [
     icon: FileWarning,
     title: 'Inconsistent Documentation',
     description:
-      'No standardised framework exists for documenting compliance findings — resulting in fragmented records and serious exposure during regulatory audits.',
+      'No standardised framework exists for documenting compliance findings, resulting in fragmented records and serious exposure during regulatory audits.',
     index: '02',
   },
   {
@@ -36,7 +36,7 @@ const problems = [
     icon: AlertTriangle,
     title: 'Regulatory Fragmentation',
     description:
-      'Institutions operating across GCC, Pakistan, and UK face different regulatory frameworks with no unified compliance layer — creating risk at every boundary.',
+      'Institutions operating across GCC, Pakistan, and UK face different regulatory frameworks with no unified compliance layer, creating risk at every boundary.',
     index: '05',
   },
   {

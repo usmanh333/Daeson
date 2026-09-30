@@ -2,40 +2,40 @@
 
 /* ─── Black & White Editorial Theme ──────────────────────────────── */
 :root {
-  /* Backgrounds — deep black, layered surfaces */
+  /* Backgrounds, deep black, layered surfaces */
   --bg-page:     #080808;
   --bg-surface:  #0E0E0E;
   --bg-card:     #121212;
   --bg-elevated: #1C1C1C;
 
-  /* Primary accent — Monochrome white (sole color element) */
+  /* Primary accent: Monochrome white (sole color element) */
   --blue:        #FFFFFF;
   --blue-hover:  #D4D4D4;
   --blue-muted:  rgba(255, 255, 255, 0.10);
   --blue-border: rgba(255, 255, 255, 0.24);
 
-  /* Gold — Amanah AI only */
+  /* Gold: Amanah AI only */
   --gold:        #B9912F;
   --gold-light:  #C9A840;
   --gold-muted:  rgba(185, 145, 47, 0.12);
   --gold-border: rgba(185, 145, 47, 0.25);
 
-  /* Typography — white hierarchy */
+  /* Typography, white hierarchy */
   --text-primary:   #F2F2F2;
   --text-secondary: rgba(242, 242, 242, 0.62);
   --text-muted:     rgba(242, 242, 242, 0.40);
   --text-faint:     rgba(242, 242, 242, 0.24);
 
-  /* Borders — barely-there white lines */
+  /* Borders, barely-there white lines */
   --border:        rgba(255, 255, 255, 0.07);
   --border-hover:  rgba(255, 255, 255, 0.14);
   --border-strong: rgba(255, 255, 255, 0.22);
 
-  /* Shadows — deep on dark */
+  /* Shadows, deep on dark */
   --shadow-card: 0 1px 4px rgba(0, 0, 0, 0.7);
   --shadow-lg:   0 8px 40px rgba(0, 0, 0, 0.8);
 
-  /* Amanah AI (isolated system — keep as-is) */
+  /* Amanah AI (isolated system, keep as-is) */
   --primary:           #0f3d2e;
   --primary-dark:      #082818;
   --primary-light:     #1a6b50;
@@ -44,7 +44,7 @@
   --gold-amanah-light: #f0d060;
   --gold-amanah-muted: rgba(212, 175, 55, 0.12);
 
-  /* Text color to place on top of a solid var(--blue) fill — flips in .section-light */
+  /* Text color to place on top of a solid var(--blue) fill, flips in .section-light */
   --on-blue: #000000;
 
   /* Legacy */
@@ -65,11 +65,11 @@
   --green-light:  #E5E5E5;
 }
 
-/* ─── Light section — flips the theme to white bg / black text ──────
+/* ─── Light section, flips the theme to white bg / black text ──────
    Wrap any section in this class to alternate it against the dark
    page for an editorial black/white "zebra" rhythm. Every component
    already reads colors from these custom properties, so wrapping is
-   enough — no per-component edits needed. ───────────────────────── */
+   enough, no per-component edits needed. ───────────────────────── */
 .section-light {
   --bg-page:     #FFFFFF;
   --bg-surface:  #F6F6F6;
@@ -111,6 +111,13 @@
     linear-gradient(rgba(0, 0, 0, 0.05) 1px, transparent 1px),
     linear-gradient(90deg, rgba(0, 0, 0, 0.05) 1px, transparent 1px);
 }
+
+/* Navbar logo is drawn solid white on dark pages and solid black on light ones */
+.nav-logo { filter: brightness(0) invert(1); }
+.section-light .nav-logo { filter: brightness(0); }
+
+/* Homepage: pure white throughout, surfaces that would be light grey become white too */
+.home-white { --bg-surface: #FFFFFF; }
 
 .section-light ::-webkit-scrollbar-thumb { background: rgba(0, 0, 0, 0.25); }
 
@@ -159,7 +166,7 @@ a { color: inherit; text-decoration: none; }
 ::-webkit-scrollbar-track { background: var(--bg-page); }
 ::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.30); border-radius: 4px; }
 
-/* ─── Grid background — subtle white lines on dark ───────────────── */
+/* ─── Grid background, subtle white lines on dark ───────────────── */
 .grid-bg {
   background-image:
     linear-gradient(rgba(255, 255, 255, 0.028) 1px, transparent 1px),
@@ -242,7 +249,7 @@ a { color: inherit; text-decoration: none; }
   box-shadow: var(--shadow-lg);
 }
 
-/* ─── Footer badge images — full-color logos, dimmed on dark bg ──── */
+/* ─── Footer badge images, full-color logos, dimmed on dark bg ──── */
 .footer-badge-img {
   opacity: 0.85;
   background-color: #FFFFFF;
@@ -325,10 +332,92 @@ a:hover .footer-badge-img,
 .animate-slideDown  { animation: slideDown 0.2s ease-out forwards; }
 .animate-pulse-ring { animation: pulseRing 2s ease-out infinite; }
 
+/* ─── Homepage: enterprise black & white ─────────────────────────── */
+.hero-in { opacity: 0; animation: fadeUp 0.6s ease-out forwards; }
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+.marquee {
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 10%, #000 90%, transparent);
+  mask-image: linear-gradient(to right, transparent, #000 10%, #000 90%, transparent);
+}
+.marquee-track { display: flex; width: max-content; animation: marquee 32s linear infinite; }
+.marquee:hover .marquee-track { animation-play-state: paused; }
+
+.btn-solid {
+  background-color: var(--blue);
+  color: var(--on-blue);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
+}
+.btn-solid:hover { transform: translateY(-2px); opacity: 0.9; box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35); }
+
+.btn-ghost {
+  border: 1px solid var(--border-strong);
+  color: var(--text-primary);
+  background-color: transparent;
+  transition: transform 0.2s ease, background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+.btn-ghost:hover {
+  transform: translateY(-2px);
+  background-color: var(--text-primary);
+  color: var(--bg-page);
+  border-color: var(--text-primary);
+}
+
+/* Fixed white/black buttons for dark cards that sit inside a light page */
+.btn-light {
+  background-color: #FFFFFF;
+  color: #0A0A0A;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+}
+.btn-light:hover { transform: translateY(-2px); background-color: #E8E8E8; box-shadow: 0 12px 28px rgba(0, 0, 0, 0.45); }
+
+.btn-outline-light {
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  color: #FFFFFF;
+  background-color: transparent;
+  transition: transform 0.2s ease, background-color 0.2s ease, color 0.2s ease;
+}
+.btn-outline-light:hover { transform: translateY(-2px); background-color: #FFFFFF; color: #0A0A0A; }
+
+/* Text links styled as buttons: arrow nudges and the label dims slightly */
+.link-hover { transition: gap 0.2s ease, opacity 0.2s ease; }
+.link-hover:hover { gap: 0.75rem; opacity: 0.7; }
+
+/* Arrow icons inside any button slide forward on hover */
+.btn-solid svg, .btn-ghost svg, .btn-light svg, .btn-outline-light svg { transition: transform 0.2s ease; }
+.btn-solid:hover svg, .btn-ghost:hover svg, .btn-light:hover svg, .btn-outline-light:hover svg { transform: translateX(3px); }
+.btn-solid:active, .btn-ghost:active, .btn-light:active, .btn-outline-light:active { transform: translateY(0) scale(0.98); }
+
+/* Header navigation: yellow pill on hover (overrides the inline text colour and button hovers) */
+.nav-yellow { transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease, transform 0.2s ease; }
+.nav-yellow:hover {
+  background-color: #FACC15 !important;
+  color: #0A0A0A !important;
+  border-color: #FACC15 !important;
+  opacity: 1;
+}
+
+/* Client reviews: one continuous row of dark cards, slower than the badge row */
+.marquee-slow { animation-duration: 60s; }
+.review-card {
+  background: linear-gradient(150deg, #1A1A1A 0%, #0B0B0B 60%, #121212 100%);
+  box-shadow: 0 20px 50px -20px rgba(0, 0, 0, 0.45);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.review-card:hover { transform: translateY(-4px); box-shadow: 0 28px 60px -20px rgba(0, 0, 0, 0.55); }
+
+.lift-card { transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease; }
+.lift-card:hover { transform: translateY(-3px); border-color: var(--border-strong) !important; box-shadow: var(--shadow-lg); }
+
 /* ─── Reduce motion ──────────────────────────────────────────────── */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
     animation-duration: 0.01ms !important;
     transition-duration: 0.01ms !important;
   }
+  .marquee-track { animation: none !important; }
 }

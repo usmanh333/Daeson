@@ -6,12 +6,12 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Press & Media — Daeson Technologies in the News",
+  title: "Press & Media | Daeson Technologies in the News",
   description:
-    "Press coverage, media features, and articles about Daeson Technologies and Aylinor — as featured by TradingView/Zawya, The Arabian Post, LinkedIn, International Business Media, and Gazet International.",
+    "Press coverage, media features, and articles about Daeson Technologies and Aylinor, as featured by TradingView/Zawya, The Arabian Post, LinkedIn, International Business Media, and Gazet International.",
   alternates: { canonical: "https://daesontechnologies.online/pr" },
   openGraph: {
-    title: "Press & Media — Daeson Technologies",
+    title: "Press & Media | Daeson Technologies",
     url: "https://daesontechnologies.online/pr",
   },
 };
@@ -25,7 +25,7 @@ const pressItems = [
     author: "Daeson Technologies",
     headline: "Daeson Technologies Introduces Shariah AI Compliance Co-Pilot to Strengthen Governance in GCC Islamic Banking",
     excerpt:
-      "Zawya, powered by Reuters, covers Daeson Technologies' official announcement of the Shariah AI Compliance Co-Pilot — a purpose-built AI platform designed to strengthen Shariah governance workflows across Islamic banking institutions in the GCC.",
+      "Zawya, powered by Reuters, covers Daeson Technologies' official announcement of the Shariah AI Compliance Co-Pilot, a purpose-built AI platform designed to strengthen Shariah governance workflows across Islamic banking institutions in the GCC.",
     date: "March 25, 2026",
     isoDate: "2026-03-25",
     readTime: "Press Release",
@@ -40,7 +40,7 @@ const pressItems = [
     author: "Daeson Technologies",
     headline: "AI Co-Pilot Targets Shariah Compliance Gaps",
     excerpt:
-      "The Arabian Post features Daeson Technologies and its Shariah AI Compliance Co-Pilot, examining how the platform addresses longstanding compliance gaps in Islamic finance — reducing manual review burden and strengthening institutional governance across the GCC.",
+      "The Arabian Post features Daeson Technologies and its Shariah AI Compliance Co-Pilot, examining how the platform addresses longstanding compliance gaps in Islamic finance, reducing manual review burden and strengthening institutional governance across the GCC.",
     date: "March 2026",
     isoDate: "2026-03-01",
     readTime: "Feature Article",
@@ -53,7 +53,7 @@ const pressItems = [
     wordmark: "LinkedIn",
     category: "Thought Leadership",
     author: "Mahnoor Zafar",
-    headline: "Islamic Finance Has a Technology Gap — Mahnoor Zafar",
+    headline: "Islamic Finance Has a Technology Gap Mahnoor Zafar",
     excerpt:
       "Founder Mahnoor Zafar publishes an in-depth LinkedIn Pulse article exploring the technology infrastructure gap in Islamic finance and how AI-powered compliance tools are beginning to address the operational challenges facing institutions across the GCC and beyond.",
     date: "March 2026",
@@ -100,7 +100,7 @@ const pressItems = [
     author: "Daeson Technologies",
     headline: "Islamic Finance Has a Technology Gap, Not a Finance Gap",
     excerpt:
-      "Daeson Technologies publishes a founder perspective on Medium arguing that Islamic finance institutions face a technology infrastructure gap rather than a capital or product gap — and how AI-powered compliance tooling addresses that specific bottleneck.",
+      "Daeson Technologies publishes a founder perspective on Medium arguing that Islamic finance institutions face a technology infrastructure gap rather than a capital or product gap, and how AI-powered compliance tooling addresses that specific bottleneck.",
     date: "July 2026",
     isoDate: "2026-07-09",
     readTime: "Thought Leadership",
@@ -115,7 +115,7 @@ const pressItems = [
     author: "Daeson Technologies",
     headline: "Why Real Estate Market Needs Better Investor Transparency",
     excerpt:
-      "Daeson Technologies argues that real estate developers courting international investors are held back by fragmented communication and reporting — and that AI-powered operational platforms are what actually close the transparency gap.",
+      "Daeson Technologies argues that real estate developers courting international investors are held back by fragmented communication and reporting, and that AI-powered operational platforms are what actually close the transparency gap.",
     date: "July 2026",
     isoDate: "2026-07-09",
     readTime: "Thought Leadership",
@@ -130,7 +130,7 @@ const pressItems = [
     author: "Daeson Technologies",
     headline: "Residential Property Management Is Broken. The Problem Isn't People. It's Systems.",
     excerpt:
-      "A look at why residential property management breaks down — not from staff failures, but from fragmented, disconnected systems — and how a unified operational platform restores visibility and resident satisfaction.",
+      "A look at why residential property management breaks down, not from staff failures, but from fragmented, disconnected systems, and how a unified operational platform restores visibility and resident satisfaction.",
     date: "July 2026",
     isoDate: "2026-07-09",
     readTime: "Thought Leadership",
@@ -145,7 +145,7 @@ const pressItems = [
     author: "Daeson Technologies",
     headline: "The Part of Real Estate Nobody's Actually Fixing",
     excerpt:
-      "Most proptech investment focuses on the transaction. Daeson Technologies makes the case that post-transaction operations — routine communication, coordination across time zones, administrative overhead — is the underserved half of the industry.",
+      "Most proptech investment focuses on the transaction. Daeson Technologies makes the case that post-transaction operations, routine communication, coordination across time zones, administrative overhead, is the underserved half of the industry.",
     date: "July 2026",
     isoDate: "2026-07-09",
     readTime: "Thought Leadership",
@@ -160,7 +160,7 @@ const pressItems = [
     author: "Daeson Technologies",
     headline: "AI FinTech Development Company: Why Financial Institutions Need Technology Partners, Not Just Software Vendors",
     excerpt:
-      "Daeson Technologies argues that financial institutions are better served by technology partners who build owned, purpose-built platforms than by generic SaaS vendors — covering AI integration, digital wallets, and compliance infrastructure built around the institution's actual operations.",
+      "Daeson Technologies argues that financial institutions are better served by technology partners who build owned, purpose-built platforms than by generic SaaS vendors, covering AI integration, digital wallets, and compliance infrastructure built around the institution's actual operations.",
     date: "July 2026",
     isoDate: "2026-07-09",
     readTime: "Thought Leadership",
@@ -175,7 +175,7 @@ const pressItems = [
     author: "Daeson Technologies",
     headline: "Shariah Compliance Is Still Manual. That's the Real Risk.",
     excerpt:
-      "Islamic financial institutions have digitized banking but not Shariah governance — Daeson Technologies makes the case for structured, AI-assisted compliance workflows that support scholars rather than replace their judgment.",
+      "Islamic financial institutions have digitized banking but not Shariah governance | Daeson Technologies makes the case for structured, AI-assisted compliance workflows that support scholars rather than replace their judgment.",
     date: "July 2026",
     isoDate: "2026-07-09",
     readTime: "Thought Leadership",
@@ -190,7 +190,7 @@ const pressItems = [
     author: "Daeson Technologies",
     headline: "When Does a Real Estate Operating Platform Beat One-Off Deals?",
     excerpt:
-      "The companion piece to our site framework: the five signals — opaque comps, deal sourcing friction, rate volatility, slow diligence, fragmented LP reporting — that indicate it's time to build operating infrastructure instead of running deals one at a time.",
+      "The companion piece to our site framework: the five signals, opaque comps, deal sourcing friction, rate volatility, slow diligence, fragmented LP reporting, that indicate it's time to build operating infrastructure instead of running deals one at a time.",
     date: "July 2026",
     isoDate: "2026-07-09",
     readTime: "Thought Leadership",
@@ -205,7 +205,7 @@ const pressItems = [
     author: "Daeson Technologies",
     headline: "How SaaS Real Estate Investment Platforms Work and How They Compare to REITs",
     excerpt:
-      "Daeson Technologies distinguishes SaaS real estate platforms — operational software for firms managing multiple deals — from REITs and traditional ownership, arguing they solve an infrastructure problem for operators, not a passive-investment problem for individual investors.",
+      "Daeson Technologies distinguishes SaaS real estate platforms, operational software for firms managing multiple deals, from REITs and traditional ownership, arguing they solve an infrastructure problem for operators, not a passive-investment problem for individual investors.",
     date: "July 2026",
     isoDate: "2026-07-09",
     readTime: "Thought Leadership",
@@ -220,7 +220,7 @@ const pressItems = [
     author: "Daeson Technologies",
     headline: "What to Look for in Islamic Finance Software With Real Analytics and Reporting",
     excerpt:
-      "Daeson Technologies argues Islamic finance software should integrate compliance verification with structured analytics as one system, not two — institutions need reportable data over time, not a binary compliance certificate.",
+      "Daeson Technologies argues Islamic finance software should integrate compliance verification with structured analytics as one system, not two, institutions need reportable data over time, not a binary compliance certificate.",
     date: "July 2026",
     isoDate: "2026-07-09",
     readTime: "Thought Leadership",
@@ -250,7 +250,7 @@ const pressItems = [
     author: "Daeson Technologies",
     headline: "Building an AI Co-Pilot for AAOIFI Compliance: Why 'Confident and Wrong' Is the Failure Mode That Matters Most",
     excerpt:
-      "Daeson Technologies makes the case that AI compliance systems for Islamic finance must be built to surface ambiguity and support expert judgment — not to sound confident — since incorrect rulings carry real consequences.",
+      "Daeson Technologies makes the case that AI compliance systems for Islamic finance must be built to surface ambiguity and support expert judgment, not to sound confident, since incorrect rulings carry real consequences.",
     date: "July 2026",
     isoDate: "2026-07-09",
     readTime: "Thought Leadership",
@@ -265,7 +265,7 @@ const pressItems = [
     author: "Daeson Technologies",
     headline: "Murabaha Compliance Is More Than a Checklist: Why Islamic Banks Need Better Digital Shariah Governance",
     excerpt:
-      "Daeson Technologies argues Murabaha compliance requires structured digital governance infrastructure rather than a checklist, introducing Aylinor as a platform built to strengthen Shariah governance — not replace it — through documentation and evidence tracking alongside human review.",
+      "Daeson Technologies argues Murabaha compliance requires structured digital governance infrastructure rather than a checklist, introducing Aylinor as a platform built to strengthen Shariah governance, not replace it, through documentation and evidence tracking alongside human review.",
     date: "July 2026",
     isoDate: "2026-07-24",
     readTime: "Thought Leadership",
@@ -280,7 +280,7 @@ const pressItems = [
     author: "Daeson Technologies",
     headline: "Real Estate Investors Don't Need More Reports. They Need Real-Time Portfolio Intelligence.",
     excerpt:
-      "Daeson Technologies argues real estate investors need continuous portfolio visibility through centralized dashboards rather than periodic reports — covering how LuxeProperty AI addresses this through integrated analytics and AI-powered operational insight.",
+      "Daeson Technologies argues real estate investors need continuous portfolio visibility through centralized dashboards rather than periodic reports, covering how LuxeProperty AI addresses this through integrated analytics and AI-powered operational insight.",
     date: "July 2026",
     isoDate: "2026-07-24",
     readTime: "Thought Leadership",
@@ -325,7 +325,7 @@ const pressItems = [
     author: "Daeson Technologies",
     headline: "The Hidden Cost of Property Management: Why Spreadsheets, WhatsApp and Manual Processes Don't Scale",
     excerpt:
-      "Daeson Technologies argues property management fails from accumulated operational inefficiency, not individual hard tasks — and introduces Home 1.0, a unified platform for tenant, lease, payment, and maintenance management built to stay affordable for mid-sized operators.",
+      "Daeson Technologies argues property management fails from accumulated operational inefficiency, not individual hard tasks, and introduces Home 1.0, a unified platform for tenant, lease, payment, and maintenance management built to stay affordable for mid-sized operators.",
     date: "July 2026",
     isoDate: "2026-07-24",
     readTime: "Thought Leadership",
@@ -340,7 +340,7 @@ const pressItems = [
     author: "Daeson Technologies",
     headline: "Why Real Estate Software Should Think in Workflows, Not Features",
     excerpt:
-      "Daeson Technologies argues real estate firms don't struggle from a lack of software features but from disconnected systems — where employees end up acting as the manual API between platforms — and makes the case for workflow-first design.",
+      "Daeson Technologies argues real estate firms don't struggle from a lack of software features but from disconnected systems, where employees end up acting as the manual API between platforms, and makes the case for workflow-first design.",
     date: "July 2026",
     isoDate: "2026-07-24",
     readTime: "Thought Leadership",
@@ -355,7 +355,7 @@ const pressItems = [
     author: "Daeson Technologies",
     headline: "Why Real Estate Investment Firms Need Smarter Technology",
     excerpt:
-      "Daeson Technologies argues real estate firms need technology that provides business context, not just raw data — how AI and intelligent systems help professionals prioritize information and make better decisions without automating judgment-based calls.",
+      "Daeson Technologies argues real estate firms need technology that provides business context, not just raw data, how AI and intelligent systems help professionals prioritize information and make better decisions without automating judgment-based calls.",
     date: "July 2026",
     isoDate: "2026-07-24",
     readTime: "Thought Leadership",
@@ -385,7 +385,7 @@ const pressItems = [
     author: "Daeson Technologies",
     headline: "The Operational Challenges Facing Modern Real Estate Investment Firms",
     excerpt:
-      "Daeson Technologies surveys the recurring operational friction points modern real estate investment firms face — from fragmented reporting to disconnected deal pipelines — and where owned infrastructure closes the gap.",
+      "Daeson Technologies surveys the recurring operational friction points modern real estate investment firms face, from fragmented reporting to disconnected deal pipelines, and where owned infrastructure closes the gap.",
     date: "July 2026",
     isoDate: "2026-07-24",
     readTime: "Thought Leadership",
@@ -400,7 +400,7 @@ const pressItems = [
     author: "Daeson Technologies",
     headline: "Salesforce for Real Estate Investors: What to Look for in an Investor CRM",
     excerpt:
-      "Daeson Technologies breaks down what real estate investors should actually evaluate in an investor CRM beyond a generic Salesforce setup — workflow fit, reporting depth, and ownership of the underlying data.",
+      "Daeson Technologies breaks down what real estate investors should actually evaluate in an investor CRM beyond a generic Salesforce setup, workflow fit, reporting depth, and ownership of the underlying data.",
     date: "July 2026",
     isoDate: "2026-07-24",
     readTime: "Thought Leadership",
@@ -412,29 +412,29 @@ const pressItems = [
 const perspectives = [
   {
     id: "p1",
-    title: "SaaS Real Estate Platforms vs. Owned Infrastructure — What Actually Differs",
-    body: "SaaS real estate investment platforms (the SaaSProperties.com model, and similar tools) charge a recurring fee for shared, templated software — useful for getting a firm running quickly, but the firm never owns the system or its data. Traditional real estate investing and REIT reporting solve a different problem entirely: capital structure, not day-to-day operations. Firms evaluating either path are usually really asking a third question — do we rent our operating system indefinitely, or build one we own outright? That's the comparison worth making before choosing a platform.",
+    title: "SaaS Real Estate Platforms vs. Owned Infrastructure: What Actually Differs",
+    body: "SaaS real estate investment platforms (the SaaSProperties.com model, and similar tools) charge a recurring fee for shared, templated software, useful for getting a firm running quickly, but the firm never owns the system or its data. Traditional real estate investing and REIT reporting solve a different problem entirely: capital structure, not day-to-day operations. Firms evaluating either path are usually really asking a third question, do we rent our operating system indefinitely, or build one we own outright? That's the comparison worth making before choosing a platform.",
     href: "/insights/real-estate-saas-vs-owned",
     linkLabel: "Read the full comparison",
   },
   {
     id: "p2",
     title: "What to Actually Compare Between Real Estate SaaS Platforms",
-    body: "Feature lists look similar across most real estate SaaS platforms. The differences that matter show up in fees over a 3–5 year horizon, how much of your investor and deal data you can export cleanly if you leave, and whether the roadmap serves your workflow or the vendor's release calendar. Those three questions matter more than any single feature comparison chart.",
+    body: "Feature lists look similar across most real estate SaaS platforms. The differences that matter show up in fees over a 3 to 5 year horizon, how much of your investor and deal data you can export cleanly if you leave, and whether the roadmap serves your workflow or the vendor's release calendar. Those three questions matter more than any single feature comparison chart.",
     href: "/real-estate",
     linkLabel: "See our operations platform approach",
   },
   {
     id: "p3",
     title: "Dashboarding for REITs and Real Estate Portfolios",
-    body: "Most 'real estate dashboard' tools are generic BI wrappers bolted onto a spreadsheet export. A dashboard built for REITs and property portfolios needs to speak the domain directly — occupancy, NOI, investor distributions, and deal-stage pipeline in one view, not a generic chart builder. That distinction is what separates a real estate CRM dashboard from a repurposed analytics tool.",
+    body: "Most 'real estate dashboard' tools are generic BI wrappers bolted onto a spreadsheet export. A dashboard built for REITs and property portfolios needs to speak the domain directly, occupancy, NOI, investor distributions, and deal-stage pipeline in one view, not a generic chart builder. That distinction is what separates a real estate CRM dashboard from a repurposed analytics tool.",
     href: "/industries/real-estate",
     linkLabel: "See how we approach it",
   },
   {
     id: "p4",
     title: "Choosing a Software Provider for Islamic Finance Analytics & Reporting",
-    body: "Islamic finance institutions evaluating analytics and reporting software run into a hard requirement most generic fintech tools skip: Shariah governance has to be built into the workflow, not bolted on afterward. That means contract analysis, scholar review queues, and regulatory reporting need to share one audit trail — not live in three disconnected tools.",
+    body: "Islamic finance institutions evaluating analytics and reporting software run into a hard requirement most generic fintech tools skip: Shariah governance has to be built into the workflow, not bolted on afterward. That means contract analysis, scholar review queues, and regulatory reporting need to share one audit trail, not live in three disconnected tools.",
     href: "/amanah-ai",
     linkLabel: "How Aylinor approaches this",
   },
@@ -507,7 +507,7 @@ export default function PRPage() {
             </h1>
             <p className="text-[17px] leading-relaxed max-w-2xl mx-auto" style={{ color: "var(--text-secondary)" }}>
               Our work in Islamic finance AI, Shariah compliance technology, and Gulf fintech
-              innovation — as covered by leading international media outlets.
+              innovation, as covered by leading international media outlets.
             </p>
           </div>
         </section>
@@ -518,7 +518,7 @@ export default function PRPage() {
             {[
               { value: "5+", label: "Media Outlets" },
               { value: "Gulf & MENA", label: "Coverage Region" },
-              { value: "2025–2026", label: "Press History" },
+              { value: "2025 to 2026", label: "Press History" },
               { value: "Islamic Fintech", label: "Core Topic" },
             ].map((s) => (
               <div key={s.label}>
@@ -662,7 +662,7 @@ export default function PRPage() {
               Perspectives From Our Team
             </p>
             <p className="text-[13px] mb-8 max-w-2xl" style={{ color: "var(--text-secondary)" }}>
-              Short takes from Daeson Technologies — not third-party press, our own perspective on
+              Short takes from Daeson Technologies, not third-party press, our own perspective on
               questions we hear from prospective clients.
             </p>
             <div className="grid md:grid-cols-2 gap-6">

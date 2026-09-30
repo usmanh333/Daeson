@@ -7,7 +7,7 @@ const reasons = [
     tag: "Workflow-First",
     title: "We map operations before writing code",
     description:
-      "Every engagement begins with discovery — understanding your actual workflows, data flows, and friction points before any architecture decisions are made.",
+      "Every engagement begins with discovery, understanding your actual workflows, data flows, and friction points before any architecture decisions are made.",
   },
   {
     tag: "Ownership",
@@ -19,25 +19,25 @@ const reasons = [
     tag: "Practical",
     title: "Built around operational realities",
     description:
-      "We don't over-engineer. Systems are scoped to solve the specific operational problems you have — not hypothetical ones five years from now.",
+      "We don't over-engineer. Systems are scoped to solve the specific operational problems you have, not hypothetical ones five years from now.",
   },
   {
     tag: "Founder-Led",
     title: "Direct founder involvement throughout",
     description:
-      "Daeson's founding team is directly involved in every engagement — from discovery through deployment. Not delegated to a junior team.",
+      "Daeson's founding team is directly involved in every engagement, from discovery through deployment. Not delegated to a junior team.",
   },
   {
     tag: "Scalable",
     title: "Designed to evolve with your business",
     description:
-      "Infrastructure is built with extension in mind. As your operations scale, your systems scale — without starting over or re-platforming.",
+      "Infrastructure is built with extension in mind. As your operations scale, your systems scale, without starting over or re-platforming.",
   },
   {
     tag: "Governance-Sensitive",
     title: "Enterprise-grade architecture as standard",
     description:
-      "Role-based access, data governance, and audit infrastructure are included by default — not add-ons. Particularly relevant for compliance-driven industries.",
+      "Role-based access, data governance, and audit infrastructure are included by default, not add-ons. Particularly relevant for compliance-driven industries.",
   },
 ];
 
@@ -75,7 +75,7 @@ export default function WhyDaeson() {
             </h2>
             <p className="text-[15px] leading-relaxed" style={{ color: "var(--text-secondary)" }}>
               The distinction matters. Agencies build what you ask for. We design what your operations
-              actually need — then build it with you.
+              actually need, then build it with you.
             </p>
           </div>
         </motion.div>
@@ -127,7 +127,7 @@ export default function WhyDaeson() {
         >
           <p className="text-[13px] max-w-xl mx-auto leading-relaxed" style={{ color: "var(--text-faint)" }}>
             We are selective about the engagements we take on. We work with organizations where
-            operational complexity is real — and where infrastructure ownership makes a measurable difference.
+            operational complexity is real, and where infrastructure ownership makes a measurable difference.
           </p>
         </motion.div>
       </div>

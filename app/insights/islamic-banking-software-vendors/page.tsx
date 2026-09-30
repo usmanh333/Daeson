@@ -7,7 +7,7 @@ import { ArrowRight, ArrowLeft } from "lucide-react";
 export const metadata: Metadata = {
   title: "Islamic Banking Software Vendors: What to Ask Before Signing",
   description:
-    "A short vendor-evaluation guide for Islamic banking software — what to ask about product coverage, Shariah governance, customization and data control before signing.",
+    "A short vendor-evaluation guide for Islamic banking software, what to ask about product coverage, Shariah governance, customization and data control before signing.",
   keywords: ["Islamic banking software vendors", "Islamic banking software provider", "Shariah compliance vendor evaluation", "Aylinor"],
   alternates: { canonical: "https://daesontechnologies.online/insights/islamic-banking-software-vendors" },
   openGraph: {
@@ -21,7 +21,7 @@ const articleSchema = {
   "@type": "Article",
   headline: "Islamic Banking Software Vendors: What to Ask Before Signing",
   description:
-    "A short vendor-evaluation guide for Islamic banking software — what to ask about product coverage, Shariah governance, customization and data control.",
+    "A short vendor-evaluation guide for Islamic banking software, what to ask about product coverage, Shariah governance, customization and data control.",
   author: { "@type": "Organization", name: "Daeson Technologies", url: "https://daesontechnologies.online" },
   publisher: { "@type": "Organization", name: "Daeson Technologies", url: "https://daesontechnologies.online" },
   url: "https://daesontechnologies.online/insights/islamic-banking-software-vendors",
@@ -78,7 +78,7 @@ export default function ArticlePage() {
               </p>
             </div>
             <p className="text-[15px] leading-[1.85]">
-              Islamic banking software vendors range widely — from large core banking providers with
+              Islamic banking software vendors range widely, from large core banking providers with
               an Islamic finance module bolted on, to specialized platforms built around Shariah
               structures from the ground up. The difference matters more than it looks in a demo.
             </p>
@@ -98,7 +98,7 @@ export default function ArticlePage() {
             </p>
             <p className="text-[15px] leading-[1.85]">
               Daeson Technologies is developing <Link href="/amanah-ai" style={{ color: "var(--gold)", fontWeight: 600 }}>Aylinor</Link>,
-              a Shariah compliance intelligence platform, on exactly this principle — transparent
+              a Shariah compliance intelligence platform, on exactly this principle, transparent
               about what&apos;s built today, starting with Murabaha, rather than claiming broad
               coverage upfront.
             </p>

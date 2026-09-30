@@ -12,7 +12,7 @@ function DashboardMock() {
         <div className="flex items-center justify-between px-5 py-3 border-b border-gray-200 bg-[#0F3D2E]">
           <div className="flex items-center gap-2">
             <Shield className="w-4 h-4 text-white/80" />
-            <span className="text-white text-sm font-semibold tracking-tight">Aylinor — Compliance Dashboard</span>
+            <span className="text-white text-sm font-semibold tracking-tight">Aylinor: Compliance Dashboard</span>
           </div>
           <div className="flex items-center gap-1.5">
             <div className="w-2 h-2 rounded-full bg-[#16A34A]" />
@@ -83,7 +83,7 @@ function DashboardMock() {
           {/* Chart placeholder */}
           <div className="mt-3 bg-white rounded-lg border border-gray-200 p-4 shadow-sm">
             <div className="flex items-center justify-between mb-3">
-              <span className="text-xs font-semibold text-gray-700">Compliance Trend — 2026</span>
+              <span className="text-xs font-semibold text-gray-700">Compliance Trend, 2026</span>
               <BarChart3 className="w-3.5 h-3.5 text-gray-400" />
             </div>
             <div className="flex items-end gap-1.5 h-12">

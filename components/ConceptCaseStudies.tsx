@@ -10,9 +10,9 @@ const caseStudies = [
     color: "var(--green)",
     colorMuted: "var(--green-muted)",
     colorBorder: "var(--green-border)",
-    scenario: "Regional Property Group — Multi-Market Operations",
+    scenario: "Regional Property Group: Multi-Market Operations",
     challenge:
-      "A real estate firm managing 400+ listings across three markets operates across disconnected spreadsheets, a generic CRM, and a separate investor reporting tool. Leadership has no real-time portfolio visibility. Investor updates require 3–4 hours of manual compilation per week.",
+      "A real estate firm managing 400+ listings across three markets operates across disconnected spreadsheets, a generic CRM, and a separate investor reporting tool. Leadership has no real-time portfolio visibility. Investor updates require 3 to 4 hours of manual compilation per week.",
     approach: [
       "Unified operational platform replacing 6 disconnected tools",
       "Real-time investor portal with automated portfolio reporting",
@@ -33,9 +33,9 @@ const caseStudies = [
     color: "#1D4ED8",
     colorMuted: "rgba(29,78,216,0.07)",
     colorBorder: "rgba(29,78,216,0.20)",
-    scenario: "Enterprise Operations Team — Manual Approval Workflows",
+    scenario: "Enterprise Operations Team: Manual Approval Workflows",
     challenge:
-      "An operations team of 40 people processes vendor approvals, compliance sign-offs, and internal requests via email threads and PDF forms. Average approval cycle: 6–8 days. No audit trail. No escalation visibility for leadership.",
+      "An operations team of 40 people processes vendor approvals, compliance sign-offs, and internal requests via email threads and PDF forms. Average approval cycle: 6 to 8 days. No audit trail. No escalation visibility for leadership.",
     approach: [
       "Structured digital workflow engine replacing email-based approvals",
       "Role-based routing with automatic escalation logic",
@@ -52,17 +52,17 @@ const caseStudies = [
   },
   {
     sector: "Islamic Finance Operations",
-    tag: "Aylinor — In Development",
+    tag: "Aylinor: In Development",
     color: "var(--gold)",
     colorMuted: "var(--gold-muted)",
     colorBorder: "var(--gold-border)",
-    scenario: "Islamic Financial Institution — Murabaha Processing",
+    scenario: "Islamic Financial Institution: Murabaha Processing",
     challenge:
       "An Islamic bank processes 200+ Murabaha financing applications per month. Each requires manual Shariah compliance checklist review, document preparation, and scholar sign-off. Average processing time: 11 days. Scholars spend 70% of review time on documentation instead of jurisprudential judgment.",
     approach: [
       "AI-powered Murabaha contract analysis and compliance flagging",
       "Automated governance documentation with structured audit trails",
-      "Scholar review queue — showing only matters requiring substantive judgment",
+      "Scholar review queue, showing only matters requiring substantive judgment",
       "Regulatory-ready compliance reporting generated automatically",
     ],
     outcomes: [
@@ -98,7 +98,7 @@ export default function ConceptCaseStudies() {
           </h2>
           <p className="text-[16px] leading-relaxed" style={{ color: "var(--text-secondary)" }}>
             Illustrative scenarios based on documented industry pain points.
-            No fabricated client names — just an honest picture of the problems we solve.
+            No fabricated client names, just an honest picture of the problems we solve.
           </p>
         </div>
 
@@ -191,7 +191,7 @@ export default function ConceptCaseStudies() {
                     style={{ backgroundColor: cs.colorMuted, border: `1px solid ${cs.colorBorder}`, color: "var(--text-muted)" }}
                   >
                     <strong style={{ color: cs.color }}>Conceptual only.</strong> These scenarios illustrate documented
-                    industry problems and our architectural approach — not specific client engagements.
+                    industry problems and our architectural approach, not specific client engagements.
                   </div>
                   <Link
                     href={cs.href}

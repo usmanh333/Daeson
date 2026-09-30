@@ -65,7 +65,7 @@ export default function Footer() {
           </p>
           <div className="flex items-center gap-1.5 text-xs text-gray-400">
             <Lock className="w-3 h-3" />
-            <span>Confidential — For institutional preview only</span>
+            <span>Confidential: For institutional preview only</span>
           </div>
         </div>
       </div>

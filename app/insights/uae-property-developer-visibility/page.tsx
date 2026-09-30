@@ -7,7 +7,7 @@ import { ArrowRight, ArrowLeft } from "lucide-react";
 export const metadata: Metadata = {
   title: "What Buyers and Investors Should Compare Across UAE Property Developers",
   description:
-    "Choosing a UAE property developer takes more than comparing the advertised price. A practical framework for comparing projects, payment plans, fees, transparency and investor visibility — and how developers can improve theirs.",
+    "Choosing a UAE property developer takes more than comparing the advertised price. A practical framework for comparing projects, payment plans, fees, transparency and investor visibility, and how developers can improve theirs.",
   keywords: [
     "UAE property developers comparison",
     "UAE real estate investment checklist",
@@ -31,7 +31,7 @@ const faqs = [
   },
   {
     q: "Why does investor visibility matter after a property purchase?",
-    a: "International and overseas investors in particular need ongoing visibility into construction progress, payment status, ownership documentation and communication — especially when they cannot regularly visit the property in person.",
+    a: "International and overseas investors in particular need ongoing visibility into construction progress, payment status, ownership documentation and communication, especially when they cannot regularly visit the property in person.",
   },
   {
     q: "Are ROI or rental yield claims in property marketing reliable on their own?",
@@ -103,7 +103,7 @@ export default function ArticlePage() {
             </h1>
             <p className="text-[17px] leading-relaxed" style={{ color: "var(--text-secondary)" }}>
               Choosing a property developer in the UAE requires more than comparing the advertised
-              price of an apartment — and the developers who make it easiest to compare are usually
+              price of an apartment, and the developers who make it easiest to compare are usually
               the ones worth taking most seriously.
             </p>
           </div>
@@ -117,8 +117,8 @@ export default function ArticlePage() {
               <p className="text-[12px] font-bold uppercase tracking-widest mb-2" style={{ color: "var(--blue)" }}>The short answer</p>
               <p className="text-[15px] leading-relaxed" style={{ color: "var(--text-primary)" }}>
                 There is no single metric that determines whether a UAE property is suitable for
-                every investor. Compare individual projects — location, payment plan, fees,
-                documentation and investor visibility — rather than developers as a whole, and
+                every investor. Compare individual projects, location, payment plan, fees,
+                documentation and investor visibility, rather than developers as a whole, and
                 treat any advertised return figure as an assumption to verify, not a guarantee.
               </p>
             </div>
@@ -154,7 +154,7 @@ export default function ArticlePage() {
               commitment. Investors should calculate the total purchase price plus scheduled
               payments, transaction costs, financing costs and expected ownership expenses.
               Payment schedules should be reviewed alongside the investor&apos;s own cash-flow
-              position — two properties with similar advertised prices can create very different
+              position, two properties with similar advertised prices can create very different
               financial commitments depending on when payments are due.
             </p>
 
@@ -180,7 +180,7 @@ export default function ArticlePage() {
               This is also where developer-facing technology makes a measurable difference. A
               developer whose project data, payment schedules and documentation are structured
               and easy to present is, in practice, a developer whose sales and investor teams can
-              answer diligence questions faster — which is one reason platforms like{" "}
+              answer diligence questions faster, which is one reason platforms like{" "}
               <Link href="/real-estate" style={{ color: "var(--blue)", fontWeight: 600 }}>LuxeProperty AI</Link> exist:
               to help UAE real estate developers organize project, payment and investor
               information into a single system instead of scattered spreadsheets and PDFs, which
@@ -198,8 +198,8 @@ export default function ArticlePage() {
             </p>
             <p className="text-[15px] leading-[1.85]">
               In our experience working with developers on operational infrastructure, one
-              well-organized residential portfolio — running structured investor reporting and a
-              single system of record for payments and documentation instead of manual updates —
+              well-organized residential portfolio, running structured investor reporting and a
+              single system of record for payments and documentation instead of manual updates,
               consistently produced faster diligence cycles and fewer investor queries than
               portfolios still managed through spreadsheets and email. The difference was not the
               underlying real estate; it was how visible and verifiable the operational
@@ -255,7 +255,7 @@ export default function ArticlePage() {
               The most useful comparison is therefore not simply &quot;Developer A versus
               Developer B.&quot; It is: which project, in which location, with which total costs,
               payment structure, ownership terms and investment assumptions, fits the buyer&apos;s
-              objectives — and how easily can that developer actually show you the answer?
+              objectives, and how easily can that developer actually show you the answer?
             </p>
 
             <h2 className="text-[24px] font-bold tracking-tight pt-4" style={{ color: "var(--text-primary)" }}>Frequently Asked Questions</h2>

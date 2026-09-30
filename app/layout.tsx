@@ -15,7 +15,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL("https://daesontechnologies.online"),
   title: {
-    default: "Daeson Technologies — Enterprise Technology Company",
+    default: "Daeson Technologies: Enterprise Technology Company",
     template: "%s | Daeson Technologies",
   },
   description:
@@ -82,7 +82,7 @@ export const metadata: Metadata = {
     other: [{ rel: "mask-icon", url: "/icon-512.png" }],
   },
   openGraph: {
-    title: "Daeson Technologies — Enterprise Technology Company",
+    title: "Daeson Technologies: Enterprise Technology Company",
     description:
       "We help real estate firms and governance-sensitive organizations replace fragmented workflows with owned AI-powered operational systems aligned to how their business actually operates.",
     url: "https://daesontechnologies.online",
@@ -92,7 +92,7 @@ export const metadata: Metadata = {
         url: "https://daesontechnologies.online/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Daeson Technologies — Enterprise Technology Company",
+        alt: "Daeson Technologies: Enterprise Technology Company",
       },
     ],
     type: "website",
@@ -100,7 +100,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Daeson Technologies — Enterprise Technology Company",
+    title: "Daeson Technologies: Enterprise Technology Company",
     description:
       "Owned operational infrastructure for real estate, Islamic finance, and enterprise organizations. Founder-built. Workflow-first.",
     images: ["https://daesontechnologies.online/og-image.png"],
@@ -136,7 +136,7 @@ const organizationSchema = {
   url: "https://daesontechnologies.online",
   logo: "https://daesontechnologies.online/logo.png",
   description:
-    "Daeson Technologies is an enterprise technology company building owned AI-powered operational infrastructure for real estate firms, Islamic financial institutions, and enterprise organizations. We design systems aligned to how businesses actually operate — replacing fragmented SaaS with owned platforms built around real workflows. Founder-built. Workflow-first.",
+    "Daeson Technologies is an enterprise technology company building owned AI-powered operational infrastructure for real estate firms, Islamic financial institutions, and enterprise organizations. We design systems aligned to how businesses actually operate, replacing fragmented SaaS with owned platforms built around real workflows. Founder-built. Workflow-first.",
   foundingDate: "2023",
   slogan: "Enterprise technology built around how your business actually operates.",
   numberOfEmployees: { "@type": "QuantitativeValue", value: "11-50" },
@@ -228,21 +228,21 @@ const organizationSchema = {
         "@type": "Offer",
         name: "Real Estate Operations Platform",
         description:
-          "Owned AI-powered operational platform for real estate firms — unified CRM, investor dashboards, AI lead intelligence, payment tracking, and executive analytics.",
+          "Owned AI-powered operational platform for real estate firms, unified CRM, investor dashboards, AI lead intelligence, payment tracking, and executive analytics.",
         url: "https://daesontechnologies.online/real-estate",
       },
       {
         "@type": "Offer",
-        name: "Aylinor — Islamic Finance Intelligence",
+        name: "Aylinor: Islamic Finance Intelligence",
         description:
-          "AI-powered Shariah compliance infrastructure for Islamic financial institutions — Murabaha contract analysis, governance documentation, scholar review queues, and regulatory reporting. In strategic development.",
+          "AI-powered Shariah compliance infrastructure for Islamic financial institutions: Murabaha contract analysis, governance documentation, scholar review queues, and regulatory reporting. In strategic development.",
         url: "https://daesontechnologies.online/amanah-ai",
       },
       {
         "@type": "Offer",
         name: "Enterprise AI Workflow Systems",
         description:
-          "Custom AI workflow systems for enterprise operations — cross-department automation, operational intelligence dashboards, and predictive analytics. Fully owned.",
+          "Custom AI workflow systems for enterprise operations, cross-department automation, operational intelligence dashboards, and predictive analytics. Fully owned.",
         url: "https://daesontechnologies.online/industries",
       },
     ],
@@ -258,7 +258,7 @@ const websiteSchema = {
   "@id": "https://daesontechnologies.online/#website",
   url: "https://daesontechnologies.online",
   name: "Daeson Technologies",
-  description: "Enterprise Technology Company — Founder-built, Workflow-first",
+  description: "Enterprise Technology Company: Founder-built, Workflow-first",
   publisher: { "@id": "https://daesontechnologies.online/#organization" },
   potentialAction: {
     "@type": "SearchAction",
@@ -271,7 +271,7 @@ const speakableSchema = {
   "@context": "https://schema.org",
   "@type": "WebPage",
   "@id": "https://daesontechnologies.online/#webpage",
-  name: "Daeson Technologies — Enterprise Technology Company",
+  name: "Daeson Technologies: Enterprise Technology Company",
   speakable: {
     "@type": "SpeakableSpecification",
     cssSelector: ["h1", "h2", ".speakable", ".answer-capsule"],

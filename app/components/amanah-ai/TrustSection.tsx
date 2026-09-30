@@ -55,7 +55,7 @@ export default function TrustSection() {
             <span className="text-[#0F3D2E]">Islamic Financial Institutions</span>
           </h2>
           <p className="text-gray-500 max-w-lg mx-auto text-base">
-            Purpose-built for the full spectrum of Islamic finance — from standalone
+            Purpose-built for the full spectrum of Islamic finance, from standalone
             Islamic banks to conventional institutions with Islamic windows and digital fintechs.
           </p>
         </div>

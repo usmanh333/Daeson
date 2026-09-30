@@ -51,7 +51,7 @@ export default function WorkflowSection() {
             How It Works
           </div>
           <h2 className="text-3xl sm:text-4xl font-bold text-[#1F2937] tracking-tight">
-            From Upload to Compliance —{" "}
+            From Upload to Compliance, {" "}
             <span className="text-[#0F3D2E]">Fully Streamlined</span>
           </h2>
           <p className="text-gray-500 max-w-xl mx-auto text-base">

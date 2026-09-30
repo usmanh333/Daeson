@@ -5,9 +5,9 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Case Studies — Infrastructure Projects",
+  title: "Case Studies: Infrastructure Projects",
   description:
-    "Explore Daeson Technologies case studies — real estate operational platforms, Aylinor Islamic finance infrastructure, and enterprise AI systems.",
+    "Explore Daeson Technologies case studies, real estate operational platforms, Aylinor Islamic finance infrastructure, and enterprise AI systems.",
   alternates: { canonical: "https://daesontechnologies.online/case-studies" },
 };
 
@@ -26,10 +26,10 @@ const cases = [
       "We started with a two-week discovery and workflow mapping engagement, then designed a unified operational architecture. Development was structured across five phases with weekly demos. The platform launched as an MVP within 14 weeks.",
     outcomes: [
       "Single source of truth for all deal and investor data",
-      "Automated investor reporting — from weekly manual effort to zero",
+      "Automated investor reporting, from weekly manual effort to zero",
       "AI-powered lead scoring integrated into CRM workflow",
       "Executive dashboard with real-time portfolio analytics",
-      "Full source code ownership — no SaaS dependency",
+      "Full source code ownership, no SaaS dependency",
     ],
     modules: ["AI CRM", "Investor Dashboard", "Payment Tracking", "Lead Intelligence", "Executive Analytics"],
     href: "/contact",
@@ -39,13 +39,13 @@ const cases = [
     color: "#C9A84C",
     status: "Strategic Development",
     statusColor: "text-[#C9A84C]",
-    title: "Aylinor — Shariah Compliance Infrastructure",
+    title: "Aylinor: Shariah Compliance Infrastructure",
     summary:
       "An Islamic financial institution needed Shariah compliance infrastructure that scaled beyond spreadsheets and manual scholar coordination. Aylinor provides AI-assisted contract analysis, governance workflows, and immutable audit trails.",
     problem:
       "Scholars were reviewing contracts manually as PDFs, compliance teams maintained spreadsheet audit trails, and there was no standardized process for governance documentation. Regulatory reporting across multiple markets required manual aggregation.",
     approach:
-      "Aylinor was designed with Shariah advisory collaboration, following AAOIFI and IFSB standards awareness. The platform provides AI-assisted contract parsing and risk scoring as decision support for scholars — not as a replacement for Islamic jurisprudence.",
+      "Aylinor was designed with Shariah advisory collaboration, following AAOIFI and IFSB standards awareness. The platform provides AI-assisted contract parsing and risk scoring as decision support for scholars, not as a replacement for Islamic jurisprudence.",
     outcomes: [
       "AI-assisted contract analysis reduces initial review time",
       "Structured scholar governance workflow with clear decision states",
@@ -54,7 +54,7 @@ const cases = [
       "Consistent documentation standards across all contract types",
     ],
     modules: ["AI Contract Analysis", "Scholar Workflow", "Audit Trail", "Compliance Reporting", "Multi-Market"],
-    disclaimer: "In strategic development with Shariah advisory collaboration. Advisory note: Aylinor is decision-support infrastructure — it does not issue Shariah rulings.",
+    disclaimer: "In strategic development with Shariah advisory collaboration. Advisory note: Aylinor is decision-support infrastructure, it does not issue Shariah rulings.",
     href: "/amanah-ai",
   },
   {
@@ -62,9 +62,9 @@ const cases = [
     color: "#FFFFFF",
     status: "Delivered",
     statusColor: "text-[var(--blue)]",
-    title: "Sheriff Police Department — Desktop Operations System",
+    title: "Sheriff Police Department: Desktop Operations System",
     summary:
-      "A USA Sheriff Police Department needed a custom desktop operations system to manage case files, incident reports, and officer workflows — replacing a legacy system that no longer met operational requirements.",
+      "A USA Sheriff Police Department needed a custom desktop operations system to manage case files, incident reports, and officer workflows, replacing a legacy system that no longer met operational requirements.",
     problem:
       "The department was using an outdated system that required manual data entry across multiple forms, had no search capability across historical case files, and provided no reporting infrastructure for command review.",
     approach:
@@ -74,7 +74,7 @@ const cases = [
       "Searchable case and incident database",
       "Automated report generation for command staff",
       "Reduced manual data entry time significantly",
-      "Fully owned system — no external dependencies",
+      "Fully owned system, no external dependencies",
     ],
     modules: ["Case Management", "Incident Reporting", "Role-Based Access", "Command Reporting", "Search & Retrieval"],
     href: "/case-studies/sheriff-police-system",

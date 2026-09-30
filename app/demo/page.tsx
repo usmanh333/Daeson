@@ -5,7 +5,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Demo Center — Explore Our Platforms",
+  title: "Demo Center: Explore Our Platforms",
   description:
     "Request a demonstration of Daeson Technologies enterprise platforms: Real Estate Operations Platform, Aylinor Islamic finance intelligence, workflow automation systems, and enterprise AI integration.",
   alternates: { canonical: "https://daesontechnologies.online/demo" },
@@ -16,7 +16,7 @@ const demos = [
     title: "Real Estate Operations Platform",
     subtitle: "Concept Architecture Walkthrough",
     description:
-      "A demonstration of the operational architecture for a unified real estate platform — CRM, investor dashboards, payment tracking, and AI lead intelligence — built around how a modern property firm actually operates.",
+      "A demonstration of the operational architecture for a unified real estate platform: CRM, investor dashboards, payment tracking, and AI lead intelligence, built around how a modern property firm actually operates.",
     highlights: [
       "Unified deal pipeline & CRM walkthrough",
       "Investor visibility portal & real-time dashboard",
@@ -34,7 +34,7 @@ const demos = [
     title: "Aylinor",
     subtitle: "Islamic Finance Compliance Intelligence",
     description:
-      "A walkthrough of the Aylinor platform architecture — demonstrating the Murabaha workflow automation, Shariah governance documentation, and compliance visibility systems currently in development.",
+      "A walkthrough of the Aylinor platform architecture, demonstrating the Murabaha workflow automation, Shariah governance documentation, and compliance visibility systems currently in development.",
     highlights: [
       "Murabaha contract analysis workflow",
       "Shariah governance documentation generation",
@@ -52,7 +52,7 @@ const demos = [
     title: "Enterprise AI Integration",
     subtitle: "AI Integration Architecture Overview",
     description:
-      "An executive briefing on how Daeson Technologies integrates AI into existing enterprise systems — covering integration patterns, workflow automation with AI, and operational intelligence implementation approaches.",
+      "An executive briefing on how Daeson Technologies integrates AI into existing enterprise systems, covering integration patterns, workflow automation with AI, and operational intelligence implementation approaches.",
     highlights: [
       "AI integration architecture patterns",
       "Workflow automation with AI layer",
@@ -70,7 +70,7 @@ const demos = [
     title: "Workflow Automation System",
     subtitle: "Intelligent Workflow Architecture Demo",
     description:
-      "A demonstration of intelligent workflow system architecture — showing how complex operational workflows can be automated, monitored, and continuously improved with AI-powered orchestration.",
+      "A demonstration of intelligent workflow system architecture, showing how complex operational workflows can be automated, monitored, and continuously improved with AI-powered orchestration.",
     highlights: [
       "Workflow mapping & design methodology",
       "Automated approval & routing flows",
@@ -90,13 +90,13 @@ const process = [
   { step: "01", title: "Submit Request", body: "Tell us which platform you're interested in and provide brief context on your organization and operational challenges." },
   { step: "02", title: "Confirmation", body: "We review your request and confirm a time within one business day. Demonstrations are conducted by the founding team directly." },
   { step: "03", title: "Preparation", body: "We may ask a few questions in advance to tailor the demonstration to your specific industry context and operational environment." },
-  { step: "04", title: "Demonstration", body: "A focused walkthrough of the platform architecture relevant to your use case, followed by open Q&A. No sales pressure — just substance." },
+  { step: "04", title: "Demonstration", body: "A focused walkthrough of the platform architecture relevant to your use case, followed by open Q&A. No sales pressure, just substance." },
 ];
 
 const pageSchema = {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  name: "Demo Center — Daeson Technologies",
+  name: "Demo Center | Daeson Technologies",
   url: "https://daesontechnologies.online/demo",
   isPartOf: { "@id": "https://daesontechnologies.online/#website" },
   breadcrumb: {
@@ -129,7 +129,7 @@ export default function DemoPage() {
             <span style={{ color: "var(--green)" }}>Ask the Hard Questions.</span>
           </h1>
           <p className="text-[16px] leading-relaxed max-w-2xl mb-4" style={{ color: "var(--text-secondary)" }}>
-            Daeson Technologies demonstrations are platform walkthroughs — not polished sales presentations.
+            Daeson Technologies demonstrations are platform walkthroughs, not polished sales presentations.
             We show architecture, workflow logic, and operational design, then answer questions directly.
           </p>
           <p className="text-[13px]" style={{ color: "var(--text-muted)" }}>

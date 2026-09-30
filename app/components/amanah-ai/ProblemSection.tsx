@@ -14,7 +14,7 @@ const problems = [
     icon: FileWarning,
     title: "Inconsistent Documentation",
     description:
-      "No standardized framework exists for documenting compliance findings — resulting in fragmented records and exposure during regulatory audits.",
+      "No standardized framework exists for documenting compliance findings, resulting in fragmented records and exposure during regulatory audits.",
   },
   {
     icon: Clock,

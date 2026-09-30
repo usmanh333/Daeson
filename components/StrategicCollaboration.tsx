@@ -55,7 +55,7 @@ export default function StrategicCollaboration() {
                 Aylinor&apos;s compliance infrastructure is being designed in collaboration with
                 Shariah domain expertise from Alhamd Shariah Advisory. This collaboration ensures that the
                 platform&apos;s workflow architecture remains grounded in practical Shariah operational
-                requirements — not theoretical assumptions.
+                requirements, not theoretical assumptions.
               </p>
               <p className="text-[12px] italic leading-relaxed" style={{ color: "var(--text-faint)" }}>
                 This collaboration supports domain alignment. It does not constitute endorsement of

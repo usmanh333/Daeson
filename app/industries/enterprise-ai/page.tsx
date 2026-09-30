@@ -7,42 +7,42 @@ import { ArrowRight } from "lucide-react";
 export const metadata: Metadata = {
   title: "Enterprise AI Integration & Automation",
   description:
-    "Daeson Technologies integrates AI into existing enterprise systems as an operational layer — automating analysis, surfacing intelligence, and supporting decisions within live workflows. Not chatbots. Operational AI.",
+    "Daeson Technologies integrates AI into existing enterprise systems as an operational layer, automating analysis, surfacing intelligence, and supporting decisions within live workflows. Not chatbots. Operational AI.",
   alternates: { canonical: "https://daesontechnologies.online/industries/enterprise-ai" },
 };
 
 const challenges = [
-  { title: "AI Implementations Remain Isolated", body: "Most enterprise AI deployments are standalone tools — a chatbot here, an analytics product there — that don't connect to the actual operational systems where decisions are made." },
+  { title: "AI Implementations Remain Isolated", body: "Most enterprise AI deployments are standalone tools, a chatbot here, an analytics product there, that don't connect to the actual operational systems where decisions are made." },
   { title: "Data Silos Block Intelligence", body: "Enterprise operational data lives across disconnected systems. Without data integration, AI cannot surface meaningful patterns from the whole of the business." },
   { title: "Governance & Audit Requirements", body: "In regulated industries, AI systems must produce explainable outputs with full audit trails. Generic AI tools rarely meet this bar, requiring significant custom engineering." },
-  { title: "AI Without Workflow Context", body: "AI recommendations that aren't embedded in the workflow where action is taken require humans to switch between systems — reducing adoption and negating efficiency gains." },
+  { title: "AI Without Workflow Context", body: "AI recommendations that aren't embedded in the workflow where action is taken require humans to switch between systems, reducing adoption and negating efficiency gains." },
   { title: "Technical Debt & Integration Complexity", body: "Legacy enterprise systems create integration complexity that most AI vendors don't solve. The result is AI capability constrained by the least modern system in the stack." },
   { title: "ROI Measurement is Unclear", body: "Enterprises struggle to measure AI ROI when implementations are disconnected from operational metrics. AI as an operational layer makes the impact directly measurable." },
 ];
 
 const approaches = [
-  { step: "01", title: "Operational Discovery", body: "We map the operational workflows where AI integration will produce the highest value — identifying data sources, decision points, and integration requirements before recommending an architecture." },
-  { step: "02", title: "Integration Architecture", body: "We design AI integration architecture that connects to existing systems — not requiring a full replacement — embedding AI capability at the points in the workflow where it creates measurable value." },
+  { step: "01", title: "Operational Discovery", body: "We map the operational workflows where AI integration will produce the highest value, identifying data sources, decision points, and integration requirements before recommending an architecture." },
+  { step: "02", title: "Integration Architecture", body: "We design AI integration architecture that connects to existing systems, not requiring a full replacement, embedding AI capability at the points in the workflow where it creates measurable value." },
   { step: "03", title: "Governance Design", body: "For regulated industries, we design AI governance into the architecture: audit trails, explainability requirements, human oversight checkpoints, and compliance documentation." },
   { step: "04", title: "Implementation & Testing", body: "We build AI integration incrementally, with extensive testing against real operational data and workflow conditions before production deployment." },
-  { step: "05", title: "Measurement & Evolution", body: "We instrument AI systems to measure operational impact — efficiency gains, decision quality, time saved — and use this data to guide continuous evolution of the system." },
+  { step: "05", title: "Measurement & Evolution", body: "We instrument AI systems to measure operational impact, efficiency gains, decision quality, time saved, and use this data to guide continuous evolution of the system." },
 ];
 
 const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   mainEntity: [
-    { "@type": "Question", name: "What is enterprise AI integration?", acceptedAnswer: { "@type": "Answer", text: "Enterprise AI integration refers to embedding AI capabilities directly into existing enterprise systems and operational workflows — rather than deploying AI as a standalone tool. This means AI is present at the point where work happens and decisions are made: inside the CRM, the compliance workflow, the operational dashboard. The result is AI that actually changes how the organization operates, rather than being an additional tool that competes for attention alongside existing systems." } },
-    { "@type": "Question", name: "How is AI integration different from buying an AI tool?", acceptedAnswer: { "@type": "Answer", text: "Buying an AI tool gives you a capability in isolation. AI integration embeds that capability in the context where it creates value — within your existing operational systems, connected to your real data, at the decision point where it matters. Integration requires architectural work, system connectivity, and workflow redesign that AI tool vendors don't provide. The difference in outcomes is significant: integrated AI changes how people work; isolated AI tools often go unused." } },
-    { "@type": "Question", name: "What is governance-sensitive AI for enterprise?", acceptedAnswer: { "@type": "Answer", text: "Governance-sensitive AI for enterprise refers to AI systems designed with audit trails, explainability, human oversight requirements, and compliance documentation — appropriate for organizations in regulated industries or where AI decisions carry significant operational, financial, or legal consequences. Governance-sensitive design treats accountability as an architectural requirement, not a feature to add later." } },
-    { "@type": "Question", name: "How long does enterprise AI integration take?", acceptedAnswer: { "@type": "Answer", text: "Enterprise AI integration timelines depend on the complexity of existing systems and the scope of integration. A focused AI integration project — connecting AI to two or three key operational workflows — typically takes 2 to 4 months. Comprehensive operational AI integration across an enterprise typically takes 6 to 12 months, with initial working components delivered within the first 6 to 8 weeks." } },
+    { "@type": "Question", name: "What is enterprise AI integration?", acceptedAnswer: { "@type": "Answer", text: "Enterprise AI integration refers to embedding AI capabilities directly into existing enterprise systems and operational workflows, rather than deploying AI as a standalone tool. This means AI is present at the point where work happens and decisions are made: inside the CRM, the compliance workflow, the operational dashboard. The result is AI that actually changes how the organization operates, rather than being an additional tool that competes for attention alongside existing systems." } },
+    { "@type": "Question", name: "How is AI integration different from buying an AI tool?", acceptedAnswer: { "@type": "Answer", text: "Buying an AI tool gives you a capability in isolation. AI integration embeds that capability in the context where it creates value, within your existing operational systems, connected to your real data, at the decision point where it matters. Integration requires architectural work, system connectivity, and workflow redesign that AI tool vendors don't provide. The difference in outcomes is significant: integrated AI changes how people work; isolated AI tools often go unused." } },
+    { "@type": "Question", name: "What is governance-sensitive AI for enterprise?", acceptedAnswer: { "@type": "Answer", text: "Governance-sensitive AI for enterprise refers to AI systems designed with audit trails, explainability, human oversight requirements, and compliance documentation, appropriate for organizations in regulated industries or where AI decisions carry significant operational, financial, or legal consequences. Governance-sensitive design treats accountability as an architectural requirement, not a feature to add later." } },
+    { "@type": "Question", name: "How long does enterprise AI integration take?", acceptedAnswer: { "@type": "Answer", text: "Enterprise AI integration timelines depend on the complexity of existing systems and the scope of integration. A focused AI integration project, connecting AI to two or three key operational workflows, typically takes 2 to 4 months. Comprehensive operational AI integration across an enterprise typically takes 6 to 12 months, with initial working components delivered within the first 6 to 8 weeks." } },
   ],
 };
 
 const pageSchema = {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  name: "Enterprise AI Integration — Daeson Technologies",
+  name: "Enterprise AI Integration | Daeson Technologies",
   url: "https://daesontechnologies.online/industries/enterprise-ai",
   isPartOf: { "@id": "https://daesontechnologies.online/#website" },
   breadcrumb: {
@@ -70,7 +70,7 @@ export default function EnterpriseAIPage() {
             <span style={{ color: "var(--green)" }}>Not Chatbots. Operational AI.</span>
           </h1>
           <p className="text-[16px] leading-relaxed max-w-2xl mb-8" style={{ color: "var(--text-secondary)" }}>
-            We integrate AI into your existing enterprise systems as an operational layer — automating analysis,
+            We integrate AI into your existing enterprise systems as an operational layer, automating analysis,
             surfacing intelligence, and supporting decisions within the workflows where they actually occur.
           </p>
           <div className="flex flex-wrap gap-3">

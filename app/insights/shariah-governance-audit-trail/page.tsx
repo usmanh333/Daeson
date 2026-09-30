@@ -18,15 +18,15 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: "What is a Shariah governance audit trail?",
-    a: "A Shariah governance audit trail is a permanent, tamper-evident record of every compliance decision — who reviewed it, what was approved or rejected, and why — tied to the specific product or contract it applies to.",
+    a: "A Shariah governance audit trail is a permanent, tamper-evident record of every compliance decision, who reviewed it, what was approved or rejected, and why, tied to the specific product or contract it applies to.",
   },
   {
     q: "Why do spreadsheets fail as an audit trail?",
-    a: "Spreadsheets can be edited after the fact with no record of the change, are rarely linked directly to the contract they document, and depend entirely on manual discipline to stay current — none of which holds up under regulatory review.",
+    a: "Spreadsheets can be edited after the fact with no record of the change, are rarely linked directly to the contract they document, and depend entirely on manual discipline to stay current, none of which holds up under regulatory review.",
   },
   {
     q: "Is an audit trail only useful for regulators?",
-    a: "No. A structured audit trail also protects the institution and the scholars themselves — it demonstrates that governance was followed consistently, which matters as much internally, during a leadership transition or scholar board change, as it does externally.",
+    a: "No. A structured audit trail also protects the institution and the scholars themselves, it demonstrates that governance was followed consistently, which matters as much internally, during a leadership transition or scholar board change, as it does externally.",
   },
 ];
 
@@ -91,7 +91,7 @@ export default function ArticlePage() {
             <div className="answer-capsule">
               <p className="text-[12px] font-bold uppercase tracking-widest mb-2" style={{ color: "var(--gold)" }}>The short answer</p>
               <p className="text-[15px] leading-relaxed" style={{ color: "var(--text-primary)" }}>
-                Shariah governance risk isn&apos;t only about getting a ruling wrong — it&apos;s about
+                Shariah governance risk isn&apos;t only about getting a ruling wrong, it&apos;s about
                 being unable to prove, months or years later, how a ruling was reached. Spreadsheets and
                 email threads don&apos;t hold up as evidence. An immutable, contract-linked audit trail
                 is what actually protects the institution, the scholars, and the customer.
@@ -101,32 +101,32 @@ export default function ArticlePage() {
             <p className="text-[15px] leading-[1.85]">
               Every Islamic financial institution has a governance process on paper: scholars review
               products, decisions are recorded, and compliance signs off. The gap is rarely the process
-              itself — it&apos;s what happens to the record of that process once the decision is made.
+              itself, it&apos;s what happens to the record of that process once the decision is made.
             </p>
 
             <h2 className="text-[24px] font-bold tracking-tight pt-4" style={{ color: "var(--text-primary)" }}>The spreadsheet problem</h2>
             <p className="text-[15px] leading-[1.85]">
               A spreadsheet can be edited after the fact with no trace of the change. It&apos;s rarely
-              linked directly to the contract or product it documents — usually cross-referenced by a
+              linked directly to the contract or product it documents, usually cross-referenced by a
               file name or a manually typed ID, which drifts out of sync over time. And it depends
               entirely on someone remembering to update it, every time, without fail.
             </p>
             <p className="text-[15px] leading-[1.85]">
               None of this is a hypothetical risk. It&apos;s the specific gap regulators and internal
-              audit teams look for first — not whether a decision was reasonable, but whether it can be
+              audit teams look for first, not whether a decision was reasonable, but whether it can be
               reconstructed and verified independently of the person who made it.
             </p>
 
             <h2 className="text-[24px] font-bold tracking-tight pt-4" style={{ color: "var(--text-primary)" }}>What a real audit trail looks like</h2>
             <p className="text-[15px] leading-[1.85]">
               A structured audit trail ties every governance decision directly to the contract or product
-              it applies to, records who made the decision and when, and is immutable — the record can
+              it applies to, records who made the decision and when, and is immutable, the record can
               be appended to, but not silently altered. That combination is what turns governance from a
               defensible process into a provable one.
             </p>
             <p className="text-[15px] leading-[1.85]">
               This is built into <Link href="/amanah-ai" style={{ color: "var(--gold)", fontWeight: 600 }}>Aylinor</Link> from
-              the architecture level, not added afterward — every compliance decision generates its own
+              the architecture level, not added afterward, every compliance decision generates its own
               permanent record, tied to the transaction, without requiring the compliance team to
               maintain a separate log.
             </p>

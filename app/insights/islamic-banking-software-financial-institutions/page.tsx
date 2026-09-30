@@ -62,7 +62,7 @@ export default function ArticlePage() {
             </h1>
             <p className="text-[17px] leading-relaxed" style={{ color: "var(--text-secondary)" }}>
               Islamic windows, fintechs and non-bank financial institutions need Shariah-aware
-              technology too — and their requirements aren&apos;t identical to a full-scale bank&apos;s.
+              technology too, and their requirements aren&apos;t identical to a full-scale bank&apos;s.
             </p>
           </div>
         </section>
@@ -73,7 +73,7 @@ export default function ArticlePage() {
               <p className="text-[12px] font-bold uppercase tracking-widest mb-2" style={{ color: "var(--gold)" }}>The short answer</p>
               <p className="text-[15px] leading-relaxed" style={{ color: "var(--text-primary)" }}>
                 Islamic banking software is relevant to any financial institution structuring
-                products around Shariah principles — not only licensed Islamic banks. Islamic
+                products around Shariah principles, not only licensed Islamic banks. Islamic
                 windows within conventional banks, Islamic fintechs, and takaful and financing
                 companies all need financing workflows, governance documentation and audit trails,
                 even if their scale and regulatory obligations differ from a full-scale bank.
@@ -90,7 +90,7 @@ export default function ArticlePage() {
             <p className="text-[15px] leading-[1.85]">
               For these institutions, the priority is usually less about enterprise-scale core
               banking replacement, and more about getting financing workflows, documentation and
-              governance right from day one — the fundamentals covered in{" "}
+              governance right from day one, the fundamentals covered in{" "}
               <Link href="/insights/islamic-banking-software-guide" style={{ color: "var(--gold)", fontWeight: 600 }}>our Islamic banking software guide</Link>{" "}
               and{" "}
               <Link href="/insights/shariah-compliant-banking-software" style={{ color: "var(--gold)", fontWeight: 600 }}>how Shariah-compliant banking software supports governance</Link>.
@@ -98,7 +98,7 @@ export default function ArticlePage() {
             <p className="text-[15px] leading-[1.85]">
               <Link href="/amanah-ai" style={{ color: "var(--gold)", fontWeight: 600 }}>Aylinor</Link> is
               being developed by Daeson Technologies as a support layer intended for institutional
-              teams of this kind — organizing Murabaha contract analysis, governance documentation
+              teams of this kind, organizing Murabaha contract analysis, governance documentation
               and audit trails without requiring a full core banking replacement.
             </p>
           </div>

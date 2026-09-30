@@ -7,7 +7,7 @@ import { ArrowRight, ArrowLeft } from "lucide-react";
 export const metadata: Metadata = {
   title: "How to Vet an Islamic Banking Software Provider",
   description:
-    "What separates a credible Islamic banking software provider from one that has simply relabeled a conventional platform — a short vetting guide.",
+    "What separates a credible Islamic banking software provider from one that has simply relabeled a conventional platform, a short vetting guide.",
   keywords: ["Islamic banking software provider", "Islamic finance technology provider", "Shariah compliance software provider", "Aylinor"],
   alternates: { canonical: "https://daesontechnologies.online/insights/islamic-banking-software-provider" },
   openGraph: {
@@ -21,7 +21,7 @@ const articleSchema = {
   "@type": "Article",
   headline: "How to Vet an Islamic Banking Software Provider",
   description:
-    "What separates a credible Islamic banking software provider from one that has simply relabeled a conventional platform — a short vetting guide.",
+    "What separates a credible Islamic banking software provider from one that has simply relabeled a conventional platform, a short vetting guide.",
   author: { "@type": "Organization", name: "Daeson Technologies", url: "https://daesontechnologies.online" },
   publisher: { "@type": "Organization", name: "Daeson Technologies", url: "https://daesontechnologies.online" },
   url: "https://daesontechnologies.online/insights/islamic-banking-software-provider",
@@ -73,7 +73,7 @@ export default function ArticlePage() {
               <p className="text-[12px] font-bold uppercase tracking-widest mb-2" style={{ color: "var(--gold)" }}>The short answer</p>
               <p className="text-[15px] leading-relaxed" style={{ color: "var(--text-primary)" }}>
                 A credible Islamic banking software provider should be able to explain, in detail,
-                how their system handles the contractual mechanics of your actual products — not
+                how their system handles the contractual mechanics of your actual products, not
                 just confirm that it supports &quot;Murabaha&quot; or &quot;Ijarah&quot; as line
                 items on a feature list.
               </p>
@@ -86,8 +86,8 @@ export default function ArticlePage() {
               past the surface terminology.
             </p>
             <p className="text-[15px] leading-[1.85]">
-              Ask for a demonstration built around a real or representative case — not a slide
-              deck — and request references from institutions using the same product structures
+              Ask for a demonstration built around a real or representative case, not a slide
+              deck, and request references from institutions using the same product structures
               you need. We outline a fuller vetting checklist in{" "}
               <Link href="/insights/best-islamic-banking-software-commercial-banks" style={{ color: "var(--gold)", fontWeight: 600 }}>choosing the best Islamic banking software for commercial banks</Link>{" "}
               and in{" "}

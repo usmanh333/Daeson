@@ -5,7 +5,7 @@ import Link from "next/link";
 import { ArrowRight, Download } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Research Center — Whitepapers & Reports",
+  title: "Research Center: Whitepapers & Reports",
   description:
     "Daeson Technologies Research Center: whitepapers on real estate technology, Islamic finance AI, enterprise workflow automation, and operational intelligence. Executive briefings and industry reports for enterprise decision-makers.",
   alternates: { canonical: "https://daesontechnologies.online/research" },
@@ -16,7 +16,7 @@ const publishedWhitepapers = [
     category: "Islamic Finance & AI",
     title: "AI and Shariah Compliance in the Next Generation of Financial Technology",
     description:
-      "An in-depth examination of how artificial intelligence is reshaping Shariah compliance infrastructure across Islamic financial institutions — covering governance frameworks, contract analysis automation, and the regulatory implications for next-generation Islamic fintech.",
+      "An in-depth examination of how artificial intelligence is reshaping Shariah compliance infrastructure across Islamic financial institutions, covering governance frameworks, contract analysis automation, and the regulatory implications for next-generation Islamic fintech.",
     pages: "Published · Available Now",
     audience: "Islamic bank executives, Shariah compliance officers, Islamic fintech leaders",
     topics: ["AI governance in Islamic finance", "Shariah compliance automation", "Next-gen fintech infrastructure", "Regulatory implications"],
@@ -26,7 +26,7 @@ const publishedWhitepapers = [
     category: "GCC SME Finance",
     title: "The Rise of AI Financial Copilots for SMEs in the GCC",
     description:
-      "How AI-powered financial copilots are transforming SME access to financial intelligence, working capital management, and decision support across the Gulf Cooperation Council — with analysis of market readiness and adoption barriers.",
+      "How AI-powered financial copilots are transforming SME access to financial intelligence, working capital management, and decision support across the Gulf Cooperation Council, with analysis of market readiness and adoption barriers.",
     pages: "Published · Available Now",
     audience: "SME operators, fintech investors, GCC financial institutions",
     topics: ["AI financial copilots", "SME financing in GCC", "Working capital intelligence", "Gulf market analysis"],
@@ -36,7 +36,7 @@ const publishedWhitepapers = [
     category: "Digital Finance Infrastructure",
     title: "The Infrastructure Gap in SME Digital Finance in the GCC",
     description:
-      "A data-driven assessment of the technology infrastructure deficit facing SMEs across GCC markets — examining the gap between enterprise-grade digital finance tools and what is actually available to small and mid-sized businesses in the region.",
+      "A data-driven assessment of the technology infrastructure deficit facing SMEs across GCC markets, examining the gap between enterprise-grade digital finance tools and what is actually available to small and mid-sized businesses in the region.",
     pages: "Published · Available Now",
     audience: "Policymakers, fintech operators, GCC banking executives, SME finance leaders",
     topics: ["SME digital finance gap", "GCC infrastructure deficit", "Fintech accessibility", "Market opportunity analysis"],
@@ -49,7 +49,7 @@ const whitepapers = [
     category: "Real Estate Technology",
     title: "The Operational Infrastructure Gap in Modern Real Estate Firms",
     description:
-      "How fragmented SaaS stacks are creating data silos, reporting overhead, and strategic blind spots in real estate operations — and what owned infrastructure looks like as an alternative.",
+      "How fragmented SaaS stacks are creating data silos, reporting overhead, and strategic blind spots in real estate operations, and what owned infrastructure looks like as an alternative.",
     pages: "18 pages",
     audience: "Real estate executives, COOs, technology leaders",
     topics: ["SaaS fragmentation analysis", "Operational infrastructure architecture", "ROI of owned systems", "Migration strategy"],
@@ -59,7 +59,7 @@ const whitepapers = [
     category: "Islamic Finance Technology",
     title: "AI and Shariah Compliance: Automating the Operational Layer of Islamic Finance",
     description:
-      "A framework for how AI can responsibly automate the documentation, workflow, and audit functions of Shariah compliance — while preserving the primacy of human scholarly judgment in substantive rulings.",
+      "A framework for how AI can responsibly automate the documentation, workflow, and audit functions of Shariah compliance, while preserving the primacy of human scholarly judgment in substantive rulings.",
     pages: "24 pages",
     audience: "Islamic bank executives, Shariah compliance officers, Islamic fintech leaders",
     topics: ["Murabaha digitization framework", "AI governance in Islamic finance", "Scholar review workflow design", "Compliance audit architecture"],
@@ -69,7 +69,7 @@ const whitepapers = [
     category: "Enterprise Operations",
     title: "Operational Intelligence: Moving Beyond Dashboards to Decision Infrastructure",
     description:
-      "Why most enterprise analytics implementations fail to drive decision quality — and what distinguishes operational intelligence systems that actually change how leadership teams make decisions.",
+      "Why most enterprise analytics implementations fail to drive decision quality, and what distinguishes operational intelligence systems that actually change how leadership teams make decisions.",
     pages: "16 pages",
     audience: "C-suite executives, operations directors, enterprise technology leaders",
     topics: ["Operational intelligence vs. BI", "Decision infrastructure design", "AI integration patterns", "Governance-sensitive analytics"],
@@ -79,7 +79,7 @@ const whitepapers = [
     category: "Workflow Automation",
     title: "Beyond RPA: Building Intelligent Workflow Systems for Enterprise Operations",
     description:
-      "The limitations of robotic process automation for complex operational environments — and why intelligent, owned workflow systems produce superior outcomes for enterprise organizations.",
+      "The limitations of robotic process automation for complex operational environments, and why intelligent, owned workflow systems produce superior outcomes for enterprise organizations.",
     pages: "20 pages",
     audience: "Operations executives, digital transformation leaders, technology architects",
     topics: ["RPA vs. intelligent workflows", "Workflow design methodology", "AI integration in workflows", "Change management approach"],
@@ -89,7 +89,7 @@ const whitepapers = [
 
 const reports = [
   {
-    title: "Real Estate Technology Adoption in GCC Markets — 2025 Outlook",
+    title: "Real Estate Technology Adoption in GCC Markets, 2025 Outlook",
     type: "Industry Report",
     description: "Analysis of technology adoption patterns in UAE and GCC real estate markets, with focus on operational infrastructure maturity.",
     href: "/contact?topic=report-gcc-re",
@@ -123,7 +123,7 @@ const faqSchema = {
       name: "What research does Daeson Technologies publish?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Daeson Technologies publishes whitepapers, industry reports, and executive briefings focused on real estate technology, Islamic finance AI, enterprise workflow automation, and operational intelligence. Our research is practitioner-focused — designed for enterprise decision-makers, not academic audiences.",
+        text: "Daeson Technologies publishes whitepapers, industry reports, and executive briefings focused on real estate technology, Islamic finance AI, enterprise workflow automation, and operational intelligence. Our research is practitioner-focused, designed for enterprise decision-makers, not academic audiences.",
       },
     },
     {
@@ -148,7 +148,7 @@ const faqSchema = {
 const pageSchema = {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  name: "Research Center — Daeson Technologies",
+  name: "Research Center | Daeson Technologies",
   url: "https://daesontechnologies.online/research",
   isPartOf: { "@id": "https://daesontechnologies.online/#website" },
   breadcrumb: {
@@ -190,7 +190,7 @@ export default function ResearchPage() {
           </p>
         </div>
 
-        {/* Published Whitepapers — real downloads */}
+        {/* Published Whitepapers, real downloads */}
         <div id="whitepapers" style={{ borderTop: "1px solid var(--border)", borderBottom: "1px solid var(--border)" }}>
           <div className="max-w-5xl mx-auto px-6 py-20">
             <div className="flex items-end justify-between mb-12">
@@ -202,7 +202,7 @@ export default function ResearchPage() {
                   Available for Immediate Download
                 </h2>
                 <p className="text-[13px] mt-2" style={{ color: "var(--text-muted)" }}>
-                  Download directly — no sign-up required.
+                  Download directly, no sign-up required.
                 </p>
               </div>
               <span
@@ -273,7 +273,7 @@ export default function ResearchPage() {
           </div>
         </div>
 
-        {/* Whitepapers — request access library */}
+        {/* Whitepapers, request access library */}
         <div className="section-light" style={{ backgroundColor: "var(--bg-surface)", borderTop: "1px solid var(--border)", borderBottom: "1px solid var(--border)" }}>
           <div className="max-w-5xl mx-auto px-6 py-20">
             <div className="flex items-end justify-between mb-12">

@@ -14,9 +14,9 @@ export const metadata: Metadata = {
 const challenges = [
   { title: "Third-Party Dependency on Critical Financial Flows", body: "Relying on payment processors and financial infrastructure vendors for core transaction flows creates dependency on third-party pricing, availability, and feature decisions." },
   { title: "Generic Platforms Not Built for Specific Workflows", body: "Off-the-shelf payment and wallet platforms weren't designed for the specific transaction types, currencies, and compliance requirements of every fintech product." },
-  { title: "Regulatory Compliance Complexity", body: "Financial technology operates under multiple regulatory frameworks — KYC/AML, PCI-DSS, local financial services regulations. Generic platforms provide compliance features that often need significant customization." },
+  { title: "Regulatory Compliance Complexity", body: "Financial technology operates under multiple regulatory frameworks: KYC/AML, PCI-DSS, local financial services regulations. Generic platforms provide compliance features that often need significant customization." },
   { title: "Multi-Currency & Cross-Border Complexity", body: "Fintech products operating across multiple markets require sophisticated multi-currency handling, cross-border transaction management, and currency reconciliation that generic platforms handle inconsistently." },
-  { title: "Reconciliation Overhead", body: "Financial operations teams in fintech companies typically spend significant time on manual reconciliation between payment processors, bank accounts, and internal ledgers — creating operational overhead and audit risk." },
+  { title: "Reconciliation Overhead", body: "Financial operations teams in fintech companies typically spend significant time on manual reconciliation between payment processors, bank accounts, and internal ledgers, creating operational overhead and audit risk." },
   { title: "Scaling Costs", body: "Transaction fee structures from third-party payment infrastructure become increasingly expensive at scale. Custom-built infrastructure eliminates per-transaction fees on internal flows." },
 ];
 
@@ -31,16 +31,16 @@ const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   mainEntity: [
-    { "@type": "Question", name: "What is custom fintech infrastructure development?", acceptedAnswer: { "@type": "Answer", text: "Custom fintech infrastructure development refers to building purpose-built payment systems, wallet platforms, and financial operations technology specifically for a company's products and workflows — rather than relying on third-party platforms. Custom infrastructure gives the organization full control over transaction logic, compliance implementation, and operational features, without per-transaction fees or vendor limitations." } },
+    { "@type": "Question", name: "What is custom fintech infrastructure development?", acceptedAnswer: { "@type": "Answer", text: "Custom fintech infrastructure development refers to building purpose-built payment systems, wallet platforms, and financial operations technology specifically for a company's products and workflows, rather than relying on third-party platforms. Custom infrastructure gives the organization full control over transaction logic, compliance implementation, and operational features, without per-transaction fees or vendor limitations." } },
     { "@type": "Question", name: "When does a company need custom payment infrastructure?", acceptedAnswer: { "@type": "Answer", text: "Companies typically need custom payment infrastructure when: (1) third-party fees at scale become prohibitive, (2) the product requires transaction logic or compliance features that generic platforms can't support, (3) the company operates in multiple markets with complex regulatory requirements, (4) there is a strategic need to own the core financial infrastructure of the business, or (5) the company is building a financial product where the payment layer is a core differentiator." } },
-    { "@type": "Question", name: "What is wallet infrastructure?", acceptedAnswer: { "@type": "Answer", text: "Wallet infrastructure refers to the back-end systems that power digital wallet products — including balance management, transfer processing, KYC/AML compliance, transaction history, and payment flows. Purpose-built wallet infrastructure is designed around the specific product requirements and regulatory environment rather than using a generic wallet-as-a-service platform." } },
+    { "@type": "Question", name: "What is wallet infrastructure?", acceptedAnswer: { "@type": "Answer", text: "Wallet infrastructure refers to the back-end systems that power digital wallet products, including balance management, transfer processing, KYC/AML compliance, transaction history, and payment flows. Purpose-built wallet infrastructure is designed around the specific product requirements and regulatory environment rather than using a generic wallet-as-a-service platform." } },
   ],
 };
 
 const pageSchema = {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  name: "Fintech Infrastructure — Daeson Technologies",
+  name: "Fintech Infrastructure | Daeson Technologies",
   url: "https://daesontechnologies.online/industries/fintech",
   isPartOf: { "@id": "https://daesontechnologies.online/#website" },
   breadcrumb: {
@@ -69,7 +69,7 @@ export default function FintechPage() {
           </h1>
           <p className="text-[16px] leading-relaxed max-w-2xl mb-8" style={{ color: "var(--text-secondary)" }}>
             Payment systems, wallet infrastructure, and financial operations platforms built to your
-            exact requirements — fully owned, with no third-party dependency on critical financial flows.
+            exact requirements, fully owned, with no third-party dependency on critical financial flows.
           </p>
           <div className="flex flex-wrap gap-3">
             <Link href="/contact" className="inline-flex items-center gap-2 px-6 py-3.5 text-[14px] font-semibold rounded-xl" style={{ backgroundColor: "var(--green)", color: "var(--on-blue)" }}>

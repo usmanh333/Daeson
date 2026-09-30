@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
+import { PRODUCT_URLS, linkTargetProps } from "@/lib/products";
 
 const pillars = [
   {
@@ -23,7 +24,7 @@ const pillars = [
   },
   {
     number: "02",
-    title: "Aylinor — Islamic Finance Intelligence",
+    title: "Aylinor: Islamic Finance Intelligence",
     description:
       "AI-supported Shariah compliance infrastructure that streamlines contract analysis, governance workflows, and regulatory reporting for Islamic financial institutions. Currently in strategic development with Shariah advisory collaboration.",
     outcomes: [
@@ -32,16 +33,16 @@ const pillars = [
       "Compliance audit trail generation",
       "Multi-market regulatory reporting",
     ],
-    href: "/amanah-ai",
-    color: "var(--gold)",
-    rawColor: "#D4AF37",
+    href: PRODUCT_URLS.aylinor,
+    color: "var(--blue)",
+    rawColor: "#888888",
     label: "Islamic Finance",
   },
   {
     number: "03",
     title: "Enterprise AI Workflow Systems",
     description:
-      "Custom AI workflow systems that connect your operational data, automate intelligence, and give leadership the visibility needed to make execution-level decisions — replacing disconnected tools with owned infrastructure.",
+      "Custom AI workflow systems that connect your operational data, automate intelligence, and give leadership the visibility needed to make execution-level decisions, replacing disconnected tools with owned infrastructure.",
     outcomes: [
       "Cross-department workflow automation",
       "AI-integrated operational dashboards",
@@ -89,7 +90,7 @@ export default function WhatWeBuild() {
               <span style={{ color: "var(--text-secondary)", fontWeight: 600 }}>One Systems Approach.</span>
             </h2>
             <p className="text-[15px] leading-relaxed max-w-lg" style={{ color: "var(--text-secondary)" }}>
-              Every system we build is designed around your specific workflows — not adapted from a template.
+              Every system we build is designed around your specific workflows, not adapted from a template.
               We specialize in industries that require operational precision.
             </p>
           </div>
@@ -160,7 +161,8 @@ export default function WhatWeBuild() {
                 {/* CTA */}
                 <Link
                   href={pillar.href}
-                  className="flex items-center gap-2 text-[13px] font-semibold transition-colors mt-2 shrink-0"
+                  {...linkTargetProps(pillar.href)}
+                  className="link-hover flex items-center gap-2 text-[13px] font-semibold mt-2 shrink-0"
                   style={{ color: pillar.color }}
                 >
                   Learn more about {pillar.label} <ArrowRight size={14} className="group-hover:translate-x-0.5 transition-transform" />

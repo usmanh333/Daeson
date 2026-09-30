@@ -5,9 +5,9 @@ import { Calendar, CheckCircle } from "lucide-react";
 import ContactForm from "./ContactForm";
 
 export const metadata: Metadata = {
-  title: "Executive Consultation — Start a Conversation",
+  title: "Executive Consultation: Start a Conversation",
   description:
-    "Schedule an executive consultation with Daeson Technologies. We map your operations, identify infrastructure gaps, and present a clear architectural approach — no commitment required.",
+    "Schedule an executive consultation with Daeson Technologies. We map your operations, identify infrastructure gaps, and present a clear architectural approach, no commitment required.",
   alternates: { canonical: "https://daesontechnologies.online/contact" },
 };
 
@@ -20,12 +20,12 @@ const process = [
   {
     n: "02",
     title: "Infrastructure Assessment",
-    desc: "We evaluate what you own versus what you rent — and calculate the long-term cost of the status quo.",
+    desc: "We evaluate what you own versus what you rent, and calculate the long-term cost of the status quo.",
   },
   {
     n: "03",
     title: "Architectural Approach",
-    desc: "We present a systems design tailored to your specific workflows. Not a generic proposal — a real plan.",
+    desc: "We present a systems design tailored to your specific workflows. Not a generic proposal, a real plan.",
   },
   {
     n: "04",
@@ -60,7 +60,7 @@ export default function ContactPage() {
             </h1>
             <p className="text-[16px] leading-relaxed max-w-xl mx-auto" style={{ color: "var(--text-secondary)" }}>
               A complimentary session where we understand your operations, identify where systems are
-              failing you, and present a concrete architectural approach — before any commitment.
+              failing you, and present a concrete architectural approach, before any commitment.
             </p>
           </div>
         </section>
@@ -70,7 +70,7 @@ export default function ContactPage() {
         <section className="px-6 pb-24">
           <div className="max-w-6xl mx-auto grid md:grid-cols-[1fr_1.1fr] gap-14 items-start">
 
-            {/* Left — Info */}
+            {/* Left: Info */}
             <div>
               {/* Process */}
               <div className="mb-10">
@@ -101,7 +101,7 @@ export default function ContactPage() {
                   "No commitment required",
                   "Founder-led session",
                   "Architecture provided",
-                  "24–48hr response",
+                  "24 to 48hr response",
                 ].map((item) => (
                   <div
                     key={item}
@@ -157,7 +157,7 @@ export default function ContactPage() {
                   {
                     label: "Founder Conversations",
                     email: "mahnoorzafar@daesontechnologies.online",
-                    desc: "Strategic conversations — handled personally by Mahnoor",
+                    desc: "Strategic conversations, handled personally by Mahnoor",
                   },
                 ].map((contact) => (
                   <div
@@ -181,7 +181,7 @@ export default function ContactPage() {
               </div>
             </div>
 
-            {/* Right — Form */}
+            {/* Right: Form */}
             <ContactForm />
           </div>
         </section>

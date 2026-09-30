@@ -37,27 +37,27 @@ const signals = [
   {
     n: "01",
     title: "Your comps are only as good as your last conversation",
-    body: "Opaque pricing is the default state of real estate, not a temporary inconvenience. Every deal-by-deal investor rebuilds their pricing picture from scratch — calling brokers, cross-referencing whatever public data exists, and hoping nothing material changed since the last comparable closed. A platform approach flips this: every deal that runs through a centralized system adds to an internal, proprietary comp base that gets more defensible over time, not less.",
+    body: "Opaque pricing is the default state of real estate, not a temporary inconvenience. Every deal-by-deal investor rebuilds their pricing picture from scratch, calling brokers, cross-referencing whatever public data exists, and hoping nothing material changed since the last comparable closed. A platform approach flips this: every deal that runs through a centralized system adds to an internal, proprietary comp base that gets more defensible over time, not less.",
   },
   {
     n: "02",
     title: "Deal sourcing is a full-time job you didn't budget for",
-    body: "“Hard to source matching deal flow” is really a matching problem, not a sourcing problem. There's no shortage of listed inventory — there's a shortage of inventory that matches your actual investment thesis, surfaced fast enough to act on before someone else does. This is precisely where AI-driven matching earns its keep: scoring and surfacing the properties that fit continuously, so your team's time goes to evaluation, not filtering.",
+    body: "“Hard to source matching deal flow” is really a matching problem, not a sourcing problem. There's no shortage of listed inventory, there's a shortage of inventory that matches your actual investment thesis, surfaced fast enough to act on before someone else does. This is precisely where AI-driven matching earns its keep: scoring and surfacing the properties that fit continuously, so your team's time goes to evaluation, not filtering.",
   },
   {
     n: "03",
     title: "Rate volatility punishes slow decisions more than wrong ones",
-    body: "In a volatile rate environment, timing uncertainty compounds. The investor who can see portfolio-wide exposure, deal-stage timing, and capital deployment in real time can make a defensible call quickly. The investor waiting on a quarterly spreadsheet update is making decisions on stale information by definition — live visibility beats periodic reporting every time rates are moving.",
+    body: "In a volatile rate environment, timing uncertainty compounds. The investor who can see portfolio-wide exposure, deal-stage timing, and capital deployment in real time can make a defensible call quickly. The investor waiting on a quarterly spreadsheet update is making decisions on stale information by definition, live visibility beats periodic reporting every time rates are moving.",
   },
   {
     n: "04",
     title: "Due diligence speed is a function of how your data already lives",
-    body: "Slow due diligence is rarely about effort — it's about data that has to be reconstructed for every single deal because nothing was centralized the first time. A platform where deal history, documents, and communications already live in one system doesn't eliminate diligence. It removes the reconstruction tax that makes diligence slow.",
+    body: "Slow due diligence is rarely about effort, it's about data that has to be reconstructed for every single deal because nothing was centralized the first time. A platform where deal history, documents, and communications already live in one system doesn't eliminate diligence. It removes the reconstruction tax that makes diligence slow.",
   },
   {
     n: "05",
     title: "LPs want one defensible source of truth, not fragmented advisors",
-    body: "Fragmented advisory relationships aren't really a relationship problem — they're a reporting problem. When every advisor, broker, and internal team member works from a different version of the deal, LP reporting inherits that fragmentation. A centralized platform doesn't require consolidating who you work with — it requires consolidating what they're all looking at.",
+    body: "Fragmented advisory relationships aren't really a relationship problem, they're a reporting problem. When every advisor, broker, and internal team member works from a different version of the deal, LP reporting inherits that fragmentation. A centralized platform doesn't require consolidating who you work with, it requires consolidating what they're all looking at.",
   },
 ];
 
@@ -118,7 +118,7 @@ export default function ArticlePage() {
                 There's no universal deal-count where a platform becomes mandatory. The moment your
                 time is being spent re-deriving information you already generated on a previous deal,
                 you've crossed from "one-off" into "needs infrastructure." Below that threshold, a
-                platform is overhead. Above it, the absence of one is the actual cost center — just one
+                platform is overhead. Above it, the absence of one is the actual cost center, just one
                 that doesn't show up as a line item.
               </p>
             </div>
@@ -133,7 +133,7 @@ export default function ArticlePage() {
               This works. Until it doesn&apos;t.
             </p>
             <p className="text-[15px] leading-[1.85]">
-              The question isn&apos;t whether one-off deals are a legitimate strategy — they are, and
+              The question isn&apos;t whether one-off deals are a legitimate strategy, they are, and
               plenty of disciplined investors run entire portfolios this way. The real question is when
               the cost of doing it deal-by-deal starts to exceed the cost of building the infrastructure
               to do it systematically.
@@ -168,7 +168,7 @@ export default function ArticlePage() {
               is consistent: the moment your time is being spent re-deriving information you already
               generated on a previous deal, you&apos;ve crossed from &quot;one-off&quot; into &quot;needs
               infrastructure.&quot; Below that threshold, a platform is overhead. Above it, the absence
-              of one is the actual cost center — just one that doesn&apos;t show up as a line item.
+              of one is the actual cost center, just one that doesn&apos;t show up as a line item.
             </p>
 
             <h2 className="text-[24px] font-bold tracking-tight pt-4" style={{ color: "var(--text-primary)" }}>
@@ -176,7 +176,7 @@ export default function ArticlePage() {
             </h2>
             <p className="text-[15px] leading-[1.85]">
               This is exactly the gap <strong style={{ color: "var(--text-primary)" }}>LuxeProperty AI</strong> is
-              built to close — a real estate operating platform with AI-driven lead and deal matching, a
+              built to close, a real estate operating platform with AI-driven lead and deal matching, a
               unified pipeline that doesn&apos;t reset with every new deal, and live investor dashboards
               built for exactly the kind of defensible, real-time LP reporting described above. It&apos;s
               built to be owned by the firm running it, not rented as a subscription that disappears the
@@ -185,7 +185,7 @@ export default function ArticlePage() {
             <p className="text-[15px] leading-[1.85]">
               For firms whose platform strategy extends into holding and operating residential assets
               after acquisition, <strong style={{ color: "var(--text-primary)" }}>Home 1.0</strong> handles
-              that next stage — tenant management, AI-driven tenant support, and payment operations for
+              that next stage, tenant management, AI-driven tenant support, and payment operations for
               the portfolio once it&apos;s live.
             </p>
 
@@ -223,7 +223,7 @@ export default function ArticlePage() {
                 Weighing a platform for your portfolio?
               </h2>
               <p className="text-[14px] leading-relaxed mb-7 max-w-lg mx-auto" style={{ color: "var(--text-secondary)" }}>
-                We start every engagement with operational discovery — mapping where deal-by-deal
+                We start every engagement with operational discovery, mapping where deal-by-deal
                 execution is already costing you time, and where owned infrastructure pays for itself.
               </p>
               <div className="flex flex-wrap gap-4 justify-center">

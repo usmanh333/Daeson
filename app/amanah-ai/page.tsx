@@ -5,9 +5,9 @@ import Link from "next/link";
 import { ArrowRight, Download, FileText } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Aylinor — Shariah Compliance Infrastructure",
+  title: "Aylinor: Shariah Compliance Infrastructure",
   description:
-    "Aylinor is Daeson Technologies' AI-powered infrastructure platform for Islamic financial institutions. It automates Shariah compliance workflows including Murabaha contract analysis, governance documentation, and scholar review queues — currently in strategic development with Shariah advisory collaboration.",
+    "Aylinor is Daeson Technologies' AI-powered Shariah compliance intelligence platform for Islamic financial institutions, from microfinance banks to commercial banks. Contact us for full platform access.",
   keywords: [
     "Aylinor",
     "Islamic finance AI",
@@ -21,9 +21,9 @@ export const metadata: Metadata = {
     "Daeson Technologies",
   ],
   openGraph: {
-    title: "Aylinor — Islamic Finance Shariah Compliance Infrastructure | Daeson Technologies",
+    title: "Aylinor: Islamic Finance Shariah Compliance Infrastructure | Daeson Technologies",
     description:
-      "AI-powered Shariah compliance infrastructure for Islamic financial institutions. Automates Murabaha contract analysis, governance documentation, and compliance audit trails — in strategic development with Shariah advisory collaboration.",
+      "AI-powered Shariah compliance intelligence for Islamic financial institutions. Contact us for full platform access.",
     url: "https://daesontechnologies.online/amanah-ai",
   },
   alternates: {
@@ -40,7 +40,7 @@ const faqSchema = {
       name: "What is Aylinor?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Aylinor is Daeson Technologies' AI-powered infrastructure platform for Islamic financial institutions. It automates Shariah compliance workflows — including Murabaha contract analysis, governance documentation, scholar review queues, and regulatory reporting. It is currently in strategic development in collaboration with Shariah advisory expertise.",
+        text: "Aylinor is Daeson Technologies' AI-powered infrastructure platform for Islamic financial institutions. It supports Shariah compliance teams with Murabaha contract analysis, governance documentation and audit trails. Full platform access is available to institutions on request.",
       },
     },
     {
@@ -48,7 +48,7 @@ const faqSchema = {
       name: "What is Murabaha workflow digitization?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Murabaha workflow digitization refers to replacing manual, paper-based Murabaha financing processes with structured digital workflows. This includes automated contract parsing, compliance checklist execution, documentation generation, and audit trail creation — allowing Islamic financial institutions to process contracts faster with consistent Shariah alignment and full auditability.",
+        text: "Murabaha workflow digitization refers to replacing manual, paper-based Murabaha financing processes with structured digital workflows. This includes automated contract parsing, compliance checklist execution, documentation generation, and audit trail creation, allowing Islamic financial institutions to process contracts faster with consistent Shariah alignment and full auditability.",
       },
     },
     {
@@ -56,31 +56,15 @@ const faqSchema = {
       name: "How does AI support Shariah compliance without replacing scholars?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "AI supports Shariah compliance by automating the operational burden — document parsing, contract classification, risk flagging, and compliance report generation — so Shariah scholars can focus on substantive jurisprudential decisions rather than manual review. The scholar remains the final governance authority; AI provides structured, consistent information to inform their judgment.",
+        text: "AI supports Shariah compliance by automating the operational burden, document parsing, contract classification, risk flagging, and compliance report generation, so Shariah scholars can focus on substantive jurisprudential decisions rather than manual review. The scholar remains the final governance authority; AI provides structured, consistent information to inform their judgment.",
       },
     },
     {
       "@type": "Question",
-      name: "Is Aylinor currently live?",
+      name: "How do I get access to Aylinor?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Aylinor is currently in strategic development. Daeson Technologies is building the platform in collaboration with Shariah advisory expertise to ensure the system accurately reflects scholarly consensus and institutional governance requirements. The platform is not yet deployed as a commercial product.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "What Islamic financial products does Aylinor support?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Aylinor is being designed to support Murabaha financing workflows, Ijarah (lease-based financing) documentation, Sukuk compliance reporting, Wakala (agency) contract management, and general Shariah governance audit infrastructure. The platform is intended for Islamic banks, Islamic fintech companies, investment funds, and payment institutions.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Which markets is Aylinor designed for?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Aylinor is being developed for Islamic financial institutions operating across GCC markets (UAE, Saudi Arabia, Kuwait, Bahrain), Pakistan, Malaysia, and UK-based Islamic finance entities. The platform is designed to accommodate multi-market regulatory environments and multiple scholarly board structures.",
+        text: "Full platform access is provided directly to institutions. Contact Daeson Technologies for a private walkthrough, and our team will share full platform details and access for your institution.",
       },
     },
   ],
@@ -91,7 +75,7 @@ const webPageSchema = {
   "@type": "WebPage",
   "@id": "https://daesontechnologies.online/amanah-ai",
   url: "https://daesontechnologies.online/amanah-ai",
-  name: "Aylinor — Islamic Finance Shariah Compliance Infrastructure",
+  name: "Aylinor: Islamic Finance Shariah Compliance Infrastructure",
   description:
     "AI-powered Shariah compliance infrastructure for Islamic financial institutions. Automates Murabaha contract analysis, governance documentation, and compliance audit trails.",
   isPartOf: { "@id": "https://daesontechnologies.online/#website" },
@@ -108,12 +92,9 @@ const webPageSchema = {
     description:
       "AI-assisted Shariah compliance infrastructure for Islamic financial institutions. Automates contract analysis, governance documentation, and scholar review queues.",
     featureList: [
-      "Murabaha contract analysis and parsing",
-      "Shariah compliance audit trail generation",
-      "Scholar governance documentation",
-      "Multi-market regulatory reporting",
-      "Ijarah and Sukuk workflow support",
-      "Islamic finance risk flagging",
+      "Murabaha contract analysis",
+      "Shariah governance documentation",
+      "Compliance audit trails",
     ],
   },
 };
@@ -121,39 +102,15 @@ const webPageSchema = {
 const capabilities = [
   {
     title: "Murabaha Contract Analysis",
-    color: "#D4AF37",
-    description:
-      "Structured parsing and compliance review of Murabaha financing contracts. The system identifies clause-level compliance gaps, flags discrepancies, and generates structured review documentation for scholar approval — replacing manual reading with consistent, auditable analysis.",
+    description: "Faster, more consistent Murabaha review, with the scholar keeping the final say.",
   },
   {
-    title: "Scholar Governance Documentation",
-    color: "#D4AF37",
-    description:
-      "Automated generation of Shariah board documentation, fatwa reference mapping, and governance audit reports. Scholars receive structured briefing packages rather than raw contracts — reducing review time while improving documentation quality.",
+    title: "Shariah Governance Documentation",
+    description: "Governance records organized and ready for your Shariah board.",
   },
   {
-    title: "Compliance Audit Trail",
-    color: "#D4AF37",
-    description:
-      "Every compliance decision, review note, and approval is recorded in a structured, timestamped audit trail. This supports internal governance reviews, regulatory audits, and external Shariah board reporting with full documentation integrity.",
-  },
-  {
-    title: "Multi-Market Regulatory Reporting",
-    color: "#D4AF37",
-    description:
-      "Reporting frameworks for GCC, Pakistan, Malaysia, and UK Islamic finance regulatory environments. Configurable to different scholarly board structures and market-specific compliance requirements without manual reformatting.",
-  },
-  {
-    title: "Islamic Finance Risk Flagging",
-    color: "#D4AF37",
-    description:
-      "AI-powered identification of Shariah non-compliance risks in financing structures, contract terms, and operational workflows — surfaced as structured alerts for compliance teams and scholars before contract execution.",
-  },
-  {
-    title: "Ijarah & Sukuk Workflow Support",
-    color: "#D4AF37",
-    description:
-      "Workflow infrastructure extending beyond Murabaha to support Ijarah lease documentation, Sukuk issuance compliance, and Wakala agency contract management — purpose-built for the full spectrum of Islamic financial products.",
+    title: "Compliance Audit Trails",
+    description: "Every decision traceable, from contract intake to approval.",
   },
 ];
 
@@ -178,27 +135,23 @@ const outcomes = [
 const faqs = [
   {
     q: "What is Aylinor?",
-    a: "Aylinor is Daeson Technologies' AI-powered infrastructure platform for Islamic financial institutions. It automates Shariah compliance workflows — including Murabaha contract analysis, governance documentation, scholar review queues, and regulatory reporting. It is currently in strategic development in collaboration with Shariah advisory expertise.",
+    a: "Aylinor is Daeson Technologies' AI-powered infrastructure platform for Islamic financial institutions. It supports Shariah compliance teams with Murabaha contract analysis, governance documentation and audit trails. Full platform access is available to institutions on request.",
   },
   {
     q: "What is Murabaha workflow digitization and why does it matter?",
-    a: "Murabaha is one of the most common Islamic financing structures, involving a cost-plus-profit sale arrangement. In most institutions, Murabaha workflows remain largely manual — contracts reviewed line-by-line, documentation compiled manually, scholar approval tracked through email. Digitization means replacing this with structured, automated workflows that parse contracts, execute compliance checklists, generate documentation, and maintain full audit trails — making the process faster, more consistent, and auditable at scale.",
+    a: "Murabaha is one of the most common Islamic financing structures, involving a cost-plus-profit sale arrangement. In most institutions, Murabaha workflows remain largely manual, contracts reviewed line-by-line, documentation compiled manually, scholar approval tracked through email. Digitization means replacing this with structured, automated workflows that parse contracts, execute compliance checklists, generate documentation, and maintain full audit trails, making the process faster, more consistent, and auditable at scale.",
   },
   {
     q: "How does AI support Shariah compliance without replacing scholars?",
-    a: "AI supports Shariah compliance by automating the operational layer — document parsing, contract classification, risk flagging, and compliance report generation — so Shariah scholars can focus on substantive jurisprudential decisions. The scholar remains the final governance authority; AI provides structured, consistent information to inform their judgment rather than replacing it. This is the same role a well-trained compliance analyst plays, but at greater scale and consistency.",
+    a: "AI supports Shariah compliance by automating the operational layer, document parsing, contract classification, risk flagging, and compliance report generation, so Shariah scholars can focus on substantive jurisprudential decisions. The scholar remains the final governance authority; AI provides structured, consistent information to inform their judgment rather than replacing it. This is the same role a well-trained compliance analyst plays, but at greater scale and consistency.",
   },
   {
-    q: "Is Aylinor currently available?",
-    a: "Aylinor is currently in strategic development. Daeson Technologies is building the platform in collaboration with Shariah advisory expertise to ensure it accurately reflects scholarly consensus and institutional governance requirements. The platform is not yet deployed commercially. Institutions interested in the early partnership program can contact us directly.",
-  },
-  {
-    q: "What Islamic financial products does Aylinor support?",
-    a: "The platform is being designed to support Murabaha financing workflows, Ijarah (lease-based financing) documentation, Sukuk compliance reporting, Wakala (agency) contract management, and general Shariah governance audit infrastructure — intended for Islamic banks, Islamic fintech companies, investment funds, and payment institutions.",
+    q: "How do I get access to Aylinor?",
+    a: "Full platform access is provided directly to institutions. Contact Daeson Technologies for a private walkthrough, and our team will share full platform details and access for your institution.",
   },
   {
     q: "Who is Daeson Technologies working with on Shariah advisory?",
-    a: "Daeson Technologies is developing Aylinor in strategic collaboration with Alhamd Shariah Advisory — a dedicated Shariah advisory firm. This ensures the compliance infrastructure is developed with substantive scholarly input, not built as a pure technology product and then validated. The advisory relationship covers contract analysis logic, governance documentation structure, and compliance framework design.",
+    a: "Daeson Technologies is developing Aylinor in strategic collaboration with Alhamd Shariah Advisory, a dedicated Shariah advisory firm, so the platform is built with substantive scholarly input from the start.",
   },
 ];
 
@@ -228,7 +181,7 @@ export default function AmanahAIPage() {
               className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-[11px] font-semibold tracking-widest uppercase mb-8"
               style={{ border: "1px solid rgba(212,175,55,0.25)", backgroundColor: "rgba(212,175,55,0.06)", color: "var(--gold)" }}
             >
-              In Strategic Development
+              Full Platform Access by Request
             </div>
             <h1
               className="text-[42px] md:text-[56px] font-extrabold tracking-tight leading-[1.06] mb-6"
@@ -243,13 +196,12 @@ export default function AmanahAIPage() {
               className="text-[17px] leading-relaxed mb-6 max-w-2xl"
               style={{ color: "var(--text-secondary)" }}
             >
-              Aylinor is an AI-powered operational platform for Islamic financial institutions —
-              automating Murabaha contract analysis, Shariah governance documentation, scholar review
-              workflows, and compliance audit trails. Currently in strategic development with Shariah
-              advisory collaboration.
+              Aylinor is AI-powered Shariah compliance intelligence for Islamic financial institutions,
+              from microfinance banks to commercial banks, from Pakistan to Europe. Full platform details
+              and access are shared directly with institutions.
             </p>
 
-            {/* GEO snippet — Answer block */}
+            {/* GEO snippet: Answer block */}
             <div
               className="rounded-xl p-5 mb-8 border-l-4"
               style={{
@@ -264,8 +216,8 @@ export default function AmanahAIPage() {
               </p>
               <p className="text-[13px] leading-relaxed" style={{ color: "var(--text-secondary)" }}>
                 Aylinor is Daeson Technologies&apos; AI-powered compliance infrastructure platform for
-                Islamic financial institutions. It automates the operational layer of Shariah compliance
-                — contract parsing, documentation, scholar review queues — so scholars can focus on
+                Islamic financial institutions. It automates the operational layer of Shariah compliance,
+                contract parsing, documentation, scholar review queues, so scholars can focus on
                 jurisprudential judgment rather than manual document review.
               </p>
             </div>
@@ -273,10 +225,10 @@ export default function AmanahAIPage() {
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
                 href="/contact"
-                className="inline-flex items-center gap-2 px-6 py-3.5 text-white text-[14px] font-semibold rounded-xl transition-colors"
+                className="inline-flex items-center gap-2 px-6 py-3.5 text-white text-[14px] font-semibold rounded-xl transition-all hover:opacity-90 hover:-translate-y-0.5"
                 style={{ backgroundColor: "var(--gold)" }}
               >
-                Request Early Access Discussion <ArrowRight size={14} />
+                Contact for Full Platform Access <ArrowRight size={14} />
               </Link>
               <Link
                 href="/partnerships"
@@ -300,13 +252,12 @@ export default function AmanahAIPage() {
                 className="px-3 py-1.5 rounded-lg text-[11px] font-bold uppercase tracking-widest shrink-0"
                 style={{ backgroundColor: "rgba(212,175,55,0.1)", color: "var(--gold)", border: "1px solid rgba(212,175,55,0.25)" }}
               >
-                Development Status
+                Platform Access
               </div>
               <p className="text-[13px] leading-relaxed" style={{ color: "var(--text-secondary)" }}>
-                Aylinor is currently in strategic development. We are building in collaboration with{" "}
-                <Link href="/partnerships" style={{ color: "var(--gold)" }}>Alhamd Shariah Advisory</Link>{" "}
-                to ensure the platform is grounded in scholarly consensus before commercial release. This page
-                describes the intended system capabilities.
+                This page is an overview. Full platform details, a private walkthrough and access are shared
+                directly with institutions, {" "}
+                <Link href="/contact" style={{ color: "var(--gold)", fontWeight: 600 }}>contact us for full platform access</Link>.
               </p>
             </div>
           </div>
@@ -332,7 +283,7 @@ export default function AmanahAIPage() {
                 Why Islamic Finance Workflows Remain Manual
               </h2>
               <p className="text-[15px] max-w-2xl leading-relaxed" style={{ color: "var(--text-secondary)" }}>
-                Most Islamic financial institutions rely on manual processes for Shariah compliance — not because
+                Most Islamic financial institutions rely on manual processes for Shariah compliance, not because
                 scholars prefer it, but because purpose-built infrastructure has not existed. The result is
                 bottlenecks, inconsistency, and audit exposure.
               </p>
@@ -403,14 +354,14 @@ export default function AmanahAIPage() {
                     <strong style={{ color: "var(--text-primary)" }}>Murabaha workflow digitization</strong> refers
                     to replacing manual, paper-based Murabaha financing processes with structured digital workflows.
                     Murabaha is a cost-plus-profit sale arrangement that is one of the most common structures in
-                    Islamic finance — used for home financing, vehicle purchase, commodity financing, and trade
+                    Islamic finance, used for home financing, vehicle purchase, commodity financing, and trade
                     finance.
                   </p>
                   <p className="text-[14px] leading-[1.8]" style={{ color: "var(--text-secondary)" }}>
                     In most institutions, Murabaha compliance is managed manually: contracts reviewed line-by-line
                     by compliance teams, documentation compiled manually, scholar approval tracked through email
                     threads. Digitization replaces this with structured, automated workflows that parse contracts,
-                    execute compliance checklists, generate documentation, and maintain full audit trails —
+                    execute compliance checklists, generate documentation, and maintain full audit trails,
                     making Murabaha processing faster, more consistent, and fully auditable.
                   </p>
                 </div>
@@ -439,8 +390,7 @@ export default function AmanahAIPage() {
                 Infrastructure Built for Islamic Finance Operations
               </h2>
               <p className="text-[15px] max-w-2xl leading-relaxed" style={{ color: "var(--text-secondary)" }}>
-                Every capability is designed around the operational realities of Shariah compliance — not adapted
-                from generic compliance tools. The system works with scholars, not around them.
+                Built around the realities of Shariah compliance, working with scholars, not around them.
               </p>
             </div>
             <div className="grid md:grid-cols-3 gap-5">
@@ -466,6 +416,26 @@ export default function AmanahAIPage() {
                 </div>
               ))}
             </div>
+            <div
+              className="mt-8 rounded-2xl p-6 md:p-8 flex flex-col md:flex-row md:items-center justify-between gap-5"
+              style={{ backgroundColor: "var(--bg-card)", border: "1px dashed var(--gold-border)" }}
+            >
+              <div>
+                <p className="text-[16px] font-bold mb-1" style={{ color: "var(--text-primary)" }}>
+                  The full platform is shared privately.
+                </p>
+                <p className="text-[13px]" style={{ color: "var(--text-secondary)" }}>
+                  Complete capabilities, a live walkthrough and access are provided directly to institutions.
+                </p>
+              </div>
+              <Link
+                href="/contact"
+                className="inline-flex items-center justify-center gap-2 px-6 py-3.5 text-white text-[14px] font-semibold rounded-xl shrink-0 transition-all hover:opacity-90 hover:-translate-y-0.5"
+                style={{ backgroundColor: "var(--gold)" }}
+              >
+                Contact for Full Platform Access <ArrowRight size={14} />
+              </Link>
+            </div>
           </div>
         </section>
 
@@ -476,7 +446,7 @@ export default function AmanahAIPage() {
               className="rounded-2xl p-8 md:p-10"
               style={{ backgroundColor: "var(--bg-surface)", border: "1px solid var(--border)" }}
             >
-              <div className="grid md:grid-cols-[1.5fr_1fr] gap-10 items-start">
+              <div className="max-w-3xl">
                 <div>
                   <div
                     className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-[11px] font-semibold tracking-widest uppercase mb-5"
@@ -492,15 +462,10 @@ export default function AmanahAIPage() {
                   </h2>
                   <p className="text-[14px] leading-[1.8] mb-4" style={{ color: "var(--text-secondary)" }}>
                     Aylinor is being developed in strategic collaboration with{" "}
-                    <strong style={{ color: "var(--text-primary)" }}>Alhamd Shariah Advisory</strong> — a dedicated
+                    <strong style={{ color: "var(--text-primary)" }}>Alhamd Shariah Advisory</strong>: a dedicated
                     Shariah advisory firm. This partnership ensures that the compliance infrastructure is developed
                     with substantive scholarly input from the beginning, not built as a pure technology product and
                     validated afterwards.
-                  </p>
-                  <p className="text-[14px] leading-[1.8] mb-6" style={{ color: "var(--text-secondary)" }}>
-                    The advisory relationship covers contract analysis logic, governance documentation structure,
-                    compliance framework design, and the specific Shariah standards that vary across markets
-                    including AAOIFI guidelines and local regulatory frameworks.
                   </p>
                   <p
                     className="text-[12px] italic"
@@ -509,27 +474,6 @@ export default function AmanahAIPage() {
                     Alhamd Shariah Advisory is a current strategic collaborator. This does not constitute a
                     commercial endorsement or formal investment relationship.
                   </p>
-                </div>
-                <div className="space-y-4">
-                  {[
-                    { label: "Advisory scope", value: "Contract analysis logic, governance documentation, compliance framework" },
-                    { label: "Collaboration type", value: "Strategic advisory — scholarly input throughout development" },
-                    { label: "Standard alignment", value: "AAOIFI guidelines, market-specific Shariah board requirements" },
-                    { label: "Platform status", value: "In development — not yet commercially deployed" },
-                  ].map((item) => (
-                    <div
-                      key={item.label}
-                      className="rounded-xl p-4"
-                      style={{ backgroundColor: "var(--bg-card)", border: "1px solid var(--border)" }}
-                    >
-                      <p className="text-[10px] font-semibold uppercase tracking-widest mb-1.5" style={{ color: "var(--text-faint)" }}>
-                        {item.label}
-                      </p>
-                      <p className="text-[13px]" style={{ color: "var(--text-secondary)" }}>
-                        {item.value}
-                      </p>
-                    </div>
-                  ))}
                 </div>
               </div>
             </div>
@@ -551,7 +495,7 @@ export default function AmanahAIPage() {
               </h2>
               <p className="text-[15px] leading-relaxed max-w-2xl" style={{ color: "var(--text-secondary)" }}>
                 Our published research explores the technology gap in Islamic finance and the role AI can play
-                in Shariah compliance infrastructure. Download directly — no sign-up required.
+                in Shariah compliance infrastructure. Download directly, no sign-up required.
               </p>
             </div>
 
@@ -559,7 +503,7 @@ export default function AmanahAIPage() {
               {[
                 {
                   title: "AI and Shariah Compliance in the Next Generation of Financial Technology",
-                  desc: "An in-depth look at how AI is reshaping Shariah compliance infrastructure — covering governance frameworks, contract analysis automation, and the regulatory implications for next-generation Islamic fintech.",
+                  desc: "An in-depth look at how AI is reshaping Shariah compliance infrastructure, covering governance frameworks, contract analysis automation, and the regulatory implications for next-generation Islamic fintech.",
                   audience: "Islamic bank executives, Shariah compliance officers",
                   href: "/whitepapers/whitepaper-shariah-ai-compliance.pdf",
                   tag: "Shariah AI",
@@ -573,7 +517,7 @@ export default function AmanahAIPage() {
                 },
                 {
                   title: "The Infrastructure Gap in SME Digital Finance in the GCC",
-                  desc: "A data-driven assessment of the technology infrastructure deficit facing SMEs across GCC markets — examining the gap between enterprise-grade tools and what small businesses can actually access.",
+                  desc: "A data-driven assessment of the technology infrastructure deficit facing SMEs across GCC markets, examining the gap between enterprise-grade tools and what small businesses can actually access.",
                   audience: "Policymakers, fintech operators, GCC banking executives",
                   href: "/whitepapers/whitepaper-sme-digital-finance-gap.pdf",
                   tag: "Infrastructure",
@@ -679,20 +623,19 @@ export default function AmanahAIPage() {
                 className="text-[28px] font-bold mb-4 tracking-tight"
                 style={{ color: "var(--text-primary)" }}
               >
-                Interested in Aylinor for Your Institution?
+                Get Full Access to Aylinor
               </h2>
               <p className="text-[15px] leading-relaxed mb-8" style={{ color: "var(--text-secondary)" }}>
-                We are selectively discussing the platform with Islamic financial institutions who want to
-                be involved in the development process and early deployment. If this describes your
-                organization, reach out directly.
+                Microfinance bank or commercial bank, Pakistan or Europe, contact us and our team will
+                share full platform details and access for your institution.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link
                   href="/contact"
-                  className="inline-flex items-center justify-center gap-2 px-6 py-3.5 text-white text-[14px] font-semibold rounded-xl transition-all duration-200"
+                  className="inline-flex items-center justify-center gap-2 px-6 py-3.5 text-white text-[14px] font-semibold rounded-xl transition-all duration-200 hover:opacity-90 hover:-translate-y-0.5"
                   style={{ backgroundColor: "var(--gold)" }}
                 >
-                  Contact Daeson Technologies <ArrowRight size={14} />
+                  Contact for Full Platform Access <ArrowRight size={14} />
                 </Link>
                 <Link
                   href="/partnerships"

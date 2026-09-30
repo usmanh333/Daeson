@@ -18,7 +18,7 @@ export default function FounderMessage() {
 
       <div className="relative max-w-7xl mx-auto px-6">
         <div className="grid md:grid-cols-[1fr_1.5fr] gap-16 items-center">
-          {/* Left — Portrait card */}
+          {/* Left: Portrait card */}
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -82,7 +82,7 @@ export default function FounderMessage() {
             </div>
           </motion.div>
 
-          {/* Right — Message */}
+          {/* Right: Message */}
           <motion.div
             initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -100,7 +100,7 @@ export default function FounderMessage() {
               className="text-[24px] md:text-[28px] font-bold leading-[1.28] mb-8 tracking-tight"
               style={{ color: "var(--text-primary)" }}
             >
-              &ldquo;Most businesses are being sold subscriptions — not solutions. Companies that operate
+              &ldquo;Most businesses are being sold subscriptions, not solutions. Companies that operate
               at scale deserve to{" "}
               <span style={{ color: "var(--blue)" }}>
                 own the infrastructure
@@ -122,7 +122,7 @@ export default function FounderMessage() {
                 business.
               </p>
               <p>
-                These are not software problems. They are infrastructure problems — and they require an
+                These are not software problems. They are infrastructure problems, and they require an
                 infrastructure response. Daeson Technologies builds the systems these businesses should
                 have owned from the beginning.
               </p>

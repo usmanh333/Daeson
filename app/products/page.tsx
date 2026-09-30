@@ -5,16 +5,16 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Products — Aylinor & Enterprise Platforms",
+  title: "Products: Aylinor & Enterprise Platforms",
   description:
-    "Daeson Technologies products include Aylinor — the Islamic finance operational intelligence platform — and the Real Estate Operations Platform. Enterprise-grade, fully owned, AI-powered.",
+    "Daeson Technologies products include Aylinor, the Islamic finance operational intelligence platform, and the Real Estate Operations Platform. Enterprise-grade, fully owned, AI-powered.",
   alternates: { canonical: "https://daesontechnologies.online/products" },
 };
 
 const productSchema = {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  name: "Products — Daeson Technologies",
+  name: "Products | Daeson Technologies",
   url: "https://daesontechnologies.online/products",
   isPartOf: { "@id": "https://daesontechnologies.online/#website" },
   breadcrumb: {
@@ -65,9 +65,9 @@ const products = [
     description:
       "Aylinor is an AI-powered platform designed specifically for Islamic financial institutions. It addresses the operational gap between Shariah compliance requirements and the manual, paper-heavy processes that currently govern most Islamic finance workflows.",
     problem:
-      "Islamic financial institutions handle complex Shariah-governed transactions — Murabaha, Ijara, Musharaka — that require meticulous documentation, scholar review, and compliance verification. Most institutions rely on manual processes that are slow, error-prone, and create audit risk.",
+      "Islamic financial institutions handle complex Shariah-governed transactions: Murabaha, Ijara, Musharaka, that require meticulous documentation, scholar review, and compliance verification. Most institutions rely on manual processes that are slow, error-prone, and create audit risk.",
     solution:
-      "Aylinor automates the operational layer of Shariah compliance: contract analysis, governance documentation, scholar review queue management, and audit trail generation — reducing operational burden so scholars can focus on substantive jurisprudential decisions.",
+      "Aylinor automates the operational layer of Shariah compliance: contract analysis, governance documentation, scholar review queue management, and audit trail generation, reducing operational burden so scholars can focus on substantive jurisprudential decisions.",
     capabilities: [
       "Murabaha contract parsing & compliance analysis",
       "Shariah governance documentation generation",
@@ -89,9 +89,9 @@ const products = [
     description:
       "A comprehensive operational platform designed for real estate firms, brokerages, and property developers who have outgrown fragmented SaaS tools. Built to unify the critical functions of a real estate business into a single owned system.",
     problem:
-      "Most real estate firms operate across 5–10 disconnected SaaS tools — a CRM here, a reporting tool there, manual spreadsheets for investor tracking. This creates data fragmentation, manual overhead, and no real-time visibility for leadership.",
+      "Most real estate firms operate across 5 to 10 disconnected SaaS tools, a CRM here, a reporting tool there, manual spreadsheets for investor tracking. This creates data fragmentation, manual overhead, and no real-time visibility for leadership.",
     solution:
-      "An owned platform that unifies CRM, investor dashboards, deal management, payment tracking, and AI lead intelligence — with executive analytics that give leadership real operational visibility across the business.",
+      "An owned platform that unifies CRM, investor dashboards, deal management, payment tracking, and AI lead intelligence, with executive analytics that give leadership real operational visibility across the business.",
     capabilities: [
       "Unified CRM & deal pipeline management",
       "Investor visibility portal with real-time dashboards",
@@ -107,11 +107,11 @@ const products = [
 ];
 
 const roadmapItems = [
-  { phase: "Q3 2025", item: "Aylinor — Murabaha workflow module (beta)", status: "In Progress" },
-  { phase: "Q4 2025", item: "Aylinor — Scholar review & governance documentation", status: "Planned" },
-  { phase: "Q1 2026", item: "Real Estate Operations Platform — CRM & deal pipeline core", status: "Planned" },
-  { phase: "Q2 2026", item: "Real Estate Operations Platform — Investor portal module", status: "Planned" },
-  { phase: "Q3 2026", item: "Aylinor — Full compliance suite & audit reporting", status: "Roadmap" },
+  { phase: "Q3 2025", item: "Aylinor: Murabaha workflow module (beta)", status: "In Progress" },
+  { phase: "Q4 2025", item: "Aylinor: Scholar review & governance documentation", status: "Planned" },
+  { phase: "Q1 2026", item: "Real Estate Operations Platform: CRM & deal pipeline core", status: "Planned" },
+  { phase: "Q2 2026", item: "Real Estate Operations Platform: Investor portal module", status: "Planned" },
+  { phase: "Q3 2026", item: "Aylinor: Full compliance suite & audit reporting", status: "Roadmap" },
 ];
 
 export default function ProductsPage() {
@@ -201,7 +201,7 @@ export default function ProductsPage() {
                     </Link>
                   </div>
 
-                  {/* Right — Capabilities */}
+                  {/* Right: Capabilities */}
                   <div>
                     <p className="text-[10px] font-bold uppercase tracking-widest mb-5" style={{ color: "var(--text-faint)" }}>
                       Platform Capabilities

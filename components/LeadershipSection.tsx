@@ -290,10 +290,7 @@ export default function LeadershipSection() {
 
               <Link
                 href="/contact"
-                className="inline-flex items-center gap-2 px-4 py-2.5 text-[13px] font-semibold rounded-lg transition-all duration-200"
-                style={{ backgroundColor: "var(--blue)", color: "var(--on-blue)" }}
-                onMouseEnter={e => ((e.currentTarget as HTMLElement).style.backgroundColor = "var(--blue-hover)")}
-                onMouseLeave={e => ((e.currentTarget as HTMLElement).style.backgroundColor = "var(--blue)")}
+                className="btn-solid inline-flex items-center gap-2 px-4 py-2.5 text-[13px] font-semibold rounded-lg"
               >
                 Schedule a consultation
                 <ArrowUpRight size={13} />

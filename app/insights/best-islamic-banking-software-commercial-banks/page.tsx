@@ -7,7 +7,7 @@ import { ArrowRight, ArrowLeft } from "lucide-react";
 export const metadata: Metadata = {
   title: "Best Islamic Banking Software for Commercial Banks: A Practical Evaluation Guide",
   description:
-    "A practical framework for commercial banks evaluating Islamic banking software — product coverage, core banking integration, Shariah governance, security and vendor transparency.",
+    "A practical framework for commercial banks evaluating Islamic banking software, product coverage, core banking integration, Shariah governance, security and vendor transparency.",
   keywords: [
     "Islamic banking software for commercial banks",
     "best Islamic banking software",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Best Islamic Banking Software for Commercial Banks: A Practical Evaluation Guide",
     description:
-      "A practical framework for commercial banks evaluating Islamic banking software — product coverage, core banking integration, Shariah governance, security and vendor transparency.",
+      "A practical framework for commercial banks evaluating Islamic banking software, product coverage, core banking integration, Shariah governance, security and vendor transparency.",
     url: "https://daesontechnologies.online/insights/best-islamic-banking-software-commercial-banks",
   },
 };
@@ -33,7 +33,7 @@ const faqs = [
   },
   {
     q: "Should a commercial bank replace its core banking system for Islamic finance?",
-    a: "Not necessarily. Replacing every existing system can be expensive and operationally disruptive. In many cases, the better approach is a specialized Islamic finance layer — connected through APIs, middleware or event-based workflows — that works alongside the bank's existing infrastructure rather than replacing it.",
+    a: "Not necessarily. Replacing every existing system can be expensive and operationally disruptive. In many cases, the better approach is a specialized Islamic finance layer, connected through APIs, middleware or event-based workflows, that works alongside the bank's existing infrastructure rather than replacing it.",
   },
   {
     q: "Do AAOIFI standards apply differently depending on jurisdiction?",
@@ -46,7 +46,7 @@ const articleSchema = {
   "@type": "Article",
   headline: "Choosing the Best Islamic Banking Software for Commercial Banks",
   description:
-    "A practical framework for commercial banks evaluating Islamic banking software — product coverage, core banking integration, Shariah governance, security and vendor transparency.",
+    "A practical framework for commercial banks evaluating Islamic banking software, product coverage, core banking integration, Shariah governance, security and vendor transparency.",
   author: { "@type": "Organization", name: "Daeson Technologies", url: "https://daesontechnologies.online" },
   publisher: { "@type": "Organization", name: "Daeson Technologies", url: "https://daesontechnologies.online" },
   url: "https://daesontechnologies.online/insights/best-islamic-banking-software-commercial-banks",
@@ -121,7 +121,7 @@ export default function ArticlePage() {
                 There is no single platform that is automatically the best choice for every
                 commercial bank. The right system should fit the bank&apos;s specific product
                 portfolio, governance structure, existing technology environment and growth
-                plans — and should be evaluated against a concrete checklist, not a feature list.
+                plans, and should be evaluated against a concrete checklist, not a feature list.
               </p>
             </div>
 
@@ -130,7 +130,7 @@ export default function ArticlePage() {
               challenge. They must manage large-scale financial operations while supporting
               Islamic financing structures, internal Shariah governance, regulatory obligations,
               customer service and institutional reporting. Choosing the best Islamic banking
-              software requires more than comparing feature lists — the right platform should fit
+              software requires more than comparing feature lists, the right platform should fit
               the bank&apos;s operating model, product portfolio, governance structure, existing
               technology environment and future growth plans.
             </p>
@@ -138,7 +138,7 @@ export default function ArticlePage() {
             <h2 className="text-[24px] font-bold tracking-tight pt-4" style={{ color: "var(--text-primary)" }}>1. Support for Islamic financial products</h2>
             <p className="text-[15px] leading-[1.85]">
               The platform should support the Islamic products the bank actually offers or plans
-              to offer — Murabaha, Ijarah, Musharakah, Mudarabah, Salam, Istisna, Wakalah and
+              to offer: Murabaha, Ijarah, Musharakah, Mudarabah, Salam, Istisna, Wakalah and
               Sukuk-related workflows. Each product may require different documentation,
               approvals, ownership considerations, payment structures and accounting treatment. A
               vendor should explain exactly how each product is supported rather than simply
@@ -159,8 +159,8 @@ export default function ArticlePage() {
 
             <h2 className="text-[24px] font-bold tracking-tight pt-4" style={{ color: "var(--text-primary)" }}>3. Shariah governance and review</h2>
             <p className="text-[15px] leading-[1.85]">
-              A banking platform should support the institution&apos;s Shariah governance process
-              — product approval records, Shariah board decisions, internal policy management,
+              A banking platform should support the institution&apos;s Shariah governance process,
+              product approval records, Shariah board decisions, internal policy management,
               review assignments, exception tracking, scholar comments, approval workflows,
               version history and audit evidence.
             </p>
@@ -168,7 +168,7 @@ export default function ArticlePage() {
               AAOIFI publishes standards addressing several areas of Shariah governance, including
               governance frameworks, the Shariah compliance function, internal Shariah audit and
               decision-making processes. The platform should also allow the bank to apply relevant
-              local regulatory requirements — for example, the State Bank of Pakistan has issued
+              local regulatory requirements, for example, the State Bank of Pakistan has issued
               circulars concerning the adoption of AAOIFI Shariah standards for Islamic banking
               institutions and conventional banks with Islamic banking branches.
             </p>
@@ -187,7 +187,7 @@ export default function ArticlePage() {
             <h2 className="text-[24px] font-bold tracking-tight pt-4" style={{ color: "var(--text-primary)" }}>5. Compliance intelligence</h2>
             <p className="text-[15px] leading-[1.85]">
               Banks should consider whether the platform can help teams identify potential issues
-              before they become operational problems — configurable compliance rules, document
+              before they become operational problems, configurable compliance rules, document
               comparison, missing-field detection, contract classification, policy search,
               exception alerts, review queues, compliance summaries and evidence collection. A
               system should clearly distinguish between a technical alert, an AI-generated
@@ -206,7 +206,7 @@ export default function ArticlePage() {
 
             <h2 className="text-[24px] font-bold tracking-tight pt-4" style={{ color: "var(--text-primary)" }}>7. Reporting and management dashboards</h2>
             <p className="text-[15px] leading-[1.85]">
-              Executives and department heads need a clear view of operational performance —
+              Executives and department heads need a clear view of operational performance,
               financing applications, approval status, pending documentation, product activity,
               review queues, exceptions, customer service, operational turnaround, audit
               preparation and team workload. The value of a dashboard depends on the quality,
@@ -217,7 +217,7 @@ export default function ArticlePage() {
             <p className="text-[15px] leading-[1.85]">
               Islamic financial institutions operate under different regulatory environments and
               internal policies. A software platform should make clear which elements can be
-              configured — product rules, approval stages, required documents, user roles, review
+              configured, product rules, approval stages, required documents, user roles, review
               workflows, internal terminology, reporting fields and Shariah references.
               Customization should be documented carefully: excessive customization can increase
               maintenance costs, while insufficient flexibility can prevent the platform from
@@ -230,7 +230,7 @@ export default function ArticlePage() {
               features currently under development, features requiring integration, features
               requiring customization, features dependent on third-party services, and features
               requiring institutional approval. Banks should request a practical demonstration
-              based on a real or representative workflow — one that shows how a financing case
+              based on a real or representative workflow, one that shows how a financing case
               moves from application through documentation, review, approval, monitoring and
               reporting.
             </p>

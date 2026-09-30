@@ -51,7 +51,7 @@ export default function CTASection() {
 
             {/* Subtext */}
             <p className="text-white/40 text-xs">
-              Confidential — For institutional preview only
+              Confidential: For institutional preview only
             </p>
           </div>
         </div>

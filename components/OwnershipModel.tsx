@@ -22,7 +22,7 @@ const pillars = [
       "One-time infrastructure investment vs. perpetual subscriptions",
       "No per-seat licensing as teams grow",
       "No forced upgrades or tier restrictions",
-      "Total cost typically lower within 2–3 years",
+      "Total cost typically lower within 2 to 3 years",
     ],
   },
   {
@@ -73,7 +73,7 @@ export default function OwnershipModel() {
             </h2>
             <p className="text-[15px] leading-relaxed" style={{ color: "var(--text-secondary)" }}>
               Most operationally complex businesses are paying monthly for tools that were built for a general
-              market — not their specific workflow. The result is operational debt that grows as the business does.
+              market, not their specific workflow. The result is operational debt that grows as the business does.
             </p>
           </div>
         </motion.div>
@@ -137,7 +137,7 @@ export default function OwnershipModel() {
         >
           <p className="text-[15px] leading-relaxed max-w-2xl mx-auto" style={{ color: "var(--text-primary)" }}>
             <span className="font-semibold">We typically begin with the highest operational priority</span>{" "}
-            and evolve systems gradually — reducing risk and accelerating value from the first phase.
+            and evolve systems gradually, reducing risk and accelerating value from the first phase.
           </p>
           <p className="text-[12px] mt-3" style={{ color: "var(--text-secondary)" }}>
             Start with one operational layer. Scale according to your priorities.

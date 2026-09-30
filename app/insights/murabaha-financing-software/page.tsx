@@ -21,7 +21,7 @@ const articleSchema = {
   "@type": "Article",
   headline: "Murabaha Financing Software: What It Needs to Actually Support",
   description:
-    "Murabaha financing software has to manage a real sale structure, not a relabeled loan — what asset ownership sequencing, profit disclosure and documentation actually require.",
+    "Murabaha financing software has to manage a real sale structure, not a relabeled loan, what asset ownership sequencing, profit disclosure and documentation actually require.",
   author: { "@type": "Organization", name: "Daeson Technologies", url: "https://daesontechnologies.online" },
   publisher: { "@type": "Organization", name: "Daeson Technologies", url: "https://daesontechnologies.online" },
   url: "https://daesontechnologies.online/insights/murabaha-financing-software",
@@ -71,9 +71,9 @@ export default function ArticlePage() {
             <div className="answer-capsule">
               <p className="text-[12px] font-bold uppercase tracking-widest mb-2" style={{ color: "var(--gold)" }}>The short answer</p>
               <p className="text-[15px] leading-relaxed" style={{ color: "var(--text-primary)" }}>
-                Murabaha financing software needs to manage a real cost-plus-profit sale structure —
+                Murabaha financing software needs to manage a real cost-plus-profit sale structure,
                 asset identification, purchase and ownership documentation, sale agreement, profit
-                disclosure and payment scheduling — not just calculate a repayment schedule the way a
+                disclosure and payment scheduling, not just calculate a repayment schedule the way a
                 conventional loan system would.
               </p>
             </div>
@@ -82,14 +82,14 @@ export default function ArticlePage() {
               home financing, trade finance and commodity financing across Islamic banking. It is also
               structurally one of the hardest products to support in software, because a compliant
               Murabaha transaction requires the institution to actually take ownership of the asset
-              before selling it to the customer at a disclosed, marked-up price — a sequence that has
+              before selling it to the customer at a disclosed, marked-up price, a sequence that has
               to be verified for every contract, not assumed.
             </p>
             <p className="text-[15px] leading-[1.85]">
               Software built for Murabaha specifically needs to track the full sequence: financing
               application, customer assessment, asset identification, purchase process, ownership
               documentation, sale agreement, profit disclosure, payment schedule, and supporting
-              documents — with each step available for scholar or compliance review. We cover this
+              documents, with each step available for scholar or compliance review. We cover this
               workflow in detail in{" "}
               <Link href="/insights/murabaha-contract-review-bottleneck" style={{ color: "var(--gold)", fontWeight: 600 }}>The Murabaha Contract Review Bottleneck</Link>,
               and set it in the wider context of Islamic banking software requirements in{" "}

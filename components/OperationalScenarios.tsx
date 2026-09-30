@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const scenarios = [
   {
     index: "01",
-    sector: "Real Estate — Brokerage",
+    sector: "Real Estate: Brokerage",
     title: "Growing Brokerage Replacing Fragmented Tools",
     color: "#FFFFFF",
     colorVar: "var(--blue)",
@@ -30,7 +30,7 @@ const scenarios = [
   },
   {
     index: "02",
-    sector: "Real Estate — Commercial",
+    sector: "Real Estate: Commercial",
     title: "Commercial Firm with Investor Reporting Gaps",
     color: "#FFFFFF",
     colorVar: "var(--blue)",
@@ -55,7 +55,7 @@ const scenarios = [
   },
   {
     index: "03",
-    sector: "Islamic Finance — Operations",
+    sector: "Islamic Finance: Operations",
     title: "Islamic Finance Workflow Structuring",
     color: "#D4AF37",
     colorVar: "var(--gold)",
@@ -120,7 +120,7 @@ export default function OperationalScenarios() {
             <div>
               <p className="text-[14px] leading-[1.8]" style={{ color: "var(--text-secondary)" }}>
                 The scenarios below illustrate common operational patterns in the industries we serve.
-                They are not specific client engagements — they reflect recurring infrastructure challenges
+                They are not specific client engagements, they reflect recurring infrastructure challenges
                 and the outcomes that purpose-built systems enable.
               </p>
               <p
@@ -248,7 +248,7 @@ export default function OperationalScenarios() {
           className="mt-10 text-center"
         >
           <p className="text-[13px]" style={{ color: "var(--text-faint)" }}>
-            We typically begin with the highest operational priority and evolve systems gradually —
+            We typically begin with the highest operational priority and evolve systems gradually,
             reducing adoption risk while delivering measurable value early.
           </p>
         </motion.div>

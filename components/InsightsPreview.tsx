@@ -11,17 +11,17 @@ const articles = [
     rawColor: "#888888",
     title: "Why Real Estate Firms Are Replacing SaaS Stacks with Owned Infrastructure",
     excerpt:
-      "The era of patching together Salesforce, Excel, and email for real estate operations is ending. Forward-thinking firms are building owned operational platforms — with full data control, AI capability, and no vendor lock-in.",
+      "The era of patching together Salesforce, Excel, and email for real estate operations is ending. Forward-thinking firms are building owned operational platforms, with full data control, AI capability, and no vendor lock-in.",
     readTime: "8 min read",
     href: "/insights/real-estate-saas-vs-owned",
   },
   {
     category: "Islamic Finance",
-    color: "var(--gold)",
-    rawColor: "#B9912F",
+    color: "var(--blue)",
+    rawColor: "#888888",
     title: "AI and Shariah Compliance: Building Infrastructure That Supports Scholars",
     excerpt:
-      "AI in Islamic finance works when it removes operational burden from compliance workflows — freeing scholars to focus on jurisprudential judgment rather than manual document review. This is an infrastructure problem.",
+      "AI in Islamic finance works when it removes operational burden from compliance workflows, freeing scholars to focus on jurisprudential judgment rather than manual document review. This is an infrastructure problem.",
     readTime: "10 min read",
     href: "/insights/ai-shariah-compliance",
   },
@@ -31,7 +31,7 @@ const articles = [
     rawColor: "#888888",
     title: "Islamic Finance Has a Technology Gap",
     excerpt:
-      "A $3 trillion industry still running on spreadsheets and email approvals. Mahnoor Zafar examines why Islamic finance institutions lag in operational technology — and what closing the gap actually requires.",
+      "A $3 trillion industry still running on spreadsheets and email approvals. Mahnoor Zafar examines why Islamic finance institutions lag in operational technology, and what closing the gap actually requires.",
     readTime: "6 min read",
     href: "/insights/islamic-finance-technology-gap",
   },
@@ -77,10 +77,7 @@ export default function InsightsPreview() {
           </div>
           <Link
             href="/insights"
-            className="inline-flex items-center gap-2 text-[13px] font-semibold shrink-0 transition-colors"
-            style={{ color: "var(--blue)" }}
-            onMouseEnter={e => ((e.currentTarget as HTMLElement).style.color = "var(--blue-hover)")}
-            onMouseLeave={e => ((e.currentTarget as HTMLElement).style.color = "var(--blue)")}
+            className="btn-ghost inline-flex items-center gap-2 px-5 py-2.5 rounded-xl text-[13px] font-semibold shrink-0"
           >
             All research <ArrowRight size={13} />
           </Link>

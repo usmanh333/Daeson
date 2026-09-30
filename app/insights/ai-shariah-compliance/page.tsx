@@ -7,7 +7,7 @@ import { ArrowRight, ArrowLeft } from "lucide-react";
 export const metadata: Metadata = {
   title: "AI and Shariah Compliance Infrastructure",
   description:
-    "AI in Islamic finance is most valuable when it removes operational burden from compliance workflows — freeing scholars to focus on substantive jurisprudential decisions rather than manual document review.",
+    "AI in Islamic finance is most valuable when it removes operational burden from compliance workflows, freeing scholars to focus on substantive jurisprudential decisions rather than manual document review.",
   alternates: { canonical: "https://daesontechnologies.online/insights/ai-shariah-compliance" },
   openGraph: {
     title: "AI and Shariah Compliance: Building Infrastructure That Supports Scholars",
@@ -20,7 +20,7 @@ const articleSchema = {
   "@type": "Article",
   headline: "AI and Shariah Compliance: Building Infrastructure That Supports Scholars",
   description:
-    "AI in Islamic finance is most valuable when it removes operational burden from compliance workflows — freeing scholars to focus on substantive jurisprudential decisions rather than manual document review.",
+    "AI in Islamic finance is most valuable when it removes operational burden from compliance workflows, freeing scholars to focus on substantive jurisprudential decisions rather than manual document review.",
   author: { "@type": "Organization", name: "Daeson Technologies", url: "https://daesontechnologies.online" },
   publisher: { "@type": "Organization", name: "Daeson Technologies", url: "https://daesontechnologies.online" },
   url: "https://daesontechnologies.online/insights/ai-shariah-compliance",
@@ -72,7 +72,7 @@ export default function ArticlePage() {
 
             <p className="text-[17px] leading-relaxed" style={{ color: "var(--text-secondary)" }}>
               The conversation about AI in Islamic finance has been distorted from the beginning. It has been
-              framed as a question of whether machines can replace scholars — a question so obviously wrong
+              framed as a question of whether machines can replace scholars, a question so obviously wrong
               that it has prevented more important questions from being asked.
             </p>
           </div>
@@ -92,7 +92,7 @@ export default function ArticlePage() {
               <p className="text-[15px] leading-relaxed" style={{ color: "var(--text-primary)" }}>
                 AI in Islamic finance is most valuable not when it tries to make jurisprudential decisions,
                 but when it removes the operational burden that prevents scholars and compliance teams from
-                doing their real work. The right question is not &ldquo;can AI do what scholars do?&rdquo; — it is
+                doing their real work. The right question is not &ldquo;can AI do what scholars do?&rdquo;, it is
                 &ldquo;what is taking up scholars&apos; time that AI could handle instead?&rdquo;
               </p>
             </div>
@@ -126,7 +126,7 @@ export default function ArticlePage() {
               compliance involves at the operational level in a typical Islamic bank or fintech institution.
             </p>
             <p className="text-[15px] leading-[1.85]">
-              For a Murabaha financing contract — one of the most common Islamic finance structures —
+              For a Murabaha financing contract, one of the most common Islamic finance structures,
               compliance involves: verifying that the contract structure adheres to Shariah principles,
               checking that the commodity or asset is Shariah-permissible, confirming that the cost and
               profit elements are correctly disclosed, documenting the scholar or compliance officer
@@ -140,8 +140,8 @@ export default function ArticlePage() {
               documentation is saved in a folder. When an audit happens, someone retrieves the folder.
             </p>
             <p className="text-[15px] leading-[1.85]">
-              This process works at low volumes. At scale — thousands of Murabaha contracts per month
-              across multiple branches — it becomes a bottleneck that threatens both speed and quality.
+              This process works at low volumes. At scale, thousands of Murabaha contracts per month
+              across multiple branches, it becomes a bottleneck that threatens both speed and quality.
             </p>
 
             <div
@@ -153,9 +153,9 @@ export default function ArticlePage() {
               </p>
               <ul className="space-y-2.5">
                 {[
-                  "Review quality becomes inconsistent — different compliance officers interpret guidelines differently",
-                  "Scholar queues back up — high-volume periods create days-long delays on approvals",
-                  "Documentation becomes incomplete — time pressure leads to shortcuts",
+                  "Review quality becomes inconsistent, different compliance officers interpret guidelines differently",
+                  "Scholar queues back up, high-volume periods create days-long delays on approvals",
+                  "Documentation becomes incomplete, time pressure leads to shortcuts",
                   "Audit trails are fragmented across email, folders, and spreadsheets",
                   "Errors are discovered after contract execution, when correction is costly",
                   "Cross-branch consistency is impossible to enforce without a shared system",
@@ -169,7 +169,7 @@ export default function ArticlePage() {
             </div>
 
             <h2 className="text-[24px] font-bold tracking-tight pt-4" style={{ color: "var(--text-primary)" }}>
-              What AI can do — and what it cannot
+              What AI can do, and what it cannot
             </h2>
             <p className="text-[15px] leading-[1.85]">
               This is where the conversation about AI in Islamic finance needs to become more precise. AI
@@ -186,13 +186,13 @@ export default function ArticlePage() {
               structures for detailed scholar review.
             </p>
             <p className="text-[15px] leading-[1.85]">
-              It can generate audit documentation automatically from structured compliance data — producing
+              It can generate audit documentation automatically from structured compliance data, producing
               the same report in seconds that a compliance officer previously spent hours compiling. It can
               maintain a complete, timestamped audit trail from contract intake through scholar approval,
               accessible to Shariah boards and regulators without manual effort.
             </p>
             <p className="text-[15px] leading-[1.85]">
-              The scholar&apos;s role in this system is not diminished — it is elevated. Instead of reviewing
+              The scholar&apos;s role in this system is not diminished, it is elevated. Instead of reviewing
               raw contracts and compiling documentation, the scholar receives a structured briefing package:
               the contract summary, the compliance flags, the relevant precedents, and the documentation
               template ready for their input. The scholar&apos;s judgment is applied to what only a scholar
@@ -208,13 +208,13 @@ export default function ArticlePage() {
             </p>
             <p className="text-[15px] leading-[1.85]">
               In most AI applications, if the system makes a decision that turns out to be wrong, the
-              consequences are manageable. In Shariah compliance, a wrong decision — a contract classified
-              as compliant when it contains a prohibited element — has implications that extend beyond
+              consequences are manageable. In Shariah compliance, a wrong decision, a contract classified
+              as compliant when it contains a prohibited element, has implications that extend beyond
               financial loss to religious accountability for the institution and its customers.
             </p>
             <p className="text-[15px] leading-[1.85]">
               This means the AI system must be designed from the beginning with explainability, audit
-              trails, and human oversight built into the architecture — not added afterwards. Every AI
+              trails, and human oversight built into the architecture, not added afterwards. Every AI
               output must have a traceable evidence chain. Every compliance flag must reference the specific
               clause or standard that triggered it. Every scholar decision must be documented in the system.
               No AI recommendation should be implemented without a documented human review.
@@ -234,16 +234,16 @@ export default function ArticlePage() {
               </p>
               <ul className="space-y-3">
                 {[
-                  { title: "Full explainability", desc: "Every AI output must be traceable to specific contract clauses, compliance standards, or data inputs — not a black-box score." },
+                  { title: "Full explainability", desc: "Every AI output must be traceable to specific contract clauses, compliance standards, or data inputs, not a black-box score." },
                   { title: "Human authority", desc: "No compliance decision is final without human review. The AI prepares; the scholar decides." },
                   { title: "Complete audit trails", desc: "Every action, flag, review, and approval is timestamped and recorded in a structured, retrievable format." },
-                  { title: "Standards alignment", desc: "The compliance framework must reflect actual scholarly standards (AAOIFI, local Shariah boards) — not AI-generated interpretations." },
-                  { title: "Calibrated confidence", desc: "The system distinguishes between high-confidence routine cases and uncertain cases requiring elevated review — and routes them differently." },
+                  { title: "Standards alignment", desc: "The compliance framework must reflect actual scholarly standards (AAOIFI, local Shariah boards), not AI-generated interpretations." },
+                  { title: "Calibrated confidence", desc: "The system distinguishes between high-confidence routine cases and uncertain cases requiring elevated review, and routes them differently." },
                 ].map((item) => (
                   <li key={item.title} className="flex items-start gap-3 text-[13px]">
                     <span className="mt-1 w-1 h-1 rounded-full shrink-0" style={{ backgroundColor: "var(--blue)" }} />
                     <span>
-                      <span className="font-semibold" style={{ color: "var(--text-primary)" }}>{item.title} — </span>
+                      <span className="font-semibold" style={{ color: "var(--text-primary)" }}>{item.title}, </span>
                       <span style={{ color: "var(--text-secondary)" }}>{item.desc}</span>
                     </span>
                   </li>
@@ -262,7 +262,7 @@ export default function ArticlePage() {
               maintain Shariah standards on their behalf.
             </p>
             <p className="text-[15px] leading-[1.85]">
-              AI infrastructure that undermines this trust — even subtly, even unintentionally — is
+              AI infrastructure that undermines this trust, even subtly, even unintentionally, is
               corrosive. The risk is not that AI will openly violate Shariah principles; it is that AI
               will create an appearance of compliance without the substance. A system that generates
               compliant-looking documentation for contracts that have not been properly reviewed is worse
@@ -270,7 +270,7 @@ export default function ArticlePage() {
             </p>
             <p className="text-[15px] leading-[1.85]">
               This is why the involvement of scholars in the design of AI compliance infrastructure is not
-              optional — it is foundational. The system should be designed with scholars, not for scholars.
+              optional, it is foundational. The system should be designed with scholars, not for scholars.
               The difference is significant: scholars who understand what the system will and will not do,
               who have validated the compliance logic it applies, and who have defined where their judgment
               is required, are genuine participants in the governance architecture.
@@ -281,13 +281,13 @@ export default function ArticlePage() {
             </h2>
             <p className="text-[15px] leading-[1.85]">
               For institutions beginning to think about AI for Shariah compliance, the practical starting
-              point is not &ldquo;what can AI do?&rdquo; — it is &ldquo;what is taking the most operational time right now,
+              point is not &ldquo;what can AI do?&rdquo;, it is &ldquo;what is taking the most operational time right now,
               and could AI handle it consistently?&rdquo;
             </p>
             <p className="text-[15px] leading-[1.85]">
               For most institutions, the highest-impact starting point is Murabaha contract pre-screening.
-              Automating the initial review — structuring the contract data, checking it against a defined
-              compliance framework, generating a review summary — creates immediate value without requiring
+              Automating the initial review, structuring the contract data, checking it against a defined
+              compliance framework, generating a review summary, creates immediate value without requiring
               the system to make complex jurisprudential judgments. The scholar still reviews, but the
               package they receive is structured and ready.
             </p>
@@ -311,20 +311,20 @@ export default function ArticlePage() {
               The Islamic finance industry is at an inflection point. The volume of Islamic financial
               transactions is growing faster than the capacity to process them manually. The institutions
               that solve the operational infrastructure problem first will have a meaningful competitive
-              advantage — not because they are more technologically sophisticated, but because they can
+              advantage, not because they are more technologically sophisticated, but because they can
               process more volume with consistent quality and full auditability.
             </p>
             <p className="text-[15px] leading-[1.85]">
-              AI infrastructure designed specifically for Islamic finance governance — built with scholars,
+              AI infrastructure designed specifically for Islamic finance governance, built with scholars,
               aligned to established standards, and governed by the principles of explainability and human
-              authority — is not a distant aspiration. It is a development that is happening now, and the
+              authority, is not a distant aspiration. It is a development that is happening now, and the
               institutions that engage with it thoughtfully will be better positioned than those that either
               ignore it or adopt it without the governance architecture it requires.
             </p>
             <p className="text-[15px] leading-[1.85]">
               The question was never whether AI belongs in Islamic finance. The question is whether the
               institutions that adopt it will build it in a way that strengthens the trust at the heart of
-              the industry — or in a way that erodes it.
+              the industry, or in a way that erodes it.
             </p>
           </div>
 
@@ -353,7 +353,7 @@ export default function ArticlePage() {
                 Building Shariah compliance infrastructure?
               </h2>
               <p className="text-[14px] leading-relaxed mb-7 max-w-lg mx-auto" style={{ color: "var(--text-secondary)" }}>
-                Aylinor is Daeson Technologies&apos; platform for Islamic financial institutions — built in
+                Aylinor is Daeson Technologies&apos; platform for Islamic financial institutions, built in
                 collaboration with Alhamd Shariah Advisory. We are selectively discussing the platform with
                 institutions interested in the early development phase.
               </p>

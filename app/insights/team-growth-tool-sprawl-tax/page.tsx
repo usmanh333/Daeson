@@ -18,11 +18,11 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: "Why does hiring more people expose tool sprawl?",
-    a: "A founder juggling 5 to 10 disconnected tools personally can hold the gaps together from memory. Once a team grows, that coordination has to be communicated explicitly — over calls, messages, and repeated check-ins — which is where the cost becomes visible.",
+    a: "A founder juggling 5 to 10 disconnected tools personally can hold the gaps together from memory. Once a team grows, that coordination has to be communicated explicitly, over calls, messages, and repeated check-ins, which is where the cost becomes visible.",
   },
   {
     q: "What does 'asking everyone one by one' actually cost?",
-    a: "It's not just the time spent on the calls themselves. It's the delay between when information changes and when everyone who needs it actually has it — and the errors that happen in the gap.",
+    a: "It's not just the time spent on the calls themselves. It's the delay between when information changes and when everyone who needs it actually has it, and the errors that happen in the gap.",
   },
   {
     q: "Does the fix mean replacing every tool at once?",
@@ -92,7 +92,7 @@ export default function ArticlePage() {
               <p className="text-[12px] font-bold uppercase tracking-widest mb-2" style={{ color: "var(--blue)" }}>The short answer</p>
               <p className="text-[15px] leading-relaxed" style={{ color: "var(--text-primary)" }}>
                 A founder holding 5 to 10 disconnected tools together personally can do it from memory.
-                Once a team grows, that same coordination has to happen out loud — over calls, messages,
+                Once a team grows, that same coordination has to happen out loud, over calls, messages,
                 and asking each person individually for the status. The tools didn&apos;t get worse; the
                 coordination cost of not connecting them just became visible.
               </p>
@@ -100,12 +100,12 @@ export default function ArticlePage() {
 
             <p className="text-[15px] leading-[1.85]">
               Early on, a founder running the whole operation can keep five different tools loosely in
-              sync without anyone noticing the seams — a mental model that holds it together, built from
+              sync without anyone noticing the seams, a mental model that holds it together, built from
               knowing every deal personally.
             </p>
             <p className="text-[15px] leading-[1.85]">
               That model doesn&apos;t survive the first ten hires. What used to live in one person&apos;s
-              head now has to be communicated explicitly, over and over, to everyone who needs it — and
+              head now has to be communicated explicitly, over and over, to everyone who needs it, and
               the tools themselves still don&apos;t talk to each other.
             </p>
 
@@ -118,17 +118,17 @@ export default function ArticlePage() {
             </p>
             <p className="text-[15px] leading-[1.85]">
               Multiply that by team size and by the number of disconnected tools, and coordination
-              overhead grows faster than headcount does — which means every new hire adds less net
+              overhead grows faster than headcount does, which means every new hire adds less net
               capacity than the last one did.
             </p>
 
-            <h2 className="text-[24px] font-bold tracking-tight pt-4" style={{ color: "var(--text-primary)" }}>The fix isn&apos;t fewer tools — it&apos;s one shared layer underneath them</h2>
+            <h2 className="text-[24px] font-bold tracking-tight pt-4" style={{ color: "var(--text-primary)" }}>The fix isn&apos;t fewer tools, it&apos;s one shared layer underneath them</h2>
             <p className="text-[15px] leading-[1.85]">
               You don&apos;t need to rip out every tool your team already knows how to use. What you
               need is a shared operational layer that keeps the information consistent underneath them,
               so status doesn&apos;t depend on someone remembering to relay it. That&apos;s the specific
               problem <strong style={{ color: "var(--text-primary)" }}>LuxeProperty AI</strong> is built
-              to solve — a unified pipeline and lead-matching layer that removes the &quot;ask everyone
+              to solve, a unified pipeline and lead-matching layer that removes the &quot;ask everyone
               individually&quot; step entirely.
             </p>
 

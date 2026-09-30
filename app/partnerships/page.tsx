@@ -5,7 +5,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Strategic Partnerships — Real Estate & Fintech",
+  title: "Strategic Partnerships: Real Estate & Fintech",
   description:
     "Daeson Technologies seeks strategic partnerships with real estate firms, Islamic finance institutions, operational advisors, and technology partners aligned with our mission of building owned operational infrastructure.",
   keywords: [
@@ -28,7 +28,7 @@ const currentPartnership = {
   name: "Alhamd Shariah Advisory",
   type: "Strategic Shariah Advisory Collaboration",
   description:
-    "Alhamd Shariah Advisory provides strategic domain expertise and Shariah operational knowledge supporting the development of Aylinor. This collaboration ensures that Aylinor's workflow architecture is grounded in practical Shariah compliance requirements — informed by qualified Shariah expertise rather than theoretical assumptions.",
+    "Alhamd Shariah Advisory provides strategic domain expertise and Shariah operational knowledge supporting the development of Aylinor. This collaboration ensures that Aylinor's workflow architecture is grounded in practical Shariah compliance requirements, informed by qualified Shariah expertise rather than theoretical assumptions.",
   scope: [
     "Domain expertise for Aylinor workflow architecture",
     "Shariah operational requirements review",
@@ -57,7 +57,7 @@ const partnershipTypes = [
   {
     title: "Shariah Advisory & Governance",
     description:
-      "We welcome relationships with qualified Shariah scholars, advisory boards, and governance institutions who are interested in how AI can support — not replace — Shariah compliance operations. Collaboration is always advisory and complementary to human scholarly decision-making.",
+      "We welcome relationships with qualified Shariah scholars, advisory boards, and governance institutions who are interested in how AI can support, not replace: Shariah compliance operations. Collaboration is always advisory and complementary to human scholarly decision-making.",
     ideal: ["Shariah advisory boards", "Islamic governance consultancies", "Compliance advisory firms", "Academic Islamic finance institutions"],
     color: "var(--gold)",
   },
@@ -73,7 +73,7 @@ const partnershipTypes = [
 const partnershipSchema = {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  name: "Strategic Partnerships — Daeson Technologies",
+  name: "Strategic Partnerships | Daeson Technologies",
   description:
     "Daeson Technologies seeks strategic partnerships with real estate firms, Islamic finance institutions, and operational advisors aligned with its mission of building owned operational infrastructure.",
   url: "https://daesontechnologies.online/partnerships",
@@ -114,7 +114,7 @@ export default function PartnershipsPage() {
             style={{ color: "var(--text-secondary)" }}
           >
             Daeson Technologies is early-stage and growing deliberately. We do not pursue partnerships
-            for optics — we seek relationships with organizations that share our belief that serious
+            for optics, we seek relationships with organizations that share our belief that serious
             businesses deserve infrastructure built for them.
           </p>
           <p className="text-[14px] leading-relaxed max-w-xl" style={{ color: "var(--text-muted)" }}>
@@ -293,7 +293,7 @@ export default function PartnershipsPage() {
                 {[
                   { label: "Response Time", value: "Within 48 business hours" },
                   { label: "Format", value: "Direct conversation, no sales process" },
-                  { label: "Commitment", value: "Exploratory — no obligation" },
+                  { label: "Commitment", value: "Exploratory, no obligation" },
                   { label: "Primary Contact", value: "Founding team directly" },
                 ].map((item) => (
                   <div

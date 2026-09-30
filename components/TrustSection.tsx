@@ -21,7 +21,7 @@ const pillars = [
   {
     icon: Building2,
     title: 'Built for Financial Institutions',
-    desc: 'Designed from the ground up for banks, Islamic finance houses, and regulated fintechs — not adapted from generic compliance tools.',
+    desc: 'Designed from the ground up for banks, Islamic finance houses, and regulated fintechs, not adapted from generic compliance tools.',
     color: '#0F3D2E',
     bg: '#e8f4ef',
   },
@@ -81,8 +81,8 @@ export default function TrustSection() {
             <span style={{ color: '#0F3D2E' }}>Institutional Use</span>
           </h2>
           <p className="text-lg text-gray-500 leading-relaxed">
-            Every layer of Aylinor is built to meet the expectations of global financial institutions
-            — from security architecture to regulatory documentation readiness.
+            Every layer of Aylinor is built to meet the expectations of global financial institutions,
+            from security architecture to regulatory documentation readiness.
           </p>
         </motion.div>
 

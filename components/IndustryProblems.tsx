@@ -137,8 +137,8 @@ export default function IndustryProblems() {
             These aren&apos;t software problems. They&apos;re{" "}
             <span className="font-semibold" style={{ color: "var(--text-primary)" }}>
               infrastructure problems
-            </span>{" "}
-            — and they require infrastructure solutions.
+            </span>{" "},
+            and they require infrastructure solutions.
           </p>
         </motion.div>
       </div>

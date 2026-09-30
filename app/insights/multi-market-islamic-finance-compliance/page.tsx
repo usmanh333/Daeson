@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: "Why is multi-market Islamic finance compliance harder than single-market compliance?",
-    a: "Institutions operating across the GCC, Pakistan, and the UK answer to different regulators — each with its own reporting format, documentation standard, and audit expectation — for what is often structurally the same underlying transaction.",
+    a: "Institutions operating across the GCC, Pakistan, and the UK answer to different regulators, each with its own reporting format, documentation standard, and audit expectation, for what is often structurally the same underlying transaction.",
   },
   {
     q: "Do AAOIFI and IFSB standards solve this by themselves?",
@@ -26,7 +26,7 @@ const faqs = [
   },
   {
     q: "What does a multi-market compliance system actually need to do?",
-    a: "It needs to store one canonical version of each compliance decision and generate the market-specific report format from that single source — instead of maintaining separate, manually reconciled records per jurisdiction.",
+    a: "It needs to store one canonical version of each compliance decision and generate the market-specific report format from that single source, instead of maintaining separate, manually reconciled records per jurisdiction.",
   },
 ];
 
@@ -78,7 +78,7 @@ export default function ArticlePage() {
               Multi-Market Islamic Finance Compliance
             </h1>
             <p className="text-[17px] leading-relaxed" style={{ color: "var(--text-secondary)" }}>
-              One transaction, three regulators, three report formats — the operational cost of
+              One transaction, three regulators, three report formats, the operational cost of
               operating across borders in Islamic finance.
             </p>
           </div>
@@ -92,7 +92,7 @@ export default function ArticlePage() {
               <p className="text-[12px] font-bold uppercase tracking-widest mb-2" style={{ color: "var(--gold)" }}>The short answer</p>
               <p className="text-[15px] leading-relaxed" style={{ color: "var(--text-primary)" }}>
                 Institutions operating across the GCC, Pakistan, and the UK don&apos;t just face
-                different Shariah interpretations — they face entirely different regulatory reporting
+                different Shariah interpretations, they face entirely different regulatory reporting
                 formats for the same underlying transaction. The fix isn&apos;t picking one format; it&apos;s
                 storing one canonical compliance record and generating each jurisdiction&apos;s report
                 from it.
@@ -101,7 +101,7 @@ export default function ArticlePage() {
 
             <p className="text-[15px] leading-[1.85]">
               Islamic financial institutions rarely operate in a single regulatory environment for
-              long. Growth means new markets, and new markets mean new regulators — the State Bank of
+              long. Growth means new markets, and new markets mean new regulators, the State Bank of
               Pakistan, GCC central banks, and UK regulators each expect different documentation,
               different audit formats, and different reporting cadences.
             </p>
@@ -109,7 +109,7 @@ export default function ArticlePage() {
             <h2 className="text-[24px] font-bold tracking-tight pt-4" style={{ color: "var(--text-primary)" }}>Standards help, but don&apos;t solve the reporting problem</h2>
             <p className="text-[15px] leading-[1.85]">
               AAOIFI and IFSB standards give institutions a shared reference point for the substance of
-              a compliant transaction. What they don&apos;t do is eliminate the local reporting layer —
+              a compliant transaction. What they don&apos;t do is eliminate the local reporting layer,
               a regulator in one market may want quarterly aggregated exposure data, while another wants
               transaction-level documentation on demand. The underlying ruling can be identical; the
               paperwork isn&apos;t.
@@ -122,8 +122,8 @@ export default function ArticlePage() {
 
             <h2 className="text-[24px] font-bold tracking-tight pt-4" style={{ color: "var(--text-primary)" }}>One record, many report formats</h2>
             <p className="text-[15px] leading-[1.85]">
-              The structurally sound fix is to store one canonical version of each compliance decision —
-              tied to the transaction, not the jurisdiction — and generate each market&apos;s required
+              The structurally sound fix is to store one canonical version of each compliance decision,
+              tied to the transaction, not the jurisdiction, and generate each market&apos;s required
               report format from that single source. This is the multi-market regulatory reporting
               approach built into <Link href="/amanah-ai" style={{ color: "var(--gold)", fontWeight: 600 }}>Aylinor</Link>: one
               governance record, multiple report outputs, instead of parallel record-keeping that drifts

@@ -18,15 +18,15 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: "Why does more sales volume create operational problems?",
-    a: "Sales growth multiplies everything downstream of the sale — contracts, payment tracking, handoffs to operations, reporting to leadership. If that layer is still manual, more deals means more manual work, not more margin.",
+    a: "Sales growth multiplies everything downstream of the sale, contracts, payment tracking, handoffs to operations, reporting to leadership. If that layer is still manual, more deals means more manual work, not more margin.",
   },
   {
     q: "What is an internal management system in this context?",
-    a: "A centralized layer that gives leadership real-time visibility into pipeline, deal status, and operational load — as opposed to reconstructing that picture from a CRM, a spreadsheet, and someone's memory whenever it's needed.",
+    a: "A centralized layer that gives leadership real-time visibility into pipeline, deal status, and operational load, as opposed to reconstructing that picture from a CRM, a spreadsheet, and someone's memory whenever it's needed.",
   },
   {
     q: "At what point does a firm actually need this?",
-    a: "The reliable signal isn't revenue size — it's when leadership starts making decisions on data that's a week or more out of date because nobody has time to compile a fresher view.",
+    a: "The reliable signal isn't revenue size, it's when leadership starts making decisions on data that's a week or more out of date because nobody has time to compile a fresher view.",
   },
 ];
 
@@ -91,7 +91,7 @@ export default function ArticlePage() {
             <div className="answer-capsule">
               <p className="text-[12px] font-bold uppercase tracking-widest mb-2" style={{ color: "var(--blue)" }}>The short answer</p>
               <p className="text-[15px] leading-relaxed" style={{ color: "var(--text-primary)" }}>
-                Sales growth multiplies everything downstream of the sale — contracts, payment
+                Sales growth multiplies everything downstream of the sale, contracts, payment
                 tracking, operational handoffs, leadership reporting. Without a real internal
                 management system underneath it, more revenue just means more manual work, and
                 leadership starts making decisions on data that&apos;s already out of date by the time
@@ -111,21 +111,21 @@ export default function ArticlePage() {
 
             <h2 className="text-[24px] font-bold tracking-tight pt-4" style={{ color: "var(--text-primary)" }}>The real cost isn&apos;t visible in the sales number</h2>
             <p className="text-[15px] leading-[1.85]">
-              A closed deal that takes three days to properly enter into every downstream system —
-              payment tracking, investor allocation, executive reporting — is a deal that&apos;s
+              A closed deal that takes three days to properly enter into every downstream system,
+              payment tracking, investor allocation, executive reporting, is a deal that&apos;s
               already costing you margin nobody is tracking. Multiply that by a growing volume of
               deals and the operations team&apos;s time becomes the actual constraint on growth, not
               demand.
             </p>
             <p className="text-[15px] leading-[1.85]">
-              Leadership feels this first as a reporting lag — the numbers presented in a Monday
+              Leadership feels this first as a reporting lag, the numbers presented in a Monday
               meeting reflect where the business was a week ago, not where it is now. Decisions made
               on that lag compound, quietly, in ways that are hard to trace back to a single cause.
             </p>
 
             <h2 className="text-[24px] font-bold tracking-tight pt-4" style={{ color: "var(--text-primary)" }}>What a real management layer changes</h2>
             <p className="text-[15px] leading-[1.85]">
-              An internal management system isn&apos;t another sales tool — it&apos;s the layer that
+              An internal management system isn&apos;t another sales tool, it&apos;s the layer that
               gives leadership a live view of pipeline, deal status, and operational load without
               anyone compiling it by hand. This is exactly what{" "}
               <strong style={{ color: "var(--text-primary)" }}>LuxeProperty AI</strong> is built to

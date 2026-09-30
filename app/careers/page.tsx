@@ -5,7 +5,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Careers — Join Daeson Technologies",
+  title: "Careers: Join Daeson Technologies",
   description:
     "Build enterprise technology at Daeson Technologies. We're hiring engineers, business development professionals, and operational advisors. Plus partnerships and referral programs.",
   alternates: { canonical: "https://daesontechnologies.online/careers" },
@@ -14,11 +14,11 @@ export const metadata: Metadata = {
 const values = [
   {
     title: "Operational Depth Over Surface",
-    body: "We build systems that understand industries at the operational level. We hire people who think the same way — deeply, specifically, with genuine interest in how businesses actually work.",
+    body: "We build systems that understand industries at the operational level. We hire people who think the same way, deeply, specifically, with genuine interest in how businesses actually work.",
   },
   {
     title: "Ownership Mindset",
-    body: "We build owned infrastructure because we believe businesses should own what they depend on. The same applies to our team — we take ownership of outcomes, not just tasks.",
+    body: "We build owned infrastructure because we believe businesses should own what they depend on. The same applies to our team, we take ownership of outcomes, not just tasks.",
   },
   {
     title: "Substance Over Performance",
@@ -26,7 +26,7 @@ const values = [
   },
   {
     title: "Governance at the Core",
-    body: "The industries we serve require careful, auditable decision-making. We hire people who take that seriously — in their work and in how they operate as professionals.",
+    body: "The industries we serve require careful, auditable decision-making. We hire people who take that seriously, in their work and in how they operate as professionals.",
   },
 ];
 
@@ -35,10 +35,10 @@ const featuredInternship = {
   type: "Internship",
   badge: "Now Hiring",
   location: "Remote / Hybrid (UAE preferred)",
-  duration: "3–6 months",
+  duration: "3 to 6 months",
   linkedinPost: "https://www.linkedin.com/posts/daeson-technologies_hiring-internship-businessdevelopment-activity-7473648269986934784-rtbA",
   description:
-    "Join the Daeson Technologies business development team as an intern and gain hands-on experience in enterprise B2B outreach, market research, and partnership development across real estate and Islamic finance sectors. This is a meaningful role — not a coffee-and-admin internship.",
+    "Join the Daeson Technologies business development team as an intern and gain hands-on experience in enterprise B2B outreach, market research, and partnership development across real estate and Islamic finance sectors. This is a meaningful role, not a coffee-and-admin internship.",
   responsibilities: [
     "Support outbound BD efforts targeting real estate firms and Islamic financial institutions",
     "Research target markets and qualify enterprise prospects in UAE, GCC, and Canadian markets",
@@ -76,7 +76,7 @@ const openRoles = [
     type: "Technical",
     location: "Remote (UAE / Canada)",
     description:
-      "Join the AI team working on Aylinor's document analysis, workflow automation, and operational intelligence layers — at the intersection of AI engineering and real enterprise operations.",
+      "Join the AI team working on Aylinor's document analysis, workflow automation, and operational intelligence layers, at the intersection of AI engineering and real enterprise operations.",
     requirements: [
       "Experience with LLM integration and fine-tuning",
       "Python, PyTorch/TensorFlow proficiency",
@@ -104,7 +104,7 @@ const openRoles = [
     type: "Advisory",
     location: "Remote or GCC-based",
     description:
-      "A qualified Islamic finance professional to support the operational design and domain accuracy of Aylinor — working directly with the product team on workflow logic, compliance requirements, and domain validation.",
+      "A qualified Islamic finance professional to support the operational design and domain accuracy of Aylinor, working directly with the product team on workflow logic, compliance requirements, and domain validation.",
     requirements: [
       "Practical Islamic finance operations experience",
       "Familiarity with Murabaha, Ijara, and other Islamic structures",
@@ -128,7 +128,7 @@ const futureOpportunities = [
   },
   {
     area: "Enterprise Sales (GCC)",
-    description: "A dedicated enterprise sales professional for GCC market expansion — with strong relationships in financial services and real estate sectors.",
+    description: "A dedicated enterprise sales professional for GCC market expansion, with strong relationships in financial services and real estate sectors.",
     timeline: "Q4 2025",
   },
   {
@@ -142,14 +142,14 @@ const partnerOpps = [
   {
     title: "Partner Program",
     description:
-      "Boutique digital agencies, software consultancies, and IT firms with clients in real estate, fintech, or Islamic finance can become referral or delivery partners. We're selective — we partner with firms whose clients deserve better infrastructure.",
+      "Boutique digital agencies, software consultancies, and IT firms with clients in real estate, fintech, or Islamic finance can become referral or delivery partners. We're selective, we partner with firms whose clients deserve better infrastructure.",
     ideal: ["Digital agencies with real estate clients", "Tech consultancies in GCC or Canada", "Enterprise IT service firms"],
     href: "/partnerships",
   },
   {
     title: "Referral Partnership",
     description:
-      "If you work with enterprise organizations that need better operational infrastructure — as a consultant, advisor, or professional services provider — our referral program compensates introductions that result in engagements.",
+      "If you work with enterprise organizations that need better operational infrastructure, as a consultant, advisor, or professional services provider, our referral program compensates introductions that result in engagements.",
     ideal: ["Management consultants", "Financial advisors", "Operations specialists"],
     href: "/partnerships",
   },
@@ -165,7 +165,7 @@ const partnerOpps = [
 const pageSchema = {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  name: "Careers — Daeson Technologies",
+  name: "Careers | Daeson Technologies",
   url: "https://daesontechnologies.online/careers",
   isPartOf: { "@id": "https://daesontechnologies.online/#website" },
   breadcrumb: {
@@ -523,7 +523,7 @@ export default function CareersPage() {
           </h2>
           <p className="text-[14px] leading-relaxed max-w-md mx-auto mb-8" style={{ color: "var(--text-secondary)" }}>
             If your skills are a strong fit for what we&apos;re building, we welcome a
-            direct introduction — even without an open listing.
+            direct introduction, even without an open listing.
           </p>
           <a
             href="mailto:careers@daesontechnologies.online"

@@ -7,7 +7,7 @@ import { ArrowRight, ArrowLeft } from "lucide-react";
 export const metadata: Metadata = {
   title: "Shariah-Compliant Banking Software: Governance, Automation and Compliance",
   description:
-    "How Shariah-compliant banking software supports modern Islamic financial institutions — governance, contract-level review, and where AI can responsibly help.",
+    "How Shariah-compliant banking software supports modern Islamic financial institutions, governance, contract-level review, and where AI can responsibly help.",
   keywords: [
     "Shariah-compliant banking software",
     "Shariah compliance intelligence",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Shariah-Compliant Banking Software: Governance, Automation and Compliance",
     description:
-      "How Shariah-compliant banking software supports modern Islamic financial institutions — governance, contract-level review, and where AI can responsibly help.",
+      "How Shariah-compliant banking software supports modern Islamic financial institutions, governance, contract-level review, and where AI can responsibly help.",
     url: "https://daesontechnologies.online/insights/shariah-compliant-banking-software",
   },
 };
@@ -28,11 +28,11 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: "What is Shariah-compliant banking software?",
-    a: "Shariah-compliant banking software is technology designed to help financial institutions manage products and operations according to their approved Islamic finance structures and governance requirements. The term does not automatically mean a platform is certified or approved by a particular regulator — institutions need to evaluate actual capabilities against their own policies.",
+    a: "Shariah-compliant banking software is technology designed to help financial institutions manage products and operations according to their approved Islamic finance structures and governance requirements. The term does not automatically mean a platform is certified or approved by a particular regulator, institutions need to evaluate actual capabilities against their own policies.",
   },
   {
     q: "Can AI make Shariah compliance decisions?",
-    a: "No. AI can support document analysis, missing-information detection, rule-based screening, knowledge retrieval, review summaries and audit preparation — but it should not silently override formal rules or present uncertain findings as final decisions. Shariah decisions remain the responsibility of qualified scholars and governance bodies.",
+    a: "No. AI can support document analysis, missing-information detection, rule-based screening, knowledge retrieval, review summaries and audit preparation, but it should not silently override formal rules or present uncertain findings as final decisions. Shariah decisions remain the responsibility of qualified scholars and governance bodies.",
   },
   {
     q: "What should institutions ask vendors before adopting Shariah-compliant software?",
@@ -45,7 +45,7 @@ const articleSchema = {
   "@type": "Article",
   headline: "How Shariah-Compliant Banking Software Supports Modern Financial Institutions",
   description:
-    "How Shariah-compliant banking software supports modern Islamic financial institutions — governance, contract-level review, and where AI can responsibly help.",
+    "How Shariah-compliant banking software supports modern Islamic financial institutions, governance, contract-level review, and where AI can responsibly help.",
   author: { "@type": "Organization", name: "Daeson Technologies", url: "https://daesontechnologies.online" },
   publisher: { "@type": "Organization", name: "Daeson Technologies", url: "https://daesontechnologies.online" },
   url: "https://daesontechnologies.online/insights/shariah-compliant-banking-software",
@@ -105,7 +105,7 @@ export default function ArticlePage() {
             </h1>
             <p className="text-[17px] leading-relaxed" style={{ color: "var(--text-secondary)" }}>
               Governance, contract-level review, and where artificial intelligence can
-              responsibly help — without replacing the humans who make Shariah decisions.
+              responsibly help, without replacing the humans who make Shariah decisions.
             </p>
           </div>
         </section>
@@ -120,7 +120,7 @@ export default function ArticlePage() {
                 Shariah-compliant banking software is technology designed to help financial
                 institutions manage products and operations according to their approved Islamic
                 finance structures and governance requirements. The term alone does not guarantee
-                certification or regulatory approval — institutions have to evaluate a platform&apos;s
+                certification or regulatory approval, institutions have to evaluate a platform&apos;s
                 actual capabilities against their own policies, regulator requirements and
                 governance responsibilities.
               </p>
@@ -154,7 +154,7 @@ export default function ArticlePage() {
               Islamic finance depends on governance processes that involve qualified scholars,
               Shariah boards, compliance teams, internal auditors, legal departments, risk teams
               and senior management. A digital system should make collaboration between these
-              groups easier — helping organize approved product structures, Shariah board
+              groups easier, helping organize approved product structures, Shariah board
               decisions, internal policy documents, review assignments, contract versions,
               compliance questions, exceptions, approval records and audit evidence. This reduces
               the risk of important information being lost or difficult to retrieve.
@@ -186,13 +186,13 @@ export default function ArticlePage() {
             <p className="text-[15px] leading-[1.85]">
               Artificial intelligence can support Islamic finance teams by reducing repetitive
               document and information-management work. Potential use cases include document
-              analysis — extracting information from contracts, applications, policy documents and
-              supporting files; missing-information detection — identifying documents or fields
-              that appear to be missing from a review package; rule-based screening — checking
+              analysis, extracting information from contracts, applications, policy documents and
+              supporting files; missing-information detection, identifying documents or fields
+              that appear to be missing from a review package; rule-based screening, checking
               whether selected conditions are present or absent according to configured
-              institutional rules; knowledge retrieval — helping authorized users locate relevant
-              internal policies, previous decisions and approved references; review summaries —
-              preparing structured summaries for qualified reviewers; and audit preparation —
+              institutional rules; knowledge retrieval, helping authorized users locate relevant
+              internal policies, previous decisions and approved references; review summaries,
+              preparing structured summaries for qualified reviewers; and audit preparation,
               organizing evidence, review notes, timestamps and decision records into a more
               accessible audit trail.
             </p>
@@ -205,11 +205,11 @@ export default function ArticlePage() {
             <p className="text-[15px] leading-[1.85]">
               A useful architecture, in general, combines two different capabilities. A
               deterministic layer applies explicit rules and conditions configured by the
-              institution — answering questions like whether a required document is present,
+              institution, answering questions like whether a required document is present,
               whether a mandatory review step has been completed, whether a selected contract type
               is allowed for a given product, or whether a required field is missing. An AI
               analysis layer can then assist with unstructured information, language, document
-              interpretation and knowledge retrieval — identifying potential concerns, explaining
+              interpretation and knowledge retrieval, identifying potential concerns, explaining
               why a document was flagged, or summarizing relevant material.
             </p>
             <p className="text-[15px] leading-[1.85]">
@@ -245,7 +245,7 @@ export default function ArticlePage() {
             <p className="text-[15px] leading-[1.85]">
               The objective is to help institutions organize compliance-related work and support
               qualified human reviewers with better information and structured workflows. Aylinor
-              is not positioned as a replacement for scholars or formal governance bodies — its
+              is not positioned as a replacement for scholars or formal governance bodies, its
               role is to provide technology that can make review, documentation and operational
               coordination more manageable.
             </p>
@@ -255,7 +255,7 @@ export default function ArticlePage() {
               Shariah-compliant banking software should be evaluated through the combined lens of
               technology, Islamic finance structures, governance, regulation and institutional
               accountability. The most valuable platforms will not simply use Islamic finance
-              terminology — they will provide practical tools for contract management,
+              terminology, they will provide practical tools for contract management,
               documentation, review, auditability and responsible automation. As AI develops, the
               key question will not be whether a system can produce an answer. It will be whether
               the institution can understand, review, verify and govern that answer.

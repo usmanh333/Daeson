@@ -5,7 +5,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Industries — Real Estate & Islamic Finance",
+  title: "Industries: Real Estate & Islamic Finance",
   description:
     "Daeson Technologies builds operational infrastructure for real estate firms, Islamic financial institutions, and enterprise organizations. Purpose-built systems for operationally complex industries.",
   keywords: [
@@ -17,9 +17,9 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "https://daesontechnologies.online/industries" },
   openGraph: {
-    title: "Industries — Real Estate, Islamic Finance & Enterprise Operations | Daeson Technologies",
+    title: "Industries: Real Estate, Islamic Finance & Enterprise Operations | Daeson Technologies",
     description:
-      "Purpose-built operational infrastructure for real estate, Islamic finance, and enterprise organizations — industries where operational complexity is a competitive variable.",
+      "Purpose-built operational infrastructure for real estate, Islamic finance, and enterprise organizations, industries where operational complexity is a competitive variable.",
     url: "https://daesontechnologies.online/industries",
   },
 };
@@ -30,7 +30,7 @@ const industries = [
     color: "#000000",
     title: "Real Estate & PropTech",
     description:
-      "Property development firms, real estate operators, and investment portfolios running on fragmented tools need unified operational infrastructure — not another CRM subscription.",
+      "Property development firms, real estate operators, and investment portfolios running on fragmented tools need unified operational infrastructure, not another CRM subscription.",
     problems: [
       "Generic CRMs not designed for real estate workflows",
       "No unified portfolio and investor visibility",
@@ -46,14 +46,14 @@ const industries = [
     color: "#C9A84C",
     title: "Islamic Finance & Shariah Compliance",
     description:
-      "Islamic banks, fintech platforms, investment funds, and lending institutions need Shariah compliance infrastructure that scales — not manual review workflows in spreadsheets.",
+      "Islamic banks, fintech platforms, investment funds, and lending institutions need Shariah compliance infrastructure that scales, not manual review workflows in spreadsheets.",
     problems: [
       "Manual contract review and Shariah analysis",
       "Disconnected governance and scholar coordination",
       "No immutable audit trail infrastructure",
       "Fragmented multi-market regulatory reporting",
     ],
-    what: "Aylinor provides AI-assisted Shariah compliance infrastructure — contract analysis, governance workflows, audit trails, and regulatory reporting — designed for GCC, Pakistan, and UK markets.",
+    what: "Aylinor provides AI-assisted Shariah compliance infrastructure, contract analysis, governance workflows, audit trails, and regulatory reporting, designed for GCC, Pakistan, and UK markets.",
     href: "/amanah-ai",
     cta: "Explore Aylinor",
   },
@@ -101,7 +101,7 @@ export default function IndustriesPage() {
             </span>
           </h1>
           <p className="text-[17px] text-[#94A3B8] max-w-2xl mx-auto leading-relaxed">
-            We specialize in industries where operational complexity is a competitive variable —
+            We specialize in industries where operational complexity is a competitive variable,
             and where generic software consistently falls short.
           </p>
         </section>

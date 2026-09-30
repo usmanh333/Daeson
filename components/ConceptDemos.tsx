@@ -14,7 +14,7 @@ const demos = [
     title: "Real Estate Operations Platform",
     subtitle: "Real Estate & PropTech",
     description:
-      "An exploration of how a unified operational platform could replace four to six fragmented tools for property development firms and real estate operators. Built around the actual workflow of real estate operations — not adapted from generic CRM templates.",
+      "An exploration of how a unified operational platform could replace four to six fragmented tools for property development firms and real estate operators. Built around the actual workflow of real estate operations, not adapted from generic CRM templates.",
     modules: [
       "CEO Dashboard & Portfolio Overview",
       "AI Lead Intelligence Engine",
@@ -37,7 +37,7 @@ const demos = [
     title: "Aylinor",
     subtitle: "Islamic Finance Compliance Intelligence",
     description:
-      "Aylinor is being developed to support Shariah compliance workflows inside Islamic financial institutions — providing AI-assisted contract analysis, governance documentation, and regulatory reporting. Development is informed by strategic Shariah advisory collaboration.",
+      "Aylinor is being developed to support Shariah compliance workflows inside Islamic financial institutions, providing AI-assisted contract analysis, governance documentation, and regulatory reporting. Development is informed by strategic Shariah advisory collaboration.",
     modules: [
       "Murabaha Workflow Intelligence",
       "Compliance Document Processing",
@@ -169,7 +169,7 @@ export default function ConceptDemos() {
 
                 {demo.disclaimer && (
                   <p className="text-[11px] mb-5 italic" style={{ color: "var(--text-faint)" }}>
-                    Advisory note: Aylinor provides workflow support — it does not issue Shariah rulings.
+                    Advisory note: Aylinor provides workflow support, it does not issue Shariah rulings.
                     All compliance decisions rest with qualified Shariah scholars.
                   </p>
                 )}

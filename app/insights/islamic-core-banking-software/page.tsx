@@ -61,7 +61,7 @@ export default function ArticlePage() {
               Islamic Core Banking Software vs. a Shariah Compliance Layer
             </h1>
             <p className="text-[17px] leading-relaxed" style={{ color: "var(--text-secondary)" }}>
-              Core banking and Shariah compliance intelligence are not the same purchase decision — and confusing the two leads to the wrong RFP.
+              Core banking and Shariah compliance intelligence are not the same purchase decision, and confusing the two leads to the wrong RFP.
             </p>
           </div>
         </section>
@@ -71,8 +71,8 @@ export default function ArticlePage() {
             <div className="answer-capsule">
               <p className="text-[12px] font-bold uppercase tracking-widest mb-2" style={{ color: "var(--gold)" }}>The short answer</p>
               <p className="text-[15px] leading-relaxed" style={{ color: "var(--text-primary)" }}>
-                Islamic core banking software handles the system-of-record functions — accounts,
-                ledgers, transaction processing — adapted for Islamic products. A Shariah
+                Islamic core banking software handles the system-of-record functions, accounts,
+                ledgers, transaction processing, adapted for Islamic products. A Shariah
                 compliance layer sits alongside it, handling governance documentation, contract
                 review and audit trails. Most institutions eventually need both, but they are
                 different purchases with different vendors.
@@ -82,12 +82,12 @@ export default function ArticlePage() {
               &quot;Islamic core banking software&quot; usually refers to the foundational
               system-of-record: accounts, ledgers, transaction processing, and product
               configuration, adapted to reflect Islamic contractual structures rather than
-              interest-based ones. It is a large, expensive, long-cycle purchase — often the
+              interest-based ones. It is a large, expensive, long-cycle purchase, often the
               central IT decision for a bank.
             </p>
             <p className="text-[15px] leading-[1.85]">
               A Shariah compliance layer is a narrower, faster-moving category. It doesn&apos;t
-              replace core banking — it sits alongside it, handling governance documentation,
+              replace core banking, it sits alongside it, handling governance documentation,
               contract-level review, scholar workflows and audit trails. Institutions that already
               have a core banking system in place, Islamic or otherwise, are often looking for this
               layer specifically, rather than a full core banking replacement.
@@ -99,7 +99,7 @@ export default function ArticlePage() {
             </p>
             <p className="text-[15px] leading-[1.85]">
               <Link href="/amanah-ai" style={{ color: "var(--gold)", fontWeight: 600 }}>Aylinor</Link> is
-              built as this second category — a Shariah compliance intelligence layer designed to
+              built as this second category, a Shariah compliance intelligence layer designed to
               work alongside an institution&apos;s existing core banking system, not replace it.
             </p>
           </div>

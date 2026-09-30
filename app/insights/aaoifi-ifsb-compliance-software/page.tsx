@@ -18,15 +18,15 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: "What are AAOIFI and IFSB standards?",
-    a: "AAOIFI (Accounting and Auditing Organization for Islamic Financial Institutions) and IFSB (Islamic Financial Services Board) set accounting, auditing, governance, and risk standards for Islamic financial institutions — providing a shared reference point across markets.",
+    a: "AAOIFI (Accounting and Auditing Organization for Islamic Financial Institutions) and IFSB (Islamic Financial Services Board) set accounting, auditing, governance, and risk standards for Islamic financial institutions, providing a shared reference point across markets.",
   },
   {
     q: "Why doesn't a generic compliance checklist cover this?",
-    a: "Generic fintech compliance tools are built around conventional banking regulation. AAOIFI and IFSB standards involve Shariah-specific structures — like Murabaha sequencing or Musharakah profit-sharing — that a checklist built for conventional finance simply has no concept of.",
+    a: "Generic fintech compliance tools are built around conventional banking regulation. AAOIFI and IFSB standards involve Shariah-specific structures, like Murabaha sequencing or Musharakah profit-sharing, that a checklist built for conventional finance simply has no concept of.",
   },
   {
     q: "What's the risk of an AI system that sounds confident but is wrong about a standard?",
-    a: "In Islamic finance, an incorrect but confidently stated compliance answer is worse than an obvious gap — it can lead a reviewer to skip verification they'd otherwise have done. Well-designed systems are built to flag uncertainty rather than mask it with a confident-sounding answer.",
+    a: "In Islamic finance, an incorrect but confidently stated compliance answer is worse than an obvious gap, it can lead a reviewer to skip verification they'd otherwise have done. Well-designed systems are built to flag uncertainty rather than mask it with a confident-sounding answer.",
   },
 ];
 
@@ -92,7 +92,7 @@ export default function ArticlePage() {
               <p className="text-[12px] font-bold uppercase tracking-widest mb-2" style={{ color: "var(--gold)" }}>The short answer</p>
               <p className="text-[15px] leading-relaxed" style={{ color: "var(--text-primary)" }}>
                 AAOIFI and IFSB standards involve Shariah-specific financial structures that generic
-                compliance software — built for conventional banking regulation — has no concept of.
+                compliance software, built for conventional banking regulation, has no concept of.
                 Real standards-awareness has to be built into the system&apos;s architecture from the
                 start, and the system has to be honest about uncertainty rather than sound confident
                 when it&apos;s wrong.
@@ -102,13 +102,13 @@ export default function ArticlePage() {
             <p className="text-[15px] leading-[1.85]">
               AAOIFI (Accounting and Auditing Organization for Islamic Financial Institutions) and IFSB
               (Islamic Financial Services Board) provide the closest thing Islamic finance has to a
-              shared standards reference across markets — covering accounting treatment, governance
+              shared standards reference across markets, covering accounting treatment, governance
               expectations, and risk frameworks specific to Shariah-compliant structures.
             </p>
 
             <h2 className="text-[24px] font-bold tracking-tight pt-4" style={{ color: "var(--text-primary)" }}>Why generic compliance tools miss this entirely</h2>
             <p className="text-[15px] leading-[1.85]">
-              Most fintech compliance software is built around conventional banking regulation —
+              Most fintech compliance software is built around conventional banking regulation,
               anti-money laundering rules, KYC requirements, standard risk-weighting. None of that
               framework has a native concept of Murabaha ownership sequencing, Musharakah profit-sharing
               ratios, or the specific documentation AAOIFI expects for each structure. Bolting a Shariah
@@ -119,14 +119,14 @@ export default function ArticlePage() {
             <h2 className="text-[24px] font-bold tracking-tight pt-4" style={{ color: "var(--text-primary)" }}>The &quot;confident and wrong&quot; failure mode</h2>
             <p className="text-[15px] leading-[1.85]">
               This matters most with AI-assisted review specifically. An AI system that gives a
-              confident-sounding answer about standards compliance — when it&apos;s actually wrong or
-              uncertain — is more dangerous than a system that visibly can&apos;t answer, because a
+              confident-sounding answer about standards compliance, when it&apos;s actually wrong or
+              uncertain, is more dangerous than a system that visibly can&apos;t answer, because a
               confident wrong answer can lead a reviewer to skip the verification they&apos;d otherwise
               have done. Well-designed systems are built to surface ambiguity, not paper over it.
             </p>
             <p className="text-[15px] leading-[1.85]">
               This is the design principle behind how <Link href="/amanah-ai" style={{ color: "var(--gold)", fontWeight: 600 }}>Aylinor</Link> approaches
-              AAOIFI and IFSB awareness — structured to support a scholar&apos;s judgment with organized,
+              AAOIFI and IFSB awareness, structured to support a scholar&apos;s judgment with organized,
               standards-aware information, not to generate a ruling on its own.
             </p>
 
