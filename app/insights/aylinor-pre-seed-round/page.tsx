@@ -147,15 +147,14 @@ export default function ArticlePage() {
               What we have built
             </h2>
             <p className="text-[15px] leading-[1.85]">
-              Aylinor combines two product areas: documentation and specification intelligence for reviewing
-              and organizing complex materials, and Ask Aylinor, an Arabic and English assistant for
-              Shariah-compliance officers. The platform is designed to support professional review, not
-              replace scholars, Shariah boards, or institutional decision-makers.
+              Aylinor is a Shariah-compliance intelligence platform for Islamic financial institutions.
+              It is designed to support professional review, not replace scholars, Shariah boards, or
+              institutional decision-makers. The institution stays in control. The platform helps the
+              team work more efficiently within that structure.
             </p>
             <p className="text-[15px] leading-[1.85]">
-              Our public product preview presents contract analysis, source-linked findings, and shared
-              records of approvals, overrides, and comments. Access is currently available as a private
-              preview by invitation.
+              Access is currently available as a private preview by invitation. We are working with a
+              small number of institutions to refine the workflow before broader release.
             </p>
 
             <h2 className="text-[24px] font-bold tracking-tight pt-4" style={{ color: "var(--text-primary)" }}>
@@ -180,8 +179,8 @@ export default function ArticlePage() {
             </p>
             <div className="space-y-4">
               {[
-                { label: "Product performance", body: "Improve response speed and the usefulness of documentation-analysis outputs." },
-                { label: "Arabic and English AI quality", body: "Strengthen retrieval, references, terminology handling, and evaluation across both languages." },
+                { label: "Product performance", body: "Reduce the time it takes for compliance teams to move from document submission to a structured, reviewable output." },
+                { label: "Arabic and English AI quality", body: "Improve the accuracy and usefulness of outputs for teams working across both languages in Islamic banking contexts." },
                 { label: "International adoption", body: "Develop the implementation, support, and market-entry capabilities required to serve institutions beyond Pakistan, including the Gulf." },
               ].map(({ label, body }) => (
                 <div
@@ -202,15 +201,15 @@ export default function ArticlePage() {
               Our approach to commercialization
             </h2>
             <p className="text-[15px] leading-[1.85]">
-              Aylinor&apos;s intended business model is enterprise subscription revenue, supported by
-              institutional onboarding and deployment. Our proposed route is to begin with a clearly defined
-              workflow, demonstrate its value, and expand adoption where the institution sees a continuing
-              benefit.
+              Our route to market is through direct engagement with Islamic financial institutions.
+              We begin with a clearly defined problem — disconnected, manual compliance review — demonstrate
+              that the workflow improves with Aylinor, and expand adoption where the institution sees a
+              continuing benefit.
             </p>
             <p className="text-[15px] leading-[1.85]">
-              That requires answering commercial questions early: who experiences the problem, who owns the
-              budget, what approvals are required, what defines a successful pilot, and what would justify
-              a paid institutional contract. These questions will shape our market entry and product priorities.
+              We are not trying to replace existing institutional governance. We are helping compliance teams
+              do the work they already do with less friction and a clearer record. That distinction matters
+              to the institutions we are speaking with, and it shapes how we enter each market.
             </p>
 
             <h2 className="text-[24px] font-bold tracking-tight pt-4" style={{ color: "var(--text-primary)" }}>

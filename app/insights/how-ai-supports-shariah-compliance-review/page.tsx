@@ -195,28 +195,40 @@ export default function ArticlePage() {
             </p>
 
             <h2 className="text-[24px] font-bold tracking-tight pt-4" style={{ color: "var(--text-primary)" }}>
-              Where Arabic and English support helps
+              Where bilingual support matters
             </h2>
             <p className="text-[15px] leading-[1.85]">
-              Aylinor includes an Arabic and English assistant designed for Shariah-compliance officers.
-              Its purpose is to make interaction with documentation and research more accessible across
-              both languages. However, bilingual output still requires careful evaluation. Technical
-              terminology, quotations, and translations should be checked where they influence a finding.
-              Fluent wording alone does not establish accurate interpretation.
+              Islamic banking teams in Pakistan, the Gulf, and internationally often work across Arabic and
+              English simultaneously. Contracts may be issued in Arabic, guidance documents in English, and
+              internal commentary in either. Compliance officers who need to cross-reference between them
+              spend significant time on translation and terminology, time that is not part of the review
+              itself.
+            </p>
+            <p className="text-[15px] leading-[1.85]">
+              A bilingual assistant reduces that friction. But bilingual output still requires careful
+              evaluation. Technical terminology, quotations, and translations should be checked where
+              they influence a finding. Fluent wording alone does not establish accurate interpretation.
             </p>
 
             <h2 className="text-[24px] font-bold tracking-tight pt-4" style={{ color: "var(--text-primary)" }}>
-              How Aylinor approaches document review
+              The problem Aylinor is built to address
             </h2>
             <p className="text-[15px] leading-[1.85]">
-              Aylinor supports PDF, Word, Excel, and scanned Arabic documents. It presents clause-level
-              references to AAOIFI and central-bank guidance, alongside a shared record of approvals,
-              overrides, and comments. These capabilities are intended to help teams keep analysis and
-              expert review connected.
+              In most Islamic banks, Shariah review happens in disconnected steps. A contract arrives, a
+              compliance officer reads it, notes concerns by hand or in a separate document, and routes
+              comments back through email or a shared drive. Decisions are rarely recorded in one place.
+              The version reviewed, the comments made, and the outcome reached are often stored in
+              different locations, if they are stored at all.
             </p>
             <p className="text-[15px] leading-[1.85]">
-              Institutions evaluating the platform should test it using representative documents and examine
-              reference quality, document handling, review controls, and the clarity of its outputs.
+              When a subsequent review references the same transaction, the team may have to reconstruct
+              what was decided and why. When an auditor asks for documentation, the evidence is scattered.
+              When a senior scholar needs to assess the pattern across a product category, there is no
+              clean record to examine.
+            </p>
+            <p className="text-[15px] leading-[1.85]">
+              Aylinor is designed to help institutions bring that process into a single, organized workflow
+              so that review, commentary, and decision history are connected and retrievable.
             </p>
 
             <h2 className="text-[24px] font-bold tracking-tight pt-4" style={{ color: "var(--text-primary)" }}>
@@ -225,7 +237,7 @@ export default function ArticlePage() {
             <p className="text-[15px] leading-[1.85]">
               The strongest role for AI in Shariah compliance is not to remove human judgment. It is to help
               professionals spend less time organizing information and more time evaluating the issues that
-              matter.
+              matter. The expert still examines every finding. The institution retains the record.
             </p>
 
             <div
@@ -233,7 +245,7 @@ export default function ArticlePage() {
               style={{ backgroundColor: "var(--bg-card)", border: "1px solid var(--border)" }}
             >
               <p className="text-[15px] font-semibold mb-4" style={{ color: "var(--text-primary)" }}>
-                Explore Aylinor and request a demonstration of its documentation-review workflow.
+                Request a demonstration of Aylinor&apos;s Shariah-compliance review workflow.
               </p>
               <a
                 href="https://aylinor.daesontechnologies.online/"
