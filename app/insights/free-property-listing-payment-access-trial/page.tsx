@@ -8,10 +8,57 @@ export const metadata: Metadata = {
   title: "Home 1.0 Free Trial: Listings and Payment Access",
   description:
     "Try Home 1.0 free for 30 days with property listing and payment access. No credit card required, plus first-year free tenant applications.",
+  keywords: [
+    "property management software free trial",
+    "free property listing",
+    "online rent payment access",
+    "landlord software trial",
+    "tenant application platform",
+    "Home 1.0",
+    "rental management software",
+    "property listing software Pakistan",
+    "rent ledger software",
+    "online tenant applications",
+    "property management UAE",
+    "PropTech Pakistan",
+  ],
+  authors: [{ name: "Daeson Technologies", url: "https://daesontechnologies.online" }],
+  creator: "Daeson Technologies",
+  publisher: "Daeson Technologies",
   alternates: { canonical: "https://daesontechnologies.online/insights/free-property-listing-payment-access-trial" },
   openGraph: {
     title: "Home 1.0 Free Trial: Listings and Payment Access",
+    description:
+      "Try Home 1.0 free for 30 days with property listing and payment access. No credit card required, plus first-year free tenant applications.",
     url: "https://daesontechnologies.online/insights/free-property-listing-payment-access-trial",
+    siteName: "Daeson Technologies",
+    images: [{ url: "https://daesontechnologies.online/og-image.png", width: 1200, height: 630, alt: "Home 1.0 Free Trial: Listings and Payment Access" }],
+    type: "article",
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Home 1.0 Free Trial: Listings and Payment Access",
+    description:
+      "30-day free trial, no credit card required. List your property, explore payment access, and manage applications in one connected platform.",
+    images: ["https://daesontechnologies.online/og-image.png"],
+    creator: "@DaesonTech",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
+  },
+  other: {
+    "geo.region": "PK",
+    "geo.placename": "Pakistan",
+    "geo.position": "30.3753;69.3451",
+    ICBM: "30.3753, 69.3451",
+    "article:published_time": "2026-10-06",
+    "article:modified_time": "2026-10-06",
+    "article:author": "Daeson Technologies",
+    "article:section": "PropTech",
+    "article:tag": "Home 1.0, free trial, property management, PropTech Pakistan",
   },
 };
 

@@ -8,10 +8,57 @@ export const metadata: Metadata = {
   title: "How AI Supports Shariah Compliance Review | Aylinor",
   description:
     "Understand how AI can support Shariah contract review with source-linked findings, organized documentation, and qualified human oversight.",
+  keywords: [
+    "AI for Shariah compliance",
+    "Shariah contract review",
+    "AAOIFI standards",
+    "Islamic finance compliance",
+    "Arabic English AI assistant",
+    "Shariah compliance copilot",
+    "Islamic finance AI",
+    "Aylinor",
+    "Shariah compliance software",
+    "Islamic banking AI",
+    "Pakistan Islamic finance technology",
+    "Gulf Shariah compliance AI",
+  ],
+  authors: [{ name: "Daeson Technologies", url: "https://daesontechnologies.online" }],
+  creator: "Daeson Technologies",
+  publisher: "Daeson Technologies",
   alternates: { canonical: "https://daesontechnologies.online/insights/how-ai-supports-shariah-compliance-review" },
   openGraph: {
     title: "How AI Supports Shariah Compliance Review | Aylinor",
+    description:
+      "Understand how AI can support Shariah contract review with source-linked findings, organized documentation, and qualified human oversight.",
     url: "https://daesontechnologies.online/insights/how-ai-supports-shariah-compliance-review",
+    siteName: "Daeson Technologies",
+    images: [{ url: "https://daesontechnologies.online/og-image.png", width: 1200, height: 630, alt: "How AI Supports Shariah Compliance Review" }],
+    type: "article",
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "How AI Supports Shariah Compliance Review | Aylinor",
+    description:
+      "AI can support Shariah contract review with source-linked findings and organized documentation. Human judgment stays at the center.",
+    images: ["https://daesontechnologies.online/og-image.png"],
+    creator: "@DaesonTech",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
+  },
+  other: {
+    "geo.region": "PK",
+    "geo.placename": "Pakistan",
+    "geo.position": "30.3753;69.3451",
+    ICBM: "30.3753, 69.3451",
+    "article:published_time": "2026-10-06",
+    "article:modified_time": "2026-10-06",
+    "article:author": "Daeson Technologies",
+    "article:section": "Islamic Finance",
+    "article:tag": "AI for Shariah compliance, AAOIFI, Aylinor, Islamic finance AI",
   },
 };
 

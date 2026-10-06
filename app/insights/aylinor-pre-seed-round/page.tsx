@@ -8,10 +8,57 @@ export const metadata: Metadata = {
   title: "Aylinor Pre-Seed Round: Funding Enterprise Growth",
   description:
     "Aylinor is seeking pre-seed investment to strengthen Arabic and English AI, improve product performance, and support institutional expansion into the Gulf.",
+  keywords: [
+    "Aylinor pre-seed funding",
+    "Islamic fintech startup",
+    "Shariah compliance AI",
+    "Islamic finance investment",
+    "enterprise AI Pakistan GCC",
+    "Aylinor",
+    "Daeson Technologies funding",
+    "Islamic finance startup Pakistan",
+    "Gulf fintech investment",
+    "UAE Islamic fintech",
+    "Saudi Arabia Islamic AI",
+    "Shariah compliance software investment",
+  ],
+  authors: [{ name: "Daeson Technologies", url: "https://daesontechnologies.online" }],
+  creator: "Daeson Technologies",
+  publisher: "Daeson Technologies",
   alternates: { canonical: "https://daesontechnologies.online/insights/aylinor-pre-seed-round" },
   openGraph: {
     title: "Aylinor Pre-Seed Round: Funding Enterprise Growth",
+    description:
+      "Aylinor is seeking pre-seed investment to strengthen Arabic and English AI, improve product performance, and support institutional expansion into the Gulf.",
     url: "https://daesontechnologies.online/insights/aylinor-pre-seed-round",
+    siteName: "Daeson Technologies",
+    images: [{ url: "https://daesontechnologies.online/og-image.png", width: 1200, height: 630, alt: "Aylinor Pre-Seed Round: Funding Enterprise Growth" }],
+    type: "article",
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Aylinor Pre-Seed Round: Funding Enterprise Growth",
+    description:
+      "Aylinor is raising pre-seed to strengthen AI quality and expand into the Gulf. We are looking for investors and strategic partners with regional expertise.",
+    images: ["https://daesontechnologies.online/og-image.png"],
+    creator: "@DaesonTech",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
+  },
+  other: {
+    "geo.region": "PK",
+    "geo.placename": "Pakistan",
+    "geo.position": "30.3753;69.3451",
+    ICBM: "30.3753, 69.3451",
+    "article:published_time": "2026-10-06",
+    "article:modified_time": "2026-10-06",
+    "article:author": "Daeson Technologies",
+    "article:section": "Company News",
+    "article:tag": "Aylinor, pre-seed, Islamic fintech, GCC, Pakistan",
   },
 };
 
