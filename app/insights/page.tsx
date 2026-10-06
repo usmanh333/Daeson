@@ -304,28 +304,6 @@ const breadcrumbSchema = {
 
 const articles = [
   {
-    category: "Islamic Finance",
-    color: "var(--gold)",
-    rawColor: "#B9912F",
-    title: "How AI Supports Shariah Compliance Review Without Replacing Human Judgment",
-    excerpt:
-      "AI can help organize Shariah contract review with source-linked findings and structured documentation. Understand what a compliance copilot does, where references matter, and how expert accountability stays at the center.",
-    readTime: "8 min read",
-    topics: ["Aylinor", "Shariah Compliance", "AAOIFI Standards"],
-    href: "/insights/how-ai-supports-shariah-compliance-review",
-  },
-  {
-    category: "Company News",
-    color: "var(--text-secondary)",
-    rawColor: "#888888",
-    title: "Aylinor Is Seeking Pre-Seed Investment to Scale Shariah-Compliance Intelligence",
-    excerpt:
-      "Daeson Technologies is raising pre-seed funding to strengthen Aylinor's Arabic and English AI, improve product performance, and support institutional expansion into the Gulf. We are looking for investors and strategic partners with regional expertise.",
-    readTime: "6 min read",
-    topics: ["Aylinor", "Pre-Seed", "Islamic Fintech"],
-    href: "/insights/aylinor-pre-seed-round",
-  },
-  {
     category: "PropTech",
     color: "var(--blue)",
     rawColor: "#888888",
