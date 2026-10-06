@@ -6,104 +6,78 @@ import { Plus, Minus } from "lucide-react";
 
 const faqs = [
   {
-    q: "What is operational infrastructure software?",
-    a: `Operational infrastructure software refers to purpose-built digital systems that serve as the backbone of a company's day-to-day operations. Unlike generic SaaS tools, operational infrastructure is designed specifically around your business's workflows, data models, and compliance requirements.
+    q: "What problem does Aylinor solve for Islamic financial institutions?",
+    a: `Shariah compliance review in most Islamic banks happens through disconnected, manual processes. Contracts arrive as documents, officers review them individually, comments are exchanged over email, and decisions are recorded in separate files, if at all.
 
-It typically includes CRM and lead management, data aggregation and reporting, compliance and governance systems, workflow automation, and executive visibility dashboards, all integrated and owned by the business. Daeson Technologies specializes in building this type of owned infrastructure for real estate firms, Islamic financial institutions, and enterprise organizations.`,
+The result is inconsistent review quality, no reliable audit trail, and compliance teams spending most of their time on coordination rather than substantive analysis. When financing volume grows, the bottleneck grows with it because the process scales with headcount, not with technology.
+
+Aylinor is built to bring that process into a single, organized workflow so that review, commentary, and decision history are connected, retrievable, and auditable.`,
   },
   {
-    q: "What does 'workflow-first' mean in software development?",
-    a: `Workflow-first means systems are designed around how a business actually operates before any code is written. Rather than buying software and adapting processes around it, workflow-first development begins with operational discovery, mapping real workflows, data flows, and decision points, then builds infrastructure around those realities.
+    q: "Who is Aylinor designed for?",
+    a: `Aylinor is designed for Islamic financial institutions that carry an active Shariah compliance function. This includes microfinance banks, commercial Islamic banks, Islamic windows within conventional banks, and Islamic fintech platforms.
 
-Most software projects fail not because of poor engineering, but because the system was built on a misunderstood workflow. Daeson Technologies applies a workflow-first methodology to every engagement: discovery and operational architecture come before development, and prototypes are validated against real business scenarios before full build.`,
+The primary users are compliance officers and Shariah advisors who are responsible for reviewing contracts, maintaining governance records, and preparing documentation for audit or board review. The platform supports their work without replacing their judgment or authority.`,
   },
   {
-    q: "How is custom-built software different from using SaaS platforms?",
-    a: `When a business uses SaaS tools, they are renting access to software built for a general market, not their specific operations. The business has no control over features, data models, integrations, or pricing trajectory.
+    q: "How does Aylinor support Shariah advisors specifically?",
+    a: `Shariah advisors at Islamic banks spend a significant portion of their time on operational overhead: reading documents, tracking versions, consolidating comments, and chasing approvals through email. This is time taken away from the substantive compliance decisions that require their expertise.
 
-Ownership means the company controls the codebase, the data, and the product roadmap. There are no recurring licensing fees per seat, no vendor lock-in, and no compromise on features. Custom-built operational infrastructure can be precisely aligned to your workflows and scaled as your business evolves.
+Aylinor reduces that overhead by organizing the review workflow in one place. Advisors can see what has been submitted, what requires their attention, and what decisions have been recorded, without reconstructing that picture from emails and shared drives.
 
-For businesses with complex, high-volume, or compliance-driven operations, owned infrastructure typically delivers superior ROI within 12 to 24 months compared to equivalent SaaS subscriptions.`,
+The advisor remains the decision-maker. The platform makes the information they need available in a structured, traceable form.`,
   },
   {
-    q: "Can real estate companies build their own CRM and operations platform?",
-    a: `Yes. Real estate firms with portfolio complexity, investor relationships, or multi-market operations often find that generic CRMs fall short of their operational needs, they require heavy customization, expensive consultants, and still don't match the actual workflow.
+    q: "What is Murabaha compliance and why is it operationally difficult?",
+    a: `Murabaha is a cost-plus-profit sale arrangement and one of the most common financing structures in Islamic banking. It is used for home financing, trade finance, vehicle purchase, and commodity financing.
 
-Purpose-built real estate operational infrastructure can include unified lead and deal management, investor dashboards with real-time portfolio visibility, payment and project milestone tracking, document management, and AI-powered reporting, all integrated into a single owned platform.
+Compliance requires verifying that the contract correctly reflects the agreed cost, profit margin, and delivery terms, and that it meets the applicable Shariah and regulatory requirements. In most institutions this is done manually: a compliance officer reads the contract, checks it against a checklist or their own knowledge, and records the outcome in a spreadsheet or by email.
 
-Daeson Technologies has designed operational infrastructure architecture specifically for real estate and property development firms operating across UAE, GCC, and international markets.`,
+At low volume this is manageable. As financing volume grows, the manual process becomes a serious operational constraint. Review takes longer, errors are harder to catch, and audit documentation is incomplete or inconsistent.`,
   },
   {
-    q: "What is Aylinor and how does it support Shariah compliance?",
-    a: `Aylinor is Daeson Technologies' dedicated platform for Islamic financial institutions, currently in strategic development with Alhamd Shariah Advisory collaboration. It provides AI-assisted support for Shariah compliance workflows, including Murabaha contract analysis, risk scoring, governance documentation, scholar review queues, and regulatory reporting.
+    q: "What makes Shariah compliance different from conventional financial compliance?",
+    a: `Conventional compliance is primarily regulatory: does the contract meet the rules set by a financial regulator? Shariah compliance adds a second layer: does the contract's structure, economics, and intent conform to Islamic jurisprudence?
 
-Aylinor is designed to support, not replace: Shariah scholars and compliance teams. It automates the repetitive, time-consuming analysis tasks and creates consistent, auditable documentation, so scholars can focus on substantive governance decisions rather than manual document review.
+That second layer requires human scholarly judgment. A compliance officer or Shariah advisor must evaluate not just whether a clause is present, but whether the transaction as a whole is structured correctly under the applicable standard.
 
-The platform is in development for Islamic banks, Islamic fintech platforms, investment funds, and payment institutions operating across GCC, Pakistan, and UK markets.`,
+This means technology in Islamic finance cannot simply automate compliance decisions. It must support the review process, organize information, surface relevant material, and preserve the record of expert judgment. That is the role Aylinor is built to fill.`,
   },
   {
-    q: "What is Murabaha workflow digitization?",
-    a: `Murabaha is one of the most common structures in Islamic finance, a cost-plus-profit sale arrangement used for home financing, trade finance, vehicle purchase, and commodity financing. In most institutions, Murabaha compliance is managed manually: contracts reviewed line-by-line, documentation compiled by hand, scholar approval tracked through email.
+    q: "What is Ask Aylinor?",
+    a: `Ask Aylinor is the Arabic and English conversational assistant within the Aylinor platform. It is designed for Shariah compliance officers who work across both languages and need to interact with documentation, research, and guidance material without switching tools or manually translating between languages.
 
-Murabaha workflow digitization replaces this with structured, automated workflows. The system parses contracts against compliance frameworks, executes Shariah compliance checklists, generates governance documentation automatically, and maintains a full audit trail from contract intake through scholar approval, making the process faster, more consistent, and fully auditable at scale.`,
+Its purpose is to reduce the language-coordination overhead in compliance work, not to issue rulings or replace expert review. Outputs from Ask Aylinor should be evaluated against the source material and the officer's own professional judgment before any finding is recorded.`,
   },
   {
-    q: "What is governance-sensitive AI?",
-    a: `Governance-sensitive AI refers to AI systems designed with explicit attention to audit trails, explainability, human oversight, and regulatory compliance, required by industries where decisions carry legal, financial, or religious accountability.
+    q: "How does Daeson Technologies approach Islamic finance technology?",
+    a: `Islamic finance institutions have governance requirements that conventional financial technology was not built to handle. Compliance workflows, audit trails, and scholar review processes require a different underlying structure than standard banking software.
 
-Islamic finance and regulated real estate operations are prime examples: AI recommendations must be documented, auditable, and subject to human review. Daeson builds AI infrastructure with governance requirements built into the architecture from the start, not added as an afterthought. This means every AI decision has a traceable evidence chain, human review is embedded in the workflow, and the system can be audited by regulators, Shariah boards, or internal governance teams.`,
+Daeson Technologies builds products specifically for this context. That means governance accountability is part of the product design, not an add-on. Expert oversight is embedded in the workflow, not bypassed by it. And the institution retains control over every decision the platform supports.
+
+Our focus is on making existing compliance work more organized and retrievable, not on automating away the human judgment that Islamic governance requires.`,
   },
   {
-    q: "What industries does Daeson Technologies serve?",
-    a: `Daeson Technologies currently serves three primary verticals:
+    q: "What real estate problems do Home 1.0 and LuxeProperty AI address?",
+    a: `Property management and real estate operations involve a large number of disconnected activities: listing units, processing applications, collecting rent, handling maintenance, managing investor reporting, and tracking deals. Most firms handle these through a combination of spreadsheets, email, and separate tools that do not share data.
 
-Real Estate & PropTech, portfolio management, AI-powered CRM, investor relations dashboards, payment and project tracking, and lead intelligence systems for property development firms and real estate operators.
+Home 1.0 is a residential property management platform that connects listing, tenant applications, rent tracking, and maintenance into one place. LuxeProperty AI is designed for real estate teams, investors, and executives who need operational and portfolio visibility in a single platform.
 
-Islamic Finance: Shariah compliance infrastructure, Murabaha contract analysis, governance workflows, and regulatory reporting for Islamic banks, fintech platforms, investment funds, and lending institutions.
-
-Enterprise Operations, workflow automation, operational intelligence dashboards, AI system integration, and cross-department visibility platforms for organizations with complex internal operations.
-
-Our focus is on operationally complex businesses that have outgrown generic software tools and need infrastructure designed for their specific context.`,
+Both products are designed around the actual workflows of the teams using them, rather than requiring those teams to adapt their operations to a generic tool.`,
   },
   {
-    q: "How long does it take to build an operational infrastructure system?",
-    a: `Timeline depends on scope and complexity. A core operational platform, including discovery, architecture, prototyping, development, and deployment, typically requires 3 to 6 months for a first production version.
+    q: "Is Aylinor available to all institutions or by invitation only?",
+    a: `Aylinor is currently available as a private preview by invitation. We are working directly with a small number of Islamic financial institutions to refine the compliance workflow before broader release.
 
-More complex systems with AI integration, multi-market compliance requirements, and enterprise-scale data infrastructure may take 6 to 12 months.
-
-We work in structured phases with clear milestones and weekly progress reviews. Clients see working interactive prototypes within the first 4 to 6 weeks of engagement, well before any final development commitment.`,
+Institutions that want to be considered for early access can request a demonstration through the Aylinor website. We prioritize institutions where the compliance review problem is active and where there is interest in participating in the refinement process.`,
   },
   {
-    q: "Do clients own the source code?",
-    a: `Yes. Every system we build is fully owned by the client. This includes all source code, database schemas, architectural documentation, deployment configurations, and any intellectual property created during the engagement.
+    q: "What industries does Daeson Technologies focus on?",
+    a: `Daeson Technologies focuses on three areas where operational complexity and governance requirements make generic software inadequate.
 
-Clients receive a complete handover package and can continue development independently or with their own team. We do not retain any proprietary dependencies, license keys, or platform access that would create vendor lock-in.
+Islamic finance, where Shariah compliance workflows require purpose-built support that respects the role of scholars and advisors. Real estate and property management, where deal flow, investor reporting, tenant management, and payment tracking need to work as a connected system rather than isolated tools. And enterprise operations more broadly, where organizations need visibility and coordination across departments that currently operate in silos.
 
-We believe businesses should own their infrastructure, not lease it.`,
-  },
-  {
-    q: "What makes Daeson Technologies different?",
-    a: `Traditional software companies build what clients ask for. They are execution partners, given specifications, they write code.
-
-Daeson Technologies functions as an operational systems partner. We start with in-depth workflow discovery and operational architecture before development begins. Our approach is closer to a management consulting and technology implementation firm than a development shop.
-
-We focus on a small number of industries and bring deep domain knowledge, particularly in real estate operations and Islamic finance compliance, rather than taking on any project that comes our way. We don't build software; we build systems that change how businesses operate.`,
-  },
-  {
-    q: "How much does enterprise software development cost?",
-    a: `Enterprise operational infrastructure is scoped on a project basis after discovery. Initial platform builds typically range from $25,000 to $150,000 depending on complexity, AI integration requirements, and number of stakeholder roles.
-
-We provide fixed-scope, fixed-price proposals after completing a discovery and architecture phase, so clients understand the full investment commitment before development begins. There are no surprise costs or scope creep billing.
-
-For ongoing optimization, feature development, and operational support, we offer structured retainer engagements following initial deployment.`,
-  },
-  {
-    q: "What is AI for business operations, and how does Daeson use it?",
-    a: `AI for business operations refers to the application of machine learning, natural language processing, and reasoning systems to operational workflows, not just chatbots or content generation.
-
-This includes AI-driven contract analysis, automated reporting and data aggregation, intelligent lead qualification, compliance document generation, anomaly detection in operational data, and executive intelligence dashboards that synthesize multiple data sources.
-
-Daeson Technologies integrates AI capabilities into operational infrastructure in ways that create measurable business value, improving processing speed, decision consistency, and organizational visibility. We do not build AI as a product feature; we build AI as an operational layer that makes the entire system more intelligent.`,
+Our products, Aylinor, Home 1.0, and LuxeProperty AI, are each built for one of these contexts.`,
   },
 ];
 
