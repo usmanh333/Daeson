@@ -304,6 +304,72 @@ const breadcrumbSchema = {
 
 const articles = [
   {
+    category: "Islamic Finance",
+    color: "var(--gold)",
+    rawColor: "#B9912F",
+    title: "Islamic Finance Is Entering the AI Era: Why Agentic AI Could Be the Next Big Shift",
+    excerpt:
+      "AI and Agentic AI could help Shariah teams search documents, route reviews and track actions, without automating Shariah judgment. Why Malaysia, Indonesia and the UAE matter, and why trust and governance must come first.",
+    readTime: "4 min read",
+    topics: ["Agentic AI", "Shariah Governance", "Islamic Fintech"],
+    href: "/insights/agentic-ai-islamic-finance",
+  },
+  {
+    category: "Real Estate Operations",
+    color: "var(--blue)",
+    rawColor: "#888888",
+    title: "How AI Is Transforming Real Estate Operations in 2026",
+    excerpt:
+      "AI creates value in real estate when it is connected to real business processes. See how it supports lead management, investor and developer visibility, workflow automation and property management, and what to check before adopting it.",
+    readTime: "6 min read",
+    topics: ["AI in Real Estate", "Automation", "PropTech"],
+    href: "/insights/ai-in-real-estate-operations",
+  },
+  {
+    category: "PropTech",
+    color: "var(--blue)",
+    rawColor: "#888888",
+    title: "What Is PropTech? A Practical Guide for Real Estate Businesses",
+    excerpt:
+      "PropTech covers the software and digital platforms used to develop, market, invest in and manage real estate. Learn the main categories, why they matter, and how to evaluate PropTech software against your actual workflows.",
+    readTime: "7 min read",
+    topics: ["PropTech", "Real Estate Technology", "Software Selection"],
+    href: "/insights/what-is-proptech",
+  },
+  {
+    category: "PropTech",
+    color: "var(--blue)",
+    rawColor: "#888888",
+    title: "Property Management Software vs. Spreadsheets: Which Is Better?",
+    excerpt:
+      "Spreadsheets work for small, simple portfolios. Compare them with property management software across tenant records, rent tracking, leases, maintenance, reporting and cost, and learn when it is time to switch.",
+    readTime: "8 min read",
+    topics: ["Property Management", "Rent Tracking", "Landlord Software"],
+    href: "/insights/property-management-software-vs-spreadsheets",
+  },
+  {
+    category: "Real Estate Operations",
+    color: "var(--blue)",
+    rawColor: "#888888",
+    title: "How to Automate Real Estate Workflows Without Replacing Your Existing Systems",
+    excerpt:
+      "Automation does not require replacing every application. Map one process, connect the systems you already use, decide where rules end and AI begins, and measure the outcome against a baseline.",
+    readTime: "8 min read",
+    topics: ["Workflow Automation", "Integrations", "Real Estate Operations"],
+    href: "/insights/real-estate-workflow-automation",
+  },
+  {
+    category: "Enterprise Software",
+    color: "var(--blue)",
+    rawColor: "#888888",
+    title: "Custom Software Development vs. Off-the-Shelf Software for Growing Businesses",
+    excerpt:
+      "Off-the-shelf software suits standard needs; custom development earns its place when critical workflows or integrations cannot be supported. Compare total cost, data ownership, scalability and a third option: extending what you have.",
+    readTime: "9 min read",
+    topics: ["Custom Software", "Integrations", "Total Cost of Ownership"],
+    href: "/insights/custom-software-vs-off-the-shelf",
+  },
+  {
     category: "PropTech",
     color: "var(--blue)",
     rawColor: "#888888",
