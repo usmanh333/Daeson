@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
 import BackToTop from "@/app/components/BackToTop";
+import IFNReportPopup from "@/components/IFNReportPopup";
 import { ThemeProvider } from "@/app/components/ThemeProvider";
 
 const inter = Inter({
@@ -370,6 +371,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <ThemeProvider>
           {children}
           <BackToTop />
+          <IFNReportPopup />
         </ThemeProvider>
       </body>
     </html>
