@@ -304,6 +304,17 @@ const breadcrumbSchema = {
 
 const articles = [
   {
+    category: "IFN Special Report",
+    color: "var(--gold)",
+    rawColor: "#B9912F",
+    title: "When Shariah Compliance Meets AI: Innovation Must Know Its Limits",
+    excerpt:
+      "Mahnoor Zafar's report in IFN Volume 23, Issue 40 (7 October 2026) on why AI should support Shariah governance without becoming the authority: machines can assist, scholars decide, institutions remain accountable. Free PDF download.",
+    readTime: "PDF report",
+    topics: ["IFN", "Shariah Governance", "AI in Islamic Finance"],
+    href: "/insights/ifn-shariah-compliance-meets-ai",
+  },
+  {
     category: "Islamic Finance",
     color: "var(--gold)",
     rawColor: "#B9912F",

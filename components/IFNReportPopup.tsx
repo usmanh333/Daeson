@@ -2,9 +2,11 @@
 
 import { useCallback, useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
-import { Download, X } from "lucide-react";
+import Link from "next/link";
+import { ArrowRight, Download, X } from "lucide-react";
 
 const REPORT_URL = "/reports/ifn-shariah-compliance-meets-ai.pdf";
+const SUMMARY_URL = "/insights/ifn-shariah-compliance-meets-ai";
 const STORAGE_KEY = "ifn-report-popup-dismissed";
 const OPEN_DELAY_MS = 900;
 
@@ -225,14 +227,14 @@ export default function IFNReportPopup() {
                       <Download size={14} className="relative" />
                       <span className="relative">Download the report</span>
                     </motion.a>
-                    <button
-                      type="button"
+                    <Link
+                      href={SUMMARY_URL}
                       onClick={close}
-                      className="text-[12.5px] font-medium px-3 py-2 rounded-lg transition-colors hover:bg-white/5"
-                      style={{ color: "rgba(255,255,255,0.55)" }}
+                      className="inline-flex items-center gap-1 text-[12.5px] font-medium px-3 py-2 rounded-lg transition-colors hover:bg-white/5"
+                      style={{ color: "rgba(255,255,255,0.7)" }}
                     >
-                      Maybe later
-                    </button>
+                      Read the summary <ArrowRight size={12} />
+                    </Link>
                   </motion.div>
                 </div>
               </motion.div>

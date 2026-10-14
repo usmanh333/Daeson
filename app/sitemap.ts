@@ -50,6 +50,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/insights/real-estate-workflow-automation`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.75 },
     { url: `${BASE}/insights/custom-software-vs-off-the-shelf`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.75 },
     { url: `${BASE}/insights/agentic-ai-islamic-finance`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.75 },
+    { url: `${BASE}/insights/ifn-shariah-compliance-meets-ai`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.85 },
+    { url: `${BASE}/reports/ifn-shariah-compliance-meets-ai.pdf`, lastModified: new Date("2026-10-07"), changeFrequency: "yearly", priority: 0.6 },
     { url: `${BASE}/founder-insights`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.8 },
     { url: `${BASE}/research`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.75 },
     { url: `${BASE}/pr`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.75 },
