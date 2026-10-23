@@ -304,6 +304,50 @@ const breadcrumbSchema = {
 
 const articles = [
   {
+    category: "Responsible AI",
+    color: "var(--blue)",
+    rawColor: "#888888",
+    title: "Can You Trust an AI Answer? 5 Questions to Ask",
+    excerpt:
+      "An AI answer can be well written and still require careful checking. Five questions to ask before you act on one, covering sources, context, missing information, review, and data privacy.",
+    readTime: "6 min read",
+    topics: ["Responsible AI", "AI Verification", "Human Oversight"],
+    href: "/insights/check-ai-answers-before-trusting-them",
+  },
+  {
+    category: "Islamic Finance",
+    color: "var(--gold)",
+    rawColor: "#B9912F",
+    title: "Shariah Compliance in the AI Era: Supporting Experts, Not Replacing Them",
+    excerpt:
+      "Aylinor's approach to Arabic-English Shariah-compliance documentation: a useful output is one a qualified reviewer can examine, challenge, and correct, not a confident answer that replaces their judgment.",
+    readTime: "5 min read",
+    topics: ["Aylinor", "Shariah Compliance", "Expert Review"],
+    href: "/insights/shariah-compliance-ai-expert-review",
+  },
+  {
+    category: "PropTech",
+    color: "var(--blue)",
+    rawColor: "#888888",
+    title: "Home1.0: Property Management for Small Landlords",
+    excerpt:
+      "Managing a few rentals can still mean a large administrative workload. How Home1.0 helps small landlords keep leasing, payment information, maintenance, and tenant communication connected in one place.",
+    readTime: "6 min read",
+    topics: ["Home 1.0", "Landlord Software", "Small Portfolios"],
+    href: "/insights/property-management-small-landlords",
+  },
+  {
+    category: "Enterprise Software",
+    color: "var(--blue)",
+    rawColor: "#888888",
+    title: "Your Business May Not Need Another App—It May Need a Better Workflow",
+    excerpt:
+      "Before adding another tool, map where the work actually gets stuck. A practical method for finding unclear handoffs, improving a process before automating it, and buying software around a defined problem.",
+    readTime: "6 min read",
+    topics: ["Workflow Automation", "Software Selection", "Business Process"],
+    href: "/insights/fix-workflow-before-buying-software",
+  },
+  {
     category: "IFN Special Report",
     color: "var(--gold)",
     rawColor: "#B9912F",
