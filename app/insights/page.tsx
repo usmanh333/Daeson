@@ -304,6 +304,72 @@ const breadcrumbSchema = {
 
 const articles = [
   {
+    category: "Enterprise Software",
+    color: "var(--blue)",
+    rawColor: "#888888",
+    title: "Custom AI Software Development: How Businesses Build AI Solutions That Create Real ROI",
+    excerpt:
+      "When custom AI is worth the investment, how the development process actually works, realistic costs and risks, and what to ask before choosing a development partner.",
+    readTime: "11 min read",
+    topics: ["Custom AI", "Enterprise Software", "ROI"],
+    href: "/insights/custom-ai-software-development-roi",
+  },
+  {
+    category: "Workflow Automation",
+    color: "var(--blue)",
+    rawColor: "#888888",
+    title: "AI Automation for Business: 12 High-Impact Workflows Companies Can Automate",
+    excerpt:
+      "Twelve workflows, from lead follow-up to document processing and approvals, where AI automation most consistently reduces repetitive manual work, and how to choose which one to start with.",
+    readTime: "10 min read",
+    topics: ["AI Automation", "CRM", "Workflow Automation"],
+    href: "/insights/ai-automation-for-business-workflows",
+  },
+  {
+    category: "Enterprise Software",
+    color: "var(--blue)",
+    rawColor: "#888888",
+    title: "Enterprise AI Platforms: A Practical Guide for Businesses Planning AI Transformation",
+    excerpt:
+      "Architecture, data readiness, security, integrations, governance, and a realistic implementation roadmap for planning an enterprise AI platform.",
+    readTime: "11 min read",
+    topics: ["Enterprise AI", "Governance", "AI Transformation"],
+    href: "/insights/enterprise-ai-platform-guide",
+  },
+  {
+    category: "Real Estate Operations",
+    color: "var(--blue)",
+    rawColor: "#888888",
+    title: "Real Estate CRM and AI: How Developers and Investment Firms Manage Leads, Deals, and Investors",
+    excerpt:
+      "Why generic CRM tools fall short in real estate, and how a connected platform handles property listings, deal pipelines, investor reporting, and follow-ups in one place.",
+    readTime: "10 min read",
+    topics: ["Real Estate CRM", "LuxeProperty AI", "Investor Reporting"],
+    href: "/insights/real-estate-crm-software-guide",
+  },
+  {
+    category: "Islamic Finance",
+    color: "var(--gold)",
+    rawColor: "#B9912F",
+    title: "Islamic Banking Software: How AI Is Transforming Shariah Compliance and Governance",
+    excerpt:
+      "Where AI fits in Shariah compliance workflows: document review, SSB workflow, audit trails, and core banking integration, with Shariah determination remaining with scholars.",
+    readTime: "10 min read",
+    topics: ["Islamic Banking Software", "Shariah Compliance", "Aylinor"],
+    href: "/insights/islamic-banking-software-ai-governance",
+  },
+  {
+    category: "Islamic Finance",
+    color: "var(--gold)",
+    rawColor: "#B9912F",
+    title: "Murabahah Contract Review: How AI Supports Shariah Compliance in English and Arabic",
+    excerpt:
+      "How bilingual AI-assisted review supports Murabahah documentation: issue flags, supporting references, reviewer workflow, and audit trails, with human oversight throughout.",
+    readTime: "9 min read",
+    topics: ["Murabahah", "Bilingual Review", "Aylinor"],
+    href: "/insights/murabahah-contract-review-software-bilingual",
+  },
+  {
     category: "Responsible AI",
     color: "var(--blue)",
     rawColor: "#888888",

@@ -124,7 +124,7 @@ export default function DigitalTransformationPage() {
             <Link href="/contact" className="inline-flex items-center gap-2 px-5 py-3 text-[13px] font-semibold rounded-lg" style={{ backgroundColor: "var(--green)", color: "var(--on-blue)" }}>
               Begin Discovery <ArrowRight size={13} />
             </Link>
-            <Link href="/solutions" className="inline-flex items-center gap-2 px-5 py-3 text-[13px] font-semibold rounded-lg" style={{ border: "1px solid var(--border)", color: "var(--text-primary)" }}>
+            <Link href="/expertise" className="inline-flex items-center gap-2 px-5 py-3 text-[13px] font-semibold rounded-lg" style={{ border: "1px solid var(--border)", color: "var(--text-primary)" }}>
               All Solutions
             </Link>
           </div>

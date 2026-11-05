@@ -355,7 +355,7 @@ export default function ArticlePage() {
             </p>
             <p className="text-[15px] leading-[1.85]">
               Daeson Technologies develops{" "}
-              <Link href="/solutions" className="underline underline-offset-2" style={{ color: "var(--blue)" }}>
+              <Link href="/expertise" className="underline underline-offset-2" style={{ color: "var(--blue)" }}>
                 software and AI-powered systems
               </Link>{" "}
               for businesses seeking more connected workflows and practical operational improvements.

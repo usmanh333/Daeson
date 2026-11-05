@@ -7,44 +7,6 @@ import { PRODUCT_URLS, linkTargetProps } from "@/lib/products";
 import Link from "next/link";
 import Image from "next/image";
 
-const solutions = [
-  {
-    label: "Real Estate Infrastructure",
-    description: "Owned operational platform for property firms",
-    href: "/real-estate",
-    icon: (
-      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
-        <path d="M1 13V6l6-5 6 5v7H9V9H5v4H1Z" stroke="currentColor" strokeWidth="1.25" strokeLinejoin="round" fill="none"/>
-      </svg>
-    ),
-  },
-  {
-    label: "Aylinor",
-    description: "Islamic finance compliance intelligence",
-    href: PRODUCT_URLS.aylinor,
-    icon: (
-      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
-        <circle cx="7" cy="7" r="5.5" stroke="currentColor" strokeWidth="1.25" fill="none"/>
-        <path d="M4.5 7.5C4.5 5.8 5.6 4.5 7 4.5s2.5 1.3 2.5 3" stroke="currentColor" strokeWidth="1.25" strokeLinecap="round" fill="none"/>
-        <circle cx="7" cy="7" r="1" fill="currentColor"/>
-      </svg>
-    ),
-  },
-  {
-    label: "Enterprise AI Systems",
-    description: "Workflow automation and AI integration",
-    href: "/industries",
-    icon: (
-      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
-        <rect x="1.5" y="1.5" width="4" height="4" rx="0.75" stroke="currentColor" strokeWidth="1.25" fill="none"/>
-        <rect x="8.5" y="1.5" width="4" height="4" rx="0.75" stroke="currentColor" strokeWidth="1.25" fill="none"/>
-        <rect x="1.5" y="8.5" width="4" height="4" rx="0.75" stroke="currentColor" strokeWidth="1.25" fill="none"/>
-        <rect x="8.5" y="8.5" width="4" height="4" rx="0.75" stroke="currentColor" strokeWidth="1.25" fill="none"/>
-      </svg>
-    ),
-  },
-];
-
 const productCategories = [
   {
     category: "Fintech",
@@ -62,6 +24,7 @@ const productCategories = [
 ];
 
 const navLinks = [
+  { label: "Our Expertise", href: "/expertise" },
   { label: "About", href: "/about" },
   { label: "Partnerships", href: "/partnerships" },
   { label: "Insights", href: "/insights" },
@@ -71,10 +34,8 @@ const navLinks = [
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
-  const [solutionsOpen, setSolutionsOpen] = useState(false);
   const [productsOpen, setProductsOpen] = useState(false);
   const [announced, setAnnounced] = useState(true);
-  const solutionsRef = useRef<HTMLDivElement>(null);
   const productsRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -85,9 +46,6 @@ export default function Navbar() {
 
   useEffect(() => {
     const handleClick = (e: MouseEvent) => {
-      if (solutionsRef.current && !solutionsRef.current.contains(e.target as Node)) {
-        setSolutionsOpen(false);
-      }
       if (productsRef.current && !productsRef.current.contains(e.target as Node)) {
         setProductsOpen(false);
       }
@@ -241,78 +199,6 @@ export default function Navbar() {
               </AnimatePresence>
             </div>
 
-            {/* Solutions Dropdown */}
-            <div ref={solutionsRef} className="relative">
-              <button
-                onClick={() => setSolutionsOpen(!solutionsOpen)}
-                className="nav-yellow flex items-center gap-1.5 px-3 py-2 text-[13px] font-medium rounded-lg"
-                style={{ color: "var(--text-secondary)" }}
-              >
-                Solutions
-                <ChevronDown
-                  size={12}
-                  className={`transition-transform duration-200 ${solutionsOpen ? "rotate-180" : ""}`}
-                />
-              </button>
-
-              <AnimatePresence>
-                {solutionsOpen && (
-                  <motion.div
-                    initial={{ opacity: 0, y: 6, scale: 0.97 }}
-                    animate={{ opacity: 1, y: 0, scale: 1 }}
-                    exit={{ opacity: 0, y: 6, scale: 0.97 }}
-                    transition={{ duration: 0.14, ease: "easeOut" }}
-                    className="absolute top-full left-0 mt-2 w-72 rounded-xl overflow-hidden shadow-2xl"
-                    style={{
-                      backgroundColor: "var(--bg-surface)",
-                      border: "1px solid var(--border)",
-                      boxShadow: "var(--shadow-lg)",
-                    }}
-                  >
-                    <div className="p-2">
-                      {solutions.map((item) => (
-                        <Link
-                          key={item.href}
-                          href={item.href}
-                          {...linkTargetProps(item.href)}
-                          onClick={() => setSolutionsOpen(false)}
-                          className="flex items-start gap-3 p-3 rounded-lg transition-colors group"
-                          style={{ color: "inherit" }}
-                          onMouseEnter={e => (e.currentTarget.style.backgroundColor = "var(--bg-elevated)")}
-                          onMouseLeave={e => (e.currentTarget.style.backgroundColor = "transparent")}
-                        >
-                          <span
-                            className="mt-0.5 flex-shrink-0 w-6 h-6 rounded-md flex items-center justify-center"
-                            style={{ backgroundColor: "var(--blue-muted)", color: "var(--blue)" }}
-                          >
-                            {item.icon}
-                          </span>
-                          <div>
-                            <div className="text-[13px] font-semibold mb-0.5" style={{ color: "var(--text-primary)" }}>
-                              {item.label}
-                            </div>
-                            <div className="text-[11px]" style={{ color: "var(--text-muted)" }}>
-                              {item.description}
-                            </div>
-                          </div>
-                        </Link>
-                      ))}
-                    </div>
-                    <div className="px-4 py-3" style={{ borderTop: "1px solid var(--border)", backgroundColor: "var(--bg-elevated)" }}>
-                      <Link
-                        href="/industries"
-                        onClick={() => setSolutionsOpen(false)}
-                        className="flex items-center gap-1.5 text-[12px] font-medium transition-colors"
-                        style={{ color: "var(--blue)" }}
-                      >
-                        View all industries <ArrowRight size={11} />
-                      </Link>
-                    </div>
-                  </motion.div>
-                )}
-              </AnimatePresence>
-            </div>
-
             {navLinks.map((link) => (
               <Link
                 key={link.href}
@@ -379,34 +265,6 @@ export default function Navbar() {
                       </Link>
                     ))}
                   </div>
-                ))}
-
-                <div className="my-4" style={{ height: "1px", backgroundColor: "var(--border)" }} />
-
-                <p className="text-[10px] font-semibold tracking-[0.15em] uppercase mb-3 px-2" style={{ color: "var(--text-faint)" }}>
-                  Solutions
-                </p>
-                {solutions.map((item) => (
-                  <Link
-                    key={item.href}
-                    href={item.href}
-                    {...linkTargetProps(item.href)}
-                    onClick={() => setMobileOpen(false)}
-                    className="flex items-center gap-3 px-2 py-3 rounded-lg transition-colors"
-                    onMouseEnter={e => (e.currentTarget.style.backgroundColor = "var(--bg-surface)")}
-                    onMouseLeave={e => (e.currentTarget.style.backgroundColor = "transparent")}
-                  >
-                    <span
-                      className="w-8 h-8 rounded-lg flex items-center justify-center flex-shrink-0"
-                      style={{ backgroundColor: "var(--blue-muted)", color: "var(--blue)" }}
-                    >
-                      {item.icon}
-                    </span>
-                    <div>
-                      <div className="text-[15px] font-semibold" style={{ color: "var(--text-primary)" }}>{item.label}</div>
-                      <div className="text-[12px]" style={{ color: "var(--text-muted)" }}>{item.description}</div>
-                    </div>
-                  </Link>
                 ))}
 
                 <div className="my-4" style={{ height: "1px", backgroundColor: "var(--border)" }} />

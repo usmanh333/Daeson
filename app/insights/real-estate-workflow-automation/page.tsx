@@ -359,7 +359,7 @@ export default function ArticlePage() {
             </p>
             <p className="text-[15px] leading-[1.85]">
               Daeson Technologies works on{" "}
-              <Link href="/solutions" className="underline underline-offset-2" style={{ color: "var(--blue)" }}>
+              <Link href="/expertise" className="underline underline-offset-2" style={{ color: "var(--blue)" }}>
                 software and automation projects
               </Link>{" "}
               designed to connect business processes and improve visibility across{" "}

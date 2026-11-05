@@ -286,7 +286,7 @@ export default function ArticlePage() {
                 the one relevant to your team&apos;s work.
               </p>
               <div className="flex flex-wrap items-center gap-3">
-                <Link href="/solutions" className="btn-solid inline-flex items-center gap-2 px-6 py-3 text-[14px] font-bold rounded-xl">
+                <Link href="/expertise" className="btn-solid inline-flex items-center gap-2 px-6 py-3 text-[14px] font-bold rounded-xl">
                   Explore our products <ArrowRight size={14} />
                 </Link>
                 <Link

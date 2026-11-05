@@ -404,7 +404,7 @@ export default function ArticlePage() {
               <p className="text-[14px] mb-5" style={{ color: "var(--text-secondary)" }}>
                 Home 1.0 brings listings, leases, rent tracking and maintenance into one connected system. Daeson
                 Technologies also builds{" "}
-                <Link href="/solutions" className="underline underline-offset-2" style={{ color: "var(--blue)" }}>
+                <Link href="/expertise" className="underline underline-offset-2" style={{ color: "var(--blue)" }}>
                   AI-powered systems
                 </Link>{" "}
                 for more complex operations.

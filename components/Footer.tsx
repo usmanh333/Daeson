@@ -8,7 +8,7 @@ const solutions = [
   { label: "Real Estate Infrastructure", href: "/real-estate" },
   { label: "Aylinor", href: PRODUCT_URLS.aylinor },
   { label: "Enterprise AI Systems", href: "/industries" },
-  { label: "Solutions Overview", href: "/solutions" },
+  { label: "Our Expertise", href: "/expertise" },
   { label: "Products", href: "/products" },
 ];
 
@@ -106,10 +106,10 @@ export default function Footer({ showBadges = true }: { showBadges?: boolean }) 
             </a>
           </div>
 
-          {/* Solutions */}
+          {/* Our Expertise */}
           <div>
             <p className="text-[10px] font-semibold tracking-[0.18em] uppercase mb-5" style={{ color: "rgba(255,255,255,0.3)" }}>
-              Solutions
+              Our Expertise
             </p>
             <ul className="space-y-3">
               {solutions.map((link) => (

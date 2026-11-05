@@ -1,135 +1,103 @@
 import Link from "next/link";
 import { ArrowRight, ArrowUpRight } from "lucide-react";
 import { PRODUCT_URLS, newTab } from "@/lib/products";
+import { GOLD, GOLD_LIGHT } from "@/lib/services";
 
-const trustStrip = [
-  "Core product: Aylinor",
-  "Islamic finance AI",
-  "Fintech & PropTech",
-  "Pakistan · UAE · Europe",
-  "Owned infrastructure",
-];
+const focus = ["AI & Agentic AI", "Custom Software", "Islamic Finance", "Real Estate"];
 
 const products = [
-  {
-    name: "Aylinor",
-    category: "Fintech · Core Product",
-    note: "Shariah compliance intelligence",
-    href: PRODUCT_URLS.aylinor,
-    featured: true,
-  },
-  {
-    name: "Home 1.0",
-    category: "PropTech",
-    note: "Property management software",
-    href: PRODUCT_URLS.home,
-    featured: false,
-  },
-  {
-    name: "LuxeProperty AI",
-    category: "PropTech",
-    note: "Team, investor & CEO in one platform",
-    href: PRODUCT_URLS.luxe,
-    featured: false,
-  },
+  { name: "Aylinor", category: "Islamic Finance", note: "Shariah compliance and governance", href: PRODUCT_URLS.aylinor, featured: true },
+  { name: "LuxeProperty AI", category: "Real Estate", note: "CEO, team and investors on one platform", href: PRODUCT_URLS.luxe, featured: false },
+  { name: "Home 1.0", category: "Property Management", note: "Rentals, leases and maintenance", href: PRODUCT_URLS.home, featured: false },
 ];
 
 export default function Hero() {
   return (
     <section className="relative min-h-[92vh] flex items-center overflow-hidden" style={{ backgroundColor: "var(--bg-page)" }}>
-      <div className="absolute inset-0 grid-bg opacity-40" />
-      <div
-        className="absolute -top-40 left-1/2 -translate-x-1/2 w-[900px] h-[600px] rounded-full pointer-events-none"
-        style={{ background: "radial-gradient(circle, rgba(255,255,255,0.07) 0%, transparent 65%)" }}
-      />
+      {/* Decorative rings */}
+      <svg aria-hidden className="absolute -right-48 top-1/2 -translate-y-1/2 w-[820px] h-[820px] pointer-events-none hidden lg:block" viewBox="0 0 820 820" fill="none">
+        <circle cx="410" cy="410" r="409" stroke="rgba(0,0,0,0.05)" />
+        <circle cx="410" cy="410" r="310" stroke="rgba(0,0,0,0.05)" />
+        <circle cx="410" cy="410" r="210" stroke="rgba(185,145,47,0.35)" />
+        <circle cx="410" cy="410" r="110" stroke="rgba(0,0,0,0.05)" />
+      </svg>
 
-      <div className="relative max-w-7xl mx-auto px-6 pt-24 pb-20 w-full">
-        <div className="grid lg:grid-cols-[1.25fr_1fr] gap-14 items-center">
+      <div className="relative max-w-7xl mx-auto px-6 pt-28 pb-20 w-full">
+        <div className="grid lg:grid-cols-[1.2fr_1fr] gap-16 items-center">
           <div>
-            <div className="hero-in" style={{ animationDelay: "0ms" }}>
-              <div
-                className="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full text-[11px] font-bold tracking-[0.14em] uppercase mb-8"
-                style={{ border: "1px solid var(--border-strong)", color: "var(--text-primary)" }}
-              >
-                <span className="w-1.5 h-1.5 rounded-full" style={{ backgroundColor: "var(--text-primary)" }} />
-                Pakistan · Islamic Finance · AI
-              </div>
-            </div>
+            <p className="hero-in inline-flex items-center gap-3 text-[11px] font-bold uppercase tracking-[0.22em] mb-8" style={{ color: "var(--text-muted)" }}>
+              <span className="w-8 h-px" style={{ backgroundColor: GOLD }} />
+              Daeson Technologies
+            </p>
 
             <h1
-              className="speakable text-[40px] md:text-[58px] lg:text-[64px] font-extrabold leading-[1.02] tracking-[-0.03em] mb-7"
-              style={{ color: "var(--text-primary)" }}
+              className="speakable hero-in text-[42px] md:text-[60px] lg:text-[68px] font-extrabold leading-[1.02] tracking-[-0.035em] mb-8"
+              style={{ color: "var(--text-primary)", animationDelay: "80ms" }}
             >
-              Pakistan&apos;s First AI Startup
+              Custom AI software,
               <br />
-              <span style={{ color: "var(--text-muted)" }}>Working on Islamic Finance.</span>
+              <span style={{ color: "var(--text-muted)" }}>built to bank-grade standards.</span>
             </h1>
 
-            <p
-              className="text-[18px] md:text-[19px] leading-[1.7] mb-10 max-w-[560px]"
-              style={{ color: "var(--text-secondary)" }}
-            >
-              <strong style={{ color: "var(--text-primary)" }}>Aylinor is our core product.</strong> It helps
-              Islamic banks stay Shariah compliant with AI, built for microfinance and commercial banks in
-              Pakistan and internationally.
+            <p className="hero-in text-[18px] leading-[1.7] mb-10 max-w-[560px]" style={{ color: "var(--text-secondary)", animationDelay: "160ms" }}>
+              We design and build AI systems, automation and enterprise software for businesses worldwide, with
+              deep expertise in Islamic finance and real estate.
             </p>
 
             <div className="hero-in flex flex-col sm:flex-row gap-3 mb-12" style={{ animationDelay: "240ms" }}>
-              <Link href={PRODUCT_URLS.aylinor} {...newTab} className="btn-solid inline-flex items-center justify-center gap-2 px-7 py-4 text-[14px] font-bold rounded-xl">
-                Explore Aylinor <ArrowRight size={15} />
+              <Link href="/contact" className="btn-solid inline-flex items-center justify-center gap-2 px-7 py-4 text-[14px] font-bold rounded-xl">
+                Book a discovery call <ArrowRight size={15} />
               </Link>
-              <Link href="/contact" className="btn-ghost inline-flex items-center justify-center gap-2 px-7 py-4 text-[14px] font-semibold rounded-xl">
-                Contact for Full Platform Access
+              <Link href="/expertise" className="btn-ghost inline-flex items-center justify-center gap-2 px-7 py-4 text-[14px] font-semibold rounded-xl">
+                Our expertise
               </Link>
             </div>
 
-            <div className="hero-in flex flex-wrap items-center gap-x-6 gap-y-3" style={{ animationDelay: "320ms" }}>
-              {trustStrip.map((item) => (
-                <div key={item} className="flex items-center gap-2 text-[12px] font-semibold" style={{ color: "var(--text-muted)" }}>
-                  <span className="w-1 h-1 rounded-full shrink-0" style={{ backgroundColor: "var(--text-primary)" }} />
-                  {item}
-                </div>
+            <ul className="hero-in grid grid-cols-2 sm:flex sm:flex-wrap gap-x-8 gap-y-3" style={{ animationDelay: "320ms" }}>
+              {focus.map((f) => (
+                <li key={f} className="flex items-center gap-2.5 text-[12.5px] font-semibold" style={{ color: "var(--text-muted)" }}>
+                  <span aria-hidden className="w-1.5 h-1.5 rotate-45 shrink-0" style={{ backgroundColor: GOLD }} />
+                  {f}
+                </li>
               ))}
-            </div>
+            </ul>
           </div>
 
-          <div className="hero-in hidden lg:block" style={{ animationDelay: "300ms" }}>
-            <div className="rounded-2xl p-2" style={{ border: "1px solid var(--border)", backgroundColor: "var(--bg-surface)" }}>
-              <p className="px-4 pt-3 pb-2 text-[10px] font-bold tracking-[0.2em] uppercase" style={{ color: "var(--text-faint)" }}>
+          {/* Product panel */}
+          <div className="hero-in" style={{ animationDelay: "300ms" }}>
+            <div className="rounded-[28px] p-3" style={{ backgroundColor: "#F7F7F5", border: "1px solid var(--border)" }}>
+              <p className="px-4 pt-3 pb-3 text-[10px] font-bold tracking-[0.22em] uppercase" style={{ color: "var(--text-faint)" }}>
                 Our Products
               </p>
-              <div className="space-y-2">
+              <div className="space-y-2.5">
                 {products.map((p) => (
                   <Link
                     key={p.name}
                     href={p.href}
                     {...newTab}
-                    className="lift-card group flex items-center justify-between rounded-xl px-5 py-5"
-                    style={
-                      p.featured
-                        ? { backgroundColor: "var(--text-primary)", border: "1px solid var(--text-primary)" }
-                        : { backgroundColor: "var(--bg-card)", border: "1px solid var(--border)" }
-                    }
+                    className="lift-card group relative overflow-hidden flex items-center justify-between rounded-2xl px-6 py-6"
+                    style={p.featured ? { backgroundColor: "#0A0A0A" } : { backgroundColor: "#FFFFFF", border: "1px solid var(--border)" }}
                   >
-                    <div>
-                      <p
-                        className="text-[10px] font-bold tracking-[0.16em] uppercase mb-1.5"
-                        style={{ color: p.featured ? "var(--bg-page)" : "var(--text-faint)", opacity: p.featured ? 0.6 : 1 }}
-                      >
+                    {p.featured && (
+                      <span aria-hidden className="absolute -right-10 -top-10 w-28 h-28 rounded-full" style={{ border: "1px solid rgba(212,175,55,0.45)" }} />
+                    )}
+                    <div className="relative">
+                      <p className="text-[10px] font-bold tracking-[0.18em] uppercase mb-1.5" style={{ color: p.featured ? GOLD_LIGHT : "var(--text-faint)" }}>
                         {p.category}
                       </p>
-                      <p className="text-[19px] font-extrabold tracking-tight" style={{ color: p.featured ? "var(--bg-page)" : "var(--text-primary)" }}>
+                      <p className="text-[20px] font-extrabold tracking-tight" style={{ color: p.featured ? "#FFFFFF" : "var(--text-primary)" }}>
                         {p.name}
                       </p>
-                      <p className="text-[12.5px] mt-0.5" style={{ color: p.featured ? "var(--bg-page)" : "var(--text-muted)", opacity: p.featured ? 0.7 : 1 }}>
+                      <p className="text-[12.5px] mt-0.5" style={{ color: p.featured ? "rgba(255,255,255,0.6)" : "var(--text-muted)" }}>
                         {p.note}
                       </p>
                     </div>
-                    <ArrowUpRight
-                      size={18}
-                      className="shrink-0 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
-                      style={{ color: p.featured ? "var(--bg-page)" : "var(--text-primary)" }}
-                    />
+                    <span
+                      className="relative w-9 h-9 rounded-full flex items-center justify-center shrink-0 transition-transform duration-300 group-hover:rotate-45"
+                      style={p.featured ? { border: "1px solid rgba(255,255,255,0.25)", color: "#FFFFFF" } : { border: "1px solid var(--border-strong)", color: "var(--text-primary)" }}
+                    >
+                      <ArrowUpRight size={15} />
+                    </span>
                   </Link>
                 ))}
               </div>
@@ -137,11 +105,6 @@ export default function Hero() {
           </div>
         </div>
       </div>
-
-      <div
-        className="absolute bottom-0 left-0 right-0 h-24 pointer-events-none"
-        style={{ background: "linear-gradient(to top, var(--bg-page), transparent)" }}
-      />
     </section>
   );
 }

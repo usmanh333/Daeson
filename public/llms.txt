@@ -24,7 +24,7 @@ UAE, Saudi Arabia, GCC, Canada, United States, United Kingdom, Pakistan
 - [Real Estate Infrastructure](https://daesontechnologies.online/real-estate): Owned operational platforms for real estate firms
 - [Aylinor (Islamic Finance)](https://daesontechnologies.online/amanah-ai): Shariah compliance intelligence platform, formerly Amanah AI
 - [Industries Overview](https://daesontechnologies.online/industries): Sectors served
-- [Solutions Overview](https://daesontechnologies.online/solutions): Enterprise solution catalog
+- [Our Expertise](https://daesontechnologies.online/expertise): AI, Agentic AI, custom software, and enterprise security
 - [Research & Whitepapers](https://daesontechnologies.online/research): Whitepapers and research reports
 - [Insights & Analysis](https://daesontechnologies.online/insights): Analysis and commentary
 - [Press & Media Coverage](https://daesontechnologies.online/pr): Press mentions and announcements

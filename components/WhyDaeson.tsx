@@ -1,138 +1,68 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { GOLD } from "@/lib/services";
 
 const reasons = [
-  {
-    tag: "Workflow-First",
-    title: "We map operations before writing code",
-    description:
-      "Every engagement begins with discovery, understanding your actual workflows, data flows, and friction points before any architecture decisions are made.",
-  },
-  {
-    tag: "Ownership",
-    title: "Every system is fully owned by you",
-    description:
-      "No vendor lock-in, no perpetual licensing, no feature restrictions. Complete source code ownership from the first delivery milestone.",
-  },
-  {
-    tag: "Practical",
-    title: "Built around operational realities",
-    description:
-      "We don't over-engineer. Systems are scoped to solve the specific operational problems you have, not hypothetical ones five years from now.",
-  },
-  {
-    tag: "Founder-Led",
-    title: "Direct founder involvement throughout",
-    description:
-      "Daeson's founding team is directly involved in every engagement, from discovery through deployment. Not delegated to a junior team.",
-  },
-  {
-    tag: "Scalable",
-    title: "Designed to evolve with your business",
-    description:
-      "Infrastructure is built with extension in mind. As your operations scale, your systems scale, without starting over or re-platforming.",
-  },
-  {
-    tag: "Governance-Sensitive",
-    title: "Enterprise-grade architecture as standard",
-    description:
-      "Role-based access, data governance, and audit infrastructure are included by default, not add-ons. Particularly relevant for compliance-driven industries.",
-  },
+  { title: "Workflow first", body: "We map how your work really runs before any design or code." },
+  { title: "Founder-led", body: "Our founding team is directly involved, from discovery to delivery." },
+  { title: "Start small, scale what works", body: "One measurable workflow first, so you see results before committing more." },
+  { title: "People stay in control", body: "AI prepares and suggests. Responsible people approve what matters." },
+  { title: "Secure by design", body: "Role-based access, audit trails and data protection included from day one." },
+  { title: "Built to grow", body: "Systems designed to extend as you add teams, markets and products." },
 ];
 
 export default function WhyDaeson() {
   return (
-    <section
-      className="py-28 relative overflow-hidden"
-      style={{ backgroundColor: "var(--bg-surface)" }}
-    >
-      <div className="section-sep absolute top-0 left-0 right-0" />
-
+    <section className="py-28" style={{ backgroundColor: "var(--bg-page)" }}>
       <div className="max-w-7xl mx-auto px-6">
-        {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: 18 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5, ease: "easeOut" }}
-          className="mb-14"
+          className="grid md:grid-cols-[1fr_1.3fr] gap-8 mb-14 items-end"
         >
-          <div
-            className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-[11px] font-semibold tracking-widest uppercase mb-6"
-            style={{ border: "1px solid var(--border)", color: "var(--text-muted)", backgroundColor: "var(--bg-elevated)" }}
-          >
-            Why Companies Work With Daeson
-          </div>
-          <div className="grid md:grid-cols-2 gap-8 items-end">
-            <h2
-              className="text-[32px] md:text-[40px] font-bold tracking-tight leading-[1.1]"
-              style={{ color: "var(--text-primary)" }}
-            >
-              A Systems Partner.
-            
-       
-            </h2>
-            <p className="text-[15px] leading-relaxed" style={{ color: "var(--text-secondary)" }}>
-              The distinction matters. Agencies build what you ask for. We design what your operations
-              actually need, then build it with you.
+          <div>
+            <p className="inline-flex items-center gap-3 text-[11px] font-bold uppercase tracking-[0.22em] mb-5" style={{ color: "var(--text-muted)" }}>
+              <span className="w-8 h-px" style={{ backgroundColor: GOLD }} />
+              Why Daeson
             </p>
+            <h2 className="text-[34px] md:text-[46px] font-bold tracking-tight leading-[1.08]" style={{ color: "var(--text-primary)" }}>
+              A systems partner,
+              <br />
+              <span style={{ color: "var(--text-muted)" }}>not just a vendor.</span>
+            </h2>
           </div>
+          <p className="text-[15px] leading-relaxed md:pb-2" style={{ color: "var(--text-secondary)" }}>
+            Agencies build what you ask for. We start with what your operation actually needs, then build it
+            with you.
+          </p>
         </motion.div>
 
-        {/* Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
-          {reasons.map((reason, i) => (
+        <div className="grid md:grid-cols-2 lg:grid-cols-3" style={{ borderTop: "1px solid var(--border)", borderLeft: "1px solid var(--border)" }}>
+          {reasons.map((r, i) => (
             <motion.div
-              key={reason.tag}
-              initial={{ opacity: 0, y: 20 }}
+              key={r.title}
+              initial={{ opacity: 0, y: 16 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ delay: i * 0.07, duration: 0.45, ease: "easeOut" }}
-              className="rounded-xl p-6 transition-all duration-300"
-              style={{
-                backgroundColor: "var(--bg-card)",
-                border: "1px solid var(--border)",
-              }}
-              onMouseEnter={e => ((e.currentTarget as HTMLElement).style.borderColor = "var(--border-hover)")}
-              onMouseLeave={e => ((e.currentTarget as HTMLElement).style.borderColor = "var(--border)")}
+              transition={{ delay: i * 0.06, duration: 0.45, ease: "easeOut" }}
+              className="group p-9 transition-colors hover:bg-[#F7F7F5]"
+              style={{ borderRight: "1px solid var(--border)", borderBottom: "1px solid var(--border)" }}
             >
-              <div
-                className="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-md text-[10px] font-semibold uppercase tracking-widest mb-4"
-                style={{
-                  backgroundColor: "var(--blue-muted)",
-                  border: "1px solid var(--blue-border)",
-                  color: "var(--blue)",
-                }}
-              >
-                {reason.tag}
+              <div className="flex items-center gap-4 mb-6">
+                <span aria-hidden className="w-2.5 h-2.5 rotate-45 transition-transform duration-300 group-hover:rotate-[135deg]" style={{ backgroundColor: GOLD }} />
+                <span className="text-[12px] font-bold tracking-widest" style={{ color: "var(--text-faint)" }}>
+                  {String(i + 1).padStart(2, "0")}
+                </span>
               </div>
-              <h3 className="text-[14px] font-bold mb-2.5 leading-snug" style={{ color: "var(--text-primary)" }}>
-                {reason.title}
-              </h3>
-              <p className="text-[12px] leading-relaxed" style={{ color: "var(--text-secondary)" }}>
-                {reason.description}
-              </p>
+              <h3 className="text-[18px] font-bold tracking-tight mb-2.5" style={{ color: "var(--text-primary)" }}>{r.title}</h3>
+              <p className="text-[14px] leading-relaxed" style={{ color: "var(--text-secondary)" }}>{r.body}</p>
             </motion.div>
           ))}
         </div>
-
-        {/* Bottom trust statement */}
-        <motion.div
-          initial={{ opacity: 0, y: 14 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ delay: 0.4, duration: 0.45, ease: "easeOut" }}
-          className="mt-10 text-center"
-        >
-          <p className="text-[13px] max-w-xl mx-auto leading-relaxed" style={{ color: "var(--text-faint)" }}>
-            We are selective about the engagements we take on. We work with organizations where
-            operational complexity is real, and where infrastructure ownership makes a measurable difference.
-          </p>
-        </motion.div>
       </div>
-
-      <div className="section-sep absolute bottom-0 left-0 right-0" />
     </section>
   );
 }

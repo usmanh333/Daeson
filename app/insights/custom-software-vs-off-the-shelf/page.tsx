@@ -383,11 +383,11 @@ export default function ArticlePage() {
             </p>
             <p className="text-[15px] leading-[1.85]">
               Daeson Technologies works with businesses on{" "}
-              <Link href="/solutions" className="underline underline-offset-2" style={{ color: "var(--blue)" }}>
+              <Link href="/expertise" className="underline underline-offset-2" style={{ color: "var(--blue)" }}>
                 software development
               </Link>
               ,{" "}
-              <Link href="/solutions" className="underline underline-offset-2" style={{ color: "var(--blue)" }}>
+              <Link href="/expertise" className="underline underline-offset-2" style={{ color: "var(--blue)" }}>
                 AI-powered applications
               </Link>
               , integrations and automation. Our focus is to identify the operational requirement first and determine

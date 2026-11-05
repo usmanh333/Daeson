@@ -2,174 +2,88 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
-import { PRODUCT_URLS, linkTargetProps } from "@/lib/products";
-
-const pillars = [
-  {
-    number: "01",
-    title: "Real Estate Operational Infrastructure",
-    description:
-      "We build owned, AI-powered platforms that replace fragmented SaaS stacks with unified operational systems designed for real estate firms with portfolio complexity, investor relationships, and multi-market operations.",
-    outcomes: [
-      "Unified CRM and lead intelligence",
-      "Investor dashboards and reporting",
-      "Payment and project tracking",
-      "AI-powered operational analytics",
-    ],
-    href: "/real-estate",
-    color: "var(--blue)",
-    rawColor: "#888888",
-    label: "Real Estate",
-  },
-  {
-    number: "02",
-    title: "Aylinor: Islamic Finance Intelligence",
-    description:
-      "AI-supported Shariah compliance infrastructure that streamlines contract analysis, governance workflows, and regulatory reporting for Islamic financial institutions. Currently in strategic development with Shariah advisory collaboration.",
-    outcomes: [
-      "Structured contract analysis workflows",
-      "Scholar governance documentation",
-      "Compliance audit trail generation",
-      "Multi-market regulatory reporting",
-    ],
-    href: PRODUCT_URLS.aylinor,
-    color: "var(--blue)",
-    rawColor: "#888888",
-    label: "Islamic Finance",
-  },
-  {
-    number: "03",
-    title: "Enterprise AI Workflow Systems",
-    description:
-      "Custom AI workflow systems that connect your operational data, automate intelligence, and give leadership the visibility needed to make execution-level decisions, replacing disconnected tools with owned infrastructure.",
-    outcomes: [
-      "Cross-department workflow automation",
-      "AI-integrated operational dashboards",
-      "Predictive intelligence and reporting",
-      "Enterprise-grade secure deployment",
-    ],
-    href: "/industries",
-    color: "var(--blue)",
-    rawColor: "#888888",
-    label: "Enterprise",
-  },
-];
+import { ArrowRight, ArrowUpRight } from "lucide-react";
+import { SERVICES, GOLD, GOLD_LIGHT } from "@/lib/services";
 
 export default function WhatWeBuild() {
   return (
-    <section
-      className="py-28 relative overflow-hidden"
-      style={{ backgroundColor: "var(--bg-surface)" }}
-    >
-      <div className="section-sep absolute top-0 left-0 right-0" />
-      <div className="section-sep absolute bottom-0 left-0 right-0" />
-
+    <section className="py-28" style={{ backgroundColor: "#F7F7F5", borderTop: "1px solid var(--border)", borderBottom: "1px solid var(--border)" }}>
       <div className="max-w-7xl mx-auto px-6">
-        {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5, ease: "easeOut" }}
-          className="mb-16"
+          className="grid md:grid-cols-[1fr_1.3fr] gap-8 mb-14 items-end"
         >
-          <div
-            className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-[11px] font-semibold tracking-widest uppercase mb-6"
-            style={{ border: "1px solid var(--blue-border)", backgroundColor: "var(--blue-muted)", color: "var(--blue)" }}
-          >
-            What We Build
-          </div>
-          <div className="grid md:grid-cols-2 gap-8 items-end">
-            <h2
-              className="text-[32px] md:text-[42px] font-bold tracking-tight leading-[1.1]"
-              style={{ color: "var(--text-primary)" }}
-            >
-              Three Infrastructure Disciplines.
-              <br />
-              <span style={{ color: "var(--text-secondary)", fontWeight: 600 }}>One Systems Approach.</span>
-            </h2>
-            <p className="text-[15px] leading-relaxed max-w-lg" style={{ color: "var(--text-secondary)" }}>
-              Every system we build is designed around your specific workflows, not adapted from a template.
-              We specialize in industries that require operational precision.
+          <div>
+            <p className="inline-flex items-center gap-3 text-[11px] font-bold uppercase tracking-[0.22em] mb-5" style={{ color: "var(--text-muted)" }}>
+              <span className="w-8 h-px" style={{ backgroundColor: GOLD }} />
+              What We Build
             </p>
+            <h2 className="text-[34px] md:text-[46px] font-bold tracking-tight leading-[1.08]" style={{ color: "var(--text-primary)" }}>
+              Seven services.
+              <br />
+              <span style={{ color: "var(--text-muted)" }}>One standard of care.</span>
+            </h2>
           </div>
+          <p className="text-[15px] leading-relaxed md:pb-2" style={{ color: "var(--text-secondary)" }}>
+            Every system is designed around how your business actually works, not adapted from a template.
+            Choose the area closest to your problem.
+          </p>
         </motion.div>
 
-        {/* Pillars */}
-        <div className="space-y-5">
-          {pillars.map((pillar, i) => (
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          {SERVICES.map((s, i) => (
             <motion.div
-              key={pillar.number}
-              initial={{ opacity: 0, y: 22 }}
+              key={s.title}
+              initial={{ opacity: 0, y: 18 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ delay: i * 0.1, duration: 0.5, ease: "easeOut" }}
-              className="group rounded-2xl p-8 transition-all duration-300"
-              style={{ backgroundColor: "var(--bg-card)", border: "1px solid var(--border)" }}
-              onMouseEnter={e => ((e.currentTarget as HTMLElement).style.borderColor = "var(--border-hover)")}
-              onMouseLeave={e => ((e.currentTarget as HTMLElement).style.borderColor = "var(--border)")}
+              transition={{ delay: i * 0.05, duration: 0.45, ease: "easeOut" }}
             >
-              <div className="grid md:grid-cols-[1fr_auto] gap-8 items-start">
-                <div className="grid md:grid-cols-[auto_1fr] gap-8 items-start">
-                  {/* Number */}
-                  <div
-                    className="text-[48px] font-black leading-none"
-                    style={{ color: `${pillar.rawColor}20` }}
+              <Link
+                href={s.href}
+                className="lift-card group h-full rounded-2xl p-7 flex flex-col min-h-[210px]"
+                style={{ backgroundColor: "#FFFFFF", border: "1px solid var(--border)" }}
+              >
+                <div className="flex items-start justify-between mb-8">
+                  <span className="text-[12px] font-bold tracking-widest" style={{ color: GOLD }}>
+                    {String(i + 1).padStart(2, "0")}
+                  </span>
+                  <span
+                    className="w-9 h-9 rounded-full flex items-center justify-center transition-all duration-300 group-hover:bg-black group-hover:text-white group-hover:rotate-45"
+                    style={{ border: "1px solid var(--border-strong)", color: "var(--text-primary)" }}
                   >
-                    {pillar.number}
-                  </div>
-
-                  <div>
-                    <div
-                      className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg text-[11px] font-semibold uppercase tracking-wider mb-4"
-                      style={{ backgroundColor: `${pillar.rawColor}14`, color: pillar.color }}
-                    >
-                      {pillar.label}
-                    </div>
-                    <h3
-                      className="text-[22px] font-bold mb-3 tracking-tight"
-                      style={{ color: "var(--text-primary)" }}
-                    >
-                      {pillar.title}
-                    </h3>
-                    <p
-                      className="text-[14px] leading-relaxed mb-6 max-w-xl"
-                      style={{ color: "var(--text-secondary)" }}
-                    >
-                      {pillar.description}
-                    </p>
-
-                    <div className="grid grid-cols-2 gap-2">
-                      {pillar.outcomes.map((outcome) => (
-                        <div
-                          key={outcome}
-                          className="flex items-start gap-2 text-[13px]"
-                          style={{ color: "var(--text-secondary)" }}
-                        >
-                          <span
-                            className="mt-1.5 w-1 h-1 rounded-full shrink-0"
-                            style={{ backgroundColor: pillar.color }}
-                          />
-                          {outcome}
-                        </div>
-                      ))}
-                    </div>
-                  </div>
+                    <ArrowUpRight size={15} />
+                  </span>
                 </div>
-
-                {/* CTA */}
-                <Link
-                  href={pillar.href}
-                  {...linkTargetProps(pillar.href)}
-                  className="link-hover flex items-center gap-2 text-[13px] font-semibold mt-2 shrink-0"
-                  style={{ color: pillar.color }}
-                >
-                  Learn more about {pillar.label} <ArrowRight size={14} className="group-hover:translate-x-0.5 transition-transform" />
-                </Link>
-              </div>
+                <h3 className="text-[16.5px] font-bold tracking-tight mb-2" style={{ color: "var(--text-primary)" }}>{s.title}</h3>
+                <p className="text-[13.5px] leading-relaxed" style={{ color: "var(--text-secondary)" }}>{s.body}</p>
+              </Link>
             </motion.div>
           ))}
+
+          <motion.div
+            initial={{ opacity: 0, y: 18 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.35, duration: 0.45, ease: "easeOut" }}
+          >
+            <Link
+              href="/expertise"
+              className="group h-full rounded-2xl p-7 flex flex-col justify-between min-h-[210px] transition-transform hover:-translate-y-1"
+              style={{ backgroundColor: "#0A0A0A", color: "#FFFFFF" }}
+            >
+              <span className="text-[12px] font-bold tracking-widest" style={{ color: GOLD_LIGHT }}>OUR EXPERTISE</span>
+              <div>
+                <p className="text-[18px] font-bold tracking-tight mb-3">See how we build: AI, security and process.</p>
+                <span className="inline-flex items-center gap-2 text-[13px] font-semibold" style={{ color: "rgba(255,255,255,0.75)" }}>
+                  Explore <ArrowRight size={13} className="transition-transform group-hover:translate-x-1" />
+                </span>
+              </div>
+            </Link>
+          </motion.div>
         </div>
       </div>
     </section>
