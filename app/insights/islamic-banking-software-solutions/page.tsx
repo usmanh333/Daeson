@@ -98,9 +98,7 @@ export default function ArticlePage() {
             </p>
             <p className="text-[15px] leading-[1.85]">
               <Link href="/amanah-ai" style={{ color: "var(--gold)", fontWeight: 600 }}>Aylinor</Link> focuses
-              specifically on the governance and compliance-intelligence layer of this stack,
-              Murabaha contract analysis, governance documentation, scholar review workflows and
-              audit trails, as a support system institutions can run alongside their existing
+              specifically on the Shariah governance and compliance layer of this stack, as a support system institutions can run alongside their existing
               core banking software.
             </p>
           </div>

@@ -33,7 +33,7 @@ const amanahSchema = {
   applicationCategory: "BusinessApplication",
   operatingSystem: "Web",
   description:
-    "Aylinor is an AI-powered operational intelligence platform for Islamic financial institutions. It automates Murabaha contract analysis, Shariah governance documentation, scholar review workflows, and compliance audit trail generation. Developed by Daeson Technologies in strategic collaboration with Alhamd Shariah Advisory.",
+    "Aylinor is an AI-powered Shariah compliance and governance platform for Islamic financial institutions. It helps Shariah teams work in a more organised, consistent and auditable way, while scholars keep the final decision.",
   creator: {
     "@type": "Organization",
     name: "Daeson Technologies",
@@ -41,12 +41,9 @@ const amanahSchema = {
   },
   url: "https://daesontechnologies.online/amanah-ai",
   featureList: [
-    "Murabaha workflow automation",
-    "Shariah compliance documentation",
-    "Scholar review queue management",
-    "Compliance audit trail generation",
-    "Governance visibility dashboards",
-    "Regulatory reporting support",
+    "Shariah compliance support",
+    "Governance documentation",
+    "Audit-ready records",
   ],
   applicationSubCategory: "Islamic Finance Technology",
   audience: {
@@ -67,14 +64,12 @@ const products = [
     problem:
       "Islamic financial institutions handle complex Shariah-governed transactions: Murabaha, Ijara, Musharaka, that require meticulous documentation, scholar review, and compliance verification. Most institutions rely on manual processes that are slow, error-prone, and create audit risk.",
     solution:
-      "Aylinor automates the operational layer of Shariah compliance: contract analysis, governance documentation, scholar review queue management, and audit trail generation, reducing operational burden so scholars can focus on substantive jurisprudential decisions.",
+      "Aylinor reduces the administrative work around Shariah compliance and keeps a clear, auditable record, so scholars can focus on substantive jurisprudential decisions.",
     capabilities: [
-      "Murabaha contract parsing & compliance analysis",
-      "Shariah governance documentation generation",
-      "Scholar review workflow & queue management",
-      "Compliance audit trail & documentation",
-      "Governance visibility dashboards",
-      "Regulatory reporting support",
+      "Shariah compliance support",
+      "Governance documentation",
+      "Audit-ready records",
+      "Scholars keep the final decision",
     ],
     collaboration: "Developed in strategic collaboration with Alhamd Shariah Advisory",
     href: "/amanah-ai",
@@ -106,13 +101,6 @@ const products = [
   },
 ];
 
-const roadmapItems = [
-  { phase: "Q3 2025", item: "Aylinor: Murabaha workflow module (beta)", status: "In Progress" },
-  { phase: "Q4 2025", item: "Aylinor: Scholar review & governance documentation", status: "Planned" },
-  { phase: "Q1 2026", item: "Real Estate Operations Platform: CRM & deal pipeline core", status: "Planned" },
-  { phase: "Q2 2026", item: "Real Estate Operations Platform: Investor portal module", status: "Planned" },
-  { phase: "Q3 2026", item: "Aylinor: Full compliance suite & audit reporting", status: "Roadmap" },
-];
 
 export default function ProductsPage() {
   return (
@@ -228,39 +216,6 @@ export default function ProductsPage() {
               </div>
             </div>
           ))}
-        </div>
-
-        {/* Product Roadmap */}
-        <div className="max-w-5xl mx-auto px-6 py-20">
-          <div className="mb-12">
-            <p className="text-[10px] font-bold uppercase tracking-widest mb-4" style={{ color: "var(--text-faint)" }}>
-              Development Timeline
-            </p>
-            <h2 className="text-[28px] md:text-[34px] font-bold tracking-tight" style={{ color: "var(--text-primary)" }}>
-              Product Roadmap
-            </h2>
-          </div>
-          <div className="space-y-3">
-            {roadmapItems.map((item, i) => (
-              <div
-                key={i}
-                className="grid grid-cols-[100px_1fr_100px] items-center gap-6 px-5 py-4 rounded-xl"
-                style={{ backgroundColor: "var(--bg-surface)", border: "1px solid var(--border)" }}
-              >
-                <span className="text-[11px] font-bold" style={{ color: "var(--green)" }}>{item.phase}</span>
-                <span className="text-[13px]" style={{ color: "var(--text-primary)" }}>{item.item}</span>
-                <span
-                  className="text-[10px] font-semibold text-center px-2.5 py-1 rounded-full"
-                  style={{
-                    backgroundColor: item.status === "In Progress" ? "var(--green-muted)" : "var(--bg-elevated)",
-                    color: item.status === "In Progress" ? "var(--green)" : "var(--text-faint)",
-                  }}
-                >
-                  {item.status}
-                </span>
-              </div>
-            ))}
-          </div>
         </div>
 
         {/* CTA */}

@@ -98,8 +98,7 @@ export default function ArticlePage() {
             <p className="text-[15px] leading-[1.85]">
               <Link href="/amanah-ai" style={{ color: "var(--gold)", fontWeight: 600 }}>Aylinor</Link> is
               being developed by Daeson Technologies as a support layer intended for institutional
-              teams of this kind, organizing Murabaha contract analysis, governance documentation
-              and audit trails without requiring a full core banking replacement.
+              teams of this kind, helping Shariah teams work in a more organised, consistent and auditable way, while scholars keep the final decision, without requiring a full core banking replacement.
             </p>
           </div>
           <div className="flex flex-wrap gap-2 mt-12 pt-8" style={{ borderTop: "1px solid var(--border)" }}>

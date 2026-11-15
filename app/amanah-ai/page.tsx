@@ -40,7 +40,7 @@ const faqSchema = {
       name: "What is Aylinor?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Aylinor is Daeson Technologies' AI-powered infrastructure platform for Islamic financial institutions. It supports Shariah compliance teams with Murabaha contract analysis, governance documentation and audit trails. Full platform access is available to institutions on request.",
+        text: "Aylinor is Daeson Technologies' AI-powered Shariah compliance and governance platform for Islamic financial institutions. It helps Shariah teams work in a more organised, consistent and auditable way, while scholars keep the final decision. Full platform access is available to institutions on request.",
       },
     },
     {
@@ -48,7 +48,7 @@ const faqSchema = {
       name: "What is Murabaha workflow digitization?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Murabaha workflow digitization refers to replacing manual, paper-based Murabaha financing processes with structured digital workflows. This includes automated contract parsing, compliance checklist execution, documentation generation, and audit trail creation, allowing Islamic financial institutions to process contracts faster with consistent Shariah alignment and full auditability.",
+        text: "Murabaha workflow digitization refers to replacing manual, paper-based Murabaha financing processes with structured digital workflows. It helps Islamic financial institutions handle Murabaha work more consistently, with organised documentation and a clear record of decisions.",
       },
     },
     {
@@ -56,7 +56,7 @@ const faqSchema = {
       name: "How does AI support Shariah compliance without replacing scholars?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "AI supports Shariah compliance by automating the operational burden, document parsing, contract classification, risk flagging, and compliance report generation, so Shariah scholars can focus on substantive jurisprudential decisions rather than manual review. The scholar remains the final governance authority; AI provides structured, consistent information to inform their judgment.",
+        text: "AI supports Shariah compliance by reducing the administrative work around a review, so Shariah scholars can focus on substantive jurisprudential decisions rather than manual review. The scholar remains the final governance authority; AI provides structured, consistent information to inform their judgment.",
       },
     },
     {
@@ -77,7 +77,7 @@ const webPageSchema = {
   url: "https://daesontechnologies.online/amanah-ai",
   name: "Aylinor: Islamic Finance Shariah Compliance Infrastructure",
   description:
-    "AI-powered Shariah compliance infrastructure for Islamic financial institutions. Automates Murabaha contract analysis, governance documentation, and compliance audit trails.",
+    "AI-powered Shariah compliance infrastructure for Islamic financial institutions. Helps Shariah teams work in a more organised, consistent and auditable way.",
   isPartOf: { "@id": "https://daesontechnologies.online/#website" },
   about: {
     "@type": "SoftwareApplication",
@@ -90,33 +90,33 @@ const webPageSchema = {
       url: "https://daesontechnologies.online",
     },
     description:
-      "AI-assisted Shariah compliance infrastructure for Islamic financial institutions. Automates contract analysis, governance documentation, and scholar review queues.",
+      "AI-assisted Shariah compliance infrastructure for Islamic financial institutions. Helps Shariah teams work in a more organised, consistent and auditable way.",
     featureList: [
-      "Murabaha contract analysis",
-      "Shariah governance documentation",
-      "Compliance audit trails",
+      "Shariah compliance support",
+      "Governance documentation",
+      "Audit-ready records",
     ],
   },
 };
 
 const capabilities = [
   {
-    title: "Murabaha Contract Analysis",
-    description: "Faster, more consistent Murabaha review, with the scholar keeping the final say.",
+    title: "Murabaha Review Support",
+    description: "More consistent Murabaha review, with the scholar keeping the final say.",
   },
   {
     title: "Shariah Governance Documentation",
     description: "Governance records organized and ready for your Shariah board.",
   },
   {
-    title: "Compliance Audit Trails",
-    description: "Every decision traceable, from contract intake to approval.",
+    title: "Audit-Ready Records",
+    description: "A clear, auditable record of Shariah decisions.",
   },
 ];
 
 const problems = [
   "Murabaha contracts reviewed manually by compliance teams",
-  "Scholar review queues backed up with document volume",
+  "Scholars spending time on administration instead of judgment",
   "No structured audit trail for Shariah compliance decisions",
   "Regulatory reporting built manually in spreadsheets",
   "Compliance gaps discovered after contract execution",
@@ -124,9 +124,9 @@ const problems = [
 ];
 
 const outcomes = [
-  "Automated contract parsing surfacing compliance flags instantly",
-  "Scholar review packages structured and prioritized automatically",
-  "Full audit trail from contract intake to approval",
+  "A more organised, consistent review process",
+  "Scholars focused on substantive Shariah judgment",
+  "A clear, auditable record of decisions",
   "Regulatory reporting generated from structured compliance data",
   "Pre-execution compliance review with documented evidence",
   "Consistent documentation standard enforced across all operations",
@@ -135,15 +135,15 @@ const outcomes = [
 const faqs = [
   {
     q: "What is Aylinor?",
-    a: "Aylinor is Daeson Technologies' AI-powered infrastructure platform for Islamic financial institutions. It supports Shariah compliance teams with Murabaha contract analysis, governance documentation and audit trails. Full platform access is available to institutions on request.",
+    a: "Aylinor is Daeson Technologies' AI-powered Shariah compliance and governance platform for Islamic financial institutions. It helps Shariah teams work in a more organised, consistent and auditable way, while scholars keep the final decision. Full platform access is available to institutions on request.",
   },
   {
     q: "What is Murabaha workflow digitization and why does it matter?",
-    a: "Murabaha is one of the most common Islamic financing structures, involving a cost-plus-profit sale arrangement. In most institutions, Murabaha workflows remain largely manual, contracts reviewed line-by-line, documentation compiled manually, scholar approval tracked through email. Digitization means replacing this with structured, automated workflows that parse contracts, execute compliance checklists, generate documentation, and maintain full audit trails, making the process faster, more consistent, and auditable at scale.",
+    a: "Murabaha is one of the most common Islamic financing structures, involving a cost-plus-profit sale arrangement. In most institutions, Murabaha workflows remain largely manual, documents reviewed manually, documentation compiled by hand, scholar approval tracked through email. Digitization means bringing this into one organised, auditable process, making it more consistent and easier to govern at scale.",
   },
   {
     q: "How does AI support Shariah compliance without replacing scholars?",
-    a: "AI supports Shariah compliance by automating the operational layer, document parsing, contract classification, risk flagging, and compliance report generation, so Shariah scholars can focus on substantive jurisprudential decisions. The scholar remains the final governance authority; AI provides structured, consistent information to inform their judgment rather than replacing it. This is the same role a well-trained compliance analyst plays, but at greater scale and consistency.",
+    a: "AI supports Shariah compliance by reducing the administrative work around a review, so Shariah scholars can focus on substantive jurisprudential decisions. The scholar remains the final governance authority; AI provides structured, consistent information to inform their judgment rather than replacing it. This is the same role a well-trained compliance analyst plays, but at greater scale and consistency.",
   },
   {
     q: "How do I get access to Aylinor?",
@@ -216,9 +216,9 @@ export default function AmanahAIPage() {
               </p>
               <p className="text-[13px] leading-relaxed" style={{ color: "var(--text-secondary)" }}>
                 Aylinor is Daeson Technologies&apos; AI-powered compliance infrastructure platform for
-                Islamic financial institutions. It automates the operational layer of Shariah compliance,
-                contract parsing, documentation, scholar review queues, so scholars can focus on
-                jurisprudential judgment rather than manual document review.
+                Islamic financial institutions. It reduces the administrative work around Shariah
+                compliance, so scholars can focus on jurisprudential judgment rather than manual
+                document handling.
               </p>
             </div>
 
@@ -358,11 +358,10 @@ export default function AmanahAIPage() {
                     finance.
                   </p>
                   <p className="text-[14px] leading-[1.8]" style={{ color: "var(--text-secondary)" }}>
-                    In most institutions, Murabaha compliance is managed manually: contracts reviewed line-by-line
+                    In most institutions, Murabaha compliance is managed manually: documents reviewed manually
                     by compliance teams, documentation compiled manually, scholar approval tracked through email
-                    threads. Digitization replaces this with structured, automated workflows that parse contracts,
-                    execute compliance checklists, generate documentation, and maintain full audit trails,
-                    making Murabaha processing faster, more consistent, and fully auditable.
+                    threads. Digitization brings this into one organised, auditable process, making Murabaha work
+                    more consistent and easier to govern.
                   </p>
                 </div>
               </div>
@@ -503,7 +502,7 @@ export default function AmanahAIPage() {
               {[
                 {
                   title: "AI and Shariah Compliance in the Next Generation of Financial Technology",
-                  desc: "An in-depth look at how AI is reshaping Shariah compliance infrastructure, covering governance frameworks, contract analysis automation, and the regulatory implications for next-generation Islamic fintech.",
+                  desc: "An in-depth look at how AI is reshaping Shariah compliance infrastructure, covering governance frameworks, the role of human oversight, and the regulatory implications for next-generation Islamic fintech.",
                   audience: "Islamic bank executives, Shariah compliance officers",
                   href: "/whitepapers/whitepaper-shariah-ai-compliance.pdf",
                   tag: "Shariah AI",

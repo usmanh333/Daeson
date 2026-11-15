@@ -16,7 +16,7 @@ const publishedWhitepapers = [
     category: "Islamic Finance & AI",
     title: "AI and Shariah Compliance in the Next Generation of Financial Technology",
     description:
-      "An in-depth examination of how artificial intelligence is reshaping Shariah compliance infrastructure across Islamic financial institutions, covering governance frameworks, contract analysis automation, and the regulatory implications for next-generation Islamic fintech.",
+      "An in-depth examination of how artificial intelligence is reshaping Shariah compliance infrastructure across Islamic financial institutions, covering governance frameworks, the role of human oversight, and the regulatory implications for next-generation Islamic fintech.",
     pages: "Published · Available Now",
     audience: "Islamic bank executives, Shariah compliance officers, Islamic fintech leaders",
     topics: ["AI governance in Islamic finance", "Shariah compliance automation", "Next-gen fintech infrastructure", "Regulatory implications"],
@@ -62,7 +62,7 @@ const whitepapers = [
       "A framework for how AI can responsibly automate the documentation, workflow, and audit functions of Shariah compliance, while preserving the primacy of human scholarly judgment in substantive rulings.",
     pages: "24 pages",
     audience: "Islamic bank executives, Shariah compliance officers, Islamic fintech leaders",
-    topics: ["Murabaha digitization framework", "AI governance in Islamic finance", "Scholar review workflow design", "Compliance audit architecture"],
+    topics: ["Murabaha digitization framework", "AI governance in Islamic finance", "Scholar oversight", "Audit-ready governance"],
     href: "/contact?topic=whitepaper-amanah-ai",
   },
   {

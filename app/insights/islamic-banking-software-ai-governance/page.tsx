@@ -8,7 +8,7 @@ const SITE = "https://daesontechnologies.online";
 const URL = `${SITE}/insights/islamic-banking-software-ai-governance`;
 const TITLE = "Islamic Banking Software: AI and Shariah Governance";
 const DESCRIPTION =
-  "How AI is changing Shariah compliance workflows in Islamic banking software: document review, audit trails, SSB workflow, and core banking integration.";
+  "How AI is changing Shariah compliance in Islamic banking software: governance, audit-ready records, Shariah board processes and core banking integration.";
 const PUBLISHED = "2026-11-05";
 
 export const metadata: Metadata = {
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     "AI for Islamic banks",
     "AI compliance platform",
     "Islamic finance technology",
-    "SSB workflow software",
+    "Shariah board governance",
     "Shariah audit trail",
   ],
   authors: [{ name: "Daeson Technologies", url: SITE }],
@@ -41,11 +41,11 @@ export const metadata: Metadata = {
 
 const faqs = [
   { q: "What is Islamic banking software?", a: "Islamic banking software refers to systems used by Islamic banks, Islamic finance windows, and Shariah advisory firms to manage financing products, Shariah compliance review, governance documentation, and reporting in line with Shariah principles, alongside or integrated with core banking systems." },
-  { q: "Can AI determine whether a financial product is Shariah compliant?", a: "No. AI can assist with information retrieval, document comparison, and flagging items for attention, but determining Shariah compliance is a scholarly judgment that remains with qualified Shariah scholars and governance bodies, not the software." },
+  { q: "Can AI determine whether a financial product is Shariah compliant?", a: "No. AI can reduce the administrative work around a review, but determining Shariah compliance is a scholarly judgment that remains with qualified Shariah scholars and governance bodies, not the software." },
   { q: "What is an SSB workflow?", a: "An SSB (Shariah Supervisory Board) workflow is the structured process by which products, contracts, or policies are submitted to a Shariah board for review and approval, including tracking submissions, decisions, and any required follow-up actions." },
-  { q: "Why does an audit trail matter in Islamic banking software?", a: "Regulators, auditors, and Shariah boards need to see not just a final approval, but the full history: what was reviewed, what was flagged, what was changed, and who approved it. A structured audit trail makes this history available on demand instead of reconstructed after the fact." },
+  { q: "Why does an audit trail matter in Islamic banking software?", a: "Regulators, auditors, and Shariah boards need to see not just a final approval, but the full history: what was reviewed, what was changed, and who approved it. A structured audit trail makes this history available on demand instead of reconstructed after the fact." },
   { q: "How does Islamic banking software integrate with core banking systems?", a: "Integration typically depends on whether the core banking system exposes APIs or supports structured data exchange. Compliance and governance software is often layered alongside core banking rather than replacing it, exchanging specific data such as contract records or approval status." },
-  { q: "Is Aylinor a full Islamic core banking system?", a: "No. Aylinor is a Shariah compliance and governance platform, focused on supporting document review and reviewer workflows, not a replacement for core banking infrastructure." },
+  { q: "Is Aylinor a full Islamic core banking system?", a: "No. Aylinor is a Shariah compliance and governance platform, that helps Shariah teams work in a more organised, consistent and auditable way. It is not a replacement for core banking infrastructure." },
 ];
 
 const articleSchema = {
@@ -121,8 +121,8 @@ export default function ArticlePage() {
             <div className="answer-capsule">
               <p className="text-[12px] font-bold uppercase tracking-widest mb-2" style={{ color: "var(--gold)" }}>The short answer</p>
               <p className="text-[15px] leading-relaxed" style={{ color: "var(--text-primary)" }}>
-                AI can support Islamic banking software by speeding up document review, flagging items for
-                scholarly attention, and maintaining structured audit trails, but Shariah compliance determination
+                AI can support Islamic banking software by reducing administrative work and keeping
+                clear, auditable records, but Shariah compliance determination
                 itself remains with qualified scholars and governance bodies. The useful role for AI is reducing
                 the manual workload around that judgment, not replacing it.
               </p>
@@ -136,19 +136,18 @@ export default function ArticlePage() {
               standards, and previous rulings. Reviewing each new product or contract against this body of
               material requires time, consistency, and specialist expertise. As institutions introduce more
               products and operate across more jurisdictions, manual review becomes a bottleneck, not because the
-              judgment is wrong, but because the surrounding administrative work, locating references, comparing
-              language, tracking decisions, consumes a growing share of scarce scholarly time.
+              judgment is wrong, but because the surrounding administrative work, gathering documents, tracking
+              versions and recording decisions, consumes a growing share of scarce scholarly time.
             </p>
 
             <h2 className="text-[24px] font-bold tracking-tight pt-4" style={{ color: "var(--text-primary)" }}>
               Where AI fits in the compliance workflow
             </h2>
             <p className="text-[15px] leading-[1.85]">
-              AI-assisted systems can help compliance teams search documents, identify relevant clauses, compare
-              language across related materials, and summarise information for a reviewer. This is assistance, not
-              replacement: identifying something unusual in a document is not the same as determining its Shariah
-              status. A well-designed system keeps that distinction visible, presenting findings for a scholar to
-              examine rather than issuing conclusions.
+              AI-assisted systems can help compliance teams find and organise information and prepare matters for
+              review. This is assistance, not replacement: noticing something in a document is not the same as
+              determining its Shariah status. A well-designed system keeps that distinction visible and leaves
+              conclusions to scholars.
             </p>
 
             <h2 className="text-[24px] font-bold tracking-tight pt-4" style={{ color: "var(--text-primary)" }}>
@@ -156,19 +155,18 @@ export default function ArticlePage() {
             </h2>
             <p className="text-[15px] leading-[1.85]">
               Murabaha, a cost-plus-profit sale arrangement, is one of the most common Islamic financing
-              structures, and in many institutions its workflow remains largely manual: contracts reviewed
-              line-by-line, documentation compiled by hand, scholar approval tracked through email. Digitising this
-              workflow means structured, automated parsing of contracts, execution of compliance checklists,
-              generation of supporting documentation, and full audit trails, making the process faster and more
-              consistent without changing who makes the compliance decision.
+              structures, and in many institutions its workflow remains largely manual: documents reviewed
+              by hand, files compiled manually, scholar approval tracked through email. Digitising this workflow
+              means bringing it into one organised, auditable process, making it more consistent without changing
+              who makes the compliance decision.
             </p>
 
             <h2 className="text-[24px] font-bold tracking-tight pt-4" style={{ color: "var(--text-primary)" }}>
-              SSB workflow and audit trails
+              Shariah board processes and audit trails
             </h2>
             <p className="text-[15px] leading-[1.85]">
-              A Shariah Supervisory Board workflow needs to track what was submitted, what was flagged, what was
-              changed in response, and what was ultimately approved. Software that structures this process gives
+              A Shariah Supervisory Board process needs a record of what was submitted, what was changed in
+              response, and what was ultimately approved. Software that structures this process gives
               institutions a complete record on demand: useful for internal governance, and often required by
               regulators and external auditors. Without structured tracking, that history typically has to be
               reconstructed manually from emails and meeting notes, which is slower and less reliable.
@@ -189,13 +187,13 @@ export default function ArticlePage() {
               Where Aylinor fits
             </h2>
             <p className="text-[15px] leading-[1.85]">
-              This is the scope behind{" "}
+              This is the thinking behind{" "}
               <Link href="/amanah-ai" className="underline underline-offset-2" style={{ color: "var(--gold)" }}>
                 Aylinor
               </Link>
               , Daeson Technologies&apos; Shariah compliance and governance platform for Islamic financial
-              institutions. It supports Murabaha contract analysis, governance documentation, and audit trails,
-              with final Shariah determination remaining with the institution&apos;s own scholars and governance
+              institutions. It helps Shariah teams work in a more organised, consistent and auditable way, with
+              final Shariah determination remaining with the institution&apos;s own scholars and governance
               structures. Full platform access is available to institutions on request.
             </p>
 
@@ -215,8 +213,7 @@ export default function ArticlePage() {
             </h2>
             <p className="text-[15px] leading-[1.85]">
               AI is changing how Islamic banking software supports compliance work, not by making Shariah
-              determinations, but by reducing the manual burden of document review, reference checking, and
-              audit-trail maintenance around those determinations. Institutions that adopt this kind of software
+              determinations, but by reducing the manual burden of administration and record-keeping around those determinations. Institutions that adopt this kind of software
               with that boundary clearly defined are better positioned to scale compliance work without diluting
               scholarly oversight.
             </p>

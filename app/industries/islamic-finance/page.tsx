@@ -7,7 +7,7 @@ import { ArrowRight } from "lucide-react";
 export const metadata: Metadata = {
   title: "Islamic Finance Technology & Compliance",
   description:
-    "Daeson Technologies delivers Islamic finance technology through Aylinor: Murabaha workflow automation, Shariah governance documentation, scholar review systems, and compliance audit trails for Islamic financial institutions.",
+    "Daeson Technologies delivers Islamic finance technology through Aylinor, an AI-powered Shariah compliance and governance platform for Islamic financial institutions, with scholars keeping the final decision.",
   alternates: { canonical: "https://daesontechnologies.online/industries/islamic-finance" },
 };
 
@@ -55,7 +55,7 @@ const faqSchema = {
       name: "What is Murabaha workflow digitization?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Murabaha workflow digitization replaces manual, paper-based Murabaha financing processes with structured digital workflows. It involves automating contract parsing and analysis, compliance checklist execution, documentation generation, scholar review routing, audit trail creation, and reporting. The goal is to reduce processing time, eliminate documentation risk, and free scholar time from administrative tasks to substantive compliance decisions.",
+        text: "Murabaha workflow digitization replaces manual, paper-based Murabaha financing processes with structured digital workflows. It brings the work into one organised, auditable process. The goal is to reduce processing time, eliminate documentation risk, and free scholar time from administrative tasks to substantive compliance decisions.",
       },
     },
     {
@@ -63,7 +63,7 @@ const faqSchema = {
       name: "How does AI support Shariah compliance without replacing scholars?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "AI supports Shariah compliance by automating the operational and documentation layer of the compliance process, not by making Shariah judgments. AI can analyze contracts against documented Shariah criteria, generate governance documentation, route matters for scholar review, and maintain audit trails. All substantive Shariah determinations remain with qualified scholars. AI reduces the administrative burden so scholars can focus on genuine jurisprudential analysis rather than document processing.",
+        text: "AI supports Shariah compliance by automating the operational and documentation layer of the compliance process, not by making Shariah judgments. It reduces administrative work and helps keep clear, auditable records. All substantive Shariah determinations remain with qualified scholars. AI reduces the administrative burden so scholars can focus on genuine jurisprudential analysis rather than document processing.",
       },
     },
     {
@@ -160,28 +160,16 @@ export default function IslamicFinancePage() {
           <div className="grid md:grid-cols-2 gap-6">
             {[
               {
-                title: "Murabaha Workflow Automation",
-                body: "Automated parsing and analysis of Murabaha contracts against documented Shariah compliance criteria, with structured output for scholar review.",
+                title: "Shariah Compliance Support",
+                body: "Aylinor helps Shariah teams work in a more organised and consistent way, reducing the administrative work around every review.",
               },
               {
-                title: "Shariah Governance Documentation",
-                body: "Automated generation of Shariah governance documentation, fatwa summaries, compliance checklists, and approval records, creating a structured governance archive.",
+                title: "Audit-Ready Records",
+                body: "A clear, auditable record of Shariah decisions, designed to support Shariah boards, regulators and auditors.",
               },
               {
-                title: "Scholar Review Queue Management",
-                body: "Intelligent routing of compliance matters to appropriate scholars, with context preparation, priority management, and response tracking.",
-              },
-              {
-                title: "Compliance Audit Trail",
-                body: "Full, immutable audit trail of every compliance decision, document, and scholar interaction, designed to satisfy regulatory and institutional governance requirements.",
-              },
-              {
-                title: "Governance Visibility Dashboards",
-                body: "Executive and board-level dashboards showing real-time compliance status across the institution's Islamic finance portfolio.",
-              },
-              {
-                title: "Regulatory Reporting Support",
-                body: "Structured data and reporting tools to support regulatory submissions and governance disclosures required by Islamic finance regulators.",
+                title: "Scholars Keep the Final Decision",
+                body: "Technology supports the process; qualified scholars and the institution's governance structures make every Shariah decision.",
               },
             ].map((item, i) => (
               <div key={i} className="p-6 rounded-xl" style={{ backgroundColor: "var(--bg-surface)", border: "1px solid var(--border)" }}>

@@ -6,7 +6,7 @@ export const faqs = [
 
 The result is inconsistent review quality, no reliable audit trail, and compliance teams spending most of their time on coordination rather than substantive analysis. When financing volume grows, the bottleneck grows with it because the process scales with headcount, not with technology.
 
-Aylinor is built to bring that process into a single, organized workflow so that review, commentary, and decision history are connected, retrievable, and auditable.`,
+Aylinor is built to make that process more organised, consistent and auditable, while scholars keep the final decision.`,
   },
   {
     q: "Who is Aylinor designed for?",
@@ -18,9 +18,9 @@ The primary users are compliance officers and Shariah advisors who are responsib
     q: "How does Aylinor support Shariah advisors specifically?",
     a: `Shariah advisors at Islamic banks spend a significant portion of their time on operational overhead: reading documents, tracking versions, consolidating comments, and chasing approvals through email. This is time taken away from the substantive compliance decisions that require their expertise.
 
-Aylinor reduces that overhead by organizing the review workflow in one place. Advisors can see what has been submitted, what requires their attention, and what decisions have been recorded, without reconstructing that picture from emails and shared drives.
+Aylinor reduces that overhead, so advisors spend less time on administration and more time on the decisions that need their expertise.
 
-The advisor remains the decision-maker. The platform makes the information they need available in a structured, traceable form.`,
+The advisor remains the decision-maker.`,
   },
   {
     q: "What is Murabaha compliance and why is it operationally difficult?",
@@ -36,13 +36,13 @@ At low volume this is manageable. As financing volume grows, the manual process 
 
 That second layer requires human scholarly judgment. A compliance officer or Shariah advisor must evaluate not just whether a clause is present, but whether the transaction as a whole is structured correctly under the applicable standard.
 
-This means technology in Islamic finance cannot simply automate compliance decisions. It must support the review process, organize information, surface relevant material, and preserve the record of expert judgment. That is the role Aylinor is built to fill.`,
+This means technology in Islamic finance cannot simply automate compliance decisions. It must support the review process and preserve the record of expert judgment. That is the role Aylinor is built to fill.`,
   },
   {
     q: "What is Ask Aylinor?",
-    a: `Ask Aylinor is the Arabic and English conversational assistant within the Aylinor platform. It is designed for Shariah compliance officers who work across both languages and need to interact with documentation, research, and guidance material without switching tools or manually translating between languages.
+    a: `Ask Aylinor is the assistant within the Aylinor platform, built for Shariah compliance officers and advisors.
 
-Its purpose is to reduce the language-coordination overhead in compliance work, not to issue rulings or replace expert review. Outputs from Ask Aylinor should be evaluated against the source material and the officer's own professional judgment before any finding is recorded.`,
+Its purpose is to help them work faster, not to issue rulings or replace expert review. The officer's own professional judgment always comes first.`,
   },
   {
     q: "How does Daeson Technologies approach Islamic finance technology?",
@@ -62,7 +62,7 @@ Both products are designed around the actual workflows of the teams using them, 
   },
   {
     q: "Is Aylinor available to all institutions or by invitation only?",
-    a: `Aylinor is currently available as a private preview by invitation. We are working directly with a small number of Islamic financial institutions to refine the compliance workflow before broader release.
+    a: `Aylinor is currently available as a private preview by invitation. We are working directly with a small number of Islamic financial institutions to refine the platform before broader release.
 
 Institutions that want to be considered for early access can request a demonstration through the Aylinor website. We prioritize institutions where the compliance review problem is active and where there is interest in participating in the refinement process.`,
   },

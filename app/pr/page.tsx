@@ -70,7 +70,7 @@ const pressItems = [
     author: "Daeson Technologies",
     headline: "Daeson Technologies Introduces Shariah AI Compliance Co-Pilot",
     excerpt:
-      "International Business Media covers the formal launch of Daeson Technologies' Shariah AI Compliance Co-Pilot, reporting on the platform's capacity to automate contract analysis, compliance reporting, and Shariah governance workflows for banks across Pakistan and the GCC.",
+      "International Business Media covers the formal launch of Daeson Technologies' Shariah AI Compliance Co-Pilot, reporting on the platform's role in supporting Shariah compliance and governance for banks across Pakistan and the GCC.",
     date: "March 26, 2026",
     isoDate: "2026-03-26",
     readTime: "Coverage",
@@ -434,7 +434,7 @@ const perspectives = [
   {
     id: "p4",
     title: "Choosing a Software Provider for Islamic Finance Analytics & Reporting",
-    body: "Islamic finance institutions evaluating analytics and reporting software run into a hard requirement most generic fintech tools skip: Shariah governance has to be built into the workflow, not bolted on afterward. That means contract analysis, scholar review queues, and regulatory reporting need to share one audit trail, not live in three disconnected tools.",
+    body: "Islamic finance institutions evaluating analytics and reporting software run into a hard requirement most generic fintech tools skip: Shariah governance has to be built into the workflow, not bolted on afterward. That means Shariah review, governance and reporting need to share one auditable record, not live in disconnected tools.",
     href: "/amanah-ai",
     linkLabel: "How Aylinor approaches this",
   },

@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Custom AI Software & Islamic Finance Technology | Daeson Technologies",
     description:
-      "Aylinor is our Shariah compliance and governance platform: AI-assisted document review and reviewer workflows for Islamic banks and Shariah advisory firms.",
+      "Aylinor is our AI-powered Shariah compliance and governance platform for Islamic banks and Shariah advisory firms, with scholars keeping the final decision.",
     url: "https://daesontechnologies.online",
   },
 };

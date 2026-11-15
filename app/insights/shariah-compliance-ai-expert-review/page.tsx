@@ -8,7 +8,7 @@ const SITE = "https://daesontechnologies.online";
 const URL = `${SITE}/insights/shariah-compliance-ai-expert-review`;
 const TITLE = "Shariah Compliance and AI: Aylinor's Approach";
 const DESCRIPTION =
-  "Learn how Aylinor approaches Arabic-English Shariah-compliance documentation, supporting qualified expert review rather than replacing judgment.";
+  "Learn how Aylinor approaches Shariah compliance: supporting qualified expert review and governance rather than replacing scholarly judgment.";
 const PUBLISHED = "2026-10-23";
 
 export const metadata: Metadata = {
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   description: DESCRIPTION,
   keywords: [
     "AI for Shariah-compliance workflows",
-    "Arabic-English documentation review",
+    "Shariah governance technology",
     "Islamic-finance technology",
     "Shariah-review assistant",
     "Aylinor",
@@ -59,15 +59,15 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: "What is Aylinor?",
-    a: "Aylinor is Daeson Technologies' Arabic-English AI platform for Shariah-compliance documentation and expert-review workflows. It is designed to support the preparation and review of documentation, not to issue Shariah rulings.",
+    a: "Aylinor is Daeson Technologies' AI-powered Shariah compliance and governance platform for Islamic financial institutions. It helps Shariah teams work in a more organised, consistent and auditable way. It does not issue Shariah rulings.",
   },
   {
     q: "Does Aylinor replace a Shariah scholar's judgment?",
-    a: "No. Aylinor's outputs, such as a structured summary, a potential issue to investigate, or a reference that needs checking, are a starting point for a qualified reviewer. The professional must still determine whether that information is correct and relevant.",
+    a: "No. Aylinor supports the work around a review. Qualified scholars and the institution's governance structures make every Shariah decision.",
   },
   {
-    q: "Does a reference found by an AI tool prove an interpretation is correct?",
-    a: "No. A cited passage does not automatically establish that an interpretation is correct. A reviewer still needs to confirm the reference supports the point being made, applies to the transaction and its circumstances, and reflects any applicable local requirements or institutional policies.",
+    q: "Can AI-generated information be relied on without review?",
+    a: "No. Any AI-assisted information is a starting point. A qualified reviewer still needs to confirm it is correct, applies to the transaction and its circumstances, and reflects applicable local requirements and institutional policies.",
   },
   {
     q: "Is Aylinor publicly available?",
@@ -163,8 +163,8 @@ export default function ArticlePage() {
               to examine, and findings easier to prepare for qualified review.
             </p>
             <p className="text-[15px] leading-[1.85]">
-              That is the purpose behind Aylinor, Daeson Technologies&apos; Arabic&ndash;English AI platform for
-              Shariah-compliance documentation and expert-review workflows.
+              That is the purpose behind Aylinor, Daeson Technologies&apos; AI-powered Shariah compliance and
+              governance platform.
             </p>
 
             <h2 className="text-[24px] font-bold tracking-tight pt-4" style={{ color: "var(--text-primary)" }}>
@@ -172,16 +172,14 @@ export default function ArticlePage() {
             </h2>
             <p className="text-[15px] leading-[1.85]">
               Consider a professional preparing a document for review. Before reaching a conclusion, they may need
-              to understand the wording, locate relevant references, compare related materials, and organize
-              questions for a reviewer.
+              to understand the wording, gather related materials, and organise questions for the Shariah board.
             </p>
             <p className="text-[15px] leading-[1.85]">
               These are connected tasks, but they are not the same as a final Shariah judgment.
             </p>
             <p className="text-[15px] leading-[1.85]">
-              A documentation assistant can provide a starting point: a structured summary, a potential issue to
-              investigate, or a reference that needs checking. The professional must still determine whether that
-              information is correct and relevant.
+              Technology can make that preparation easier. The professional must still determine whether the
+              information in front of them is correct and relevant.
             </p>
             <p className="text-[15px] leading-[1.85]">
               A useful output is therefore not simply a confident answer. It is an answer that a qualified person
@@ -189,14 +187,14 @@ export default function ArticlePage() {
             </p>
 
             <h2 className="text-[24px] font-bold tracking-tight pt-4" style={{ color: "var(--text-primary)" }}>
-              References matter, but context matters too
+              Context matters
             </h2>
             <p className="text-[15px] leading-[1.85]">
-              A cited passage does not automatically establish that an interpretation is correct.
+              AI-assisted information does not, on its own, establish that an interpretation is correct.
             </p>
             <p className="text-[15px] leading-[1.85]">A reviewer still needs to ask:</p>
             <ul className="list-disc list-inside space-y-2 text-[15px] leading-[1.85] pl-2">
-              <li>Does the reference support the point being made?</li>
+              <li>Does the information support the point being made?</li>
               <li>Does it apply to this transaction and its circumstances?</li>
               <li>Are there applicable local requirements or institutional policies?</li>
               <li>What information is missing from the document?</li>
@@ -212,8 +210,8 @@ export default function ArticlePage() {
               Where Aylinor fits
             </h2>
             <p className="text-[15px] leading-[1.85]">
-              Aylinor is built around documentation-review assistance intended to support research and preparation
-              of review materials.
+              Aylinor helps Shariah teams work in a more organised, consistent and auditable way, while scholars
+              keep the final decision.
             </p>
             <p className="text-[15px] leading-[1.85]">
               The product is in private preview. Our immediate priority is to evaluate its usefulness and

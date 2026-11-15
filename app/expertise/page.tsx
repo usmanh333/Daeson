@@ -104,7 +104,7 @@ const products = [
   {
     name: "Aylinor",
     audience: "Islamic banks · Islamic windows · Shariah advisory firms",
-    body: "AI-powered Shariah compliance and governance platform. It starts with Murabahah document review in English and Arabic: issue flags, supporting references, reviewer workflow and audit trails. Currently in private preview.",
+    body: "AI-powered Shariah compliance and governance platform. It helps Shariah teams work in a more organised, consistent and auditable way, while scholars keep the final decision. Currently in private preview.",
     href: "/amanah-ai",
     dark: true,
   },

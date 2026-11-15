@@ -2,66 +2,69 @@ import type { Metadata } from "next";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Link from "next/link";
-import { ArrowLeft, ArrowRight } from "lucide-react";
+import { ArrowLeft, ArrowRight, ArrowDown, CheckCircle2 } from "lucide-react";
 
 const SITE = "https://daesontechnologies.online";
 const URL = `${SITE}/insights/murabahah-contract-review-software-bilingual`;
-const TITLE = "Murabahah Contract Review: AI in English and Arabic";
+const TITLE = "Murabahah Contract Review: Keeping Scholars in Control";
+const HEADLINE = "Murabahah Contract Review: How Technology Supports Shariah Compliance Without Replacing Scholars";
 const DESCRIPTION =
-  "How AI-assisted Murabahah contract review supports bilingual document analysis, issue flags, supporting references, and reviewer workflow, with human oversight.";
+  "What Murabahah contract review involves, why documentation in two languages adds risk, and how technology can help while scholars keep the decision.";
 const PUBLISHED = "2026-11-05";
+const MODIFIED = "2026-11-15";
 
 export const metadata: Metadata = {
   title: TITLE,
   description: DESCRIPTION,
   keywords: [
-    "Murabahah contract review software",
+    "Murabahah contract review",
     "Murabaha contract review software",
-    "Islamic finance document review AI",
-    "Arabic English contract analysis",
-    "Shariah reviewer workflow",
-    "Islamic fintech documentation",
+    "Murabahah Shariah compliance",
+    "Islamic finance document review",
+    "Shariah governance",
+    "Islamic fintech",
   ],
   authors: [{ name: "Daeson Technologies", url: SITE }],
   creator: "Daeson Technologies",
   publisher: "Daeson Technologies",
   alternates: { canonical: URL },
-  openGraph: { type: "article", title: TITLE, description: DESCRIPTION, url: URL, siteName: "Daeson Technologies" },
+  openGraph: { type: "article", title: HEADLINE, description: DESCRIPTION, url: URL, siteName: "Daeson Technologies" },
   twitter: { card: "summary_large_image", title: TITLE, description: DESCRIPTION },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 } },
   other: {
     "article:published_time": PUBLISHED,
-    "article:modified_time": PUBLISHED,
+    "article:modified_time": MODIFIED,
     "article:author": "Daeson Technologies",
     "article:section": "Islamic Finance",
-    "article:tag": "Murabahah, contract review, Aylinor, bilingual document analysis",
+    "article:tag": "Murabahah, contract review, Shariah governance, Islamic finance",
   },
 };
 
 const faqs = [
-  { q: "What does Murabahah contract review involve?", a: "Murabahah contract review involves checking a cost-plus-profit sale contract and its supporting documentation against Shariah standards, institutional policy, and applicable regulatory requirements, to identify anything that needs clarification, correction, or scholarly attention before approval." },
-  { q: "Why does bilingual review matter for Murabahah documents?", a: "Murabahah documentation in many markets exists in both Arabic and English, sometimes with material drafted in one language and reviewed by teams working primarily in the other. Software that can analyse both languages reduces the risk of relevant content being missed because it was reviewed in only one language." },
-  { q: "What is an issue flag in this context?", a: "An issue flag is a point in a document that a review system has identified as warranting closer human attention, for example wording that differs from an approved template or a clause that appears inconsistent with a referenced standard. A flag is a prompt for review, not a finding of non-compliance." },
-  { q: "Can AI finalise a Murabahah compliance decision?", a: "No. AI-assisted review can prepare material for a reviewer: locating relevant clauses, comparing language, and surfacing supporting references. The decision on Shariah compliance remains with qualified reviewers and governance structures." },
-  { q: "What should a reviewer workflow for Murabahah contracts include?", a: "At minimum, a clear record of what was submitted, what was flagged, what correction or clarification was made, who reviewed it, and when it was approved. This supports both internal governance and external audit." },
-  { q: "Is Aylinor available for institutions to use today?", a: "Aylinor is in private preview. Daeson Technologies' current priority is evaluating its usefulness and limitations with experienced practitioners and institutions before wider release." },
+  { q: "What does Murabahah contract review involve?", a: "Murabahah contract review checks a cost-plus-profit sale contract and its supporting documentation against Shariah standards, institutional policy and applicable regulation, so that anything needing clarification, correction or scholarly attention is resolved before approval." },
+  { q: "Why does language matter in Murabahah review?", a: "In many markets Murabahah documentation exists in both Arabic and English, sometimes drafted in one language and reviewed in the other. Reviewers need to be confident that both versions say the same thing, because a difference in wording can change the meaning of a term." },
+  { q: "Can AI make a Murabahah compliance decision?", a: "No. Technology can reduce the administrative work around a review, but the decision on Shariah compliance remains with qualified scholars and the institution's governance structures." },
+  { q: "What record should a Murabahah review leave behind?", a: "A clear record of what was reviewed, what was decided, by whom and when. This supports internal governance, the Shariah board and external audit." },
+  { q: "Is Aylinor available to institutions today?", a: "Aylinor is in private preview. Full platform access is available to institutions on request." },
 ];
 
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Murabahah Contract Review: How AI Supports Shariah Compliance in English and Arabic",
+  headline: HEADLINE,
   description: DESCRIPTION,
   author: { "@type": "Organization", name: "Daeson Technologies", url: SITE },
-  publisher: { "@type": "Organization", name: "Daeson Technologies", url: SITE },
+  publisher: { "@id": `${SITE}/#organization` },
   url: URL,
   mainEntityOfPage: URL,
   datePublished: PUBLISHED,
-  dateModified: PUBLISHED,
+  dateModified: MODIFIED,
+  inLanguage: "en",
+  speakable: { "@type": "SpeakableSpecification", cssSelector: [".speakable", ".answer-capsule"] },
   about: [
-    { "@type": "Thing", name: "Murabahah contract review" },
-    { "@type": "Thing", name: "bilingual document review" },
-    { "@type": "Thing", name: "Aylinor" },
+    { "@type": "Thing", name: "Murabahah" },
+    { "@type": "Thing", name: "Shariah compliance" },
+    { "@type": "Thing", name: "Shariah governance" },
   ],
 };
 
@@ -71,7 +74,7 @@ const breadcrumbSchema = {
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "Home", item: SITE },
     { "@type": "ListItem", position: 2, name: "Insights", item: `${SITE}/insights` },
-    { "@type": "ListItem", position: 3, name: "Murabahah Contract Review: How AI Supports Shariah Compliance in English and Arabic", item: URL },
+    { "@type": "ListItem", position: 3, name: TITLE, item: URL },
   ],
 };
 
@@ -80,6 +83,24 @@ const faqSchema = {
   "@type": "FAQPage",
   mainEntity: faqs.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })),
 };
+
+const roles = [
+  { who: "Technology", does: "Reduces administrative work and keeps records organised" },
+  { who: "Shariah reviewer", does: "Examines the documentation and prepares the matter" },
+  { who: "Shariah board", does: "Makes the Shariah decision" },
+  { who: "Institution", does: "Remains accountable for implementation" },
+];
+
+const vendorQuestions = [
+  "Does the system keep scholars as the final authority on every Shariah decision?",
+  "Does it leave a clear, auditable record of what was reviewed and decided?",
+  "Does it work with the languages your documentation actually uses?",
+  "How is sensitive contract data protected, and who can access it?",
+  "Is the vendor open about what the system cannot do?",
+];
+
+const H2 = "text-[24px] font-bold tracking-tight pt-4";
+const P = "text-[15px] leading-[1.85]";
 
 export default function ArticlePage() {
   return (
@@ -93,163 +114,134 @@ export default function ArticlePage() {
           <div className="absolute inset-0 pointer-events-none" style={{ background: "radial-gradient(ellipse 70% 50% at 50% -10%, rgba(212,175,55,0.05) 0%, transparent 70%)" }} />
           <div className="absolute inset-0 grid-bg opacity-15 pointer-events-none" />
           <div className="max-w-3xl mx-auto relative z-10">
-            <Link href="/insights" className="inline-flex items-center gap-1.5 text-[12px] font-medium mb-8 transition-colors" style={{ color: "var(--text-faint)" }}>
+            <Link href="/insights" className="inline-flex items-center gap-1.5 text-[12px] font-medium mb-8" style={{ color: "var(--text-faint)" }}>
               <ArrowLeft size={12} /> Back to Insights
             </Link>
-            <div className="flex items-center gap-3 mb-6">
+            <div className="flex flex-wrap items-center gap-3 mb-6">
               <span className="text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-widest" style={{ backgroundColor: "var(--gold-muted)", color: "var(--gold)", border: "1px solid var(--gold-border)" }}>
                 Islamic Finance
               </span>
-              <span className="text-[11px]" style={{ color: "var(--text-faint)" }}>9 min read</span>
-              <span className="text-[11px]" style={{ color: "var(--text-faint)" }}><time dateTime={PUBLISHED}>5 November 2026</time></span>
+              <span className="text-[11px]" style={{ color: "var(--text-faint)" }}>6 min read</span>
+              <span className="text-[11px]" style={{ color: "var(--text-faint)" }}>Updated <time dateTime={MODIFIED}>15 November 2026</time></span>
             </div>
             <h1 className="speakable text-[32px] md:text-[44px] font-extrabold leading-[1.1] tracking-tight mb-6" style={{ color: "var(--text-primary)" }}>
-              Murabahah Contract Review: How AI Supports Shariah Compliance in English and Arabic
+              {HEADLINE}
             </h1>
             <p className="text-[17px] leading-relaxed" style={{ color: "var(--text-secondary)" }}>
-              Murabahah documentation often moves between English and Arabic, across different teams and
-              reviewers. Reviewing it consistently in both languages is a specific, solvable problem.
+              Murabahah is one of the most widely used Islamic financing structures. Reviewing it well is less about
+              speed and more about consistency, clear records and keeping scholars in control.
             </p>
           </div>
         </section>
+
         <div style={{ borderTop: "1px solid var(--border)" }} />
+
         <article className="max-w-3xl mx-auto px-6 py-16">
           <div className="space-y-8" style={{ color: "var(--text-secondary)" }}>
 
             <div className="answer-capsule">
               <p className="text-[12px] font-bold uppercase tracking-widest mb-2" style={{ color: "var(--gold)" }}>The short answer</p>
               <p className="text-[15px] leading-relaxed" style={{ color: "var(--text-primary)" }}>
-                AI-assisted Murabahah contract review can help locate relevant clauses, flag wording that deserves
-                attention, and surface supporting references in both English and Arabic, giving reviewers a
-                structured starting point. It does not determine Shariah compliance; that remains with qualified
-                reviewers and governance bodies.
+                Murabahah contract review checks a cost-plus sale and its documents against Shariah standards,
+                institutional policy and regulation. Technology can reduce the administrative work around that review,
+                but the Shariah decision always stays with qualified scholars.
               </p>
             </div>
 
-            <h2 className="text-[24px] font-bold tracking-tight pt-4" style={{ color: "var(--text-primary)" }}>
-              Why Murabahah documentation is a natural starting point
-            </h2>
-            <p className="text-[15px] leading-[1.85]">
-              Murabahah, a cost-plus-profit sale structure, is one of the most widely used Islamic financing
-              arrangements, which means institutions process a high volume of broadly similar contracts. That
-              volume, combined with a relatively standardised document structure, makes Murabahah review a
-              practical place to introduce structured, AI-assisted workflows, compared with more bespoke or
-              highly negotiated transaction types.
+            <h2 className={H2} style={{ color: "var(--text-primary)" }}>What Murabahah review involves</h2>
+            <p className={P}>
+              In a Murabahah, the institution buys an asset and sells it to the customer at a disclosed, agreed profit,
+              usually paid in instalments. A review confirms that the contract and its supporting documents reflect a
+              valid sale, that terms are clear and consistent, and that the transaction follows the institution&apos;s
+              approved Shariah position and applicable regulation.
             </p>
 
-            <h2 className="text-[24px] font-bold tracking-tight pt-4" style={{ color: "var(--text-primary)" }}>
-              The bilingual review problem
-            </h2>
-            <p className="text-[15px] leading-[1.85]">
-              In many markets, Murabahah contracts and supporting policy material exist in both Arabic and
-              English, sometimes drafted in one language and reviewed primarily in the other. This creates a real
-              risk: a clause that reads as standard in one language may carry a different nuance in the other, and
-              a reviewer working mainly in one language can miss that difference. Software that can analyse both
-              languages side by side reduces this risk by surfacing the same issue regardless of which language a
-              reviewer is more comfortable in.
+            <h2 className={H2} style={{ color: "var(--text-primary)" }}>Why it is a natural place to start</h2>
+            <p className={P}>
+              Institutions process a high volume of broadly similar Murabahah contracts. That volume makes the work
+              around each review, gathering documents, tracking versions, and recording decisions, a real burden on
+              scarce scholarly time. It is a sensible place to bring more structure, compared with bespoke or heavily
+              negotiated transactions.
             </p>
 
-            <h2 className="text-[24px] font-bold tracking-tight pt-4" style={{ color: "var(--text-primary)" }}>
-              What issue flags and supporting references actually do
-            </h2>
-            <p className="text-[15px] leading-[1.85]">
-              An issue flag marks a point in a document that deserves closer human attention, wording that departs
-              from an approved template, a clause inconsistent with a referenced standard, or a term that appears
-              in one version of a contract but not another. A supporting reference points the reviewer to the
-              relevant internal policy, approved standard, or prior ruling.
-            </p>
-            <p className="text-[15px] leading-[1.85]">
-              Neither of these is a conclusion. A flag says &ldquo;look here&rdquo;, and a reference says &ldquo;this
-              material may be relevant&rdquo;. The reviewer still needs to confirm whether the reference actually
-              supports the point, whether it applies to this specific transaction, and whether any local or
-              institutional requirement changes the answer.
+            <h2 className={H2} style={{ color: "var(--text-primary)" }}>Two languages, one meaning</h2>
+            <p className={P}>
+              In many markets Murabahah documentation exists in both Arabic and English, sometimes drafted in one
+              language and reviewed by a team working mainly in the other. A term that reads as standard in one version
+              can carry a different nuance in the other. Reviewers need confidence that both versions say the same
+              thing, because the documentation is what the institution will be held to.
             </p>
 
-            <h2 className="text-[24px] font-bold tracking-tight pt-4" style={{ color: "var(--text-primary)" }}>
-              Designing a reviewer workflow around this
-            </h2>
-            <p className="text-[15px] leading-[1.85]">
-              A useful reviewer workflow for Murabahah documentation tracks the full lifecycle of a review:
-              submission, automated flags and references presented to the reviewer, the reviewer&apos;s
-              assessment, any correction made to the document, re-review of the correction, and final approval.
-              Each step should be recorded, so the institution has a complete audit trail rather than having to
-              reconstruct the history from emails after the fact.
+            <h2 className={H2} style={{ color: "var(--text-primary)" }}>Who does what</h2>
+            <ol>
+              {roles.map((r, i) => (
+                <li key={r.who}>
+                  <div className="flex items-center justify-between gap-4 rounded-2xl px-6 py-5" style={{ backgroundColor: "var(--bg-card)", border: "1px solid var(--border)" }}>
+                    <span className="text-[15px] font-bold" style={{ color: "var(--text-primary)" }}>{r.who}</span>
+                    <span className="text-[13.5px] text-right">{r.does}</span>
+                  </div>
+                  {i < roles.length - 1 && <div aria-hidden className="flex justify-center py-1.5" style={{ color: "var(--gold)" }}><ArrowDown size={16} /></div>}
+                </li>
+              ))}
+            </ol>
+            <p className={P}>
+              The simplest useful principle for technology in Shariah governance is this: machines can assist, scholars
+              decide, institutions remain accountable.
             </p>
 
-            <h2 className="text-[24px] font-bold tracking-tight pt-4" style={{ color: "var(--text-primary)" }}>
-              Human oversight is the design principle, not an afterthought
-            </h2>
-            <p className="text-[15px] leading-[1.85]">
-              The industry&apos;s simplest useful principle for AI in Shariah governance is that machines can
-              assist, scholars decide, and institutions remain accountable. For Murabahah review specifically,
-              this means AI handles the repetitive work, locating clauses, comparing language, retrieving
-              references, while the actual determination of whether a contract meets Shariah requirements stays
-              with the people responsible for that judgment.
+            <h2 className={H2} style={{ color: "var(--text-primary)" }}>Leave a clear record</h2>
+            <p className={P}>
+              Every review should leave behind a record of what was reviewed, what was decided, by whom and when.
+              Without it, the history has to be rebuilt from emails and meeting notes, which is slower and less reliable
+              for the Shariah board, regulators and auditors.
             </p>
 
-            <h2 className="text-[24px] font-bold tracking-tight pt-4" style={{ color: "var(--text-primary)" }}>
-              Where Aylinor fits
-            </h2>
-            <p className="text-[15px] leading-[1.85]">
-              This is the approach behind{" "}
-              <Link href="/amanah-ai" className="underline underline-offset-2" style={{ color: "var(--gold)" }}>
-                Aylinor
-              </Link>
-              , Daeson Technologies&apos; Arabic&ndash;English AI platform for Shariah-compliance documentation,
-              starting with Murabahah contract review. The product is in private preview, and our current priority
-              is evaluating its usefulness and limitations with experienced practitioners and Islamic banks before
-              wider release.
+            <h2 className={H2} style={{ color: "var(--text-primary)" }}>Where Aylinor fits</h2>
+            <p className={P}>
+              <Link href="/amanah-ai" className="underline underline-offset-2" style={{ color: "var(--gold)" }}>Aylinor</Link>{" "}
+              is Daeson Technologies&apos; AI-powered Shariah compliance and governance platform for Islamic financial
+              institutions. It helps Shariah teams work in a more organised, consistent and auditable way, while
+              scholars keep the final decision. It is in private preview, with access available to institutions on
+              request.
             </p>
 
-            <h2 className="text-[24px] font-bold tracking-tight pt-4" style={{ color: "var(--text-primary)" }}>
-              Questions to ask before adopting Murabahah review software
-            </h2>
-            <ul className="list-disc list-inside space-y-2 text-[15px] leading-[1.85] pl-2">
-              <li>Does the system genuinely analyse both Arabic and English, or only one with translation layered on top?</li>
-              <li>Are issue flags and references presented as prompts for review, or as automatic conclusions?</li>
-              <li>Is there a complete audit trail from submission through correction to approval?</li>
-              <li>How is sensitive contract data protected and who can access it?</li>
-              <li>What does the vendor say about the limits of what the system can determine on its own?</li>
+            <h2 className={H2} style={{ color: "var(--text-primary)" }}>Questions to ask any vendor</h2>
+            <ul className="space-y-2.5">
+              {vendorQuestions.map((q) => (
+                <li key={q} className="flex items-start gap-3 rounded-xl p-4 text-[14px]" style={{ backgroundColor: "var(--bg-card)", border: "1px solid var(--border)" }}>
+                  <CheckCircle2 size={16} className="mt-0.5 shrink-0" style={{ color: "var(--gold)" }} />
+                  {q}
+                </li>
+              ))}
             </ul>
 
-            <h2 className="text-[24px] font-bold tracking-tight pt-4" style={{ color: "var(--text-primary)" }}>
-              Conclusion
-            </h2>
-            <p className="text-[15px] leading-[1.85]">
-              Murabahah contract review is a strong early use case for AI-assisted Islamic finance documentation,
-              precisely because the task is bounded and the volume is high. The institutions that get the most
-              value treat AI as a way to prepare material faster for human reviewers, not as a shortcut past the
-              scholarly judgment the process exists to protect.
+            <h2 className={H2} style={{ color: "var(--text-primary)" }}>Conclusion</h2>
+            <p className={P}>
+              Murabahah review is a strong place to bring more structure to Shariah work, because the volume is high and
+              the task is well understood. The institutions that benefit most use technology to reduce the work around
+              the decision, never to shortcut the scholarly judgment the process exists to protect.
             </p>
 
-            <h2 className="text-[24px] font-bold tracking-tight pt-4" style={{ color: "var(--text-primary)" }}>
-              Frequently asked questions
-            </h2>
+            <h2 className={H2} style={{ color: "var(--text-primary)" }}>Frequently asked questions</h2>
             {faqs.map((f) => (
-              <div key={f.q}>
-                <h3 className="text-[17px] font-semibold mb-2" style={{ color: "var(--text-primary)" }}>{f.q}</h3>
-                <p className="text-[15px] leading-[1.85]">{f.a}</p>
+              <div key={f.q} className="rounded-2xl p-6" style={{ backgroundColor: "var(--bg-card)", border: "1px solid var(--border)" }}>
+                <h3 className="text-[16px] font-semibold mb-2" style={{ color: "var(--text-primary)" }}>{f.q}</h3>
+                <p className="text-[14.5px] leading-[1.8]">{f.a}</p>
               </div>
             ))}
 
             <div className="rounded-2xl p-8 mt-4" style={{ backgroundColor: "var(--bg-card)", border: "1px solid var(--gold-border)" }}>
-              <p className="text-[15px] font-semibold mb-2" style={{ color: "var(--text-primary)" }}>Interested in reviewing Aylinor&apos;s approach?</p>
-              <p className="text-[14px] mb-5" style={{ color: "var(--text-secondary)" }}>
-                Contact Daeson Technologies to request an introductory demonstration, or read{" "}
+              <p className="text-[15px] font-semibold mb-2" style={{ color: "var(--text-primary)" }}>Interested in Aylinor?</p>
+              <p className="text-[14px] mb-5">
+                Request a private walkthrough, or read{" "}
                 <Link href="/insights/islamic-banking-software-ai-governance" className="underline underline-offset-2" style={{ color: "var(--gold)" }}>
                   how AI fits into Islamic banking software
-                </Link>{" "}
-                more broadly.
+                </Link>.
               </p>
-              <Link
-                href="/contact"
-                className="inline-flex items-center gap-2 px-6 py-3 text-[14px] font-bold rounded-xl hover:opacity-90 transition-all"
-                style={{ backgroundColor: "var(--gold)", color: "#0B0E14" }}
-              >
-                Request a demonstration <ArrowRight size={14} />
+              <Link href="/contact" className="inline-flex items-center gap-2 px-6 py-3 text-[14px] font-bold rounded-xl hover:opacity-90" style={{ backgroundColor: "var(--gold)", color: "#0B0E14" }}>
+                Request a walkthrough <ArrowRight size={14} />
               </Link>
             </div>
-
           </div>
         </article>
       </main>

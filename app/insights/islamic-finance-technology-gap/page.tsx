@@ -183,7 +183,7 @@ export default function IslamicFinanceTechGapArticle() {
               <ul className="mt-4 space-y-3 list-none pl-0">
                 {[
                   "Murabaha contracts require cost-plus-profit verification that conventional loan workflow tools were never built to handle",
-                  "Scholar approval is a substantive governance function, not a rubber stamp, requiring documented review queues and structured reasoning trails",
+                  "Scholar approval is a substantive governance function, not a rubber stamp, and needs to be properly documented",
                   "Shariah governance documentation must be auditable by religious and regulatory authorities simultaneously, with different evidence standards for each",
                   "Prohibition-checking (riba, gharar, maysir) requires semantic analysis of contract terms, not keyword filtering",
                 ].map((point, i) => (
@@ -212,7 +212,7 @@ export default function IslamicFinanceTechGapArticle() {
                 In practice, scholars at most institutions spend a substantial portion of their time doing things that are not jurisprudential at all: reading through standard contract templates for obvious compliance markers, reviewing identical product structures they have already approved in prior form, and waiting for supporting documentation to be assembled by operations teams.
               </p>
               <p className="mt-4">
-                This is a systemic misallocation. Infrastructure that automates the operational layer of Shariah compliance, parsing standard contracts, flagging known structural issues, assembling governance documentation, returns scholar time to the decisions that actually require their expertise.
+                This is a systemic misallocation. Infrastructure that reduces the administrative work around Shariah compliance returns scholar time to the decisions that actually require their expertise.
               </p>
             </section>
 
@@ -231,11 +231,11 @@ export default function IslamicFinanceTechGapArticle() {
                 {[
                   {
                     title: "Murabaha-native workflow design",
-                    body: "Contract intake, cost verification, profit margin validation, and compliance documentation must be built as structured workflows, not form-fill templates that generate PDFs.",
+                    body: "Murabaha work must be supported by structured, consistent processes, not form-fill templates that generate PDFs.",
                   },
                   {
-                    title: "Structured scholar review queues",
-                    body: "Scholar review must be a first-class function in the system architecture, with defined input packages, documented reasoning trails, and clear approval states that feed directly into the compliance audit record.",
+                    title: "Scholar review at the centre",
+                    body: "Scholar review must be a first-class part of the system, with clear approvals that feed directly into the compliance record.",
                   },
                   {
                     title: "Governance-first data architecture",
@@ -243,7 +243,7 @@ export default function IslamicFinanceTechGapArticle() {
                   },
                   {
                     title: "Explainable AI, not black-box automation",
-                    body: "AI assistance in Shariah compliance must produce reasoning, not just outputs. Scholar review requires understanding why a contract was flagged, not just that it was. This means AI infrastructure with documented evidence chains.",
+                    body: "AI assistance in Shariah compliance must produce reasoning, not just outputs. Scholars need to understand why, not just what. AI assistance must be explainable and open to challenge.",
                   },
                 ].map((item) => (
                   <div key={item.title} className="pl-5" style={{ borderLeft: "2px solid rgba(185,145,47,0.35)" }}>
@@ -298,7 +298,7 @@ export default function IslamicFinanceTechGapArticle() {
                 About Aylinor
               </p>
               <p className="text-[15px] leading-relaxed" style={{ color: "var(--text-secondary)" }}>
-                Aylinor is Daeson Technologies&apos; AI-powered compliance infrastructure platform for Islamic financial institutions, currently in strategic development in collaboration with Alhamd Shariah Advisory. It addresses exactly the operational gap described in this article: automating Murabaha contract analysis, structuring scholar review workflows, and building full governance documentation trails that satisfy both Shariah board and regulatory audit requirements.
+                Aylinor is Daeson Technologies&apos; AI-powered compliance infrastructure platform for Islamic financial institutions, currently in strategic development in collaboration with Alhamd Shariah Advisory. It addresses the operational gap described in this article, helping Shariah teams work in a more organised, consistent and auditable way while scholars keep the final decision.
               </p>
               <div className="mt-6 flex flex-wrap gap-3">
                 <Link

@@ -255,9 +255,9 @@ export default function ArticlePage() {
             </h2>
             <p className="text-[15px] leading-[1.85]">
               In Islamic finance, a Shariah compliance team does not need an AI system that attempts to answer every
-              jurisprudential question. A narrower, more defensible scope is a system that helps locate relevant
-              contract clauses, flag items for scholar review, and maintain an audit trail, while leaving the actual
-              determination with qualified scholars. This is the discipline behind{" "}
+              jurisprudential question. A narrower, more defensible scope is a system that reduces the administrative
+              work around a review and keeps a clear record, while leaving the actual determination with qualified
+              scholars. This is the discipline behind{" "}
               <Link href="/amanah-ai" className="underline underline-offset-2" style={{ color: "var(--blue)" }}>
                 Aylinor
               </Link>

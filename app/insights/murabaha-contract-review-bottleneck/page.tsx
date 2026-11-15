@@ -26,7 +26,7 @@ const faqs = [
   },
   {
     q: "Does AI replace the scholar's role in Murabaha review?",
-    a: "No. AI-assisted review is decision support, not decision-making. It surfaces the clauses that need scholarly attention, flags missing documentation, and structures the audit trail, the ruling itself remains a human, qualified decision.",
+    a: "No. AI-assisted review is decision support, not decision-making. It reduces the administrative work around a review and keeps a clear record; the ruling itself remains a human, qualified decision.",
   },
 ];
 
@@ -132,16 +132,15 @@ export default function ArticlePage() {
             <h2 className="text-[24px] font-bold tracking-tight pt-4" style={{ color: "var(--text-primary)" }}>What structured review changes</h2>
             <p className="text-[15px] leading-[1.85]">
               AI-assisted contract review does not remove the scholar from the decision, it removes
-              the document mechanics from the scholar&apos;s workload. Structured parsing can flag
-              missing ownership documentation, surface clauses that deviate from the institution&apos;s
-              standard Murabaha template, and pre-organize a contract for review instead of leaving that
-              organization to happen manually, every time, from scratch.
+              the document mechanics from the scholar&apos;s workload. A more structured process means
+              less time spent gathering and organising documents by hand, every time, from scratch, and
+              more time for the questions that actually require a scholar.
             </p>
             <p className="text-[15px] leading-[1.85]">
               This is the design principle behind <Link href="/amanah-ai" style={{ color: "var(--gold)", fontWeight: 600 }}>Aylinor</Link>,
-              Daeson Technologies&apos; Shariah governance platform: Murabaha workflow intelligence as
-              the starting point, structured specifically to reduce review time without touching the
-              jurisprudential judgment itself.
+              Daeson Technologies&apos; Shariah governance platform: helping Shariah teams work in a
+              more organised, consistent and auditable way, without touching the jurisprudential judgment
+              itself.
             </p>
 
             <h2 className="text-[24px] font-bold tracking-tight pt-4" style={{ color: "var(--text-primary)" }}>Frequently Asked Questions</h2>

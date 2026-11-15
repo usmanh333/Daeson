@@ -53,7 +53,7 @@ const industries = [
       "No immutable audit trail infrastructure",
       "Fragmented multi-market regulatory reporting",
     ],
-    what: "Aylinor provides AI-assisted Shariah compliance infrastructure, contract analysis, governance workflows, audit trails, and regulatory reporting, designed for GCC, Pakistan, and UK markets.",
+    what: "Aylinor is an AI-powered Shariah compliance and governance platform that helps Shariah teams work in a more organised, consistent and auditable way, with scholars keeping the final decision.",
     href: "/amanah-ai",
     cta: "Explore Aylinor",
   },

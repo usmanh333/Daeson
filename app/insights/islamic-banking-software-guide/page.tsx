@@ -248,9 +248,7 @@ export default function ArticlePage() {
               <Link href="/amanah-ai" style={{ color: "var(--gold)", fontWeight: 600 }}>Aylinor</Link> is
               an upcoming Shariah compliance intelligence platform being developed by Daeson
               Technologies for Islamic financial institutions and related financial
-              organizations. Its intended focus includes Murabaha contract analysis, Shariah
-              governance documentation, scholar review workflows, compliance audit trails and
-              structured compliance intelligence.
+              organizations. It is designed to support Shariah compliance and governance, helping Shariah teams work in a more organised, consistent and auditable way, while scholars keep the final decision.
             </p>
             <p className="text-[15px] leading-[1.85]">
               Aylinor is being developed as a support layer for institutional teams. It is not

@@ -178,25 +178,17 @@ export default function ArticlePage() {
               that governs Islamic finance governance.
             </p>
             <p className="text-[15px] leading-[1.85]">
-              What AI can do is automate the operational layer that precedes and surrounds those decisions.
-              It can parse a Murabaha contract against a structured compliance framework, flag clauses that
-              deviate from established standards, and generate a structured review document that a scholar
-              can examine in minutes rather than hours. It can classify contracts by complexity and risk
-              level, routing straightforward cases through an automated process and escalating unusual
-              structures for detailed scholar review.
+              What AI can do is reduce the operational work that precedes and surrounds those decisions:
+              organising documents, preparing matters for review, and keeping the process consistent from one
+              contract to the next, so scholars spend their time on judgment rather than administration.
             </p>
             <p className="text-[15px] leading-[1.85]">
-              It can generate audit documentation automatically from structured compliance data, producing
-              the same report in seconds that a compliance officer previously spent hours compiling. It can
-              maintain a complete, timestamped audit trail from contract intake through scholar approval,
-              accessible to Shariah boards and regulators without manual effort.
+              It can also help keep a clear, auditable record of the process, so Shariah boards and
+              regulators can see what was reviewed and decided without someone rebuilding the history by hand.
             </p>
             <p className="text-[15px] leading-[1.85]">
-              The scholar&apos;s role in this system is not diminished, it is elevated. Instead of reviewing
-              raw contracts and compiling documentation, the scholar receives a structured briefing package:
-              the contract summary, the compliance flags, the relevant precedents, and the documentation
-              template ready for their input. The scholar&apos;s judgment is applied to what only a scholar
-              can judge.
+              The scholar&apos;s role in this system is not diminished, it is elevated. With less time spent
+              on administration, the scholar&apos;s judgment is applied to what only a scholar can judge.
             </p>
 
             <h2 className="text-[24px] font-bold tracking-tight pt-4" style={{ color: "var(--text-primary)" }}>
@@ -215,8 +207,7 @@ export default function ArticlePage() {
             <p className="text-[15px] leading-[1.85]">
               This means the AI system must be designed from the beginning with explainability, audit
               trails, and human oversight built into the architecture, not added afterwards. Every AI
-              output must have a traceable evidence chain. Every compliance flag must reference the specific
-              clause or standard that triggered it. Every scholar decision must be documented in the system.
+              output must be explainable and open to challenge. Every scholar decision must be documented.
               No AI recommendation should be implemented without a documented human review.
             </p>
             <p className="text-[15px] leading-[1.85]">
@@ -234,12 +225,11 @@ export default function ArticlePage() {
               </p>
               <ul className="space-y-3">
                 {[
-                  { title: "Full explainability", desc: "Every AI output must be traceable to specific contract clauses, compliance standards, or data inputs, not a black-box score." },
+                  { title: "Full explainability", desc: "Every AI output must be explainable and open to challenge, not a black-box score." },
                   { title: "Human authority", desc: "No compliance decision is final without human review. The AI prepares; the scholar decides." },
-                  { title: "Complete audit trails", desc: "Every action, flag, review, and approval is timestamped and recorded in a structured, retrievable format." },
+                  { title: "Complete audit trails", desc: "Reviews and approvals are recorded so the history can be retrieved and examined." },
                   { title: "Standards alignment", desc: "The compliance framework must reflect actual scholarly standards (AAOIFI, local Shariah boards), not AI-generated interpretations." },
-                  { title: "Calibrated confidence", desc: "The system distinguishes between high-confidence routine cases and uncertain cases requiring elevated review, and routes them differently." },
-                ].map((item) => (
+                                  ].map((item) => (
                   <li key={item.title} className="flex items-start gap-3 text-[13px]">
                     <span className="mt-1 w-1 h-1 rounded-full shrink-0" style={{ backgroundColor: "var(--blue)" }} />
                     <span>

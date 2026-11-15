@@ -7,7 +7,7 @@ const points = [
   {
     icon: UserCheck,
     title: "Shariah Officer + Personal Assistant",
-    body: "Ask financing and governance questions, surface the right documentation, and move faster, while the scholar keeps the final say.",
+    body: "Ask financing and governance questions and move faster, while the scholar keeps the final say.",
   },
   {
     icon: Lock,

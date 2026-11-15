@@ -41,19 +41,17 @@ const cases = [
     statusColor: "text-[#C9A84C]",
     title: "Aylinor: Shariah Compliance Infrastructure",
     summary:
-      "An Islamic financial institution needed Shariah compliance infrastructure that scaled beyond spreadsheets and manual scholar coordination. Aylinor provides AI-assisted contract analysis, governance workflows, and immutable audit trails.",
+      "An Islamic financial institution needed Shariah compliance infrastructure that scaled beyond spreadsheets and manual scholar coordination. Aylinor helps Shariah teams work in a more organised, consistent and auditable way.",
     problem:
       "Scholars were reviewing contracts manually as PDFs, compliance teams maintained spreadsheet audit trails, and there was no standardized process for governance documentation. Regulatory reporting across multiple markets required manual aggregation.",
     approach:
-      "Aylinor was designed with Shariah advisory collaboration, following AAOIFI and IFSB standards awareness. The platform provides AI-assisted contract parsing and risk scoring as decision support for scholars, not as a replacement for Islamic jurisprudence.",
+      "Aylinor was designed with Shariah advisory collaboration, following AAOIFI and IFSB standards awareness. The platform is decision support for scholars, not a replacement for Islamic jurisprudence.",
     outcomes: [
-      "AI-assisted contract analysis reduces initial review time",
-      "Structured scholar governance workflow with clear decision states",
-      "Immutable audit trail generation for every compliance decision",
-      "Multi-market regulatory report generation",
-      "Consistent documentation standards across all contract types",
+      "Less administrative work around each review",
+      "A clear, auditable record of Shariah decisions",
+      "More consistent documentation across the institution",
     ],
-    modules: ["AI Contract Analysis", "Scholar Workflow", "Audit Trail", "Compliance Reporting", "Multi-Market"],
+    modules: ["Shariah Compliance", "Governance", "Audit-Ready Records"],
     disclaimer: "In strategic development with Shariah advisory collaboration. Advisory note: Aylinor is decision-support infrastructure, it does not issue Shariah rulings.",
     href: "/amanah-ai",
   },

@@ -236,7 +236,7 @@ const organizationSchema = {
         "@type": "Offer",
         name: "Aylinor: Islamic Finance Intelligence",
         description:
-          "AI-powered Shariah compliance infrastructure for Islamic financial institutions: Murabaha contract analysis, governance documentation, scholar review queues, and regulatory reporting. In strategic development.",
+          "AI-powered Shariah compliance and governance platform for Islamic financial institutions, with scholars keeping the final decision. Access on request.",
         url: "https://daesontechnologies.online/amanah-ai",
       },
       {

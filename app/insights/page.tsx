@@ -304,6 +304,50 @@ const breadcrumbSchema = {
 
 const articles = [
   {
+    category: "Islamic Finance",
+    color: "var(--gold)",
+    rawColor: "#B9912F",
+    title: "What Is the Difference Between a Bank's Shariah Department and a Shariah Advisory Firm?",
+    excerpt:
+      "An internal Shariah department runs daily compliance; an external advisory firm provides independent review and assurance. A side-by-side comparison, and why strong governance uses both.",
+    readTime: "6 min read",
+    topics: ["Shariah Governance", "Shariah Advisory", "Islamic Banking"],
+    href: "/insights/shariah-department-vs-shariah-advisory-firm",
+  },
+  {
+    category: "Islamic Finance",
+    color: "var(--gold)",
+    rawColor: "#B9912F",
+    title: "Is Islamic Finance a Different Finance Market From Conventional Finance?",
+    excerpt:
+      "Yes. No interest, asset-backed contracts like Murabahah and Ijarah, and Shariah governance. A clear comparison with a simple car-financing example.",
+    readTime: "7 min read",
+    topics: ["Islamic Finance", "Murabahah", "Conventional Banking"],
+    href: "/insights/islamic-finance-vs-conventional-finance",
+  },
+  {
+    category: "Banking",
+    color: "var(--blue)",
+    rawColor: "#888888",
+    title: "Why Are People Fed Up With Conventional Banking?",
+    excerpt:
+      "Customers aren't rejecting banking. They're frustrated by slow processes, unclear fees, failing apps and weak support. What drives it, and how banks can rebuild trust.",
+    readTime: "5 min read",
+    topics: ["Customer Experience", "Digital Banking", "Trust"],
+    href: "/insights/why-customers-frustrated-conventional-banking",
+  },
+  {
+    category: "Banking",
+    color: "var(--blue)",
+    rawColor: "#888888",
+    title: "Why Pakistani Banking Apps Often Receive Negative Feedback",
+    excerpt:
+      "Slow performance, failed transactions and weak support. Why building a banking app needs product strategy, not just developers, and what good digital banking looks like.",
+    readTime: "7 min read",
+    topics: ["Mobile Banking", "Pakistan", "Product Strategy"],
+    href: "/insights/pakistani-banking-apps-negative-feedback",
+  },
+  {
     category: "Enterprise Software",
     color: "var(--blue)",
     rawColor: "#888888",
@@ -353,7 +397,7 @@ const articles = [
     rawColor: "#B9912F",
     title: "Islamic Banking Software: How AI Is Transforming Shariah Compliance and Governance",
     excerpt:
-      "Where AI fits in Shariah compliance workflows: document review, SSB workflow, audit trails, and core banking integration, with Shariah determination remaining with scholars.",
+      "Where AI fits in Shariah compliance: governance, audit-ready records, Shariah board processes and core banking integration, with Shariah determination remaining with scholars.",
     readTime: "10 min read",
     topics: ["Islamic Banking Software", "Shariah Compliance", "Aylinor"],
     href: "/insights/islamic-banking-software-ai-governance",
@@ -362,11 +406,11 @@ const articles = [
     category: "Islamic Finance",
     color: "var(--gold)",
     rawColor: "#B9912F",
-    title: "Murabahah Contract Review: How AI Supports Shariah Compliance in English and Arabic",
+    title: "Murabahah Contract Review: How Technology Supports Shariah Compliance Without Replacing Scholars",
     excerpt:
-      "How bilingual AI-assisted review supports Murabahah documentation: issue flags, supporting references, reviewer workflow, and audit trails, with human oversight throughout.",
-    readTime: "9 min read",
-    topics: ["Murabahah", "Bilingual Review", "Aylinor"],
+      "What Murabahah review involves, why documentation in two languages adds risk, and how technology can help while scholars keep the decision.",
+    readTime: "6 min read",
+    topics: ["Murabahah", "Shariah Governance", "Aylinor"],
     href: "/insights/murabahah-contract-review-software-bilingual",
   },
   {
@@ -386,7 +430,7 @@ const articles = [
     rawColor: "#B9912F",
     title: "Shariah Compliance in the AI Era: Supporting Experts, Not Replacing Them",
     excerpt:
-      "Aylinor's approach to Arabic-English Shariah-compliance documentation: a useful output is one a qualified reviewer can examine, challenge, and correct, not a confident answer that replaces their judgment.",
+      "Aylinor's approach to Shariah compliance: technology should support qualified reviewers, who can examine, challenge and correct it, never replace their judgment.",
     readTime: "5 min read",
     topics: ["Aylinor", "Shariah Compliance", "Expert Review"],
     href: "/insights/shariah-compliance-ai-expert-review",
