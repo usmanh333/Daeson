@@ -11,20 +11,20 @@ const footerLinks = [
 
 export default function Footer() {
   return (
-    <footer className="bg-white border-t border-gray-200">
+    <footer className="bg-[#F6F0E4] border-t border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
           {/* Brand */}
           <div className="space-y-3">
             <div className="flex items-center gap-2.5">
-              <div className="w-8 h-8 rounded-lg bg-[#0F3D2E] flex items-center justify-center">
+              <div className="w-8 h-8 rounded-lg bg-[#1F3D2B] flex items-center justify-center">
                 <Shield className="w-4 h-4 text-white" />
               </div>
               <div>
-                <span className="font-bold text-lg text-[#0F3D2E] block leading-none">
+                <span className="font-bold text-lg text-[#1F3D2B] block leading-none">
                   Aylinor
                 </span>
-                <span className="text-xs text-gray-400">
+                <span className="text-xs text-[#1F3D2B]/60">
                   by Daeson Technologies
                 </span>
               </div>
@@ -37,7 +37,7 @@ export default function Footer() {
               <Mail className="w-3 h-3" />
               <a
                 href="mailto:contact@daesontechagency.online"
-                className="hover:text-[#0F3D2E] transition-colors"
+                className="hover:text-[#1F3D2B] transition-colors"
               >
                 contact@daesontechnologies.online
               </a>
@@ -50,7 +50,7 @@ export default function Footer() {
               <a
                 key={link.label}
                 href={link.href}
-                className="text-sm text-gray-500 hover:text-[#0F3D2E] transition-colors"
+                className="text-sm text-gray-500 hover:text-[#1F3D2B] transition-colors"
               >
                 {link.label}
               </a>
@@ -60,10 +60,10 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="mt-10 pt-6 border-t border-gray-100 flex flex-col sm:flex-row items-center justify-between gap-3">
-          <p className="text-xs text-gray-400">
+          <p className="text-xs text-[#1F3D2B]/60">
             &copy; {new Date().getFullYear()} Daeson Technologies. All rights reserved.
           </p>
-          <div className="flex items-center gap-1.5 text-xs text-gray-400">
+          <div className="flex items-center gap-1.5 text-xs text-[#1F3D2B]/60">
             <Lock className="w-3 h-3" />
             <span>Confidential: For institutional preview only</span>
           </div>

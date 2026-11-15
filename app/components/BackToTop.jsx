@@ -19,11 +19,11 @@ export default function BackToTop() {
     fixed bottom-6 right-6 z-50
     w-14 h-14
     rounded-full
-    bg-black text-white
-    border border-white
+    bg-[#7C3AED] text-white
+    border border-[#E8DCC4]/40
     flex items-center justify-center
     transition-all
-    hover:bg-yellow-400 hover:text-black
+    hover:bg-[#6D28D9] hover:text-white
     ${visible ? "opacity-100" : "opacity-0 pointer-events-none"}
   `}
   aria-label="Back to top"

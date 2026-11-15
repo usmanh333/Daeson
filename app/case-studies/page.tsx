@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 const cases = [
   {
     tag: "Real Estate Operations",
-    color: "#FFFFFF",
+    color: "#F3ECDD",
     status: "In Production",
     statusColor: "text-[var(--blue)]",
     title: "Real Estate Operations Platform",
@@ -36,7 +36,7 @@ const cases = [
   },
   {
     tag: "Islamic Finance",
-    color: "#C9A84C",
+    color: "var(--gold)",
     status: "Strategic Development",
     statusColor: "text-[#C9A84C]",
     title: "Aylinor: Shariah Compliance Infrastructure",
@@ -57,7 +57,7 @@ const cases = [
   },
   {
     tag: "Law Enforcement Systems",
-    color: "#FFFFFF",
+    color: "#F3ECDD",
     status: "Delivered",
     statusColor: "text-[var(--blue)]",
     title: "Sheriff Police Department: Desktop Operations System",
@@ -83,19 +83,19 @@ export default function CaseStudiesPage() {
   return (
     <>
       <Navbar />
-      <main className="bg-[#070B12] min-h-screen pt-24">
+      <main className="bg-[#172F21] min-h-screen pt-24">
         <div className="absolute inset-0 grid-bg opacity-20 pointer-events-none" />
 
         {/* Header */}
         <section className="relative max-w-7xl mx-auto px-6 pt-16 pb-16">
-          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-white/8 bg-white/3 text-[#94A3B8] text-[11px] font-semibold tracking-widest uppercase mb-8">
+          <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-white/8 bg-white/3 text-[#CFC4AE] text-[11px] font-semibold tracking-widest uppercase mb-8">
             Case Studies
           </div>
           <h1 className="text-[42px] md:text-[56px] font-extrabold text-white tracking-tight leading-[1.06] mb-6 max-w-3xl">
             Systems We&apos;ve{" "}
             <span
               style={{
-                background: "linear-gradient(135deg, #FFFFFF 0%, #A0A0A0 100%)",
+                background: "linear-gradient(135deg, #F3ECDD 0%, #C4B5FD 100%)",
                 WebkitBackgroundClip: "text",
                 WebkitTextFillColor: "transparent",
                 backgroundClip: "text",
@@ -104,7 +104,7 @@ export default function CaseStudiesPage() {
               Designed & Built.
             </span>
           </h1>
-          <p className="text-[17px] text-[#94A3B8] max-w-2xl leading-relaxed">
+          <p className="text-[17px] text-[#CFC4AE] max-w-2xl leading-relaxed">
             Problem framing, operational architecture, and system design for businesses that needed
             more than off-the-shelf software could provide.
           </p>
@@ -115,7 +115,7 @@ export default function CaseStudiesPage() {
           {cases.map((cs) => (
             <div
               key={cs.title}
-              className="bg-[#0D1521] border border-white/8 rounded-2xl p-8 md:p-10 hover:border-white/12 transition-all duration-300"
+              className="bg-[#244632] border border-white/8 rounded-2xl p-8 md:p-10 hover:border-white/12 transition-all duration-300"
             >
               <div className="flex items-start justify-between gap-4 mb-6">
                 <div
@@ -128,22 +128,22 @@ export default function CaseStudiesPage() {
               </div>
 
               <h2 className="text-[26px] font-bold text-white mb-3 tracking-tight">{cs.title}</h2>
-              <p className="text-[14px] text-[#94A3B8] leading-relaxed mb-8 max-w-3xl">{cs.summary}</p>
+              <p className="text-[14px] text-[#CFC4AE] leading-relaxed mb-8 max-w-3xl">{cs.summary}</p>
 
               <div className="grid md:grid-cols-3 gap-8 mb-8">
                 <div>
-                  <p className="text-[10px] font-semibold text-[#4B5568] uppercase tracking-widest mb-3">The Problem</p>
-                  <p className="text-[13px] text-[#94A3B8] leading-relaxed">{cs.problem}</p>
+                  <p className="text-[10px] font-semibold text-[#A9B5A6] uppercase tracking-widest mb-3">The Problem</p>
+                  <p className="text-[13px] text-[#CFC4AE] leading-relaxed">{cs.problem}</p>
                 </div>
                 <div>
-                  <p className="text-[10px] font-semibold text-[#4B5568] uppercase tracking-widest mb-3">Our Approach</p>
-                  <p className="text-[13px] text-[#94A3B8] leading-relaxed">{cs.approach}</p>
+                  <p className="text-[10px] font-semibold text-[#A9B5A6] uppercase tracking-widest mb-3">Our Approach</p>
+                  <p className="text-[13px] text-[#CFC4AE] leading-relaxed">{cs.approach}</p>
                 </div>
                 <div>
-                  <p className="text-[10px] font-semibold text-[#4B5568] uppercase tracking-widest mb-3">Outcomes</p>
+                  <p className="text-[10px] font-semibold text-[#A9B5A6] uppercase tracking-widest mb-3">Outcomes</p>
                   <ul className="space-y-2">
                     {cs.outcomes.map((o) => (
-                      <li key={o} className="flex items-start gap-2 text-[13px] text-[#94A3B8]">
+                      <li key={o} className="flex items-start gap-2 text-[13px] text-[#CFC4AE]">
                         <span className="mt-1.5 w-1 h-1 rounded-full shrink-0" style={{ backgroundColor: cs.color }} />
                         {o}
                       </li>
@@ -156,7 +156,7 @@ export default function CaseStudiesPage() {
                 {cs.modules.map((m) => (
                   <span
                     key={m}
-                    className="px-2.5 py-1 rounded-lg bg-white/4 border border-white/6 text-[11px] font-medium text-[#94A3B8]"
+                    className="px-2.5 py-1 rounded-lg bg-white/4 border border-white/6 text-[11px] font-medium text-[#CFC4AE]"
                   >
                     {m}
                   </span>
@@ -164,7 +164,7 @@ export default function CaseStudiesPage() {
               </div>
 
               {cs.disclaimer && (
-                <p className="text-[11px] text-[#4B5568] italic mb-5">{cs.disclaimer}</p>
+                <p className="text-[11px] text-[#A9B5A6] italic mb-5">{cs.disclaimer}</p>
               )}
 
               <Link
@@ -180,16 +180,16 @@ export default function CaseStudiesPage() {
 
         {/* CTA */}
         <section className="relative max-w-3xl mx-auto px-6 pb-24 text-center">
-          <div className="bg-[#0D1521] border border-white/8 rounded-2xl p-10">
+          <div className="bg-[#244632] border border-white/8 rounded-2xl p-10">
             <h2 className="text-[28px] font-bold text-white mb-4 tracking-tight">
               Ready to build your infrastructure?
             </h2>
-            <p className="text-[15px] text-[#94A3B8] leading-relaxed mb-8">
+            <p className="text-[15px] text-[#CFC4AE] leading-relaxed mb-8">
               Schedule an executive consultation. We&apos;ll map your operations and present an architectural approach at no cost.
             </p>
             <Link
               href="/contact"
-              className="inline-flex items-center gap-2 px-6 py-3.5 bg-white hover:bg-neutral-300 text-black text-[14px] font-semibold rounded-xl transition-colors"
+              className="inline-flex items-center gap-2 px-6 py-3.5 bg-[#F6F0E4] hover:bg-[#DCCBAA] text-[#1F3D2B] text-[14px] font-semibold rounded-xl transition-colors"
             >
               Schedule Consultation <ArrowRight size={14} />
             </Link>

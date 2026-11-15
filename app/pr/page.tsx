@@ -489,7 +489,7 @@ export default function PRPage() {
           <div
             className="absolute inset-0 pointer-events-none"
             style={{
-              background: "radial-gradient(ellipse 80% 50% at 50% -20%, rgba(255,255,255,0.06) 0%, transparent 70%)",
+              background: "radial-gradient(ellipse 80% 50% at 50% -20%, rgba(243,236,221,0.06) 0%, transparent 70%)",
             }}
           />
           <div className="absolute inset-0 grid-bg opacity-30 pointer-events-none" />
@@ -745,7 +745,7 @@ export default function PRPage() {
               <a
                 href="mailto:contact@daesontechnologies.online"
                 className="px-8 py-3.5 text-[14px] font-bold rounded-xl transition-all hover:opacity-90"
-                style={{ backgroundColor: "var(--blue)", color: "var(--on-blue)" }}
+                style={{ backgroundColor: "var(--purple-fill)", color: "#FFFFFF" }}
               >
                 Media Enquiry
               </a>

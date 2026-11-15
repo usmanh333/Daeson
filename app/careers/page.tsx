@@ -234,9 +234,9 @@ export default function CareersPage() {
             <div className="flex items-center gap-3 mb-8">
               <span
                 className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-[11px] font-bold tracking-widest uppercase"
-                style={{ backgroundColor: "#FEF3C7", color: "#92400E", border: "1px solid #FDE68A" }}
+                style={{ backgroundColor: "rgba(139,92,246,0.16)", color: "var(--blue)", border: "1px solid var(--blue-border)" }}
               >
-                <span className="w-1.5 h-1.5 rounded-full bg-amber-500 animate-pulse" />
+                <span className="w-1.5 h-1.5 rounded-full bg-[#8B5CF6] animate-pulse" />
                 {featuredInternship.badge}
               </span>
               <p className="text-[10px] font-bold uppercase tracking-widest" style={{ color: "var(--text-faint)" }}>
@@ -260,7 +260,7 @@ export default function CareersPage() {
                   <div className="flex flex-wrap items-center gap-3">
                     <span
                       className="text-[10px] font-bold px-2.5 py-0.5 rounded-full uppercase tracking-widest"
-                      style={{ backgroundColor: "var(--green)", color: "#fff" }}
+                      style={{ backgroundColor: "var(--purple-fill)", color: "#FFFFFF" }}
                     >
                       {featuredInternship.type}
                     </span>
@@ -330,8 +330,8 @@ export default function CareersPage() {
                   </div>
                   <Link
                     href="/contact?role=bd-intern"
-                    className="inline-flex items-center gap-2 px-5 py-3 text-white text-[13px] font-semibold rounded-xl transition-all duration-200"
-                    style={{ backgroundColor: "var(--green)", boxShadow: "0 4px 16px rgba(4,120,87,0.25)" }}
+                    className="inline-flex items-center gap-2 px-5 py-3 text-[13px] font-semibold rounded-xl transition-all duration-200"
+                    style={{ backgroundColor: "var(--purple-fill)", color: "#FFFFFF", boxShadow: "0 4px 16px rgba(139,92,246,0.25)" }}
                   >
                     Apply for BD Internship <ArrowRight size={13} />
                   </Link>
@@ -417,8 +417,8 @@ export default function CareersPage() {
                   </div>
                   <Link
                     href={role.href}
-                    className="inline-flex items-center gap-2 px-4 py-2.5 text-white text-[12px] font-semibold rounded-lg"
-                    style={{ backgroundColor: "var(--green)" }}
+                    className="inline-flex items-center gap-2 px-4 py-2.5 text-[12px] font-semibold rounded-lg"
+                    style={{ backgroundColor: "var(--purple-fill)", color: "#FFFFFF" }}
                   >
                     Apply for This Role <ArrowRight size={12} />
                   </Link>
@@ -527,8 +527,8 @@ export default function CareersPage() {
           </p>
           <a
             href="mailto:careers@daesontechnologies.online"
-            className="inline-flex items-center gap-2 px-6 py-3.5 text-white text-[14px] font-semibold rounded-xl"
-            style={{ backgroundColor: "var(--green)", boxShadow: "0 4px 16px rgba(4,120,87,0.25)" }}
+            className="inline-flex items-center gap-2 px-6 py-3.5 text-[14px] font-semibold rounded-xl"
+            style={{ backgroundColor: "var(--purple-fill)", color: "#FFFFFF", boxShadow: "0 4px 16px rgba(139,92,246,0.25)" }}
           >
             Send a Direct Introduction <ArrowRight size={14} />
           </a>

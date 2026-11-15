@@ -125,7 +125,7 @@ export default function IslamicFinancePage() {
             </p>
           </div>
           <div className="flex flex-wrap gap-3">
-            <Link href="/amanah-ai" className="inline-flex items-center gap-2 px-6 py-3.5 text-[14px] font-semibold rounded-xl" style={{ backgroundColor: "var(--green)", color: "var(--on-blue)" }}>
+            <Link href="/amanah-ai" className="inline-flex items-center gap-2 px-6 py-3.5 text-[14px] font-semibold rounded-xl" style={{ backgroundColor: "var(--purple-fill)", color: "#FFFFFF" }}>
               Explore Aylinor <ArrowRight size={14} />
             </Link>
             <Link href="/contact" className="inline-flex items-center gap-2 px-6 py-3.5 text-[14px] font-semibold rounded-xl" style={{ border: "1px solid var(--border)", color: "var(--text-primary)" }}>
@@ -195,7 +195,7 @@ export default function IslamicFinancePage() {
               ))}
             </div>
             <div className="flex gap-3">
-              <Link href="/amanah-ai" className="inline-flex items-center gap-2 px-5 py-3 text-[13px] font-semibold rounded-lg" style={{ backgroundColor: "var(--green)", color: "var(--on-blue)" }}>
+              <Link href="/amanah-ai" className="inline-flex items-center gap-2 px-5 py-3 text-[13px] font-semibold rounded-lg" style={{ backgroundColor: "var(--purple-fill)", color: "#FFFFFF" }}>
                 Explore Aylinor <ArrowRight size={13} />
               </Link>
               <Link href="/research" className="inline-flex items-center gap-2 px-5 py-3 text-[13px] font-semibold rounded-lg" style={{ border: "1px solid var(--border)", color: "var(--text-primary)" }}>

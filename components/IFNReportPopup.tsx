@@ -10,11 +10,11 @@ const SUMMARY_URL = "/insights/ifn-shariah-compliance-meets-ai";
 const STORAGE_KEY = "ifn-report-popup-dismissed";
 const OPEN_DELAY_MS = 900;
 
-// Fixed colors so the popup looks the same over the white homepage and the navy inner pages.
-const GOLD = "#D4AF37";
-const GOLD_LIGHT = "#F0D060";
-const EMERALD = "#10B981";
-const SURFACE = "#0A1628";
+// Fixed colours so the popup looks the same over the sand homepage and the forest inner pages.
+const GOLD = "#8B5CF6";
+const GOLD_LIGHT = "#C4B5FD";
+const EMERALD = "#E8DCC4";
+const SURFACE = "#1F3D2B";
 
 export default function IFNReportPopup() {
   const [open, setOpen] = useState(false);
@@ -85,7 +85,7 @@ export default function IFNReportPopup() {
             aria-labelledby="ifn-popup-title"
             aria-describedby="ifn-popup-desc"
             className="relative w-full max-w-[560px] rounded-[28px] p-[1.5px] overflow-hidden"
-            style={{ boxShadow: "0 30px 80px -20px rgba(0,0,0,0.6), 0 0 60px -10px rgba(212,175,55,0.25)" }}
+            style={{ boxShadow: "0 30px 80px -20px rgba(31,61,43,0.6), 0 0 60px -10px rgba(139,92,246,0.25)" }}
             initial={{ opacity: 0, y: reduceMotion ? 0 : 40, scale: reduceMotion ? 1 : 0.92 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: reduceMotion ? 0 : 24, scale: reduceMotion ? 1 : 0.96 }}
@@ -108,7 +108,7 @@ export default function IFNReportPopup() {
                 className="absolute inset-0 pointer-events-none"
                 style={{
                   background:
-                    "radial-gradient(ellipse 60% 50% at 85% 0%, rgba(212,175,55,0.18) 0%, transparent 70%), radial-gradient(ellipse 50% 45% at 0% 100%, rgba(16,185,129,0.14) 0%, transparent 70%)",
+                    "radial-gradient(ellipse 60% 50% at 85% 0%, rgba(139,92,246,0.18) 0%, transparent 70%), radial-gradient(ellipse 50% 45% at 0% 100%, rgba(232,220,196,0.14) 0%, transparent 70%)",
                 }}
               />
 
@@ -118,7 +118,7 @@ export default function IFNReportPopup() {
                 onClick={close}
                 aria-label="Close"
                 className="absolute top-4 right-4 z-20 w-9 h-9 rounded-full flex items-center justify-center transition-colors hover:bg-white/10"
-                style={{ color: "rgba(255,255,255,0.7)" }}
+                style={{ color: "rgba(243,236,221,0.7)" }}
               >
                 <X size={18} />
               </button>
@@ -138,19 +138,19 @@ export default function IFNReportPopup() {
                   >
                     <div
                       className="absolute inset-0 rounded-lg"
-                      style={{ backgroundColor: "rgba(255,255,255,0.08)", border: "1px solid rgba(255,255,255,0.12)", transform: "rotate(8deg) translate(10px, 4px)" }}
+                      style={{ backgroundColor: "rgba(243,236,221,0.08)", border: "1px solid rgba(243,236,221,0.12)", transform: "rotate(8deg) translate(10px, 4px)" }}
                     />
                     <div
                       className="absolute inset-0 rounded-lg p-3 flex flex-col gap-1.5"
-                      style={{ background: "linear-gradient(160deg, #FFFFFF 0%, #EEF2F7 100%)", transform: "rotate(-4deg)", boxShadow: "0 14px 30px -8px rgba(0,0,0,0.5)" }}
+                      style={{ background: "linear-gradient(160deg, #FFFFFF 0%, #EEF2F7 100%)", transform: "rotate(-4deg)", boxShadow: "0 14px 30px -8px rgba(31,61,43,0.5)" }}
                     >
                       <div className="flex items-center justify-between mb-1">
-                        <span className="text-[13px] font-black tracking-tight" style={{ color: "#0A1628" }}>IFN</span>
+                        <span className="text-[13px] font-black tracking-tight" style={{ color: "#1F3D2B" }}>IFN</span>
                         <span className="text-[6px] font-bold" style={{ color: "#64748B" }}>V23 · I40</span>
                       </div>
                       <div className="h-[3px] rounded-full w-full" style={{ backgroundColor: GOLD }} />
-                      <div className="h-[5px] rounded-sm w-[85%] mt-1" style={{ backgroundColor: "#0A1628" }} />
-                      <div className="h-[5px] rounded-sm w-[60%]" style={{ backgroundColor: "#0A1628" }} />
+                      <div className="h-[5px] rounded-sm w-[85%] mt-1" style={{ backgroundColor: "#1F3D2B" }} />
+                      <div className="h-[5px] rounded-sm w-[60%]" style={{ backgroundColor: "#1F3D2B" }} />
                       {[100, 92, 96, 80, 94, 70].map((w, i) => (
                         <div key={i} className="h-[3px] rounded-full" style={{ width: `${w}%`, backgroundColor: "#CBD5E1" }} />
                       ))}
@@ -162,7 +162,7 @@ export default function IFNReportPopup() {
                   <motion.div
                     variants={item}
                     className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-[10px] font-bold tracking-widest uppercase mb-4"
-                    style={{ border: "1px solid rgba(212,175,55,0.35)", backgroundColor: "rgba(212,175,55,0.10)", color: GOLD_LIGHT }}
+                    style={{ border: "1px solid rgba(139,92,246,0.35)", backgroundColor: "rgba(139,92,246,0.10)", color: GOLD_LIGHT }}
                   >
                     <span className="relative flex w-1.5 h-1.5">
                       {!reduceMotion && (
@@ -177,12 +177,12 @@ export default function IFNReportPopup() {
                     id="ifn-popup-title"
                     variants={item}
                     className="text-[22px] sm:text-[25px] font-extrabold leading-[1.2] tracking-tight mb-3"
-                    style={{ color: "#FFFFFF" }}
+                    style={{ color: "#F3ECDD" }}
                   >
                     When Shariah compliance meets AI:{" "}
                     <span
                       style={{
-                        background: `linear-gradient(90deg, ${GOLD_LIGHT}, ${GOLD})`,
+                        background: `linear-gradient(90deg, #E8DCC4, ${GOLD_LIGHT})`,
                         WebkitBackgroundClip: "text",
                         backgroundClip: "text",
                         color: "transparent",
@@ -196,7 +196,7 @@ export default function IFNReportPopup() {
                     id="ifn-popup-desc"
                     variants={item}
                     className="text-[13.5px] leading-relaxed mb-6"
-                    style={{ color: "rgba(255,255,255,0.65)" }}
+                    style={{ color: "rgba(243,236,221,0.65)" }}
                   >
                     First published in IFN Volume 23, Issue 40, dated{" "}
                     <time dateTime="2026-10-07">7 October 2026</time>.
@@ -209,8 +209,8 @@ export default function IFNReportPopup() {
                       target="_blank"
                       rel="noopener noreferrer"
                       onClick={close}
-                      className="relative overflow-hidden inline-flex items-center justify-center gap-2 w-full sm:w-auto px-6 py-3.5 text-[13px] font-bold rounded-xl"
-                      style={{ background: `linear-gradient(135deg, ${GOLD_LIGHT}, ${GOLD})`, color: "#0B0E14" }}
+                      className="relative overflow-hidden inline-flex items-center justify-center gap-2 w-full sm:w-auto whitespace-nowrap shrink-0 px-6 py-3.5 text-[13px] font-bold rounded-xl"
+                      style={{ background: `linear-gradient(135deg, #7C3AED, #6D28D9)`, color: "#FFFFFF" }}
                       whileHover={reduceMotion ? undefined : { scale: 1.03 }}
                       whileTap={reduceMotion ? undefined : { scale: 0.98 }}
                     >
@@ -218,7 +218,7 @@ export default function IFNReportPopup() {
                         <motion.span
                           aria-hidden
                           className="absolute inset-y-0 w-1/3 pointer-events-none"
-                          style={{ background: "linear-gradient(100deg, transparent, rgba(255,255,255,0.6), transparent)" }}
+                          style={{ background: "linear-gradient(100deg, transparent, rgba(243,236,221,0.6), transparent)" }}
                           initial={{ x: "-150%" }}
                           animate={{ x: "350%" }}
                           transition={{ duration: 1.2, repeat: Infinity, repeatDelay: 2.2, ease: "easeInOut", delay: 0.8 }}
@@ -231,7 +231,7 @@ export default function IFNReportPopup() {
                       href={SUMMARY_URL}
                       onClick={close}
                       className="inline-flex items-center gap-1 text-[12.5px] font-medium px-3 py-2 rounded-lg transition-colors hover:bg-white/5"
-                      style={{ color: "rgba(255,255,255,0.7)" }}
+                      style={{ color: "rgba(243,236,221,0.7)" }}
                     >
                       Read the summary <ArrowRight size={12} />
                     </Link>

@@ -105,8 +105,8 @@ export default function LuxePropertyPage() {
             </div>
             <div className="grid md:grid-cols-3 gap-5">
               {roles.map(({ icon: Icon, title, body }) => (
-                <div key={title} className="lift-card rounded-2xl p-8" style={{ backgroundColor: "#FFF", border: "1px solid var(--border)" }}>
-                  <div className="w-11 h-11 rounded-xl flex items-center justify-center mb-6" style={{ backgroundColor: "#000" }}>
+                <div key={title} className="lift-card rounded-2xl p-8" style={{ backgroundColor: "#F6F0E4", border: "1px solid var(--border)" }}>
+                  <div className="w-11 h-11 rounded-xl flex items-center justify-center mb-6" style={{ backgroundColor: "#1F3D2B" }}>
                     <Icon size={19} color="#FFF" />
                   </div>
                   <h3 className="text-[19px] font-extrabold mb-2" style={{ color: "var(--text-primary)" }}>{title}</h3>
@@ -130,7 +130,7 @@ export default function LuxePropertyPage() {
                 marketplace.&rdquo;
               </p>
               <div className="flex items-center gap-3.5">
-                <div className="w-12 h-12 rounded-full flex items-center justify-center overflow-hidden" style={{ backgroundColor: "#FFF" }}>
+                <div className="w-12 h-12 rounded-full flex items-center justify-center overflow-hidden" style={{ backgroundColor: "#F6F0E4" }}>
                   <Image src="/floense.png" alt="Floense" width={48} height={48} className="object-contain" />
                 </div>
                 <div>

@@ -189,8 +189,8 @@ export default function DemoPage() {
 
                   <Link
                     href={demo.href}
-                    className="inline-flex items-center gap-2 px-4 py-2.5 text-white text-[12px] font-semibold rounded-lg transition-all"
-                    style={{ backgroundColor: "var(--green)" }}
+                    className="inline-flex items-center gap-2 px-4 py-2.5 text-[12px] font-semibold rounded-lg transition-all"
+                    style={{ backgroundColor: "var(--purple-fill)", color: "#FFFFFF" }}
                   >
                     Request This Demo <ArrowRight size={12} />
                   </Link>
@@ -238,8 +238,8 @@ export default function DemoPage() {
             </p>
             <Link
               href="/contact"
-              className="inline-flex items-center gap-2 px-7 py-4 text-white text-[14px] font-semibold rounded-xl"
-              style={{ backgroundColor: "var(--green)", boxShadow: "0 4px 20px rgba(5,150,105,0.25)" }}
+              className="inline-flex items-center gap-2 px-7 py-4 text-[14px] font-semibold rounded-xl"
+              style={{ backgroundColor: "var(--purple-fill)", color: "#FFFFFF", boxShadow: "0 4px 20px rgba(139,92,246,0.25)" }}
             >
               Request a Demonstration <ArrowRight size={14} />
             </Link>

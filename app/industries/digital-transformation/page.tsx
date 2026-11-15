@@ -65,7 +65,7 @@ export default function DigitalTransformationPage() {
             delivering measurable outcomes at every phase, not promises at the end of a multi-year program.
           </p>
           <div className="flex flex-wrap gap-3">
-            <Link href="/contact" className="inline-flex items-center gap-2 px-6 py-3.5 text-[14px] font-semibold rounded-xl" style={{ backgroundColor: "var(--green)", color: "var(--on-blue)" }}>
+            <Link href="/contact" className="inline-flex items-center gap-2 px-6 py-3.5 text-[14px] font-semibold rounded-xl" style={{ backgroundColor: "var(--purple-fill)", color: "#FFFFFF" }}>
               Request Consultation <ArrowRight size={14} />
             </Link>
             <Link href="/research" className="inline-flex items-center gap-2 px-6 py-3.5 text-[14px] font-semibold rounded-xl" style={{ border: "1px solid var(--border)", color: "var(--text-primary)" }}>
@@ -121,7 +121,7 @@ export default function DigitalTransformationPage() {
             ))}
           </div>
           <div className="flex gap-3">
-            <Link href="/contact" className="inline-flex items-center gap-2 px-5 py-3 text-[13px] font-semibold rounded-lg" style={{ backgroundColor: "var(--green)", color: "var(--on-blue)" }}>
+            <Link href="/contact" className="inline-flex items-center gap-2 px-5 py-3 text-[13px] font-semibold rounded-lg" style={{ backgroundColor: "var(--purple-fill)", color: "#FFFFFF" }}>
               Begin Discovery <ArrowRight size={13} />
             </Link>
             <Link href="/expertise" className="inline-flex items-center gap-2 px-5 py-3 text-[13px] font-semibold rounded-lg" style={{ border: "1px solid var(--border)", color: "var(--text-primary)" }}>

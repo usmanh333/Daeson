@@ -286,7 +286,7 @@ export default function ArticlePage() {
                 LuxeProperty AI helps UAE developers organize project, payment and investor information into one transparent system.
               </p>
               <div className="flex flex-wrap gap-4 justify-center">
-                <Link href="/contact" className="inline-flex items-center gap-2 px-7 py-3.5 text-[14px] font-bold rounded-xl hover:opacity-90 transition-all" style={{ backgroundColor: "var(--blue)", color: "var(--on-blue)" }}>
+                <Link href="/contact" className="inline-flex items-center gap-2 px-7 py-3.5 text-[14px] font-bold rounded-xl hover:opacity-90 transition-all" style={{ backgroundColor: "var(--purple-fill)", color: "#FFFFFF" }}>
                   Talk to Us <ArrowRight size={14} />
                 </Link>
                 <Link href="/real-estate" className="inline-flex items-center gap-2 px-7 py-3.5 text-[14px] font-semibold rounded-xl transition-all" style={{ border: "1px solid var(--blue-border)", color: "var(--blue)" }}>

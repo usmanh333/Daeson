@@ -8,7 +8,7 @@ const articles = [
   {
     category: "Real Estate Operations",
     color: "var(--blue)",
-    rawColor: "#888888",
+    rawColor: "#8B5CF6",
     title: "Why Real Estate Firms Are Replacing SaaS Stacks with Owned Infrastructure",
     excerpt:
       "The era of patching together Salesforce, Excel, and email for real estate operations is ending. Forward-thinking firms are building owned operational platforms, with full data control, AI capability, and no vendor lock-in.",
@@ -18,7 +18,7 @@ const articles = [
   {
     category: "Islamic Finance",
     color: "var(--blue)",
-    rawColor: "#888888",
+    rawColor: "#8B5CF6",
     title: "AI and Shariah Compliance: Building Infrastructure That Supports Scholars",
     excerpt:
       "AI in Islamic finance works when it removes operational burden from compliance workflows, freeing scholars to focus on jurisprudential judgment rather than manual document review. This is an infrastructure problem.",
@@ -28,7 +28,7 @@ const articles = [
   {
     category: "Founder Insight",
     color: "var(--text-secondary)",
-    rawColor: "#888888",
+    rawColor: "#8B5CF6",
     title: "Islamic Finance Has a Technology Gap",
     excerpt:
       "A $3 trillion industry still running on spreadsheets and email approvals. Mahnoor Zafar examines why Islamic finance institutions lag in operational technology, and what closing the gap actually requires.",

@@ -44,7 +44,7 @@ export default function ArticlePage() {
         <section className="relative overflow-hidden pt-32 pb-16 px-6">
           <div
             className="absolute inset-0 pointer-events-none"
-            style={{ background: "radial-gradient(ellipse 70% 50% at 50% -10%, rgba(185,145,47,0.05) 0%, transparent 70%)" }}
+            style={{ background: "radial-gradient(ellipse 70% 50% at 50% -10%, rgba(139,92,246,0.05) 0%, transparent 70%)" }}
           />
           <div className="absolute inset-0 grid-bg opacity-15 pointer-events-none" />
           <div className="max-w-3xl mx-auto relative z-10">
@@ -59,7 +59,7 @@ export default function ArticlePage() {
             <div className="flex items-center gap-3 mb-6">
               <span
                 className="text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-widest"
-                style={{ backgroundColor: "rgba(185,145,47,0.08)", color: "var(--gold)", border: "1px solid rgba(185,145,47,0.20)" }}
+                style={{ backgroundColor: "rgba(139,92,246,0.08)", color: "var(--gold)", border: "1px solid rgba(139,92,246,0.20)" }}
               >
                 Islamic Finance
               </span>
@@ -337,7 +337,7 @@ export default function ArticlePage() {
           <div className="max-w-3xl mx-auto px-6 py-16">
             <div
               className="rounded-2xl p-10 text-center"
-              style={{ background: "var(--bg-surface)", border: "1px solid rgba(185,145,47,0.25)" }}
+              style={{ background: "var(--bg-surface)", border: "1px solid rgba(139,92,246,0.25)" }}
             >
               <h2 className="text-[24px] font-bold mb-3 tracking-tight" style={{ color: "var(--text-primary)" }}>
                 Building Shariah compliance infrastructure?
@@ -350,15 +350,15 @@ export default function ArticlePage() {
               <div className="flex flex-wrap gap-4 justify-center">
                 <Link
                   href="/amanah-ai"
-                  className="inline-flex items-center gap-2 px-7 py-3.5 text-white text-[14px] font-bold rounded-xl hover:opacity-90 transition-all"
-                  style={{ backgroundColor: "var(--gold)" }}
+                  className="inline-flex items-center gap-2 px-7 py-3.5 text-[14px] font-bold rounded-xl hover:opacity-90 transition-all"
+                  style={{ backgroundColor: "var(--purple-fill)", color: "#FFFFFF" }}
                 >
                   Learn About Aylinor <ArrowRight size={14} />
                 </Link>
                 <Link
                   href="/contact"
                   className="inline-flex items-center gap-2 px-7 py-3.5 text-[14px] font-semibold rounded-xl transition-all"
-                  style={{ border: "1px solid rgba(185,145,47,0.30)", color: "var(--gold)" }}
+                  style={{ border: "1px solid rgba(139,92,246,0.30)", color: "var(--gold)" }}
                 >
                   Start a Conversation
                 </Link>
@@ -398,7 +398,7 @@ export default function ArticlePage() {
             >
               <span
                 className="text-[10px] font-bold px-2 py-0.5 rounded uppercase tracking-widest"
-                style={{ backgroundColor: "rgba(185,145,47,0.08)", color: "var(--gold)" }}
+                style={{ backgroundColor: "rgba(139,92,246,0.08)", color: "var(--gold)" }}
               >
                 Whitepapers
               </span>

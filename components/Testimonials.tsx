@@ -75,7 +75,7 @@ export default function Testimonials() {
                 <span
                   aria-hidden="true"
                   className="absolute -top-4 right-5 text-[140px] leading-none font-serif select-none pointer-events-none"
-                  style={{ color: "rgba(255,255,255,0.06)" }}
+                  style={{ color: "rgba(243,236,221,0.06)" }}
                 >
                   &rdquo;
                 </span>
@@ -83,26 +83,26 @@ export default function Testimonials() {
                 <div className="relative">
                   <span
                     className="inline-block text-[10px] font-bold tracking-[0.18em] uppercase px-3 py-1.5 rounded-full mb-6"
-                    style={{ border: "1px solid rgba(255,255,255,0.22)", color: "rgba(255,255,255,0.8)" }}
+                    style={{ border: "1px solid rgba(243,236,221,0.22)", color: "rgba(243,236,221,0.8)" }}
                   >
                     {t.product}
                   </span>
-                  <blockquote className="text-[16px] md:text-[18px] leading-[1.6] font-medium" style={{ color: "#F5F5F5" }}>
+                  <blockquote className="text-[16px] md:text-[18px] leading-[1.6] font-medium" style={{ color: "#F3ECDD" }}>
                     &ldquo;{t.quote}&rdquo;
                   </blockquote>
                 </div>
 
-                <figcaption className="relative flex items-center gap-3.5 mt-8 pt-6" style={{ borderTop: "1px solid rgba(255,255,255,0.10)" }}>
-                  <div className="w-11 h-11 rounded-full flex items-center justify-center shrink-0 overflow-hidden bg-white">
+                <figcaption className="relative flex items-center gap-3.5 mt-8 pt-6" style={{ borderTop: "1px solid rgba(243,236,221,0.10)" }}>
+                  <div className="w-11 h-11 rounded-full flex items-center justify-center shrink-0 overflow-hidden bg-[#F6F0E4]">
                     {t.logo ? (
                       <Image src={t.logo} alt="" width={44} height={44} className="object-contain" />
                     ) : (
-                      <span className="text-[13px] font-extrabold text-black">{initials(t.name)}</span>
+                      <span className="text-[13px] font-extrabold text-[#1F3D2B]">{initials(t.name)}</span>
                     )}
                   </div>
                   <div className="text-left">
                     <p className="text-[14.5px] font-bold text-white">{t.name}</p>
-                    <p className="text-[12px]" style={{ color: "rgba(255,255,255,0.5)" }}>{t.role}</p>
+                    <p className="text-[12px]" style={{ color: "rgba(243,236,221,0.5)" }}>{t.role}</p>
                   </div>
                 </figcaption>
               </figure>

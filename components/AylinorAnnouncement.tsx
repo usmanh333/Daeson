@@ -11,7 +11,7 @@ export default function AylinorAnnouncement() {
       >
         <div
           className="absolute inset-0 pointer-events-none"
-          style={{ background: "radial-gradient(ellipse 70% 60% at 15% 0%, rgba(255,255,255,0.06) 0%, transparent 65%)" }}
+          style={{ background: "radial-gradient(ellipse 70% 60% at 15% 0%, rgba(243,236,221,0.06) 0%, transparent 65%)" }}
         />
 
         <div className="relative z-10">

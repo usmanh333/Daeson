@@ -48,7 +48,7 @@ export default function WhyDaeson() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.06, duration: 0.45, ease: "easeOut" }}
-              className="group p-9 transition-colors hover:bg-[#F7F7F5]"
+              className="group p-9 transition-colors hover:bg-[#E1D3B6]"
               style={{ borderRight: "1px solid var(--border)", borderBottom: "1px solid var(--border)" }}
             >
               <div className="flex items-center gap-4 mb-6">

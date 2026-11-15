@@ -306,7 +306,7 @@ const articles = [
   {
     category: "Islamic Finance",
     color: "var(--gold)",
-    rawColor: "#B9912F",
+    rawColor: "var(--gold)",
     title: "What Is the Difference Between a Bank's Shariah Department and a Shariah Advisory Firm?",
     excerpt:
       "An internal Shariah department runs daily compliance; an external advisory firm provides independent review and assurance. A side-by-side comparison, and why strong governance uses both.",
@@ -317,7 +317,7 @@ const articles = [
   {
     category: "Islamic Finance",
     color: "var(--gold)",
-    rawColor: "#B9912F",
+    rawColor: "var(--gold)",
     title: "Is Islamic Finance a Different Finance Market From Conventional Finance?",
     excerpt:
       "Yes. No interest, asset-backed contracts like Murabahah and Ijarah, and Shariah governance. A clear comparison with a simple car-financing example.",
@@ -328,7 +328,7 @@ const articles = [
   {
     category: "Banking",
     color: "var(--blue)",
-    rawColor: "#888888",
+    rawColor: "#8B5CF6",
     title: "Why Are People Fed Up With Conventional Banking?",
     excerpt:
       "Customers aren't rejecting banking. They're frustrated by slow processes, unclear fees, failing apps and weak support. What drives it, and how banks can rebuild trust.",
@@ -339,7 +339,7 @@ const articles = [
   {
     category: "Banking",
     color: "var(--blue)",
-    rawColor: "#888888",
+    rawColor: "#8B5CF6",
     title: "Why Pakistani Banking Apps Often Receive Negative Feedback",
     excerpt:
       "Slow performance, failed transactions and weak support. Why building a banking app needs product strategy, not just developers, and what good digital banking looks like.",
@@ -350,7 +350,7 @@ const articles = [
   {
     category: "Enterprise Software",
     color: "var(--blue)",
-    rawColor: "#888888",
+    rawColor: "#8B5CF6",
     title: "Custom AI Software Development: How Businesses Build AI Solutions That Create Real ROI",
     excerpt:
       "When custom AI is worth the investment, how the development process actually works, realistic costs and risks, and what to ask before choosing a development partner.",
@@ -361,7 +361,7 @@ const articles = [
   {
     category: "Workflow Automation",
     color: "var(--blue)",
-    rawColor: "#888888",
+    rawColor: "#8B5CF6",
     title: "AI Automation for Business: 12 High-Impact Workflows Companies Can Automate",
     excerpt:
       "Twelve workflows, from lead follow-up to document processing and approvals, where AI automation most consistently reduces repetitive manual work, and how to choose which one to start with.",
@@ -372,7 +372,7 @@ const articles = [
   {
     category: "Enterprise Software",
     color: "var(--blue)",
-    rawColor: "#888888",
+    rawColor: "#8B5CF6",
     title: "Enterprise AI Platforms: A Practical Guide for Businesses Planning AI Transformation",
     excerpt:
       "Architecture, data readiness, security, integrations, governance, and a realistic implementation roadmap for planning an enterprise AI platform.",
@@ -383,7 +383,7 @@ const articles = [
   {
     category: "Real Estate Operations",
     color: "var(--blue)",
-    rawColor: "#888888",
+    rawColor: "#8B5CF6",
     title: "Real Estate CRM and AI: How Developers and Investment Firms Manage Leads, Deals, and Investors",
     excerpt:
       "Why generic CRM tools fall short in real estate, and how a connected platform handles property listings, deal pipelines, investor reporting, and follow-ups in one place.",
@@ -394,7 +394,7 @@ const articles = [
   {
     category: "Islamic Finance",
     color: "var(--gold)",
-    rawColor: "#B9912F",
+    rawColor: "var(--gold)",
     title: "Islamic Banking Software: How AI Is Transforming Shariah Compliance and Governance",
     excerpt:
       "Where AI fits in Shariah compliance: governance, audit-ready records, Shariah board processes and core banking integration, with Shariah determination remaining with scholars.",
@@ -405,7 +405,7 @@ const articles = [
   {
     category: "Islamic Finance",
     color: "var(--gold)",
-    rawColor: "#B9912F",
+    rawColor: "var(--gold)",
     title: "Murabahah Contract Review: How Technology Supports Shariah Compliance Without Replacing Scholars",
     excerpt:
       "What Murabahah review involves, why documentation in two languages adds risk, and how technology can help while scholars keep the decision.",
@@ -416,7 +416,7 @@ const articles = [
   {
     category: "Responsible AI",
     color: "var(--blue)",
-    rawColor: "#888888",
+    rawColor: "#8B5CF6",
     title: "Can You Trust an AI Answer? 5 Questions to Ask",
     excerpt:
       "An AI answer can be well written and still require careful checking. Five questions to ask before you act on one, covering sources, context, missing information, review, and data privacy.",
@@ -427,7 +427,7 @@ const articles = [
   {
     category: "Islamic Finance",
     color: "var(--gold)",
-    rawColor: "#B9912F",
+    rawColor: "var(--gold)",
     title: "Shariah Compliance in the AI Era: Supporting Experts, Not Replacing Them",
     excerpt:
       "Aylinor's approach to Shariah compliance: technology should support qualified reviewers, who can examine, challenge and correct it, never replace their judgment.",
@@ -438,7 +438,7 @@ const articles = [
   {
     category: "PropTech",
     color: "var(--blue)",
-    rawColor: "#888888",
+    rawColor: "#8B5CF6",
     title: "Home1.0: Property Management for Small Landlords",
     excerpt:
       "Managing a few rentals can still mean a large administrative workload. How Home1.0 helps small landlords keep leasing, payment information, maintenance, and tenant communication connected in one place.",
@@ -449,7 +449,7 @@ const articles = [
   {
     category: "Enterprise Software",
     color: "var(--blue)",
-    rawColor: "#888888",
+    rawColor: "#8B5CF6",
     title: "Your Business May Not Need Another App—It May Need a Better Workflow",
     excerpt:
       "Before adding another tool, map where the work actually gets stuck. A practical method for finding unclear handoffs, improving a process before automating it, and buying software around a defined problem.",
@@ -460,7 +460,7 @@ const articles = [
   {
     category: "IFN Special Report",
     color: "var(--gold)",
-    rawColor: "#B9912F",
+    rawColor: "var(--gold)",
     title: "When Shariah Compliance Meets AI: Innovation Must Know Its Limits",
     excerpt:
       "Mahnoor Zafar's report in IFN Volume 23, Issue 40 (7 October 2026) on why AI should support Shariah governance without becoming the authority: machines can assist, scholars decide, institutions remain accountable. Free PDF download.",
@@ -471,7 +471,7 @@ const articles = [
   {
     category: "Islamic Finance",
     color: "var(--gold)",
-    rawColor: "#B9912F",
+    rawColor: "var(--gold)",
     title: "Islamic Finance Is Entering the AI Era: Why Agentic AI Could Be the Next Big Shift",
     excerpt:
       "AI and Agentic AI could help Shariah teams search documents, route reviews and track actions, without automating Shariah judgment. Why Malaysia, Indonesia and the UAE matter, and why trust and governance must come first.",
@@ -482,7 +482,7 @@ const articles = [
   {
     category: "Real Estate Operations",
     color: "var(--blue)",
-    rawColor: "#888888",
+    rawColor: "#8B5CF6",
     title: "How AI Is Transforming Real Estate Operations in 2026",
     excerpt:
       "AI creates value in real estate when it is connected to real business processes. See how it supports lead management, investor and developer visibility, workflow automation and property management, and what to check before adopting it.",
@@ -493,7 +493,7 @@ const articles = [
   {
     category: "PropTech",
     color: "var(--blue)",
-    rawColor: "#888888",
+    rawColor: "#8B5CF6",
     title: "What Is PropTech? A Practical Guide for Real Estate Businesses",
     excerpt:
       "PropTech covers the software and digital platforms used to develop, market, invest in and manage real estate. Learn the main categories, why they matter, and how to evaluate PropTech software against your actual workflows.",
@@ -504,7 +504,7 @@ const articles = [
   {
     category: "PropTech",
     color: "var(--blue)",
-    rawColor: "#888888",
+    rawColor: "#8B5CF6",
     title: "Property Management Software vs. Spreadsheets: Which Is Better?",
     excerpt:
       "Spreadsheets work for small, simple portfolios. Compare them with property management software across tenant records, rent tracking, leases, maintenance, reporting and cost, and learn when it is time to switch.",
@@ -515,7 +515,7 @@ const articles = [
   {
     category: "Real Estate Operations",
     color: "var(--blue)",
-    rawColor: "#888888",
+    rawColor: "#8B5CF6",
     title: "How to Automate Real Estate Workflows Without Replacing Your Existing Systems",
     excerpt:
       "Automation does not require replacing every application. Map one process, connect the systems you already use, decide where rules end and AI begins, and measure the outcome against a baseline.",
@@ -526,7 +526,7 @@ const articles = [
   {
     category: "Enterprise Software",
     color: "var(--blue)",
-    rawColor: "#888888",
+    rawColor: "#8B5CF6",
     title: "Custom Software Development vs. Off-the-Shelf Software for Growing Businesses",
     excerpt:
       "Off-the-shelf software suits standard needs; custom development earns its place when critical workflows or integrations cannot be supported. Compare total cost, data ownership, scalability and a third option: extending what you have.",
@@ -537,7 +537,7 @@ const articles = [
   {
     category: "PropTech",
     color: "var(--blue)",
-    rawColor: "#888888",
+    rawColor: "#8B5CF6",
     title: "Try Home 1.0 Free: List Your Property and Explore Payment Access",
     excerpt:
       "Home 1.0 offers a 30-day free trial with property listing, payment access, and first-year free tenant applications. No credit card required. Explore listings, applications, rent tracking, and maintenance in one connected platform.",
@@ -548,7 +548,7 @@ const articles = [
   {
     category: "Real Estate Operations",
     color: "var(--blue)",
-    rawColor: "#888888",
+    rawColor: "#8B5CF6",
     title: "Why Real Estate Firms Are Replacing SaaS Stacks with Owned Infrastructure",
     excerpt:
       "The era of patching together Salesforce, Excel, and email for real estate operations is ending. Forward-thinking property firms are building owned operational platforms that give them infrastructure control, data ownership, and AI capability without vendor dependency.",
@@ -559,7 +559,7 @@ const articles = [
   {
     category: "Islamic Finance",
     color: "var(--gold)",
-    rawColor: "#B9912F",
+    rawColor: "var(--gold)",
     title: "AI and Shariah Compliance: Building Infrastructure That Supports Scholars",
     excerpt:
       "Artificial intelligence in Islamic finance is not about replacing Shariah scholars, it is about building infrastructure that removes operational burden from compliance workflows, so scholars can focus on jurisprudential judgment rather than manual document review.",
@@ -570,7 +570,7 @@ const articles = [
   {
     category: "Founder Insight",
     color: "var(--text-secondary)",
-    rawColor: "#888888",
+    rawColor: "#8B5CF6",
     title: "Islamic Finance Has a Technology Gap",
     excerpt:
       "A $3 trillion industry still running on spreadsheets and manual approval chains. Founder Mahnoor Zafar examines why Islamic finance institutions have fallen behind on operational technology, and what closing the gap actually requires.",
@@ -581,7 +581,7 @@ const articles = [
   {
     category: "Real Estate Operations",
     color: "var(--blue)",
-    rawColor: "#888888",
+    rawColor: "#8B5CF6",
     title: "When Does a Real Estate Operating Platform Beat One-Off Property Deals?",
     excerpt:
       "A framework for investors and asset managers: the five signals that indicate it's time to build real estate operating infrastructure instead of running deal-by-deal, opaque comps, deal sourcing, rate volatility, slow diligence, and fragmented LP reporting.",
@@ -592,7 +592,7 @@ const articles = [
   {
     category: "Islamic Finance",
     color: "var(--gold)",
-    rawColor: "#B9912F",
+    rawColor: "var(--gold)",
     title: "Why the Future of Islamic Finance Depends on Shariah-Compliant Software",
     excerpt:
       "Most Shariah compliance processes are still heavily manual. As Islamic finance goes digital, governance has to become structured, auditable software, this is why Daeson Technologies is building Aylinor, starting with Murabaha financing.",
@@ -603,7 +603,7 @@ const articles = [
   {
     category: "Real Estate Operations",
     color: "var(--blue)",
-    rawColor: "#888888",
+    rawColor: "#8B5CF6",
     title: "Home 1.0: Building Happier Tenants, Better Communities",
     excerpt:
       "Home 1.0 is Daeson Technologies' AI-powered residential property management platform, unifying resident communication, maintenance, leasing, and payments into one owned system instead of spreadsheets and WhatsApp groups.",
@@ -614,7 +614,7 @@ const articles = [
   {
     category: "Islamic Finance",
     color: "var(--gold)",
-    rawColor: "#B9912F",
+    rawColor: "var(--gold)",
     title: "The Murabaha Contract Review Bottleneck",
     excerpt:
       "Murabaha is the most common Islamic financing structure, and at most institutions, still the most manually reviewed. Why review capacity doesn't scale with volume, and what changes when it's structured instead of manual.",
@@ -625,7 +625,7 @@ const articles = [
   {
     category: "Islamic Finance",
     color: "var(--gold)",
-    rawColor: "#B9912F",
+    rawColor: "var(--gold)",
     title: "Why Shariah Governance Needs Audit Trails",
     excerpt:
       "A compliant decision that isn't documented is functionally indistinguishable, to a regulator, from a decision that was never made. Why immutable, contract-linked audit trails matter as much as the ruling itself.",
@@ -636,7 +636,7 @@ const articles = [
   {
     category: "Islamic Finance",
     color: "var(--gold)",
-    rawColor: "#B9912F",
+    rawColor: "var(--gold)",
     title: "Multi-Market Islamic Finance Compliance",
     excerpt:
       "Institutions operating across the GCC, Pakistan, and the UK face different regulators and report formats for the same underlying transaction. Why one canonical compliance record beats parallel record-keeping.",
@@ -647,7 +647,7 @@ const articles = [
   {
     category: "Islamic Finance",
     color: "var(--gold)",
-    rawColor: "#B9912F",
+    rawColor: "var(--gold)",
     title: "How to Choose Shariah Compliance Software",
     excerpt:
       "A practical checklist for what to verify before signing a long-term vendor contract, audit trail integrity, multi-jurisdiction support, scholar workflow, uptime guarantees, and data ownership.",
@@ -658,7 +658,7 @@ const articles = [
   {
     category: "Islamic Finance",
     color: "var(--gold)",
-    rawColor: "#B9912F",
+    rawColor: "var(--gold)",
     title: "AAOIFI & IFSB Standards in Compliance Software",
     excerpt:
       "Generic compliance checklists don't understand AAOIFI or IFSB standards. Why standards-awareness has to be architecture, not a checklist bolted onto conventional fintech software.",
@@ -669,7 +669,7 @@ const articles = [
   {
     category: "Founder Insight",
     color: "var(--text-secondary)",
-    rawColor: "#888888",
+    rawColor: "#8B5CF6",
     title: "More Investors Means More Scrutiny",
     excerpt:
       "Every investor you add doesn't just add capital, it adds a relationship that expects its own visibility. Why investor growth breaks manual reporting, and what real-time transparency actually requires.",
@@ -680,7 +680,7 @@ const articles = [
   {
     category: "Founder Insight",
     color: "var(--text-secondary)",
-    rawColor: "#888888",
+    rawColor: "#8B5CF6",
     title: "What Breaks First When Sales Outpaces Your Systems",
     excerpt:
       "More sales is supposed to be the good problem. Without an internal management system underneath it, revenue growth just means more manual work and leadership decisions made on stale data.",
@@ -691,7 +691,7 @@ const articles = [
   {
     category: "Founder Insight",
     color: "var(--text-secondary)",
-    rawColor: "#888888",
+    rawColor: "#8B5CF6",
     title: "The Hidden Tax of Growing Your Team Across Tools",
     excerpt:
       "A founder juggling 5 to 10 disconnected tools can hold it together from memory. Once a team grows, that coordination becomes phone calls and asking everyone individually, here's the actual fix.",
@@ -702,7 +702,7 @@ const articles = [
   {
     category: "Product Announcement",
     color: "var(--blue)",
-    rawColor: "#888888",
+    rawColor: "#8B5CF6",
     title: "AI Is No Longer a Luxury for Small Property Owners",
     excerpt:
       "Why we built Home 1.0 for the owners and property managers still doing too much manually: AI-assisted property management for UAE landlords, with a 30-day free trial.",
@@ -713,7 +713,7 @@ const articles = [
   {
     category: "Islamic Finance",
     color: "var(--gold)",
-    rawColor: "#B9912F",
+    rawColor: "var(--gold)",
     title: "What Is Islamic Banking Software and Why Does It Matter?",
     excerpt:
       "What Islamic banking software actually needs to support, financing workflows, Shariah governance, audit trails and AAOIFI-aligned compliance, and how to evaluate vendors.",
@@ -724,7 +724,7 @@ const articles = [
   {
     category: "Islamic Finance",
     color: "var(--gold)",
-    rawColor: "#B9912F",
+    rawColor: "var(--gold)",
     title: "How Shariah-Compliant Banking Software Supports Modern Financial Institutions",
     excerpt:
       "Governance, contract-level review, and where artificial intelligence can responsibly help, without replacing the humans who make Shariah decisions.",
@@ -735,7 +735,7 @@ const articles = [
   {
     category: "Islamic Finance",
     color: "var(--gold)",
-    rawColor: "#B9912F",
+    rawColor: "var(--gold)",
     title: "Choosing the Best Islamic Banking Software for Commercial Banks",
     excerpt:
       "A practical evaluation framework for banks that need Islamic financing workflows, Shariah governance and enterprise integration to work together at scale.",
@@ -746,7 +746,7 @@ const articles = [
   {
     category: "Real Estate Operations",
     color: "var(--blue)",
-    rawColor: "#888888",
+    rawColor: "#8B5CF6",
     title: "What to Check Before Signing a Long-Term Real Estate Technology Contract",
     excerpt:
       "Uptime, data ownership, backups, support, pricing and integration, a practical checklist for developers and property companies before committing long term.",
@@ -757,7 +757,7 @@ const articles = [
   {
     category: "Real Estate Operations",
     color: "var(--blue)",
-    rawColor: "#888888",
+    rawColor: "#8B5CF6",
     title: "What Buyers and Investors Should Compare Across UAE Property Developers",
     excerpt:
       "Choosing a UAE property developer takes more than comparing the advertised price. A framework for comparing projects, payment plans, fees and investor visibility.",
@@ -768,7 +768,7 @@ const articles = [
   {
     category: "Islamic Finance",
     color: "var(--gold)",
-    rawColor: "#B9912F",
+    rawColor: "var(--gold)",
     title: "Murabaha Financing Software: What It Needs to Actually Support",
     excerpt:
       "A repayment calculator is not Murabaha financing software. What asset ownership sequencing, profit disclosure and documentation actually require from the system.",
@@ -779,7 +779,7 @@ const articles = [
   {
     category: "Islamic Finance",
     color: "var(--gold)",
-    rawColor: "#B9912F",
+    rawColor: "var(--gold)",
     title: "Islamic Banking Software Vendors: What to Ask Before Signing",
     excerpt:
       "Not every vendor using Islamic finance terminology has actually built for it. A short checklist before you sign.",
@@ -790,7 +790,7 @@ const articles = [
   {
     category: "Islamic Finance",
     color: "var(--gold)",
-    rawColor: "#B9912F",
+    rawColor: "var(--gold)",
     title: "Islamic Banking Software for Financial Institutions: Beyond the Bank",
     excerpt:
       "Islamic windows, fintechs and non-bank financial institutions need Shariah-aware technology too, and their requirements aren't identical to a full-scale bank's.",
@@ -801,7 +801,7 @@ const articles = [
   {
     category: "Islamic Finance",
     color: "var(--gold)",
-    rawColor: "#B9912F",
+    rawColor: "var(--gold)",
     title: "Islamic Banking Software Solutions: Core Modules Explained",
     excerpt:
       "What \"Islamic banking software solutions\" actually means once you break it into its component modules, financing, governance, audit, reporting.",
@@ -812,7 +812,7 @@ const articles = [
   {
     category: "Islamic Finance",
     color: "var(--gold)",
-    rawColor: "#B9912F",
+    rawColor: "var(--gold)",
     title: "How to Vet an Islamic Banking Software Provider",
     excerpt:
       "The difference between a provider that supports your Shariah structures and one that relabeled a conventional platform usually shows up in the details.",
@@ -823,7 +823,7 @@ const articles = [
   {
     category: "Islamic Finance",
     color: "var(--gold)",
-    rawColor: "#B9912F",
+    rawColor: "var(--gold)",
     title: "Islamic Retail Banking Software: What Customer-Facing Products Need",
     excerpt:
       "Retail Islamic finance touches customers directly, home financing, personal financing, auto financing, which raises the bar for disclosure and documentation.",
@@ -834,7 +834,7 @@ const articles = [
   {
     category: "Islamic Finance",
     color: "var(--gold)",
-    rawColor: "#B9912F",
+    rawColor: "var(--gold)",
     title: "Islamic Core Banking Software vs. a Shariah Compliance Layer",
     excerpt:
       "Core banking and Shariah compliance intelligence are not the same purchase decision, and confusing the two leads to the wrong RFP.",
@@ -845,16 +845,16 @@ const articles = [
 ];
 
 const geoTopics = [
-  { label: "Real Estate SaaS Fatigue", color: "#FFFFFF" },
-  { label: "Murabaha Workflow Digitization", color: "#FFFFFF" },
-  { label: "AI Lead Qualification", color: "#FFFFFF" },
-  { label: "Shariah Governance Systems", color: "#FFFFFF" },
-  { label: "Ownership vs SaaS", color: "#FFFFFF" },
-  { label: "Investor Reporting Infrastructure", color: "#FFFFFF" },
-  { label: "Operational Visibility Systems", color: "#FFFFFF" },
-  { label: "AI Governance", color: "#FFFFFF" },
-  { label: "Brokerage Operational Intelligence", color: "#FFFFFF" },
-  { label: "Islamic Finance Workflow", color: "#FFFFFF" },
+  { label: "Real Estate SaaS Fatigue", color: "#F3ECDD" },
+  { label: "Murabaha Workflow Digitization", color: "#F3ECDD" },
+  { label: "AI Lead Qualification", color: "#F3ECDD" },
+  { label: "Shariah Governance Systems", color: "#F3ECDD" },
+  { label: "Ownership vs SaaS", color: "#F3ECDD" },
+  { label: "Investor Reporting Infrastructure", color: "#F3ECDD" },
+  { label: "Operational Visibility Systems", color: "#F3ECDD" },
+  { label: "AI Governance", color: "#F3ECDD" },
+  { label: "Brokerage Operational Intelligence", color: "#F3ECDD" },
+  { label: "Islamic Finance Workflow", color: "#F3ECDD" },
 ];
 
 export default function InsightsPage() {
@@ -1017,7 +1017,7 @@ export default function InsightsPage() {
               <Link
                 href="/contact"
                 className="inline-flex items-center justify-center gap-2 px-6 py-3 text-[14px] font-semibold rounded-xl transition-colors"
-                style={{ backgroundColor: "var(--blue)", color: "var(--on-blue)" }}
+                style={{ backgroundColor: "var(--purple-fill)", color: "#FFFFFF" }}
               >
                 Stay in Touch <ArrowRight size={14} />
               </Link>

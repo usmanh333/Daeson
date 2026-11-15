@@ -88,7 +88,7 @@ export default function ArticlePage() {
           >
             <div
               className="absolute inset-0"
-              style={{ background: "linear-gradient(135deg, #0F1210 0%, #1C1708 55%, #2A210C 100%)" }}
+              style={{ background: "linear-gradient(135deg, #172F21 0%, #1F3D2B 55%, #2C533B 100%)" }}
             />
             <div
               className="absolute inset-0 opacity-40"
@@ -97,7 +97,7 @@ export default function ArticlePage() {
             <div className="relative z-10 h-full flex items-center px-10">
               <div
                 className="w-14 h-14 rounded-2xl flex items-center justify-center shrink-0 mr-6"
-                style={{ backgroundColor: "rgba(212,175,55,0.14)", border: "1px solid var(--gold-border)" }}
+                style={{ backgroundColor: "rgba(139,92,246,0.14)", border: "1px solid var(--gold-border)" }}
               >
                 <ShieldCheck size={26} style={{ color: "var(--gold-amanah-light)" }} />
               </div>
@@ -294,7 +294,7 @@ export default function ArticlePage() {
                 <Link
                   href="/contact"
                   className="inline-flex items-center gap-2 px-7 py-3.5 text-[14px] font-bold rounded-xl hover:opacity-90 transition-all"
-                  style={{ backgroundColor: "var(--gold)", color: "#0B0E14" }}
+                  style={{ backgroundColor: "var(--purple-fill)", color: "#FFFFFF" }}
                 >
                   Let&apos;s Build Together <ArrowRight size={14} />
                 </Link>

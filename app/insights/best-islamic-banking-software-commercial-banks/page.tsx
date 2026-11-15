@@ -306,7 +306,7 @@ export default function ArticlePage() {
                 Talk to us about how Aylinor is being built to fit into existing core banking and Shariah governance workflows.
               </p>
               <div className="flex flex-wrap gap-4 justify-center">
-                <Link href="/contact" className="inline-flex items-center gap-2 px-7 py-3.5 text-[14px] font-bold rounded-xl hover:opacity-90 transition-all" style={{ backgroundColor: "var(--gold)", color: "#0B0E14" }}>
+                <Link href="/contact" className="inline-flex items-center gap-2 px-7 py-3.5 text-[14px] font-bold rounded-xl hover:opacity-90 transition-all" style={{ backgroundColor: "var(--purple-fill)", color: "#FFFFFF" }}>
                   Talk to Us <ArrowRight size={14} />
                 </Link>
                 <Link href="/amanah-ai" className="inline-flex items-center gap-2 px-7 py-3.5 text-[14px] font-semibold rounded-xl transition-all" style={{ border: "1px solid var(--gold-border)", color: "var(--gold)" }}>

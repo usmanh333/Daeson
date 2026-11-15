@@ -111,7 +111,7 @@ export default function ArticlePage() {
       <Navbar />
       <main style={{ backgroundColor: "var(--bg-page)", minHeight: "100vh" }}>
         <section className="relative overflow-hidden pt-32 pb-16 px-6">
-          <div className="absolute inset-0 pointer-events-none" style={{ background: "radial-gradient(ellipse 70% 50% at 50% -10%, rgba(212,175,55,0.05) 0%, transparent 70%)" }} />
+          <div className="absolute inset-0 pointer-events-none" style={{ background: "radial-gradient(ellipse 70% 50% at 50% -10%, rgba(139,92,246,0.05) 0%, transparent 70%)" }} />
           <div className="absolute inset-0 grid-bg opacity-15 pointer-events-none" />
           <div className="max-w-3xl mx-auto relative z-10">
             <Link href="/insights" className="inline-flex items-center gap-1.5 text-[12px] font-medium mb-8" style={{ color: "var(--text-faint)" }}>
@@ -238,7 +238,7 @@ export default function ArticlePage() {
                   how AI fits into Islamic banking software
                 </Link>.
               </p>
-              <Link href="/contact" className="inline-flex items-center gap-2 px-6 py-3 text-[14px] font-bold rounded-xl hover:opacity-90" style={{ backgroundColor: "var(--gold)", color: "#0B0E14" }}>
+              <Link href="/contact" className="inline-flex items-center gap-2 px-6 py-3 text-[14px] font-bold rounded-xl hover:opacity-90" style={{ backgroundColor: "var(--purple-fill)", color: "#FFFFFF" }}>
                 Request a walkthrough <ArrowRight size={14} />
               </Link>
             </div>

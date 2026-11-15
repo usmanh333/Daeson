@@ -32,10 +32,10 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <a href="#" className="flex items-center gap-2.5 group">
-            <div className="w-8 h-8 rounded-lg bg-[#0F3D2E] flex items-center justify-center shadow-md group-hover:shadow-lg transition-shadow">
+            <div className="w-8 h-8 rounded-lg bg-[#1F3D2B] flex items-center justify-center shadow-md group-hover:shadow-lg transition-shadow">
               <Shield className="w-4 h-4 text-white" />
             </div>
-            <span className="font-bold text-xl text-[#0F3D2E] tracking-tight">
+            <span className="font-bold text-xl text-[#1F3D2B] tracking-tight">
               Aylinor
             </span>
           </a>
@@ -46,7 +46,7 @@ export default function Navbar() {
               <a
                 key={link.label}
                 href={link.href}
-                className="text-sm font-medium text-gray-600 hover:text-[#0F3D2E] transition-colors"
+                className="text-sm font-medium text-[#1F3D2B]/80 hover:text-[#1F3D2B] transition-colors"
               >
                 {link.label}
               </a>
@@ -57,13 +57,13 @@ export default function Navbar() {
           <div className="hidden md:flex items-center gap-3">
             <a
               href="#features"
-              className="text-sm font-medium text-[#0F3D2E] hover:text-[#1A5C42] transition-colors"
+              className="text-sm font-medium text-[#1F3D2B] hover:text-[#2C533B] transition-colors"
             >
               View Platform
             </a>
             <a
               href="#cta"
-              className="inline-flex items-center gap-2 bg-[#0F3D2E] text-white text-sm font-semibold px-5 py-2.5 rounded-xl hover:bg-[#1A5C42] transition-all shadow-md hover:shadow-lg"
+              className="inline-flex items-center gap-2 bg-[#7C3AED] text-white text-sm font-semibold px-5 py-2.5 rounded-xl hover:bg-[#6D28D9] transition-all shadow-md hover:shadow-lg"
             >
               Request Demo
             </a>
@@ -72,7 +72,7 @@ export default function Navbar() {
           {/* Mobile toggle */}
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="md:hidden p-2 rounded-lg text-gray-600 hover:text-[#0F3D2E] hover:bg-gray-100 transition-colors"
+            className="md:hidden p-2 rounded-lg text-[#1F3D2B]/80 hover:text-[#1F3D2B] hover:bg-gray-100 transition-colors"
             aria-label="Toggle menu"
           >
             {isOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
@@ -82,14 +82,14 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden bg-white border-t border-gray-100 shadow-lg">
+        <div className="md:hidden bg-[#F6F0E4] border-t border-gray-100 shadow-lg">
           <div className="px-4 py-4 space-y-3">
             {navLinks.map((link) => (
               <a
                 key={link.label}
                 href={link.href}
                 onClick={() => setIsOpen(false)}
-                className="block text-sm font-medium text-gray-700 hover:text-[#0F3D2E] py-2 transition-colors"
+                className="block text-sm font-medium text-gray-700 hover:text-[#1F3D2B] py-2 transition-colors"
               >
                 {link.label}
               </a>
@@ -98,14 +98,14 @@ export default function Navbar() {
               <a
                 href="#features"
                 onClick={() => setIsOpen(false)}
-                className="block text-sm font-medium text-[#0F3D2E] py-2"
+                className="block text-sm font-medium text-[#1F3D2B] py-2"
               >
                 View Platform
               </a>
               <a
                 href="#cta"
                 onClick={() => setIsOpen(false)}
-                className="block w-full text-center bg-[#0F3D2E] text-white text-sm font-semibold px-5 py-3 rounded-lg"
+                className="block w-full text-center bg-[#7C3AED] text-white text-sm font-semibold px-5 py-3 rounded-lg"
               >
                 Request Demo
               </a>

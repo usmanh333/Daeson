@@ -72,7 +72,7 @@ export default function FintechPage() {
             exact requirements, fully owned, with no third-party dependency on critical financial flows.
           </p>
           <div className="flex flex-wrap gap-3">
-            <Link href="/contact" className="inline-flex items-center gap-2 px-6 py-3.5 text-[14px] font-semibold rounded-xl" style={{ backgroundColor: "var(--green)", color: "var(--on-blue)" }}>
+            <Link href="/contact" className="inline-flex items-center gap-2 px-6 py-3.5 text-[14px] font-semibold rounded-xl" style={{ backgroundColor: "var(--purple-fill)", color: "#FFFFFF" }}>
               Request Consultation <ArrowRight size={14} />
             </Link>
             <Link href="/expertise" className="inline-flex items-center gap-2 px-6 py-3.5 text-[14px] font-semibold rounded-xl" style={{ border: "1px solid var(--border)", color: "var(--text-primary)" }}>
@@ -126,7 +126,7 @@ export default function FintechPage() {
                 </div>
               ))}
             </div>
-            <Link href="/contact" className="inline-flex items-center gap-2 px-5 py-3 text-[13px] font-semibold rounded-lg" style={{ backgroundColor: "var(--green)", color: "var(--on-blue)" }}>
+            <Link href="/contact" className="inline-flex items-center gap-2 px-5 py-3 text-[13px] font-semibold rounded-lg" style={{ backgroundColor: "var(--purple-fill)", color: "#FFFFFF" }}>
               Request Consultation <ArrowRight size={13} />
             </Link>
           </div>

@@ -16,10 +16,10 @@ export default function Hero() {
     <section className="relative min-h-[92vh] flex items-center overflow-hidden" style={{ backgroundColor: "var(--bg-page)" }}>
       {/* Decorative rings */}
       <svg aria-hidden className="absolute -right-48 top-1/2 -translate-y-1/2 w-[820px] h-[820px] pointer-events-none hidden lg:block" viewBox="0 0 820 820" fill="none">
-        <circle cx="410" cy="410" r="409" stroke="rgba(0,0,0,0.05)" />
-        <circle cx="410" cy="410" r="310" stroke="rgba(0,0,0,0.05)" />
-        <circle cx="410" cy="410" r="210" stroke="rgba(185,145,47,0.35)" />
-        <circle cx="410" cy="410" r="110" stroke="rgba(0,0,0,0.05)" />
+        <circle cx="410" cy="410" r="409" stroke="rgba(31,61,43,0.05)" />
+        <circle cx="410" cy="410" r="310" stroke="rgba(31,61,43,0.05)" />
+        <circle cx="410" cy="410" r="210" stroke="rgba(139,92,246,0.35)" />
+        <circle cx="410" cy="410" r="110" stroke="rgba(31,61,43,0.05)" />
       </svg>
 
       <div className="relative max-w-7xl mx-auto px-6 pt-28 pb-20 w-full">
@@ -65,7 +65,7 @@ export default function Hero() {
 
           {/* Product panel */}
           <div className="hero-in" style={{ animationDelay: "300ms" }}>
-            <div className="rounded-[28px] p-3" style={{ backgroundColor: "#F7F7F5", border: "1px solid var(--border)" }}>
+            <div className="rounded-[28px] p-3" style={{ backgroundColor: "#E1D3B6", border: "1px solid var(--border)" }}>
               <p className="px-4 pt-3 pb-3 text-[10px] font-bold tracking-[0.22em] uppercase" style={{ color: "var(--text-faint)" }}>
                 Our Products
               </p>
@@ -76,10 +76,10 @@ export default function Hero() {
                     href={p.href}
                     {...newTab}
                     className="lift-card group relative overflow-hidden flex items-center justify-between rounded-2xl px-6 py-6"
-                    style={p.featured ? { backgroundColor: "#0A0A0A" } : { backgroundColor: "#FFFFFF", border: "1px solid var(--border)" }}
+                    style={p.featured ? { backgroundColor: "#1F3D2B" } : { backgroundColor: "#F6F0E4", border: "1px solid var(--border)" }}
                   >
                     {p.featured && (
-                      <span aria-hidden className="absolute -right-10 -top-10 w-28 h-28 rounded-full" style={{ border: "1px solid rgba(212,175,55,0.45)" }} />
+                      <span aria-hidden className="absolute -right-10 -top-10 w-28 h-28 rounded-full" style={{ border: "1px solid rgba(139,92,246,0.45)" }} />
                     )}
                     <div className="relative">
                       <p className="text-[10px] font-bold tracking-[0.18em] uppercase mb-1.5" style={{ color: p.featured ? GOLD_LIGHT : "var(--text-faint)" }}>
@@ -88,13 +88,13 @@ export default function Hero() {
                       <p className="text-[20px] font-extrabold tracking-tight" style={{ color: p.featured ? "#FFFFFF" : "var(--text-primary)" }}>
                         {p.name}
                       </p>
-                      <p className="text-[12.5px] mt-0.5" style={{ color: p.featured ? "rgba(255,255,255,0.6)" : "var(--text-muted)" }}>
+                      <p className="text-[12.5px] mt-0.5" style={{ color: p.featured ? "rgba(243,236,221,0.6)" : "var(--text-muted)" }}>
                         {p.note}
                       </p>
                     </div>
                     <span
                       className="relative w-9 h-9 rounded-full flex items-center justify-center shrink-0 transition-transform duration-300 group-hover:rotate-45"
-                      style={p.featured ? { border: "1px solid rgba(255,255,255,0.25)", color: "#FFFFFF" } : { border: "1px solid var(--border-strong)", color: "var(--text-primary)" }}
+                      style={p.featured ? { border: "1px solid rgba(243,236,221,0.25)", color: "#F3ECDD" } : { border: "1px solid var(--border-strong)", color: "var(--text-primary)" }}
                     >
                       <ArrowUpRight size={15} />
                     </span>

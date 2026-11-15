@@ -167,10 +167,10 @@ export default function ExpertisePage() {
               viewBox="0 0 640 640"
               fill="none"
             >
-              <circle cx="320" cy="320" r="319" stroke="rgba(0,0,0,0.06)" />
-              <circle cx="320" cy="320" r="240" stroke="rgba(0,0,0,0.06)" />
-              <circle cx="320" cy="320" r="160" stroke="rgba(185,145,47,0.35)" />
-              <circle cx="320" cy="320" r="80" stroke="rgba(0,0,0,0.06)" />
+              <circle cx="320" cy="320" r="319" stroke="rgba(31,61,43,0.06)" />
+              <circle cx="320" cy="320" r="240" stroke="rgba(31,61,43,0.06)" />
+              <circle cx="320" cy="320" r="160" stroke="rgba(139,92,246,0.35)" />
+              <circle cx="320" cy="320" r="80" stroke="rgba(31,61,43,0.06)" />
             </svg>
 
             <div className="relative max-w-6xl mx-auto px-6 pt-36 pb-24">
@@ -203,7 +203,7 @@ export default function ExpertisePage() {
           </section>
 
           {/* Client services: numbered boxes */}
-          <section id="services" className="scroll-mt-24" style={{ backgroundColor: "#F7F7F5", borderTop: "1px solid var(--border)" }}>
+          <section id="services" className="scroll-mt-24" style={{ backgroundColor: "#E1D3B6", borderTop: "1px solid var(--border)" }}>
             <div className="max-w-6xl mx-auto px-6 py-24">
               <div className="grid md:grid-cols-[1fr_1.4fr] gap-8 mb-14 items-end">
                 <div>
@@ -224,14 +224,14 @@ export default function ExpertisePage() {
                     key={s.title}
                     href={s.href}
                     className="lift-card group relative rounded-2xl p-7 flex flex-col min-h-[200px]"
-                    style={{ backgroundColor: "#FFFFFF", border: "1px solid var(--border)" }}
+                    style={{ backgroundColor: "#F6F0E4", border: "1px solid var(--border)" }}
                   >
                     <div className="flex items-start justify-between mb-8">
                       <span className="text-[12px] font-bold tracking-widest" style={{ color: GOLD }}>
                         {String(i + 1).padStart(2, "0")}
                       </span>
                       <span
-                        className="w-9 h-9 rounded-full flex items-center justify-center transition-all duration-300 group-hover:bg-black group-hover:text-white group-hover:rotate-45"
+                        className="w-9 h-9 rounded-full flex items-center justify-center transition-all duration-300 group-hover:bg-[#8B5CF6] group-hover:text-white group-hover:rotate-45"
                         style={{ border: "1px solid var(--border-strong)", color: "var(--text-primary)" }}
                       >
                         <ArrowUpRight size={15} />
@@ -250,12 +250,12 @@ export default function ExpertisePage() {
                 <Link
                   href="/contact"
                   className="group rounded-2xl p-7 flex flex-col justify-between min-h-[200px] transition-transform hover:-translate-y-1"
-                  style={{ backgroundColor: "#0A0A0A", color: "#FFFFFF" }}
+                  style={{ backgroundColor: "#1F3D2B", color: "#F3ECDD" }}
                 >
-                  <span className="text-[12px] font-bold tracking-widest" style={{ color: "#D4AF37" }}>NOT SURE?</span>
+                  <span className="text-[12px] font-bold tracking-widest" style={{ color: "#C4B5FD" }}>NOT SURE?</span>
                   <div>
                     <p className="text-[18px] font-bold tracking-tight mb-3">Tell us the problem. We&apos;ll point you to the right fit.</p>
-                    <span className="inline-flex items-center gap-2 text-[13px] font-semibold" style={{ color: "rgba(255,255,255,0.75)" }}>
+                    <span className="inline-flex items-center gap-2 text-[13px] font-semibold" style={{ color: "rgba(243,236,221,0.75)" }}>
                       Contact us <ArrowRight size={13} className="transition-transform group-hover:translate-x-1" />
                     </span>
                   </div>
@@ -285,7 +285,7 @@ export default function ExpertisePage() {
           </section>
 
           {/* Process with arrows */}
-          <section style={{ backgroundColor: "#F7F7F5", borderTop: "1px solid var(--border)" }}>
+          <section style={{ backgroundColor: "#E1D3B6", borderTop: "1px solid var(--border)" }}>
             <div className="max-w-6xl mx-auto px-6 py-24">
               <div className="mb-14">
                 <Eyebrow>How We Work</Eyebrow>
@@ -298,11 +298,11 @@ export default function ExpertisePage() {
                   <li key={s.n} className="flex flex-col lg:flex-row items-center lg:flex-1">
                     <div
                       className="w-full h-full rounded-2xl p-7"
-                      style={{ backgroundColor: "#FFFFFF", border: "1px solid var(--border)" }}
+                      style={{ backgroundColor: "#F6F0E4", border: "1px solid var(--border)" }}
                     >
                       <span
                         className="w-10 h-10 rounded-full flex items-center justify-center text-[14px] font-bold mb-6"
-                        style={{ backgroundColor: "#0A0A0A", color: "#FFFFFF" }}
+                        style={{ backgroundColor: "#1F3D2B", color: "#F3ECDD" }}
                       >
                         {s.n}
                       </span>
@@ -338,24 +338,24 @@ export default function ExpertisePage() {
                     className="group relative overflow-hidden rounded-3xl p-9 md:p-10 flex flex-col min-h-[340px] transition-transform hover:-translate-y-1"
                     style={
                       p.dark
-                        ? { backgroundColor: "#0A0A0A", color: "#FFFFFF" }
-                        : { backgroundColor: "#FFFFFF", color: "#0A0A0A", border: "1px solid var(--border-strong)" }
+                        ? { backgroundColor: "#1F3D2B", color: "#F3ECDD" }
+                        : { backgroundColor: "#F6F0E4", color: "#1F3D2B", border: "1px solid var(--border-strong)" }
                     }
                   >
                     {/* Corner shape */}
                     <span
                       aria-hidden
                       className="absolute -right-16 -top-16 w-48 h-48 rounded-full transition-transform duration-500 group-hover:scale-110"
-                      style={{ border: `1px solid ${p.dark ? "rgba(212,175,55,0.45)" : "rgba(0,0,0,0.10)"}` }}
+                      style={{ border: `1px solid ${p.dark ? "rgba(139,92,246,0.45)" : "rgba(31,61,43,0.10)"}` }}
                     />
                     <p
                       className="text-[11px] font-bold uppercase tracking-[0.16em] mb-6"
-                      style={{ color: p.dark ? "#D4AF37" : "rgba(10,10,10,0.5)" }}
+                      style={{ color: p.dark ? "#C4B5FD" : "rgba(31,61,43,0.8)" }}
                     >
                       {p.audience}
                     </p>
                     <h3 className="text-[30px] font-extrabold tracking-tight mb-4">{p.name}</h3>
-                    <p className="text-[14.5px] leading-relaxed flex-1" style={{ color: p.dark ? "rgba(255,255,255,0.72)" : "rgba(10,10,10,0.66)" }}>
+                    <p className="text-[14.5px] leading-relaxed flex-1" style={{ color: p.dark ? "rgba(243,236,221,0.72)" : "rgba(31,61,43,0.88)" }}>
                       {p.body}
                     </p>
                     <span className="inline-flex items-center gap-2 text-[13px] font-semibold mt-8">
@@ -368,7 +368,7 @@ export default function ExpertisePage() {
           </section>
 
           {/* Principles */}
-          <section style={{ backgroundColor: "#F7F7F5", borderTop: "1px solid var(--border)" }}>
+          <section style={{ backgroundColor: "#E1D3B6", borderTop: "1px solid var(--border)" }}>
             <div className="max-w-6xl mx-auto px-6 py-24">
               <div className="mb-14">
                 <Eyebrow>Our Principles</Eyebrow>
@@ -378,7 +378,7 @@ export default function ExpertisePage() {
               </div>
               <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
                 {principles.map((p) => (
-                  <div key={p.title} className="rounded-2xl p-7" style={{ backgroundColor: "#FFFFFF", border: "1px solid var(--border)" }}>
+                  <div key={p.title} className="rounded-2xl p-7" style={{ backgroundColor: "#F6F0E4", border: "1px solid var(--border)" }}>
                     <span aria-hidden className="block w-3 h-3 rotate-45 mb-6" style={{ backgroundColor: GOLD }} />
                     <h3 className="text-[16px] font-bold tracking-tight mb-2" style={{ color: "var(--text-primary)" }}>{p.title}</h3>
                     <p className="text-[13.5px] leading-relaxed" style={{ color: "var(--text-secondary)" }}>{p.body}</p>
@@ -392,33 +392,33 @@ export default function ExpertisePage() {
           <section className="px-6 py-24" style={{ borderTop: "1px solid var(--border)" }}>
             <div
               className="relative overflow-hidden max-w-6xl mx-auto rounded-[32px] p-10 md:p-16 grid md:grid-cols-[1.4fr_1fr] gap-10 items-center"
-              style={{ backgroundColor: "#0A0A0A", color: "#FFFFFF" }}
+              style={{ backgroundColor: "#1F3D2B", color: "#F3ECDD" }}
             >
               <span
                 aria-hidden
                 className="absolute -left-24 -bottom-24 w-72 h-72 rounded-full pointer-events-none"
-                style={{ border: "1px solid rgba(212,175,55,0.35)" }}
+                style={{ border: "1px solid rgba(139,92,246,0.35)" }}
               />
               <div className="relative">
                 <h2 className="text-[30px] md:text-[40px] font-bold tracking-tight leading-[1.1] mb-5">
                   Start with one conversation.
                 </h2>
-                <p className="text-[15px] leading-relaxed mb-8 max-w-lg" style={{ color: "rgba(255,255,255,0.7)" }}>
+                <p className="text-[15px] leading-relaxed mb-8 max-w-lg" style={{ color: "rgba(243,236,221,0.7)" }}>
                   Tell us about the workflow, the systems involved and your security requirements. We&apos;ll tell
                   you honestly whether custom development, integration or an existing product is the right fit.
                 </p>
                 <div className="flex flex-wrap gap-3">
                   <Link
                     href="/contact"
-                    className="inline-flex items-center gap-2 px-7 py-4 text-[14px] font-bold rounded-xl transition-transform hover:-translate-y-0.5"
-                    style={{ backgroundColor: "#FFFFFF", color: "#0A0A0A" }}
+                    className="inline-flex items-center gap-2 px-7 py-4 text-[14px] font-bold rounded-xl transition-all hover:-translate-y-0.5 hover:!bg-[#6D28D9]"
+                    style={{ backgroundColor: "#7C3AED", color: "#FFFFFF" }}
                   >
                     Book a discovery call <ArrowRight size={14} />
                   </Link>
                   <Link
                     href="/demo"
                     className="inline-flex items-center gap-2 px-7 py-4 text-[14px] font-semibold rounded-xl transition-colors hover:bg-white/10"
-                    style={{ border: "1px solid rgba(255,255,255,0.25)", color: "#FFFFFF" }}
+                    style={{ border: "1px solid rgba(243,236,221,0.25)", color: "#F3ECDD" }}
                   >
                     Request a demo
                   </Link>
@@ -434,9 +434,9 @@ export default function ExpertisePage() {
                   <li
                     key={item.label}
                     className="flex items-center justify-between gap-4 px-5 py-4 rounded-xl"
-                    style={{ border: "1px solid rgba(255,255,255,0.12)" }}
+                    style={{ border: "1px solid rgba(243,236,221,0.12)" }}
                   >
-                    <span className="text-[12px] font-semibold" style={{ color: "rgba(255,255,255,0.45)" }}>{item.label}</span>
+                    <span className="text-[12px] font-semibold" style={{ color: "rgba(243,236,221,0.75)" }}>{item.label}</span>
                     <span className="text-[13px] font-medium text-right">{item.value}</span>
                   </li>
                 ))}

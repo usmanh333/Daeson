@@ -44,7 +44,7 @@ export default function ContactPage() {
         <section className="relative overflow-hidden pt-32 pb-16 px-6">
           <div
             className="absolute inset-0 pointer-events-none"
-            style={{ background: "radial-gradient(ellipse 80% 50% at 50% -10%, rgba(255,255,255,0.06) 0%, transparent 70%)" }}
+            style={{ background: "radial-gradient(ellipse 80% 50% at 50% -10%, rgba(243,236,221,0.06) 0%, transparent 70%)" }}
           />
           <div className="absolute inset-0 grid-bg opacity-20 pointer-events-none" />
           <div className="max-w-3xl mx-auto text-center relative z-10">
@@ -131,7 +131,7 @@ export default function ContactPage() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 px-5 py-2.5 text-[13px] font-semibold rounded-xl transition-all hover:opacity-90"
-                  style={{ backgroundColor: "var(--blue)", color: "var(--on-blue)" }}
+                  style={{ backgroundColor: "var(--purple-fill)", color: "#FFFFFF" }}
                 >
                   <Calendar size={13} />
                   Schedule Introductory Call

@@ -5,14 +5,14 @@ import Link from "next/link";
 
 export default function SheriffCaseStudy() {
   return (
-    <main className="bg-[#f5f5f3] text-black">
+    <main className="bg-[#f5f5f3] text-[#1F3D2B]">
 
       {/* ================= HERO ================= */}
-      <section className="bg-black text-white">
+      <section className="bg-[#1F3D2B] text-white">
         <div className="max-w-7xl mx-auto px-6 pt-32 pb-40 grid lg:grid-cols-2 gap-20 items-center">
 
           <div>
-            <p className="uppercase tracking-[0.2em] text-[13px] text-gray-400">
+            <p className="uppercase tracking-[0.2em] text-[13px] text-[#1F3D2B]/60">
               Case Study
             </p>
 
@@ -20,7 +20,7 @@ export default function SheriffCaseStudy() {
               Desktop System for <br /> USA Sheriff Police Department
             </h1>
 
-            <p className="mt-8 text-gray-400 leading-[1.8] max-w-[520px]">
+            <p className="mt-8 text-[#1F3D2B]/60 leading-[1.8] max-w-[520px]">
               A secure, mission-critical desktop application built to manage
               law enforcement operations, case records, and sensitive data
               with absolute reliability.
@@ -53,12 +53,12 @@ export default function SheriffCaseStudy() {
       </section>
 
       {/* ================= CHALLENGES ================= */}
-      <section className="bg-white">
+      <section className="bg-[#F6F0E4]">
         <div className="max-w-7xl mx-auto px-6 py-32 grid md:grid-cols-2 gap-20">
 
           <div>
-            {/* <span className="inline-block w-10 h-1 bg-yellow-400 mb-4"></span> */}
-            <h3 className="text-[22px] font-medium underline underline-offset-8 decoration-yellow-400">
+            {/* <span className="inline-block w-10 h-1 bg-[#C4B5FD] mb-4"></span> */}
+            <h3 className="text-[22px] font-medium underline underline-offset-8 decoration-[#C4B5FD]">
               The Challenges
             </h3>
           </div>
@@ -85,16 +85,16 @@ export default function SheriffCaseStudy() {
       </section>
 
       {/* ================= SOLUTION ================= */}
-      <section className="bg-black text-white">
+      <section className="bg-[#1F3D2B] text-white">
         <div className="max-w-7xl mx-auto px-6 py-32 grid md:grid-cols-2 gap-20">
 
           <div>
-            {/* <span className="inline-block w-10 h-1 bg-yellow-400 mb-4"></span> */}
-            <h3 className="text-[22px] font-medium underline underline-offset-8 decoration-yellow-400">
+            {/* <span className="inline-block w-10 h-1 bg-[#C4B5FD] mb-4"></span> */}
+            <h3 className="text-[22px] font-medium underline underline-offset-8 decoration-[#C4B5FD]">
               Our Solution
             </h3>
           </div>
-          <p className="leading-[1.8] text-gray-400">
+          <p className="leading-[1.8] text-[#1F3D2B]/60">
             We designed and built a custom desktop application tailored
             specifically for sheriff departments, focusing on reliability,
             usability, and compliance.
@@ -114,12 +114,12 @@ export default function SheriffCaseStudy() {
       </section>
 
       {/* ================= FEATURES ================= */}
-      <section className="bg-white">
+      <section className="bg-[#F6F0E4]">
         <div className="max-w-7xl mx-auto px-6 py-32">
 
           <div className="mb-12">
-            {/* <span className="inline-block w-10 h-1 bg-yellow-400 mb-4"></span> */}
-            <h3 className="text-[22px] font-medium underline underline-offset-8 decoration-yellow-400">
+            {/* <span className="inline-block w-10 h-1 bg-[#C4B5FD] mb-4"></span> */}
+            <h3 className="text-[22px] font-medium underline underline-offset-8 decoration-[#C4B5FD]">
               Key Features
             </h3>
           </div>
@@ -139,17 +139,17 @@ export default function SheriffCaseStudy() {
       </section>
 
       {/* ================= RESULTS ================= */}
-      <section className="bg-black text-white">
+      <section className="bg-[#1F3D2B] text-white">
         <div className="max-w-7xl mx-auto px-6 py-32">
 
           <div className="mb-8">
-            {/* <span className="inline-block w-10 h-1 bg-yellow-400 mb-4"></span> */}
-            <h3 className="text-[22px] font-medium underline underline-offset-8 decoration-yellow-400">
+            {/* <span className="inline-block w-10 h-1 bg-[#C4B5FD] mb-4"></span> */}
+            <h3 className="text-[22px] font-medium underline underline-offset-8 decoration-[#C4B5FD]">
               Results & Impact
             </h3>
           </div>
 
-          <p className="text-gray-400 leading-[1.8] max-w-[640px]">
+          <p className="text-[#1F3D2B]/60 leading-[1.8] max-w-[640px]">
             The new system significantly reduced operational delays, improved
             data accuracy, and strengthened overall security compliance.
             Officers now access and manage critical information faster and
@@ -164,13 +164,13 @@ export default function SheriffCaseStudy() {
       </section>
 
       {/* ================= NEXT ================= */}
-      <section className="bg-[#111] text-white">
+      <section className="bg-[#1F3D2B] text-white">
         <div className="max-w-7xl mx-auto px-6 py-24 flex justify-between items-center">
           <h3 className="text-[22px] font-medium">Next Case Study</h3>
           <Link
   href="/collective-casestudies"
   className="inline-block border-b border-white pb-1 text-white! font-medium 
-             hover:text-yellow-400 hover:border-yellow-400 transition-colors"
+             hover:text-[#C4B5FD] hover:border-[#C4B5FD] transition-colors"
 >
   View all case studies
 </Link>
@@ -179,14 +179,14 @@ export default function SheriffCaseStudy() {
       </section>
 
       {/* ================= FOOTER ================= */}
-      <footer className="bg-white text-black px-6 py-10">
+      <footer className="bg-[#F6F0E4] text-[#1F3D2B] px-6 py-10">
         <div className="max-w-7xl mx-auto">
 
           <div className="grid grid-cols-1 lg:grid-cols-4 gap-16">
 
             <div>
               <p className="text-2xl font-light">Interested in working with us?</p>
-              <a href="/contact" className="inline-block mt-4 text-xl border-b-2 border-yellow-400 pb-1">
+              <a href="/contact" className="inline-block mt-4 text-xl border-b-2 border-[#7C3AED] pb-1">
                 Start a Project
               </a>
 
@@ -248,7 +248,7 @@ export default function SheriffCaseStudy() {
 
           </div>
 
-          <div className="border-t border-black/10 mt-12 pt-6 flex justify-between text-sm text-gray-500">
+          <div className="border-t border-[#1F3D2B]/10 mt-12 pt-6 flex justify-between text-sm text-gray-500">
             <p>Home &gt; Case Studies</p>
             <p>© 2025 Daeson Technologies</p>
           </div>

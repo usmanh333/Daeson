@@ -107,7 +107,7 @@ export default function ArticlePage() {
         <section className="relative overflow-hidden pt-32 pb-16 px-6">
           <div
             className="absolute inset-0 pointer-events-none"
-            style={{ background: "radial-gradient(ellipse 70% 50% at 50% -10%, rgba(212,175,55,0.05) 0%, transparent 70%)" }}
+            style={{ background: "radial-gradient(ellipse 70% 50% at 50% -10%, rgba(139,92,246,0.05) 0%, transparent 70%)" }}
           />
           <div className="absolute inset-0 grid-bg opacity-15 pointer-events-none" />
           <div className="max-w-3xl mx-auto relative z-10">
@@ -267,7 +267,7 @@ export default function ArticlePage() {
               <Link
                 href="/contact"
                 className="inline-flex items-center gap-2 px-6 py-3 text-[14px] font-bold rounded-xl hover:opacity-90 transition-all"
-                style={{ backgroundColor: "var(--gold)", color: "#0B0E14" }}
+                style={{ backgroundColor: "var(--purple-fill)", color: "#FFFFFF" }}
               >
                 Share your perspective
               </Link>

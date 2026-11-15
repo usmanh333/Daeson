@@ -20,7 +20,7 @@ export default function ExpertiseFlipCard({ index, icon, title, summary, points,
   const [flipped, setFlipped] = useState(false);
 
   return (
-    <div className="h-[460px] sm:h-[420px]" style={{ perspective: "1600px" }}>
+    <div className="h-[480px] sm:h-[440px] lg:h-[570px]" style={{ perspective: "1600px" }}>
       <div
         className="relative w-full h-full transition-transform duration-700 motion-reduce:transition-none"
         style={{ transformStyle: "preserve-3d", transform: flipped ? "rotateY(180deg)" : "none" }}
@@ -35,7 +35,7 @@ export default function ExpertiseFlipCard({ index, icon, title, summary, points,
           className="absolute inset-0 rounded-3xl p-8 flex flex-col text-left transition-shadow hover:shadow-[var(--shadow-lg)]"
           style={{ backfaceVisibility: "hidden", backgroundColor: "var(--bg-card)", border: "1px solid var(--border)" }}
         >
-          <div className="flex items-center justify-between mb-10">
+          <div className="w-full flex items-center justify-between mb-10">
             <span
               className="w-12 h-12 rounded-2xl flex items-center justify-center"
               style={{ border: "1px solid var(--border-strong)", color: accent }}
@@ -62,12 +62,12 @@ export default function ExpertiseFlipCard({ index, icon, title, summary, points,
           style={{
             backfaceVisibility: "hidden",
             transform: "rotateY(180deg)",
-            backgroundColor: "#0A0A0A",
-            color: "#FFFFFF",
+            backgroundColor: "#1F3D2B",
+            color: "#F3ECDD",
           }}
         >
           <div className="flex items-center justify-between mb-6">
-            <p className="text-[11px] font-bold uppercase tracking-widest" style={{ color: "rgba(255,255,255,0.5)" }}>
+            <p className="text-[11px] font-bold uppercase tracking-widest" style={{ color: "rgba(243,236,221,0.5)" }}>
               {index} · What&apos;s included
             </p>
             <button
@@ -76,7 +76,7 @@ export default function ExpertiseFlipCard({ index, icon, title, summary, points,
               tabIndex={flipped ? 0 : -1}
               aria-label={`${title}: back to summary`}
               className="w-8 h-8 rounded-full flex items-center justify-center transition-colors hover:bg-white/10"
-              style={{ color: "rgba(255,255,255,0.7)" }}
+              style={{ color: "rgba(243,236,221,0.7)" }}
             >
               <RotateCw size={14} />
             </button>
@@ -84,8 +84,8 @@ export default function ExpertiseFlipCard({ index, icon, title, summary, points,
           <h3 className="text-[18px] font-bold tracking-tight mb-5">{title}</h3>
           <ul className="space-y-3 flex-1">
             {points.map((p) => (
-              <li key={p} className="flex items-start gap-3 text-[13px] leading-snug" style={{ color: "rgba(255,255,255,0.78)" }}>
-                <ArrowRight size={13} className="mt-0.5 shrink-0" style={{ color: "#D4AF37" }} />
+              <li key={p} className="flex items-start gap-3 text-[13px] leading-snug" style={{ color: "rgba(243,236,221,0.78)" }}>
+                <ArrowRight size={13} className="mt-0.5 shrink-0" style={{ color: "#C4B5FD" }} />
                 {p}
               </li>
             ))}
@@ -94,7 +94,7 @@ export default function ExpertiseFlipCard({ index, icon, title, summary, points,
             href={href}
             tabIndex={flipped ? 0 : -1}
             className="inline-flex items-center gap-2 text-[13px] font-semibold mt-6"
-            style={{ color: "#FFFFFF" }}
+            style={{ color: "#F3ECDD" }}
           >
             Learn more <ArrowRight size={13} />
           </Link>

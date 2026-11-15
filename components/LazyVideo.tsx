@@ -49,7 +49,7 @@ export default function LazyVideo({ src, label, aspect }: { src: string; label: 
   };
 
   return (
-    <div className="relative w-full" style={{ aspectRatio: aspect, backgroundColor: "#000" }}>
+    <div className="relative w-full" style={{ aspectRatio: aspect, backgroundColor: "#1F3D2B" }}>
       <video
         ref={videoRef}
         src={shouldLoad ? src : undefined}
@@ -70,9 +70,9 @@ export default function LazyVideo({ src, label, aspect }: { src: string; label: 
         <div className="absolute inset-0 flex flex-col items-center justify-center gap-3" aria-live="polite">
           <span
             className="w-9 h-9 rounded-full border-2 animate-spin"
-            style={{ borderColor: "rgba(255,255,255,0.18)", borderTopColor: "#FFFFFF" }}
+            style={{ borderColor: "rgba(243,236,221,0.18)", borderTopColor: "#F3ECDD" }}
           />
-          <span className="text-[11px] font-semibold tracking-widest uppercase" style={{ color: "rgba(255,255,255,0.6)" }}>
+          <span className="text-[11px] font-semibold tracking-widest uppercase" style={{ color: "rgba(243,236,221,0.6)" }}>
             Loading video
           </span>
         </div>
@@ -84,7 +84,7 @@ export default function LazyVideo({ src, label, aspect }: { src: string; label: 
           onClick={toggleSound}
           aria-label={muted ? "Play with sound" : "Mute video"}
           className="absolute bottom-4 right-4 inline-flex items-center gap-2 px-3.5 py-2 rounded-full text-[12px] font-semibold transition-all hover:scale-105"
-          style={{ backgroundColor: "rgba(255,255,255,0.95)", color: "#000" }}
+          style={{ backgroundColor: "rgba(243,236,221,0.95)", color: "#1F3D2B" }}
         >
           {muted ? <VolumeX size={14} /> : <Volume2 size={14} />}
           {muted ? "Tap for sound" : "Sound on"}

@@ -87,7 +87,7 @@ export default function HomeOnePage() {
 
         <section className="section-light px-6 py-24">
           <div className="max-w-5xl mx-auto grid md:grid-cols-[auto_1fr] gap-10 items-center">
-            <div className="w-20 h-20 rounded-2xl flex items-center justify-center" style={{ backgroundColor: "#000" }}>
+            <div className="w-20 h-20 rounded-2xl flex items-center justify-center" style={{ backgroundColor: "#1F3D2B" }}>
               <Wallet size={34} color="#FFF" />
             </div>
             <div>

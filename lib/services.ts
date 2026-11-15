@@ -37,5 +37,5 @@ export const SERVICES = [
   },
 ] as const;
 
-export const GOLD = "#B9912F";
-export const GOLD_LIGHT = "#D4AF37";
+export const GOLD = "var(--gold)";
+export const GOLD_LIGHT = "#C4B5FD";

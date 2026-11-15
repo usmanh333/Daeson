@@ -31,7 +31,7 @@ export default function AskAylinorVideo() {
           </p>
           <h2 className="text-[38px] md:text-[60px] font-extrabold leading-[1.05] tracking-tight mb-6" style={{ color: "var(--text-primary)" }}>
             Meet{" "}
-            <span className="inline-block px-4 md:px-5 pb-1 rounded-xl" style={{ backgroundColor: "#000", color: "#FFF" }}>
+            <span className="inline-block px-4 md:px-5 pb-1 rounded-xl" style={{ backgroundColor: "#1F3D2B", color: "#F3ECDD" }}>
               Ask Aylinor
             </span>
           </h2>
@@ -44,13 +44,13 @@ export default function AskAylinorVideo() {
 
         <div
           className="rounded-3xl overflow-hidden grid md:grid-cols-5"
-          style={{ border: "1px solid rgba(0,0,0,0.12)", boxShadow: "0 30px 80px rgba(0,0,0,0.12)" }}
+          style={{ border: "1px solid rgba(31,61,43,0.12)", boxShadow: "0 30px 80px rgba(31,61,43,0.12)" }}
         >
-          <div className="md:col-span-3 p-8 md:p-12 flex flex-col justify-center" style={{ backgroundColor: "#FFF" }}>
+          <div className="md:col-span-3 p-8 md:p-12 flex flex-col justify-center" style={{ backgroundColor: "#F6F0E4" }}>
             <div className="space-y-6 mb-10">
               {points.map(({ icon: Icon, title, body }) => (
                 <div key={title} className="flex items-start gap-4">
-                  <div className="w-10 h-10 rounded-xl flex items-center justify-center shrink-0" style={{ backgroundColor: "#000" }}>
+                  <div className="w-10 h-10 rounded-xl flex items-center justify-center shrink-0" style={{ backgroundColor: "#1F3D2B" }}>
                     <Icon size={17} color="#FFF" />
                   </div>
                   <div>
@@ -71,7 +71,7 @@ export default function AskAylinorVideo() {
             </div>
           </div>
 
-          <div className="md:col-span-2 flex items-center" style={{ backgroundColor: "#000" }}>
+          <div className="md:col-span-2 flex items-center" style={{ backgroundColor: "#1F3D2B" }}>
             <LazyVideo src="/Ask%20Aylinor.mp4" label="Ask Aylinor product video" aspect="720 / 1082" />
           </div>
         </div>

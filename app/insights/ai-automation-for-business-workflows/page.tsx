@@ -106,14 +106,14 @@ export default function ArticlePage() {
       <Navbar />
       <main style={{ backgroundColor: "var(--bg-page)", minHeight: "100vh" }}>
         <section className="relative overflow-hidden pt-32 pb-16 px-6">
-          <div className="absolute inset-0 pointer-events-none" style={{ background: "radial-gradient(ellipse 70% 50% at 50% -10%, rgba(59,130,246,0.05) 0%, transparent 70%)" }} />
+          <div className="absolute inset-0 pointer-events-none" style={{ background: "radial-gradient(ellipse 70% 50% at 50% -10%, rgba(139,92,246,0.05) 0%, transparent 70%)" }} />
           <div className="absolute inset-0 grid-bg opacity-15 pointer-events-none" />
           <div className="max-w-3xl mx-auto relative z-10">
             <Link href="/insights" className="inline-flex items-center gap-1.5 text-[12px] font-medium mb-8 transition-colors" style={{ color: "var(--text-faint)" }}>
               <ArrowLeft size={12} /> Back to Insights
             </Link>
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-widest" style={{ backgroundColor: "rgba(59,130,246,0.08)", color: "var(--blue)", border: "1px solid rgba(59,130,246,0.20)" }}>
+              <span className="text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-widest" style={{ backgroundColor: "rgba(139,92,246,0.08)", color: "var(--blue)", border: "1px solid rgba(139,92,246,0.20)" }}>
                 Workflow Automation
               </span>
               <span className="text-[11px]" style={{ color: "var(--text-faint)" }}>10 min read</span>

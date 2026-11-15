@@ -65,18 +65,18 @@ export default function Navbar() {
       {/* {announced && (
         <div
           className="w-full text-center py-2 px-4 relative"
-          style={{ background: "rgba(255,255,255,0.06)", borderBottom: "1px solid rgba(255,255,255,0.12)" }}
+          style={{ background: "rgba(243,236,221,0.06)", borderBottom: "1px solid rgba(243,236,221,0.12)" }}
         >
-          <span className="text-[12px] font-medium hidden sm:inline" style={{ color: "rgba(255,255,255,0.75)" }}>
+          <span className="text-[12px] font-medium hidden sm:inline" style={{ color: "rgba(243,236,221,0.75)" }}>
             Daeson Technologies · Enterprise Technology Company · UAE · Pakistan · Canada
           </span>
-          <span className="text-[11px] font-medium sm:hidden" style={{ color: "rgba(255,255,255,0.75)" }}>
+          <span className="text-[11px] font-medium sm:hidden" style={{ color: "rgba(243,236,221,0.75)" }}>
             Daeson Technologies · Enterprise Technology Company
           </span>
           <button
             onClick={() => setAnnounced(false)}
             className="absolute right-4 top-1/2 -translate-y-1/2 opacity-50 hover:opacity-100 transition-opacity"
-            style={{ color: "#FFFFFF" }}
+            style={{ color: "#F3ECDD" }}
             aria-label="Dismiss announcement"
           >
             <X size={14} />
@@ -100,7 +100,7 @@ export default function Navbar() {
               {/* Subtle glow behind logo */}
               <div
                 className="absolute inset-0 rounded-full transition-opacity duration-300 opacity-0 group-hover:opacity-100"
-                style={{ background: "radial-gradient(circle, rgba(255,255,255,0.35) 0%, transparent 70%)", filter: "blur(10px)" }}
+                style={{ background: "radial-gradient(circle, rgba(243,236,221,0.35) 0%, transparent 70%)", filter: "blur(10px)" }}
               />
               <Image
                 src="/logo.png"

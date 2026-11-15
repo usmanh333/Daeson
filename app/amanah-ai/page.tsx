@@ -171,7 +171,7 @@ export default function AmanahAIPage() {
         <div className="absolute inset-0 grid-bg opacity-15 pointer-events-none" />
         <div
           className="absolute top-24 right-0 w-[500px] h-[500px] rounded-full pointer-events-none"
-          style={{ background: "radial-gradient(circle, rgba(212,175,55,0.04) 0%, transparent 70%)", filter: "blur(120px)" }}
+          style={{ background: "radial-gradient(circle, rgba(139,92,246,0.04) 0%, transparent 70%)", filter: "blur(120px)" }}
         />
 
         {/* Hero */}
@@ -179,7 +179,7 @@ export default function AmanahAIPage() {
           <div className="max-w-3xl">
             <div
               className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-[11px] font-semibold tracking-widest uppercase mb-8"
-              style={{ border: "1px solid rgba(212,175,55,0.25)", backgroundColor: "rgba(212,175,55,0.06)", color: "var(--gold)" }}
+              style={{ border: "1px solid rgba(139,92,246,0.25)", backgroundColor: "rgba(139,92,246,0.06)", color: "var(--gold)" }}
             >
               Full Platform Access by Request
             </div>
@@ -225,8 +225,8 @@ export default function AmanahAIPage() {
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
                 href="/contact"
-                className="inline-flex items-center gap-2 px-6 py-3.5 text-white text-[14px] font-semibold rounded-xl transition-all hover:opacity-90 hover:-translate-y-0.5"
-                style={{ backgroundColor: "var(--gold)" }}
+                className="inline-flex items-center gap-2 px-6 py-3.5 text-[14px] font-semibold rounded-xl transition-all hover:opacity-90 hover:-translate-y-0.5"
+                style={{ backgroundColor: "var(--purple-fill)", color: "#FFFFFF" }}
               >
                 Contact for Full Platform Access <ArrowRight size={14} />
               </Link>
@@ -244,13 +244,13 @@ export default function AmanahAIPage() {
         {/* Development status banner */}
         <section
           className="relative border-y py-5"
-          style={{ backgroundColor: "rgba(212,175,55,0.04)", borderColor: "rgba(212,175,55,0.15)" }}
+          style={{ backgroundColor: "rgba(139,92,246,0.04)", borderColor: "rgba(139,92,246,0.15)" }}
         >
           <div className="max-w-7xl mx-auto px-6">
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
               <div
                 className="px-3 py-1.5 rounded-lg text-[11px] font-bold uppercase tracking-widest shrink-0"
-                style={{ backgroundColor: "rgba(212,175,55,0.1)", color: "var(--gold)", border: "1px solid rgba(212,175,55,0.25)" }}
+                style={{ backgroundColor: "rgba(139,92,246,0.1)", color: "var(--gold)", border: "1px solid rgba(139,92,246,0.25)" }}
               >
                 Platform Access
               </div>
@@ -292,7 +292,7 @@ export default function AmanahAIPage() {
               <div>
                 <p
                   className="text-[11px] font-semibold uppercase tracking-widest mb-5"
-                  style={{ color: "#EF4444" }}
+                  style={{ color: "#FCA5A5" }}
                 >
                   Current State
                 </p>
@@ -378,7 +378,7 @@ export default function AmanahAIPage() {
             <div className="mb-12">
               <div
                 className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-[11px] font-semibold tracking-widest uppercase mb-5"
-                style={{ border: "1px solid rgba(212,175,55,0.25)", backgroundColor: "rgba(212,175,55,0.06)", color: "var(--gold)" }}
+                style={{ border: "1px solid rgba(139,92,246,0.25)", backgroundColor: "rgba(139,92,246,0.06)", color: "var(--gold)" }}
               >
                 Platform Capabilities
               </div>
@@ -429,8 +429,8 @@ export default function AmanahAIPage() {
               </div>
               <Link
                 href="/contact"
-                className="inline-flex items-center justify-center gap-2 px-6 py-3.5 text-white text-[14px] font-semibold rounded-xl shrink-0 transition-all hover:opacity-90 hover:-translate-y-0.5"
-                style={{ backgroundColor: "var(--gold)" }}
+                className="inline-flex items-center justify-center gap-2 px-6 py-3.5 text-[14px] font-semibold rounded-xl shrink-0 transition-all hover:opacity-90 hover:-translate-y-0.5"
+                style={{ backgroundColor: "var(--purple-fill)", color: "#FFFFFF" }}
               >
                 Contact for Full Platform Access <ArrowRight size={14} />
               </Link>
@@ -449,7 +449,7 @@ export default function AmanahAIPage() {
                 <div>
                   <div
                     className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-[11px] font-semibold tracking-widest uppercase mb-5"
-                    style={{ border: "1px solid rgba(212,175,55,0.25)", backgroundColor: "rgba(212,175,55,0.06)", color: "var(--gold)" }}
+                    style={{ border: "1px solid rgba(139,92,246,0.25)", backgroundColor: "rgba(139,92,246,0.06)", color: "var(--gold)" }}
                   >
                     Scholarly Collaboration
                   </div>
@@ -485,7 +485,7 @@ export default function AmanahAIPage() {
             <div className="mb-12">
               <div
                 className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-[11px] font-semibold tracking-widest uppercase mb-5"
-                style={{ border: "1px solid rgba(212,175,55,0.25)", backgroundColor: "rgba(212,175,55,0.06)", color: "var(--gold)" }}
+                style={{ border: "1px solid rgba(139,92,246,0.25)", backgroundColor: "rgba(139,92,246,0.06)", color: "var(--gold)" }}
               >
                 <FileText size={10} /> Research & Whitepapers
               </div>
@@ -532,7 +532,7 @@ export default function AmanahAIPage() {
                 >
                   <span
                     className="self-start text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-widest mb-4"
-                    style={{ backgroundColor: "rgba(212,175,55,0.08)", color: "var(--gold)", border: "1px solid rgba(212,175,55,0.20)" }}
+                    style={{ backgroundColor: "rgba(139,92,246,0.08)", color: "var(--gold)", border: "1px solid rgba(139,92,246,0.20)" }}
                   >
                     {wp.tag}
                   </span>
@@ -549,7 +549,7 @@ export default function AmanahAIPage() {
                     href={wp.href}
                     download
                     className="inline-flex items-center gap-2 px-5 py-3 text-[13px] font-bold rounded-xl transition-all hover:opacity-90 mt-auto"
-                    style={{ backgroundColor: "var(--gold)", color: "white" }}
+                    style={{ backgroundColor: "var(--purple-fill)", color: "#FFFFFF" }}
                   >
                     <Download size={14} /> Download PDF
                   </a>
@@ -631,8 +631,8 @@ export default function AmanahAIPage() {
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link
                   href="/contact"
-                  className="inline-flex items-center justify-center gap-2 px-6 py-3.5 text-white text-[14px] font-semibold rounded-xl transition-all duration-200 hover:opacity-90 hover:-translate-y-0.5"
-                  style={{ backgroundColor: "var(--gold)" }}
+                  className="inline-flex items-center justify-center gap-2 px-6 py-3.5 text-[14px] font-semibold rounded-xl transition-all duration-200 hover:opacity-90 hover:-translate-y-0.5"
+                  style={{ backgroundColor: "var(--purple-fill)", color: "#FFFFFF" }}
                 >
                   Contact for Full Platform Access <ArrowRight size={14} />
                 </Link>

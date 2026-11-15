@@ -83,7 +83,7 @@ export default function IslamicFinanceTechGapArticle() {
         <section className="relative pt-32 pb-16 px-6 overflow-hidden">
           <div
             className="absolute inset-0 pointer-events-none"
-            style={{ background: "radial-gradient(ellipse 70% 40% at 50% 0%, rgba(185,145,47,0.08) 0%, transparent 70%)" }}
+            style={{ background: "radial-gradient(ellipse 70% 40% at 50% 0%, rgba(139,92,246,0.08) 0%, transparent 70%)" }}
           />
           <div className="max-w-3xl mx-auto relative z-10">
             <Link
@@ -97,7 +97,7 @@ export default function IslamicFinanceTechGapArticle() {
             <div className="flex items-center gap-3 mb-6">
               <span
                 className="px-3 py-1 rounded-full text-[11px] font-semibold uppercase tracking-wider"
-                style={{ backgroundColor: "rgba(255,255,255,0.08)", color: "rgba(255,255,255,0.85)", border: "1px solid rgba(255,255,255,0.18)" }}
+                style={{ backgroundColor: "rgba(243,236,221,0.08)", color: "rgba(243,236,221,0.85)", border: "1px solid rgba(243,236,221,0.18)" }}
               >
                 Founder Insight
               </span>
@@ -118,7 +118,7 @@ export default function IslamicFinanceTechGapArticle() {
             <div className="flex items-center gap-3 pt-6" style={{ borderTop: "1px solid var(--border)" }}>
               <div
                 className="w-9 h-9 rounded-full flex items-center justify-center text-[12px] font-bold text-white"
-                style={{ background: "linear-gradient(135deg, #3A3A3A 0%, #6A6A6A 100%)" }}
+                style={{ background: "linear-gradient(135deg, #2C533B 0%, #1F3D2B 100%)" }}
               >
                 MZ
               </div>
@@ -143,7 +143,7 @@ export default function IslamicFinanceTechGapArticle() {
         <section className="px-6 pb-4">
           <div className="max-w-3xl mx-auto">
             <div className="answer-capsule">
-              <p className="text-[11px] font-semibold uppercase tracking-widest mb-2" style={{ color: "#FFFFFF" }}>The short answer</p>
+              <p className="text-[11px] font-semibold uppercase tracking-widest mb-2" style={{ color: "#F3ECDD" }}>The short answer</p>
               <p>
                 Islamic finance institutions have a technology gap because their compliance requirements are complex, governance-sensitive, and poorly served by generic fintech tools. Closing it requires purpose-built infrastructure, not adapted versions of conventional banking software.
               </p>
@@ -188,7 +188,7 @@ export default function IslamicFinanceTechGapArticle() {
                   "Prohibition-checking (riba, gharar, maysir) requires semantic analysis of contract terms, not keyword filtering",
                 ].map((point, i) => (
                   <li key={i} className="flex items-start gap-3">
-                    <span className="mt-2 w-1.5 h-1.5 rounded-full shrink-0" style={{ backgroundColor: "#B9912F" }} />
+                    <span className="mt-2 w-1.5 h-1.5 rounded-full shrink-0" style={{ backgroundColor: "var(--gold)" }} />
                     <span>{point}</span>
                   </li>
                 ))}
@@ -246,7 +246,7 @@ export default function IslamicFinanceTechGapArticle() {
                     body: "AI assistance in Shariah compliance must produce reasoning, not just outputs. Scholars need to understand why, not just what. AI assistance must be explainable and open to challenge.",
                   },
                 ].map((item) => (
-                  <div key={item.title} className="pl-5" style={{ borderLeft: "2px solid rgba(185,145,47,0.35)" }}>
+                  <div key={item.title} className="pl-5" style={{ borderLeft: "2px solid rgba(139,92,246,0.35)" }}>
                     <h3 className="text-[15px] font-semibold mb-2" style={{ color: "var(--text-primary)" }}>{item.title}</h3>
                     <p className="text-[14px]">{item.body}</p>
                   </div>
@@ -292,9 +292,9 @@ export default function IslamicFinanceTechGapArticle() {
 
             <section
               className="rounded-2xl p-8"
-              style={{ background: "linear-gradient(135deg, rgba(185,145,47,0.1) 0%, rgba(185,145,47,0.05) 100%)", border: "1px solid rgba(185,145,47,0.2)" }}
+              style={{ background: "linear-gradient(135deg, rgba(139,92,246,0.1) 0%, rgba(139,92,246,0.05) 100%)", border: "1px solid rgba(139,92,246,0.2)" }}
             >
-              <p className="text-[11px] font-semibold uppercase tracking-widest mb-3" style={{ color: "#B9912F" }}>
+              <p className="text-[11px] font-semibold uppercase tracking-widest mb-3" style={{ color: "var(--gold)" }}>
                 About Aylinor
               </p>
               <p className="text-[15px] leading-relaxed" style={{ color: "var(--text-secondary)" }}>
@@ -303,15 +303,15 @@ export default function IslamicFinanceTechGapArticle() {
               <div className="mt-6 flex flex-wrap gap-3">
                 <Link
                   href="/amanah-ai"
-                  className="inline-flex items-center gap-2 px-5 py-2.5 text-[13px] font-semibold rounded-xl text-white transition-colors"
-                  style={{ backgroundColor: "#B9912F" }}
+                  className="inline-flex items-center gap-2 px-5 py-2.5 text-[13px] font-semibold rounded-xl transition-colors"
+                  style={{ backgroundColor: "var(--purple-fill)", color: "#FFFFFF" }}
                 >
                   Learn about Aylinor <ArrowRight size={13} />
                 </Link>
                 <Link
                   href="/contact"
                   className="inline-flex items-center gap-2 px-5 py-2.5 text-[13px] font-semibold rounded-xl transition-all"
-                  style={{ border: "1px solid rgba(185,145,47,0.3)", color: "#B9912F" }}
+                  style={{ border: "1px solid rgba(139,92,246,0.3)", color: "var(--gold)" }}
                 >
                   Request a briefing
                 </Link>
@@ -339,12 +339,12 @@ export default function IslamicFinanceTechGapArticle() {
                   {
                     title: "AI and Shariah Compliance: Building Infrastructure That Supports Scholars",
                     href: "/insights/ai-shariah-compliance",
-                    color: "#B9912F",
+                    color: "var(--gold)",
                   },
                   {
                     title: "Why Real Estate Firms Are Replacing SaaS Stacks with Owned Infrastructure",
                     href: "/insights/real-estate-saas-vs-owned",
-                    color: "#FFFFFF",
+                    color: "#F3ECDD",
                   },
                 ].map((rel) => (
                   <Link

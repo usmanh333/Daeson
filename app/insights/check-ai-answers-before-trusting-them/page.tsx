@@ -126,7 +126,7 @@ export default function ArticlePage() {
         <section className="relative overflow-hidden pt-32 pb-16 px-6">
           <div
             className="absolute inset-0 pointer-events-none"
-            style={{ background: "radial-gradient(ellipse 70% 50% at 50% -10%, rgba(59,130,246,0.05) 0%, transparent 70%)" }}
+            style={{ background: "radial-gradient(ellipse 70% 50% at 50% -10%, rgba(139,92,246,0.05) 0%, transparent 70%)" }}
           />
           <div className="absolute inset-0 grid-bg opacity-15 pointer-events-none" />
           <div className="max-w-3xl mx-auto relative z-10">
@@ -135,7 +135,7 @@ export default function ArticlePage() {
             </Link>
 
             <div className="flex items-center gap-3 mb-6">
-              <span className="text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-widest" style={{ backgroundColor: "rgba(59,130,246,0.08)", color: "var(--blue)", border: "1px solid rgba(59,130,246,0.20)" }}>
+              <span className="text-[10px] font-bold px-2.5 py-1 rounded-full uppercase tracking-widest" style={{ backgroundColor: "rgba(139,92,246,0.08)", color: "var(--blue)", border: "1px solid rgba(139,92,246,0.20)" }}>
                 Responsible AI
               </span>
               <span className="text-[11px]" style={{ color: "var(--text-faint)" }}>6 min read</span>

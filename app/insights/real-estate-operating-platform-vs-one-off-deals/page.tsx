@@ -72,7 +72,7 @@ export default function ArticlePage() {
         <section className="relative overflow-hidden pt-32 pb-16 px-6">
           <div
             className="absolute inset-0 pointer-events-none"
-            style={{ background: "radial-gradient(ellipse 70% 50% at 50% -10%, rgba(255,255,255,0.05) 0%, transparent 70%)" }}
+            style={{ background: "radial-gradient(ellipse 70% 50% at 50% -10%, rgba(243,236,221,0.05) 0%, transparent 70%)" }}
           />
           <div className="absolute inset-0 grid-bg opacity-15 pointer-events-none" />
           <div className="max-w-3xl mx-auto relative z-10">
@@ -230,7 +230,7 @@ export default function ArticlePage() {
                 <Link
                   href="/contact"
                   className="inline-flex items-center gap-2 px-7 py-3.5 text-[14px] font-bold rounded-xl hover:opacity-90 transition-all"
-                  style={{ backgroundColor: "var(--blue)", color: "var(--on-blue)" }}
+                  style={{ backgroundColor: "var(--purple-fill)", color: "#FFFFFF" }}
                 >
                   Schedule a Consultation <ArrowRight size={14} />
                 </Link>

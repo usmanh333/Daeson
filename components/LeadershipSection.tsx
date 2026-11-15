@@ -27,7 +27,7 @@ const leaders = [
     name: "Usman Ahmad",
     title: "Co-Founder & Technical Lead",
     accentColor: "var(--text-secondary)",
-    rawAccent: "#888888",
+    rawAccent: "#8B5CF6",
     positioning:
       "Responsible for system architecture, scalable product execution, and technology operations across Daeson's enterprise infrastructure platforms.",
     areas: [

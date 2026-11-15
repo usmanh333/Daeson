@@ -265,7 +265,7 @@ export default function ContactForm() {
           type="submit"
           disabled={status === "submitting"}
           className="w-full py-4 text-[14px] font-bold rounded-xl transition-all hover:opacity-90 cursor-pointer disabled:opacity-60 disabled:cursor-not-allowed"
-          style={{ backgroundColor: "var(--blue)", color: "var(--on-blue)", boxShadow: "0 4px 20px rgba(0,0,0,0.35)" }}
+          style={{ backgroundColor: "var(--blue)", color: "var(--on-blue)", boxShadow: "0 4px 20px rgba(31,61,43,0.35)" }}
         >
           {status === "submitting" ? "Sending..." : "Request Executive Consultation"}
           {status !== "submitting" && <ArrowRight size={14} className="inline ml-1.5 -mt-0.5" />}

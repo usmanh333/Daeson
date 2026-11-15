@@ -94,7 +94,7 @@ const leaders = [
     name: "Mahnoor Zafar",
     title: "Founder & Strategic Systems Lead",
     accentColor: "var(--blue)",
-    tintHex: "#888888",
+    tintHex: "#8B5CF6",
     linkedin: "https://www.linkedin.com/in/mahnoor-zafar-6a33a4248/",
     bio: [
       "Mahnoor founded Daeson Technologies to address a structural gap she observed across operationally complex industries: businesses patching together generic SaaS tools and calling it infrastructure, then wondering why their operations remained fragmented, slow, and dependent on vendors who don't understand their workflow.",
@@ -115,7 +115,7 @@ const leaders = [
     name: "Usman Ahmad",
     title: "Co-Founder & Technical Lead",
     accentColor: "var(--text-secondary)",
-    tintHex: "#888888",
+    tintHex: "#8B5CF6",
     linkedin: null as null | string,
     bio: [
       "Usman leads the technical execution of Daeson's operational infrastructure platforms. His responsibility spans system architecture, engineering leadership, and the technical operations that ensure every platform we build is enterprise-grade, scalable, and fully owned by the client.",
@@ -431,7 +431,7 @@ export default function AboutPage() {
                 <Link
                   href="/contact"
                   className="inline-flex items-center gap-2 px-4 py-2.5 text-[13px] font-semibold rounded-lg transition-colors"
-                  style={{ backgroundColor: "var(--blue)", color: "var(--on-blue)" }}
+                  style={{ backgroundColor: "var(--purple-fill)", color: "#FFFFFF" }}
                 >
                   Schedule consultation
                   <ArrowRight size={13} />

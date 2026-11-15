@@ -118,7 +118,7 @@ export default function ArticlePage() {
         <section className="px-6 pb-16">
           <div
             className="max-w-3xl mx-auto rounded-2xl overflow-hidden relative flex items-center justify-center py-10"
-            style={{ backgroundColor: "#FFFFFF", border: "1px solid var(--blue-border)" }}
+            style={{ backgroundColor: "#F6F0E4", border: "1px solid var(--blue-border)" }}
           >
             <Image
               src="/home-1-0-logo.png"
@@ -265,7 +265,7 @@ export default function ArticlePage() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 px-7 py-3.5 text-[14px] font-bold rounded-xl hover:opacity-90 transition-all"
-                  style={{ backgroundColor: "var(--blue)", color: "var(--on-blue)" }}
+                  style={{ backgroundColor: "var(--purple-fill)", color: "#FFFFFF" }}
                 >
                   Try Home 1.0 <ExternalLink size={14} />
                 </a>

@@ -274,7 +274,7 @@ export default function PartnershipsPage() {
                   <Link
                     href="/contact"
                     className="inline-flex items-center gap-2 px-6 py-3.5 text-[14px] font-semibold rounded-xl transition-all duration-200"
-                    style={{ backgroundColor: "var(--blue)", color: "var(--on-blue)", boxShadow: "0 4px 20px rgba(0, 0, 0, 0.35)" }}
+                    style={{ backgroundColor: "var(--purple-fill)", color: "#FFFFFF", boxShadow: "0 4px 20px rgba(31,61,43,0.35)" }}
                   >
                     Begin Partnership Discussion
                     <ArrowRight size={14} />

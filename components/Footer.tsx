@@ -43,14 +43,14 @@ export default function Footer({ showBadges = true }: { showBadges?: boolean }) 
   return (
     <footer
       style={{
-        background: "linear-gradient(170deg, #141414 0%, #0A0A0A 60%, #050505 100%)",
-        borderTop: "1px solid rgba(255, 255, 255, 0.10)",
+        background: "linear-gradient(170deg, #2C533B 0%, #1F3D2B 60%, #172F21 100%)",
+        borderTop: "1px solid rgba(243,236,221,0.10)",
       }}
     >
       {/* Subtle top glow */}
       <div
         className="w-full h-px"
-        style={{ background: "linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.25) 50%, transparent 100%)" }}
+        style={{ background: "linear-gradient(90deg, transparent 0%, rgba(243,236,221,0.25) 50%, transparent 100%)" }}
       />
 
       <div className="max-w-7xl mx-auto px-6 pt-16 pb-8">
@@ -64,8 +64,8 @@ export default function Footer({ showBadges = true }: { showBadges?: boolean }) 
               <div
                 className="w-8 h-8 rounded-lg flex items-center justify-center shrink-0"
                 style={{
-                  backgroundColor: "rgba(255,255,255,0.04)",
-                  border: "1px solid rgba(255,255,255,0.10)",
+                  backgroundColor: "rgba(243,236,221,0.04)",
+                  border: "1px solid rgba(243,236,221,0.10)",
                 }}
               >
                 <Image
@@ -86,21 +86,21 @@ export default function Footer({ showBadges = true }: { showBadges?: boolean }) 
                 </span>
                 <span
                   className="text-[8px] font-semibold tracking-[0.3em] uppercase"
-                  style={{ color: "rgba(255,255,255,0.4)", lineHeight: 1 }}
+                  style={{ color: "rgba(243,236,221,0.76)", lineHeight: 1 }}
                 >
                   Technologies
                 </span>
               </div>
             </Link>
-            <p className="text-[13px] leading-relaxed mb-6 max-w-xs" style={{ color: "rgba(255,255,255,0.52)" }}>
-              Enterprise technology company building owned AI-powered infrastructure. Founder-built. Workflow-first. No subscriptions.
+            <p className="text-[13px] leading-relaxed mb-6 max-w-xs" style={{ color: "rgba(243,236,221,0.84)" }}>
+              Custom AI software and enterprise platforms, with specialist expertise in Islamic finance and real estate. Founder-led. Workflow-first.
             </p>
             <a
               href="mailto:info@daesontechnologies.online"
               className="text-[12px] transition-colors"
-              style={{ color: "rgba(255,255,255,0.35)" }}
-              onMouseEnter={e => ((e.currentTarget as HTMLElement).style.color = "rgba(255,255,255,0.75)")}
-              onMouseLeave={e => ((e.currentTarget as HTMLElement).style.color = "rgba(255,255,255,0.35)")}
+              style={{ color: "rgba(243,236,221,0.76)" }}
+              onMouseEnter={e => ((e.currentTarget as HTMLElement).style.color = "rgba(243,236,221,0.75)")}
+              onMouseLeave={e => ((e.currentTarget as HTMLElement).style.color = "rgba(243,236,221,0.76)")}
             >
               info@daesontechnologies.online
             </a>
@@ -108,7 +108,7 @@ export default function Footer({ showBadges = true }: { showBadges?: boolean }) 
 
           {/* Our Expertise */}
           <div>
-            <p className="text-[10px] font-semibold tracking-[0.18em] uppercase mb-5" style={{ color: "rgba(255,255,255,0.3)" }}>
+            <p className="text-[10px] font-semibold tracking-[0.18em] uppercase mb-5" style={{ color: "rgba(243,236,221,0.68)" }}>
               Our Expertise
             </p>
             <ul className="space-y-3">
@@ -118,9 +118,9 @@ export default function Footer({ showBadges = true }: { showBadges?: boolean }) 
                     href={link.href}
                     {...linkTargetProps(link.href)}
                     className="text-[13px] transition-colors"
-                    style={{ color: "rgba(255,255,255,0.52)" }}
-                    onMouseEnter={e => ((e.currentTarget as HTMLElement).style.color = "#ffffff")}
-                    onMouseLeave={e => ((e.currentTarget as HTMLElement).style.color = "rgba(255,255,255,0.52)")}
+                    style={{ color: "rgba(243,236,221,0.84)" }}
+                    onMouseEnter={e => ((e.currentTarget as HTMLElement).style.color = "#C4B5FD")}
+                    onMouseLeave={e => ((e.currentTarget as HTMLElement).style.color = "rgba(243,236,221,0.84)")}
                   >
                     {link.label}
                   </Link>
@@ -131,7 +131,7 @@ export default function Footer({ showBadges = true }: { showBadges?: boolean }) 
 
           {/* Company */}
           <div>
-            <p className="text-[10px] font-semibold tracking-[0.18em] uppercase mb-5" style={{ color: "rgba(255,255,255,0.3)" }}>
+            <p className="text-[10px] font-semibold tracking-[0.18em] uppercase mb-5" style={{ color: "rgba(243,236,221,0.68)" }}>
               Company
             </p>
             <ul className="space-y-3">
@@ -141,9 +141,9 @@ export default function Footer({ showBadges = true }: { showBadges?: boolean }) 
                     href={link.href}
                     {...linkTargetProps(link.href)}
                     className="text-[13px] transition-colors"
-                    style={{ color: "rgba(255,255,255,0.52)" }}
-                    onMouseEnter={e => ((e.currentTarget as HTMLElement).style.color = "#ffffff")}
-                    onMouseLeave={e => ((e.currentTarget as HTMLElement).style.color = "rgba(255,255,255,0.52)")}
+                    style={{ color: "rgba(243,236,221,0.84)" }}
+                    onMouseEnter={e => ((e.currentTarget as HTMLElement).style.color = "#C4B5FD")}
+                    onMouseLeave={e => ((e.currentTarget as HTMLElement).style.color = "rgba(243,236,221,0.84)")}
                   >
                     {link.label}
                   </Link>
@@ -154,13 +154,13 @@ export default function Footer({ showBadges = true }: { showBadges?: boolean }) 
 
           {/* Markets */}
           <div>
-            <p className="text-[10px] font-semibold tracking-[0.18em] uppercase mb-5" style={{ color: "rgba(255,255,255,0.3)" }}>
+            <p className="text-[10px] font-semibold tracking-[0.18em] uppercase mb-5" style={{ color: "rgba(243,236,221,0.68)" }}>
               Markets Served
             </p>
             <ul className="space-y-3">
               {markets.map((market) => (
-                <li key={market} className="flex items-center gap-2 text-[13px]" style={{ color: "rgba(255,255,255,0.52)" }}>
-                  <span className="w-1 h-1 rounded-full shrink-0" style={{ backgroundColor: "rgba(255,255,255,0.5)" }} />
+                <li key={market} className="flex items-center gap-2 text-[13px]" style={{ color: "rgba(243,236,221,0.84)" }}>
+                  <span className="w-1 h-1 rounded-full shrink-0" style={{ backgroundColor: "rgba(243,236,221,0.5)" }} />
                   {market}
                 </li>
               ))}
@@ -169,7 +169,7 @@ export default function Footer({ showBadges = true }: { showBadges?: boolean }) 
 
           {/* Recognition */}
           <div>
-            <p className="text-[10px] font-semibold tracking-[0.18em] uppercase mb-5" style={{ color: "rgba(255,255,255,0.3)" }}>
+            <p className="text-[10px] font-semibold tracking-[0.18em] uppercase mb-5" style={{ color: "rgba(243,236,221,0.68)" }}>
               Recognition
             </p>
             <ul className="space-y-3">
@@ -181,9 +181,9 @@ export default function Footer({ showBadges = true }: { showBadges?: boolean }) 
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-[13px] transition-colors flex items-center gap-1"
-                      style={{ color: "rgba(255,255,255,0.52)" }}
-                      onMouseEnter={e => ((e.currentTarget as HTMLElement).style.color = "#ffffff")}
-                      onMouseLeave={e => ((e.currentTarget as HTMLElement).style.color = "rgba(255,255,255,0.52)")}
+                      style={{ color: "rgba(243,236,221,0.84)" }}
+                      onMouseEnter={e => ((e.currentTarget as HTMLElement).style.color = "#C4B5FD")}
+                      onMouseLeave={e => ((e.currentTarget as HTMLElement).style.color = "rgba(243,236,221,0.84)")}
                     >
                       {link.label}
                       <svg width="10" height="10" viewBox="0 0 10 10" fill="none" aria-hidden="true">
@@ -194,9 +194,9 @@ export default function Footer({ showBadges = true }: { showBadges?: boolean }) 
                     <Link
                       href={link.href}
                       className="text-[13px] transition-colors"
-                      style={{ color: "rgba(255,255,255,0.52)" }}
-                      onMouseEnter={e => ((e.currentTarget as HTMLElement).style.color = "#ffffff")}
-                      onMouseLeave={e => ((e.currentTarget as HTMLElement).style.color = "rgba(255,255,255,0.52)")}
+                      style={{ color: "rgba(243,236,221,0.84)" }}
+                      onMouseEnter={e => ((e.currentTarget as HTMLElement).style.color = "#C4B5FD")}
+                      onMouseLeave={e => ((e.currentTarget as HTMLElement).style.color = "rgba(243,236,221,0.84)")}
                     >
                       {link.label}
                     </Link>
@@ -209,8 +209,8 @@ export default function Footer({ showBadges = true }: { showBadges?: boolean }) 
 
         {/* Trust Badges */}
         {showBadges && (
-        <div className="mb-10 py-8" style={{ borderTop: "1px solid rgba(255,255,255,0.07)", borderBottom: "1px solid rgba(255,255,255,0.07)" }}>
-          <p className="text-[10px] font-semibold tracking-[0.18em] uppercase mb-7 text-center" style={{ color: "rgba(255,255,255,0.28)" }}>
+        <div className="mb-10 py-8" style={{ borderTop: "1px solid rgba(243,236,221,0.07)", borderBottom: "1px solid rgba(243,236,221,0.07)" }}>
+          <p className="text-[10px] font-semibold tracking-[0.18em] uppercase mb-7 text-center" style={{ color: "rgba(243,236,221,0.28)" }}>
             Trusted &amp; Recognized By
           </p>
           <div className="flex flex-wrap items-center justify-center gap-10">
@@ -237,18 +237,18 @@ export default function Footer({ showBadges = true }: { showBadges?: boolean }) 
         )}
 
         {/* Bottom */}
-        <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-[12px] pt-2" style={{ color: "rgba(255,255,255,0.3)" }}>
+        <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-[12px] pt-2" style={{ color: "rgba(243,236,221,0.68)" }}>
           <div>
-            <p>© {new Date().getFullYear()} Daeson Technologies 2025. All rights reserved.</p>
-            <p className="text-[11px] mt-1" style={{ color: "rgba(255,255,255,0.2)" }}>
+            <p>© {new Date().getFullYear()} Daeson Technologies. All rights reserved.</p>
+            <p className="text-[11px] mt-1" style={{ color: "rgba(243,236,221,0.2)" }}>
           
             </p>
           </div>
           <div className="flex items-center gap-6">
-            <Link href="/about" className="transition-colors" onMouseEnter={e => ((e.currentTarget as HTMLElement).style.color = "rgba(255,255,255,0.7)")} onMouseLeave={e => ((e.currentTarget as HTMLElement).style.color = "rgba(255,255,255,0.3)")}>About</Link>
-            <Link href="/partnerships" className="transition-colors" onMouseEnter={e => ((e.currentTarget as HTMLElement).style.color = "rgba(255,255,255,0.7)")} onMouseLeave={e => ((e.currentTarget as HTMLElement).style.color = "rgba(255,255,255,0.3)")}>Partnerships</Link>
-            <Link href="/contact" className="transition-colors" onMouseEnter={e => ((e.currentTarget as HTMLElement).style.color = "rgba(255,255,255,0.7)")} onMouseLeave={e => ((e.currentTarget as HTMLElement).style.color = "rgba(255,255,255,0.3)")}>Contact</Link>
-            <Link href="/insights" className="transition-colors" onMouseEnter={e => ((e.currentTarget as HTMLElement).style.color = "rgba(255,255,255,0.7)")} onMouseLeave={e => ((e.currentTarget as HTMLElement).style.color = "rgba(255,255,255,0.3)")}>Insights</Link>
+            <Link href="/about" className="transition-colors" onMouseEnter={e => ((e.currentTarget as HTMLElement).style.color = "#C4B5FD")} onMouseLeave={e => ((e.currentTarget as HTMLElement).style.color = "rgba(243,236,221,0.68)")}>About</Link>
+            <Link href="/partnerships" className="transition-colors" onMouseEnter={e => ((e.currentTarget as HTMLElement).style.color = "#C4B5FD")} onMouseLeave={e => ((e.currentTarget as HTMLElement).style.color = "rgba(243,236,221,0.68)")}>Partnerships</Link>
+            <Link href="/contact" className="transition-colors" onMouseEnter={e => ((e.currentTarget as HTMLElement).style.color = "#C4B5FD")} onMouseLeave={e => ((e.currentTarget as HTMLElement).style.color = "rgba(243,236,221,0.68)")}>Contact</Link>
+            <Link href="/insights" className="transition-colors" onMouseEnter={e => ((e.currentTarget as HTMLElement).style.color = "#C4B5FD")} onMouseLeave={e => ((e.currentTarget as HTMLElement).style.color = "rgba(243,236,221,0.68)")}>Insights</Link>
           </div>
         </div>
       </div>

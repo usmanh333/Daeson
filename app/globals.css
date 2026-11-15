@@ -1,105 +1,115 @@
 @import "tailwindcss";
 
-/* ─── Black & White Editorial Theme ──────────────────────────────── */
+/* ─── Brand palette: Forest green · Sand beige · Electric purple ──
+   Forest  #1F3D2B  dark backgrounds, text on sand
+   Sand    #E8DCC4  light backgrounds, text on forest
+   Purple  #8B5CF6  accent (buttons, highlights); tints are used for
+                    accent TEXT so it stays readable on both grounds. */
 :root {
-  /* Backgrounds, deep black, layered surfaces */
-  --bg-page:     #080808;
-  --bg-surface:  #0E0E0E;
-  --bg-card:     #121212;
-  --bg-elevated: #1C1C1C;
+  --forest:        #1F3D2B;
+  --forest-deep:   #172F21;
+  --sand:          #E8DCC4;
+  --sand-light:    #F6F0E4;
+  --purple:        #8B5CF6;
+  --purple-hover:  #6D28D9;
+  /* Button fill: same purple family, dark enough for white text (5.7:1) */
+  --purple-fill:   #7C3AED;
 
-  /* Primary accent: Monochrome white (sole color element) */
-  --blue:        #FFFFFF;
-  --blue-hover:  #D4D4D4;
-  --blue-muted:  rgba(255, 255, 255, 0.10);
-  --blue-border: rgba(255, 255, 255, 0.24);
+  /* Backgrounds, forest green layers */
+  --bg-page:     #1F3D2B;
+  --bg-surface:  #1A3525;
+  --bg-card:     #244632;
+  --bg-elevated: #2C533B;
 
-  /* Gold: Amanah AI only */
-  --gold:        #B9912F;
-  --gold-light:  #C9A840;
-  --gold-muted:  rgba(185, 145, 47, 0.12);
-  --gold-border: rgba(185, 145, 47, 0.25);
+  /* Accent, purple tinted light enough to read on forest */
+  --blue:        #C4B5FD;
+  --blue-hover:  #DDD6FE;
+  --blue-muted:  rgba(139, 92, 246, 0.18);
+  --blue-border: rgba(139, 92, 246, 0.50);
 
-  /* Typography, white hierarchy */
-  --text-primary:   #F2F2F2;
-  --text-secondary: rgba(242, 242, 242, 0.62);
-  --text-muted:     rgba(242, 242, 242, 0.40);
-  --text-faint:     rgba(242, 242, 242, 0.24);
+  /* Former gold accents now share the purple accent */
+  --gold:        #C4B5FD;
+  --gold-light:  #DDD6FE;
+  --gold-muted:  rgba(139, 92, 246, 0.18);
+  --gold-border: rgba(139, 92, 246, 0.50);
 
-  /* Borders, barely-there white lines */
-  --border:        rgba(255, 255, 255, 0.07);
-  --border-hover:  rgba(255, 255, 255, 0.14);
-  --border-strong: rgba(255, 255, 255, 0.22);
+  /* Typography, sand on forest */
+  --text-primary:   #F3ECDD;
+  --text-secondary: rgba(243, 236, 221, 0.88);
+  --text-muted:     rgba(243, 236, 221, 0.80);
+  --text-faint:     rgba(243, 236, 221, 0.74);
 
-  /* Shadows, deep on dark */
-  --shadow-card: 0 1px 4px rgba(0, 0, 0, 0.7);
-  --shadow-lg:   0 8px 40px rgba(0, 0, 0, 0.8);
+  /* Borders, sand lines */
+  --border:        rgba(232, 220, 196, 0.12);
+  --border-hover:  rgba(232, 220, 196, 0.22);
+  --border-strong: rgba(232, 220, 196, 0.32);
 
-  /* Amanah AI (isolated system, keep as-is) */
-  --primary:           #0f3d2e;
-  --primary-dark:      #082818;
-  --primary-light:     #1a6b50;
-  --primary-muted:     rgba(15, 61, 46, 0.2);
-  --gold-amanah:       #d4af37;
-  --gold-amanah-light: #f0d060;
-  --gold-amanah-muted: rgba(212, 175, 55, 0.12);
+  --shadow-card: 0 1px 4px rgba(10, 24, 16, 0.5);
+  --shadow-lg:   0 10px 40px rgba(10, 24, 16, 0.55);
 
-  /* Text color to place on top of a solid var(--blue) fill, flips in .section-light */
-  --on-blue: #000000;
+  /* Aylinor sub-system (kept as names, recoloured to the palette) */
+  --primary:           #1F3D2B;
+  --primary-dark:      #172F21;
+  --primary-light:     #2C533B;
+  --primary-muted:     rgba(31, 61, 43, 0.2);
+  --gold-amanah:       #8B5CF6;
+  --gold-amanah-light: #C4B5FD;
+  --gold-amanah-muted: rgba(139, 92, 246, 0.12);
 
-  /* Legacy */
-  --accent: #D4AF37;
+  /* Text colour to place on top of a solid var(--blue) fill */
+  --on-blue: #1F3D2B;
 
-  /* Neutral section backgrounds */
-  --bg-purple:      #080808;
-  --bg-purple-soft: rgba(255, 255, 255, 0.03);
-  --bg-purple-mid:  rgba(255, 255, 255, 0.06);
+  --accent: #8B5CF6;
+
+  --bg-purple:      #1F3D2B;
+  --bg-purple-soft: rgba(232, 220, 196, 0.04);
+  --bg-purple-mid:  rgba(232, 220, 196, 0.07);
 }
 
-/* ─── Green aliases → Monochrome (solutions page) ────────────────── */
 :root {
-  --green:        #FFFFFF;
-  --green-hover:  #D4D4D4;
-  --green-muted:  rgba(255, 255, 255, 0.10);
-  --green-border: rgba(255, 255, 255, 0.24);
-  --green-light:  #E5E5E5;
+  --green:        #C4B5FD;
+  --green-hover:  #DDD6FE;
+  --green-muted:  rgba(139, 92, 246, 0.18);
+  --green-border: rgba(139, 92, 246, 0.50);
+  --green-light:  #DDD6FE;
 }
 
-/* ─── Light section, flips the theme to white bg / black text ──────
-   Wrap any section in this class to alternate it against the dark
-   page for an editorial black/white "zebra" rhythm. Every component
-   already reads colors from these custom properties, so wrapping is
-   enough, no per-component edits needed. ───────────────────────── */
+/* ─── Light section: sand background, forest text, deep purple accent ── */
 .section-light {
-  --bg-page:     #FFFFFF;
-  --bg-surface:  #F6F6F6;
-  --bg-card:     #FFFFFF;
-  --bg-elevated: #ECECEC;
+  --bg-page:     #E8DCC4;
+  --bg-surface:  #E1D3B6;
+  --bg-card:     #F6F0E4;
+  --bg-elevated: #DCCBAA;
 
-  --blue:        #000000;
-  --blue-hover:  #333333;
-  --blue-muted:  rgba(0, 0, 0, 0.06);
-  --blue-border: rgba(0, 0, 0, 0.18);
+  --blue:        #5B21B6;
+  --blue-hover:  #4C1D95;
+  --blue-muted:  rgba(139, 92, 246, 0.12);
+  --blue-border: rgba(109, 40, 217, 0.35);
 
-  --green:        #000000;
-  --green-hover:  #333333;
-  --green-muted:  rgba(0, 0, 0, 0.06);
-  --green-border: rgba(0, 0, 0, 0.18);
-  --green-light:  #333333;
+  --gold:        #5B21B6;
+  --gold-light:  #6D28D9;
+  --gold-muted:  rgba(139, 92, 246, 0.12);
+  --gold-border: rgba(109, 40, 217, 0.35);
+
+  --green:        #5B21B6;
+  --green-hover:  #4C1D95;
+  --green-muted:  rgba(139, 92, 246, 0.12);
+  --green-border: rgba(109, 40, 217, 0.35);
+  --green-light:  #7C3AED;
 
   --on-blue: #FFFFFF;
 
-  --text-primary:   #0A0A0A;
-  --text-secondary: rgba(10, 10, 10, 0.66);
-  --text-muted:     rgba(10, 10, 10, 0.46);
-  --text-faint:     rgba(10, 10, 10, 0.32);
+  --text-primary:   #1F3D2B;
+  --text-secondary: rgba(31, 61, 43, 0.90);
+  --text-muted:     rgba(31, 61, 43, 0.84);
+  --text-faint:     rgba(31, 61, 43, 0.78);
 
-  --border:        rgba(0, 0, 0, 0.10);
-  --border-hover:  rgba(0, 0, 0, 0.18);
-  --border-strong: rgba(0, 0, 0, 0.28);
+  --border:        rgba(31, 61, 43, 0.14);
+  --border-hover:  rgba(31, 61, 43, 0.24);
+  --border-strong: rgba(31, 61, 43, 0.34);
 
-  --shadow-card: 0 1px 4px rgba(0, 0, 0, 0.08);
-  --shadow-lg:   0 8px 30px rgba(0, 0, 0, 0.12);
+  --shadow-card: 0 1px 4px rgba(31, 61, 43, 0.10);
+  --shadow-lg:   0 10px 30px rgba(31, 61, 43, 0.16);
 
   background-color: var(--bg-page);
   color: var(--text-primary);
@@ -108,18 +118,19 @@
 .section-light .grid-bg,
 .section-light .grid-bg-fine {
   background-image:
-    linear-gradient(rgba(0, 0, 0, 0.05) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(0, 0, 0, 0.05) 1px, transparent 1px);
+    linear-gradient(rgba(31, 61, 43, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(31, 61, 43, 0.06) 1px, transparent 1px);
 }
 
 /* Navbar logo is drawn solid white on dark pages and solid black on light ones */
-.nav-logo { filter: brightness(0) invert(1); }
-.section-light .nav-logo { filter: brightness(0); }
+/* Logo: sand on forest, forest on sand */
+.nav-logo { filter: brightness(0) invert(94%) sepia(12%) saturate(300%) hue-rotate(5deg); }
+.section-light .nav-logo { filter: brightness(0) invert(18%) sepia(25%) saturate(900%) hue-rotate(95deg); }
 
-/* Homepage: pure white throughout, surfaces that would be light grey become white too */
-.home-white { --bg-surface: #FFFFFF; }
+/* Homepage and expertise: one continuous sand ground */
+.home-white { --bg-surface: #E8DCC4; }
 
-.section-light ::-webkit-scrollbar-thumb { background: rgba(0, 0, 0, 0.25); }
+.section-light ::-webkit-scrollbar-thumb { background: rgba(31, 61, 43, 0.35); }
 
 /* ─── Base ───────────────────────────────────────────────────────── */
 html {
@@ -140,7 +151,10 @@ body {
 
 html, body, #__next { min-height: 100%; }
 img { max-width: 100%; display: block; }
-a { color: inherit; text-decoration: none; }
+/* In the base layer so Tailwind text-colour classes on links can override it */
+@layer base {
+  a { color: inherit; text-decoration: none; }
+}
 
 /* ─── Semantic Utility Classes ───────────────────────────────────── */
 .dt-bg-page     { background-color: var(--bg-page); }
@@ -164,36 +178,36 @@ a { color: inherit; text-decoration: none; }
 /* ─── Scrollbar ──────────────────────────────────────────────────── */
 ::-webkit-scrollbar { width: 4px; }
 ::-webkit-scrollbar-track { background: var(--bg-page); }
-::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.30); border-radius: 4px; }
+::-webkit-scrollbar-thumb { background: rgba(139, 92, 246, 0.55); border-radius: 4px; }
 
 /* ─── Grid background, subtle white lines on dark ───────────────── */
 .grid-bg {
   background-image:
-    linear-gradient(rgba(255, 255, 255, 0.028) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.028) 1px, transparent 1px);
+    linear-gradient(rgba(232, 220, 196, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(232, 220, 196, 0.04) 1px, transparent 1px);
   background-size: 64px 64px;
 }
 
 .grid-bg-fine {
   background-image:
-    linear-gradient(rgba(255, 255, 255, 0.022) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.022) 1px, transparent 1px);
+    linear-gradient(rgba(232, 220, 196, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(232, 220, 196, 0.03) 1px, transparent 1px);
   background-size: 32px 32px;
 }
 
 /* ─── Monochrome Gradient Utilities ──────────────────────────────── */
 .purple-gradient {
-  background: linear-gradient(135deg, #FFFFFF 0%, #D4D4D4 50%, #9A9A9A 100%);
+  background: linear-gradient(135deg, #8B5CF6 0%, #7C3AED 100%);
 }
 
 .purple-glow {
-  box-shadow: 0 0 48px rgba(255, 255, 255, 0.18);
+  box-shadow: 0 0 48px rgba(139, 92, 246, 0.30);
 }
 
 /* ─── Answer Capsule (GEO / AI Search) ──────────────────────────── */
 .answer-capsule {
-  background: rgba(255, 255, 255, 0.05);
-  border-left: 3px solid #FFFFFF;
+  background: var(--blue-muted);
+  border-left: 3px solid var(--purple);
   padding: 16px 20px;
   border-radius: 0 8px 8px 0;
   font-size: 15px;
@@ -211,21 +225,21 @@ a { color: inherit; text-decoration: none; }
 }
 
 .text-gradient-primary {
-  background: linear-gradient(135deg, #FFFFFF 0%, #A0A0A0 100%);
+  background: linear-gradient(135deg, var(--text-primary) 0%, var(--blue) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
 .text-gradient-blue {
-  background: linear-gradient(135deg, #FFFFFF 0%, #A0A0A0 100%);
+  background: linear-gradient(135deg, var(--text-primary) 0%, var(--blue) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
 .text-gold-gradient {
-  background: linear-gradient(135deg, #d4af37 0%, #f0d060 50%, #d4af37 100%);
+  background: linear-gradient(135deg, #8B5CF6 0%, #C4B5FD 50%, #8B5CF6 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -233,7 +247,7 @@ a { color: inherit; text-decoration: none; }
 
 /* ─── Glass Cards ────────────────────────────────────────────────── */
 .glass-card {
-  background: rgba(255, 255, 255, 0.03);
+  background: rgba(232, 220, 196, 0.04);
   border: 1px solid var(--border);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
@@ -266,12 +280,12 @@ a:hover .footer-badge-img,
 /* ─── Section Separator ──────────────────────────────────────────── */
 .section-sep {
   height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.08), transparent);
+  background: linear-gradient(90deg, transparent, var(--border-strong), transparent);
 }
 
 /* ─── Amanah AI section gradient ────────────────────────────────── */
 .section-gradient {
-  background: linear-gradient(160deg, rgba(15, 61, 46, 0.3) 0%, rgba(8, 40, 24, 0.4) 100%);
+  background: linear-gradient(160deg, rgba(31, 61, 43, 0.35) 0%, rgba(23, 47, 33, 0.45) 100%);
 }
 
 /* ─── Press card hover ───────────────────────────────────────────── */
@@ -279,8 +293,8 @@ a:hover .footer-badge-img,
   transition: border-color 0.25s, box-shadow 0.25s, transform 0.25s;
 }
 .press-card:hover {
-  border-color: rgba(255, 255, 255, 0.30) !important;
-  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.6) !important;
+  border-color: var(--blue-border) !important;
+  box-shadow: var(--shadow-lg) !important;
   transform: translateY(-2px);
 }
 
@@ -298,8 +312,8 @@ a:hover .footer-badge-img,
   100% { opacity: 1; }
 }
 @keyframes pulseGold {
-  0%, 100% { box-shadow: 0 0 0 0 rgba(212, 175, 55, 0.3); opacity: 0.85; }
-  50%       { box-shadow: 0 0 18px 6px rgba(212, 175, 55, 0.12); opacity: 1; }
+  0%, 100% { box-shadow: 0 0 0 0 rgba(139, 92, 246, 0.35); opacity: 0.85; }
+  50%       { box-shadow: 0 0 18px 6px rgba(139, 92, 246, 0.15); opacity: 1; }
 }
 @keyframes float {
   0%, 100% { transform: translateY(0px); }
@@ -348,11 +362,11 @@ a:hover .footer-badge-img,
 .marquee:hover .marquee-track { animation-play-state: paused; }
 
 .btn-solid {
-  background-color: var(--blue);
-  color: var(--on-blue);
-  transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
+  background-color: var(--purple-fill);
+  color: #FFFFFF;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
 }
-.btn-solid:hover { transform: translateY(-2px); opacity: 0.9; box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35); }
+.btn-solid:hover { transform: translateY(-2px); background-color: var(--purple-hover); box-shadow: 0 12px 28px rgba(124, 58, 237, 0.35); }
 
 .btn-ghost {
   border: 1px solid var(--border-strong);
@@ -366,22 +380,26 @@ a:hover .footer-badge-img,
   color: var(--bg-page);
   border-color: var(--text-primary);
 }
+.btn-ghost:focus-visible, .btn-solid:focus-visible, .btn-light:focus-visible, .btn-outline-light:focus-visible {
+  outline: 2px solid var(--purple);
+  outline-offset: 3px;
+}
 
 /* Fixed white/black buttons for dark cards that sit inside a light page */
 .btn-light {
-  background-color: #FFFFFF;
-  color: #0A0A0A;
+  background-color: #E8DCC4;
+  color: #1F3D2B;
   transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
 }
-.btn-light:hover { transform: translateY(-2px); background-color: #E8E8E8; box-shadow: 0 12px 28px rgba(0, 0, 0, 0.45); }
+.btn-light:hover { transform: translateY(-2px); background-color: #F6F0E4; box-shadow: 0 12px 28px rgba(10, 24, 16, 0.45); }
 
 .btn-outline-light {
-  border: 1px solid rgba(255, 255, 255, 0.28);
-  color: #FFFFFF;
+  border: 1px solid rgba(232, 220, 196, 0.35);
+  color: #F3ECDD;
   background-color: transparent;
   transition: transform 0.2s ease, background-color 0.2s ease, color 0.2s ease;
 }
-.btn-outline-light:hover { transform: translateY(-2px); background-color: #FFFFFF; color: #0A0A0A; }
+.btn-outline-light:hover { transform: translateY(-2px); background-color: #E8DCC4; color: #1F3D2B; }
 
 /* Text links styled as buttons: arrow nudges and the label dims slightly */
 .link-hover { transition: gap 0.2s ease, opacity 0.2s ease; }
@@ -392,23 +410,23 @@ a:hover .footer-badge-img,
 .btn-solid:hover svg, .btn-ghost:hover svg, .btn-light:hover svg, .btn-outline-light:hover svg { transform: translateX(3px); }
 .btn-solid:active, .btn-ghost:active, .btn-light:active, .btn-outline-light:active { transform: translateY(0) scale(0.98); }
 
-/* Header navigation: yellow pill on hover (overrides the inline text colour and button hovers) */
+/* Header navigation: purple pill on hover (overrides the inline text colour and button hovers) */
 .nav-yellow { transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease, transform 0.2s ease; }
 .nav-yellow:hover {
-  background-color: #FACC15 !important;
-  color: #0A0A0A !important;
-  border-color: #FACC15 !important;
+  background-color: #7C3AED !important;
+  color: #FFFFFF !important;
+  border-color: #7C3AED !important;
   opacity: 1;
 }
 
 /* Client reviews: one continuous row of dark cards, slower than the badge row */
 .marquee-slow { animation-duration: 60s; }
 .review-card {
-  background: linear-gradient(150deg, #1A1A1A 0%, #0B0B0B 60%, #121212 100%);
-  box-shadow: 0 20px 50px -20px rgba(0, 0, 0, 0.45);
+  background: linear-gradient(150deg, #2C533B 0%, #1F3D2B 60%, #172F21 100%);
+  box-shadow: 0 20px 50px -20px rgba(10, 24, 16, 0.45);
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
-.review-card:hover { transform: translateY(-4px); box-shadow: 0 28px 60px -20px rgba(0, 0, 0, 0.55); }
+.review-card:hover { transform: translateY(-4px); box-shadow: 0 28px 60px -20px rgba(10, 24, 16, 0.55); }
 
 .lift-card { transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease; }
 .lift-card:hover { transform: translateY(-3px); border-color: var(--border-strong) !important; box-shadow: var(--shadow-lg); }

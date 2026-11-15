@@ -198,7 +198,7 @@ export default function RealEstatePage() {
         <div className="absolute inset-0 grid-bg opacity-15 pointer-events-none" />
         <div
           className="absolute top-24 right-0 w-[500px] h-[500px] rounded-full pointer-events-none"
-          style={{ background: "radial-gradient(circle, rgba(255,255,255,0.05) 0%, transparent 70%)", filter: "blur(120px)" }}
+          style={{ background: "radial-gradient(circle, rgba(243,236,221,0.05) 0%, transparent 70%)", filter: "blur(120px)" }}
         />
 
         {/* Hero */}
@@ -251,7 +251,7 @@ export default function RealEstatePage() {
               <Link
                 href="/contact"
                 className="inline-flex items-center gap-2 px-6 py-3.5 text-[14px] font-semibold rounded-xl transition-colors"
-                style={{ backgroundColor: "var(--blue)", color: "var(--on-blue)" }}
+                style={{ backgroundColor: "var(--purple-fill)", color: "#FFFFFF" }}
               >
                 Schedule Consultation <ArrowRight size={14} />
               </Link>
@@ -287,7 +287,7 @@ export default function RealEstatePage() {
             </div>
             <div className="grid md:grid-cols-2 gap-12">
               <div>
-                <p className="text-[11px] font-semibold uppercase tracking-widest mb-5" style={{ color: "#EF4444" }}>
+                <p className="text-[11px] font-semibold uppercase tracking-widest mb-5" style={{ color: "#991B1B" }}>
                   The Fragmentation Problem
                 </p>
                 <div className="space-y-3">
@@ -492,7 +492,7 @@ export default function RealEstatePage() {
                 <Link
                   href="/contact"
                   className="inline-flex items-center justify-center gap-2 px-6 py-3.5 text-[14px] font-semibold rounded-xl transition-colors"
-                  style={{ backgroundColor: "var(--blue)", color: "var(--on-blue)" }}
+                  style={{ backgroundColor: "var(--purple-fill)", color: "#FFFFFF" }}
                 >
                   Schedule Consultation <ArrowRight size={14} />
                 </Link>

@@ -221,7 +221,7 @@ export default function ResearchPage() {
                   style={{
                     backgroundColor: "var(--bg-card)",
                     border: "1px solid var(--blue-border)",
-                    background: "linear-gradient(135deg, #FFFFFF 0%, #FAFAFF 100%)",
+                    background: "linear-gradient(135deg, #F6F0E4 0%, #E8DCC4 100%)",
                   }}
                 >
                   <div className="grid md:grid-cols-[1.6fr_1fr] gap-8">
@@ -261,7 +261,7 @@ export default function ResearchPage() {
                         href={wp.downloadHref}
                         download
                         className="inline-flex items-center gap-2 px-5 py-3 text-[13px] font-bold rounded-xl transition-all hover:opacity-90 hover:shadow-lg"
-                        style={{ backgroundColor: "var(--blue)", color: "var(--on-blue)" }}
+                        style={{ backgroundColor: "var(--purple-fill)", color: "#FFFFFF" }}
                       >
                         <Download size={14} /> Download PDF
                       </a>
@@ -332,8 +332,8 @@ export default function ResearchPage() {
                       </ul>
                       <Link
                         href={wp.href}
-                        className="inline-flex items-center gap-2 px-4 py-2.5 text-[12px] font-semibold rounded-lg text-white transition-all"
-                        style={{ backgroundColor: "var(--green)" }}
+                        className="inline-flex items-center gap-2 px-4 py-2.5 text-[12px] font-semibold rounded-lg transition-all"
+                        style={{ backgroundColor: "var(--purple-fill)", color: "#FFFFFF" }}
                       >
                         <Download size={12} /> Request Download
                       </Link>
@@ -400,8 +400,8 @@ export default function ResearchPage() {
                 </p>
                 <Link
                   href="/contact"
-                  className="inline-flex items-center gap-2 px-5 py-3 text-white text-[13px] font-semibold rounded-lg"
-                  style={{ backgroundColor: "var(--green)" }}
+                  className="inline-flex items-center gap-2 px-5 py-3 text-[13px] font-semibold rounded-lg"
+                  style={{ backgroundColor: "var(--purple-fill)", color: "#FFFFFF" }}
                 >
                   Request Research Access <ArrowRight size={13} />
                 </Link>
