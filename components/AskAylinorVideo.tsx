@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { ShieldCheck, Lock, UserCheck, ArrowRight } from "lucide-react";
-import LazyVideo from "@/components/LazyVideo";
 import { PRODUCT_URLS, newTab } from "@/lib/products";
 
 const points = [
@@ -43,36 +42,30 @@ export default function AskAylinorVideo() {
         </div>
 
         <div
-          className="rounded-3xl overflow-hidden grid md:grid-cols-5"
-          style={{ border: "1px solid rgba(31,61,43,0.12)", boxShadow: "0 30px 80px rgba(31,61,43,0.12)" }}
+          className="rounded-3xl p-8 md:p-12"
+          style={{ backgroundColor: "#F6F0E4", border: "1px solid rgba(31,61,43,0.12)", boxShadow: "0 30px 80px rgba(31,61,43,0.12)" }}
         >
-          <div className="md:col-span-3 p-8 md:p-12 flex flex-col justify-center" style={{ backgroundColor: "#F6F0E4" }}>
-            <div className="space-y-6 mb-10">
-              {points.map(({ icon: Icon, title, body }) => (
-                <div key={title} className="flex items-start gap-4">
-                  <div className="w-10 h-10 rounded-xl flex items-center justify-center shrink-0" style={{ backgroundColor: "#1F3D2B" }}>
-                    <Icon size={17} color="#FFF" />
-                  </div>
-                  <div>
-                    <p className="text-[16px] font-extrabold mb-1" style={{ color: "var(--text-primary)" }}>{title}</p>
-                    <p className="text-[14px] leading-relaxed" style={{ color: "var(--text-secondary)" }}>{body}</p>
-                  </div>
+          <div className="grid md:grid-cols-3 gap-8 mb-10">
+            {points.map(({ icon: Icon, title, body }) => (
+              <div key={title} className="flex flex-col items-start gap-4">
+                <div className="w-11 h-11 rounded-xl flex items-center justify-center shrink-0" style={{ backgroundColor: "#1F3D2B" }}>
+                  <Icon size={18} color="#FFF" />
                 </div>
-              ))}
-            </div>
-
-            <div className="flex flex-wrap items-center gap-3">
-              <Link href="/contact" className="btn-solid inline-flex items-center gap-2 px-7 py-4 text-[14px] font-bold rounded-xl">
-                Contact Us for Full Software Access <ArrowRight size={15} />
-              </Link>
-              <Link href={PRODUCT_URLS.aylinor} {...newTab} className="btn-ghost inline-flex items-center gap-2 px-6 py-4 text-[14px] font-semibold rounded-xl">
-                Explore Aylinor
-              </Link>
-            </div>
+                <div>
+                  <p className="text-[16px] font-extrabold mb-1.5" style={{ color: "var(--text-primary)" }}>{title}</p>
+                  <p className="text-[14px] leading-relaxed" style={{ color: "var(--text-secondary)" }}>{body}</p>
+                </div>
+              </div>
+            ))}
           </div>
 
-          <div className="md:col-span-2 flex items-center" style={{ backgroundColor: "#1F3D2B" }}>
-            <LazyVideo src="/Ask%20Aylinor.mp4" label="Ask Aylinor product video" aspect="720 / 1082" />
+          <div className="flex flex-wrap items-center justify-center gap-3 pt-8" style={{ borderTop: "1px solid rgba(31,61,43,0.12)" }}>
+            <Link href="/contact" className="btn-solid inline-flex items-center gap-2 px-7 py-4 text-[14px] font-bold rounded-xl">
+              Contact Us for Full Software Access <ArrowRight size={15} />
+            </Link>
+            <Link href={PRODUCT_URLS.aylinor} {...newTab} className="btn-ghost inline-flex items-center gap-2 px-6 py-4 text-[14px] font-semibold rounded-xl">
+              Explore Aylinor
+            </Link>
           </div>
         </div>
       </div>

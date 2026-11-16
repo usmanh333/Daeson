@@ -3,7 +3,6 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import TrustMarquee from "@/components/TrustMarquee";
 import AylinorAnnouncement from "@/components/AylinorAnnouncement";
-import AskAylinorVideo from "@/components/AskAylinorVideo";
 import WhatWeBuild from "@/components/WhatWeBuild";
 import WhyDaeson from "@/components/WhyDaeson";
 import LeadershipSection from "@/components/LeadershipSection";
@@ -111,7 +110,6 @@ export default function Home() {
         <Hero />
         <TrustMarquee />
         <AylinorAnnouncement />
-        <AskAylinorVideo />
         <Testimonials />
         <WhatWeBuild />
         <WhyDaeson />
